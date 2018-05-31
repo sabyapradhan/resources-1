@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-16"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -68,4 +68,4 @@ The easiest way to delete the alias is to delete the IAM-managed service instanc
 ## Creating a connection between multiple services
 {: #cf}
 
-For more information, see [Using services in another service](/docs/apps/reqnsi.html#add_service).
+For more information, see [Using services in another service](/docs/resources/s2s.html#s2s_binding).
