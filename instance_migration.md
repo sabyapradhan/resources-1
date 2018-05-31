@@ -67,4 +67,4 @@ After you successfully migrate an instance, you see it reflected in the Services
 
 ## Troubleshooting
 
-If you run into any issues with migrating Cloud Foundry service instances, check out [Troubleshooting migrating service instances](/docs/troubleshoot/ts_migration.html).
+If you run into any issues with migrating Cloud Foundry service instances, check out [Troubleshooting migrating service instances](/docs/resources/ts_migration.html).
