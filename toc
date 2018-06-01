@@ -25,4 +25,5 @@ IBM Cloud resources and services
 	
     {: .navgroup id="help"}
     ts_services.md
+    ts_migration.md
     {: .navgroup-end}
