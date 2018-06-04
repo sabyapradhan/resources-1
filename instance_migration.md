@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-04-26"
+lastupdated: "2018-06-04"
 
 ---
 
@@ -25,6 +25,8 @@ When a service moves off Cloud Foundry, you are prompted to migrate your existin
 
 When you migrate existing Cloud Foundry service instances to a resource group, the group that you choose can't be changed after the migration is complete. So, make sure that you plan how you want to organize resources in the account before you migrate. This might mean that you need to create one or more resource groups, if you have a billable account, before migrating. You can try organizing your resources into resource groups the same way you organized resources in Cloud Foundry spaces.
 {: tip}
+
+For more information about using resource groups, see [Best practices for organizing resources into resource groups](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 
 ## Why migrate service instances?
 
@@ -64,6 +66,9 @@ You can migrate your service instances one at a time when you are notified on th
 5. Since you can migrate only one instance at a time, you can continue migrating eligible instances after you migrate the first one.
 
 After you successfully migrate an instance, you see it reflected in the Services section of your dashboard. The alias remains in the Cloud Foundry section of the dashboard. You can use the ![Link icon](images/link.svg "Link icon that represents an alias") in the Cloud Foundry section of the dashboard to identify the aliases.
+
+For more information about assigning access to resources in your resource groups, see [Assigning access to resource groups and the resources within them](/docs/resources/bestpractice_rgs.html#assigning-access-to-resource-groups-and-the-resources-within-them).
+{: tip}
 
 ## Troubleshooting
 
