@@ -70,8 +70,12 @@ Before you start the migration process, refer to the service documentation on mi
 
 After you successfully migrate an instance, you see it reflected in the Services section of your dashboard. The alias remains in the Cloud Foundry section of the dashboard. You can use the ![Link icon](images/link.svg "Link icon that represents an alias") in the Cloud Foundry section of the dashboard to identify the aliases.
 
+## Next steps
+
+After you migrate your Cloud Foundry service instances into a resource group, you need to ensure that the users in your account have the required level of access to the resources in the account resource groups. You might also want to provide access to manage the resource group, so that users can create new service instances in the account resource groups.
+
 For more information about assigning access to resources in your resource groups, see [Assigning access to resource groups and the resources within them](/docs/resources/bestpractice_rgs.html#assigning-access-to-resource-groups-and-the-resources-within-them).
-{: tip}
+
 
 ## Troubleshooting
 
