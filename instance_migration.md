@@ -18,15 +18,15 @@ lastupdated: "2018-06-04"
 # Migrating Cloud Foundry service instances to a resource group
 {: #migrate}
 
-As services move off of using Cloud Foundry orgs, spaces, and roles to using Cloud Identity and Access Management (IAM) and resource groups, you can migrate your Cloud Foundry service instances to a [resource group](/docs/resources/resourcegroups.html#rgs). Migrating service instances to a resource group have several benefits including finer-grained access control by using IAM roles and connecting service instances to apps and services across different regions.
-
-When a service moves off Cloud Foundry, you are prompted to migrate your existing service instances by a message on your dashboard. You can identify the services that are ready to be migrated by the ![Migrate this service instance to a resource group](images/migrate.svg "Migrate this service instance to a resource group") icon.
+As services move from using Cloud Foundry orgs, spaces, and roles to using Cloud Identity and Access Management (IAM) and resource groups, you can migrate your Cloud Foundry service instances to a [resource group](/docs/resources/resourcegroups.html#rgs). Migrating service instances to a resource group have several benefits including finer-grained access control by using IAM roles and connecting service instances to apps and services across different regions.
 {:shortdesc}
 
-When you migrate existing Cloud Foundry service instances to a resource group, the group that you choose can't be changed after the migration is complete. So, make sure that you plan how you want to organize resources in the account before you migrate. This might mean that you need to create one or more resource groups, if you have a billable account, before migrating. You can try organizing your resources into resource groups the same way you organized resources in Cloud Foundry spaces.
+When a service moves off Cloud Foundry, you are prompted to migrate your existing service instances by a message on your dashboard. You can identify the services that are ready to be migrated by the ![Migrate this service instance to a resource group](images/migrate.svg "Migrate this service instance to a resource group") icon.
+
+When you migrate existing Cloud Foundry service instances to a resource group, the group that you choose can't be changed after the migration is complete. So, make sure that you plan how you want to organize resources in the account before you migrate. This might mean that you need to create one or more resource groups, if you have a billable account, before migrating. You can try organizing your resources into resource groups the same way you organized resources in Cloud Foundry spaces. For more information about using resource groups, see [Best practices for organizing resources into resource groups](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 {: tip}
 
-For more information about using resource groups, see [Best practices for organizing resources into resource groups](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
+
 
 ## Why migrate service instances?
 
@@ -58,6 +58,9 @@ When you migrate a service instance from a Cloud Foundry org and space to a reso
 ![Migration of a Cloud Foundry service instance to a resource group](images/migration.gif){: gif}
 
 You can migrate your service instances one at a time when you are notified on the dashboard by the ![Migrate this service instance to a resource group](images/migrate.svg "Migrate this service instance to a resource group") icon that is associated with your Cloud Foundry service instance.
+
+Before you start the migration process, refer to the service documentation on migrating instances to review any special considerations, prerequisites, or data migration processes that might be specified.
+{: tip}
 
 1. Open the **More actions** menu.
 2. Select **Migrate to a resource group** to get started.
