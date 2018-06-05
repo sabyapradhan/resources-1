@@ -49,7 +49,7 @@ Services that are managed by using IAM access control belong to a resource group
 
 **Important**: Your resource group selection at the time of creating the instance is final and can't be changed.
 
-You can create a connection between a service instance in a resource group and a Cloud Foundry application. You must have the IAM Editor role on the service instance and the Cloud Foundry developer role on the space the application is in to successfully create the connection. This results in an [alias]((/docs/resources/connecting_apps.html#what_is_alias) for the service instance being created in the Cloud Foundry space where the application is located. Cloud Foundry aliases count toward your account quota.
+You can create a connection between a service instance in a resource group and a Cloud Foundry application. You must have the IAM Editor role on the service instance and the Cloud Foundry developer role on the space the application is in to successfully create the connection. This results in an [alias](/docs/resources/connecting_apps.html#what_is_alias) for the service instance being created in the Cloud Foundry space where the application is located. Cloud Foundry aliases count toward your account quota.
 
 As more services enable the assignment to resource groups and the use of IAM access control, you are notified on your dashboard if you have existing Cloud Foundry service instances that are eligible for migration. By [migrating a service instance to a resource group](/docs/resources/instance_migration.html), you are creating a new linked instance in a resource group of your choice and the Cloud Foundry instance becomes an alias. 
 
