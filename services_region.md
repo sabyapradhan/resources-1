@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-04"
+lastupdated: "2018-06-05"
 
 ---
 {:new_window: target="_blank"}
@@ -92,11 +92,10 @@ Services that are hosted globally create resources that operate across multiple 
 | Mobile Analytics | Hosted in Sydney | Hosted in Germany | Hosted in United Kingdom | Not available | Hosted in US South | 
 | Mobile Foundation | Hosted in Sydney | Hosted in Germany | Hosted in United Kingdom | Not available | Hosted in US South | 
 | Monitoring | Hosted in Sydney | Syndicated from US South | Hosted in United Kingdom | Not available | Hosted in US South | 
-| Monitoring and Analytics | Not available | Not available | Not available | Not available | Hosted in US South | 
 | Natural Language Classifier | Syndicated from US South | Hosted in Germany | Syndicated from US South | Not available | Hosted in US South | 
 | Natural Language Understanding | Hosted in Sydney | Hosted in Germany | Syndicated from US South | Not available | Hosted in US South | 
 | Object Storage OpenStack Swift | Not available | Not available | Hosted in United Kingdom | Not available | Hosted in US South | 
-| Personality Insights | Syndicated from US South | Hosted in Germany | Syndicated from US South | Not available | Hosted in US South | 
+| Personality Insights | Hosted in Sydney | Hosted in Germany | Syndicated from US South | Not available | Hosted in US South | 
 | Portfolio Optimization | Not available | Not available | Not available | Not available | Hosted in US South | 
 | Predictive Market Scenarios | Not available | Not available | Not available | Not available | Hosted in US South | 
 | Push Notifications | Hosted in Sydney | Hosted in Germany | Hosted in United Kingdom | Hosted in US East | Hosted in US South | 
