@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-06-05"
 
 
 ---
@@ -23,6 +23,7 @@ A resource group is a way for you to organize your account resources in customiz
 
 To start managing your resource groups, go to **Manage** &gt; **Account** &gt; **Resource Groups** in the {{site.data.keyword.Bluemix}} console. From there you can view your resource groups, rename them, and create new resource groups.
 
+For more information about working with resource groups, see [Best practices for organizing resources in resource groups](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 
 ## Creating a resource group
 
