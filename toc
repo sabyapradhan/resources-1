@@ -13,7 +13,6 @@ IBM Cloud resources and services
 
     {: .navgroup id="howto"}
     resourcegroups.md
-    instance_migration.md
 
     {: .topicgroup}
     Managing services
