@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="resources" audience="platform" href="/docs/resources/acct_resources.html"}
-IBM Cloud resources and services
+Working with resources and services
 
     {: .navgroup id="learn"}
     acct_resources.md
