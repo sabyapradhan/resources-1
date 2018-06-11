@@ -23,6 +23,6 @@ Working with resources and services
     {: .navgroup-end}
 	
     {: .navgroup id="help"}
-    ts_services.md
-    ts_migration.md
+    [Troubleshooting for services](../troubleshoot/ts_services.html)
+    [Troubleshooting migrating service instances](../troubleshoot/ts_migration.html)
     {: .navgroup-end}
