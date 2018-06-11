@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-08"
+lastupdated: "2018-06-11"
 
 ---
 {:new_window: target="_blank"}
@@ -40,6 +40,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Availability Monitoring | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | 
 | BigInsights for Apache Hadoop (Subscription) | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Blockchain | Hosted in US South | Syndicated from US South | Syndicated from US South | Syndicated from US South | Not available | 
+| Business Rules | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | 
 | Certificate Manager | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Cloud Object Storage | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
 | Cloudant NoSQL DB | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
@@ -63,7 +64,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Decision Optimization | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | DevOps Insights | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Digital Content Checker | Hosted in US South | Hosted in United Kingdom | Not available | Syndicated from United Kingdom | Not available | 
-| Discovery | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Not available | 
+| Discovery | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Driver Behavior | Hosted in US South | Syndicated from US South | Not available | Syndicated from US South | Not available | 
 | Event Management | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | 
 | Geospatial Analytics | Hosted in US South | Hosted in United Kingdom | Not available | Syndicated from United Kingdom | Not available | 
