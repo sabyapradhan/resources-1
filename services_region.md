@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-11"
+lastupdated: "2018-06-12"
 
 ---
 {:new_window: target="_blank"}
@@ -40,10 +40,9 @@ Services that are hosted globally create resources that operate across multiple 
 | Availability Monitoring | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | 
 | BigInsights for Apache Hadoop (Subscription) | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Blockchain | Hosted in US South | Syndicated from US South | Syndicated from US South | Syndicated from US South | Not available | 
-| Business Rules | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | 
 | Certificate Manager | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Cloud Object Storage | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
-| Cloudant NoSQL DB | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
+| Cloudant | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Compose Enterprise | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Compose for Elasticsearch | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Compose for JanusGraph | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
@@ -96,7 +95,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Natural Language Classifier | Hosted in US South | Syndicated from US South | Hosted in Germany | Syndicated from US South | Not available | 
 | Natural Language Understanding | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Not available | 
 | Object Storage OpenStack Swift | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
-| Personality Insights | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Not available | 
+| Personality Insights | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Portfolio Optimization | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Predictive Market Scenarios | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Push Notifications | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
@@ -109,7 +108,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Speech to Text | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Not available | 
 | Streaming Analytics | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | Text to Speech | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Not available | 
-| Tone Analyzer | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Not available | 
+| Tone Analyzer | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Visual Recognition | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Voice Agent with Watson | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Watson Assistant (formerly Conversation) | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Not available | 
