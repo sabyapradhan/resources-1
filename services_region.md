@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-12"
+lastupdated: "2018-06-13"
 
 ---
 {:new_window: target="_blank"}
@@ -81,8 +81,8 @@ Services that are hosted globally create resources that operate across multiple 
 | Investment Portfolio | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Key Protect | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Knowledge Catalog | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
-| Knowledge Studio | Hosted in US South | Not available | Syndicated from US South | Hosted in Sydney | Not available | 
-| Language Translator | Hosted in US South | Syndicated from US South | Hosted in Germany | Syndicated from US South | Not available | 
+| Knowledge Studio | Hosted in US South | Not available | Syndicated from US South | Hosted in Sydney | Hosted in US East | 
+| Language Translator | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Lift CLI | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Log Analysis | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | MQ | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
@@ -93,7 +93,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Mobile Foundation | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Monitoring | Hosted in US South | Hosted in United Kingdom | Syndicated from US South | Hosted in Sydney | Not available | 
 | Natural Language Classifier | Hosted in US South | Syndicated from US South | Hosted in Germany | Syndicated from US South | Not available | 
-| Natural Language Understanding | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Not available | 
+| Natural Language Understanding | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Object Storage OpenStack Swift | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | Personality Insights | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Portfolio Optimization | Hosted in US South | Not available | Not available | Not available | Not available | 
@@ -105,9 +105,9 @@ Services that are hosted globally create resources that operate across multiple 
 | Secure Gateway | Hosted in US South | Hosted in United Kingdom | Syndicated from US South | Syndicated from US South | Hosted in US East | 
 | Simulated Historical Instrument Analytics | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Simulated Instrument Analytics | Hosted in US South | Not available | Not available | Not available | Not available | 
-| Speech to Text | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Not available | 
+| Speech to Text | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Streaming Analytics | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
-| Text to Speech | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Not available | 
+| Text to Speech | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Tone Analyzer | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Visual Recognition | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Voice Agent with Watson | Hosted in US South | Not available | Not available | Not available | Not available | 
