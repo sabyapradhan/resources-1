@@ -1,3 +1,5 @@
 There are several files that have moved since the last translation shipment.
 
 Do not translate any of the product names in the first column of the table in docs/resources/service_region.md
+
+The content in /services has moved to /resources
