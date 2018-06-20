@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-06-11"
+lastupdated: "2018-06-20"
 
 ---
 
@@ -18,12 +18,12 @@ lastupdated: "2018-06-11"
 # Migrating Cloud Foundry service instances to a resource group
 {: #migrate}
 
-To make your experience with using {{site.data.keyword.Bluemix}} simpler and more flexible, we have introduced [resource groups](/docs/resources/resourcegroups.html#rgs), which are conceptually similar to Cloud Foundry spaces. However, resource groups include several additional benefits, such as finer-grained access control by using IBM Cloud Identity and Access Management (IAM), the ability to connect service instances to apps and service across different regions, and an easy way to view usage per group.
+To make your experience with using {{site.data.keyword.Bluemix}} simpler and more flexible, {{site.data.keyword.Bluemix}} introduced [resource groups](/docs/resources/resourcegroups.html#rgs), which are conceptually similar to Cloud Foundry spaces. However, resource groups include several extra benefits, such as finer-grained access control by using IBM Cloud Identity and Access Management (IAM), the ability to connect service instances to apps and service across different regions, and an easy way to view usage per group.
 {:shortdesc}
 
-We are starting to move services from Cloud Foundry to benefit from resource groups, which means that when you see the ![Migrate this service instance to a resource group](images/migrate.svg "Migrate this service instance to a resource group") icon next to one of your services on your dashboard, you must start a migration plan for your service instances to move from their current Cloud Foundry org and space to a resource group. Until an {{site.data.keyword.Bluemix_notm}} service moves from using Cloud Foundry orgs, spaces, and roles to using IAM and resource groups, you can’t migrate your existing Cloud Foundry service instances to a resource group.
+{{site.data.keyword.Bluemix_notm}} is starting to move services from Cloud Foundry to benefit from resource groups. When you see the ![Migrate this service instance to a resource group](images/migrate.svg "Migrate this service instance to a resource group") icon next to one of your services on your dashboard, you must start a migration plan for your service instances to move from their current Cloud Foundry org and space to a resource group. Until an {{site.data.keyword.Bluemix_notm}} service moves from using Cloud Foundry orgs, spaces, and roles to using IAM and resource groups, you can’t migrate your existing Cloud Foundry service instances to a resource group.
 
-When you migrate existing Cloud Foundry service instances to a resource group, the group that you choose can't be changed after the migration is complete. So, it's essential that you plan how you want to organize resources in the account before you migrate. This might mean that you need to create one or more resource groups, if you have a billable account, before migrating. 
+When you migrate existing Cloud Foundry service instances to a resource group, the resource group that you choose can't be changed after the migration is complete. So, it's essential that you plan how you want to organize resources in the account before you migrate. Therefore, you might need to create one or more resource groups, if you have a billable account, before migrating. 
 
 You can try organizing your resources in resource groups the same way you organized resources in Cloud Foundry spaces. For more information about using resource groups, see [Best practices for organizing resources into resource groups](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 {: tip}
@@ -33,7 +33,7 @@ You can try organizing your resources in resource groups the same way you organi
 
 Services that support Cloud IAM access control and organization within resource groups have several benefits:
 
-* By using fine-grained access control, you can set access to individual service instances or a group of resources organized in a resource group. 
+* By using fine-grained access control, you can set access to individual service instances or a group of resources that are organized in a resource group. 
 * By using access groups and resource groups to organize users and resources, you set only the minimum number of access policies. For example, if you have a set of developers that you want to all have access to resources for a development environment, you can organize all of those users into a developers access group and then add all the resources that they need access to into a single resource group. Then, you can set a single policy for the access group to have access to all resources in the resource group.
 * You can view usage by resource group similar to the way you could view usage by Cloud Foundry orgs.
 * You can connect to apps and services in any Cloud Foundry space, which allows connections for apps and services from different regions. When you migrate, the connection is done automatically by turning your original Cloud Foundry service instance into an alias and creating a linked instance in a resource group of your choice. The following graphic depicts how the connection by using an alias works.
@@ -63,7 +63,7 @@ When you migrate a service instance from a Cloud Foundry org and space to a reso
 
 Service instances are migrated one at a time when you are notified on the dashboard by the ![Migrate this service instance to a resource group](images/migrate.svg "Migrate this service instance to a resource group") icon that is associated with your Cloud Foundry service instance.
 
-Before you start the migration process, review your service documentation to see if there are any additional, service-specific changes that you might have to make when migrating your service instance to a resource group. For example, you might need to migrate data from old instances to new instances or update the credentials used for your app if you delete the Cloud Foundry alias. Applications that make a direct call to the API of a service that has been migrated need to update the API call to use either an IAM API key or access token.
+Before you start the migration process, review your service documentation to see whether any additional, service-specific changes must be made. For example, you might need to migrate data from old instances to new instances or update the credentials that are used for your app if you delete the Cloud Foundry alias. Applications that make a direct call to the API of a service that has been migrated need to update the API call to use either an IAM API key or access token.
 {: tip}
 
 1. Open the **More actions** menu.
@@ -77,11 +77,11 @@ After you successfully migrate an instance, you see it reflected in the Services
 ## Next steps
 {: #nextsteps}
 
-After you migrate your Cloud Foundry service instances to a resource group, you need to ensure that the users in your account have the required level of access to the resources in the account resource groups. You might also want to provide access to manage the resource group, so that users can create new service instances in the account resource groups.
+After you migrate your Cloud Foundry service instances to a resource group, you need to ensure that the users in your account have the required level of access to the resources in the account resource groups. You might also want to provide access to manage the resource group so that users can create new service instances in the account resource groups.
 
 For more information about assigning access to resources in your resource groups, see [Assigning access to resource groups and the resources within them](/docs/resources/bestpractice_rgs.html#assigning-access-to-resource-groups-and-the-resources-within-them).
 
-Also, make sure to review the documentation for your service to see if any updates for your existing apps must be made after the migration is complete. 
+Also, make sure to review the documentation for your service to see whether any updates for your existing apps must be made after the migration is complete. 
 
 
 ## Troubleshooting
