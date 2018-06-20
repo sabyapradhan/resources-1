@@ -17,16 +17,16 @@ lastupdated: "2018-06-19"
 
 # Troubleshooting migrating service instances
 
-If you run into any issues when you migrate a Cloud Foundry service instance to a resource group, review the following common issues to help you move forward with your migration.
+If you run into any issues when you migrate a Cloud Foundry service instance to a resource group, review the following common issues to help you move forward.
 
-## What if I migrated a service instance into the wrong resource group?
+## A service instance was migrated to the wrong resource group
 
-Currently, you can't move resources between resource groups after they are assigned. So, if you migrated an instance into the wrong resource group, you can try deleting the instance and creating a new one from the catalog. You can assign it to the correct resource group when you are creating the instance.
+You can't move resources between resource groups after they are assigned. So, if you assigned an instance to the wrong resource group, you can try deleting the instance and creating a new one from the catalog. You can assign it to the correct resource group when you create the instance.
 
-## Why can't I migrate?
+## A user in the account can't migrate an eligible instance
 
-You might not be assigned the correct access to migrate a service instance. For more information, see [Who can migrate service instances](/docs/account/instance_migration.html#whocanmigrate).
+You might not be assigned the correct access to migrate a service instance. For more information, see [Who can migrate service instances](/docs/resources/instance_migration.html#whocanmigrate).
 
-## Why aren't all services eligible for migration?
+## All services aren't eligible for migration
 
-Not all services are available to be managed by using IAM access control and resource groups currently. You are notified when services enable the use of IAM, if you have access to complete the migration task.
+Not all services are available to be added to resource groups and managed by using Identity and Access Management. You are notified when services are eligible, if you have access to complete the migration task.
