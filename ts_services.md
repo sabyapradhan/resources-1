@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-19"
+lastupdated: "2018-06-20"
 
 ---
 
@@ -25,7 +25,7 @@ lastupdated: "2018-06-19"
 {{site.data.keyword.Bluemix}} service problems might include a gateway timeout error that occurs if you delete a service instance. You can recover from these problems by following a few easy steps.
 {:shortdesc}
 
-Services have different types and levels of maturity in {{site.data.keyword.Bluemix_notm}}. For example, there are IBM services and third-party services and levels of those services such as GA, beta, and experimental. Based on the type of service and level of maturity, different levels of support might be offered. For more information, see [How do I get support for services?](/docs/get-support/servicessupport.html#support-different-services)
+Services have different types and levels of maturity in {{site.data.keyword.Bluemix_notm}}. For example, IBM services and third-party services and the levels of those services are GA, beta, and experimental. Based on the type of service and level of maturity, different levels of support might be offered. For more information, see [How do I get support for services?](/docs/get-support/servicessupport.html#support-different-services)
 
 ## Service broker error occurs when you delete a service instance
 {: #ts_service_broker}
