@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -20,7 +20,7 @@ Se você tiver uma instância de serviço criada e ligada a apps em uma região,
 	Para usar uma instância de serviço existente
 em uma outra região, conclua as etapas a seguir:
 
-      1. Alterne para a região em que a instância de serviço existe. Na barra de menus do {{site.data.keyword.Bluemix_notm}}, expanda o menu **Região** e, em seguida, selecione a região na qual a instância de serviço existe.
+      1. Alterne para a região em que a instância de serviço existe. No painel do console do {{site.data.keyword.Bluemix_notm}}, expanda o menu **LOCAL** e selecione a região na qual a instância de serviço existe.
 
       2. Recupere as credenciais e os parâmetros de conexão da variável de ambiente VCAP_SERVICES da instância de serviço na região na qual o serviço existe. Conclua
 as etapas a seguir:
@@ -30,15 +30,15 @@ as etapas a seguir:
 instância de serviço.
 
       3. Alterne para a região em que você deseja usar a instância de
-serviço. Na barra de menus do {{site.data.keyword.Bluemix_notm}}, expanda o menu **Região** e, em seguida, selecione a região na qual você deseja usar a instância de serviço.
+serviço. No painel do console do {{site.data.keyword.Bluemix_notm}}, expanda o menu **LOCAL** e selecione a região na qual você deseja usar a instância de serviço.
 
       4. Crie uma instância de serviço fornecida pelo usuário usando as credenciais
 e os parâmetros de conexão que você registrou a partir da variável de ambiente
-*VCAP_SERVICES*. Para obter informações sobre como criar uma instância de serviço fornecida pelo usuário, consulte [Criando uma instância de serviço fornecida pelo usuário](/docs/apps/reqnsi.html#user_provide_services).
+*VCAP_SERVICES*. Para obter informações, veja [Criando uma instância de serviço fornecida pelo usuário](/docs/apps/reqnsi.html#user_provide_services).
 
       5. Ligue a instância de serviço fornecida pelo usuário ao seu app
 usando o comando a seguir:
 
 	     ```
-	     bluemix service bind myapp user-provided_service_instance
+	     Ibmcloud service bind myapp user-provided_service_instance
 	     ```

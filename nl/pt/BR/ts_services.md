@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2017-11-07"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -24,6 +24,8 @@ lastupdated: "2017-11-07"
 
 Os problemas do serviço {{site.data.keyword.Bluemix}} podem incluir um erro de tempo limite de gateway que ocorre quando você exclui uma instância de serviço. É possível recuperar desses problemas seguindo algumas etapas fáceis.
 {:shortdesc}
+
+Há diferentes tipos e níveis de maturidade para serviços no {{site.data.keyword.Bluemix_notm}}. Por exemplo, existem serviços IBM e serviços de terceiros e há níveis desses serviços, como GA, beta e experimental. Com base no tipo de serviço e nível de maturidade, diferentes níveis de suporte podem ser oferecidos. Para obter mais informações, veja [Como obter suporte para serviços?](/docs/get-support/servicessupport.html#support-different-services)
 
 ## Ocorre um erro de broker de serviço ao excluir uma instância de serviço
 {: #ts_service_broker}

@@ -3,11 +3,10 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-05-15"
+lastupdated: "2018-06-15"
 
 ---
-
-{:new_window: target="_blank"}  
+{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
 
@@ -19,108 +18,102 @@ O {{site.data.keyword.Bluemix}} facilita a implementação, a hospedagem e os se
 
 Nem todos os serviços estão disponíveis para compra em cada região do {{site.data.keyword.Bluemix_notm}}. E, mesmo se o serviço estiver disponível para compra na região, o serviço poderá estar hospedado em um local diferente. A tabela a seguir mostra os serviços que são fornecidos pela IBM.
 
-Alguns serviços estão globalmente disponíveis, o que significa que eles são implementados em pelo menos
-três zonas localizados em três regiões separadas ao redor do mundo e configurados em disponibilidade contínua.
+Os serviços hospedados globalmente criam recursos que operam em múltiplas regiões. Por exemplo, com o {{site.data.keyword.cos_full_notm}} (COS), é possível optar por dispersar dados em um único data center, uma região inteira ou mesmo uma combinação de regiões [selecionando o terminal](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) no qual seu aplicativo envia solicitações de API de REST.
 
 <!-- Do not manually change the table or add content after the table. -->
-<!-- Everything below the second line of the table will be deleted. -->
+<!-- Everything after the second line of the table will be deleted. -->
 <!-- Also, do not change the number of dashes in the second line. -->
-<!-- See @natimpe for details. -->
+<!-- Ping @natimpe for details. -->
 
-| Serviço | Sydney | Alemanha | Reino Unido | Leste dos EUA | Sul dos EUA |
+| Serviço | Sul dos EUA | Reino Unido | Alemanha | Sydney | Leste dos EUA |
 |-----|-----|-----|-----|-----|-----|
-| API Connect | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| API Harmony | Hospedado em Sydney | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Activity Tracker | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Alert Notification | Hospedado em Sydney | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Analytics Engine | Não está disponível | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Apache Spark | Não está disponível | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| App Connect | Hospedado em Sydney | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| ID do app | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| Ativação de app | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Auto-Scaling | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| Testador de acessibilidade automatizada | Hospedado em Sydney | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Availability Monitoring | Hospedado em Sydney | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| BigInsights for Apache Hadoop (assinatura) | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Blockchain | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Business Rules | Hospedado em Sydney | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Certificate Manager | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Cloud Object Storage | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente |
-| Cloudant NoSQL DB | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| Compose Enterprise | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| Compose for Elasticsearch | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| Compose for JanusGraph | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| Compose for MongoDB | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| Compose for MySQL | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| Compose for PostgreSQL | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| Compose for RabbitMQ | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| Compose for Redis | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| Compose for RethinkDB | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| Compose for ScyllaDB | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| Compose for etcd | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| Context Mapping | Hospedado em Sydney | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Entrega contínua | Não está disponível | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Continuous Release | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Cost and Asset Management | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Db2 Hosted | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| DB2 Warehouse | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| DB2 | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Otimização de Decisão | Não está disponível | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| DevOps Insights | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Verificador de conteúdo digital | Hospedado em Sydney | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Discovery | Organizado em Sydney | Hospedado na Alemanha | Organizado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Driver Behavior | Hospedado em Sydney | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Dynamic Dashboard Integrado | Não está disponível | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Gerenciamento de eventos | Hospedado em Sydney | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Geospatial Analytics | Hospedado em Sydney | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Globalization Pipeline | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Historical Instrument Analytics | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Hyper Protect Crypto Services | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Hyper Protect DBaaS | Não está disponível | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| IBM Identity Mixer | Hospedado em Sydney | Não está disponível | Hospedado no Reino Unido | Não está disponível | Não está disponível |
-| Information Server | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Informix | Hospedado em Sydney | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Instrument Analytics | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Serviços da Internet | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente |
-| Internet of Things Platform | Não está disponível | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Investment Portfolio | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Key Protect | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Catálogo de conhecimento | Não está disponível | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Knowledge Studio | Não está disponível | Hospedado na Alemanha | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Language Translator | Organizado em Sydney | Hospedado na Alemanha | Organizado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Lift CLI | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Log Analysis | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| MQ | Não está disponível | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Machine Learning | Não está disponível | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Master Data Management | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Message Hub | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Mobile Analytics | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Mobile Foundation | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Monitoring and Analytics | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Monitoramento | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Natural Language Classifier | Organizado em Sydney | Hospedado na Alemanha | Organizado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Natural Language Understanding | Organizado em Sydney | Hospedado na Alemanha | Organizado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Object Storage OpenStack Swift | Não está disponível | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Personality Insights | Organizado em Sydney | Hospedado na Alemanha | Organizado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Portfolio Optimization | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Predictive Market Scenarios | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Push Notifications | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| Real-Time Payments | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Runbook Automation | Hospedado em Sydney | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| SQL Query | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Secure Gateway | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Hospedado no leste dos EUA | Hospedado no Sul dos EUA| 
-| Simulated Historical Instrument Analytics | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Simulated Instrument Analytics | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Speech to Text | Organizado em Sydney | Hospedado na Alemanha | Organizado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Streaming Analytics | Hospedado em Sydney | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Text to Speech | Organizado em Sydney | Hospedado na Alemanha | Organizado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Tone Analyzer | Organizado em Sydney | Hospedado na Alemanha | Organizado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Reconhecimento visual | Organizado em Sydney | Não está disponível | Organizado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Voice Agent with Watson | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Watson Assistant (anteriormente Conversation) | Organizado em Sydney | Hospedado na Alemanha | Organizado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Watson Data Kits | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado no Sul dos EUA| 
-| Watson Studio | Não está disponível | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Dados da empresa de clima | Hospedado em Sydney | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| WebSphere Application Server | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-| Workload Scheduler | Hospedado em Sydney | Hospedado na Alemanha | Hospedado no Reino Unido | Não está disponível | Hospedado no Sul dos EUA| 
-{: caption="Tabela 1. Disponibilidade de serviço" caption-side="top"}
+| API Connect | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Activity Tracker | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
+| Alert Notification | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | 
+| Analytics Engine | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
+| Apache Spark | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
+| App Connect | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Organizados por meio do Sul dos EUA | Não está disponível | 
+| ID do app | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
+| Ativação de app | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Auto-Scaling | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Testador de acessibilidade automatizada | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Organizados por meio do Reino Unido | Não está disponível | 
+| Availability Monitoring | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | 
+| BigInsights for Apache Hadoop (assinatura) | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Blockchain | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Organizados por meio do Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | 
+| Certificate Manager | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Cloud Object Storage | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | 
+| Cloudant | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Compose Enterprise | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Compose for Elasticsearch | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Compose for JanusGraph | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Compose for MongoDB | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Compose for MySQL | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Compose for PostgreSQL | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Compose for RabbitMQ | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Compose for Redis | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Compose for RethinkDB | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Compose for ScyllaDB | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Compose for etcd | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Context Mapping | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Organizados por meio do Sul dos EUA | Não está disponível | 
+| Entrega contínua | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Não está disponível | 
+| Cost and Asset Management | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| DB2 | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
+| Db2 Hosted | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
+| DB2 Warehouse | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
+| Otimização de Decisão | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
+| DevOps Insights | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Verificador de conteúdo digital | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Organizados por meio do Reino Unido | Não está disponível | 
+| Discovery | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Driver Behavior | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Organizados por meio do Sul dos EUA | Não está disponível | 
+| Gerenciamento de eventos | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | 
+| Geospatial Analytics | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Organizados por meio do Reino Unido | Não está disponível | 
+| Globalization Pipeline | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
+| Historical Instrument Analytics | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Hyper Protect Crypto Services | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Hyper Protect DBaaS | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
+| IBM Cognos Dashboard Integrado | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
+| IBM Identity Mixer | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | 
+| Information Server | Não está disponível | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
+| Informix | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Organizados por meio do Sul dos EUA | Não está disponível | 
+| Instrument Analytics | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Internet Services | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | 
+| Internet of Things Platform | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Não está disponível | Não está disponível | 
+| Investment Portfolio | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Key Protect | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
+| Catálogo de conhecimento | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
+| Knowledge Studio | Hospedado no Sul dos EUA | Não está disponível | Organizados por meio do Sul dos EUA | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Language Translator | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Lift CLI | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Log Analysis | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
+| MQ | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
+| Machine Learning | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
+| Master Data Management | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
+| Message Hub | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
+| Mobile Analytics | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
+| Mobile Foundation | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
+| Monitoramento | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Organizados por meio do Sul dos EUA | Hospedado em Sydney | Não está disponível | 
+| Natural Language Classifier | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Organizados por meio do Sul dos EUA | Não está disponível | 
+| Natural Language Understanding | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Object Storage OpenStack Swift | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
+| Personality Insights | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Portfolio Optimization | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Predictive Market Scenarios | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Push Notifications | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Real-Time Payments | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Runbook Automation | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | 
+| SQL Query | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Secure Gateway | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Organizados por meio do Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado no leste dos EUA | 
+| Simulated Historical Instrument Analytics | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Simulated Instrument Analytics | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Speech to Text | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Streaming Analytics | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
+| Text to Speech | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Tone Analyzer | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Reconhecimento visual | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Voice Agent with Watson | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Watson Assistant (anteriormente Conversation) | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Watson Studio | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | 
+| Dados da empresa de clima | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | 
+| WebSphere Application Server | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
+| Workload Scheduler | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
+ {: caption="Tabela 1. Disponibilidade de serviço" caption-side="top"}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-16"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -68,4 +68,4 @@ A maneira mais fácil de excluir o alias é excluir a instância de serviço ger
 ## Criando uma conexão entre vários serviços
 {: #cf}
 
-Para obter mais informações, veja [Usando serviços em outro serviço](/docs/apps/reqnsi.html#add_service).
+Para obter mais informações, veja [Usando serviços em outro serviço](/docs/resources/s2s.html#s2s_binding).
