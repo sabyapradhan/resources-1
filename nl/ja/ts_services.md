@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2017-11-07"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -24,6 +24,8 @@ lastupdated: "2017-11-07"
 
 {{site.data.keyword.Bluemix}} サービスの問題には、ユーザーがサービス・インスタンスを削除した場合に発生するゲートウェイ・タイムアウト・エラーなどが含まれます。 いくつかの簡単なステップに従うことで、これらの問題から復旧できます。
 {:shortdesc}
+
+{{site.data.keyword.Bluemix_notm}} 内のサービスにはさまざまなタイプおよび成熟度のレベルがあります。例えば、IBM のサービスとサード・パーティーのサービスがあり、それらのサービスには GA、ベータ、および試験的などの複数のレベルがあります。サービスのタイプおよび成熟度のレベルに基づいて、さまざまなレベルのサポートが提供されている可能性があります。詳細情報については、[サービスのサポートの取得方法 (How do I get support for services?) ](/docs/get-support/servicessupport.html#support-different-services)を参照してください。
 
 ## サービス・インスタンスの削除時にサービス・ブローカー・エラーが発生する
 {: #ts_service_broker}

@@ -3,11 +3,10 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-05-15"
+lastupdated: "2018-06-15"
 
 ---
-
-{:new_window: target="_blank"}  
+{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
 
@@ -20,107 +19,102 @@ lastupdated: "2018-05-15"
 
 各 {{site.data.keyword.Bluemix_notm}} 地域ですべてのサービスが購入できるわけではありません。 また、当該地域でサービスが購入可能な場合でも、サービスは別の場所でホストされていることがあります。 以下の表は、IBM が提供するサービスを示しています。
 
-一部のサービスはグローバルに使用可能であり、世界中の 3 つの異なる地域にある少なくとも 3 つのゾーンにデプロイされ、連続可用性で構成されていることを意味します。
+グローバルにホストされるサービスが作成するリソースは複数の地域で作動します。 例えば、{{site.data.keyword.cos_full_notm}} (COS) を使用すると、アプリケーションが REST API 要求を送信する[エンドポイントの選択](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)によって、1 つのデータ・センターに、1 つの地域全体に、または、複数地域の組み合わせにでも、データを分散させることを選択できます。
 
 <!-- Do not manually change the table or add content after the table. -->
-<!-- Everything below the second line of the table will be deleted. -->
+<!-- Everything after the second line of the table will be deleted. -->
 <!-- Also, do not change the number of dashes in the second line. -->
-<!-- See @natimpe for details. -->
+<!-- Ping @natimpe for details. -->
 
-| サービス | シドニー | ドイツ | 英国 | 米国東部 | 米国南部 |
+| サービス | 米国南部 | 英国 | ドイツ | シドニー | 米国東部 |
 |-----|-----|-----|-----|-----|-----|
-| API Connect | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| API Harmony | シドニーでホスト | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Activity Tracker | シドニーでホスト | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Alert Notification | シドニーでホスト | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Analytics Engine | 使用不可 | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Apache Spark | 使用不可 | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| App Connect | シドニーでホスト | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| App ID | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| App Launch | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Auto-Scaling | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| Automated Accessibility Tester | シドニーでホスト | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Availability Monitoring | シドニーでホスト | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| BigInsights for Apache Hadoop (サブスクリプション) | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Blockchain | シドニーでホスト | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Business Rules | シドニーでホスト | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Certificate Manager | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Cloud Object Storage | グローバルにホスト| グローバルにホスト| グローバルにホスト| グローバルにホスト| グローバルにホスト|
-| Cloudant NoSQL DB | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| Compose Enterprise | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| Compose for Elasticsearch | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| Compose for JanusGraph | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| Compose for MongoDB | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| Compose for MySQL | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| Compose for PostgreSQL | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| Compose for RabbitMQ | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| Compose for Redis | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| Compose for RethinkDB | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| Compose for ScyllaDB | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| Compose for etcd | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| Context Mapping | シドニーでホスト | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Continuous Delivery | 使用不可 | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Continuous Release | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Cost and Asset Management | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Db2 Hosted | シドニーでホスト | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Db2 Warehouse | シドニーでホスト | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Db2 | シドニーでホスト | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Decision Optimization | 使用不可 | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| DevOps Insights | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Digital Content Checker | シドニーでホスト | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Discovery | シドニーでシンジケート| ドイツでホスト | 英国でシンジケート | 使用不可 | 米国南部でホスト| 
-| Driver Behavior | シドニーでホスト | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Dynamic Dashboard Embedded | 使用不可 | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Event Management | シドニーでホスト | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Geospatial Analytics | シドニーでホスト | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Globalization Pipeline | シドニーでホスト | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Historical Instrument Analytics | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Hyper Protect Crypto Services | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Hyper Protect DBaaS | 使用不可 | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| IBM Identity Mixer | シドニーでホスト | 使用不可 | 英国でホスト | 使用不可 | 使用不可 |
-| Information Server | シドニーでホスト | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Informix | シドニーでホスト | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Instrument Analytics | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| インターネット・サービス | グローバルにホスト| グローバルにホスト| グローバルにホスト| グローバルにホスト| グローバルにホスト|
-| Internet of Things Platform | 使用不可 | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Investment Portfolio | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Key Protect | シドニーでホスト | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Knowledge Catalog | 使用不可 | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Knowledge Studio | 使用不可 | ドイツでホスト | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Language Translator | シドニーでシンジケート| ドイツでホスト | 英国でシンジケート | 使用不可 | 米国南部でホスト| 
-| Lift CLI | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Log Analysis | シドニーでホスト | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| MQ | 使用不可 | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Machine Learning | 使用不可 | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Master Data Management | シドニーでホスト | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Message Hub | シドニーでホスト | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Mobile Analytics | シドニーでホスト | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Mobile Foundation | シドニーでホスト | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Monitoring and Analytics | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Monitoring | シドニーでホスト | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Natural Language Classifier | シドニーでシンジケート| ドイツでホスト | 英国でシンジケート | 使用不可 | 米国南部でホスト| 
-| Natural Language Understanding | シドニーでシンジケート| ドイツでホスト | 英国でシンジケート | 使用不可 | 米国南部でホスト| 
-| Object Storage OpenStack Swift | 使用不可 | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Personality Insights | シドニーでシンジケート| ドイツでホスト | 英国でシンジケート | 使用不可 | 米国南部でホスト| 
-| Portfolio Optimization | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Predictive Market Scenarios | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Push Notifications | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| Real-Time Payments | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Runbook Automation | シドニーでホスト | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| SQL Query | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Secure Gateway | シドニーでホスト | ドイツでホスト | 英国でホスト | 米国東部でホスト | 米国南部でホスト| 
-| Simulated Historical Instrument Analytics | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Simulated Instrument Analytics | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Speech to Text | シドニーでシンジケート| ドイツでホスト | 英国でシンジケート | 使用不可 | 米国南部でホスト| 
-| Streaming Analytics | シドニーでホスト | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Text to Speech | シドニーでシンジケート| ドイツでホスト | 英国でシンジケート | 使用不可 | 米国南部でホスト| 
-| Tone Analyzer | シドニーでシンジケート| ドイツでホスト | 英国でシンジケート | 使用不可 | 米国南部でホスト| 
-| Visual Recognition | シドニーでシンジケート| 使用不可 | 英国でシンジケート | 使用不可 | 米国南部でホスト| 
-| Voice Agent with Watson | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Watson Assistant (以前の Conversation) | シドニーでシンジケート| ドイツでホスト | 英国でシンジケート | 使用不可 | 米国南部でホスト| 
-| Watson Data Kits | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 米国南部でホスト| 
-| Watson Studio | 使用不可 | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Weather Company Data | シドニーでホスト | 使用不可 | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| WebSphere Application Server | シドニーでホスト | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-| Workload Scheduler | シドニーでホスト | ドイツでホスト | 英国でホスト | 使用不可 | 米国南部でホスト| 
-{: caption="表 1. サービスの利用可能性" caption-side="top"}
+| API Connect | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Activity Tracker | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
+| Alert Notification | 米国南部でホスト | 英国でホスト | 使用不可 | シドニーでホスト | 使用不可 | 
+| Analytics Engine | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
+| Apache Spark | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
+| App Connect | 米国南部でホスト | 英国でホスト | 使用不可 | 米国南部からシンジケート | 使用不可 | 
+| App ID | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
+| App Launch | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Auto-Scaling | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Automated Accessibility Tester | 米国南部でホスト | 英国でホスト | 使用不可 | 英国からシンジケート | 使用不可 | 
+| Availability Monitoring | 米国南部でホスト | 英国でホスト | 使用不可 | シドニーでホスト | 使用不可 | 
+| BigInsights for Apache Hadoop (サブスクリプション) | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Blockchain | 米国南部でホスト | 米国南部からシンジケート | 米国南部からシンジケート | 米国南部からシンジケート | 使用不可 | 
+| Certificate Manager | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Cloud Object Storage | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 
+| Cloudant | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Compose Enterprise | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Compose for Elasticsearch | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Compose for JanusGraph | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Compose for MongoDB | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Compose for MySQL | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Compose for PostgreSQL | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Compose for RabbitMQ | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Compose for Redis | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Compose for RethinkDB | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Compose for ScyllaDB | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Compose for etcd | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Context Mapping | 米国南部でホスト | 米国南部からシンジケート | 使用不可 | 米国南部からシンジケート | 使用不可 | 
+| Continuous Delivery | 米国南部でホスト | 米国南部からシンジケート | 米国南部からシンジケート | 使用不可 | 使用不可 | 
+| Cost and Asset Management | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Db2 | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
+| Db2 Hosted | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
+| Db2 Warehouse | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
+| Decision Optimization | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
+| DevOps Insights | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Digital Content Checker | 米国南部でホスト | 英国でホスト | 使用不可 | 英国からシンジケート | 使用不可 | 
+| Discovery | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Driver Behavior | 米国南部でホスト | 米国南部からシンジケート | 使用不可 | 米国南部からシンジケート | 使用不可 | 
+| Event Management | 米国南部でホスト | 英国でホスト | 使用不可 | シドニーでホスト | 使用不可 | 
+| Geospatial Analytics | 米国南部でホスト | 英国でホスト | 使用不可 | 英国からシンジケート | 使用不可 | 
+| Globalization Pipeline | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
+| Historical Instrument Analytics | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Hyper Protect Crypto Services | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Hyper Protect DBaaS | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
+| IBM Cognos Dashboard Embedded | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
+| IBM Identity Mixer | 使用不可 | 英国でホスト | 使用不可 | シドニーでホスト | 使用不可 | 
+| Information Server | 使用不可 | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
+| Informix | 米国南部でホスト | 米国南部からシンジケート | 使用不可 | 米国南部からシンジケート | 使用不可 | 
+| Instrument Analytics | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| インターネット・サービス | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 
+| Internet of Things Platform | 米国南部でホスト | 英国でホスト | ドイツでホスト | 使用不可 | 使用不可 | 
+| Investment Portfolio | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Key Protect | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
+| Knowledge Catalog | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
+| Knowledge Studio | 米国南部でホスト | 使用不可 | 米国南部からシンジケート | シドニーでホスト | 米国東部でホスト | 
+| Language Translator | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Lift CLI | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Log Analysis | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
+| MQ | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
+| Machine Learning | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
+| Master Data Management | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
+| Message Hub | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
+| Mobile Analytics | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
+| Mobile Foundation | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
+| Monitoring | 米国南部でホスト | 英国でホスト | 米国南部からシンジケート | シドニーでホスト | 使用不可 | 
+| Natural Language Classifier | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | 米国南部からシンジケート | 使用不可 | 
+| Natural Language Understanding | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Object Storage OpenStack Swift | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
+| Personality Insights | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Portfolio Optimization | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Predictive Market Scenarios | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Push Notifications | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Real-Time Payments | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Runbook Automation | 米国南部でホスト | 英国でホスト | 使用不可 | シドニーでホスト | 使用不可 | 
+| SQL Query | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Secure Gateway | 米国南部でホスト | 英国でホスト | 米国南部からシンジケート | 米国南部からシンジケート | 米国東部でホスト | 
+| Simulated Historical Instrument Analytics | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Simulated Instrument Analytics | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Speech to Text | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Streaming Analytics | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
+| Text to Speech | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Tone Analyzer | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Visual Recognition | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Voice Agent with Watson | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Watson Assistant (以前の Conversation) | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Watson Studio | 米国南部でホスト | 米国南部からシンジケート | 使用不可 | 使用不可 | 使用不可 | 
+| Weather Company Data | 米国南部でホスト | 英国でホスト | 使用不可 | シドニーでホスト | 使用不可 | 
+| WebSphere Application Server | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
+| Workload Scheduler | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
+ {: caption="表 1. サービスの利用可能性" caption-side="top"}

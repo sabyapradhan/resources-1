@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-16"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -68,4 +68,4 @@ IAM 管理サービスとアプリとの間に接続が作成されると、接�
 ## 複数のサービス間の接続の作成
 {: #cf}
 
-詳しくは、[別のサービスでのサービスの使用](/docs/apps/reqnsi.html#add_service)を参照してください。
+詳しくは、[別のサービスでのサービスの使用](/docs/resources/s2s.html#s2s_binding)を参照してください。
