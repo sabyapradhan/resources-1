@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-16"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -68,4 +68,4 @@ lastupdated: "2018-05-16"
 ## 创建多个服务之间的连接
 {: #cf}
 
-有关更多信息，请参阅[在其他服务中使用服务](/docs/apps/reqnsi.html#add_service)。
+有关更多信息，请参阅[在其他服务中使用服务](/docs/resources/s2s.html#s2s_binding)。
