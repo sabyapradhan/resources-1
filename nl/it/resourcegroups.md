@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-03-22"
+lastupdated: "2018-06-05"
 
 
 ---
@@ -23,6 +23,7 @@ Un gruppo di risorse è un modo per organizzare le risorse dell'account in raggr
 
 Per iniziare a gestire i tuoi gruppi di risorse, vai a **Gestisci** &gt; **Account** &gt; **Gruppi di risorse** nella console {{site.data.keyword.Bluemix}}. Da lì puoi visualizzare i tuoi gruppi di risorse, rinominarli e creare nuovi gruppi di risorse.
 
+Per ulteriori informazioni sull'utilizzo dei gruppi di risorse, consulta [Procedure consigliate per l'organizzazione delle risorse nei gruppi di risorse](/docs/resources/bestpractice_rgs.html#bp_resourcegroups). 
 
 ## Creazione di un gruppo di risorse
 
@@ -30,7 +31,7 @@ Se disponi di un account Pagamento a consumo o Sottoscrizione, puoi creare più 
 
 Se disponi di un account Lite o una prova gratuita di 30 giorni, non puoi creare ulteriori gruppi di risorse, ma puoi rinominare il tuo gruppo di risorse predefinito. 
 
-Ogni gruppo di risorse è gratuito, tuttavia le connessioni tra un gruppo di risorse e un'organizzazione o uno spazio Cloud Foundry vengono conteggiate nella quota del tuo account. Per ulteriori informazioni, vedi [Cos'è un alias?](/docs/cfapps/connecting_apps.html#what_is_alias).
+Ogni gruppo di risorse è gratuito, ma le connessioni tra un gruppo di risorse e un'organizzazione o uno spazio Cloud Foundry vengono conteggiate nella quota del tuo account. Per ulteriori informazioni, vedi [Cos'è un alias?](/docs/resources/connecting_apps.html#what_is_alias)
 {: tip}
 
 1. Vai a **Gestisci** &gt; **Account** &gt; **Gruppi di risorse**.
@@ -40,11 +41,11 @@ Ogni gruppo di risorse è gratuito, tuttavia le connessioni tra un gruppo di ris
 
 ## Aggiunta di risorse a un gruppo di risorse
 
-I servizi che sono gestiti utilizzando IAM appartengono a un gruppo di risorse invece che a un'organizzazione o uno spazio Cloud Foundry. Quando crei un'istanza del servizio per uno di questi servizi dal catalogo, ti viene richiesto di assegnare l'istanza a un gruppo di risorse. La tua selezione del gruppo di risorse al momento della creazione dell'istanza è finale e non può essere modificata.
+I servizi che sono gestiti con IAM appartengono a un gruppo di risorse invece che a un'organizzazione o uno spazio Cloud Foundry. Quando crei un'istanza del servizio per uno di questi servizi dal catalogo, ti viene richiesto di assegnare l'istanza a un gruppo di risorse. La tua selezione del gruppo di risorse al momento della creazione dell'istanza è finale e non può essere modificata.
 
 ## Visualizzazione delle risorse nei gruppi di risorse
 
-Per visualizzare facilmente le risorse contenute in un gruppo, filtra per gruppo di risorse dal tuo dashboard.
+Per visualizzare facilmente le risorse contenute in un gruppo, filtra per gruppo di risorse dal tuo dashboard. 
 
 ## Ridenominazione di un gruppo di risorse
 
@@ -62,4 +63,4 @@ La CLI {{site.data.keyword.Bluemix_notm}} ha diversi comandi che supportano la g
 
 Cloud IAM ti offre la possibilità di fornire all'utente l'accesso dettagliato alle risorse nel tuo account. Puoi utilizzare Cloud IAM per assegnare politiche agli utenti, che forniscono all'utente l'accesso a tutte le risorse in un gruppo di risorse, a un singolo tipo di servizio all'interno di un gruppo di risorse o a una singola istanza del servizio nell'account. Fornire agli utenti l'accesso alle risorse all'interno di un gruppo di risorse non dà loro l'accesso per gestire il gruppo di risorse stesso. Puoi impostare l'accesso per la possibilità di visualizzare, modificare e gestire separatamente il gruppo di risorse effettivo.
 
-Per ulteriori informazioni sulla gestione dell'accesso ai gruppi di risorse, vedi [Gestione dell'accesso IAM](/docs/iam/mngiam.html#iammanidaccser).
+Per ulteriori informazioni, vedi [Gestione dell'accesso IAM](/docs/iam/mngiam.html#iammanidaccser).

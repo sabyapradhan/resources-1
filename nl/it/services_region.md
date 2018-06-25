@@ -3,11 +3,10 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-05-15"
+lastupdated: "2018-06-15"
 
 ---
-
-{:new_window: target="_blank"}  
+{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
 
@@ -20,107 +19,102 @@ sulla progettazione dell'applicazione.
 
 Non tutti i servizi sono disponibili per l'acquisto in ogni regione {{site.data.keyword.Bluemix_notm}}. E, anche se il servizio è disponibile per l'acquisto in una regione, tale servizio potrebbe essere ospitato in un luogo differente. La seguente tabella mostra i servizi forniti da IBM.
 
-Alcuni servizi sono disponibili globalmente, il che significa che vengono distribuiti in almeno tre zone ubicate in tre regioni separate nel mondo e configurati con la disponibilità continua.
+I servizi ospitati a livello globale creano risorse che operano su più regioni. Ad esempio, con {{site.data.keyword.cos_full_notm}} (COS), puoi scegliere di diffondere i dati in un singolo data center, in un'intera regione o persino in una combinazione di regioni [selezionando l'endpoint](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) in cui la tua applicazione invia le richieste API REST.
 
 <!-- Do not manually change the table or add content after the table. -->
-<!-- Everything below the second line of the table will be deleted. -->
+<!-- Everything after the second line of the table will be deleted. -->
 <!-- Also, do not change the number of dashes in the second line. -->
-<!-- See @natimpe for details. -->
+<!-- Ping @natimpe for details. -->
 
-| Servizio | Sydney | Germania | Regno Unito | Stati Uniti Est | Stati Uniti Sud |
+| Servizio | Stati Uniti Sud | Regno Unito | Germania | Sydney | Stati Uniti Est |
 |-----|-----|-----|-----|-----|-----|
-| API Connect | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| API Harmony | Ospitato a Sydney | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Programma di traccia dell'attività | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Alert Notification | Ospitato a Sydney | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Analytics Engine | Non disponibile | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Apache Spark | Non disponibile | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| App Connect | Ospitato a Sydney | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| ID App | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| App Launch | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Auto-Scaling | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| Automated Accessibility Tester | Ospitato a Sydney | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Availability Monitoring | Ospitato a Sydney | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| BigInsights for Apache Hadoop (sottoscrizione) | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Blockchain | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Business Rules | Ospitato a Sydney | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Gestore certificato | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Cloud Object Storage | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale |
-| Cloudant NoSQL DB | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| Compose Enterprise | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| Compose for Elasticsearch | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| Compose for JanusGraph | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| Compose for MongoDB | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| Compose for MySQL | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| Compose for PostgreSQL | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| Compose for RabbitMQ | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| Compose for Redis | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| Compose for RethinkDB | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| Compose for ScyllaDB | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| Compose for etcd | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| Context Mapping | Ospitato a Sydney | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Fornitura continua | Non disponibile | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Continuous Release | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Cost and Asset Management | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Ospitato Db2 | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Warehouse Db2 | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Db2 | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Decision Optimization | Non disponibile | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| DevOps Insights | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Digital Content Checker | Ospitato a Sydney | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Discovery | Diffuso a Sydney | Ospitato in Germania | Diffuso nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Driver Behavior | Ospitato a Sydney | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Dynamic Dashboard Embedded | Non disponibile | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Event Management | Ospitato a Sydney | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Geospatial Analytics | Ospitato a Sydney | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Globalization Pipeline | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Historical Instrument Analytics | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Hyper Protect Crypto Services | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Hyper Protect DBaaS | Non disponibile | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| IBM Identity Mixer | Ospitato a Sydney | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Non disponibile |
-| Information Server | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Informix | Ospitato a Sydney | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Instrument Analytics | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Internet Services | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale |
-| Piattaforma Internet delle cose | Non disponibile | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Investment Portfolio | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Key Protect | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Knowledge Catalog | Non disponibile | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Knowledge Studio | Non disponibile | Ospitato in Germania | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Language Translator | Diffuso a Sydney | Ospitato in Germania | Diffuso nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| CLI Lift | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Analisi log | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| MQ | Non disponibile | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Machine Learning | Non disponibile | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Master Data Management | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Message Hub | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Mobile Analytics | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Mobile Foundation | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Monitoring and Analytics | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Monitoraggio | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Natural Language Classifier | Diffuso a Sydney | Ospitato in Germania | Diffuso nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Natural Language Understanding | Diffuso a Sydney | Ospitato in Germania | Diffuso nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Object Storage OpenStack Swift | Non disponibile | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Personality Insights | Diffuso a Sydney | Ospitato in Germania | Diffuso nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Portfolio Optimization | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Predictive Market Scenarios | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Push Notifications | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| Real-Time Payments | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Runbook Automation | Ospitato a Sydney | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Query SQL | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Secure Gateway | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Ospitato in Stati Uniti Est | Ospitato in Stati Uniti Sud| 
-| Simulated Historical Instrument Analytics | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Simulated Instrument Analytics | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Speech to Text | Diffuso a Sydney | Ospitato in Germania | Diffuso nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Streaming Analytics | Ospitato a Sydney | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Text to Speech | Diffuso a Sydney | Ospitato in Germania | Diffuso nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Tone Analyzer | Diffuso a Sydney | Ospitato in Germania | Diffuso nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Visual Recognition | Diffuso a Sydney | Non disponibile | Diffuso nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Voice Agent with Watson | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Watson Assistant (formerly Conversation) | Diffuso a Sydney | Ospitato in Germania | Diffuso nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Watson Data Kits | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Watson Studio | Non disponibile | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Weather Company Data | Ospitato a Sydney | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| WebSphere Application Server | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-| Workload Scheduler | Ospitato a Sydney | Ospitato in Germania | Ospitato nel Regno Unito | Non disponibile | Ospitato in Stati Uniti Sud| 
-{: caption="Tabella 1. Disponibilità dei servizi" caption-side="top"}
+| API Connect | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Programma di traccia dell'attività | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
+| Alert Notification | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Ospitato a Sydney | Non disponibile | 
+| Analytics Engine | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
+| Apache Spark | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
+| App Connect | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Diffuso da Stati Uniti Sud | Non disponibile | 
+| ID App | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
+| App Launch | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Auto-Scaling | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Automated Accessibility Tester | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Diffuso dal Regno Unito | Non disponibile | 
+| Availability Monitoring | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Ospitato a Sydney | Non disponibile | 
+| BigInsights for Apache Hadoop (sottoscrizione) | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Blockchain | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Diffuso da Stati Uniti Sud | Diffuso da Stati Uniti Sud | Non disponibile | 
+| Gestore certificato | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Cloud Object Storage | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | 
+| Cloudant | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Compose Enterprise | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Compose for Elasticsearch | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Compose for JanusGraph | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Compose for MongoDB | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Compose for MySQL | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Compose for PostgreSQL | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Compose for RabbitMQ | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Compose for Redis | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Compose for RethinkDB | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Compose for ScyllaDB | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Compose for etcd | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Context Mapping | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Non disponibile | Diffuso da Stati Uniti Sud | Non disponibile | 
+| Fornitura continua | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Diffuso da Stati Uniti Sud | Non disponibile | Non disponibile | 
+| Cost and Asset Management | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Db2 | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
+| Ospitato Db2 | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
+| Warehouse Db2 | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
+| Decision Optimization | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
+| DevOps Insights | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Digital Content Checker | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Diffuso dal Regno Unito | Non disponibile | 
+| Discovery | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Driver Behavior | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Non disponibile | Diffuso da Stati Uniti Sud | Non disponibile | 
+| Event Management | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Ospitato a Sydney | Non disponibile | 
+| Geospatial Analytics | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Diffuso dal Regno Unito | Non disponibile | 
+| Globalization Pipeline | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
+| Historical Instrument Analytics | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Hyper Protect Crypto Services | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Hyper Protect DBaaS | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
+| IBM Cognos Dashboard Embedded | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
+| IBM Identity Mixer | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato a Sydney | Non disponibile | 
+| Information Server | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
+| Informix | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Non disponibile | Diffuso da Stati Uniti Sud | Non disponibile | 
+| Instrument Analytics | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Internet Services | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | 
+| Piattaforma Internet delle cose | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Non disponibile | Non disponibile | 
+| Investment Portfolio | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Key Protect | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
+| Knowledge Catalog | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
+| Knowledge Studio | Ospitato in Stati Uniti Sud | Non disponibile | Diffuso da Stati Uniti Sud | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Language Translator | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| CLI Lift | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Analisi log | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
+| MQ | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
+| Machine Learning | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
+| Master Data Management | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
+| Message Hub | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
+| Mobile Analytics | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
+| Mobile Foundation | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
+| Monitoraggio | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Diffuso da Stati Uniti Sud | Ospitato a Sydney | Non disponibile | 
+| Natural Language Classifier | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Diffuso da Stati Uniti Sud | Non disponibile | 
+| Natural Language Understanding | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Object Storage OpenStack Swift | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
+| Personality Insights | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Portfolio Optimization | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Predictive Market Scenarios | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Push Notifications | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Real-Time Payments | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Runbook Automation | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Ospitato a Sydney | Non disponibile | 
+| Query SQL | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Secure Gateway | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Diffuso da Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Stati Uniti Est | 
+| Simulated Historical Instrument Analytics | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Simulated Instrument Analytics | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Speech to Text | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Streaming Analytics | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
+| Text to Speech | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Tone Analyzer | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Visual Recognition | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Voice Agent with Watson | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Watson Assistant (formerly Conversation) | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Watson Studio | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | 
+| Weather Company Data | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Ospitato a Sydney | Non disponibile | 
+| WebSphere Application Server | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
+| Workload Scheduler | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
+ {: caption="Tabella 1. Disponibilità dei servizi" caption-side="top"}

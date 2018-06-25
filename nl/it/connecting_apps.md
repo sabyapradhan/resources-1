@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-16"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -48,7 +48,7 @@ Per connettere la tua istanza del servizio gestito da IAM a un'applicazione:
 
 5. Facoltativamente, puoi fornire un **ID del servizio per il collegamento ** consentendo a IAM di generare per te un valore univoco o fornendo un ID di servizio esistente. Per ulteriori informazioni, vedi [Creazione e gestione degli ID servizio](/docs/iam/serviceid.html#serviceids).
 
-6. Fai clic su **Create**.
+6. Fai clic su **Crea**.
 
 ## Visualizzazione di un alias
 
@@ -68,4 +68,4 @@ Il modo più semplice per eliminare l'alias è eliminare l'istanza del servizio 
 ## Creazione di una connessione tra più servizi
 {: #cf}
 
-Per ulteriori informazioni, vedi [Utilizzo di servizi in un altro servizio](/docs/apps/reqnsi.html#add_service).
+Per ulteriori informazioni, vedi [Utilizzo di servizi in un altro servizio](/docs/resources/s2s.html#s2s_binding).

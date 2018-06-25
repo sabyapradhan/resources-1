@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -20,7 +20,7 @@ Se disponi di un'istanza di servizio creata e associata mediante bind ad applica
 	Per utilizzare un'istanza del servizio che si trova
 in un'altra regione, completa la seguente procedura:
 
-      1. Passa alla regione in cui si trova l'istanza del servizio. Nella barra dei menu di {{site.data.keyword.Bluemix_notm}}, espandi il menu **Regione** e quindi seleziona la regione in cui si trova l'istanza del servizio.
+      1. Passa alla regione in cui si trova l'istanza del servizio. Dal dashboard della console {{site.data.keyword.Bluemix_notm}}, espandi il menu **UBICAZIONE** e seleziona la regione in cui si trova l'istanza del servizio.
 
       2. Recupera le credenziali e i parametri di connessione dalla variabile di ambiente VCAP_SERVICES dell'istanza del servizio nella regione in cui si trova il servizio. Completa la seguente
 procedura:
@@ -30,17 +30,15 @@ procedura:
 del servizio.
 
       3. Passa alla regione in cui desideri utilizzare l'istanza del
-servizio. Nella barra dei menu di {{site.data.keyword.Bluemix_notm}}, espandi il menu **Regione** e quindi seleziona la regione in cui vuoi utilizzare l'istanza del servizio.
+servizio. Dal dashboard della console {{site.data.keyword.Bluemix_notm}}, espandi il menu **UBICAZIONE** e seleziona la regione in cui vuoi utilizzare l'istanza del servizio. 
 
       4. Crea un'istanza del servizio fornito dall'utente utilizzando le credenziali
 e i parametri di connessione che hai registrato dalla variabile di ambiente
-*VCAP_SERVICES*. Per informazioni su come creare un'istanza
-del servizio fornito dall'utente, vedi [Creazione di un'istanza
-del servizio fornito dall'utente](/docs/apps/reqnsi.html#user_provide_services).
+*VCAP_SERVICES*. Per informazioni, consulta [Creazione di un'istanza del servizio fornita dall'utente](/docs/apps/reqnsi.html#user_provide_services).
 
       5. Esegui il bind dell'istanza del servizio fornito dall'utente alla tua applicazione
 utilizzando il seguente comando:
 
 	     ```
-	     bluemix service bind myapp user-provided_service_instance
+	     ibmcloud service bind myapp user-provided_service_instance
 	     ```
