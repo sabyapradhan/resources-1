@@ -3,11 +3,10 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-05-15"
+lastupdated: "2018-06-15"
 
 ---
-
-{:new_window: target="_blank"}  
+{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
 
@@ -19,107 +18,102 @@ lastupdated: "2018-05-15"
 
 Nicht alle Services sind in jeder {{site.data.keyword.Bluemix_notm}}-Region erhältlich. Auch dann, wenn der Service in einer Region erhältlich ist, kann er an einem anderen Standort gehostet werden. In der folgenden Tabelle sind die Services aufgeführt, die von IBM zur Verfügung gestellt werden.
 
-Einige Services sind global verfügbar. Das bedeutet, dass sie in mindestens drei Zonen bereitgestellt werden, die sich in drei verschiedenen Regionen der Welt befinden und für die die kontinuierliche Verfügbarkeit konfiguriert ist.
+Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Regionen hinweg betrieben werden. Mit {{site.data.keyword.cos_full_notm}} (COS) können Sie zum Beispiel Daten wahlweise in einem einzelnen Datencenter, in einer ganzen Region oder sogar in einer Kombination von Regionen verteilen, indem Sie den [Endpunkt auswählen](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints), an den Ihre Anwendung REST-API-Anforderungen sendet.
 
 <!-- Do not manually change the table or add content after the table. -->
-<!-- Everything below the second line of the table will be deleted. -->
+<!-- Everything after the second line of the table will be deleted. -->
 <!-- Also, do not change the number of dashes in the second line. -->
-<!-- See @natimpe for details. -->
+<!-- Ping @natimpe for details. -->
 
-| Service | Sydney | Deutschland | Vereintes Königreich | Vereinigte Staaten (Osten) | Vereinigte Staaten (Süden) |
+| Service | Vereinigte Staaten (Süden) | Vereintes Königreich | Deutschland | Sydney | Vereinigte Staaten (Osten) |
 |-----|-----|-----|-----|-----|-----|
-| API Connect | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| API Harmony | Gehostet in Sydney | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Activity Tracker | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Alert Notification | Gehostet in Sydney | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Analytics Engine | Nicht verfügbar | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Apache Spark | Nicht verfügbar | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| App Connect | Gehostet in Sydney | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| App ID | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| App Launch | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Auto-Scaling | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| Automated Accessibility Tester | Gehostet in Sydney | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Availability Monitoring | Gehostet in Sydney | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| BigInsights for Apache Hadoop (Abonnement) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Blockchain | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Business Rules | Gehostet in Sydney | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Certificate Manager | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Cloud Object Storage | Global gehostet | Global gehostet | Global gehostet | Global gehostet | Global gehostet |
-| Cloudant NoSQL DB | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| Compose Enterprise | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| Compose for Elasticsearch | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| Compose for JanusGraph | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| Compose for MongoDB | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| Compose for MySQL | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| Compose for PostgreSQL | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| Compose for RabbitMQ | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| Compose for Redis | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| Compose for RethinkDB | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| Compose for ScyllaDB | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| Compose for etcd | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| Context Mapping | Gehostet in Sydney | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Continuous Delivery | Nicht verfügbar | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Continuous Release | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Cost and Asset Management | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Db2 Hosted | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Db2 Warehouse | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Db2 | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Decision Optimization | Nicht verfügbar | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| DevOps Insights | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Digital Content Checker | Gehostet in Sydney | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Discovery | Syndiziert in Sydney | Gehostet in Deutschland | Syndiziert im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Driver Behavior | Gehostet in Sydney | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Dynamic Dashboard Embedded | Nicht verfügbar | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Event Management | Gehostet in Sydney | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Geospatial Analytics | Gehostet in Sydney | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Globalization Pipeline | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Historical Instrument Analytics | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Hyper Protect Crypto Services | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Hyper Protect DBaaS | Nicht verfügbar | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| IBM Identity Mixer | Gehostet in Sydney | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar |
-| Information Server | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Informix | Gehostet in Sydney | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Instrument Analytics | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Internet Services | Global gehostet | Global gehostet | Global gehostet | Global gehostet | Global gehostet |
-| Internet of Things Platform | Nicht verfügbar | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Investment Portfolio | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Key Protect | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Knowledge Catalog | Nicht verfügbar | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Knowledge Studio | Nicht verfügbar | Gehostet in Deutschland | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Language Translator | Syndiziert in Sydney | Gehostet in Deutschland | Syndiziert im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Lift CLI | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Log Analysis | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| MQ | Nicht verfügbar | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Machine Learning | Nicht verfügbar | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Master Data Management | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Message Hub | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Mobile Analytics | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Mobile Foundation | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Monitoring and Analytics | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Monitoring | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Natural Language Classifier | Syndiziert in Sydney | Gehostet in Deutschland | Syndiziert im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Natural Language Understanding | Syndiziert in Sydney | Gehostet in Deutschland | Syndiziert im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Object Storage OpenStack Swift | Nicht verfügbar | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Personality Insights | Syndiziert in Sydney | Gehostet in Deutschland | Syndiziert im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Portfolio Optimization | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Predictive Market Scenarios | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Push Notifications | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| Real-Time Payments | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Runbook Automation | Gehostet in Sydney | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| SQL Query | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Secure Gateway | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Gehostet in den Vereinigten Staaten (Osten) | Gehostet in den Vereinigten Staaten (Süden)| 
-| Simulated Historical Instrument Analytics | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Simulated Instrument Analytics | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Speech to Text | Syndiziert in Sydney | Gehostet in Deutschland | Syndiziert im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Streaming Analytics | Gehostet in Sydney | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Text to Speech | Syndiziert in Sydney | Gehostet in Deutschland | Syndiziert im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Tone Analyzer | Syndiziert in Sydney | Gehostet in Deutschland | Syndiziert im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Visual Recognition | Syndiziert in Sydney | Nicht verfügbar | Syndiziert im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Voice Agent with Watson | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Watson Assistant (zuvor Conversation) | Syndiziert in Sydney | Gehostet in Deutschland | Syndiziert im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Watson Data Kits | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Watson Studio | Nicht verfügbar | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Weather Company Data | Gehostet in Sydney | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| WebSphere Application Server | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-| Workload Scheduler | Gehostet in Sydney | Gehostet in Deutschland | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Süden)| 
-{: caption="Tabelle 1. Serviceverfügbarkeit" caption-side="top"}
+| API Connect | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Activity Tracker | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
+| Alert Notification | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | 
+| Analytics Engine | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Apache Spark | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| App Connect | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | 
+| App ID | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
+| App Launch | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Auto-Scaling | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Automated Accessibility Tester | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Syndiziert aus dem Vereinigten Königreich | Nicht verfügbar | 
+| Availability Monitoring | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | 
+| BigInsights for Apache Hadoop (Abonnement) | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Blockchain | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | 
+| Certificate Manager | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Cloud Object Storage | Global gehostet | Global gehostet | Global gehostet | Global gehostet | Global gehostet | 
+| Cloudant | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Compose Enterprise | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Compose for Elasticsearch | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Compose for JanusGraph | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Compose for MongoDB | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Compose for MySQL | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Compose for PostgreSQL | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Compose for RabbitMQ | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Compose for Redis | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Compose for RethinkDB | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Compose for ScyllaDB | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Compose for etcd | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Context Mapping | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | 
+| Continuous Delivery | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | 
+| Cost and Asset Management | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Db2 | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
+| Db2 Hosted | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
+| Db2 Warehouse | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
+| Decision Optimization | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| DevOps Insights | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Digital Content Checker | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Syndiziert aus dem Vereinigten Königreich | Nicht verfügbar | 
+| Discovery | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Driver Behavior | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | 
+| Event Management | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | 
+| Geospatial Analytics | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Syndiziert aus dem Vereinigten Königreich | Nicht verfügbar | 
+| Globalization Pipeline | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
+| Historical Instrument Analytics | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Hyper Protect Crypto Services | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Hyper Protect DBaaS | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| IBM Cognos Dashboard Embedded | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| IBM Identity Mixer | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | 
+| Information Server | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Informix | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | 
+| Instrument Analytics | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Internet Services | Global gehostet | Global gehostet | Global gehostet | Global gehostet | Global gehostet | 
+| Internet of Things Platform | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Nicht verfügbar | Nicht verfügbar | 
+| Investment Portfolio | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Key Protect | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
+| Knowledge Catalog | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Knowledge Studio | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Language Translator | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Lift CLI | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Log Analysis | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
+| MQ | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Machine Learning | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Master Data Management | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
+| Message Hub | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
+| Mobile Analytics | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
+| Mobile Foundation | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
+| Monitoring | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Sydney | Nicht verfügbar | 
+| Natural Language Classifier | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | 
+| Natural Language Understanding | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Object Storage OpenStack Swift | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Personality Insights | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Portfolio Optimization | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Predictive Market Scenarios | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Push Notifications | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Real-Time Payments | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Runbook Automation | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | 
+| SQL Query | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Secure Gateway | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Syndiziert aus den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in den Vereinigten Staaten (Osten) | 
+| Simulated Historical Instrument Analytics | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Simulated Instrument Analytics | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Speech to Text | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Streaming Analytics | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Text to Speech | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Tone Analyzer | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Visual Recognition | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Voice Agent with Watson | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Watson Assistant (zuvor Conversation) | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Watson Studio | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Weather Company Data | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | 
+| WebSphere Application Server | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
+| Workload Scheduler | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
+ {: caption="Tabelle 1. Serviceverfügbarkeit" caption-side="top"}

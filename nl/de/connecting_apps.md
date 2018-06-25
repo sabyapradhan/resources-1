@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-16"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -68,4 +68,4 @@ Am einfachsten lässt sich der Aliasname löschen, indem Sie die IAM-verwaltete 
 ## Verbindung zwischen mehreren Services erstellen
 {: #cf}
 
-Weitere Informationen finden Sie in [Services in einem anderen Service verwenden](/docs/apps/reqnsi.html#add_service).
+Weitere Informationen finden Sie in [Services in einem anderen Service verwenden](/docs/resources/s2s.html#s2s_binding).

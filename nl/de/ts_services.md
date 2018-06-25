@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2017-11-07"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -24,6 +24,8 @@ lastupdated: "2017-11-07"
 
 Ein {{site.data.keyword.Bluemix}}-Serviceproblem liegt zum Beispiel vor, wenn für ein Gateway ein Zeitlimitfehler auftritt, sobald Sie eine Serviceinstanz löschen. Sie können solche Probleme durch Ausführen weniger einfacher Schritte beheben.
 {:shortdesc}
+
+Services in {{site.data.keyword.Bluemix_notm}} können unterschiedliche Typen und Ebenen an Reifegraden aufweisen. So stehen beispielsweise IBM Services und Services von Drittanbietern zur Verfügung und diese Services können Versionen wie 'GA', 'Beta' oder 'Experimentell' aufweisen. Abhängig von Servicetyp und Reifegrad, können unterschiedliche Unterstützungsstufen angeboten werden. Weitere Informationen hierzu finden Sie unter [Unterstützung für Services erhalten](/docs/get-support/servicessupport.html#support-different-services).
 
 ## Service-Broker-Fehler beim Löschen einer Serviceinstanz
 {: #ts_service_broker}
