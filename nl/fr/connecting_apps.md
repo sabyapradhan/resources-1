@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-16"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -68,4 +68,4 @@ La manière la plus simple de supprimer un alias est de supprimer l'instance de 
 ## Création d'une connexion entre plusieurs services
 {: #cf}
 
-Pour plus d'informations, voir [Utilisation des services dans un autre service](/docs/apps/reqnsi.html#add_service).
+Pour plus d'informations, voir [Utilisation des services dans un autre service](/docs/resources/s2s.html#s2s_binding).

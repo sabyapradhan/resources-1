@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-05-09"
+lastupdated: "2018-05-31"
 
 ---
 
@@ -29,4 +29,4 @@ Il se peut que vous ne disposez des droits d'accès nécessaires pour faire migr
 
 ## Pour quelle raison mes services ne sont-ils pas tous éligibles pour migration ?
 
-A l'heure actuelle, les services ne sont pas tous disponibles pour être gérés via le contrôle d'accès IAM et les groupes de ressources. Vous êtes avisé quand des services permettent l'utilisation d'IAM, si vous disposez des droits d'accès nécessaires pour effectuer la migration. 
+A l'heure actuelle, les services ne sont pas tous disponibles pour être gérés via le contrôle d'accès IAM et les groupes de ressources. Vous êtes avisé quand des services permettent l'utilisation d'IAM, si vous disposez des droits d'accès nécessaires pour effectuer la migration.

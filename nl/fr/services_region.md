@@ -3,11 +3,10 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-05-15"
+lastupdated: "2018-06-15"
 
 ---
-
-{:new_window: target="_blank"}  
+{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
 
@@ -21,107 +20,102 @@ vous pouvez vous consacrer à la logique et à la conception de l'application.
 Les services ne sont pas tous disponibles à l'achat dans toutes les régions {{site.data.keyword.Bluemix_notm}}. De plus, même si le
 service est disponible à l'achat dans une région, il se peut qu'il soit hébergé ailleurs. Le tableau ci-dessous répertorie les services qui sont fournis par IBM.
 
-Certains services sont disponibles dans le monde entier, ce qui signifie qu'ils sont déployés dans au moins trois zones situées dans trois régions distinctes du globe et configurés pour la disponibilité continue.
+Les services avec hébergement global créent des ressources qui opèrent sur plusieurs régions. Par exemple, avec {{site.data.keyword.cos_full_notm}} (COS), vous pouvez choisir de disperser les données entre plusieurs centres de données, une région entière, ou même une combinaison de régions, en [sélectionnant le noeud final](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) auquel votre application envoie les demandes d'API REST.
 
 <!-- Do not manually change the table or add content after the table. -->
-<!-- Everything below the second line of the table will be deleted. -->
+<!-- Everything after the second line of the table will be deleted. -->
 <!-- Also, do not change the number of dashes in the second line. -->
-<!-- See @natimpe for details. -->
+<!-- Ping @natimpe for details. -->
 
-| Service | Sydney | Allemagne | Royaume-Uni | Est des Etats-Unis | Sud des Etats-Unis |
+| Service | Sud des Etats-Unis | Royaume-Uni | Allemagne | Sydney | Est des Etats-Unis |
 |-----|-----|-----|-----|-----|-----|
-| API Connect | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| API Harmony | Hébergé à Sydney | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Activity Tracker | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Alert Notification | Hébergé à Sydney | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Analytics Engine | Indisponible | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Apache Spark | Indisponible | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| App Connect | Hébergé à Sydney | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| App ID | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| App Launch | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Auto-Scaling | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| Automated Accessibility Tester | Hébergé à Sydney | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Availability Monitoring | Hébergé à Sydney | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| BigInsights for Apache Hadoop (Abonnement) | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Blockchain | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Business Rules | Hébergé à Sydney | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Certificate Manager | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Cloud Object Storage | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier |
-| Cloudant NoSQL DB | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| Compose Enterprise | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| Compose for Elasticsearch | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| Compose for JanusGraph | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| Compose for MongoDB | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| Compose for MySQL | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| Compose for PostgreSQL | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| Compose for RabbitMQ | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| Compose for Redis | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| Compose for RethinkDB | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| Compose for ScyllaDB | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| Compose for etcd | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| Context Mapping | Hébergé à Sydney | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Continuous Delivery | Indisponible | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Continuous Release | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Cost and Asset Management | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Db2 hébergé | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Db2 Warehouse | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Db2 | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Decision Optimization | Indisponible | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| DevOps Insights | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Digital Content Checker | Hébergé à Sydney | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Discovery | Syndiqué à Sydney | Hébergé en Allemagne | Syndiqué au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Driver Behavior | Hébergé à Sydney | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Dynamic Dashboard Embedded | Indisponible | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Event Management | Hébergé à Sydney | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Geospatial Analytics | Hébergé à Sydney | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Globalization Pipeline | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Historical Instrument Analytics | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Hyper Protect Crypto Services | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Hyper Protect DBaaS | Indisponible | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| IBM Identity Mixer | Hébergé à Sydney | Indisponible | Hébergé au Royaume-Uni | Indisponible | Indisponible |
-| Information Server | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Informix | Hébergé à Sydney | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Instrument Analytics | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Internet Services | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier |
-| Internet of Things Platform | Indisponible | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Investment Portfolio | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Key Protect | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Knowledge Catalog | Indisponible | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Knowledge Studio | Indisponible | Hébergé en Allemagne | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Language Translator | Syndiqué à Sydney | Hébergé en Allemagne | Syndiqué au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Lift CLI | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Log Analysis | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| MQ | Indisponible | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Machine Learning | Indisponible | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Master Data Management | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Message Hub | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Mobile Analytics | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Mobile Foundation | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Monitoring and Analytics | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Surveillance | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Natural Language Classifier | Syndiqué à Sydney | Hébergé en Allemagne | Syndiqué au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Natural Language Understanding | Syndiqué à Sydney | Hébergé en Allemagne | Syndiqué au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Object Storage OpenStack Swift | Indisponible | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Personality Insights | Syndiqué à Sydney | Hébergé en Allemagne | Syndiqué au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Portfolio Optimization | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Predictive Market Scenarios | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Push Notifications | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| Real-Time Payments | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Runbook Automation | Hébergé à Sydney | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| SQL Query | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Secure Gateway | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Hébergé à l'Est des Etats-Unis | Hébergé au Sud des Etats-Unis| 
-| Simulated Historical Instrument Analytics | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Simulated Instrument Analytics | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Speech to Text | Syndiqué à Sydney | Hébergé en Allemagne | Syndiqué au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Streaming Analytics | Hébergé à Sydney | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Text to Speech | Syndiqué à Sydney | Hébergé en Allemagne | Syndiqué au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Tone Analyzer | Syndiqué à Sydney | Hébergé en Allemagne | Syndiqué au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Visual Recognition | Syndiqué à Sydney | Indisponible | Syndiqué au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Voice Agent with Watson | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Watson Assistant (anciennement appelé Conversation) | Syndiqué à Sydney | Hébergé en Allemagne | Syndiqué au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Watson Data Kits | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Watson Studio | Indisponible | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Weather Company Data | Hébergé à Sydney | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| WebSphere Application Server | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-| Workload Scheduler | Hébergé à Sydney | Hébergé en Allemagne | Hébergé au Royaume-Uni | Indisponible | Hébergé au Sud des Etats-Unis| 
-{: caption="Tableau 1. Disponibilité des services" caption-side="top"}
+| API Connect | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Activity Tracker | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
+| Alert Notification | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | 
+| Analytics Engine | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
+| Apache Spark | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
+| App Connect | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Syndiqué avec Sud des Etats-Unis | Indisponible | 
+| App ID | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
+| App Launch | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Auto-Scaling | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Automated Accessibility Tester | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Syndiqué avec Royaume-Uni | Indisponible | 
+| Availability Monitoring | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | 
+| BigInsights for Apache Hadoop (Abonnement) | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Blockchain | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | 
+| Certificate Manager | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Cloud Object Storage | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | 
+| Cloudant | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Compose Enterprise | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Compose for Elasticsearch | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Compose for JanusGraph | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Compose for MongoDB | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Compose for MySQL | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Compose for PostgreSQL | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Compose for RabbitMQ | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Compose for Redis | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Compose for RethinkDB | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Compose for ScyllaDB | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Compose for etcd | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Context Mapping | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | Syndiqué avec Sud des Etats-Unis | Indisponible | 
+| Continuous Delivery | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | Indisponible | 
+| Cost and Asset Management | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Db2 | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
+| Db2 hébergé | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
+| Db2 Warehouse | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
+| Decision Optimization | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
+| DevOps Insights | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Digital Content Checker | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Syndiqué avec Royaume-Uni | Indisponible | 
+| Discovery | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Driver Behavior | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | Syndiqué avec Sud des Etats-Unis | Indisponible | 
+| Event Management | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | 
+| Geospatial Analytics | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Syndiqué avec Royaume-Uni | Indisponible | 
+| Globalization Pipeline | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
+| Historical Instrument Analytics | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Hyper Protect Crypto Services | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Hyper Protect DBaaS | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
+| IBM Cognos Dashboard Embedded | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
+| IBM Identity Mixer | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | 
+| Information Server | Indisponible | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
+| Informix | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | Syndiqué avec Sud des Etats-Unis | Indisponible | 
+| Instrument Analytics | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Internet Services | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | 
+| Internet of Things Platform | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Indisponible | Indisponible | 
+| Investment Portfolio | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Key Protect | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
+| Knowledge Catalog | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
+| Knowledge Studio | Hébergé au Sud des Etats-Unis | Indisponible | Syndiqué avec Sud des Etats-Unis | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Language Translator | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Lift CLI | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Log Analysis | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
+| MQ | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
+| Machine Learning | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
+| Master Data Management | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
+| Message Hub | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
+| Mobile Analytics | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
+| Mobile Foundation | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
+| Surveillance | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Syndiqué avec Sud des Etats-Unis | Hébergé à Sydney | Indisponible | 
+| Natural Language Classifier | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Syndiqué avec Sud des Etats-Unis | Indisponible | 
+| Natural Language Understanding | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Object Storage OpenStack Swift | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
+| Personality Insights | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Portfolio Optimization | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Predictive Market Scenarios | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Push Notifications | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Real-Time Payments | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Runbook Automation | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | 
+| SQL Query | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Secure Gateway | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Syndiqué avec Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé à l'Est des Etats-Unis | 
+| Simulated Historical Instrument Analytics | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Simulated Instrument Analytics | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Speech to Text | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Streaming Analytics | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
+| Text to Speech | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Tone Analyzer | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Visual Recognition | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Voice Agent with Watson | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Watson Assistant (anciennement appelé Conversation) | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Watson Studio | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | 
+| Weather Company Data | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | 
+| WebSphere Application Server | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
+| Workload Scheduler | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
+ {: caption="Tableau 1. Disponibilité des services" caption-side="top"}
