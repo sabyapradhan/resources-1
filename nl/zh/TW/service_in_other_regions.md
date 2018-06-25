@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-06-14"
 
 ---
 
@@ -19,19 +19,19 @@ lastupdated: "2018-01-16"
 
 	若要使用存在於另一個地區的服務實例，請完成下列步驟：
 
-      1. 切換至服務實例所在的地區。在 {{site.data.keyword.Bluemix_notm}} 功能表列中，展開**地區**功能表，然後選取服務實例所在的地區。
+      1. 切換至服務實例所在的地區。從 {{site.data.keyword.Bluemix_notm}} 主控台儀表板展開**位置**功能表，然後選取服務實例存在的地區。
 
       2. 在服務存在的地區中，從服務實例的 VCAP_SERVICES 環境變數擷取認證及連線參數。請完成下列步驟：
 
 	       1. 在 {{site.data.keyword.Bluemix_notm}}「儀表板」中，按一下您的應用程式磚。即會顯示「概觀」頁面。
 	       2. 在導覽窗格中，按一下**認證**。即會顯示 *VCAP_SERVICES* 環境變數詳細資料。請記錄服務實例的 JSON 內容。
 
-      3. 切換至您從想要使用服務實例的地區。在 {{site.data.keyword.Bluemix_notm}} 功能表列中，展開**地區**功能表，然後選取您要使用服務實例的地區。
+      3. 切換至您要使用服務實例的地區。從 {{site.data.keyword.Bluemix_notm}} 主控台儀表板展開**位置**功能表，然後選取您要使用服務實例的地區。
 
-      4. 使用您從 *VCAP_SERVICES* 環境變數記錄的認證及連線參數，建立使用者提供的服務實例。如需如何建立使用者提供之服務實例的相關資訊，請參閱[建立使用者提供的服務實例](/docs/apps/reqnsi.html#user_provide_services)。
+      4. 使用您從 *VCAP_SERVICES* 環境變數記錄的認證及連線參數，建立使用者提供的服務實例。如需相關資訊，請參閱[建立使用者提供的服務實例](/docs/apps/reqnsi.html#user_provide_services)。
 
       5. 使用下列指令，以將使用者提供的服務實例連結至應用程式：
 
 	     ```
-	     bluemix service bind myapp user-provided_service_instance
+	     ibmcloud service bind myapp user-provided_service_instance
 	     ```

@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2017-11-07"
+lastupdated: "2018-05-02"
 
 ---
 
@@ -19,11 +19,13 @@ lastupdated: "2017-11-07"
 {:new_window: target="_blank"}
 
 
-# 服務的疑難排解
+# 服務疑難排解
 {: #services}
 
 {{site.data.keyword.Bluemix}} 服務問題可能包括刪除服務實例時發生的閘道逾時錯誤。您可以遵循一些簡單的步驟，從這些問題中回復。
 {:shortdesc}
+
+{{site.data.keyword.Bluemix_notm}} 中的服務有不同的類型和成熟度。例如，有 IBM 服務和協力廠商服務，而那些服務又有各種層次，例如 GA、測試版和實驗性。依據服務的類型和成熟度，可能會提供不同的支援層次。如需相關資訊，請參閱[如何取得服務的支援？](/docs/get-support/servicessupport.html#support-different-services)
 
 ## 刪除服務實例時發生服務分配管理系統錯誤
 {: #ts_service_broker}
