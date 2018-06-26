@@ -81,7 +81,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Investment Portfolio | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Key Protect | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Knowledge Catalog | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
-| Knowledge Studio | Hosted in US South | Not available | Syndicated from US South | Hosted in Sydney | Hosted in US East | 
+| Knowledge Studio | Hosted in US South | Not available | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Language Translator | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Lift CLI | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Log Analysis | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
