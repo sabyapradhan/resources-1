@@ -3,11 +3,10 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-05-15"
+lastupdated: "2018-06-15"
 
 ---
-
-{:new_window: target="_blank"}  
+{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
 
@@ -19,107 +18,102 @@ lastupdated: "2018-05-15"
 
 No todos los servicios están disponibles para su adquisición en cada región de {{site.data.keyword.Bluemix_notm}}. E, incluso si el servicio está disponible para su adquisición en dicha región, el servicio puede estar alojado en una ubicación diferente. La siguiente tabla muestra los servicios proporcionados por IBM.
 
-Algunos servicios están disponibles de forma global, lo que significa que se despliegan en al menos tres zonas ubicadas en tres regiones distintas de todo el mundo y que se configuran con disponibilidad continua.
+Los servicios alojados globalmente crean recursos que funcionan en varias regiones. Por ejemplo, con {{site.data.keyword.cos_full_notm}} (COS), puede elegir dispersar datos en un único centro de datos, una región entera, o incluso una combinación de regiones [seleccionando el punto final](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) donde la aplicación envía solicitudes de la API REST.
 
 <!-- Do not manually change the table or add content after the table. -->
-<!-- Everything below the second line of the table will be deleted. -->
+<!-- Everything after the second line of the table will be deleted. -->
 <!-- Also, do not change the number of dashes in the second line. -->
-<!-- See @natimpe for details. -->
+<!-- Ping @natimpe for details. -->
 
-| Servicio | Sídney | Alemania | Reino Unido | Este de EE.UU. | EE.UU. sur |
+| Servicio | EE.UU. sur | Reino Unido | Alemania | Sídney | Este de EE.UU. |
 |-----|-----|-----|-----|-----|-----|
-| API Connect | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| API Harmony | Alojado en Sídney | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Activity Tracker | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Alert Notification | Alojado en Sídney | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Analytics Engine | No disponible | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Apache Spark | No disponible | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| App Connect | Alojado en Sídney | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| App ID | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| App Launch | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Auto-Scaling | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| Automated Accessibility Tester | Alojado en Sídney | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Availability Monitoring | Alojado en Sídney | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| BigInsights for Apache Hadoop (Subscription) | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Blockchain | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Business Rules | Alojado en Sídney | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Certificate Manager | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Cloud Object Storage | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente |
-| Cloudant NoSQL DB | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| Compose Enterprise | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| Compose for Elasticsearch | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| Compose for JanusGraph | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| Compose for MongoDB | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| Compose for MySQL | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| Compose for PostgreSQL | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| Compose for RabbitMQ | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| Compose for Redis | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| Compose for RethinkDB | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| Compose for ScyllaDB | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| Compose for etcd | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| Context Mapping | Alojado en Sídney | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Continuous Delivery | No disponible | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Continuous Release | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Cost and Asset Management | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Db2 Hosted | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Db2 Warehouse | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Db2 | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Decision Optimization | No disponible | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| DevOps Insights | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Comprobador de contenido digital | Alojado en Sídney | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Discovery | Sindicado en Sídney | Alojado en Alemania | Sindicado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Driver Behavior | Alojado en Sídney | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Dynamic Dashboard Embedded | No disponible | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Event Management | Alojado en Sídney | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Geospatial Analytics | Alojado en Sídney | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Globalization Pipeline | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Historical Instrument Analytics | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Hyper Protect Crypto Services | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Hyper Protect DBaaS | No disponible | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| IBM Identity Mixer | Alojado en Sídney | No disponible | Alojado en Reino Unido | No disponible | No disponible |
-| Information Server | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Informix | Alojado en Sídney | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Instrument Analytics | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Internet Services | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente |
-| Plataforma Internet de las cosas | No disponible | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Investment Portfolio | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Key Protect | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Knowledge Catalog | No disponible | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Knowledge Studio | No disponible | Alojado en Alemania | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Language Translator | Sindicado en Sídney | Alojado en Alemania | Sindicado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Lift CLI | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Log Analysis | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| MQ | No disponible | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Machine Learning | No disponible | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Master Data Management | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Message Hub | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Mobile Analytics | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Mobile Foundation | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Monitoring and Analytics | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Supervisión | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Natural Language Classifier | Sindicado en Sídney | Alojado en Alemania | Sindicado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Natural Language Understanding | Sindicado en Sídney | Alojado en Alemania | Sindicado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Object Storage OpenStack Swift | No disponible | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Personality Insights | Sindicado en Sídney | Alojado en Alemania | Sindicado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Portfolio Optimization | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Predictive Market Scenarios | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Push Notifications | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| Real-Time Payments | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Runbook Automation | Alojado en Sídney | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| SQL Query | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Secure Gateway | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | Alojado en EE.UU.. este | Alojado en EE.UU. sur| 
-| Simulated Historical Instrument Analytics | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Simulated Instrument Analytics | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Speech to Text | Sindicado en Sídney | Alojado en Alemania | Sindicado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Streaming Analytics | Alojado en Sídney | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Text to Speech | Sindicado en Sídney | Alojado en Alemania | Sindicado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Tone Analyzer | Sindicado en Sídney | Alojado en Alemania | Sindicado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Visual Recognition | Sindicado en Sídney | No disponible | Sindicado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Voice Agent with Watson | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Watson Assistant (antes Conversation) | Sindicado en Sídney | Alojado en Alemania | Sindicado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Watson Data Kits | No disponible | No disponible | No disponible | No disponible | Alojado en EE.UU. sur| 
-| Watson Studio | No disponible | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Weather Company Data | Alojado en Sídney | No disponible | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| WebSphere Application Server | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-| Workload Scheduler | Alojado en Sídney | Alojado en Alemania | Alojado en Reino Unido | No disponible | Alojado en EE.UU. sur| 
-{: caption="Tabla 1. Disponibilidad del servicio" caption-side="top"}
+| API Connect | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Activity Tracker | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
+| Alert Notification | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
+| Analytics Engine | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
+| Apache Spark | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
+| App Connect | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Sindicado de EE.UU. sur | No disponible | 
+| App ID | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
+| App Launch | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Auto-Scaling | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Automated Accessibility Tester | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Sindicado de Reino Unido | No disponible | 
+| Availability Monitoring | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
+| BigInsights for Apache Hadoop (Subscription) | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Blockchain | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Sindicado de EE.UU. sur | Sindicado de EE.UU. sur | No disponible | 
+| Certificate Manager | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Cloud Object Storage | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | 
+| Cloudant | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Compose Enterprise | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Compose for Elasticsearch | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Compose for JanusGraph | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Compose for MongoDB | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Compose for MySQL | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Compose for PostgreSQL | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Compose for RabbitMQ | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Compose for Redis | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Compose for RethinkDB | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Compose for ScyllaDB | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Compose for etcd | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Context Mapping | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | No disponible | Sindicado de EE.UU. sur | No disponible | 
+| Continuous Delivery | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Sindicado de EE.UU. sur | No disponible | No disponible | 
+| Cost and Asset Management | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Db2 | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
+| Db2 Hosted | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
+| Db2 Warehouse | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
+| Decision Optimization | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
+| DevOps Insights | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Comprobador de contenido digital | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Sindicado de Reino Unido | No disponible | 
+| Discovery | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Driver Behavior | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | No disponible | Sindicado de EE.UU. sur | No disponible | 
+| Event Management | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
+| Geospatial Analytics | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Sindicado de Reino Unido | No disponible | 
+| Globalization Pipeline | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
+| Historical Instrument Analytics | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Hyper Protect Crypto Services | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Hyper Protect DBaaS | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
+| IBM Cognos Dashboard Embedded | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
+| IBM Identity Mixer | No disponible | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
+| Information Server | No disponible | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
+| Informix | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | No disponible | Sindicado de EE.UU. sur | No disponible | 
+| Instrument Analytics | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Internet Services | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | 
+| Plataforma Internet de las cosas | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | No disponible | No disponible | 
+| Investment Portfolio | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Key Protect | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
+| Knowledge Catalog | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
+| Knowledge Studio | Alojado en EE.UU. sur | No disponible | Sindicado de EE.UU. sur | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Language Translator | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Lift CLI | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Log Analysis | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
+| MQ | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
+| Machine Learning | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
+| Master Data Management | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
+| Message Hub | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
+| Mobile Analytics | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
+| Mobile Foundation | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
+| Supervisión | Alojado en EE.UU. sur | Alojado en Reino Unido | Sindicado de EE.UU. sur | Alojado en Sídney | No disponible | 
+| Natural Language Classifier | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Sindicado de EE.UU. sur | No disponible | 
+| Natural Language Understanding | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Object Storage OpenStack Swift | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
+| Personality Insights | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Portfolio Optimization | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Predictive Market Scenarios | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Push Notifications | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Real-Time Payments | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Runbook Automation | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
+| SQL Query | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Secure Gateway | Alojado en EE.UU. sur | Alojado en Reino Unido | Sindicado de EE.UU. sur | Sindicado de EE.UU. sur | Alojado en EE.UU.. este | 
+| Simulated Historical Instrument Analytics | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Simulated Instrument Analytics | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Speech to Text | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Streaming Analytics | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
+| Text to Speech | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Tone Analyzer | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Visual Recognition | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Voice Agent with Watson | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Watson Assistant (antes Conversation) | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Watson Studio | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | No disponible | No disponible | No disponible | 
+| Weather Company Data | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
+| WebSphere Application Server | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
+| Workload Scheduler | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
+ {: caption="Tabla 1. Disponibilidad del servicio" caption-side="top"}

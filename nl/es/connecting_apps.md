@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-16"
+lastupdated: "2018-04-12"
 
 ---
 
@@ -68,4 +68,4 @@ La forma más fácil de suprimir el alias es suprimir la instancia de servicio g
 ## Creación de una conexión entre varios servicios
 {: #cf}
 
-Para obtener más información, consulte [Utilización de servicios en otro servicio](/docs/apps/reqnsi.html#add_service).
+Para obtener más información, consulte [Utilización de servicios en otro servicio](/docs/resources/s2s.html#s2s_binding).

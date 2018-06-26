@@ -1,0 +1,29 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="resources" audience="platform" href="/docs/resources/acct_resources.html"}
+Cómo trabajar con recursos y servicios
+
+    {: .navgroup id="learn"}
+    acct_resources.md
+    bestpractice_rgs.md
+    services_region.md
+    services_availability.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    resourcegroups.md
+    instance_migration.md
+
+    {: .topicgroup}
+    Gestión de servicios
+        connecting_apps.md
+        service_credentials.md
+        service_in_other_regions.md
+        s2s.md
+    {: .navgroup-end}
+	
+    {: .navgroup id="help"}
+    ts_services.md
+    ts_migration.md
+    {: .navgroup-end}
