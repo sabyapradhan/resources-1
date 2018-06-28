@@ -28,7 +28,7 @@ Complete the following steps to add a credential to a service that is managed by
 1. From the dashboard, select the name of the service to open the service details page. Then, select the Credentials tab, and click **New Credential +**.
 2. From the Add New Credential dialog, provide a **Name**.
 3. Specify the role. This value sets the IAM service access role. For more information, see [IAM Access](/docs/iam/users_roles.html#userroles).
-4. Optionally, you can provide a Service ID by either allowing IAM to generate a unique value for you, or by providing an existing Service ID. For more information, see [Creating and managing service IDs](https://console.stage1.bluemix.net/docs/iam/serviceid.html#serviceids).
+4. Optionally, you can provide a Service ID by either allowing IAM to generate a unique value for you, or by providing an existing Service ID. For more information, see [Creating and managing service IDs](/docs/iam/serviceid.html#serviceids).
 5. Optionally, you can provide more parameters as a valid JSON object that contains service-specific configuration parameters, provided either inline or in a file.
 
   **Note**. Most services do not require extra parameters, and for services that do, each service defines its own unique list of parameters. For a list of supported configuration parameters, see the documentation for the particular service offering.
