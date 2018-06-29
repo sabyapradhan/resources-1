@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-02"
+lastupdated: "2018-06-20"
 
 ---
 
@@ -22,7 +22,7 @@ lastupdated: "2018-05-02"
 # Fehlerbehebung für Services
 {: #services}
 
-Ein {{site.data.keyword.Bluemix}}-Serviceproblem liegt zum Beispiel vor, wenn für ein Gateway ein Zeitlimitfehler auftritt, sobald Sie eine Serviceinstanz löschen. Sie können solche Probleme durch Ausführen weniger einfacher Schritte beheben.
+Ein {{site.data.keyword.Bluemix}}-Serviceproblem liegt zum Beispiel vor, wenn für ein Gateway ein Zeitlimitfehler auftritt, falls Sie eine Serviceinstanz löschen. Sie können solche Probleme durch Ausführen weniger einfacher Schritte beheben.
 {:shortdesc}
 
 Services in {{site.data.keyword.Bluemix_notm}} können unterschiedliche Typen und Ebenen an Reifegraden aufweisen. So stehen beispielsweise IBM Services und Services von Drittanbietern zur Verfügung und diese Services können Versionen wie 'GA', 'Beta' oder 'Experimentell' aufweisen. Abhängig von Servicetyp und Reifegrad, können unterschiedliche Unterstützungsstufen angeboten werden. Weitere Informationen hierzu finden Sie unter [Unterstützung für Services erhalten](/docs/get-support/servicessupport.html#support-different-services).
@@ -30,7 +30,7 @@ Services in {{site.data.keyword.Bluemix_notm}} können unterschiedliche Typen un
 ## Service-Broker-Fehler beim Löschen einer Serviceinstanz
 {: #ts_service_broker}
 
-Es kann vorkommen, dass eine Fehlernachricht angezeigt wird, wenn Sie versuchen, eine Serviceinstanz zu löschen, die bereits vom Cloud-Controller gelöscht wurde.
+Es kann vorkommen, dass eine Fehlernachricht angezeigt wird, falls Sie versuchen, eine Serviceinstanz zu löschen, die bereits vom Cloud-Controller gelöscht wurde.
 {:shortdesc}
 
 Wenn Sie versuchen, eine Serviceinstanz zu löschen, wird die folgende Service-Broker-Fehlernachricht über eine Gateway-Zeitlimitüberschreitung angezeigt:

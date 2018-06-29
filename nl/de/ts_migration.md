@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-05-31"
+lastupdated: "2018-06-19"
 
 ---
 
@@ -19,14 +19,14 @@ lastupdated: "2018-05-31"
 
 Wenn bei der Migration einer Cloud Foundry-Serviceinstanz zu einer Ressourcengruppe Fehler auftreten, prüfen Sie die folgenden gängigen Probleme auf Informationen, die Ihnen dabei helfen, die Migration fortzusetzen.
 
-## Was passiert, wenn ich meine Serviceinstanz in die falsche Ressourcengruppe migriert habe?
+## Eine Serviceinstanz wurde zur falschen Ressourcengruppe migriert
 
-Derzeit können Sie Ressourcen nicht zwischen Ressourcengruppen verschieben, nachdem sie zugewiesen wurden. Wenn Sie also eine Instanz in die falsche Ressourcengruppe migriert haben, können Sie versuchen, die Instanz zu löschen und eine neue aus dem Katalog zu erstellen. Sie können sie der richtigen Ressourcengruppe zuweisen, wenn Sie die Instanz erstellen.
+Sie können Ressourcen nicht zwischen Ressourcengruppen verschieben, nachdem sie zugewiesen wurden. Wenn Sie also eine Instanz der falschen Ressourcengruppe zugewiesen haben, können Sie versuchen, die Instanz zu löschen und eine neue aus dem Katalog zu erstellen. Sie können sie der richtigen Ressourcengruppe zuweisen, wenn Sie die Instanz erstellen.
 
-## Warum kann ich nicht migrieren?
+## Ein Benutzer in dem Konto kann eine berechtigte Instanz nicht migrieren
 
-Möglicherweise verfügen Sie nicht über die erforderliche Zugriffsrechte für das Migrieren einer Serviceinstanz. Weitere Informationen finden Sie unter [Wer kann Serviceinstanzen migrieren?](/docs/account/instance_migration.html#whocanmigrate)
+Möglicherweise verfügen Sie nicht über die erforderliche Zugriffsrechte für das Migrieren einer Serviceinstanz. Weitere Informationen finden Sie unter [Wer kann Serviceinstanzen migrieren?](/docs/resources/instance_migration.html#whocanmigrate) 
 
-## Warum kommen nicht alle meine Services für die Migration infrage?
+## Nicht alle Services sind für die Migration berechtigt
 
-Derzeit sind nicht alle Services für die Verwaltung mithilfe von IAM-Zugriffssteuerung und -Ressourcengruppen verfügbar. Sie werden benachrichtigt, wenn Services die Verwendung von IAM zulassen, falls Sie über die entsprechenden Zugriffsberechtigungen zum Abschließen der Migrationstask verfügen.
+Derzeit können nicht alle Services zu Ressourcengruppen hinzugefügt und mithilfe von IAM-Zugriffssteuerung und -Ressourcengruppen verwaltet werden. Sie werden benachrichtigt, wenn Services berechtigt werden, falls Sie über die entsprechenden Zugriffsberechtigungen zum Abschließen der Migrationstask verfügen. 

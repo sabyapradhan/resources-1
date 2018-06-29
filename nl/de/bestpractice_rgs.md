@@ -21,7 +21,7 @@ Derzeit unterstützen nicht alle Services die Verwendung der Zugriffssteuerung {
 
 Sie können die Liste der von IAM verwalteten Services auch anzeigen, wenn Sie in der IAM-Benutzerschnittstelle Zugriff auf die Ressourcen zuordnen. Wechseln Sie zu **Verwalten** &gt; **Sicherheit** &gt; **Identität und Zugriff**, wählen Sie anschließend einen Benutzer oder eine Service-ID aus und wählen Sie **Zugriff zuweisen** im Menü **Aktionen** aus. Wählen Sie danach **Zugriff auf Ressourcen zuweisen** aus; im Dropdown-Menü **Services** können Sie die Services anzeigen, von denen die Verwendung von IAM unterstützt wird. Für alle Services, von denen die Verwendung von IAM noch nicht unterstützt wird, können Sie weiterhin Cloud Foundry-Organisationen, -Bereiche und -Rollen verwenden. 
 
-Cloud Foundry-Organisationen, -Bereiche und -Rollen unterscheiden sich deutlich von IAM-Rollen. Aus diesem Grund kann von einer Cloud Foundry-Rolle niemals Zugriff auf Ressourcen in einer Ressourcengruppe gewährt werden.
+Cloud Foundry-Organisationen, -Bereiche und -Rollen unterscheiden sich deutlich von IAM-Rollen. Aus diesem Grund kann von einer Cloud Foundry-Rolle niemals Zugriff auf Ressourcen in einer Ressourcengruppe gewährt werden. 
 {: tip}
 
 
@@ -64,7 +64,7 @@ Weitere Informationen zu den zwei Arten des Zugriffs und den Möglichkeiten des 
 | Anzeigeberechtigten-Rolle  | Gruppe und Merkmale, aber nicht Ressourcen in der Gruppe anzeigen | Ressourcen in der Gruppe anzeigen | 
 | Operatorrolle | Nicht zutreffend | Nicht zutreffend | 
 | Bearbeiterrolle | Name oder Merkmale der Gruppe anzeigen oder bearbeiten, aber nicht der Ressourcen in der Gruppe | Zugriff auf Ressourcen in Ressourcengruppe erstellen, löschen, bearbeiten, aussetzen, wiederaufnehmen, anzeigen, binden und verwalten |
-| Administratorrolle | Zugriff auf Gruppe anzeigen, bearbeiten oder verwalten, aber nicht auf Ressourcen in der Gruppe | Zugriff auf Ressourcen in Ressourcengruppe erstellen, löschen, bearbeiten, aussetzen, wiederaufnehmen, anzeigen, binden und verwalten | 
+| Administratorrolle |  Zugriff auf Gruppe anzeigen, bearbeiten oder verwalten, aber nicht auf Ressourcen in der Gruppe | Zugriff auf Ressourcen in Ressourcengruppe erstellen, löschen, bearbeiten, aussetzen, wiederaufnehmen, anzeigen, binden und verwalten | 
 {: caption="Tabelle 1. Zugriff auf Ressourcengruppen" caption-side="top"}
 
 Wenn ein Benutzer in der Lage sein soll, eine neue Serviceinstanz zu erstellen und diese zu einer Ressourcengruppe hinzufügen zu können, muss dem Benutzer die Rolle eines Anzeigeberechtigten oder eine Rolle mit mehr Berechtigungen für die Ressourcengruppe sowie die Rolle eines Editors (Bearbeiters) für den Service zugewiesen sein.
