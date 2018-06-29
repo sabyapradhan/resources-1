@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-06-11"
+lastupdated: "2018-06-20"
 
 ---
 
@@ -18,12 +18,12 @@ lastupdated: "2018-06-11"
 # 将 Cloud Foundry 服务实例迁移到资源组
 {: #migrate}
 
-为了使您有更简单、更灵活的 {{site.data.keyword.Bluemix}} 使用体验，我们引入了[资源组](/docs/resources/resourcegroups.html#rgs)，资源组在概念上类似于 Cloud Foundry 空间。但是，资源组还包含更多优点，例如使用 IBM Cloud Identity and Access Management (IAM) 进行更细颗粒度的访问控制、能够将服务实例连接到不同区域的应用程序和服务，以及轻松查看每个组的使用情况。
+为了使您有更简单、更灵活的 {{site.data.keyword.Bluemix}} 使用体验，{{site.data.keyword.Bluemix}} 引入了[资源组](/docs/resources/resourcegroups.html#rgs)，资源组在概念上类似于 Cloud Foundry 空间。但是，资源组还包含若干额外的优点，例如使用 IBM Cloud Identity and Access Management (IAM) 进行更细颗粒度的访问控制、能够将服务实例连接到不同区域的应用程序和服务，以及轻松查看每个组的使用情况。
 {:shortdesc}
 
-我们将开始从 Cloud Foundry 迁移服务以受益于资源组，这意味着在仪表板上看到某个服务的旁边有 ![将此服务实例迁移到资源组](images/migrate.svg "将此服务实例迁移到资源组") 图标时，就必须启动相应服务实例的迁移计划，以将其从当前的 Cloud Foundry 组织和空间迁移到资源组。在 {{site.data.keyword.Bluemix_notm}} 服务从使用 Cloud Foundry 组织、空间和角色迁移到使用 IAM 和资源组之后，才能将现有 Cloud Foundry 服务实例迁移到资源组。
+{{site.data.keyword.Bluemix_notm}} 将开始从 Cloud Foundry 迁移服务以受益于资源组。您在仪表板上看到某个服务的旁边有 ![将此服务实例迁移到资源组](images/migrate.svg "将此服务实例迁移到资源组") 图标时，就必须启动相应服务实例的迁移计划，以将其从当前的 Cloud Foundry 组织和空间迁移到资源组。在 {{site.data.keyword.Bluemix_notm}} 服务从使用 Cloud Foundry 组织、空间和角色迁移到使用 IAM 和资源组之后，才能将现有 Cloud Foundry 服务实例迁移到资源组。
 
-如果将现有 Cloud Foundry 服务实例迁移到资源组，那么在迁移完成后无法更改所选的资源组。因此，在迁移之前，计划好资源在帐户中的组织方式至关重要。这可能意味着在迁移之前，您需要创建一个或多个资源组（如果您有计费帐户）。 
+如果将现有 Cloud Foundry 服务实例迁移到资源组，那么在迁移完成后无法更改所选的资源组。因此，在迁移之前，计划好资源在帐户中的组织方式至关重要。因此，在迁移之前，您可能需要创建一个或多个资源组（如果您有付费帐户）。 
 
 您可以尝试按照在 Cloud Foundry 空间中组织资源的方式按资源组来组织资源。有关使用资源组的更多信息，请参阅[将资源组织成资源组的最佳实践](/docs/resources/bestpractice_rgs.html#bp_resourcegroups)。
 {: tip}
@@ -63,7 +63,7 @@ lastupdated: "2018-06-11"
 
 当仪表板上显示与 Cloud Foundry 服务实例相关联的 ![将此服务实例迁移到资源组](images/migrate.svg "将此服务实例迁移到资源组") 图标时，就会迁移服务实例（一次一个）。
 
-启动迁移过程之前，请查看服务文档，以了解在将服务实例迁移到资源组时，可能必须进行的其他任何特定于服务的更改。例如，如果删除了 Cloud Foundry 别名，那么可能需要将旧实例中的数据迁移到新实例或更新用于应用程序的凭证。直接调用已迁移服务的 API 的应用程序需要更新该 API 调用，以使用 IAM API 密钥或访问令牌。
+启动迁移过程之前，请查看服务文档，以了解是否必须进行其他任何特定于服务的更改。例如，如果删除了 Cloud Foundry 别名，那么可能需要将旧实例中的数据迁移到新实例或更新用于应用程序的凭证。直接调用已迁移服务的 API 的应用程序需要更新该 API 调用，以使用 IAM API 密钥或访问令牌。
 {: tip}
 
 1. 打开**更多操作**菜单。
