@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-05-02"
+lastupdated: "2018-06-20"
 
 ---
 
@@ -22,15 +22,15 @@ lastupdated: "2018-05-02"
 # Traitement des incidents liés aux services
 {: #services}
 
-Des problèmes liés au service {{site.data.keyword.Bluemix}} peuvent survenir, par exemple, une erreur de dépassement de délai d'attente de la passerelle peut se produire lorsque vous supprimez une instance de service. Ces problèmes peuvent être résolus en quelques opérations simples.
+Des problèmes liés au service {{site.data.keyword.Bluemix}} peuvent survenir, par exemple, une erreur de dépassement de délai d'attente de la passerelle peut se produire si vous supprimez une instance de service. Ces problèmes peuvent être résolus en quelques opérations simples.
 {:shortdesc}
 
-Il existe trois différents types et niveaux de maturité pour les services disponibles dans {{site.data.keyword.Bluemix_notm}} :  services IBM et services tiers, par exemple, ainsi que les niveaux s'appliquant à ces services (GA, bêta et expérimental). En fonction du type de service et du niveau de maturité, différents niveaux de support peuvent être proposés. Pour plus d'informations, voir [Comment obtenir de l'aide pour des services ?](/docs/get-support/servicessupport.html#support-different-services)
+Il existe différents types et niveaux de maturité dans {{site.data.keyword.Bluemix_notm}} :  services IBM et services tiers, par exemple, ainsi que les niveaux s'appliquant à ces services (GA, bêta et expérimental). En fonction du type de service et du niveau de maturité, différents niveaux de support peuvent être proposés. Pour plus d'informations, voir [Comment obtenir de l'aide pour des services ?](/docs/get-support/servicessupport.html#support-different-services)
 
 ## Une erreur du courtier de services se produit lorsque vous supprimez une instance de service
 {: #ts_service_broker}
 
-Il se peut que vous receviez un message d'erreur lorsque vous tentez de supprimer une instance de service qui a déjà été supprimée du contrôleur de cloud.
+Il se peut que vous receviez un message d'erreur si vous tentez de supprimer une instance de service qui a déjà été supprimée du contrôleur de cloud.
 {:shortdesc}
 
 Lorsque vous tentez de supprimer une instance de service, le message d'erreur de courtier de services suivant s'affiche :

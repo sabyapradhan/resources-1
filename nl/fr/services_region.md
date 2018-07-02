@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-15"
+lastupdated: "2018-06-21"
 
 ---
 {:new_window: target="_blank"}
@@ -13,12 +13,10 @@ lastupdated: "2018-06-15"
 # Services par région
 {: #services_region}
 
-{{site.data.keyword.Bluemix}} simplifie l'implémentation, l'hébergement et la mise à l'échelle des services et des applications. Ainsi,
-vous pouvez vous consacrer à la logique et à la conception de l'application.
+{{site.data.keyword.Bluemix}} simplifie l'implémentation, l'hébergement et la mise à l'échelle des services et des applications. Ainsi, vous pouvez vous consacrer à la logique et à la conception de l'application.
 {:shortdesc}
 
-Les services ne sont pas tous disponibles à l'achat dans toutes les régions {{site.data.keyword.Bluemix_notm}}. De plus, même si le
-service est disponible à l'achat dans une région, il se peut qu'il soit hébergé ailleurs. Le tableau ci-dessous répertorie les services qui sont fournis par IBM.
+Les services ne sont pas tous disponibles à l'achat dans toutes les régions {{site.data.keyword.Bluemix_notm}}. De plus, même si le service est disponible à l'achat dans une région, il se peut qu'il soit hébergé ailleurs. Le tableau ci-dessous répertorie les services qui sont fournis par IBM.
 
 Les services avec hébergement global créent des ressources qui opèrent sur plusieurs régions. Par exemple, avec {{site.data.keyword.cos_full_notm}} (COS), vous pouvez choisir de disperser les données entre plusieurs centres de données, une région entière, ou même une combinaison de régions, en [sélectionnant le noeud final](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) auquel votre application envoie les demandes d'API REST.
 

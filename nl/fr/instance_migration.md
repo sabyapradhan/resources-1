@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-06-11"
+lastupdated: "2018-06-20"
 
 ---
 
@@ -18,12 +18,13 @@ lastupdated: "2018-06-11"
 # Migration des instances de service Cloud Foundry vers un groupe de ressources
 {: #migrate}
 
-Pour simplifier et rendre plus flexible l'utilisation de {{site.data.keyword.Bluemix}}, nous avons mis à votre disposition des [groupes de ressources](/docs/resources/resourcegroups.html#rgs), dont le concept est similaire à celui des espaces Cloud Foundry. Toutefois, les groupes de ressources offrent plusieurs avantages, comme un contrôle d'accès à granularité fine via l'utilisation d'IBM Cloud Identity and Access Management (IAM), la possibilité de connecter des instances de service à des applications et des services de différentes régions et ainsi qu'un affichage de l'utilisation par groupe.
+Pour que l'utilisation d'{{site.data.keyword.Bluemix}} soit plus simple et plus flexible, {{site.data.keyword.Bluemix}} inclut des [groupes de ressources](/docs/resources/resourcegroups.html#rgs), dont le concept est similaire à celui des espaces Cloud Foundry. Toutefois, les groupes de ressources offrent plusieurs avantages, comme un contrôle d'accès à granularité fine via l'utilisation d'IBM Cloud Identity and Access Management (IAM), la possibilité de connecter des instances de service à des applications et des services de différentes régions ainsi qu'un affichage de l'utilisation par groupe.
 {:shortdesc}
 
-Nous commençons par déplacer les services depuis Cloud Foundry pour bénéficier des avantages des groupes de ressources. Lorsque voyez l'icône de ![Migration de cette instance de service vers un groupe de ressources](images/migrate.svg "migration de cette instance de service vers un groupe de ressources") en regard d'un de vos services sur votre tableau de bord, vous devez commencer un plan de migration pour que vos instances de service soient déplacées de leur espace et organisation Cloud Foundry en cours dans un groupe de ressources. Tant qu'un service {{site.data.keyword.Bluemix_notm}} utilise des rôles, des espaces et des organisations Cloud Foundry et non IAM et des groupes de ressources, vous ne pouvez pas migrer vos instances de service Cloud Foundry existantes dans un groupe de ressources.
+{{site.data.keyword.Bluemix_notm}} déplace les services depuis Cloud Foundry pour bénéficier des avantages des groupes de ressources. Lorsque vous voyez l'icône de ![Migration de cette instance de service vers un groupe de ressources](images/migrate.svg "migration de cette instance de service vers un groupe de ressources") en regard d'un de vos services dans le tableau de bord, vous devez commencer un plan de migration pour que vos instances de service soient déplacées de leur espace et organisation Cloud Foundry en cours dans un groupe de ressources. Tant qu'un service {{site.data.keyword.Bluemix_notm}} utilise des rôles, des espaces et des organisations Cloud Foundry et non IAM et des groupes de ressources, vous ne pouvez pas migrer vos instances de service Cloud Foundry existantes dans un groupe de ressources.
 
-Lorsque vous faites migrer des instances de service Cloud Foundry existantes vers un groupe de ressources, le groupe que vous choisissez ne peut pas être modifié une fois la migration terminée. Par conséquent, vous devez prendre soin de planifier la façon dont vous souhaitez organiser les ressources dans le compte avant de procéder à la migration. Cela peut signifier que vous devez créer un ou plusieurs groupes de ressources, si vous disposez d'un compte facturable, avant de procéder à la migration. 
+Lorsque vous faites migrer des instances de service Cloud Foundry existantes vers un groupe de ressources, le groupe que vous choisissez ne peut pas être modifié une fois la migration terminée. Par conséquent, vous devez prendre soin de planifier la façon dont vous souhaitez organiser les ressources dans le compte avant de procéder à la migration. Par conséquent, il se peut que vous deviez créer un ou plusieurs groupes de ressources, si vous disposez d'un compte facturable, avant de procéder à la migration.
+ 
 
 Vous pouvez essayer d'organiser vos ressources dans des groupes de ressources de la même façon que vous avez organisé vos ressources dans des espaces Cloud Foundry. Pour plus d'informations sur l'utilisation des groupes de ressources, voir [Meilleures pratiques en matière d'organisation des ressources dans un groupe de ressources](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 {: tip}
@@ -63,7 +64,7 @@ Lors de la migration d'une instance de service depuis une organisation et un esp
 
 Les instances de service sont migrées l'une après l'autre lorsque vous recevez une notification sur le tableau de bord sous la forme d'une icône de ![Migration de cette instance de service dans un groupe de ressources](images/migrate.svg "migration de cette instance de service dans un groupe de ressources") associée à votre instance de service Cloud Foundry.
 
-Avant de commencer le processus de migration, consultez la documentation du produit pour voir s'il existe des modifications supplémentaires spécifiques au service à effectuer lors de la migration de votre instance de service dans un groupe de ressources. Par exemple, il peut être nécessaire de migrer des données d'anciennes instances vers de nouvelles instances ou de mettre à jour les données d'identification utilisées pour votre application si vous supprimez l'alias Cloud Foundry. Les applications appelant directement l'API d'un service ayant été migré doivent mettre à jour l'appel d'API afin d'utiliser soit une clé d'API IAM, soit un jeton d'accès.
+Avant de commencer le processus de migration, consultez la documentation du produit pour voir s'il existe des modifications supplémentaires spécifiques au service à effectuer. Par exemple, il peut être nécessaire de migrer des données d'anciennes instances vers de nouvelles instances ou de mettre à jour les données d'identification utilisées pour votre application si vous supprimez l'alias Cloud Foundry. Les applications appelant directement l'API d'un service ayant été migré doivent mettre à jour l'appel d'API afin d'utiliser soit une clé d'API IAM, soit un jeton d'accès.
 {: tip}
 
 1. Ouvrez le menu **Plus d'actions**.
@@ -81,7 +82,7 @@ Une fois que vous avez migré vos instances de service Cloud Foundry dans un gro
 
 Pour plus d'informations sur l'affectation de l'accès aux ressources de vos groupes de ressources, voir [Affectation de l'accès à des groupes de ressources et aux ressources s'y trouvant](/docs/resources/bestpractice_rgs.html#assigning-access-to-resource-groups-and-the-resources-within-them).
 
-Consultez également la documentation du service afin de voir s'il est nécessaire d'effectuer des mises à jour de vos applications existantes une fois la migration terminée. 
+Consultez également la documentation du service afin de voir s'il est nécessaire d'effectuer des mises à jour pour vos applications existantes une fois la migration terminée. 
 
 
 ## Traitement des incidents
