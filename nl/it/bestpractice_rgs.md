@@ -12,20 +12,20 @@ lastupdated: "2018-06-08"
 {:tip: .tip}
 
 
-# Procedure ottimali per organizzare le risorse in un gruppo di risorse 
+# Procedure ottimali per organizzare le risorse in un gruppo di risorse
 {: #bp_resourcegroups}
 
-I gruppi di risorse sono una funzione per organizzare le [risorse](/docs/resources/acct_resources.html#resource) del tuo account per il controllo dell'accesso e per scopi di fatturazione. Se hai familiarità con l'utilizzo degli spazi Cloud Foundry, puoi pensare di organizzare le risorse in gruppi di risorse in modo simile a come hai organizzato le risorse negli spazi. Una risorsa è qualsiasi cosa possa essere creata, gestita e contenuta in un gruppo di risorse. Gli utenti non vengono aggiunti ai gruppi di risorse. Solo le risorse possono essere aggiunte.  
+I gruppi di risorse sono una funzione per organizzare le [risorse](/docs/resources/acct_resources.html#resource) del tuo account per il controllo dell'accesso e per scopi di fatturazione. Se hai familiarità con l'utilizzo degli spazi Cloud Foundry, puoi pensare di organizzare le risorse in gruppi di risorse in modo simile a come hai organizzato le risorse negli spazi. Una risorsa è qualsiasi cosa possa essere creata, gestita e contenuta in un gruppo di risorse. Gli utenti non vengono aggiunti ai gruppi di risorse. Solo le risorse possono essere aggiunte. 
 
 Al momento, non tutti i servizi supportano l'utilizzo del controllo dell'accesso {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) e l'assegnazione a un gruppo di risorse. I servizi gestiti IAM ti richiedono di assegnare le nuove istanze del servizio a un gruppo di risorse quando le crei dal catalogo. L'accesso alle risorse in un gruppo di risorse e al gruppo stesso viene gestito da IAM. Utilizzando i ruoli IAM, puoi fornire agli utenti l'accesso alle risorse organizzate all'interno dei gruppi di risorse. I ruoli IAM possono inoltre fornire la capacità di visualizzare, modificare, aggiungere nuove istanze o gestire l'accesso a un gruppo di risorse.
 
 Puoi inoltre trovare un elenco di servizi gestiti IAM quando assegni l'accesso alle risorse dalla IU Identità e accesso. Vai a **Gestisci** &gt; **Sicurezza** &gt; **Identità e accesso**, seleziona un qualsiasi utente o ID servizio e seleziona **Assegna accesso** dal menu **Azioni**. Quindi, seleziona **Assegna l'accesso alle risorse** e nel menu a discesa **Servizi** puoi visualizzare i servizi che supportano l'utilizzo di IAM. Per tutti i servizi che ancora non supportano l'utilizzo di IAM, puoi continuare ad utilizzare i ruoli, gli spazi e le organizzazioni Cloud Foundry. 
 
-I ruoli, gli spazi e le organizzazioni Cloud Foundry sono chiaramente separati dai gruppi di risorse e dai ruoli IAM. Pertanto, un ruolo Cloud Foundry non può mai concedere l'accesso alle risorse in un gruppo di risorse.
+I ruoli, gli spazi e le organizzazioni Cloud Foundry sono chiaramente separati dai gruppi di risorse e dai ruoli IAM. Pertanto, un ruolo Cloud Foundry non può mai concedere l'accesso alle risorse in un gruppo di risorse. 
 {: tip}
 
 
-## Configurazione dei tuoi gruppi di risorse 
+## Configurazione dei tuoi gruppi di risorse
 
 Tutti gli utenti ottengono un solo gruppo di risorse per impostazione predefinita che può essere ridenominato. Se hai un account fatturabile, puoi creare più di un gruppo di risorse per organizzare le tue risorse. Organizzando le risorse in gruppi di risorse differenti, puoi:
 
@@ -76,13 +76,13 @@ Se vuoi che un utente possa creare una nuova istanza del servizio e aggiungerla 
 Controlla le seguenti politiche di accesso di esempio per aiutarti a determinare come potresti assegnare l'accesso alle risorse nel tuo account che appartengono ai gruppi di risorse.
 
 1. Una politica che concede all'utente il ruolo della piattaforma “Amministratore” in {{site.data.keyword.Bluemix_notm}} Container Service nell'intero account. Una politica con questi dettagli consente all'utente di accedere a tutte le istanze di questo servizio e di creare le istanze del servizio in qualsiasi gruppo di risorse in cui l'utente ha un ruolo di visualizzatore. Gli utenti con il ruolo di amministratore in una qualsiasi risorsa possono concedere anche ad altri utenti l'accesso a tale risorsa.
-2. Una politica che concede all'utente il ruolo della piattaforma “Visualizzatore” in un gruppo di risorse, ma non alle sue risorse membro. Una politica con questi dettagli consente all'utente la visibilità del gruppo di risorse, che è obbligatoria per creare le istanze di ogni servizio in questo gruppo di risorse. 
+2. Una politica che concede all'utente il ruolo della piattaforma “Visualizzatore” in un gruppo di risorse, ma non alle sue risorse membro. Una politica con questi dettagli consente all'utente la visibilità del gruppo di risorse, che è obbligatoria per creare le istanze di ogni servizio in questo gruppo di risorse.
 3. Una politica che concede all'utente il ruolo della piattaforma “Editor” per tutte le risorse nel gruppo di risorse. Un utente con il ruolo di editor in una risorsa può modificare o eliminare tale risorsa.
 4. Una politica che concede all'utente il ruolo della piattaforma “Amministratore” nell'intero account (tutti i servizi gestiti IAM). Una politica con questi dettagli consente all'utente di eseguire tutte le azioni della piattaforma su qualsiasi risorsa nell'intero account e inoltre include la capacità di eseguire le azioni di gestione della piattaforma nell'account come la gestione dei gruppi di risorse nell'account.
 
 ## Esempi di casi di utilizzo
 
-Per ognuno di questi casi di utilizzo, se hai un gruppo di utenti che vuoi abbiano tutti lo stesso livello di accesso, aggiungili a un [gruppo di accesso](/docs/iam/groups.html#groups). Utilizzando i gruppi di accesso, puoi utilizzare un numero minimo di politiche di accesso perché tutti i membri nel gruppo di accesso ereditano l'accesso assegnato al gruppo.
+Per ognuno di questi casi di utilizzo, se hai un gruppo di utenti che vuoi abbiano tutti lo stesso livello di accesso, aggiungili a un [gruppo di accesso](/docs/iam/groups.html#groups). Utilizzando i gruppi di accesso, puoi usare un numero minimo di politiche di accesso poiché tutti i membri del gruppo di accesso ereditano l'accesso assegnato al gruppo.
 {: tip}
 
 1. Ho un piccolo account con solo 10 utenti che lavorano insieme su un solo progetto. Alcuni di questi utenti hanno bisogno di gestire e assegnare ad altri utenti l'accesso. Alcuni degli utenti hanno bisogno di poter eseguire il provisioning delle istanze del servizio che comporterà delle spese. Altri utenti sono sviluppatori dell'applicazione che devono solo essere in grado di utilizzare le istanze del servizio dai propri componenti dell'applicazione. A tutti questi utenti dovrebbero essere concessi vari ruoli nell'account e nel gruppo di risorse predefinito - non c'è bisogno di creare ulteriori gruppi di risorse per separare le risorse o limitare alcuni utenti dall'accedere ad alcune risorse. Agli utenti possono essere concessi i ruoli nell'account e nel gruppo di risorse predefinito appropriati ai loro bisogni - amministratore dell'account per gli utenti che devono poter gestire l'account e fornire ad altri l'accesso, editor nel gruppo di risorse predefinito e ai suoi membri per gli utenti che devono poter eseguire il provisioning delle istanze del servizio e scrittore o lettore nei membri del gruppo di risorse per gli utenti che hanno soltanto bisogno di utilizzare le istanze del servizio.

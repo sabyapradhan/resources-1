@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-05-31"
+lastupdated: "2018-06-19"
 
 ---
 
@@ -17,16 +17,16 @@ lastupdated: "2018-05-31"
 
 # Risoluzione dei problemi relativi alla migrazione delle istanze del servizio
 
-Se riscontri dei problemi durante la migrazione un'istanza del servizio Cloud Foundry a un gruppo di risorse, esamina i seguenti problemi comuni per aiutarti a procedere con la migrazione.
+Se riscontri dei problemi durante la migrazione di un'istanza del servizio Cloud Foundry a un gruppo di risorse, esamina i seguenti problemi comuni per aiutarti a procedere.
 
-## Cosa succede se ho migrato la mia istanza del servizio nel gruppo di risorse sbagliato?
+## Un'istanza del servizio è stata migrata al gruppo di risorse sbagliato
 
-Attualmente, non puoi spostare le risorse tra i gruppi di risorse dopo che sono state assegnate. Quindi, se hai migrato un'istanza nel gruppo di risorse sbagliato, puoi provare ad eliminare l'istanza e a crearne una nuova dal catalogo. Puoi assegnare l'istanza al gruppo di risorse corretto mentre la stai creando.
+Non puoi spostare le risorse tra i gruppi di risorse dopo che sono state assegnate. Quindi, se hai assegnato un'istanza al gruppo di risorse sbagliato, puoi provare a eliminare l'istanza e a crearne una nuova dal catalogo. Puoi assegnare l'istanza al gruppo di risorse corretto durante la sua creazione.
 
-## Perché non riesco ad eseguire la migrazione?
+## Un utente nell'account non può migrare un'istanza idonea
 
-Potresti non disporre dell'accesso corretto per migrare un'istanza del servizio. Per ulteriori informazioni, consulta [Chi può migrare le istanze del servizio](/docs/account/instance_migration.html#whocanmigrate).
+È possibile che non ti sia stato assegnato l'accesso corretto per migrare un'istanza del servizio. Per ulteriori informazioni, vedi [Chi può migrare le istanze del servizio?](/docs/resources/instance_migration.html#whocanmigrate).
 
-## Perché non tutti i miei servizi sono idonei per la migrazione?
+## Non tutti i servizi sono idonei per la migrazione
 
-Attualmente, non tutti i servizi sono disponibili per essere gestiti utilizzando il controllo dell'accesso IAM e i gruppi di risorse. Se disponi dell'accesso per completare l'attività di migrazione, riceverai una notifica quando i servizi abilitano l'utilizzo di IAM.
+Non tutti i servizi sono disponibili per essere aggiunti ai gruppi di risorse e gestiti tramite Identity and Access Management. Se disponi dell'accesso per completare l'attività di migrazione, riceverai una notifica quando i servizi saranno idonei.
