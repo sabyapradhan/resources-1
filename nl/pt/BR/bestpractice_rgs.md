@@ -21,7 +21,7 @@ Atualmente, nem todos os serviços suportam o uso de controle de acesso do {{sit
 
 Também é possível localizar a lista de serviços gerenciados pelo IAM quando você designa acesso aos recursos da UI do Identity and Access. Acesse **Gerenciar** &gt; **Segurança** &gt; **Identidade e acesso**, em seguida, selecione qualquer ID do usuário ou serviço e selecione **Designar acesso** no menu **Ações**. Em seguida, selecione **Designar acesso a recursos** e, no menu suspenso **Serviços**, é possível visualizar os serviços que suportam o uso do IAM. Para todos os serviços que ainda não suportam o uso do IAM, é possível continuar a usar as organizações, os espaços e as funções do Cloud Foundry. 
 
-As organizações, os espaços e as funções do Cloud Foundry são claramente separados dos grupos de recursos e funções do IAM. Portanto, uma função do Cloud Foundry nunca pode conceder acesso a recursos dentro de um grupo de recursos.
+As organizações, os espaços e as funções do Cloud Foundry são claramente separados dos grupos de recursos e funções do IAM. Portanto, uma função do Cloud Foundry nunca pode conceder acesso a recursos dentro de um grupo de recursos. 
 {: tip}
 
 
@@ -65,7 +65,7 @@ Revise a tabela a seguir para obter mais informações sobre os dois tipos de ac
 | Função de visualizador  | Visualizar o grupo e suas características, mas não os recursos no grupo | Visualizar recursos no grupo | 
 | Função de operador | Não aplicável | Não aplicável | 
 | Função do editor | Visualizar ou editar o nome ou outras características do grupo, mas não os recursos no grupo | Criar, excluir, editar, suspender, continuar, visualizar, ligar e gerenciar o acesso de recursos no grupo de recursos |
-| Função de administrador | Visualizar, editar ou gerenciar o acesso para o grupo, mas não os recursos no grupo | Criar, excluir, editar, suspender, continuar, visualizar, ligar e gerenciar o acesso de recursos no grupo de recursos | 
+| Função de administrador |  Visualizar, editar ou gerenciar o acesso para o grupo, mas não os recursos no grupo | Criar, excluir, editar, suspender, continuar, visualizar, ligar e gerenciar o acesso de recursos no grupo de recursos | 
 {: caption="Tabela 1. Acesso para grupos de recursos" caption-side="top"}
 
 Se você deseja que um usuário possa criar uma nova instância de serviço e incluí-la em um grupo de recursos, o usuário deve ser designado como um Visualizador ou acima no grupo de recursos e Editor ou acima no serviço.
@@ -83,7 +83,7 @@ Revise as políticas de acesso de amostra a seguir para ajudá-lo a determinar c
 
 ## Exemplos de Caso de Uso
 
-Para cada um desses casos de uso, se tiver um grupo de usuários que você deseja que todos tenham o mesmo nível de acesso, inclua-os em um [grupo de acesso](/docs/iam/groups.html#groups). Usando grupos de acesso, é possível usar um número mínimo de políticas de acesso porque todos os membros do grupo de acesso herdam o acesso designado ao grupo.
+Para cada um desses casos de uso, se tiver um grupo de usuários que você deseja que todos tenham o mesmo nível de acesso, inclua-os em um [grupo de acesso](/docs/iam/groups.html#groups). Ao usar grupos de acesso, é possível usar um número mínimo de políticas de acesso já que todos os membros do grupo de acesso herdam o acesso designado ao grupo.
 {: tip}
 
 1. Eu tenho uma conta pequena com somente 10 usuários, que trabalham todos juntos em um único projeto. Alguns desses usuários precisam ser capazes de gerenciar a conta e designar acesso a outros usuários. Alguns dos usuários precisam ser capazes de provisionar instâncias de serviço que incorrerão em despesas. Outros usuários são desenvolvedores de aplicativos que precisam somente ser capazes de usar as instâncias de serviço de seus componentes de aplicativo. Todos esses usuários devem ter várias funções concedidas na conta e no grupo de recursos padrão, não há necessidade de criar grupos de recursos adicionais para separar recursos ou restringir alguns usuários de acessar alguns dos recursos. Os usuários podem ter as funções adequadas às suas necessidades concedidas na conta e no grupo de recursos padrão – Administrador na conta para usuários que precisam ser capazes de gerenciar a conta e fornecer acesso aos outros, Editor no grupo de recursos padrão e em seus membros para usuários que precisam ser capazes de provisionar instâncias de serviço e Gravador ou Leitor nos membros do grupo de recursos para usuários que precisam somente usar as instâncias de serviço.

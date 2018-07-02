@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-05-31"
+lastupdated: "2018-06-19"
 
 ---
 
@@ -17,16 +17,16 @@ lastupdated: "2018-05-31"
 
 # Resolução de problemas de migração de instâncias de serviço
 
-Se você encontrar problemas ao migrar uma instância de serviço do Cloud Foundry para um grupo de recursos, revise os problemas comuns a seguir para ajudá-lo a avançar com sua migração.
+Se você tiver problemas ao migrar uma instância de serviço do Cloud Foundry para um grupo de recursos, revise os problemas comuns a seguir para ajudá-lo a avançar.
 
-## E se eu migrei minha instância de serviço para o grupo de recursos errado?
+## Uma instância de serviço foi migrada para o grupo de recursos errado
 
-No momento, não é possível mover recursos entre grupos de recursos depois que eles são designados. Então, se você migrou uma instância para o grupo de recursos errado, é possível tentar excluir a instância e criar uma nova por meio do catálogo. É possível designá-la ao grupo de recursos correto quando você está criando a instância.
+Não é possível mover recursos entre os grupos de recursos após serem designados. Portanto, se você designou uma instância ao grupo de recursos errado, será possível tentar excluir a instância e criar uma nova por meio do catálogo. É possível designá-lo ao grupo de recursos correto ao criar a instância.
 
-## Por que não posso migrar?
+## Um usuário na conta não pode migrar uma instância elegível
 
-Você pode não ter o acesso correto designado para migrar uma instância de serviço. Veja [Quem pode migrar instâncias de serviço](/docs/account/instance_migration.html#whocanmigrate) para obter mais informações.
+Talvez o acesso correto não esteja designado a você para migrar uma instância de serviço. Para obter mais informações, consulte [Quem pode migrar instâncias de serviço](/docs/resources/instance_migration.html#whocanmigrate).
 
-## Por que nem todos os meus serviços são elegíveis para migração?
+## Nenhum serviço é elegível para migração
 
-Nem todos os serviços estão disponíveis para serem gerenciados usando o controle de acesso IAM e os grupos de recursos neste momento. Você será notificado quando os serviços ativarem o uso do IAM caso tenha acesso para concluir a tarefa de migração.
+Nem todos os serviços estão disponíveis para serem incluídos em grupos de recursos e gerenciados usando o Identity and Access Management. Você é notificado quando os serviços são elegíveis, caso você tenha acesso para concluir a tarefa de migração.
