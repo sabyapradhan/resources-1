@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
@@ -82,7 +82,7 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Investment Portfolio | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Key Protect | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
 | Knowledge Catalog | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
-| Knowledge Studio | Ospitato in Stati Uniti Sud | Non disponibile | Diffuso da Stati Uniti Sud | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Knowledge Studio | Ospitato in Stati Uniti Sud | Non disponibile | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | Language Translator | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | CLI Lift | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Analisi log | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
@@ -111,7 +111,7 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Text to Speech | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | Tone Analyzer | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | Visual Recognition | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
-| Voice Agent with Watson | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Voice Agent with Watson | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Est | 
 | Watson Assistant (formerly Conversation) | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | Watson Studio | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | 
 | Weather Company Data | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Ospitato a Sydney | Non disponibile | 

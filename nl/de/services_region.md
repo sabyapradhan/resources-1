@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
@@ -81,7 +81,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Re
 | Investment Portfolio | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Key Protect | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
 | Knowledge Catalog | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
-| Knowledge Studio | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Knowledge Studio | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
 | Language Translator | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
 | Lift CLI | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Log Analysis | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
@@ -110,7 +110,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Re
 | Text to Speech | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
 | Tone Analyzer | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
 | Visual Recognition | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
-| Voice Agent with Watson | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Voice Agent with Watson | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Osten) | 
 | Watson Assistant (zuvor Conversation) | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
 | Watson Studio | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Weather Company Data | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | 

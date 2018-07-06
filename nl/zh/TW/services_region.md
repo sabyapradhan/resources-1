@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
@@ -81,7 +81,7 @@ lastupdated: "2018-06-21"
 |Investment Portfolio |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Key Protect |在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|不適用 | 
 |Knowledge Catalog |在美國南部進行管理|在英國進行管理|不適用 |不適用 |不適用 | 
-|Knowledge Studio |在美國南部進行管理|不適用 | 從美國南部進行聯合發佈|在雪梨進行管理|在美國東部進行管理| 
+|Knowledge Studio |在美國南部進行管理|不適用 |在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
 |Language Translator|在美國南部進行管理| 從美國南部進行聯合發佈|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
 |Lift CLI |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Log Analysis |在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|不適用 | 
@@ -110,7 +110,7 @@ lastupdated: "2018-06-21"
 |Text to Speech|在美國南部進行管理| 從美國南部進行聯合發佈|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
 |Tone Analyzer|在美國南部進行管理| 從美國南部進行聯合發佈|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
 |Visual Recognition	|在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
-|Voice Agent with Watson |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
+|Voice Agent with Watson |在美國南部進行管理|不適用 |不適用 |不適用 |在美國東部進行管理| 
 |Watson Assistant（先前為 Conversation）|在美國南部進行管理| 從美國南部進行聯合發佈|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
 |Watson Studio |在美國南部進行管理| 從美國南部進行聯合發佈|不適用 |不適用 |不適用 | 
 |Weather Company Data|在美國南部進行管理|在英國進行管理|不適用 |在雪梨進行管理|不適用 | 
