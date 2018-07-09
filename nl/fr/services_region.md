@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
@@ -81,7 +81,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Investment Portfolio | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Key Protect | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
 | Knowledge Catalog | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
-| Knowledge Studio | Hébergé au Sud des Etats-Unis | Indisponible | Syndiqué avec Sud des Etats-Unis | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Knowledge Studio | Hébergé au Sud des Etats-Unis | Indisponible | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Language Translator | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Lift CLI | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Log Analysis | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
@@ -110,7 +110,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Text to Speech | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Tone Analyzer | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Visual Recognition | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
-| Voice Agent with Watson | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Voice Agent with Watson | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Hébergé à l'Est des Etats-Unis | 
 | Watson Assistant (anciennement appelé Conversation) | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Watson Studio | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | 
 | Weather Company Data | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | 
