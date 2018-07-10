@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-21"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
@@ -81,7 +81,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Investment Portfolio | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Key Protect | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
 | Knowledge Catalog | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
-| Knowledge Studio | Alojado en EE.UU. sur | No disponible | Sindicado de EE.UU. sur | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Knowledge Studio | Alojado en EE.UU. sur | No disponible | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
 | Language Translator | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
 | Lift CLI | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Log Analysis | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
@@ -110,7 +110,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Text to Speech | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
 | Tone Analyzer | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
 | Visual Recognition | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
-| Voice Agent with Watson | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Voice Agent with Watson | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | Alojado en EE.UU.. este | 
 | Watson Assistant (antes Conversation) | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
 | Watson Studio | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | No disponible | No disponible | No disponible | 
 | Weather Company Data | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
