@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-07-02"
 
 ---
 {:new_window: target="_blank"}
@@ -62,7 +62,7 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | DB2 Warehouse | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
 | Decision Optimization | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
 | DevOps Insights | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
-| Digital Content Checker | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Organizados por meio do Reino Unido | Não está disponível | 
+| Verificador de conteúdo digital | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Organizados por meio do Reino Unido | Não está disponível | 
 | Discovery | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
 | Driver Behavior | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Organizados por meio do Sul dos EUA | Não está disponível | 
 | Event Management | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | 
@@ -112,7 +112,7 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Visual Recognition | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Voice Agent with Watson | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Hospedado no leste dos EUA | 
 | Watson Assistant (anteriormente Conversation) | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
-| Watson Studio | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | 
+| Watson Studio | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
 | Weather Company Data | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | 
 | WebSphere Application Server | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
 | Workload Scheduler | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
