@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-07-02"
 
 ---
 {:new_window: target="_blank"}
@@ -112,7 +112,7 @@ lastupdated: "2018-06-27"
 |Visual Recognition|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Voice Agent with Watson|在美国南部托管|不可用|不可用|不可用|在美国东部托管| 
 |Watson Assistant（原先称为 Conversation）|在美国南部托管|从美国南部联合|在德国托管|在悉尼托管|在美国东部托管| 
-|Watson Studio|在美国南部托管|从美国南部联合|不可用|不可用|不可用| 
+|Watson Studio|在美国南部托管|在英国托管|不可用|不可用|不可用| 
 |Weather Company Data|在美国南部托管|在英国托管|不可用|在悉尼托管|不可用| 
 |WebSphere Application Server|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用| 
 |Workload Scheduler|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用| 
