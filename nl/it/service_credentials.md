@@ -28,7 +28,7 @@ Completa la seguente procedura per aggiungere una credenziale a un servizio gest
 1. Dal dashboard, seleziona il nome del servizio per aprire la relativa pagina dei dettagli. Quindi, seleziona la scheda Credenziali e fai clic su **Nuova credenziale + **.
 2. Dalla finestra di dialogo dell'aggiunta della nuova credenziale, fornisci un **Nome**.
 3. Specifica il ruolo. Questo valore imposta il ruolo di accesso del servizio IAM. Per ulteriori informazioni, vedi [Accesso IAM](/docs/iam/users_roles.html#userroles).
-4. Facoltativamente, puoi fornire un ID servizio consentendo a IAM di generare per te un valore univoco o fornendo un ID di servizio esistente. Per ulteriori informazioni, vedi [Creazione e gestione degli ID servizio](https://console.stage1.bluemix.net/docs/iam/serviceid.html#serviceids).
+4. Facoltativamente, puoi fornire un ID servizio consentendo a IAM di generare per te un valore univoco o fornendo un ID di servizio esistente. Per ulteriori informazioni, vedi [Creazione e gestione degli ID servizio](/docs/iam/serviceid.html#serviceids).
 5. Facoltativamente, puoi fornire ulteriori parametri come un oggetto JSON valido che contiene i parametri di configurazione specifici per il servizio, forniti sia incorporati che in un file.
 
   **Nota**. Molti servizi non richiedono ulteriori parametri e per i servizi che li richiedono, ognuno di essi definisce il proprio elenco di parametri univoco. Per un elenco di parametri di configurazione supportati, consulta la documentazione per l'offerta del servizio in particolare.

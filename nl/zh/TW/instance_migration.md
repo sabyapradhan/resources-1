@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-06-20"
+lastupdated: "2018-06-29"
 
 ---
 
@@ -15,21 +15,23 @@ lastupdated: "2018-06-20"
 {:gif: data-image-type='gif'}
 {:tip: .tip}
 
-# 將 Cloud Foundry 服務實例移轉至資源群組
+# 將 Cloud Foundry 服務實例及應用程式移轉至資源群組
 {: #migrate}
 
-為了讓您有更簡單且更有彈性的 {{site.data.keyword.Bluemix}} 使用體驗，{{site.data.keyword.Bluemix}} 推出了[資源群組](/docs/resources/resourcegroups.html#rgs)，其概念類似 Cloud Foundry 空間。不過，資源群組包含多項額外的好處，例如使用 IBM Cloud Identity and Access Management (IAM) 來進行更精細的存取控制、能夠將服務實例連接至不同地區的應用程式和服務，以及可輕鬆檢視每個群組的用量。
+為了讓您有更簡單且更有彈性的 {{site.data.keyword.Bluemix}} 使用體驗，我們推出了[資源群組](/docs/resources/resourcegroups.html#rgs)，其概念類似 Cloud Foundry 空間。不過，資源群組包含多項額外好處，例如使用 IBM Cloud Identity and Access Management (IAM) 來進行更精細的存取控制、能夠將服務實例連接至不同地區的應用程式和服務，以及可輕鬆檢視每個群組的用量。
 {:shortdesc}
 
-{{site.data.keyword.Bluemix_notm}} 即將開始從 Cloud Foundry 移動服務，以利用資源群組的好處。當您在儀表板上看到其中一個服務旁邊的 ![將此服務實例移轉至資源群組](images/migrate.svg "將此服務實例移轉至資源群組") 圖示時，必須開始為您的服務實例進行移轉計劃，以從其目前的 Cloud Foundry 組織和空間移至資源群組。在 {{site.data.keyword.Bluemix_notm}} 服務從使用 Cloud Foundry 組織、空間和角色，改為使用 IAM 和資源群組之前，不能將現有的 Cloud Foundry 服務實例移轉至資源群組。
+我們已經開始從 Cloud Foundry 移動服務，以利用資源群組的好處，這表示當您在儀表板上看到其中一個服務旁邊的 ![將此服務實例移轉至資源群組](images/migrate.svg "將此服務實例移轉至資源群組") 圖示時，必須開始為透過 [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.dev_console}}](https://console-demo3.bluemix.net/docs/apps/index.html#create) 建立的服務實例或應用程式進行移轉計劃，以從其目前的 Cloud Foundry 組織和空間移至資源群組。在 {{site.data.keyword.Bluemix_notm}} 服務從使用 Cloud Foundry 組織、空間和角色，改為使用 IAM 和資源群組之前，不能將現有的 Cloud Foundry 服務實例移轉至資源群組。
 
-當您將現有的 Cloud Foundry 服務實例移轉至資源群組時，移轉完成之後便無法變更您選擇的資源群組。因此，在移轉之前，請務必計劃好如何組織帳戶中的資源。因此，您可能需要在移轉之前建立一個以上的資源群組，如果您有計費帳戶的話。 
+當您將現有的 Cloud Foundry 服務實例或 {{site.data.keyword.dev_console}} 應用程式移轉至資源群組時，移轉完成之後便無法變更您選擇的群組。因此，在移轉之前，請務必計劃好如何組織帳戶中的資源。這可能表示您需要在移轉之前建立一個以上的資源群組，如果您有計費帳戶的話。 
 
 您可以嘗試使用與您在 Cloud Foundry 空間中組織資源的相同方式，將資源組織成資源群組。如需使用資源群組的相關資訊，請參閱[將資源組織成資源群組的最佳作法](/docs/resources/bestpractice_rgs.html#bp_resourcegroups)。
 {: tip}
 
 
-## 為何要移轉服務實例？
+## 為何要移轉？
+
+### Cloud Foundry 服務實例
 
 支援 Cloud IAM 存取控制和資源群組內之組織的服務有幾個優點：
 
@@ -40,8 +42,14 @@ lastupdated: "2018-06-20"
 
 ![將服務實例連結至 Cloud Foundry 空間以建立別名](images/alias.svg "將服務實例連結至 Cloud Foundry 空間以建立別名")
 
-## 誰可以移轉服務實例？
+### {{site.data.keyword.dev_console}}apps
+
+先前，{{site.data.keyword.dev_console}} 應用程式只能與 Cloud Foundry 服務實例相關聯。現在，如果您將應用程式移轉至資源群組，您便可以將應用程式與屬於資源群組且支援 Cloud IAM 存取控制的服務實例相關聯。 
+
+## 誰可以移轉？
 {: #whocanmigrate}
+
+### 服務實例的必要存取權 
 
 使用者必須具有特定存取權，才能將 Cloud Foundry 服務實例移轉至資源群組：
 
@@ -54,8 +62,13 @@ lastupdated: "2018-06-20"
 若要查看您有什麼存取權，請從主控台功能表列中，按一下**管理** &gt; **安全** &gt; **身分及存取**，然後按一下**使用者**。按一下您的名稱，並檢閱已指派 IAM 角色的**存取原則**以及 **Cloud Foundry 存取**，以查看您有權存取的組織和已指派的 Cloud Foundry 角色。
 {: tip}
 
+### {{site.data.keyword.dev_console}} 應用程式的必要存取權
+
+可以存取 {{site.data.keyword.dev_console}} 應用程式的任何使用者都可以加以移轉。不過，移轉應用程式並不會移轉與應用程式相關聯的服務。服務實例必須分開移轉。
 
 ## 移轉如何運作？
+
+### 移轉服務實例
 
 當您將服務實例從 Cloud Foundry 組織及空間移轉至資源群組時，會在資源群組中建立一個新的鏈結服務實例。Cloud Foundry 組織及空間中的原始實例會變成[別名](/docs/resources/connecting_apps.html#what_is_alias)。別名會計入您的組織配額，但會針對資源群組中的服務實例用量而向您收費。
 
@@ -63,7 +76,7 @@ lastupdated: "2018-06-20"
 
 當您在儀表板上收到與 Cloud Foundry 服務實例相關聯的 ![將此服務實例移轉至資源群組](images/migrate.svg "將此服務實例移轉至資源群組") 圖示通知時，會一次移轉一個服務實例。
 
-開始移轉處理程序之前，請檢閱您的服務文件，查看是否有任何其他必須進行的服務特定變更。例如，如果您刪除 Cloud Foundry 別名，可能會需要將資料從舊實例移轉至新實例，或是更新用於應用程式的認證。如果應用程式直接呼叫已移轉之服務的 API，則需要更新 API 呼叫，以使用 IAM API 金鑰或存取記號。
+開始移轉處理程序之前，請檢閱您的服務文件，查看在將服務實例移轉至資源群組時，是否有任何其他必須進行的服務特定變更。例如，如果您刪除 Cloud Foundry 別名，可能會需要將資料從舊實例移轉至新實例，或是更新用於應用程式的認證。如果應用程式直接呼叫已移轉之服務的 API，則需要更新 API 呼叫，以使用 IAM API 金鑰或存取記號。
 {: tip}
 
 1. 開啟**更多動作**功能表。
@@ -74,8 +87,20 @@ lastupdated: "2018-06-20"
 
 順利移轉實例之後，您會看到它反映在儀表板的「服務」區段中。該別名會保留在儀表板的 Cloud Foundry 區段中。您可以在儀表板的 Cloud Foundry 區段中使用 ![鏈結圖示](images/link.svg "代表別名的鏈結圖示")，來識別別名。
 
+### 移轉 {{site.data.keyword.dev_console}} 應用程式
+
+在「應用程式清單」視圖中，按一下與每個項目相關聯的 ![將此服務實例移轉至資源群組](images/migrate.svg "將此服務實例移轉至資源群組") 圖示，會一次移轉一個應用程式。
+
+1. 選取**功能表**圖示 ![「功能表」圖示](../icons/icon_hamburger.svg)，然後選取有興趣的開發人員入口網站，例如 Watson、行動或 Web 應用程式。
+2. 選取**應用程式**，顯示清單**應用程式（需要動作）**及**應用程式（已移轉）**。
+3. 針對**應用程式（需要動作）**清單中的每個項目，按一下**移轉**圖示 ![將此服務實例移轉至資源群組](images/migrate.svg "將此服務實例移轉至資源群組")。
+4. 選取或建立新的資源群組。
+5. 按一下**移轉**，便會為您移轉應用程式。
+6. 確認應用程式現在顯示於**應用程式（已移轉）**清單。
+7. 由於您一次只能移轉一個應用程式，所以在移轉第一個應用程式之後，您可以繼續移轉合格的應用程式。
+
+
 ## 後續步驟
-{: #nextsteps}
 
 將 Cloud Foundry 服務實例移轉至資源群組之後，您必須確定帳戶中的使用者擁有必要的存取層次可以存取帳戶資源群組中的資源。您可能也會想要提供用來管理資源群組的存取權，讓使用者可以在帳戶資源群組中建立新的服務實例。
 

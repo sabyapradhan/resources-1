@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-07-02"
 
 ---
 {:new_window: target="_blank"}
@@ -113,7 +113,7 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Visual Recognition | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Voice Agent with Watson | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Est | 
 | Watson Assistant (formerly Conversation) | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
-| Watson Studio | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | 
+| Watson Studio | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
 | Weather Company Data | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Ospitato a Sydney | Non disponibile | 
 | WebSphere Application Server | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
 | Workload Scheduler | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
