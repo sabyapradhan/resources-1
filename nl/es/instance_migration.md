@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-06-20"
+lastupdated: "2018-06-29"
 
 ---
 
@@ -15,21 +15,23 @@ lastupdated: "2018-06-20"
 {:gif: data-image-type='gif'}
 {:tip: .tip}
 
-# Migración de instancias de servicio de Cloud Foundry a un grupo de recursos
+# Migración de instancias de servicio y apps de Cloud Foundry a un grupo de recursos
 {: #migrate}
 
-Para hacer su experiencia con el uso de {{site.data.keyword.Bluemix}} más simple y flexible, {{site.data.keyword.Bluemix}} ha introducido [grupos de recursos](/docs/resources/resourcegroups.html#rgs), que son conceptualmente similares a los espacios de Cloud Foundry. Sin embargo, los grupos de recursos incluyen varios beneficios adicionales, como el control de acceso más granular (mejor estructurado) utilizando IBM Cloud Identity and Access Management (IAM), la capacidad de conectar instancias de servicio a apps y servicios entre distintas regiones, y una forma sencilla de ver el uso por grupo.
+Para hacer su experiencia con el uso de {{site.data.keyword.Bluemix}} más simple y flexible, hemos introducido [grupos de recursos](/docs/resources/resourcegroups.html#rgs), que son conceptualmente similares a los espacios de Cloud Foundry. Sin embargo, los grupos de recursos incluyen varios beneficios adicionales, como el control de acceso más granular (mejor estructurado) utilizando IBM Cloud Identity and Access Management (IAM), la capacidad de conectar instancias de servicio a apps y servicios entre distintas regiones, y una forma sencilla de ver el uso por grupo.
 {:shortdesc}
 
-{{site.data.keyword.Bluemix_notm}} está empezando a trasladar servicios desde Cloud Foundry para beneficiarse de los grupos de recursos. Cuando seleccione el icono ![Migrar esta instancia de servicio a un grupo de recursos](images/migrate.svg "Migrar esta instancia de servicio a un grupo de recursos") junto a uno de los servicios del panel de control, debe iniciar un plan de migración para las instancias de servicio para trasladar desde la organización y el espacio actual de Cloud Foundry a un grupo de recursos. Hasta que un servicio de {{site.data.keyword.Bluemix_notm}} se traslade de utilizar organizaciones, espacios y roles de Cloud Foundry a utilizar IAM y grupos de recursos, no podrá migrar las instancias de servicios existentes de Cloud Foundry a un grupo de recursos.
+Estamos empezando a trasladar servicios desde Cloud Foundry para beneficiarse de los grupos de recursos, lo que significa que cuando seleccione el icono ![Migrar esta instancia de servicio a un grupo de recursos](images/migrate.svg "Migrar esta instancia de servicio a un grupo de recursos") junto a uno de los servicios del panel de control, debe iniciar un plan de migración para las instancias de servicio o apps que ha creado mediante la {{site.data.keyword.dev_console}} de [{{site.data.keyword.Bluemix_notm}} para trasladar desde la organización y el espacio actual de Cloud Foundry a un grupo de recursos. Hasta que un servicio de {{site.data.keyword.Bluemix_notm}} se traslade de utilizar organizaciones, espacios y roles de Cloud Foundry a utilizar IAM y grupos de recursos, no podrá migrar las instancias de servicios existentes de Cloud Foundry a un grupo de recursos.
 
-Cuando migre instancias de servicio de Cloud Foundry a un grupo de recursos, no podrá cambiar el grupo de recursos que haya seleccionado una vez que la migración se haya completado. Por lo tanto, es esencial que planifique cómo desea organizar los recursos en la cuenta antes de migrar. Por lo tanto, es posible que necesite crear uno o varios grupos de recursos, si dispone de una cuenta facturable, antes de realizar la migración. 
+Cuando migre instancias de servicio o apps de {{site.data.keyword.dev_console}} de Cloud Foundry existentes a un grupo de recursos, no podrá cambiar el grupo que haya seleccionado una vez la migración se haya completado. Por lo tanto, es esencial que planifique cómo desea organizar los recursos en la cuenta antes de migrar. Esto puede requerir que cree uno o varios grupos de recursos, si dispone de una cuenta facturable, antes de realizar la migración. 
 
-Puede intentar organizar sus recursos en grupos de recursos de la misma forma que se han organizado los recursos en los espacios de Cloud Foundry. Para obtener más información sobre cómo utilizar grupos de recursos, consulte [Mejores prácticas para la organización de recursos en grupos de recursos](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
+Puede intentar organizar sus recursos en grupos de recursos de la misma forma que se han organizado los recursos en los espacios de Cloud Foundry. Para obtener más información sobre cómo utilizar grupos de recursos, consulte [Mejores prácticas para la organización de recursos en grupos de recursos](/docs/resources/bestpractice_rgs.html#bp_resourcegroups)(https://console-demo3.bluemix.net/docs/apps/index.html#create)].
 {: tip}
 
 
-## ¿Por qué migrar instancias de servicio?
+## ¿Por qué migrar?
+
+### Instancias de servicio de Cloud Foundry
 
 Los servicios que ofrecen soporte al control de acceso y organización de Cloud IAM en grupos de recursos disponen de varios beneficios:
 
@@ -40,8 +42,14 @@ Los servicios que ofrecen soporte al control de acceso y organización de Cloud 
 
 ![Enlace de una instancia de servicio a un espacio de Cloud Foundry para crear un alias](images/alias.svg "Enlace de una instancia de servicio a un espacio de Cloud Foundry para crear un alias")
 
-## ¿Quién puede migrar instancias de servicio?
+### {{site.data.keyword.dev_console}}apps
+
+Anteriormente, las apps de {{site.data.keyword.dev_console}} podían estar asociadas solo con instancias de servicio de Cloud Foundry. Ahora, si migra las apps a un grupo de recursos, puede asociar las apps con instancias de servicio que pertenecen a un grupo de recursos y que dan soporte al control de acceso de Cloud IAM. 
+
+## ¿Quién puede migrar?
 {: #whocanmigrate}
+
+### Acceso necesario para las instancias de servicio 
 
 Los usuarios deben tener acceso específico para migrar instancias de servicio de Cloud Foundry a un grupo de recursos:
 
@@ -54,8 +62,13 @@ Para obtener más información sobre la asignación del acceso correcto, consult
 Para comprobar qué acceso tiene, pulse **Gestionar** &gt; **Seguridad** &gt; **Identidad y acceso** en la barra de menús de la consola y pulse **Usuarios**. Pulse el nombre y revise las **Políticas de acceso** de los roles IAM asignados y el **Acceso de Cloud Foundry** para ver a qué organizaciones tiene acceso y los roles de Cloud Foundry que tiene asignados.
 {: tip}
 
+### Acceso necesario para apps de {{site.data.keyword.dev_console}}
+
+Cualquier usuario que tenga acceso a una app de {{site.data.keyword.dev_console}} puede migrarla. Sin embargo, la migración de una app no migra servicios asociados con la app. Las instancias de servicio deben migrarse por separado.
 
 ## ¿Cómo funciona la migración?
+
+### Migración de instancias de servicio
 
 Cuando migra una instancia de servicio desde un espacio y organización de Cloud Foundry a un grupo de recursos, se crea en el grupo de recursos una nueva instancia de servicio enlazada. La instancia original de la organización y el espacio de Cloud Foundry pasa a ser un [alias](/docs/resources/connecting_apps.html#what_is_alias). El alias se tendrá en cuenta en relación con la cuota de su organización, pero se le facturará por el uso de la instancia de servicio en el grupo de recurso.
 
@@ -63,7 +76,7 @@ Cuando migra una instancia de servicio desde un espacio y organización de Cloud
 
 Las instancias de servicio se migran de una en una cuando se lo notifique en el panel de control el icono ![Migrar esta instancia de servicios a un grupo de recursos](images/migrate.svg "Migrar esta instancia de servicio a un grupo de recursos") asociado a su instancia de servicio de Cloud Foundry.
 
-Antes de iniciar el proceso de migración, revise la documentación del servicio para ver si se deben realizar cambios adicionales específicos del servicio. Por ejemplo, es posible que necesite migrar datos de instancias antiguas a nuevas instancias o actualizar las credenciales utilizadas para su app si suprime el alias de Cloud Foundry. Las aplicaciones que realicen una llamada directa a la API de un servicio que se ha migrado necesitan actualizar la llamada a la API para utilizar una clave de API IAM o una señal de acceso.
+Antes de iniciar el proceso de migración, revise la documentación del servicio para ver si hay alguna adicional, los cambios específicos del servicio que puede hacer cuando migra su instancia de servicio a un grupo de recursos. Por ejemplo, es posible que necesite migrar datos de instancias antiguas a nuevas instancias o actualizar las credenciales utilizadas para su app si suprime el alias de Cloud Foundry. Las aplicaciones que realicen una llamada directa a la API de un servicio que se ha migrado necesitan actualizar la llamada a la API para utilizar una clave de API IAM o una señal de acceso.
 {: tip}
 
 1. Abra el menú **Más acciones**.
@@ -74,8 +87,20 @@ Antes de iniciar el proceso de migración, revise la documentación del servicio
 
 Cuando haya migrado una instancia correctamente, la verá reflejada en la sección Servicio del panel de control. El alias permanecerá en la sección de Cloud Foundry del panel de control. Puede utilizar el ![Icono de enlace](images/link.svg "Icono de enlace que representa un alias") en la sección de Cloud Foundry del panel de control para identificar los alias.
 
+### Migración de apps de {{site.data.keyword.dev_console}}
+
+Las apps se migran de una en una al pulsar el icono ![Migrar esta instancia de servicio a un grupo de recursos](images/migrate.svg "Migrar esta instancia de servicio a un grupo de recursos") asociado con cada entrada de la vista Lista de apps.
+
+1. Seleccione el icono de **Menú** ![Icono de Menú](../icons/icon_hamburger.svg) y seleccione el portal del desarrollador de su interés como Watson, Mobile o Web Apps, por ejemplo.
+2. Seleccione **Apps**, que muestra las listas **Apps (Acción necesaria)** y **Apps (migradas)**.
+3. Para cada entrada de la lista **Apps (Acción necesaria)**, pulse el icono **Migrar** ![Migrar esta instancia de servicio a un grupo de recursos](images/migrate.svg "Migrar esta instancia de servicio a un grupo de recursos").
+4. Seleccione o cree un nuevo grupo de recursos.
+5. Pulse **Migrar** y la app se migrará.
+6. Confirme que la app ahora se muestra en la lista **Apps (migradas)**.
+7. Como solo puede migrar una app a la vez, puede continuar migrando apps elegibles cuando haya realizado la migración de la primera.
+
+
 ## Pasos siguientes
-{: #nextsteps}
 
 Después de migrar sus instancias de servicio de Cloud Foundry a un grupo de recursos, debe asegurarse de que los usuarios de la cuenta tienen el nivel de acceso requerido a los recursos de los grupos de recursos de la cuenta. También es posible que desee proporcionar acceso para gestionar el grupo de recursos, de modo que los usuarios pueden crear nuevas instancias de servicio en los grupos de recursos de la cuenta.
 

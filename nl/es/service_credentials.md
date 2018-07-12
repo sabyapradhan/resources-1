@@ -28,7 +28,7 @@ Complete los siguientes pasos para añadir una credencial a un servicio gestiona
 1. Desde el panel de control, seleccione el nombre del servicio para abrir la página de detalles del servicio. A continuación, seleccione el separador Credenciales y pulse **Credencial nueva + **.
 2. En el diálogo Añadir credencial nueva, proporcione un **Nombre**.
 3. Especifique el rol. Este valor define el rol de acceso de servicio de IAM. Para obtener más información, consulte [Acceso de IAM](/docs/iam/users_roles.html#userroles).
-4. Opcionalmente, puede proporcionar un ID de servicio permitiendo a IAM generar un valor exclusivo para usted o proporcionando un ID de servicio existente. Para obtener más información, consulte [Creación y gestión de ID de servicio](https://console.stage1.bluemix.net/docs/iam/serviceid.html#serviceids).
+4. Opcionalmente, puede proporcionar un ID de servicio permitiendo a IAM generar un valor exclusivo para usted o proporcionando un ID de servicio existente. Para obtener más información, consulte [Creación y gestión de ID de servicio](/docs/iam/serviceid.html#serviceids).
 5. Opcionalmente, puede proporcionar más parámetros como objeto JSON válido que contiene parámetros de configuración específicos del servicio, proporcionados en línea o en un archivo.
 
   **Nota**: La mayoría de los servicios no requieren parámetros adicionales, y para los servicios que sí los requieren, cada servicio define su propia lista exclusiva de parámetros. Para obtener una lista de parámetros de configuración soportados, consulte la documentación para ver la oferta de servicios concreta.

@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-07-02"
 
 ---
 {:new_window: target="_blank"}
@@ -112,7 +112,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Visual Recognition | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Voice Agent with Watson | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | Alojado en EE.UU.. este | 
 | Watson Assistant (antes Conversation) | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
-| Watson Studio | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | No disponible | No disponible | No disponible | 
+| Watson Studio | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
 | Weather Company Data | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
 | WebSphere Application Server | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
 | Workload Scheduler | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
