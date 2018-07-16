@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-06-29"
+lastupdated: "2018-07-16"
 
 ---
 
@@ -111,4 +111,4 @@ Also, make sure to review the documentation for your service to see if any updat
 
 ## Troubleshooting
 
-If you run into any issues with migrating Cloud Foundry service instances, check out [Troubleshooting migrating service instances](/docs/resources/ts_migration.html).
+If you run into any issues with migrating Cloud Foundry service instances, check out [Troubleshooting for migrating service instances](/docs/resources/ts_migration.html).

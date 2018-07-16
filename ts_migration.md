@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-06-19"
+lastupdated: "2018-07-16"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2018-06-19"
 {:gif: data-image-type='gif'}
 {:tip: .tip}
 
-# Troubleshooting migrating service instances
+# Troubleshooting for migrating service instances
 
 If you run into any issues when you migrate a Cloud Foundry service instance to a resource group, review the following common issues to help you move forward.
 
