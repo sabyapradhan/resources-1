@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-16"
+lastupdated: "2018-07-17"
 
 ---
 {:new_window: target="_blank"}
@@ -73,7 +73,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect DBaaS | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | IBM Cognos Dashboard Embedded | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | IBM Identity Mixer | Not available | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | 
-| Information Server | Not available | Hosted in United Kingdom | Not available | Not available | Not available | 
+| Information Server | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Informix | Hosted in US South | Syndicated from US South | Not available | Syndicated from US South | Not available | 
 | Instrument Analytics | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Internet Services | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
