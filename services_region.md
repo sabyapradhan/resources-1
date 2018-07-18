@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-17"
+lastupdated: "2018-07-18"
 
 ---
 {:new_window: target="_blank"}
@@ -57,6 +57,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Context Mapping | Hosted in US South | Syndicated from US South | Not available | Syndicated from US South | Not available | 
 | Continuous Delivery | Hosted in US South | Syndicated from US South | Syndicated from US South | Not available | Not available | 
 | Cost and Asset Management | Hosted in US South | Not available | Not available | Not available | Not available | 
+| Data Store for Memcache | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Db2 | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Db2 Hosted | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Db2 Warehouse | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
