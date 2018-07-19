@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-18"
+lastupdated: "2018-07-19"
 
 ---
 {:new_window: target="_blank"}
@@ -110,6 +110,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Streaming Analytics | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | Text to Speech | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Tone Analyzer | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
+| Toolchain | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Visual Recognition | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Voice Agent with Watson | Hosted in US South | Not available | Not available | Not available | Hosted in US East | 
 | Watson Assistant (formerly Conversation) | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
