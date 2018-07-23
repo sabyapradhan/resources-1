@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-06-29"
+lastupdated: "2018-07-16"
 
 ---
 
@@ -44,7 +44,7 @@ Services, die die Cloud IAM-Zugriffssteuerung und -Organisation innerhalb von Re
 
 ### {{site.data.keyword.dev_console}}apps
 
-Bisher konnten {{site.data.keyword.dev_console}}-Apps nur Cloud Foundry-Serviceinstanzen zugeordnet werden. Jetzt können Sie Ihre Apps zu Serviceinstanzen zuordnen, die zu einer Ressourcengruppe gehören und die Zugriffssteuerung über Cloud IAM unterstützen, wenn Sie Ihre Apps zu einer Ressourcengruppe migrieren.  
+Bisher konnten {{site.data.keyword.dev_console}}-Apps nur Cloud Foundry-Serviceinstanzen zugeordnet werden. Jetzt können Sie Ihre Apps zu Serviceinstanzen zuordnen, die zu einer Ressourcengruppe gehören und die Zugriffssteuerung über Cloud IAM unterstützen, wenn Sie Ihre Apps zu einer Ressourcengruppe migrieren. 
 
 ## Wer kann die Migration durchführen?
 {: #whocanmigrate}
@@ -64,7 +64,7 @@ Finden Sie heraus, welchen Zugriff Sie haben, indem Sie in der Menüleiste der K
 
 ### Erforderlicher Zugriff für {{site.data.keyword.dev_console}}-Apps
 
-Benutzer, die auf eine {{site.data.keyword.dev_console}}-App zugreifen können, können die App migrieren. Beim Migrieren einer App werden jedoch nicht die zu der App gehörigen Services migriert. Serviceinstanzen müssen separat migriert werden. 
+Benutzer, die auf eine {{site.data.keyword.dev_console}}-App zugreifen können, können die App migrieren. Beim Migrieren einer App werden jedoch nicht die zu der App gehörigen Services migriert. Serviceinstanzen müssen separat migriert werden.
 
 ## Wie funktioniert Migration?
 
@@ -89,24 +89,24 @@ Nachdem Sie eine Instanz erfolgreich migriert haben, wird sie im Bereich 'Servic
 
 ### {{site.data.keyword.dev_console}}-Apps migrieren
 
-Apps werden einzeln nacheinander migriert. Klicken Sie dazu auf das Symbol ![Diese Serviceinstanz zu einer Ressourcengruppe migrieren](images/migrate.svg "Diese Serviceinstanz zu einer Ressourcengruppe migrieren") neben den einzelnen Einträgen in der Ansicht mit der Anwendungsliste. 
+Apps werden einzeln nacheinander migriert. Klicken Sie dazu auf das Symbol ![Diese Serviceinstanz zu einer Ressourcengruppe migrieren](images/migrate.svg "Diese Serviceinstanz zu einer Ressourcengruppe migrieren") neben den einzelnen Einträgen in der Ansicht mit der Anwendungsliste.
 
-1. Wählen Sie das Symbol **Menü** ![Menüsymbol](../icons/icon_hamburger.svg) und danach das gewünschte Entwicklerportal, z. B. Watson, Mobile oder Web Apps, aus. 
-2. Wählen Sie **Apps** aus. Daraufhin werden die Listen **Apps (Aktion erforderlich)** und **Apps (migriert)** angezeigt. 
-3. Klicken Sie für jeden Eintrag in der Liste **Apps (Aktion erforderlich)** auf das Symbol **Migrieren** ![Diese Serviceinstanz zu einer Ressourcengruppe migrieren](images/migrate.svg "Diese Serviceinstanz zu einer Ressourcengruppe migrieren"). 
-4. Wählen Sie eine Ressourcengruppe aus oder erstellen Sie eine neue Ressourcengruppe. 
-5. Klicken Sie auf **Migrieren**. Die App wird für Sie migriert. 
-6. Vergewissern Sie sich, dass die App nun in der Liste **Apps (migriert)** angezeigt wird. 
-7. Da Sie immer nur eine App migrieren können, können Sie fortfahren, indem Sie weitere gewünschte Apps nach der ersten App migrieren. 
+1. Wählen Sie das Symbol **Menü** ![Menüsymbol](../icons/icon_hamburger.svg) und danach das gewünschte Entwicklerportal, z. B. Watson, Mobile oder Web Apps, aus.
+2. Wählen Sie **Apps** aus. Daraufhin werden die Listen **Apps (Aktion erforderlich)** und **Apps (migriert)** angezeigt.
+3. Klicken Sie für jeden Eintrag in der Liste **Apps (Aktion erforderlich)** auf das Symbol **Migrieren** ![Diese Serviceinstanz zu einer Ressourcengruppe migrieren](images/migrate.svg "Diese Serviceinstanz zu einer Ressourcengruppe migrieren").
+4. Wählen Sie eine Ressourcengruppe aus oder erstellen Sie eine neue Ressourcengruppe.
+5. Klicken Sie auf **Migrieren**. Die App wird für Sie migriert.
+6. Vergewissern Sie sich, dass die App nun in der Liste **Apps (migriert)** angezeigt wird.
+7. Da Sie immer nur eine App migrieren können, können Sie fortfahren, indem Sie weitere gewünschte Apps nach der ersten App migrieren.
 
 
 ## Nächste Schritte
 
-Nach der Migration einer Cloud Foundry-Serviceinstanz zu einer Ressourcengruppe müssen Sie sicherstellen, dass die Benutzer im Konto über die erforderliche Zugriffsebene für die Ressourcen in den Ressourcengruppen des Kontos verfügen. Es kann auch sinnvoll sein, Zugriff zum Verwalten der Ressourcengruppe zu ermöglichen, damit die Benutzer neue Serviceinstanzen in den Ressourcengruppen des Kontos erstellen können. 
+Nach der Migration einer Cloud Foundry-Serviceinstanz zu einer Ressourcengruppe müssen Sie sicherstellen, dass die Benutzer im Konto über die erforderliche Zugriffsebene für die Ressourcen in den Ressourcengruppen des Kontos verfügen. Es kann auch sinnvoll sein, Zugriff zum Verwalten der Ressourcengruppe zu ermöglichen, damit die Benutzer neue Serviceinstanzen in den Ressourcengruppen des Kontos erstellen können.
 
 Weitere Informationen zum Zuordnen des Zugriffs auf Ressourcen in Ressourcengruppen finden Sie unter [Zugriff auf Ressourcengruppen und die in ihnen enthaltenen Ressourcen zuweisen](/docs/resources/bestpractice_rgs.html#assigning-access-to-resource-groups-and-the-resources-within-them).
 
-Überprüfen Sie anhand der Dokumentation für den Service auch, ob im Anschluss an die Migration Aktualisierungen für die vorhandenen Apps ausgeführt werden müssen.  
+Überprüfen Sie anhand der Dokumentation für den Service auch, ob im Anschluss an die Migration Aktualisierungen für die vorhandenen Apps ausgeführt werden müssen. 
 
 
 ## Fehlerbehebung

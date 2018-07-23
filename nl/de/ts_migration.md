@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-06-19"
+lastupdated: "2018-07-16"
 
 ---
 
@@ -25,8 +25,8 @@ Sie können Ressourcen nicht zwischen Ressourcengruppen verschieben, nachdem sie
 
 ## Ein Benutzer in dem Konto kann eine berechtigte Instanz nicht migrieren
 
-Möglicherweise verfügen Sie nicht über die erforderliche Zugriffsrechte für das Migrieren einer Serviceinstanz. Weitere Informationen finden Sie unter [Wer kann Serviceinstanzen migrieren?](/docs/resources/instance_migration.html#whocanmigrate) 
+Möglicherweise verfügen Sie nicht über die erforderliche Zugriffsrechte für das Migrieren einer Serviceinstanz. Weitere Informationen finden Sie unter [Wer kann Serviceinstanzen migrieren?](/docs/resources/instance_migration.html#whocanmigrate)
 
 ## Nicht alle Services sind für die Migration berechtigt
 
-Derzeit können nicht alle Services zu Ressourcengruppen hinzugefügt und mithilfe von IAM-Zugriffssteuerung und -Ressourcengruppen verwaltet werden. Sie werden benachrichtigt, wenn Services berechtigt werden, falls Sie über die entsprechenden Zugriffsberechtigungen zum Abschließen der Migrationstask verfügen. 
+Derzeit können nicht alle Services zu Ressourcengruppen hinzugefügt und mithilfe von IAM-Zugriffssteuerung und -Ressourcengruppen verwaltet werden. Sie werden benachrichtigt, wenn Services berechtigt werden, falls Sie über die entsprechenden Zugriffsberechtigungen zum Abschließen der Migrationstask verfügen.
