@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-02"
+lastupdated: "2018-07-09"
 
 ---
 {:new_window: target="_blank"}
@@ -18,7 +18,7 @@ lastupdated: "2018-07-02"
 
 不是所有的服务都可以在每个 {{site.data.keyword.Bluemix_notm}} 区域中进行购买。此外，即便服务在该区域中可供购买，该服务也可能是在其他位置托管的。下表显示 IBM 提供的服务。
 
-全球托管的服务会创建可在多个区域中运行的资源。例如，对于 {{site.data.keyword.cos_full_notm}} (COS)，可以通过[选择端点](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)（应用程序在此端点中发送 REST API 请求）来选择在一个数据中心、在一整个区域中，甚至在区域组合中分布数据。
+全球托管的服务会创建跨多个区域运行的资源。例如，对于 {{site.data.keyword.cos_full_notm}} (COS），您可以通过 [选择端点](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)（应用程序在该端点中发送 REST API 请求），在单个数据中心、整个区域甚或区域组合中分散数据。
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -71,7 +71,7 @@ lastupdated: "2018-07-02"
 |Historical Instrument Analytics|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Hyper Protect Crypto Services|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Hyper Protect DBaaS|在美国南部托管|在英国托管|不可用|不可用|不可用| 
-|IBM Cognos Dashboard Embedded |在美国南部托管|在英国托管|不可用|不可用|不可用| 
+|IBM Cognos Dashboard Embedded|在美国南部托管|在英国托管|不可用|不可用|不可用| 
 |IBM Identity Mixer|不可用|在英国托管|不可用|在悉尼托管|不可用| 
 |Information Server|不可用|在英国托管|不可用|不可用|不可用| 
 |Informix|在美国南部托管|从美国南部联合|不可用|从美国南部联合|不可用| 
