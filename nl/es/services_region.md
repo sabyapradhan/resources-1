@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-09"
+lastupdated: "2018-07-19"
 
 ---
 {:new_window: target="_blank"}
@@ -57,6 +57,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Context Mapping | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | No disponible | Sindicado de EE.UU. sur | No disponible | 
 | Continuous Delivery | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Sindicado de EE.UU. sur | No disponible | No disponible | 
 | Cost and Asset Management | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Data Store for Memcache | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Db2 | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
 | Db2 Hosted | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
 | Db2 Warehouse | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
@@ -73,7 +74,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Hyper Protect DBaaS | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
 | IBM Cognos Dashboard Embedded | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
 | IBM Identity Mixer | No disponible | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
-| Information Server | No disponible | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
+| Information Server | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
 | Informix | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | No disponible | Sindicado de EE.UU. sur | No disponible | 
 | Instrument Analytics | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Internet Services | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | 
@@ -109,6 +110,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Streaming Analytics | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
 | Text to Speech | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
 | Tone Analyzer | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
+| Toolchain | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Visual Recognition | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Voice Agent with Watson | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | Alojado en EE.UU.. este | 
 | Watson Assistant (antes Conversation) | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 

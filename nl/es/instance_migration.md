@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-06-29"
+lastupdated: "2018-07-16"
 
 ---
 
@@ -21,11 +21,11 @@ lastupdated: "2018-06-29"
 Para hacer su experiencia con el uso de {{site.data.keyword.Bluemix}} más simple y flexible, hemos introducido [grupos de recursos](/docs/resources/resourcegroups.html#rgs), que son conceptualmente similares a los espacios de Cloud Foundry. Sin embargo, los grupos de recursos incluyen varios beneficios adicionales, como el control de acceso más granular (mejor estructurado) utilizando IBM Cloud Identity and Access Management (IAM), la capacidad de conectar instancias de servicio a apps y servicios entre distintas regiones, y una forma sencilla de ver el uso por grupo.
 {:shortdesc}
 
-Estamos empezando a trasladar servicios desde Cloud Foundry para beneficiarse de los grupos de recursos, lo que significa que cuando seleccione el icono ![Migrar esta instancia de servicio a un grupo de recursos](images/migrate.svg "Migrar esta instancia de servicio a un grupo de recursos") junto a uno de los servicios del panel de control, debe iniciar un plan de migración para las instancias de servicio o apps que ha creado mediante la {{site.data.keyword.dev_console}} de [{{site.data.keyword.Bluemix_notm}} para trasladar desde la organización y el espacio actual de Cloud Foundry a un grupo de recursos. Hasta que un servicio de {{site.data.keyword.Bluemix_notm}} se traslade de utilizar organizaciones, espacios y roles de Cloud Foundry a utilizar IAM y grupos de recursos, no podrá migrar las instancias de servicios existentes de Cloud Foundry a un grupo de recursos.
+Estamos empezando a trasladar servicios desde Cloud Foundry para beneficiarse de los grupos de recursos, lo que significa que cuando seleccione el icono ![Migrar esta instancia de servicio a un grupo de recursos](images/migrate.svg "Migrar esta instancia de servicio a un grupo de recursos") junto a uno de los servicios del panel de control, debe iniciar un plan de migración para las instancias de servicio o apps que ha creado mediante la [{{site.data.keyword.dev_console}} de {{site.data.keyword.Bluemix_notm}}](https://console-demo3.bluemix.net/docs/apps/index.html#create) para trasladar desde la organización y el espacio actual de Cloud Foundry a un grupo de recursos. Hasta que un servicio de {{site.data.keyword.Bluemix_notm}} se traslade de utilizar organizaciones, espacios y roles de Cloud Foundry a utilizar IAM y grupos de recursos, no podrá migrar las instancias de servicios existentes de Cloud Foundry a un grupo de recursos.
 
 Cuando migre instancias de servicio o apps de {{site.data.keyword.dev_console}} de Cloud Foundry existentes a un grupo de recursos, no podrá cambiar el grupo que haya seleccionado una vez la migración se haya completado. Por lo tanto, es esencial que planifique cómo desea organizar los recursos en la cuenta antes de migrar. Esto puede requerir que cree uno o varios grupos de recursos, si dispone de una cuenta facturable, antes de realizar la migración. 
 
-Puede intentar organizar sus recursos en grupos de recursos de la misma forma que se han organizado los recursos en los espacios de Cloud Foundry. Para obtener más información sobre cómo utilizar grupos de recursos, consulte [Mejores prácticas para la organización de recursos en grupos de recursos](/docs/resources/bestpractice_rgs.html#bp_resourcegroups)(https://console-demo3.bluemix.net/docs/apps/index.html#create)].
+Puede intentar organizar sus recursos en grupos de recursos de la misma forma que se han organizado los recursos en los espacios de Cloud Foundry. Para obtener más información sobre cómo utilizar grupos de recursos, consulte [Mejores prácticas para la organización de recursos en grupos de recursos](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 {: tip}
 
 
