@@ -40,5 +40,5 @@ Cuando intenta suprimir una instancia de servicio, ve el siguiente mensaje de er
 Este problema sucede si la instancia de servicio ya se ha suprimido desde el controlador de la nube.
 {: tsCauses}
 
-Cree una instancia de servicio con el mismo nombre de servicio y luego enlácela a las aplicaciones. A continuación, puede suprimir la instancia de servicio y las apps que utilizan el servicio.   
+Cree una instancia de servicio con el mismo nombre de servicio y luego enlácela a las aplicaciones. A continuación, puede suprimir la instancia de servicio y las aplicaciones que utilizan el servicio.   
 {: tsResolve}
