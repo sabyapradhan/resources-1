@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-19"
+lastupdated: "2018-07-09"
 
 ---
 {:new_window: target="_blank"}
@@ -57,7 +57,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Re
 | Context Mapping | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | 
 | Continuous Delivery | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | 
 | Cost and Asset Management | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
-| Data Store for Memcache | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Db2 | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
 | Db2 Hosted | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
 | Db2 Warehouse | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
@@ -74,7 +73,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Re
 | Hyper Protect DBaaS | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | IBM Cognos Dashboard Embedded | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | IBM Identity Mixer | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | 
-| Information Server | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
+| Information Server | Nicht verfügbar | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Informix | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | 
 | Instrument Analytics | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Internet Services | Global gehostet | Global gehostet | Global gehostet | Global gehostet | Global gehostet | 
@@ -110,7 +109,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Re
 | Streaming Analytics | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Text to Speech | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
 | Tone Analyzer | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
-| Toolchain | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Visual Recognition | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Voice Agent with Watson | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Osten) | 
 | Watson Assistant (zuvor Conversation) | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
