@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-09"
+lastupdated: "2018-07-19"
 
 ---
 {:new_window: target="_blank"}
@@ -58,6 +58,7 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Context Mapping | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Non disponibile | Diffuso da Stati Uniti Sud | Non disponibile | 
 | Fornitura continua | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Diffuso da Stati Uniti Sud | Non disponibile | Non disponibile | 
 | Cost and Asset Management | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Data Store for Memcache | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Db2 | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
 | Ospitato Db2 | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
 | Warehouse Db2 | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
@@ -74,7 +75,7 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Hyper Protect DBaaS | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
 | IBM Cognos Dashboard Embedded | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
 | IBM Identity Mixer | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato a Sydney | Non disponibile | 
-| Information Server | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
+| Information Server | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
 | Informix | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Non disponibile | Diffuso da Stati Uniti Sud | Non disponibile | 
 | Instrument Analytics | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Internet Services | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | 
@@ -110,6 +111,7 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Streaming Analytics | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
 | Text to Speech | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | Tone Analyzer | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Toolchain | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Visual Recognition | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Voice Agent with Watson | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Est | 
 | Watson Assistant (formerly Conversation) | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
