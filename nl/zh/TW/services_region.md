@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-09"
+lastupdated: "2018-07-19"
 
 ---
 {:new_window: target="_blank"}
@@ -57,6 +57,7 @@ lastupdated: "2018-07-09"
 |Context Mapping|在美國南部進行管理| 從美國南部進行聯合發佈|不適用 | 從美國南部進行聯合發佈|不適用 | 
 |Continuous Delivery|在美國南部進行管理| 從美國南部進行聯合發佈| 從美國南部進行聯合發佈|不適用 |不適用 | 
 |Cost and Asset Management |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
+| Data Store for Memcache |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Db2 |在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|不適用 | 
 |Db2 Hosted |在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|不適用 | 
 |Db2 Warehouse |在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|不適用 | 
@@ -73,7 +74,7 @@ lastupdated: "2018-07-09"
 |Hyper Protect DBaaS |在美國南部進行管理|在英國進行管理|不適用 |不適用 |不適用 | 
 | IBM Cognos Dashboard Embedded |在美國南部進行管理|在英國進行管理|不適用 |不適用 |不適用 | 
 |IBM Identity Mixer |不適用 |在英國進行管理|不適用 |在雪梨進行管理|不適用 | 
-|Information Server |不適用 |在英國進行管理|不適用 |不適用 |不適用 | 
+|Information Server |在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|不適用 | 
 |Informix|在美國南部進行管理| 從美國南部進行聯合發佈|不適用 | 從美國南部進行聯合發佈|不適用 | 
 |Instrument Analytics |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Internet Services |在全球管理|在全球管理|在全球管理|在全球管理|在全球管理| 
@@ -109,6 +110,7 @@ lastupdated: "2018-07-09"
 |Streaming Analytics |在美國南部進行管理|在英國進行管理|不適用 |不適用 |不適用 | 
 |Text to Speech|在美國南部進行管理| 從美國南部進行聯合發佈|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
 |Tone Analyzer|在美國南部進行管理| 從美國南部進行聯合發佈|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
+| Toolchain |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Visual Recognition	|在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Voice Agent with Watson |在美國南部進行管理|不適用 |不適用 |不適用 |在美國東部進行管理| 
 |Watson Assistant（先前為 Conversation）|在美國南部進行管理| 從美國南部進行聯合發佈|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
