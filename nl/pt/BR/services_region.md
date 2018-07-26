@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-09"
+lastupdated: "2018-07-19"
 
 ---
 {:new_window: target="_blank"}
@@ -57,6 +57,7 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Context Mapping | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Organizados por meio do Sul dos EUA | Não está disponível | 
 | Continuous Delivery | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Não está disponível | 
 | Cost and Asset Management | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Data Store for Memcache | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | DB2 | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
 | Db2 Hosted | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
 | DB2 Warehouse | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
@@ -73,7 +74,7 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Hyper Protect DBaaS | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
 | IBM Cognos Dashboard Integrado | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
 | IBM Identity Mixer | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | 
-| Information Server | Não está disponível | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
+| Information Server | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
 | Informix | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Organizados por meio do Sul dos EUA | Não está disponível | 
 | Instrument Analytics | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Internet Services | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | 
@@ -109,6 +110,7 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Streaming Analytics | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
 | Text to Speech | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
 | Tone Analyzer | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Toolchain | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Visual Recognition | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Voice Agent with Watson | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Hospedado no leste dos EUA | 
 | Watson Assistant (anteriormente Conversation) | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 

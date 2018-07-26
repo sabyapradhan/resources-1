@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-06-29"
+lastupdated: "2018-07-16"
 
 ---
 
@@ -113,4 +113,4 @@ Além disso, certifique-se de revisar a documentação do seu serviço para ver 
 
 ## Resolução de problemas
 
-Se você encontrar qualquer problema com a migração de instâncias de serviço do Cloud Foundry, verifique [Resolução de problemas de migração de instâncias de serviço](/docs/resources/ts_migration.html).
+Se você encontrar algum problema ao migrar as instâncias de serviço do Cloud Foundry, verifique [Resolução de problemas para migrar instâncias de serviço](/docs/resources/ts_migration.html).

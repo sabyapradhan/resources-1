@@ -4,7 +4,7 @@ copyright:
 
   years: 2018
 
-lastupdated: "2018-06-19"
+lastupdated: "2018-07-16"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2018-06-19"
 {:gif: data-image-type='gif'}
 {:tip: .tip}
 
-# Resolução de problemas de migração de instâncias de serviço
+# Resolução de problemas para migração de instâncias de serviço
 
 Se você tiver problemas ao migrar uma instância de serviço do Cloud Foundry para um grupo de recursos, revise os problemas comuns a seguir para ajudá-lo a avançar.
 
