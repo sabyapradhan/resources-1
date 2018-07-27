@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-09"
+lastupdated: "2018-07-19"
 
 ---
 {:new_window: target="_blank"}
@@ -57,6 +57,7 @@ lastupdated: "2018-07-09"
 |Context Mapping|在美国南部托管|从美国南部联合|不可用|从美国南部联合|不可用| 
 |Continuous Delivery|在美国南部托管|从美国南部联合|从美国南部联合|不可用|不可用| 
 |Cost and Asset Management|在美国南部托管|不可用|不可用|不可用|不可用| 
+|Data Store for Memcache|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Db2|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用| 
 |Db2 Hosted|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用| 
 |Db2 Warehouse|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用| 
@@ -73,7 +74,7 @@ lastupdated: "2018-07-09"
 |Hyper Protect DBaaS|在美国南部托管|在英国托管|不可用|不可用|不可用| 
 |IBM Cognos Dashboard Embedded|在美国南部托管|在英国托管|不可用|不可用|不可用| 
 |IBM Identity Mixer|不可用|在英国托管|不可用|在悉尼托管|不可用| 
-|Information Server|不可用|在英国托管|不可用|不可用|不可用| 
+|Information Server|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用| 
 |Informix|在美国南部托管|从美国南部联合|不可用|从美国南部联合|不可用| 
 |Instrument Analytics|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Internet Services|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管| 
@@ -109,6 +110,7 @@ lastupdated: "2018-07-09"
 |Streaming Analytics|在美国南部托管|在英国托管|不可用|不可用|不可用| 
 |Text to Speech|在美国南部托管|从美国南部联合|在德国托管|在悉尼托管|在美国东部托管| 
 |Tone Analyzer|在美国南部托管|从美国南部联合|在德国托管|在悉尼托管|在美国东部托管| 
+|Toolchain|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Visual Recognition|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Voice Agent with Watson|在美国南部托管|不可用|不可用|不可用|在美国东部托管| 
 |Watson Assistant（原先称为 Conversation）|在美国南部托管|从美国南部联合|在德国托管|在悉尼托管|在美国东部托管| 
