@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-09"
+lastupdated: "2018-07-19"
 
 ---
 {:new_window: target="_blank"}
@@ -57,6 +57,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Context Mapping | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | Syndiqué avec Sud des Etats-Unis | Indisponible | 
 | Continuous Delivery | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | Indisponible | 
 | Cost and Asset Management | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Data Store for Memcache | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Db2 | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
 | Db2 hébergé | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
 | Db2 Warehouse | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
@@ -73,7 +74,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Hyper Protect DBaaS | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
 | IBM Cognos Dashboard Embedded | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
 | IBM Identity Mixer | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | 
-| Information Server | Indisponible | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
+| Information Server | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
 | Informix | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | Syndiqué avec Sud des Etats-Unis | Indisponible | 
 | Instrument Analytics | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Internet Services | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | 
@@ -109,6 +110,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Streaming Analytics | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
 | Text to Speech | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Tone Analyzer | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Toolchain | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Visual Recognition | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Voice Agent with Watson | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Hébergé à l'Est des Etats-Unis | 
 | Watson Assistant (anciennement appelé Conversation) | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 

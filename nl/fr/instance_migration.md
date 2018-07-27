@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-06-29"
+lastupdated: "2018-07-16"
 
 ---
 
@@ -111,4 +111,4 @@ Consultez également la documentation du service afin de voir s'il est nécessai
 
 ## Traitement des incidents
 
-Si vous rencontrez des problèmes lors de la migration d'instances de service Cloud Foundry, consultez la rubrique[Traitement des incidents liés à la migration d'instances de service](/docs/resources/ts_migration.html).
+Si vous rencontrez des problèmes lors de la migration d'instances de service Cloud Foundry, consultez la rubrique [Traitement des incidents liés à la migration d'instances de service](/docs/resources/ts_migration.html).
