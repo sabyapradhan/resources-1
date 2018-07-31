@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-30"
+lastupdated: "2018-07-31"
 
 ---
 {:new_window: target="_blank"}
@@ -54,7 +54,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Compose for RethinkDB | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Compose for ScyllaDB | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Compose for etcd | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
-| Context Mapping | Hosted in US South | Syndicated from US South | Not available | Syndicated from US South | Not available | 
 | Continuous Delivery | Hosted in US South | Syndicated from US South | Syndicated from US South | Not available | Not available | 
 | Cost and Asset Management | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Data Store for Memcache | Hosted in US South | Not available | Not available | Not available | Not available | 
@@ -65,7 +64,6 @@ Services that are hosted globally create resources that operate across multiple 
 | DevOps Insights | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Digital Content Checker | Hosted in US South | Hosted in United Kingdom | Not available | Syndicated from United Kingdom | Not available | 
 | Discovery | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
-| Driver Behavior | Hosted in US South | Syndicated from US South | Not available | Syndicated from US South | Not available | 
 | Event Management | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | 
 | Geospatial Analytics | Hosted in US South | Hosted in United Kingdom | Not available | Syndicated from United Kingdom | Not available | 
 | Globalization Pipeline | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
