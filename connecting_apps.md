@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -26,7 +26,7 @@ Aliases are like symlinks that hold references to remote resources and enable in
 The following rules apply to aliases:
 
 * There is no extra charge for an alias, but each alias counts against your quota in your organization.
-* You can create only one alias per space in the {{site.data.keyword.Bluemix_notm}} console. However, more than one alias per space can be created by using the {{site.data.keyword.Bluemix_notm}} CLI. For more information, see [Commands for managing resource groups and resources](/docs/cli/reference/bluemix_cli/bx_cli.html#commands-for-managing-resource-groups-and-resources).
+* You can create only one alias per space in the {{site.data.keyword.Bluemix_notm}} console. However, more than one alias per space can be created by using the {{site.data.keyword.Bluemix_notm}} CLI. For more information, see [Commands for managing resource groups and resources](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource).
 * You can create multiple connections between your IAM-managed service and any application in any space, organization, and region in the same account if you have permission.
 * Multiple connections that are made in the same space to different apps from an IAM-managed service instance use the same alias.
 * Unbinding an IAM-managed service instance *does not* delete the service instance that represents the alias.
