@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-06-05"
+lastupdated: "2018-08-02"
 
 
 ---
@@ -21,9 +21,8 @@ lastupdated: "2018-06-05"
 
 A resource group is a way for you to organize your account resources in customizable groupings so that you can quickly assign users access to more than one resource at a time. Any account resource that is managed by using {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) access control belongs to a resource group within your account. Cloud Foundry services remain assigned to orgs and spaces and cannot be added to a resource group.
 
-To start managing your resource groups, go to **Manage** &gt; **Account** &gt; **Resource Groups** in the {{site.data.keyword.Bluemix}} console. From there you can view your resource groups, rename them, and create new resource groups.
+To start managing your resource groups, go to **Manage** &gt; **Account** &gt; **Resource Groups** in the {{site.data.keyword.Bluemix}} console. From there you can view your resource groups, rename them, and create new resource groups. For more information about working with resource groups, see [Best practices for organizing resources in resource groups](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 
-For more information about working with resource groups, see [Best practices for organizing resources in resource groups](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 
 ## Creating a resource group
 
@@ -57,7 +56,7 @@ Your first resource group is created and named `Default` for you. You can choose
 
 ## Managing resource groups and resources by using the {{site.data.keyword.Bluemix_notm}} CLI
 
-The {{site.data.keyword.Bluemix_notm}} CLI has multiple commands that support resource management. For more information, see [Commands for managing resource groups and resources](/docs/cli/reference/bluemix_cli/bx_cli.html#commands-for-managing-resource-groups-and-resources).
+The {{site.data.keyword.Bluemix_notm}} CLI has multiple commands that support resource management. For more information, see [Commands for managing resource groups and resources](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource).
 
 ## Managing access to your resource groups
 
