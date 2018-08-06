@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-06-05"
+lastupdated: "2018-08-02"
 
 
 ---
@@ -21,17 +21,17 @@ lastupdated: "2018-06-05"
 
 Un gruppo di risorse è un modo per organizzare le risorse dell'account in raggruppamenti personalizzabili, in modo da poter assegnare rapidamente agli utenti l'accesso a più di una risorsa alla volta. Qualsiasi risorsa dell'account gestita attraverso il controllo dell'accesso {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) appartiene a un gruppo di risorse all'interno del tuo account. I servizi Cloud Foundry rimangono assegnati alle organizzazioni e agli spazi e non possono essere aggiunti a un gruppo di risorse.
 
-Per iniziare a gestire i tuoi gruppi di risorse, vai a **Gestisci** &gt; **Account** &gt; **Gruppi di risorse** nella console {{site.data.keyword.Bluemix}}. Da lì puoi visualizzare i tuoi gruppi di risorse, rinominarli e creare nuovi gruppi di risorse.
+Per iniziare a gestire i tuoi gruppi di risorse, vai a **Gestisci** &gt; **Account** &gt; **Gruppi di risorse** nella console {{site.data.keyword.Bluemix}}. Da lì puoi visualizzare i tuoi gruppi di risorse, rinominarli e creare nuovi gruppi di risorse. Per ulteriori informazioni sull'utilizzo dei gruppi di risorse, consulta [Procedure consigliate per l'organizzazione delle risorse nei gruppi di risorse](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 
-Per ulteriori informazioni sull'utilizzo dei gruppi di risorse, consulta [Procedure consigliate per l'organizzazione delle risorse nei gruppi di risorse](/docs/resources/bestpractice_rgs.html#bp_resourcegroups). 
+
 
 ## Creazione di un gruppo di risorse
 
 Se disponi di un account Pagamento a consumo o Sottoscrizione, puoi creare più gruppi di risorse per gestire facilmente la quota e visualizzare l'utilizzo della fatturazione per un insieme di risorse. Puoi anche raggruppare le risorse per facilitare l'assegnazione dell'accesso degli utenti a più di un'istanza alla volta.
 
-Se disponi di un account Lite o una prova gratuita di 30 giorni, non puoi creare ulteriori gruppi di risorse, ma puoi rinominare il tuo gruppo di risorse predefinito. 
+Se disponi di un account Lite o una prova gratuita di 30 giorni, non puoi creare ulteriori gruppi di risorse, ma puoi rinominare il tuo gruppo di risorse predefinito.
 
-Ogni gruppo di risorse è gratuito, ma le connessioni tra un gruppo di risorse e un'organizzazione o uno spazio Cloud Foundry vengono conteggiate nella quota del tuo account. Per ulteriori informazioni, vedi [Cos'è un alias?](/docs/resources/connecting_apps.html#what_is_alias)
+Ogni gruppo di risorse è gratuito, tuttavia le connessioni tra un gruppo di risorse e un'organizzazione o uno spazio Cloud Foundry vengono conteggiate nella quota del tuo account. Per ulteriori informazioni, vedi [Cos'è un alias?](/docs/resources/connecting_apps.html#what_is_alias)
 {: tip}
 
 1. Vai a **Gestisci** &gt; **Account** &gt; **Gruppi di risorse**.
@@ -45,7 +45,7 @@ I servizi che sono gestiti con IAM appartengono a un gruppo di risorse invece ch
 
 ## Visualizzazione delle risorse nei gruppi di risorse
 
-Per visualizzare facilmente le risorse contenute in un gruppo, filtra per gruppo di risorse dal tuo dashboard. 
+Per visualizzare facilmente le risorse contenute in un gruppo, filtra per gruppo di risorse dal tuo dashboard.
 
 ## Ridenominazione di un gruppo di risorse
 
@@ -57,7 +57,7 @@ Il tuo primo gruppo di risorse viene creato e denominato `Default` automaticamen
 
 ## Gestione dei gruppi di risorse e delle risorse utilizzando la CLI {{site.data.keyword.Bluemix_notm}}
 
-La CLI {{site.data.keyword.Bluemix_notm}} ha diversi comandi che supportano la gestione delle risorse. Per ulteriori informazioni, vedi [Comandi per gestire i gruppi di risorse e le risorse](/docs/cli/reference/bluemix_cli/bx_cli.html#commands-for-managing-resource-groups-and-resources).
+La CLI {{site.data.keyword.Bluemix_notm}} ha diversi comandi che supportano la gestione delle risorse. Per ulteriori informazioni, vedi [Comandi per gestire i gruppi di risorse e le risorse](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource).
 
 ## Gestione dell'accesso ai tuoi gruppi di risorse
 

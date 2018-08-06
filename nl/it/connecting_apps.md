@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -26,7 +26,7 @@ Gli alias sono come collegamenti simbolici che contengono riferimenti a risorse 
 Per gli alias si applicano le seguenti regole:
 
 * Non è previsto alcun costo aggiuntivo per un alias, ma ogni alias viene conteggiato nella quota della tua organizzazione.
-* Puoi creare un solo alias per ogni spazio nella console {{site.data.keyword.Bluemix_notm}}. Tuttavia, è possibile creare più di un alias per spazio utilizzando la CLI {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni, vedi [Comandi per gestire i gruppi di risorse e le risorse](/docs/cli/reference/bluemix_cli/bx_cli.html#commands-for-managing-resource-groups-and-resources).
+* Puoi creare un solo alias per ogni spazio nella console {{site.data.keyword.Bluemix_notm}}. Tuttavia, è possibile creare più di un alias per spazio utilizzando la CLI {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni, vedi [Comandi per gestire i gruppi di risorse e le risorse](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource).
 * Se disponi dell'autorizzazione, puoi creare più connessioni tra il tuo servizio gestito da IAM e un'applicazione in qualsiasi spazio, organizzazione e regione nello stesso account.
 * Più connessioni eseguite nello stesso spazio a diverse applicazioni da un'istanza del servizio gestito da IAM utilizzano lo stesso alias.
 * L'annullamento del bind di un'istanza del servizio gestito da IAM *non* elimina l'istanza del servizio che rappresenta l'alias.
@@ -48,7 +48,7 @@ Per connettere la tua istanza del servizio gestito da IAM a un'applicazione:
 
 5. Facoltativamente, puoi fornire un **ID del servizio per il collegamento ** consentendo a IAM di generare per te un valore univoco o fornendo un ID di servizio esistente. Per ulteriori informazioni, vedi [Creazione e gestione degli ID servizio](/docs/iam/serviceid.html#serviceids).
 
-6. Fai clic su **Crea**.
+6. Fai clic su **Create**.
 
 ## Visualizzazione di un alias
 
