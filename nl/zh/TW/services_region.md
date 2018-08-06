@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-07-23"
 
 ---
 {:new_window: target="_blank"}
@@ -54,6 +54,7 @@ lastupdated: "2018-08-02"
 |Compose for RethinkDB|在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
 |Compose for ScyllaDB|在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
 |Compose for etcd|在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
+|Context Mapping|在美國南部進行管理| 從美國南部進行聯合發佈|不適用 | 從美國南部進行聯合發佈|不適用 | 
 |Continuous Delivery|在美國南部進行管理| 從美國南部進行聯合發佈| 從美國南部進行聯合發佈|不適用 |不適用 | 
 |Cost and Asset Management |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 | Data Store for Memcache |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
@@ -64,6 +65,7 @@ lastupdated: "2018-08-02"
 |DevOps Insights|在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Digital Content Checker|在美國南部進行管理|在英國進行管理|不適用 |從英國進行聯合發佈|不適用 | 
 |Discovery|在美國南部進行管理| 從美國南部進行聯合發佈|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
+|Driver Behavior |在美國南部進行管理| 從美國南部進行聯合發佈|不適用 | 從美國南部進行聯合發佈|不適用 | 
 |Event Management|在美國南部進行管理|在英國進行管理|不適用 |在雪梨進行管理|不適用 | 
 |Geospatial Analytics |在美國南部進行管理|在英國進行管理|不適用 |從英國進行聯合發佈|不適用 | 
 |Globalization Pipeline|在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|不適用 | 

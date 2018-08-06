@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-07-23"
 
 ---
 {:new_window: target="_blank"}
@@ -55,6 +55,7 @@ lastupdated: "2018-08-02"
 | Compose for RethinkDB | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
 | Compose for ScyllaDB | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
 | Compose for etcd | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Context Mapping | 米国南部でホスト | 米国南部からシンジケート | 使用不可 | 米国南部からシンジケート | 使用不可 | 
 | Continuous Delivery | 米国南部でホスト | 米国南部からシンジケート | 米国南部からシンジケート | 使用不可 | 使用不可 | 
 | Cost and Asset Management | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Data Store for Memcache | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
@@ -65,6 +66,7 @@ lastupdated: "2018-08-02"
 | DevOps Insights | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Digital Content Checker | 米国南部でホスト | 英国でホスト | 使用不可 | 英国からシンジケート | 使用不可 | 
 | Discovery | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Driver Behavior | 米国南部でホスト | 米国南部からシンジケート | 使用不可 | 米国南部からシンジケート | 使用不可 | 
 | Event Management | 米国南部でホスト | 英国でホスト | 使用不可 | シドニーでホスト | 使用不可 | 
 | Geospatial Analytics | 米国南部でホスト | 英国でホスト | 使用不可 | 英国からシンジケート | 使用不可 | 
 | Globalization Pipeline | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
