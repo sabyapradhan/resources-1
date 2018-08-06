@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -26,7 +26,7 @@ Aliasnamen sind wie symbolische Verbindungen (Symlinks), die Verweise auf ferne 
 Die folgenden Regeln gelten für Aliasnamen:
 
 * Es wird keine zusätzliche Gebühr für einen Aliasnamen erhoben, aber jeder Aliasname wird auf das Kontingent in Ihrer Organisation angerechnet.
-* In der {{site.data.keyword.Bluemix_notm}}-Konsole können Sie pro Bereich nur einen Aliasnamen erstellen. Mit der {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle kann jedoch mehr als ein Aliasname pro Bereich erstellt werden. Weitere Informationen finden Sie unter [Befehle zum Verwalten von Ressourcengruppen und Ressourcen](/docs/cli/reference/bluemix_cli/bx_cli.html#commands-for-managing-resource-groups-and-resources).
+* In der {{site.data.keyword.Bluemix_notm}}-Konsole können Sie pro Bereich nur einen Aliasnamen erstellen. Mit der {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle kann jedoch mehr als ein Aliasname pro Bereich erstellt werden. Weitere Informationen finden Sie unter [Befehle zum Verwalten von Ressourcengruppen und Ressourcen](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource).
 * Sie können mehrere Verbindungen zwischen Ihrem IAM-verwalteten Service und einer beliebigen Anwendung in einem Bereich, einer Organisation und einer Region in demselben Konto erstellen, sofern Sie dazu berechtigt sind.
 * Mehrere Verbindungen, die in demselben Bereich zu verschiedenen Anwendungen von einer IAM-verwalteten Serviceinstanz hergestellt wurden, verwenden denselben Aliasnamen.
 * Wenn Sie die Bindung einer IAM-verwalteten Serviceinstanz aufheben, wird die Serviceinstanz, die den Aliasnamen darstellt, *nicht gelöscht*.

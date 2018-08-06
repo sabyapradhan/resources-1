@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-06-05"
+lastupdated: "2018-08-02"
 
 
 ---
@@ -21,9 +21,8 @@ lastupdated: "2018-06-05"
 
 資源群組可讓您在可自訂的分組中組織帳戶資源，以便您可以一次將多個資源的存取權快速指派給使用者。使用 {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) 存取控制來管理的任何帳戶資源，都屬於您帳戶內的資源群組。Cloud Foundry 服務仍會指派給組織及空間，而且不能新增至資源群組。
 
-若要開始管理資源群組，請移至 {{site.data.keyword.Bluemix}} 主控台中的**管理** &gt; **帳戶** &gt; **資源群組**。從這裡，您可以檢視資源群組、將其重新命名，並建立新的資源群組。
+若要開始管理資源群組，請移至 {{site.data.keyword.Bluemix}} 主控台中的**管理** &gt; **帳戶** &gt; **資源群組**。從這裡，您可以檢視資源群組、將其重新命名，並建立新的資源群組。如需使用資源群組的相關資訊，請參閱[將資源組織成資源群組的最佳作法](/docs/resources/bestpractice_rgs.html#bp_resourcegroups)。
 
-如需使用資源群組的相關資訊，請參閱[將資源組織成資源群組的最佳作法](/docs/resources/bestpractice_rgs.html#bp_resourcegroups)。
 
 ## 建立資源群組
 
@@ -57,7 +56,7 @@ lastupdated: "2018-06-05"
 
 ## 使用 {{site.data.keyword.Bluemix_notm}} CLI 管理資源群組及資源
 
-{{site.data.keyword.Bluemix_notm}} CLI 具有多個支援資源管理的指令。如需相關資訊，請參閱[用來管理資源群組及資源的指令](/docs/cli/reference/bluemix_cli/bx_cli.html#commands-for-managing-resource-groups-and-resources)。
+{{site.data.keyword.Bluemix_notm}} CLI 具有多個支援資源管理的指令。如需相關資訊，請參閱[用來管理資源群組及資源的指令](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource)。
 
 ## 管理對資源群組的存取權
 

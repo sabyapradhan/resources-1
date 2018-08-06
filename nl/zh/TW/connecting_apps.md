@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -26,7 +26,7 @@ lastupdated: "2018-04-12"
 下列規則適用於別名：
 
 * 別名不需要額外費用，但每一個別名都會計入您在組織中的配額。
-* 在 {{site.data.keyword.Bluemix_notm}} 主控台中，每個空間只能建立一個別名。不過，使用 {{site.data.keyword.Bluemix_notm}} CLI 可以為每個空間建立多個別名。如需相關資訊，請參閱[用來管理資源群組及資源的指令](/docs/cli/reference/bluemix_cli/bx_cli.html#commands-for-managing-resource-groups-and-resources)。
+* 在 {{site.data.keyword.Bluemix_notm}} 主控台中，每個空間只能建立一個別名。不過，使用 {{site.data.keyword.Bluemix_notm}} CLI 可以為每個空間建立多個別名。如需相關資訊，請參閱[用來管理資源群組及資源的指令](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource)。
 * 如果您具有許可權，則可以在 IAM 管理的服務，與相同帳戶中任何空間、組織及地區內的任何應用程式之間，建立多個連線。
 * 相同空間中從 IAM 管理的服務實例到不同應用程式的多個連線，將會使用相同的別名。
 * 取消連結 IAM 管理的服務實例，*不會* 刪除代表別名的服務實例。

@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-06-05"
+lastupdated: "2018-08-02"
 
 
 ---
@@ -21,9 +21,8 @@ lastupdated: "2018-06-05"
 
 Ressourcengruppen bieten Ihnen die Möglichkeit, Ihre Kontoressourcen in anpassbaren Gruppierungen zu organisieren, sodass Sie den Benutzern schnell Zugriff auf mehrere Ressourcen gleichzeitig zuordnen können. Jede Kontoressource, die mit der Zugriffssteuerung von {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) verwaltet wird, gehört zu einer Ressourcengruppe innerhalb Ihres Kontos. Cloud Foundry-Services bleiben den Organisationen und Bereichen zugewiesen und können nicht zu einer Ressourcengruppe hinzugefügt werden.
 
-Um mit dem Verwalten Ihrer Ressourcengruppen zu beginnen, rufen Sie an der {{site.data.keyword.Bluemix}}-Konsole die Optionen **Verwalten** &gt; **Konto** &gt; **Ressourcengruppen** auf. Dort können Sie Ihre Ressourcengruppen anzeigen, umbenennen und neue Ressourcengruppen erstellen.
+Um mit dem Verwalten Ihrer Ressourcengruppen zu beginnen, rufen Sie an der {{site.data.keyword.Bluemix}}-Konsole die Optionen **Verwalten** &gt; **Konto** &gt; **Ressourcengruppen** auf. Dort können Sie Ihre Ressourcengruppen anzeigen, umbenennen und neue Ressourcengruppen erstellen. Weitere Informationen zur Arbeit mit Ressourcengruppen finden Sie unter [Bewährte Verfahren für die Organisation von Ressourcen in Ressourcengruppen](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 
-Weitere Informationen zur Arbeit mit Ressourcengruppen finden Sie unter [Bewährte Verfahren für die Organisation von Ressourcen in Ressourcengruppen](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 
 ## Ressourcengruppe erstellen
 
@@ -31,7 +30,7 @@ Wenn Sie über ein nutzungsabhängiges Konto oder ein Abonnementkonto verfügen,
 
 Wenn Sie über ein Lite-Konto oder ein 30-Tage-Testkonto verfügen, können Sie zwar keine zusätzlichen Ressourcengruppen erstellen, jedoch die Standardressourcengruppe umbenennen.
 
-Die einzelnen Ressourcengruppen sind kostenlos, die Verbindungen zwischen einer Ressourcengruppe und einer Cloud Foundry-Organisation oder einem Cloud Foundry-Bereich werden jedoch bei Ihrem Kontokontingent angerechnet. Weitere Informationen finden Sie in [Was ist ein Alias?](/docs/resources/connecting_apps.html#what_is_alias).
+Die einzelnen Ressourcengruppen sind kostenfrei, die Verbindungen zwischen einer Ressourcengruppe und einer Cloud Foundry-Organisation oder einem Cloud Foundry-Bereich werden jedoch bei Ihrem Kontokontingent angerechnet. Weitere Informationen finden Sie in [Was ist ein Alias?](/docs/resources/connecting_apps.html#what_is_alias).
 {: tip}
 
 1. Rufen Sie **Verwalten** &gt; **Konto** &gt; **Ressourcengruppen** auf.
@@ -57,7 +56,7 @@ Ihre erste Ressourcengruppe wird vom System für Sie erstellt und erhält den Na
 
 ## Ressourcengruppen und Ressourcen mit der {{site.data.keyword.Bluemix_notm}}-CLI verwalten
 
-Von der {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle werden mehrere Befehle für das Ressourcenmanagement unterstützt. Weitere Informationen finden Sie unter [Befehle zum Verwalten von Ressourcengruppen und Ressourcen](/docs/cli/reference/bluemix_cli/bx_cli.html#commands-for-managing-resource-groups-and-resources).
+Von der {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle werden mehrere Befehle für das Ressourcenmanagement unterstützt. Weitere Informationen finden Sie unter [Befehle zum Verwalten von Ressourcengruppen und Ressourcen](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource).
 
 ## Zugriff auf eigene Ressourcengruppen verwalten
 

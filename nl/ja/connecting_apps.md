@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -26,7 +26,7 @@ lastupdated: "2018-04-12"
 別名には、次の規則が適用されます。
 
 * 別名に追加料金はかかりませんが、各別名は組織内の割り当て量に影響します。
-* {{site.data.keyword.Bluemix_notm}} コンソールでは、スペース当たり 1 つのみの別名を作成できます。 ただし、{{site.data.keyword.Bluemix_notm}} CLI を使用すれば、スペース当たり複数の別名を作成できます。 詳しくは、『[リソース・グループとリソースを管理するためのコマンド](/docs/cli/reference/bluemix_cli/bx_cli.html#commands-for-managing-resource-groups-and-resources)』を参照してください。
+* {{site.data.keyword.Bluemix_notm}} コンソールでは、スペース当たり 1 つのみの別名を作成できます。 ただし、{{site.data.keyword.Bluemix_notm}} CLI を使用すれば、スペース当たり複数の別名を作成できます。 詳しくは、『[リソース・グループとリソースを管理するためのコマンド](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource)』を参照してください。
 * 許可を持っていれば、IAM 管理サービスと、同じアカウント内の任意のスペース、組織、および地域内の任意のアプリケーションとの間に、複数の接続を作成できます。
 * 同じスペース内で作成された、1 つの IAM 管理サービス・インスタンスから複数のアプリへの複数の接続は、同じ別名を使用します。
 * IAM 管理サービス・インスタンスをアンバインドしても、別名を表すサービス・インスタンスは削除*されません*。
