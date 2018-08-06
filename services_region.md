@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-03"
+lastupdated: "2018-08-06"
 
 ---
 {:new_window: target="_blank"}
@@ -99,7 +99,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Predictive Market Scenarios | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Push Notifications | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Real-Time Payments | Hosted in US South | Not available | Not available | Not available | Not available | 
-| Runbook Automation | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | 
 | SQL Query | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Secure Gateway | Hosted in US South | Hosted in United Kingdom | Syndicated from US South | Syndicated from US South | Hosted in US East | 
 | Simulated Historical Instrument Analytics | Hosted in US South | Not available | Not available | Not available | Not available | 
