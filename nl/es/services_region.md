@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-23"
+lastupdated: "2018-08-02"
 
 ---
 {:new_window: target="_blank"}
@@ -54,7 +54,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Compose for RethinkDB | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
 | Compose for ScyllaDB | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
 | Compose for etcd | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
-| Context Mapping | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | No disponible | Sindicado de EE.UU. sur | No disponible | 
 | Continuous Delivery | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Sindicado de EE.UU. sur | No disponible | No disponible | 
 | Cost and Asset Management | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Data Store for Memcache | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
@@ -65,7 +64,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | DevOps Insights | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Comprobador de contenido digital | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Sindicado de Reino Unido | No disponible | 
 | Discovery | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
-| Driver Behavior | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | No disponible | Sindicado de EE.UU. sur | No disponible | 
 | Event Management | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
 | Geospatial Analytics | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Sindicado de Reino Unido | No disponible | 
 | Globalization Pipeline | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
