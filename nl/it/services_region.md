@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-23"
+lastupdated: "2018-08-02"
 
 ---
 {:new_window: target="_blank"}
@@ -55,7 +55,6 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Compose for RethinkDB | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | Compose for ScyllaDB | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | Compose for etcd | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
-| Context Mapping | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Non disponibile | Diffuso da Stati Uniti Sud | Non disponibile | 
 | Fornitura continua | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Diffuso da Stati Uniti Sud | Non disponibile | Non disponibile | 
 | Cost and Asset Management | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Data Store for Memcache | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
@@ -66,7 +65,6 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | DevOps Insights | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Digital Content Checker | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Diffuso dal Regno Unito | Non disponibile | 
 | Discovery | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
-| Driver Behavior | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Non disponibile | Diffuso da Stati Uniti Sud | Non disponibile | 
 | Event Management | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Ospitato a Sydney | Non disponibile | 
 | Geospatial Analytics | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Diffuso dal Regno Unito | Non disponibile | 
 | Globalization Pipeline | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
