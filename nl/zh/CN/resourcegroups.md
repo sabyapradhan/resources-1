@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-06-05"
+lastupdated: "2018-08-02"
 
 
 ---
@@ -21,9 +21,8 @@ lastupdated: "2018-06-05"
 
 资源组是在可定制的分组中组织帐户资源的一种方法，以便您可以一次性快速分配对多个资源的用户访问权。使用 {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) 访问控制来管理的任何帐户资源都属于您帐户中的资源组。Cloud Foundry 服务会保持分配给组织和空间，并且无法添加到资源组。
 
-要开始管理资源组，请转至 {{site.data.keyword.Bluemix}} 控制台中的**管理** &gt; **帐户** &gt; **资源组**。在其中，可以查看资源组，对资源组重命名以及创建新资源组。
+要开始管理资源组，请转至 {{site.data.keyword.Bluemix}} 控制台中的**管理** &gt; **帐户** &gt; **资源组**。在其中，可以查看资源组，对资源组重命名以及创建新资源组。有关使用资源组的更多信息，请参阅[将资源组织成资源组的最佳实践](/docs/resources/bestpractice_rgs.html#bp_resourcegroups)。
 
-有关使用资源组的更多信息，请参阅[将资源组织成资源组的最佳实践](/docs/resources/bestpractice_rgs.html#bp_resourcegroups)。
 
 ## 创建资源组
 
@@ -57,7 +56,7 @@ lastupdated: "2018-06-05"
 
 ## 使用 {{site.data.keyword.Bluemix_notm}} CLI 管理资源组和资源
 
-{{site.data.keyword.Bluemix_notm}} CLI 具有支持资源管理的多个命令。有关更多信息，请参阅[用于管理资源组和资源的命令](/docs/cli/reference/bluemix_cli/bx_cli.html#commands-for-managing-resource-groups-and-resources)。
+{{site.data.keyword.Bluemix_notm}} CLI 具有支持资源管理的多个命令。有关更多信息，请参阅[用于管理资源组和资源的命令](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource)。
 
 ## 管理对资源组的访问权
 

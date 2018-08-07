@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-06-05"
+lastupdated: "2018-08-02"
 
 
 ---
@@ -21,9 +21,7 @@ lastupdated: "2018-06-05"
 
 리소스 그룹은 한 번에 둘 이상의 리소스에 대한 사용자 액세스를 신속하게 지정할 수 있도록 사용자 정의할 수 있는 그룹화에서 계정 리소스를 구성하기 위한 방법입니다. {{site.data.keyword.Bluemix}} Identity and Access Management(IAM) 액세스 제어를 사용하여 관리되는 계정 리소스는 계정 내의 리소스 그룹에 속합니다. Cloud Foundry 서비스는 조직 및 영역에 지정된 상태를 유지하며 리소스 그룹에 추가될 수 없습니다.
 
-리소스 그룹 관리를 시작하려면 {{site.data.keyword.Bluemix}} 콘솔에서 **관리** &gt; **계정** &gt; **리소스 그룹**으로 이동하십시오. 여기서 리소스 그룹 보기, 해당 이름 바꾸기 및 새 리소스 그룹 작성을 수행할 수 있습니다.
-
-리소스 그룹으로 작업하는 방법에 대한 자세한 정보는 [리소스 그룹 내의 리소스 구성에 대한 우수 사례](/docs/resources/bestpractice_rgs.html#bp_resourcegroups)를 참조하십시오.
+리소스 그룹 관리를 시작하려면 {{site.data.keyword.Bluemix}} 콘솔에서 **관리** &gt; **계정** &gt; **리소스 그룹**으로 이동하십시오. 여기서 리소스 그룹 보기, 해당 이름 바꾸기 및 새 리소스 그룹 작성을 수행할 수 있습니다. 리소스 그룹으로 작업하는 방법에 대한 자세한 정보는 [리소스 그룹 내의 리소스 구성에 대한 우수 사례](/docs/resources/bestpractice_rgs.html#bp_resourcegroups)를 참조하십시오.
 
 
 ## 리소스 그룹 작성
@@ -58,7 +56,7 @@ IAM을 사용하여 관리되는 서비스는 Cloud Foundry 조직 또는 영역
 
 ## {{site.data.keyword.Bluemix_notm}} CLI를 사용하여 리소스 그룹 및 리소스 관리
 
-{{site.data.keyword.Bluemix_notm}} CLI에는 리소스 관리를 지원하는 다수의 명령이 있습니다. 자세한 정보는 [리소스 그룹 및 리소스를 관리하는 명령](/docs/cli/reference/bluemix_cli/bx_cli.html#commands-for-managing-resource-groups-and-resources)을 참조하십시오.
+{{site.data.keyword.Bluemix_notm}} CLI에는 리소스 관리를 지원하는 다수의 명령이 있습니다. 자세한 정보는 [리소스 그룹 및 리소스를 관리하는 명령](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource)을 참조하십시오.
 
 ## 리소스 그룹에 대한 액세스 관리
 

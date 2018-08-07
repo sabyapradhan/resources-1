@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -26,7 +26,7 @@ lastupdated: "2018-04-12"
 以下规则适用于别名：
 
 * 别名没有额外费用，但每个别名都会计入组织中的配额。
-* 在 {{site.data.keyword.Bluemix_notm}} 控制台中，每个空间只能创建一个别名。但是，使用 {{site.data.keyword.Bluemix_notm}} CLI 可以为每个空间创建多个别名。有关更多信息，请参阅[用于管理资源组和资源的命令](/docs/cli/reference/bluemix_cli/bx_cli.html#commands-for-managing-resource-groups-and-resources)。
+* 在 {{site.data.keyword.Bluemix_notm}} 控制台中，每个空间只能创建一个别名。但是，使用 {{site.data.keyword.Bluemix_notm}} CLI 可以为每个空间创建多个别名。有关更多信息，请参阅[用于管理资源组和资源的命令](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource)。
 * 如果您具有相应许可权，那么可以在同一帐户的任何空间、组织和区域中，创建 IAM 管理的服务与任何应用程序之间的多个连接。
 * 在同一空间中建立 IAM 管理的一个服务实例与不同应用程序之间的多个连接时，这些连接将使用相同的别名。
 * 取消绑定 IAM 管理的服务实例*不会*删除用于表示别名的服务实例。

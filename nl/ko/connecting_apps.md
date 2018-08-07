@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -26,7 +26,7 @@ lastupdated: "2018-04-12"
 다음 규칙이 별명에 적용됩니다.
 
 * 별명에 대한 추가 비용은 없지만, 각 별명은 조직 내의 사용자 할당량에 대해 계수됩니다.
-* {{site.data.keyword.Bluemix_notm}} 콘솔에서는 영역당 하나의 별명만 작성할 수 있습니다. 그러나 {{site.data.keyword.Bluemix_notm}} CLI를 사용하면 영역당 둘 이상의 별명을 작성할 수 있습니다. 자세한 정보는 [리소스 그룹 및 리소스를 관리하는 명령](/docs/cli/reference/bluemix_cli/bx_cli.html#commands-for-managing-resource-groups-and-resources)을 참조하십시오.
+* {{site.data.keyword.Bluemix_notm}} 콘솔에서는 영역당 하나의 별명만 작성할 수 있습니다. 그러나 {{site.data.keyword.Bluemix_notm}} CLI를 사용하면 영역당 둘 이상의 별명을 작성할 수 있습니다. 자세한 정보는 [리소스 그룹 및 리소스를 관리하는 명령](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource)을 참조하십시오.
 * 권한이 있는 경우에는 동일한 계정에서 IAM 관리 서비스와 임의의 지역 및 영역, 조직에 속한 애플리케이션 간에 여러 연결을 작성할 수 있습니다.
 * 동일한 영역에서 IAM 관리 서비스로부터 다양한 앱으로 작성된 여러 연결은 동일한 별명을 사용합니다.
 * IAM 관리 서비스 인스턴스를 바인드 해제해도 별명을 나타내는 서비스 인스턴스는 삭제되지 *않습니다*.

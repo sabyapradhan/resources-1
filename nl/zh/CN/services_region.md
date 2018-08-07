@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-23"
+lastupdated: "2018-08-02"
 
 ---
 {:new_window: target="_blank"}
@@ -54,7 +54,6 @@ lastupdated: "2018-07-23"
 |Compose for RethinkDB|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管| 
 |Compose for ScyllaDB|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管| 
 |Compose for etcd|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管| 
-|Context Mapping|在美国南部托管|从美国南部联合|不可用|从美国南部联合|不可用| 
 |Continuous Delivery|在美国南部托管|从美国南部联合|从美国南部联合|不可用|不可用| 
 |Cost and Asset Management|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Data Store for Memcache|在美国南部托管|不可用|不可用|不可用|不可用| 
@@ -65,7 +64,6 @@ lastupdated: "2018-07-23"
 |DevOps Insights|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Digital Content Checker|在美国南部托管|在英国托管|不可用|从英国联合|不可用| 
 |Discovery|在美国南部托管|从美国南部联合|在德国托管|在悉尼托管|在美国东部托管| 
-|Driver Behavior|在美国南部托管|从美国南部联合|不可用|从美国南部联合|不可用| 
 |Event Management|在美国南部托管|在英国托管|不可用|在悉尼托管|不可用| 
 |Geospatial Analytics|在美国南部托管|在英国托管|不可用|从英国联合|不可用| 
 |Globalization Pipeline|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用| 
