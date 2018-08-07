@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-06-05"
+lastupdated: "2018-08-02"
 
 
 ---
@@ -21,9 +21,8 @@ lastupdated: "2018-06-05"
 
 Un groupe de ressources permet d'organiser vos ressources de compte en regroupements personnalisables de manière à pouvoir affecter rapidement des accès utilisateur à plusieurs ressources à la fois. Chaque ressource de compte gérée à l'aide du contrôle d'accès {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) appartient à un groupe de ressources au sein de votre compte. Les services Cloud Foundry restent affectés à des organisations et des espaces et ne peuvent pas être ajoutés à un groupe de ressources.
 
-Pour démarrer la gestion de vos groupes de ressources, accédez à **Gérer** &gt; **Compte** &gt; **Groupes de ressources** dans la console {{site.data.keyword.Bluemix}}. Vous pouvez alors afficher vos groupes de ressources, les renommer et créer de nouveaux groupes de ressources.
+Pour démarrer la gestion de vos groupes de ressources, accédez à **Gérer** &gt; **Compte** &gt; **Groupes de ressources** dans la console {{site.data.keyword.Bluemix}}. Vous pouvez alors afficher vos groupes de ressources, les renommer et créer de nouveaux groupes de ressources. Pour plus d'informations sur l'utilisation des groupes de ressources, voir [Meilleures pratiques en matière d'organisation des ressources dans un groupe de ressources](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 
-Pour plus d'informations sur l'utilisation des groupes de ressources, voir [Meilleures pratiques en matière d'organisation des ressources dans un groupe de ressources](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 
 ## Création d'un groupe de ressources
 
@@ -57,7 +56,7 @@ Votre premier groupe de ressources, automatiquement nommé `Default`, est créé
 
 ## Gestion des groupes de ressources et des ressources à l'aide de l'interface de ligne de commande {{site.data.keyword.Bluemix_notm}}
 
-L'interface de ligne de commande {{site.data.keyword.Bluemix_notm}} propose de nombreuses commandes de gestion des ressources. Pour plus d'informations, voir [Commandes de gestion des groupes de ressources et des ressources](/docs/cli/reference/bluemix_cli/bx_cli.html#commands-for-managing-resource-groups-and-resources).
+L'interface de ligne de commande {{site.data.keyword.Bluemix_notm}} propose de nombreuses commandes de gestion des ressources. Pour plus d'informations, voir [Commandes de gestion des groupes de ressources et des ressources](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource).
 
 ## Gestion de l'accès à des groupes de ressources
 

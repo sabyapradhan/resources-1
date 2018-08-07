@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-23"
+lastupdated: "2018-08-02"
 
 ---
 {:new_window: target="_blank"}
@@ -54,7 +54,6 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Compose for RethinkDB | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Compose for ScyllaDB | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Compose for etcd | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
-| Context Mapping | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | Syndiqué avec Sud des Etats-Unis | Indisponible | 
 | Continuous Delivery | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | Indisponible | 
 | Cost and Asset Management | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Data Store for Memcache | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
@@ -65,7 +64,6 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | DevOps Insights | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Digital Content Checker | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Syndiqué avec Royaume-Uni | Indisponible | 
 | Discovery | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
-| Driver Behavior | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | Syndiqué avec Sud des Etats-Unis | Indisponible | 
 | Event Management | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | 
 | Geospatial Analytics | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Syndiqué avec Royaume-Uni | Indisponible | 
 | Globalization Pipeline | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 

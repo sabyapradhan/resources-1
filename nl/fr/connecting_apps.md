@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-12"
+lastupdated: "2018-08-02"
 
 ---
 
@@ -26,7 +26,7 @@ Les alias sont comme des liens symboliques qui contiennent des références à d
 Les règles suivantes s'appliquent aux alias :
 
 * Un alias ne génère pas de coût supplémentaire, mais chaque alias est décompté de votre quota dans votre organisation.
-* Vous ne pouvez créer qu'un seul alias par espace dans la console {{site.data.keyword.Bluemix_notm}}. Mais vous pouvez cependant créer plusieurs alias par espace à l'aide de l'interface de ligne de commande {{site.data.keyword.Bluemix_notm}}. Pour plus d'informations, voir [Commandes de gestion des groupes de ressources et des ressources](/docs/cli/reference/bluemix_cli/bx_cli.html#commands-for-managing-resource-groups-and-resources).
+* Vous ne pouvez créer qu'un seul alias par espace dans la console {{site.data.keyword.Bluemix_notm}}. Mais vous pouvez cependant créer plusieurs alias par espace à l'aide de l'interface de ligne de commande {{site.data.keyword.Bluemix_notm}}. Pour plus d'informations, voir [Commandes de gestion des groupes de ressources et des ressources](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource).
 * Vous pouvez créer plusieurs connexions entre votre service géré par IAM et toute application de n'importe quel espace, organisation et région dans le même compte si vous disposez du droit requis
 * Toutes les connexions établies dans le même espace vers différentes applications à partir d'une instance de service gérée par IAM utilisent le même alias.
 * La suppression de la liaison d'une instance de service gérée par IAM *ne supprime pas* l'instance de service qui représente l'alias.
