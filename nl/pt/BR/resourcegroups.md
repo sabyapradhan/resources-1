@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-06-05"
+lastupdated: "2018-08-02"
 
 
 ---
@@ -21,9 +21,8 @@ lastupdated: "2018-06-05"
 
 Um grupo de recursos é uma maneira de organizar seus recursos de conta em agrupamentos customizáveis para que seja possível designar rapidamente acesso aos usuários para mais de um recurso por vez. Qualquer recurso de conta que é gerenciado usando o controle de acesso do {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) pertence a um grupo de recursos em sua conta. Os serviços do Cloud Foundry permanecem designados a organizações e espaços e não podem ser incluídos em um grupo de recursos.
 
-Para começar a gerenciar seus grupos de recursos, acesse **Gerenciar** &gt; **Conta** &gt; **Grupos de recursos** no console do {{site.data.keyword.Bluemix}}. A partir daí, é possível visualizar os grupos de recursos, renomeá-los e criar novos grupos de recursos.
+Para começar a gerenciar seus grupos de recursos, acesse **Gerenciar** &gt; **Conta** &gt; **Grupos de recursos** no console do {{site.data.keyword.Bluemix}}. A partir daí, é possível visualizar os grupos de recursos, renomeá-los e criar novos grupos de recursos. Para obter mais informações sobre como trabalhar com grupos de recursos, veja [Melhores práticas para organizar recursos em grupos de recursos](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 
-Para obter mais informações sobre como trabalhar com grupos de recursos, veja [Melhores práticas para organizar recursos em grupos de recursos](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 
 ## Criando um grupo de recursos
 
@@ -37,7 +36,7 @@ Cada grupo de recursos é grátis, mas as conexões entre um grupo de recursos e
 1. Acesse **Gerenciar** &gt; **Conta** &gt; **Grupos de recursos**.
 2. Clique em **Criar um grupo de recursos**.
 3. Insira um nome para seu grupo de recursos.
-4. Clique em ** Adicionar**.
+4. Clique em **Incluir**.
 
 ## Incluindo recursos em um grupo de recursos
 
@@ -59,7 +58,7 @@ O primeiro grupo de recursos é criado e nomeado `Padrão` para você. É possí
 
 ## Gerenciando recursos e grupos de recursos usando o {{site.data.keyword.Bluemix_notm}} CLI
 
-A CLI do {{site.data.keyword.Bluemix_notm}} tem múltiplos comandos que suportam o gerenciamento de recurso. Para obter mais informações, consulte [Comandos para gerenciar recursos e grupos de recursos](/docs/cli/reference/bluemix_cli/bx_cli.html#commands-for-managing-resource-groups-and-resources).
+A CLI do {{site.data.keyword.Bluemix_notm}} tem múltiplos comandos que suportam o gerenciamento de recurso. Para obter mais informações, consulte [Comandos para gerenciar recursos e grupos de recursos](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource).
 
 ## Gerenciando o acesso a seus grupos de recursos
 

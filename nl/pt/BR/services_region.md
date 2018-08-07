@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-07-23"
+lastupdated: "2018-08-02"
 
 ---
 {:new_window: target="_blank"}
@@ -54,7 +54,6 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Compose for RethinkDB | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
 | Compose for ScyllaDB | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
 | Compose for etcd | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
-| Context Mapping | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Organizados por meio do Sul dos EUA | Não está disponível | 
 | Continuous Delivery | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Não está disponível | 
 | Cost and Asset Management | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Data Store for Memcache | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
@@ -65,7 +64,6 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | DevOps Insights | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Digital Content Checker | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Organizados por meio do Reino Unido | Não está disponível | 
 | Discovery | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
-| Driver Behavior | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Organizados por meio do Sul dos EUA | Não está disponível | 
 | Event Management | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | 
 | Geospatial Analytics | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Organizados por meio do Reino Unido | Não está disponível | 
 | Globalization Pipeline | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
