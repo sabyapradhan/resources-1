@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-08-09"
 
 ---
 {:new_window: target="_blank"}
@@ -99,7 +99,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Re
 | Predictive Market Scenarios | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Push Notifications | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
 | Real-Time Payments | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
-| Runbook Automation | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | 
 | SQL Query | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Secure Gateway | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Syndiziert aus den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in den Vereinigten Staaten (Osten) | 
 | Simulated Historical Instrument Analytics | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
