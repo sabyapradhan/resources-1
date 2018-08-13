@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-08-09"
 
 ---
 {:new_window: target="_blank"}
@@ -99,7 +99,6 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Predictive Market Scenarios | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Push Notifications | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Real-Time Payments | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
-| Runbook Automation | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | 
 | SQL Query | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Secure Gateway | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Syndiqué avec Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé à l'Est des Etats-Unis | 
 | Simulated Historical Instrument Analytics | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 

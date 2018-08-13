@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-08-09"
 
 ---
 {:new_window: target="_blank"}
@@ -99,7 +99,6 @@ lastupdated: "2018-08-02"
 |Predictive Market Scenarios |미국 남부에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Push Notifications |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |독일에서 호스팅됨 |시드니에서 호스팅됨 |미국 동부에서 호스팅됨 | 
 |Real-Time Payments |미국 남부에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
-|Runbook Automation |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |사용할 수 없음 |시드니에서 호스팅됨 |사용할 수 없음 | 
 |SQL Query |미국 남부에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Secure Gateway |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |미국 남부에서 신디케이트됨 |미국 남부에서 신디케이트됨 |미국 동부에서 호스팅됨 | 
 |Simulated Historical Instrument Analytics |미국 남부에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 

@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-08-09"
 
 ---
 {:new_window: target="_blank"}
@@ -99,7 +99,6 @@ lastupdated: "2018-08-02"
 |Predictive Market Scenarios |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Push Notifications|在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
 |Real-Time Payments |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
-|Runbook Automation |在美國南部進行管理|在英國進行管理|不適用 |在雪梨進行管理|不適用 | 
 |SQL Query |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Secure Gateway|在美國南部進行管理|在英國進行管理| 從美國南部進行聯合發佈| 從美國南部進行聯合發佈|在美國東部進行管理| 
 |Simulated Historical Instrument Analytics |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 

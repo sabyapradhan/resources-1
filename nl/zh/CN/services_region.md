@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-08-09"
 
 ---
 {:new_window: target="_blank"}
@@ -99,7 +99,6 @@ lastupdated: "2018-08-02"
 |Predictive Market Scenarios|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Push Notifications|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管| 
 |Real-Time Payments|在美国南部托管|不可用|不可用|不可用|不可用| 
-|Runbook Automation|在美国南部托管|在英国托管|不可用|在悉尼托管|不可用| 
 |SQL Query|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Secure Gateway|在美国南部托管|在英国托管|从美国南部联合|从美国南部联合|在美国东部托管| 
 |Simulated Historical Instrument Analytics|在美国南部托管|不可用|不可用|不可用|不可用| 
