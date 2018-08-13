@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-08-09"
 
 ---
 {:new_window: target="_blank"}
@@ -100,7 +100,6 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Predictive Market Scenarios | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Push Notifications | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | Real-Time Payments | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
-| Runbook Automation | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Ospitato a Sydney | Non disponibile | 
 | Query SQL | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Secure Gateway | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Diffuso da Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Stati Uniti Est | 
 | Simulated Historical Instrument Analytics | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
