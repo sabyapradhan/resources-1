@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-13"
+lastupdated: "2018-08-14"
 
 ---
 {:new_window: target="_blank"}
@@ -70,6 +70,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Historical Instrument Analytics | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Hyper Protect Crypto Services | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Hyper Protect DBaaS | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
+| IBM Cloud Functions | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Hosted in US East | 
 | IBM Cognos Dashboard Embedded | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | IBM Identity Mixer | Not available | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | 
 | Information Server | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
