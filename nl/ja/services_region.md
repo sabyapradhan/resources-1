@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-08-09"
 
 ---
 {:new_window: target="_blank"}
@@ -100,7 +100,6 @@ lastupdated: "2018-08-02"
 | Predictive Market Scenarios | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Push Notifications | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
 | Real-Time Payments | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
-| Runbook Automation | 米国南部でホスト | 英国でホスト | 使用不可 | シドニーでホスト | 使用不可 | 
 | SQL Query | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Secure Gateway | 米国南部でホスト | 英国でホスト | 米国南部からシンジケート | 米国南部からシンジケート | 米国東部でホスト | 
 | Simulated Historical Instrument Analytics | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
