@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-08-09"
 
 ---
 {:new_window: target="_blank"}
@@ -99,7 +99,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Predictive Market Scenarios | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Push Notifications | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
 | Real-Time Payments | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
-| Runbook Automation | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
 | SQL Query | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Secure Gateway | Alojado en EE.UU. sur | Alojado en Reino Unido | Sindicado de EE.UU. sur | Sindicado de EE.UU. sur | Alojado en EE.UU.. este | 
 | Simulated Historical Instrument Analytics | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
