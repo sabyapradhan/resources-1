@@ -26,7 +26,7 @@ To start managing your resource groups, go to **Manage** &gt; **Account** &gt; *
 
 ## Creating a resource group
 
-If you have a Pay-As-You-Go or Subscription account, you can create multiple resource groups to easily manage quota and view billing usage for a set of resources. You can also group resources to make it easier for you to assign users access to more than one instance at a time.
+If you have a Pay-As-You-Go or Subscription account, you can create multiple resource groups to easily manage quota and view billing usage for a set of resources. You can also group resources to make it easier for you to assign users access to more than one instance at a time. It's important to note that you can rename a resource group, but you cannot delete a resource group after it is created.
 
 If you have a Lite account or 30-day trial, you can't create extra resource groups, but you can rename your default resource group.
 
