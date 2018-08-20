@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-09"
+lastupdated: "2018-08-16"
 
 ---
 {:new_window: target="_blank"}
@@ -70,6 +70,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Historical Instrument Analytics | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Hyper Protect Crypto Services | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Hyper Protect DBaaS | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
+| IBM Cloud Functions | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Indisponible | Hébergé à l'Est des Etats-Unis | 
 | IBM Cognos Dashboard Embedded | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
 | IBM Identity Mixer | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | 
 | Information Server | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
@@ -108,6 +109,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Text to Speech | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Tone Analyzer | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Toolchain | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Solutions VMware | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Visual Recognition | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Voice Agent with Watson | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Hébergé à l'Est des Etats-Unis | 
 | Watson Assistant (anciennement appelé Conversation) | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 

@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-09"
+lastupdated: "2018-08-16"
 
 ---
 {:new_window: target="_blank"}
@@ -70,6 +70,7 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Historical Instrument Analytics | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Hyper Protect Crypto Services | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Hyper Protect DBaaS | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
+| IBM Cloud Functions | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Não está disponível | Hospedado no leste dos EUA | 
 | IBM Cognos Dashboard Integrado | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
 | IBM Identity Mixer | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | 
 | Information Server | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
@@ -108,6 +109,7 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Text to Speech | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
 | Tone Analyzer | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
 | Toolchain | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| VMware Solutions | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | 
 | Visual Recognition | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Voice Agent with Watson | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Hospedado no leste dos EUA | 
 | Watson Assistant (anteriormente Conversation) | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
