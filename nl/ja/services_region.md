@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-09"
+lastupdated: "2018-08-16"
 
 ---
 {:new_window: target="_blank"}
@@ -71,6 +71,7 @@ lastupdated: "2018-08-09"
 | Historical Instrument Analytics | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Hyper Protect Crypto Services | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Hyper Protect DBaaS | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
+| IBM Cloud Functions | 米国南部でホスト | 英国でホスト | ドイツでホスト | 使用不可 | 米国東部でホスト | 
 | IBM Cognos Dashboard Embedded | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
 | IBM Identity Mixer | 使用不可 | 英国でホスト | 使用不可 | シドニーでホスト | 使用不可 | 
 | Information Server | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
@@ -109,6 +110,7 @@ lastupdated: "2018-08-09"
 | Text to Speech | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
 | Tone Analyzer | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
 | ツールチェーン | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| VMware ソリューション | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 
 | Visual Recognition | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Voice Agent with Watson | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 米国東部でホスト | 
 | Watson Assistant (以前の Conversation) | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 

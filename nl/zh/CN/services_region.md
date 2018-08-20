@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-09"
+lastupdated: "2018-08-16"
 
 ---
 {:new_window: target="_blank"}
@@ -70,6 +70,7 @@ lastupdated: "2018-08-09"
 |Historical Instrument Analytics|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Hyper Protect Crypto Services|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Hyper Protect DBaaS|在美国南部托管|在英国托管|不可用|不可用|不可用| 
+|IBM Cloud 功能|在美国南部托管|在英国托管|在德国托管|不可用|在美国东部托管| 
 |IBM Cognos Dashboard Embedded|在美国南部托管|在英国托管|不可用|不可用|不可用| 
 |IBM Identity Mixer|不可用|在英国托管|不可用|在悉尼托管|不可用| 
 |Information Server|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用| 
@@ -108,6 +109,7 @@ lastupdated: "2018-08-09"
 |Text to Speech|在美国南部托管|从美国南部联合|在德国托管|在悉尼托管|在美国东部托管| 
 |Tone Analyzer|在美国南部托管|从美国南部联合|在德国托管|在悉尼托管|在美国东部托管| 
 |Toolchain|在美国南部托管|不可用|不可用|不可用|不可用| 
+|VMware 解决方案|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管| 
 |Visual Recognition|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Voice Agent with Watson|在美国南部托管|不可用|不可用|不可用|在美国东部托管| 
 |Watson Assistant（原先称为 Conversation）|在美国南部托管|从美国南部联合|在德国托管|在悉尼托管|在美国东部托管| 
