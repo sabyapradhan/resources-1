@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-09"
+lastupdated: "2018-08-16"
 
 ---
 {:new_window: target="_blank"}
@@ -70,6 +70,7 @@ lastupdated: "2018-08-09"
 |Historical Instrument Analytics |미국 남부에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Hyper Protect Crypto Services |미국 남부에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Hyper Protect DBaaS |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
+|IBM Cloud Functions |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |독일에서 호스팅됨 |사용할 수 없음 |미국 동부에서 호스팅됨 | 
 |IBM Cognos Dashboard Embedded |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |IBM Identity Mixer |사용할 수 없음 |영국에서 호스팅됨 |사용할 수 없음 |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Information Server |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |독일에서 호스팅됨 |시드니에서 호스팅됨 |사용할 수 없음 | 
@@ -108,6 +109,7 @@ lastupdated: "2018-08-09"
 |Text to Speech |미국 남부에서 호스팅됨 |미국 남부에서 신디케이트됨 |독일에서 호스팅됨 |시드니에서 호스팅됨 |미국 동부에서 호스팅됨 | 
 |Tone Analyzer |미국 남부에서 호스팅됨 |미국 남부에서 신디케이트됨 |독일에서 호스팅됨 |시드니에서 호스팅됨 |미국 동부에서 호스팅됨 | 
 |Toolchain |미국 남부에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
+| VMware Solutions |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |Visual Recognition |미국 남부에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Voice Agent with Watson |미국 남부에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |미국 동부에서 호스팅됨 | 
 |Watson Assistant(이전에는 Conversation) |미국 남부에서 호스팅됨 |미국 남부에서 신디케이트됨 |독일에서 호스팅됨 |시드니에서 호스팅됨 |미국 동부에서 호스팅됨 | 
