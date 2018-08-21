@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-20"
+lastupdated: "2018-08-21"
 
 ---
 {:new_window: target="_blank"}
@@ -40,7 +40,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Availability Monitoring | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | 
 | BigInsights for Apache Hadoop (Subscription) | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Blockchain | Hosted in US South | Syndicated from US South | Syndicated from US South | Syndicated from US South | Not available | 
-| Certificate Manager | Hosted in US South | Not available | Not available | Not available | Not available | 
+| Certificate Manager | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | Cloud Object Storage | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
 | Cloudant | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Compose Enterprise | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
