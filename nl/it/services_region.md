@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-09"
+lastupdated: "2018-08-16"
 
 ---
 {:new_window: target="_blank"}
@@ -71,6 +71,7 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Historical Instrument Analytics | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Hyper Protect Crypto Services | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Hyper Protect DBaaS | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
+| IBM Cloud Functions | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Non disponibile | Ospitato in Stati Uniti Est | 
 | IBM Cognos Dashboard Embedded | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
 | IBM Identity Mixer | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato a Sydney | Non disponibile | 
 | Information Server | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
@@ -109,6 +110,7 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Text to Speech | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | Tone Analyzer | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | Toolchain | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Soluzioni VMware | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | 
 | Visual Recognition | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Voice Agent with Watson | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Est | 
 | Watson Assistant (formerly Conversation) | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
