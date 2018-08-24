@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-09"
+lastupdated: "2018-08-16"
 
 ---
 {:new_window: target="_blank"}
@@ -70,6 +70,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Historical Instrument Analytics | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Hyper Protect Crypto Services | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Hyper Protect DBaaS | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
+| IBM Cloud Functions | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | No disponible | Alojado en EE.UU.. este | 
 | IBM Cognos Dashboard Embedded | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
 | IBM Identity Mixer | No disponible | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
 | Information Server | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
@@ -108,6 +109,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Text to Speech | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
 | Tone Analyzer | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
 | Toolchain | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| VMware Solutions | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | 
 | Visual Recognition | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Voice Agent with Watson | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | Alojado en EE.UU.. este | 
 | Watson Assistant (antes Conversation) | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
