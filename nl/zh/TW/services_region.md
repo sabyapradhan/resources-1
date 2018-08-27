@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-16"
+lastupdated: "2018-08-23"
 
 ---
 {:new_window: target="_blank"}
@@ -40,7 +40,7 @@ lastupdated: "2018-08-16"
 |Availability Monitoring|在美國南部進行管理|在英國進行管理|不適用 |在雪梨進行管理|不適用 | 
 |BigInsights for Apache Hadoop（訂閱）|在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Blockchain |在美國南部進行管理| 從美國南部進行聯合發佈| 從美國南部進行聯合發佈| 從美國南部進行聯合發佈|不適用 | 
-|Certificate Manager |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
+|Certificate Manager |在美國南部進行管理|在英國進行管理|不適用 |不適用 |不適用 | 
 |Cloud Object Storage |在全球管理|在全球管理|在全球管理|在全球管理|在全球管理| 
 |Cloudant |在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
 |Compose Enterprise|在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
