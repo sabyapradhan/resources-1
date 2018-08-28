@@ -24,10 +24,9 @@ Un gruppo di risorse è un modo per organizzare le risorse dell'account in raggr
 Per iniziare a gestire i tuoi gruppi di risorse, vai a **Gestisci** &gt; **Account** &gt; **Gruppi di risorse** nella console {{site.data.keyword.Bluemix}}. Da lì puoi visualizzare i tuoi gruppi di risorse, rinominarli e creare nuovi gruppi di risorse. Per ulteriori informazioni sull'utilizzo dei gruppi di risorse, consulta [Procedure consigliate per l'organizzazione delle risorse nei gruppi di risorse](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 
 
-
 ## Creazione di un gruppo di risorse
 
-Se disponi di un account Pagamento a consumo o Sottoscrizione, puoi creare più gruppi di risorse per gestire facilmente la quota e visualizzare l'utilizzo della fatturazione per un insieme di risorse. Puoi anche raggruppare le risorse per facilitare l'assegnazione dell'accesso degli utenti a più di un'istanza alla volta.
+Se disponi di un account Pagamento a consumo o Sottoscrizione, puoi creare più gruppi di risorse per gestire facilmente la quota e visualizzare l'utilizzo della fatturazione per un insieme di risorse. Puoi anche raggruppare le risorse per facilitare l'assegnazione dell'accesso degli utenti a più di un'istanza alla volta. È importante notare che puoi rinominare un gruppo di risorse, ma non puoi eliminarlo dopo che è stato creato.
 
 Se disponi di un account Lite o una prova gratuita di 30 giorni, non puoi creare ulteriori gruppi di risorse, ma puoi rinominare il tuo gruppo di risorse predefinito.
 
