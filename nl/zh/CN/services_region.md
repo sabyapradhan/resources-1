@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-16"
+lastupdated: "2018-08-23"
 
 ---
 {:new_window: target="_blank"}
@@ -40,7 +40,7 @@ lastupdated: "2018-08-16"
 |Availability Monitoring|在美国南部托管|在英国托管|不可用|在悉尼托管|不可用| 
 |BigInsights for Apache Hadoop（预订）|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Blockchain|在美国南部托管|从美国南部联合|从美国南部联合|从美国南部联合|不可用| 
-|Certificate Manager|在美国南部托管|不可用|不可用|不可用|不可用| 
+|Certificate Manager|在美国南部托管|在英国托管|不可用|不可用|不可用| 
 |Cloud Object Storage|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管| 
 |Cloudant|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管| 
 |Compose Enterprise|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管| 

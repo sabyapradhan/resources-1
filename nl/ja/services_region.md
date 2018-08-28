@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-16"
+lastupdated: "2018-08-23"
 
 ---
 {:new_window: target="_blank"}
@@ -41,7 +41,7 @@ lastupdated: "2018-08-16"
 | Availability Monitoring | 米国南部でホスト | 英国でホスト | 使用不可 | シドニーでホスト | 使用不可 | 
 | BigInsights for Apache Hadoop (サブスクリプション) | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Blockchain | 米国南部でホスト | 米国南部からシンジケート | 米国南部からシンジケート | 米国南部からシンジケート | 使用不可 | 
-| Certificate Manager | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Certificate Manager | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
 | Cloud Object Storage | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 
 | Cloudant | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
 | Compose Enterprise | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
