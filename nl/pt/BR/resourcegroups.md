@@ -26,7 +26,8 @@ Para começar a gerenciar seus grupos de recursos, acesse **Gerenciar** &gt; **C
 
 ## Criando um grupo de recursos
 
-Se você tiver uma conta pré-paga ou de assinatura, será possível criar múltiplos grupos de recursos para gerenciar a cota e visualizar o uso de faturamento facilmente para um conjunto de recursos. Também será possível agrupar recursos para tornar mais fácil a designação de acesso de usuários para mais de uma instância por vez.
+Se você tiver uma conta pré-paga ou de assinatura, será possível criar múltiplos grupos de recursos para gerenciar a cota e visualizar o uso de faturamento facilmente para um conjunto de recursos. Também será possível agrupar recursos para tornar mais fácil a designação de acesso de usuários para mais de uma instância por vez. 
+É importante observar que é possível renomear um grupo de recursos, mas não é possível excluí-lo após a sua criação.
 
 Se você tem uma conta Lite ou uma avaliação de 30 dias, não é possível criar grupos de recursos adicionais, mas é possível renomear o grupo de recursos padrão.
 
@@ -36,7 +37,7 @@ Cada grupo de recursos é grátis, mas as conexões entre um grupo de recursos e
 1. Acesse **Gerenciar** &gt; **Conta** &gt; **Grupos de recursos**.
 2. Clique em **Criar um grupo de recursos**.
 3. Insira um nome para seu grupo de recursos.
-4. Clique em **Incluir**.
+4. Clique em ** Adicionar**.
 
 ## Incluindo recursos em um grupo de recursos
 

@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-16"
+lastupdated: "2018-08-23"
 
 ---
 {:new_window: target="_blank"}
@@ -40,7 +40,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Availability Monitoring | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | 
 | BigInsights for Apache Hadoop (Abonnement) | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Blockchain | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | 
-| Certificate Manager | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Certificate Manager | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
 | Cloud Object Storage | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Cloudant | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Compose Enterprise | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
