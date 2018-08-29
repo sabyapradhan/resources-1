@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-16"
+lastupdated: "2018-08-23"
 
 ---
 {:new_window: target="_blank"}
@@ -40,7 +40,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Availability Monitoring | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
 | BigInsights for Apache Hadoop (Subscription) | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Blockchain | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Sindicado de EE.UU. sur | Sindicado de EE.UU. sur | No disponible | 
-| Certificate Manager | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
+| Certificate Manager | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
 | Cloud Object Storage | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | 
 | Cloudant | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 
 | Compose Enterprise | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU.. este | 

@@ -26,7 +26,7 @@ Para empezar a gestionar sus grupos de recursos, vaya a **Gestionar** &gt; **Cue
 
 ## Creación de un grupo de recursos
 
-Si tiene una cuenta de Pago según uso o de Suscripción, puede crear varios grupos de recursos para gestionar fácilmente la cuota y ver el uso de facturación de un conjunto de recursos. También puede agrupar recursos para facilitarles la asignación de acceso a los usuarios a más de una instancia a la vez.
+Si tiene una cuenta de Pago según uso o de Suscripción, puede crear varios grupos de recursos para gestionar fácilmente la cuota y ver el uso de facturación de un conjunto de recursos. También puede agrupar recursos para facilitarles la asignación de acceso a los usuarios a más de una instancia a la vez. Es importante tener en cuenta que puede renombrar un grupo de recursos, pero no puede suprimir un grupo de recursos una vez creado.
 
 Si tiene una cuenta Lite o una prueba de 30 días, no puede crear grupos de recursos adicionales pero puede renombrar su grupo de recursos predeterminado.
 
