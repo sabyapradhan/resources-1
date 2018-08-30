@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-29"
+lastupdated: "2018-08-30"
 
 ---
 {:new_window: target="_blank"}
@@ -88,7 +88,7 @@ Services that are hosted globally create resources that operate across multiple 
 | MQ | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | Machine Learning | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | Master Data Management | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
-| Message Hub | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
+| Message Hub | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Mobile Analytics | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Mobile Foundation | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Monitoring | Hosted in US South | Hosted in United Kingdom | Syndicated from US South | Hosted in Sydney | Not available | 
