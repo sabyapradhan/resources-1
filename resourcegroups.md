@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-09-06"
 
 
 ---
@@ -30,7 +30,7 @@ If you have a Pay-As-You-Go or Subscription account, you can create multiple res
 
 If you have a Lite account or 30-day trial, you can't create extra resource groups, but you can rename your default resource group.
 
-Each resource group is free, but connections between a resource group and a Cloud Foundry org or space count toward your account quota. For more information, see [What is an alias?](/docs/resources/connecting_apps.html#what_is_alias)
+Connections between a resource group and a Cloud Foundry org or space are restricted by your quota. For more information, see [What is an alias?](/docs/resources/connecting_apps.html#what_is_alias)
 {: tip}
 
 1. Go to **Manage** &gt; **Account** &gt; **Resource Groups**.
