@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-05"
+lastupdated: "2018-09-06"
 
 ---
 {:new_window: target="_blank"}
@@ -44,6 +44,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Cloud Foundry Enterprise Environment | Not available | Not available | Not available | Not available | Not available | 
 | Cloud Object Storage | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
 | Cloudant | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
+| Compare Comply | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Compose Enterprise | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Compose for Elasticsearch | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Compose for JanusGraph | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
@@ -102,6 +103,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Real-Time Payments | Hosted in US South | Not available | Not available | Not available | Not available | 
 | SQL Query | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Secure Gateway | Hosted in US South | Hosted in United Kingdom | Syndicated from US South | Syndicated from US South | Hosted in US East | 
+| Security Advisor | Not available | Not available | Not available | Not available | Not available | 
 | Simulated Historical Instrument Analytics | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Simulated Instrument Analytics | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Speech to Text | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
