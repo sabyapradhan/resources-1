@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-06"
+lastupdated: "2018-09-07"
 
 ---
 {:new_window: target="_blank"}
@@ -91,7 +91,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Machine Learning | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | Master Data Management | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Message Hub | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
-| Mobile Foundation | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
+| Mobile Foundation | Not available | Hosted in United Kingdom | Not available | Not available | Not available | 
 | Monitoring | Hosted in US South | Hosted in United Kingdom | Syndicated from US South | Hosted in Sydney | Not available | 
 | Natural Language Classifier | Hosted in US South | Syndicated from US South | Hosted in Germany | Syndicated from US South | Not available | 
 | Natural Language Understanding | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
