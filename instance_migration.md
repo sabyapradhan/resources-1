@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-07-16"
+lastupdated: "2018-09-07"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-07-16"
 To make your experience with using {{site.data.keyword.Bluemix}} simpler and more flexible, we have introduced [resource groups](/docs/resources/resourcegroups.html#rgs), which are conceptually similar to Cloud Foundry spaces. However, resource groups include several additional benefits, such as finer-grained access control by using IBM Cloud Identity and Access Management (IAM), the ability to connect service instances to apps and service across different regions, and an easy way to view usage per group.
 {:shortdesc}
 
-We are starting to move services from Cloud Foundry to benefit from resource groups, which means that when you see the ![Migrate this service instance to a resource group](images/migrate.svg "Migrate this service instance to a resource group") icon next to one of your services on your dashboard, you must start a migration plan for your service instances or apps that are created through the [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.dev_console}}](https://console-demo3.bluemix.net/docs/apps/index.html#create) to move from their current Cloud Foundry org and space to a resource group. Until an {{site.data.keyword.Bluemix_notm}} service moves from using Cloud Foundry orgs, spaces, and roles to using IAM and resource groups, you can’t migrate your existing Cloud Foundry service instances to a resource group.
+We are starting to move services from Cloud Foundry to benefit from resource groups, which means that when you see the ![Migrate this service instance to a resource group](images/migrate.svg "Migrate this service instance to a resource group") icon next to one of your services on your dashboard, you must start a migration plan for your service instances or apps that are created through the [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.dev_console}}](https://console.bluemix.net/docs/apps/index.html#create) to move from their current Cloud Foundry org and space to a resource group. Until an {{site.data.keyword.Bluemix_notm}} service moves from using Cloud Foundry orgs, spaces, and roles to using IAM and resource groups, you can’t migrate your existing Cloud Foundry service instances to a resource group.
 
 When you migrate existing Cloud Foundry service instances or {{site.data.keyword.dev_console}} apps to a resource group, the group that you choose can't be changed after the migration is complete. So, it's essential that you plan how you want to organize resources in the account before you migrate. This might mean that you need to create one or more resource groups, if you have a billable account, before migrating. 
 
