@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="resources" audience="platform" href="/docs/resources/acct_resources.html"}
-Gestione di risorse e servizi 
+Gestione di risorse e servizi
 
     {: .navgroup id="learn"}
     acct_resources.md
@@ -24,6 +24,7 @@ Gestione di risorse e servizi
     {: .navgroup-end}
 	
     {: .navgroup id="help"}
+    faqs.md
     ts_services.md
     ts_migration.md
     {: .navgroup-end}

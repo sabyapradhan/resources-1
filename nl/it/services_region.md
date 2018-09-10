@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-23"
+lastupdated: "2018-08-30"
 
 ---
 {:new_window: target="_blank"}
@@ -89,7 +89,7 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | MQ | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
 | Machine Learning | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
 | Master Data Management | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
-| Message Hub | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
+| Message Hub | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | Mobile Analytics | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
 | Mobile Foundation | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
 | Monitoraggio | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Diffuso da Stati Uniti Sud | Ospitato a Sydney | Non disponibile | 
