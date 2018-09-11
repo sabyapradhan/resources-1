@@ -23,5 +23,7 @@ Recursos e serviços Trabalhando com
     {: .navgroup-end}
 	
     {: .navgroup id="help"}
-    Ts_services.md ts_migration.md
+    faqs.md
+    ts_services.md
+    ts_migration.md
     {: .navgroup-end}
