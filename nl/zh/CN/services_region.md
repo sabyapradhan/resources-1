@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-23"
+lastupdated: "2018-08-30"
 
 ---
 {:new_window: target="_blank"}
@@ -18,7 +18,7 @@ lastupdated: "2018-08-23"
 
 不是所有的服务都可以在每个 {{site.data.keyword.Bluemix_notm}} 区域中进行购买。此外，即便服务在该区域中可供购买，该服务也可能是在其他位置托管的。下表显示 IBM 提供的服务。
 
-全球托管的服务会创建跨多个区域运行的资源。例如，对于 {{site.data.keyword.cos_full_notm}} (COS），您可以通过 [选择端点](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)（应用程序在该端点中发送 REST API 请求），在单个数据中心、整个区域甚或区域组合中分散数据。
+全局托管的服务会创建跨多个区域运行的资源。例如，使用 {{site.data.keyword.cos_full_notm}} (COS)，可以通过[选择端点](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)（应用程序在其中发送 REST API 请求的端点），选择在单个数据中心、整个区域或者甚至在区域组合中分散数据。
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -70,7 +70,7 @@ lastupdated: "2018-08-23"
 |Historical Instrument Analytics|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Hyper Protect Crypto Services|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Hyper Protect DBaaS|在美国南部托管|在英国托管|不可用|不可用|不可用| 
-|IBM Cloud 功能|在美国南部托管|在英国托管|在德国托管|不可用|在美国东部托管| 
+|IBM Cloud Functions|在美国南部托管|在英国托管|在德国托管|不可用|在美国东部托管| 
 |IBM Cognos Dashboard Embedded|在美国南部托管|在英国托管|不可用|不可用|不可用| 
 |IBM Identity Mixer|不可用|在英国托管|不可用|在悉尼托管|不可用| 
 |Information Server|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用| 
@@ -88,7 +88,7 @@ lastupdated: "2018-08-23"
 |MQ|在美国南部托管|在英国托管|不可用|不可用|不可用| 
 |Machine Learning|在美国南部托管|在英国托管|不可用|不可用|不可用| 
 |Master Data Management|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用| 
-|Message Hub|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用| 
+|Message Hub|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管| 
 |Mobile Analytics|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用| 
 |Mobile Foundation|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用| 
 |监视|在美国南部托管|在英国托管|从美国南部联合|在悉尼托管|不可用| 
@@ -109,7 +109,7 @@ lastupdated: "2018-08-23"
 |Text to Speech|在美国南部托管|从美国南部联合|在德国托管|在悉尼托管|在美国东部托管| 
 |Tone Analyzer|在美国南部托管|从美国南部联合|在德国托管|在悉尼托管|在美国东部托管| 
 |Toolchain|在美国南部托管|不可用|不可用|不可用|不可用| 
-|VMware 解决方案|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管| 
+|VMware Solutions|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管| 
 |Visual Recognition|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Voice Agent with Watson|在美国南部托管|不可用|不可用|不可用|在美国东部托管| 
 |Watson Assistant（原先称为 Conversation）|在美国南部托管|从美国南部联合|在德国托管|在悉尼托管|在美国东部托管| 
