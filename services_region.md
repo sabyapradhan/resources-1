@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-12"
+lastupdated: "2018-09-13"
 
 ---
 {:new_window: target="_blank"}
@@ -67,12 +67,12 @@ Services that are hosted globally create resources that operate across multiple 
 | Digital Content Checker | Hosted in US South | Hosted in United Kingdom | Not available | Syndicated from United Kingdom | Not available | 
 | Discovery | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Event Management | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | 
+| Functions | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Hosted in US East | 
 | Geospatial Analytics | Hosted in US South | Hosted in United Kingdom | Not available | Syndicated from United Kingdom | Not available | 
 | Globalization Pipeline | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Historical Instrument Analytics | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Hyper Protect Crypto Services | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Hyper Protect DBaaS | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
-| IBM Cloud Functions | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Hosted in US East | 
 | IBM Cognos Dashboard Embedded | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | IBM Identity Mixer | Not available | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | 
 | Information Server | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
@@ -81,7 +81,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Internet Services | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
 | Internet of Things Platform | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Not available | 
 | Investment Portfolio | Hosted in US South | Not available | Not available | Not available | Not available | 
-| Key Protect | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
+| Key Protect | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Knowledge Catalog | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | Knowledge Studio | Hosted in US South | Not available | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Language Translator | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
