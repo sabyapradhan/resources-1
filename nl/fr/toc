@@ -24,6 +24,7 @@ Utilisation des ressources et des services
     {: .navgroup-end}
 	
     {: .navgroup id="help"}
+    faqs.md
     ts_services.md
     ts_migration.md
     {: .navgroup-end}

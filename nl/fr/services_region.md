@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-23"
+lastupdated: "2018-08-30"
 
 ---
 {:new_window: target="_blank"}
@@ -88,7 +88,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | MQ | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
 | Machine Learning | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
 | Master Data Management | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
-| Message Hub | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
+| Message Hub | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Mobile Analytics | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
 | Mobile Foundation | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
 | Surveillance | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Syndiqué avec Sud des Etats-Unis | Hébergé à Sydney | Indisponible | 
