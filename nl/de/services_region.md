@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-23"
+lastupdated: "2018-08-30"
 
 ---
 {:new_window: target="_blank"}
@@ -88,7 +88,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Re
 | MQ | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Machine Learning | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Master Data Management | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
-| Message Hub | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
+| Message Hub | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
 | Mobile Analytics | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
 | Mobile Foundation | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
 | Monitoring | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Sydney | Nicht verfügbar | 
