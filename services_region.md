@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-17"
+lastupdated: "2018-09-18"
 
 ---
 {:new_window: target="_blank"}
@@ -27,6 +27,7 @@ Services that are hosted globally create resources that operate across multiple 
 
 | Service | US South | United Kingdom | Germany | Sydney | US East |
 |-----|-----|-----|-----|-----|-----|
+| AI OpenScale | Hosted in US South | Not available | Not available | Not available | Not available | 
 | API Connect | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Activity Tracker | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Alert Notification | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | 
