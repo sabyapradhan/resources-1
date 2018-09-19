@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-18"
+lastupdated: "2018-09-19"
 
 ---
 {:new_window: target="_blank"}
@@ -68,6 +68,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Digital Content Checker | Hosted in US South | Hosted in United Kingdom | Not available | Syndicated from United Kingdom | Not available | 
 | Discovery | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Event Management | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | 
+| Event Streams | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Functions | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Hosted in US East | 
 | Geospatial Analytics | Hosted in US South | Hosted in United Kingdom | Not available | Syndicated from United Kingdom | Not available | 
 | Globalization Pipeline | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
@@ -91,7 +92,6 @@ Services that are hosted globally create resources that operate across multiple 
 | MQ | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | Machine Learning | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | Master Data Management | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
-| Message Hub | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Mobile Foundation | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Monitoring | Hosted in US South | Hosted in United Kingdom | Syndicated from US South | Hosted in Sydney | Not available | 
 | Natural Language Classifier | Hosted in US South | Syndicated from US South | Hosted in Germany | Syndicated from US South | Not available | 
