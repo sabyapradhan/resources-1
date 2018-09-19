@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-09-06"
 
 
 ---
@@ -30,7 +30,7 @@ Wenn Sie über ein nutzungsabhängiges Konto oder ein Abonnementkonto verfügen,
 
 Wenn Sie über ein Lite-Konto oder ein 30-Tage-Testkonto verfügen, können Sie zwar keine zusätzlichen Ressourcengruppen erstellen, jedoch die Standardressourcengruppe umbenennen.
 
-Die einzelnen Ressourcengruppen sind kostenfrei, die Verbindungen zwischen einer Ressourcengruppe und einer Cloud Foundry-Organisation oder einem Cloud Foundry-Bereich werden jedoch bei Ihrem Kontokontingent angerechnet. Weitere Informationen finden Sie in [Was ist ein Alias?](/docs/resources/connecting_apps.html#what_is_alias).
+Verbindungen zwischen einer Ressourcengruppe und einer Cloud Foundry-Organisation oder einem Cloud Foundry-Bereich sind durch Ihr Kontingent eingeschränkt. Weitere Informationen finden Sie in [Was ist ein Alias?](/docs/resources/connecting_apps.html#what_is_alias).
 {: tip}
 
 1. Rufen Sie **Verwalten** &gt; **Konto** &gt; **Ressourcengruppen** auf.

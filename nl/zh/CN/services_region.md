@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-30"
+lastupdated: "2018-09-06"
 
 ---
 {:new_window: target="_blank"}
@@ -41,8 +41,10 @@ lastupdated: "2018-08-30"
 |BigInsights for Apache Hadoop（预订）|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Blockchain|在美国南部托管|从美国南部联合|从美国南部联合|从美国南部联合|不可用| 
 |Certificate Manager|在美国南部托管|在英国托管|不可用|不可用|不可用| 
+|Cloud Foundry 企业环境|不可用|不可用|不可用|不可用|不可用| 
 |Cloud Object Storage|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管| 
 |Cloudant|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管| 
+|Compare Comply|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Compose Enterprise|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管| 
 |Compose for Elasticsearch|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管| 
 |Compose for JanusGraph|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管| 
@@ -89,7 +91,6 @@ lastupdated: "2018-08-30"
 |Machine Learning|在美国南部托管|在英国托管|不可用|不可用|不可用| 
 |Master Data Management|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用| 
 |Message Hub|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管| 
-|Mobile Analytics|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用| 
 |Mobile Foundation|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用| 
 |监视|在美国南部托管|在英国托管|从美国南部联合|在悉尼托管|不可用| 
 |Natural Language Classifier|在美国南部托管|从美国南部联合|在德国托管|从美国南部联合|不可用| 
@@ -102,6 +103,7 @@ lastupdated: "2018-08-30"
 |Real-Time Payments|在美国南部托管|不可用|不可用|不可用|不可用| 
 |SQL Query|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Secure Gateway|在美国南部托管|在英国托管|从美国南部联合|从美国南部联合|在美国东部托管| 
+|安全顾问程序|不可用|不可用|不可用|不可用|不可用| 
 |Simulated Historical Instrument Analytics|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Simulated Instrument Analytics|在美国南部托管|不可用|不可用|不可用|不可用| 
 |Speech to Text|在美国南部托管|从美国南部联合|在德国托管|在悉尼托管|在美国东部托管| 

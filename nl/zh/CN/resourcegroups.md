@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-09-06"
 
 
 ---
@@ -30,7 +30,7 @@ lastupdated: "2018-08-02"
 
 如果您拥有轻量帐户或 30 天试用帐户，那么不能创建额外的资源组，但可以重命名缺省资源组。
 
-每个资源组都是免费的，但是资源组与 Cloud Foundry 组织或空间之间的连接会计入帐户配额。有关更多信息，请参阅[什么是别名？](/docs/resources/connecting_apps.html#what_is_alias)
+资源组与 Cloud Foundry 组织或空间之间的连接受您的配额限制。有关更多信息，请参阅[什么是别名？](/docs/resources/connecting_apps.html#what_is_alias)
 {: tip}
 
 1. 转至**管理** &gt; **帐户** &gt; **资源组**。
