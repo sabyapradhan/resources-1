@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-07-16"
+lastupdated: "2018-09-07"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-07-16"
 ユーザーの {{site.data.keyword.Bluemix}} の使用経験をよりシンプルでフレキシブルなものにするため、概念的に Cloud Foundry のスペースに類似する[リソース・グループ](/docs/resources/resourcegroups.html#rgs)が導入されました。 ただし、リソース・グループには、IBM Cloud Identity and Access Management (IAM) を使用したきめ細かいアクセス制御、さまざまな地域にわたってアプリおよびサービスにサービス・インスタンスを接続する機能、およびグループごとの使用量の容易な表示方法など、いくつかの追加の利点があります。
 {:shortdesc}
 
-弊社では、リソース・グループの利点を活用するために Cloud Foundry からのサービスの移動を開始しています。つまり、ご使用のダッシュボード上でサービスの横に ![このサービス・インスタンスをリソース・グループにマイグレーション](images/migrate.svg "このサービス・インスタンスをリソース・グループにマイグレーション") アイコンが表示されている場合は、現在の Cloud Foundry の組織およびスペースからリソース・グループにサービス・インスタンスまたは [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.dev_console}}](https://console-demo3.bluemix.net/docs/apps/index.html#create) で作成されたアプリを移動するためのマイグレーション計画を開始する必要があります。 {{site.data.keyword.Bluemix_notm}} サービスを Cloud Foundry の組織、スペース、および役割の使用から IAM およびリソース・グループの使用に移行するまでは、既存の Cloud Foundry サービス・インスタンスをリソース・グループにマイグレーションすることはできません。
+弊社では、リソース・グループの利点を活用するために Cloud Foundry からのサービスの移動を開始しています。つまり、ご使用のダッシュボード上でサービスの横に ![このサービス・インスタンスをリソース・グループにマイグレーション](images/migrate.svg "このサービス・インスタンスをリソース・グループにマイグレーション") アイコンが表示されている場合は、現在の Cloud Foundry の組織およびスペースからリソース・グループにサービス・インスタンスまたは [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.dev_console}}](https://console.bluemix.net/docs/apps/index.html#create) で作成されたアプリを移動するためのマイグレーション計画を開始する必要があります。 {{site.data.keyword.Bluemix_notm}} サービスを Cloud Foundry の組織、スペース、および役割の使用から IAM およびリソース・グループの使用に移行するまでは、既存の Cloud Foundry サービス・インスタンスをリソース・グループにマイグレーションすることはできません。
 
 既存の Cloud Foundry サービス・インスタンスまたは {{site.data.keyword.dev_console}} アプリをリソース・グループにマイグレーションする場合、選択したグループをマイグレーション完了後に変更することはできません。 したがって、マイグレーションの前に、アカウント内のリソースをどのように編成するかを計画することが重要です。 これは、請求可能アカウントをお持ちの場合に、マイグレーション前に 1 つ以上のリソース・グループを作成する必要があることを意味する場合があります。 
 

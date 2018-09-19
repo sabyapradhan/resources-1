@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-07-16"
+lastupdated: "2018-09-07"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-07-16"
 为了使您有更简单、更灵活的 {{site.data.keyword.Bluemix}} 使用体验，我们引入了[资源组](/docs/resources/resourcegroups.html#rgs)，资源组在概念上类似于 Cloud Foundry 空间。但是，资源组还包含更多优点，例如使用 IBM Cloud Identity and Access Management (IAM) 进行更细颗粒度的访问控制、能够将服务实例连接到不同区域的应用程序和服务，以及轻松查看每个组的使用情况。
 {:shortdesc}
 
-我们要开始将 Cloud Foundry 服务迁移到资源组，以便利用资源组的优点。这意味着，如果在仪表板上看到某个服务的旁边有 ![将此服务实例迁移到资源组](images/migrate.svg " 将此服务实例迁移到资源组") 图标，那么必须为通过 [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.dev_console}}](https://console-demo3.bluemix.net/docs/apps/index.html#create) 创建的服务实例或应用程序启动迁移计划，以将其从当前的 Cloud Foundry 组织和空间迁移到资源组。在 {{site.data.keyword.Bluemix_notm}} 服务从使用 Cloud Foundry 组织、空间和角色迁移到使用 IAM 和资源组之后，才能将现有 Cloud Foundry 服务实例迁移到资源组。
+我们要开始将 Cloud Foundry 服务迁移到资源组，以便利用资源组的优点。这意味着，如果在仪表板上看到某个服务的旁边有 ![将此服务实例迁移到资源组](images/migrate.svg " 将此服务实例迁移到资源组") 图标，那么必须为通过 [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.dev_console}}](https://console.bluemix.net/docs/apps/index.html#create) 创建的服务实例或应用程序启动迁移计划，以将其从当前的 Cloud Foundry 组织和空间迁移到资源组。在 {{site.data.keyword.Bluemix_notm}} 服务从使用 Cloud Foundry 组织、空间和角色迁移到使用 IAM 和资源组之后，才能将现有 Cloud Foundry 服务实例迁移到资源组。
 
 如果将现有 Cloud Foundry 服务实例或 {{site.data.keyword.dev_console}} 应用程序迁移到资源组，那么在迁移完成后无法更改所选的资源组。因此，在迁移之前，计划好资源在帐户中的组织方式至关重要。这可能意味着在迁移之前，您需要创建一个或多个资源组（如果您有计费帐户）。 
 
