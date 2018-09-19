@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-09-06"
 
 
 ---
@@ -30,7 +30,7 @@ Si tiene una cuenta de Pago según uso o de Suscripción, puede crear varios gru
 
 Si tiene una cuenta Lite o una prueba de 30 días, no puede crear grupos de recursos adicionales pero puede renombrar su grupo de recursos predeterminado.
 
-Cada grupo de recursos es gratuito, pero las conexiones entre un grupo de recursos y una organización o espacio de Cloud Foundry se tienen en cuenta en su cuota de cuenta. Para obtener más información, consulte [¿Qué es un alias?](/docs/resources/connecting_apps.html#what_is_alias)
+Las conexiones entre un grupo de recursos y una organización de Cloud Foundry o espacio están restringidas por su cuota. Para obtener más información, consulte [¿Qué es un alias?](/docs/resources/connecting_apps.html#what_is_alias)
 {: tip}
 
 1. Vaya a **Gestionar** &gt; **Cuenta** &gt; **Grupos de recursos**.

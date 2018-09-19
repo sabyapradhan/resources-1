@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-30"
+lastupdated: "2018-09-06"
 
 ---
 {:new_window: target="_blank"}
@@ -41,8 +41,10 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | BigInsights for Apache Hadoop (Abonnement) | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Blockchain | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | 
 | Certificate Manager | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
+| Cloud Foundry Enterprise Environment | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Cloud Object Storage | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Cloudant | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Compare Comply | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Compose Enterprise | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Compose for Elasticsearch | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Compose for JanusGraph | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
@@ -89,7 +91,6 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Machine Learning | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
 | Master Data Management | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
 | Message Hub | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
-| Mobile Analytics | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
 | Mobile Foundation | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
 | Surveillance | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Syndiqué avec Sud des Etats-Unis | Hébergé à Sydney | Indisponible | 
 | Natural Language Classifier | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Syndiqué avec Sud des Etats-Unis | Indisponible | 
@@ -102,6 +103,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Real-Time Payments | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | SQL Query | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Secure Gateway | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Syndiqué avec Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé à l'Est des Etats-Unis | 
+| Security Advisor | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Simulated Historical Instrument Analytics | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Simulated Instrument Analytics | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Speech to Text | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 

@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-09-06"
 
 
 ---
@@ -26,11 +26,11 @@ Pour démarrer la gestion de vos groupes de ressources, accédez à **Gérer** &
 
 ## Création d'un groupe de ressources
 
-Si vous disposez d'un compte Paiement à la carte ou Abonnement, vous pouvez créer plusieurs groupes de ressources de manière à faciliter la gestion du quota et l'affichage de la facturation d'utilisation d'un ensemble de ressources. Vous pouvez également regrouper des ressources afin de faciliter l'affectation d'accès utilisateur à plusieurs instances à la fois. Il est important de noter que vous pouvez renommer un groupe de ressources, mais que vous ne pouvez pas le supprimer après sa création. 
+Si vous disposez d'un compte Paiement à la carte ou Abonnement, vous pouvez créer plusieurs groupes de ressources de manière à faciliter la gestion du quota et l'affichage de la facturation d'utilisation d'un ensemble de ressources. Vous pouvez également regrouper des ressources afin de faciliter l'affectation d'accès utilisateur à plusieurs instances à la fois. Il est important de noter que vous pouvez renommer un groupe de ressources, mais que vous ne pouvez pas le supprimer après sa création.
 
 Si vous disposez d'un compte Lite ou d'un compte d'essai de 30 jours, vous ne pouvez pas créer de groupes de ressources supplémentaires, mais vous pouvez renommer votre groupe de ressources par défaut.
 
-Tous les groupes de ressources sont gratuits, en revanche, les connexions entre un groupe de ressources et une organisation ou un espace Cloud Foundry sont décomptées de votre quota de compte. Pour plus d'informations, voir [Qu'est-ce qu'un alias ?](/docs/resources/connecting_apps.html#what_is_alias)
+Les connexions entre un groupe de ressources et une organisation ou un espace Cloud Foundry sont restreintes par votre quota. Pour plus d'informations, voir [Qu'est-ce qu'un alias ?](/docs/resources/connecting_apps.html#what_is_alias)
 {: tip}
 
 1. Accédez à **Gérer** &gt; **Compte** &gt; **Groupes de ressources**.

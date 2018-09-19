@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-30"
+lastupdated: "2018-09-06"
 
 ---
 {:new_window: target="_blank"}
@@ -41,8 +41,10 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | BigInsights for Apache Hadoop (Subscription) | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Blockchain | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Sindicado de EE.UU. sur | Sindicado de EE.UU. sur | No disponible | 
 | Certificate Manager | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
+| Cloud Foundry Enterprise Environment | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Cloud Object Storage | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | 
 | Cloudant | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | 
+| Compare Comply | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Compose Enterprise | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | 
 | Compose for Elasticsearch | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | 
 | Compose for JanusGraph | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | 
@@ -89,7 +91,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Machine Learning | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
 | Master Data Management | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
 | Message Hub | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | 
-| Mobile Analytics | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
 | Mobile Foundation | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
 | Supervisión | Alojado en EE.UU. sur | Alojado en Reino Unido | Sindicado de EE.UU. sur | Alojado en Sídney | No disponible | 
 | Natural Language Classifier | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Sindicado de EE.UU. sur | No disponible | 
@@ -102,6 +103,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Real-Time Payments | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | SQL Query | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Secure Gateway | Alojado en EE.UU. sur | Alojado en Reino Unido | Sindicado de EE.UU. sur | Sindicado de EE.UU. sur | Alojado en EE.UU. este | 
+| Asesor de seguridad | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Simulated Historical Instrument Analytics | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Simulated Instrument Analytics | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Speech to Text | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | 
