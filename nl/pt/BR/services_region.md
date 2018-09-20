@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-30"
+lastupdated: "2018-09-06"
 
 ---
 {:new_window: target="_blank"}
@@ -41,8 +41,10 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | BigInsights for Apache Hadoop (assinatura) | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Blockchain | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Organizados por meio do Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | 
 | Certificate Manager | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
+| Cloud Foundry Enterprise Environment | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Cloud Object Storage | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | 
 | Cloudant | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Compare Comply | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Compose Enterprise | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
 | Compose for Elasticsearch | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
 | Compose for JanusGraph | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
@@ -89,7 +91,6 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Machine Learning | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
 | Master Data Management | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
 | Message Hub | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
-| Mobile Analytics | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
 | Mobile Foundation | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
 | Monitoring | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Organizados por meio do Sul dos EUA | Hospedado em Sydney | Não está disponível | 
 | Natural Language Classifier | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Organizados por meio do Sul dos EUA | Não está disponível | 
@@ -102,6 +103,7 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Real-Time Payments | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | SQL Query | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Secure Gateway | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Organizados por meio do Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado no leste dos EUA | 
+| Security Advisor | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Simulated Historical Instrument Analytics | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Simulated Instrument Analytics | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Speech to Text | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 

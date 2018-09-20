@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-09-06"
 
 
 ---
@@ -26,12 +26,11 @@ Para começar a gerenciar seus grupos de recursos, acesse **Gerenciar** &gt; **C
 
 ## Criando um grupo de recursos
 
-Se você tiver uma conta pré-paga ou de assinatura, será possível criar múltiplos grupos de recursos para gerenciar a cota e visualizar o uso de faturamento facilmente para um conjunto de recursos. Também será possível agrupar recursos para tornar mais fácil a designação de acesso de usuários para mais de uma instância por vez. 
-É importante observar que é possível renomear um grupo de recursos, mas não é possível excluí-lo após a sua criação.
+Se você tiver uma conta pré-paga ou de assinatura, será possível criar múltiplos grupos de recursos para gerenciar a cota e visualizar o uso de faturamento facilmente para um conjunto de recursos. Também será possível agrupar recursos para tornar mais fácil a designação de acesso de usuários para mais de uma instância por vez. É importante observar que é possível renomear um grupo de recursos, mas não é possível excluí-lo após a sua criação.
 
 Se você tem uma conta Lite ou uma avaliação de 30 dias, não é possível criar grupos de recursos adicionais, mas é possível renomear o grupo de recursos padrão.
 
-Cada grupo de recursos é grátis, mas as conexões entre um grupo de recursos e uma organização ou espaço do Cloud Foundry contam para sua cota de conta. Para obter mais informações, veja [O que é um alias?](/docs/resources/connecting_apps.html#what_is_alias)
+As conexões entre um grupo de recursos e uma organização ou espaço do Cloud Foundry são restringidas por sua cota. Para obter mais informações, veja [O que é um alias?](/docs/resources/connecting_apps.html#what_is_alias)
 {: tip}
 
 1. Acesse **Gerenciar** &gt; **Conta** &gt; **Grupos de recursos**.
