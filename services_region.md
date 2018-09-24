@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-20"
+lastupdated: "2018-09-24"
 
 ---
 {:new_window: target="_blank"}
@@ -31,7 +31,7 @@ Services that are hosted globally create resources that operate across multiple 
 | API Connect | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Activity Tracker | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Alert Notification | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | 
-| Analytics Engine | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
+| Analytics Engine | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Not available | 
 | Apache Spark | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | App Connect | Hosted in US South | Hosted in United Kingdom | Not available | Syndicated from US South | Not available | 
 | App ID | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
@@ -64,7 +64,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Db2 Hosted | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Db2 Warehouse | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Decision Optimization | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
-| DevOps Insights | Hosted in US South | Not available | Not available | Not available | Not available | 
+| DevOps Insights | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Not available | 
 | Digital Content Checker | Hosted in US South | Hosted in United Kingdom | Not available | Syndicated from United Kingdom | Not available | 
 | Discovery | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Event Management | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | 
@@ -90,7 +90,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Lift CLI | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Log Analysis | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | MQ | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
-| Machine Learning | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
+| Machine Learning | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Not available | 
 | Master Data Management | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Mobile Foundation | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Monitoring | Hosted in US South | Hosted in United Kingdom | Syndicated from US South | Hosted in Sydney | Not available | 
