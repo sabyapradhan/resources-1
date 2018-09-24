@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-06"
+lastupdated: "2018-09-13"
 
 ---
 {:new_window: target="_blank"}
@@ -16,9 +16,9 @@ lastupdated: "2018-09-06"
 {{site.data.keyword.Bluemix}}에서는 서비스 및 앱을 손쉽게 구현, 호스팅 및 스케일링할 수 있습니다. 애플리케이션 로직 및 애플리케이션 디자인에 집중할 수 있습니다.
 {:shortdesc}
 
-모든 {{site.data.keyword.Bluemix_notm}} 지역에서 모든 서비스를 구매할 수 있는 것은 아닙니다. 해당 지역에서 서비스를 구매할 수 있는 경우에도 서비스는 다른 위치에서 호스팅될 수 있습니다. 다음 표는 IBM에서 제공하는 서비스를 보여줍니다.
+모든 {{site.data.keyword.Bluemix_notm}} 지역에서 모든 서비스를 구매할 수 있는 것은 아닙니다. 해당 지역에서 서비스를 구매할 수 있는 경우에도 서비스는 다른 위치에서 호스팅될 수 있습니다. 다음 표는 IBM에서 제공하는 서비스를 보여줍니다. 사용 가능한 리소스의 전체 목록을 보려면 {{site.data.keyword.Bluemix_notm}} 콘솔에서 [카탈로그](https://console.bluemix.net/catalog/){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.  
 
-글로벌로 호스팅되는 서비스는 여러 지역에서 운용되는 리소스를 작성합니다. 예를 들어, {{site.data.keyword.cos_full_notm}}(COS)를 사용하면 데이터를 하나의 데이터 센터, 또는 지역 전체에 분산시키도록 선택할 수 있으며, 애플리케이션이 REST API 요청을 전송하는 [엔드포인트를 선택](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)하여 여러 지역의 조합에 분산시키도록 선택할 수도 있습니다.
+글로벌로 호스팅되는 서비스는 여러 지역에서 운용되는 리소스를 작성합니다. 예를 들어, {{site.data.keyword.cos_full_notm}}에서 사용자는 애플리케이션이 REST API 요청을 전송하는 [엔드포인트를 선택](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)하여 단일 데이터 센터, 전체 지역, 심지어는 지역들의 조합 간에 데이터가 분산되도록 선택할 수 있습니다. 
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -67,12 +67,12 @@ lastupdated: "2018-09-06"
 |Digital Content Checker |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |사용할 수 없음 |영국에서 신디케이트됨 |사용할 수 없음 | 
 |Discovery |미국 남부에서 호스팅됨 |미국 남부에서 신디케이트됨 |독일에서 호스팅됨 |시드니에서 호스팅됨 |미국 동부에서 호스팅됨 | 
 |Event Management |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |사용할 수 없음 |시드니에서 호스팅됨 |사용할 수 없음 | 
+|Functions |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |독일에서 호스팅됨 |사용할 수 없음 |미국 동부에서 호스팅됨 | 
 |Geospatial Analytics |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |사용할 수 없음 |영국에서 신디케이트됨 |사용할 수 없음 | 
 |Globalization Pipeline |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |독일에서 호스팅됨 |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Historical Instrument Analytics |미국 남부에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Hyper Protect Crypto Services |미국 남부에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Hyper Protect DBaaS |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
-|IBM Cloud Functions |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |독일에서 호스팅됨 |사용할 수 없음 |미국 동부에서 호스팅됨 | 
 |IBM Cognos Dashboard Embedded |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |IBM Identity Mixer |사용할 수 없음 |영국에서 호스팅됨 |사용할 수 없음 |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Information Server |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |독일에서 호스팅됨 |시드니에서 호스팅됨 |사용할 수 없음 | 
@@ -81,7 +81,7 @@ lastupdated: "2018-09-06"
 |Internet Services |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |Internet of Things Platform |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |독일에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 | 
 |Investment Portfolio |미국 남부에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
-|Key Protect |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |독일에서 호스팅됨 |시드니에서 호스팅됨 |사용할 수 없음 | 
+|Key Protect |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |독일에서 호스팅됨 |시드니에서 호스팅됨 |미국 동부에서 호스팅됨 | 
 |Knowledge Catalog |미국 남부에서 호스팅됨 |영국에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Knowledge Studio |미국 남부에서 호스팅됨 |사용할 수 없음 |독일에서 호스팅됨 |시드니에서 호스팅됨 |미국 동부에서 호스팅됨 | 
 |Language Translator |미국 남부에서 호스팅됨 |미국 남부에서 신디케이트됨 |독일에서 호스팅됨 |시드니에서 호스팅됨 |미국 동부에서 호스팅됨 | 
