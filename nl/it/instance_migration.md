@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-07-16"
+lastupdated: "2018-09-07"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-07-16"
 Per rendere la tua esperienza con l'utilizzo di {{site.data.keyword.Bluemix}} più semplice e flessibile, abbiamo introdotto i [gruppi di risorse](/docs/resources/resourcegroups.html#rgs), che sono concettualmente simili agli spazi Cloud Foundry. Tuttavia, i gruppi di risorse comprendono numerosi vantaggi aggiuntivi, come il controllo dell'accesso più dettagliato utilizzando IBM IAM (Identity and Access Management), la possibilità di connettere le istanze del servizio ad applicazioni e servizi in diverse regioni e un modo semplice per visualizzare l'utilizzo per ogni gruppo.
 {:shortdesc}
 
-Stiamo iniziando a spostare i servizi da Cloud Foundry per trarre vantaggio dai gruppi di risorse, il che significa che quando vedi l'icona ![Migra questa istanza del servizio a un gruppo di risorse](images/migrate.svg "Migra questa istanza del servizio a un gruppo di risorse") accanto a uno dei tuoi servizi nel dashboard, devi avviare un piano di migrazione delle tue applicazioni o istanze del servizio che sono state create tramite [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.dev_console}}](https://console-demo3.bluemix.net/docs/apps/index.html#create) per lo spostamento dall'organizzazione e spazio Cloud Foundry correnti a un gruppo di risorse. Finché un servizio {{site.data.keyword.Bluemix_notm}} non viene spostato dall'utilizzo dei ruoli, spazi e organizzazioni Cloud Foundry all'utilizzo di IAM e dei gruppi di risorse, non puoi migrare le tue istanze del servizio Cloud Foundry esistenti a un gruppo di risorse.
+Stiamo iniziando a spostare i servizi da Cloud Foundry per trarre vantaggio dai gruppi di risorse, il che significa che quando vedi l'icona ![Migra questa istanza del servizio a un gruppo di risorse](images/migrate.svg "Migra questa istanza del servizio a un gruppo di risorse") accanto a uno dei tuoi servizi nel dashboard, devi avviare un piano di migrazione delle tue applicazioni o istanze del servizio che sono state create tramite [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.dev_console}}](https://console.bluemix.net/docs/apps/index.html#create) per lo spostamento dall'organizzazione e spazio Cloud Foundry correnti a un gruppo di risorse. Finché un servizio {{site.data.keyword.Bluemix_notm}} non viene spostato dall'utilizzo dei ruoli, spazi e organizzazioni Cloud Foundry all'utilizzo di IAM e dei gruppi di risorse, non puoi migrare le tue istanze del servizio Cloud Foundry esistenti a un gruppo di risorse.
 
 Quando migri le istanze del servizio Cloud Foundry o le applicazioni {{site.data.keyword.dev_console}} esistenti a un gruppo di risorse, il gruppo che scegli non può essere modificato dopo il completamento della migrazione. Pertanto, è essenziale pianificare il modo in cui desideri organizzare le risorse nell'account prima di eseguire la migrazione. Questo potrebbe voler dire che devi creare uno o più gruppi di risorse, se hai un account fatturabile, prima della migrazione. 
 
@@ -29,9 +29,9 @@ Puoi provare a organizzare le tue risorse in gruppi di risorse nello stesso modo
 {: tip}
 
 
-## Perché migrare?
+## Perché eseguire la migrazione?
 
-### Istanze del servizio Cloud Foundry
+### Istanze del servizio Cloud Foundry 
 
 I servizi che supportano il controllo dell'accesso e l'organizzazione Cloud IAM in gruppi di risorse dispongono di diversi vantaggi:
 
@@ -44,9 +44,9 @@ I servizi che supportano il controllo dell'accesso e l'organizzazione Cloud IAM 
 
 ### {{site.data.keyword.dev_console}}apps
 
-In precedenza, le applicazioni {{site.data.keyword.dev_console}} potevano essere associate solo alle istanze del servizio Cloud Foundry. Ora, se migri le tue applicazioni a un gruppo di risorse, puoi associarle alle istanze del servizio che appartengono a un gruppo di risorse e supportano il controllo dell'accesso Cloud IAM. 
+In precedenza, le applicazioni {{site.data.keyword.dev_console}} potevano essere associate solo alle istanze del servizio Cloud Foundry. Ora, se migri le tue applicazioni a un gruppo di risorse, puoi associarle alle istanze del servizio che appartengono a un gruppo di risorse e supportano il controllo dell'accesso Cloud IAM.  
 
-## Chi può migrare?
+## Chi può eseguire la migrazione?
 {: #whocanmigrate}
 
 ### Accesso richiesto per le istanze del servizio 
@@ -64,7 +64,7 @@ Per controllare di quale accesso disponi, fai clic su **Gestisci** &gt; **Sicure
 
 ### Accesso richiesto per le applicazioni {{site.data.keyword.dev_console}}
 
-Qualsiasi utente che può accedere a un'applicazione {{site.data.keyword.dev_console}} può migrarla. Tuttavia, la migrazione di un'applicazione non ne migra i servizi associati. Le istanze del servizio devono essere migrate separatamente.
+Qualsiasi utente che può accedere a un'applicazione {{site.data.keyword.dev_console}} può eseguirne la migrazione. Tuttavia, la migrazione di un'applicazione non ne migra i servizi associati. Le istanze del servizio devono essere migrate separatamente.
 
 ## Come funziona la migrazione?
 
@@ -76,7 +76,7 @@ Quando esegui la migrazione di un'istanza del servizio da un'organizzazione e un
 
 Le istanze del servizio vengono migrate una per volta quando ricevi la notifica nel dashboard dall'icona ![Migra questa istanza del servizio a un gruppo di risorse](images/migrate.svg "Migra questa istanza del servizio a un gruppo di risorse") associata alla tua istanza del servizio Cloud Foundry.
 
-Prima di iniziare il processo di migrazione, controlla la documentazione del servizio per vedere se devono essere apportate ulteriori modifiche specifiche del servizio quando migri la tua istanza del servizio a un gruppo di risorse. Ad esempio, potresti dover migrare i dati dalle vecchie alle nuove istanze o aggiornare le credenziali utilizzate per la tua applicazione se elimini l'alias Cloud Foundry. Le applicazioni che effettuano una chiamata diretta all'API di un servizio che è stato migrato devono aggiornare la chiamata API in modo che utilizzi una chiave API IAM o un token di accesso.
+Prima di iniziare il processo di migrazione, controlla la documentazione del tuo servizio per vedere se devono essere apportate ulteriori modifiche specifiche del servizio quando migri la tua istanza del servizio a un gruppo di risorse. Ad esempio, potresti dover migrare i dati dalle vecchie alle nuove istanze o aggiornare le credenziali utilizzate per la tua applicazione se elimini l'alias Cloud Foundry. Le applicazioni che effettuano una chiamata diretta all'API di un servizio che è stato migrato devono aggiornare la chiamata API in modo che utilizzi una chiave API IAM o un token di accesso.
 {: tip}
 
 1. Apri il menu **Ulteriori azioni**.
@@ -97,7 +97,7 @@ Le applicazioni vengono migrate una alla volta facendo clic sull'icona ![Migra q
 4. Seleziona o crea un nuovo gruppo di risorse.
 5. Fai clic su **Migra** e l'applicazione viene migrata.
 6. Conferma che l'applicazione sia ora visualizzata nell'elenco **Applicazioni (migrate)**.
-7. Poiché puoi migrare solo un'applicazione per volta, puoi continuare a migrare le applicazioni idonee dopo che hai migrato la prima.
+7. Poiché puoi migrare solo un'applicazione per volta, puoi continuare a migrare le applicazioni idonee dopo che hai migrato la prima. 
 
 
 ## Passi successivi
@@ -106,7 +106,7 @@ Dopo aver migrato le tue istanze del servizio Cloud Foundry a un gruppo di risor
 
 Per ulteriori informazioni sull'assegnazione dell'accesso alle risorse nei tuoi gruppi di risorse, consulta [Assegnazione dell'accesso ai gruppi di risorse e alle risorse al loro interno](/docs/resources/bestpractice_rgs.html#assigning-access-to-resource-groups-and-the-resources-within-them).
 
-Inoltre, assicurati di consultare la documentazione del servizio per verificare se è necessario apportare aggiornamenti per le tue applicazioni esistenti al termine della migrazione. 
+Inoltre, assicurati di consultare la documentazione per il tuo servizio per verificare se è necessario apportare aggiornamenti per le tue applicazioni esistenti al termine della migrazione. 
 
 
 ## Risoluzione dei problemi
