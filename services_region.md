@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-24"
+lastupdated: "2018-09-25"
 
 ---
 {:new_window: target="_blank"}
@@ -44,7 +44,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Certificate Manager | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | 
 | Cloud Foundry Enterprise Environment | Not available | Not available | Not available | Not available | Not available | 
 | Cloud Object Storage | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
-| Cloudant | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
+| Cloudant | Not available | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | 
 | Compare Comply | Hosted in US South | Not available | Not available | Not available | Not available | 
 | Compose Enterprise | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
 | Compose for Elasticsearch | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | 
