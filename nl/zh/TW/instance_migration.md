@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-07-16"
+lastupdated: "2018-09-07"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-07-16"
 為了讓您有更簡單且更有彈性的 {{site.data.keyword.Bluemix}} 使用體驗，我們推出了[資源群組](/docs/resources/resourcegroups.html#rgs)，其概念類似 Cloud Foundry 空間。不過，資源群組包含多項額外好處，例如使用 IBM Cloud Identity and Access Management (IAM) 來進行更精細的存取控制、能夠將服務實例連接至不同地區的應用程式和服務，以及可輕鬆檢視每個群組的用量。
 {:shortdesc}
 
-我們已經開始從 Cloud Foundry 移動服務，以利用資源群組的好處，這表示當您在儀表板上看到其中一個服務旁邊的 ![將此服務實例移轉至資源群組](images/migrate.svg "將此服務實例移轉至資源群組") 圖示時，必須開始為透過 [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.dev_console}}](https://console-demo3.bluemix.net/docs/apps/index.html#create) 建立的服務實例或應用程式進行移轉計劃，以從其目前的 Cloud Foundry 組織和空間移至資源群組。在 {{site.data.keyword.Bluemix_notm}} 服務從使用 Cloud Foundry 組織、空間和角色，改為使用 IAM 和資源群組之前，不能將現有的 Cloud Foundry 服務實例移轉至資源群組。
+我們已經開始從 Cloud Foundry 移動服務，以利用資源群組的好處，這表示當您在儀表板上看到其中一個服務旁邊的 ![將此服務實例移轉至資源群組](images/migrate.svg "將此服務實例移轉至資源群組") 圖示時，必須開始為透過 [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.dev_console}}](https://console.bluemix.net/docs/apps/index.html#create) 建立的服務實例或應用程式進行移轉計劃，以從其目前的 Cloud Foundry 組織和空間移至資源群組。在 {{site.data.keyword.Bluemix_notm}} 服務從使用 Cloud Foundry 組織、空間和角色，改為使用 IAM 和資源群組之前，不能將現有的 Cloud Foundry 服務實例移轉至資源群組。
 
 當您將現有的 Cloud Foundry 服務實例或 {{site.data.keyword.dev_console}} 應用程式移轉至資源群組時，移轉完成之後便無法變更您選擇的群組。因此，在移轉之前，請務必計劃好如何組織帳戶中的資源。這可能表示您需要在移轉之前建立一個以上的資源群組，如果您有計費帳戶的話。 
 
