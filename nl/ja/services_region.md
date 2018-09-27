@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-20"
+lastupdated: "2018-09-06"
 
 ---
 {:new_window: target="_blank"}
@@ -17,9 +17,9 @@ lastupdated: "2018-09-20"
 アプリケーション・ロジックとアプリケーション設計に集中することができます。
 {:shortdesc}
 
-各 {{site.data.keyword.Bluemix_notm}} 地域ですべてのサービスが購入できるわけではありません。 また、当該地域でサービスが購入可能な場合でも、サービスは別の場所でホストされていることがあります。 以下の表は、IBM が提供するサービスを示しています。 使用可能なリソースの全リストは、{{site.data.keyword.Bluemix_notm}} コンソール内の[カタログ](https://console.bluemix.net/catalog/){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。 
+各 {{site.data.keyword.Bluemix_notm}} 地域ですべてのサービスが購入できるわけではありません。 また、当該地域でサービスが購入可能な場合でも、サービスは別の場所でホストされていることがあります。 以下の表は、IBM が提供するサービスを示しています。
 
-グローバルにホストされるサービスが作成するリソースは複数の地域で作動します。 例えば、{{site.data.keyword.cos_full_notm}} を使用すると、アプリケーションが REST API 要求を送信する[エンドポイントの選択](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)によって、1 つのデータ・センターに、1 つの地域全体に、または、複数地域の組み合わせにでも、データを分散させることを選択できます。
+グローバルにホストされるサービスが作成するリソースは複数の地域で作動します。 例えば、{{site.data.keyword.cos_full_notm}} (COS) を使用すると、アプリケーションが REST API 要求を送信する[エンドポイントの選択](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)によって、1 つのデータ・センターに、1 つの地域全体に、または、複数地域の組み合わせにでも、データを分散させることを選択できます。
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -28,7 +28,6 @@ lastupdated: "2018-09-20"
 
 | サービス | 米国南部 | 英国 | ドイツ | シドニー | 米国東部 |
 |-----|-----|-----|-----|-----|-----|
-| AI OpenScale | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | API Connect | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
 | Activity Tracker | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
 | Alert Notification | 米国南部でホスト | 英国でホスト | 使用不可 | シドニーでホスト | 使用不可 | 
@@ -69,13 +68,12 @@ lastupdated: "2018-09-20"
 | Digital Content Checker | 米国南部でホスト | 英国でホスト | 使用不可 | 英国からシンジケート | 使用不可 | 
 | Discovery | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
 | Event Management | 米国南部でホスト | 英国でホスト | 使用不可 | シドニーでホスト | 使用不可 | 
-| Event Streams | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
-| Functions | 米国南部でホスト | 英国でホスト | ドイツでホスト | 使用不可 | 米国東部でホスト | 
 | Geospatial Analytics | 米国南部でホスト | 英国でホスト | 使用不可 | 英国からシンジケート | 使用不可 | 
 | Globalization Pipeline | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
 | Historical Instrument Analytics | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Hyper Protect Crypto Services | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Hyper Protect DBaaS | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
+| IBM Cloud Functions | 米国南部でホスト | 英国でホスト | ドイツでホスト | 使用不可 | 米国東部でホスト | 
 | IBM Cognos Dashboard Embedded | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
 | IBM Identity Mixer | 使用不可 | 英国でホスト | 使用不可 | シドニーでホスト | 使用不可 | 
 | Information Server | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
@@ -84,7 +82,7 @@ lastupdated: "2018-09-20"
 | インターネット・サービス | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 
 | Internet of Things Platform | 米国南部でホスト | 英国でホスト | ドイツでホスト | 使用不可 | 使用不可 | 
 | Investment Portfolio | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
-| Key Protect | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Key Protect | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
 | Knowledge Catalog | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
 | Knowledge Studio | 米国南部でホスト | 使用不可 | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
 | Language Translator | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
@@ -93,7 +91,8 @@ lastupdated: "2018-09-20"
 | MQ | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
 | Machine Learning | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 
 | Master Data Management | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
-| Mobile Foundation | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Message Hub | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 
+| Mobile Foundation | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 
 | Monitoring | 米国南部でホスト | 英国でホスト | 米国南部からシンジケート | シドニーでホスト | 使用不可 | 
 | Natural Language Classifier | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | 米国南部からシンジケート | 使用不可 | 
 | Natural Language Understanding | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 

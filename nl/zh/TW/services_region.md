@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-08-30"
+lastupdated: "2018-09-06"
 
 ---
 {:new_window: target="_blank"}
@@ -41,8 +41,10 @@ lastupdated: "2018-08-30"
 |BigInsights for Apache Hadoop（訂閱）|在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Blockchain |在美國南部進行管理| 從美國南部進行聯合發佈| 從美國南部進行聯合發佈| 從美國南部進行聯合發佈|不適用 | 
 |Certificate Manager |在美國南部進行管理|在英國進行管理|不適用 |不適用 |不適用 | 
+|Cloud Foundry Enterprise Environment|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Cloud Object Storage |在全球管理|在全球管理|在全球管理|在全球管理|在全球管理| 
 |Cloudant |在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
+|Compare Comply |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Compose Enterprise|在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
 |Compose for Elasticsearch|在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
 |Compose for JanusGraph|在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
@@ -89,7 +91,6 @@ lastupdated: "2018-08-30"
 |Machine Learning |在美國南部進行管理|在英國進行管理|不適用 |不適用 |不適用 | 
 |Master Data Management |在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|不適用 | 
 |Message Hub|在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 
-|Mobile Analytics|在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|不適用 | 
 |Mobile Foundation|在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|不適用 | 
 |Monitoring |在美國南部進行管理|在英國進行管理| 從美國南部進行聯合發佈|在雪梨進行管理|不適用 | 
 |Natural Language Classifier|在美國南部進行管理| 從美國南部進行聯合發佈|在德國進行管理| 從美國南部進行聯合發佈|不適用 | 
@@ -102,6 +103,7 @@ lastupdated: "2018-08-30"
 |Real-Time Payments |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 |SQL Query |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Secure Gateway|在美國南部進行管理|在英國進行管理| 從美國南部進行聯合發佈| 從美國南部進行聯合發佈|在美國東部進行管理| 
+|Security Advisor|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Simulated Historical Instrument Analytics |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Simulated Instrument Analytics |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Speech to Text|在美國南部進行管理| 從美國南部進行聯合發佈|在德國進行管理|在雪梨進行管理|在美國東部進行管理| 

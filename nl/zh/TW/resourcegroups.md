@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-09-06"
 
 
 ---
@@ -30,7 +30,7 @@ lastupdated: "2018-08-02"
 
 如果您有「精簡」帳戶或 30 天試用，您無法建立額外的資源群組，但可以將預設資源群組重新命名。
 
-每一個資源群組都是免費的，但是資源群組與 Cloud Foundry 組織或空間之間的連線會計入您的帳戶配額。如需相關資訊，請參閱[何謂別名？](/docs/resources/connecting_apps.html#what_is_alias)
+資源群組與 Cloud Foundry 組織或空間之間的連線受限於您的配額。如需相關資訊，請參閱[何謂別名？](/docs/resources/connecting_apps.html#what_is_alias)
 {: tip}
 
 1. 移至**管理** &gt; **帳戶** &gt; **資源群組**。

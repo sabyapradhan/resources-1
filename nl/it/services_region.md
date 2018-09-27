@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-13"
+lastupdated: "2018-09-06"
 
 ---
 {:new_window: target="_blank"}
@@ -17,9 +17,9 @@ lastupdated: "2018-09-13"
 sulla progettazione dell'applicazione.
 {:shortdesc}
 
-Non tutti i servizi sono disponibili per l'acquisto in ogni regione {{site.data.keyword.Bluemix_notm}}. E, anche se il servizio è disponibile per l'acquisto in una regione, tale servizio potrebbe essere ospitato in un luogo differente. La seguente tabella mostra i servizi forniti da IBM. Per l'elenco completo di risorse disponibili, vedi il [catalogo](https://console.bluemix.net/catalog/){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") nella console {{site.data.keyword.Bluemix_notm}}. 
+Non tutti i servizi sono disponibili per l'acquisto in ogni regione {{site.data.keyword.Bluemix_notm}}. E, anche se il servizio è disponibile per l'acquisto in una regione, tale servizio potrebbe essere ospitato in un luogo differente. La seguente tabella mostra i servizi forniti da IBM.
 
-I servizi ospitati a livello globale creano risorse che operano su più regioni. Ad esempio, con {{site.data.keyword.cos_full_notm}}, puoi scegliere di diffondere i dati in un singolo data center, in un'intera regione o persino in una combinazione di regioni [selezionando l'endpoint](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) in cui la tua applicazione invia le richieste API REST.
+I servizi ospitati a livello globale creano risorse che operano su più regioni. Ad esempio, con {{site.data.keyword.cos_full_notm}} (COS), puoi scegliere di diffondere i dati in un singolo data center, in un'intera regione o persino in una combinazione di regioni [selezionando l'endpoint](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) in cui la tua applicazione invia le richieste API REST.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -68,12 +68,12 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Digital Content Checker | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Diffuso dal Regno Unito | Non disponibile | 
 | Discovery | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | Event Management | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Ospitato a Sydney | Non disponibile | 
-| Functions | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Non disponibile | Ospitato in Stati Uniti Est | 
 | Geospatial Analytics | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Diffuso dal Regno Unito | Non disponibile | 
 | Globalization Pipeline | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
 | Historical Instrument Analytics | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Hyper Protect Crypto Services | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Hyper Protect DBaaS | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
+| IBM Cloud Functions | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Non disponibile | Ospitato in Stati Uniti Est | 
 | IBM Cognos Dashboard Embedded | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
 | IBM Identity Mixer | Non disponibile | Ospitato nel Regno Unito | Non disponibile | Ospitato a Sydney | Non disponibile | 
 | Information Server | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
@@ -82,7 +82,7 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Internet Services | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | 
 | Piattaforma Internet delle cose | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Non disponibile | Non disponibile | 
 | Investment Portfolio | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
-| Key Protect | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Key Protect | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
 | Knowledge Catalog | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
 | Knowledge Studio | Ospitato in Stati Uniti Sud | Non disponibile | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | Language Translator | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 

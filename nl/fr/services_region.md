@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-13"
+lastupdated: "2018-09-06"
 
 ---
 {:new_window: target="_blank"}
@@ -16,9 +16,9 @@ lastupdated: "2018-09-13"
 {{site.data.keyword.Bluemix}} simplifie l'implémentation, l'hébergement et la mise à l'échelle des services et des applications. Ainsi, vous pouvez vous consacrer à la logique et à la conception de l'application.
 {:shortdesc}
 
-Les services ne sont pas tous disponibles à l'achat dans toutes les régions {{site.data.keyword.Bluemix_notm}}. De plus, même si le service est disponible à l'achat dans une région, il se peut qu'il soit hébergé ailleurs. Le tableau ci-dessous répertorie les services qui sont fournis par IBM. Pour obtenir la liste complète des ressources disponibles, voir le [catalogue](https://console.bluemix.net/catalog/){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") dans la console {{site.data.keyword.Bluemix_notm}}.  
+Les services ne sont pas tous disponibles à l'achat dans toutes les régions {{site.data.keyword.Bluemix_notm}}. De plus, même si le service est disponible à l'achat dans une région, il se peut qu'il soit hébergé ailleurs. Le tableau ci-dessous répertorie les services qui sont fournis par IBM.
 
-Les services avec hébergement global créent des ressources qui opèrent sur plusieurs régions. Par exemple, avec {{site.data.keyword.cos_full_notm}} (COS), vous pouvez choisir de répartir les données dans un centre de données, une région entière, ou même dans plusieurs régions, en [sélectionnant le noeud final](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) auquel votre application envoie les demandes d'API REST.
+Les services avec hébergement global créent des ressources qui opèrent sur plusieurs régions. Par exemple, avec {{site.data.keyword.cos_full_notm}} (COS), vous pouvez choisir de disperser les données entre plusieurs centres de données, une région entière, ou même une combinaison de régions, en [sélectionnant le noeud final](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) auquel votre application envoie les demandes d'API REST.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -67,12 +67,12 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Digital Content Checker | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Syndiqué avec Royaume-Uni | Indisponible | 
 | Discovery | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Event Management | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | 
-| Fonctions | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Indisponible | Hébergé à l'Est des Etats-Unis | 
 | Geospatial Analytics | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Syndiqué avec Royaume-Uni | Indisponible | 
 | Globalization Pipeline | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
 | Historical Instrument Analytics | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Hyper Protect Crypto Services | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Hyper Protect DBaaS | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
+| IBM Cloud Functions | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Indisponible | Hébergé à l'Est des Etats-Unis | 
 | IBM Cognos Dashboard Embedded | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
 | IBM Identity Mixer | Indisponible | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | 
 | Information Server | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
@@ -81,7 +81,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Internet Services | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Internet of Things Platform | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Indisponible | Indisponible | 
 | Investment Portfolio | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
-| Key Protect | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
+| Key Protect | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
 | Knowledge Catalog | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
 | Knowledge Studio | Hébergé au Sud des Etats-Unis | Indisponible | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Language Translator | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 

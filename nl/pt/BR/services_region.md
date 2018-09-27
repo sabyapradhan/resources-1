@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-13"
+lastupdated: "2018-09-06"
 
 ---
 {:new_window: target="_blank"}
@@ -16,9 +16,9 @@ lastupdated: "2018-09-13"
 O {{site.data.keyword.Bluemix}} facilita a implementação, a hospedagem e os serviços de escala e apps. O foco pode ser a lógica e o design do aplicativo.
 {:shortdesc}
 
-Nem todos os serviços estão disponíveis para compra em cada região do {{site.data.keyword.Bluemix_notm}}. E, mesmo se o serviço estiver disponível para compra na região, o serviço poderá estar hospedado em um local diferente. A tabela a seguir mostra os serviços que são fornecidos pela IBM. Para obter a lista completa de recursos que estão disponíveis, consulte o [catálogo](https://console.bluemix.net/catalog/){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") no console do {{site.data.keyword.Bluemix_notm}}. 
+Nem todos os serviços estão disponíveis para compra em cada região do {{site.data.keyword.Bluemix_notm}}. E, mesmo se o serviço estiver disponível para compra na região, o serviço poderá estar hospedado em um local diferente. A tabela a seguir mostra os serviços que são fornecidos pela IBM.
 
-Os serviços hospedados globalmente criam recursos que operam em múltiplas regiões. Por exemplo, com o {{site.data.keyword.cos_full_notm}}, é possível escolher dispersar dados em um único data center, em uma região inteira ou até mesmo em uma combinação de regiões [selecionando o terminal](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) para o qual seu aplicativo envia solicitações da API de REST.
+Os serviços hospedados globalmente criam recursos que operam em múltiplas regiões. Por exemplo, com o {{site.data.keyword.cos_full_notm}} (COS), é possível optar por dispersar dados em um único data center, uma região inteira ou mesmo uma combinação de regiões [selecionando o terminal](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) no qual seu aplicativo envia solicitações de API de REST.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -67,12 +67,12 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Digital Content Checker | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Organizados por meio do Reino Unido | Não está disponível | 
 | Discovery | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
 | Event Management | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | 
-| Functions | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Não está disponível | Hospedado no leste dos EUA | 
 | Geospatial Analytics | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Organizados por meio do Reino Unido | Não está disponível | 
 | Globalization Pipeline | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
 | Historical Instrument Analytics | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Hyper Protect Crypto Services | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Hyper Protect DBaaS | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
+| IBM Cloud Functions | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Não está disponível | Hospedado no leste dos EUA | 
 | IBM Cognos Dashboard Integrado | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
 | IBM Identity Mixer | Não está disponível | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | 
 | Information Server | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
@@ -81,7 +81,7 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Internet Services | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | 
 | Internet of Things Platform | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Não está disponível | Não está disponível | 
 | Investment Portfolio | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
-| Key Protect | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Key Protect | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
 | Knowledge Catalog | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
 | Knowledge Studio | Hospedado no Sul dos EUA | Não está disponível | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
 | Language Translator | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
