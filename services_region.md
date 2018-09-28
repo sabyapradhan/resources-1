@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-27"
+lastupdated: "2018-09-28"
 
 ---
 {:new_window: target="_blank"}
@@ -57,7 +57,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Compose for RethinkDB | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
 | Compose for ScyllaDB | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
 | Compose for etcd | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Continuous Delivery | Hosted in US South | Syndicated from US South | Syndicated from US South | Not available | Not available | Not available | 
+| Continuous Delivery | Hosted in US South | Syndicated from US South | Syndicated from US South | Not available | Hosted in US East | Not available | 
 | Cost and Asset Management | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
 | Data Store for Memcache | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
 | Db2 | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | Not available | 
@@ -111,7 +111,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Streaming Analytics | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Not available | Not available | 
 | Text to Speech | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
 | Tone Analyzer | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Toolchain | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
+| Toolchain | Hosted in US South | Not available | Not available | Not available | Hosted in US East | Not available | 
 | VMware Solutions | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
 | Visual Recognition | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
 | Voice Agent with Watson | Hosted in US South | Not available | Not available | Not available | Hosted in US East | Not available | 
