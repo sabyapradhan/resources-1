@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-06"
+lastupdated: "2018-09-13"
 
 ---
 {:new_window: target="_blank"}
@@ -16,9 +16,9 @@ lastupdated: "2018-09-06"
 {{site.data.keyword.Bluemix}} le permite fácilmente implementar, alojar y escalar servicios y apps. Puede centrarse en la lógica de la aplicación y en el diseño de la aplicación.
 {:shortdesc}
 
-No todos los servicios están disponibles para su adquisición en cada región de {{site.data.keyword.Bluemix_notm}}. E, incluso si el servicio está disponible para su adquisición en dicha región, el servicio puede estar alojado en una ubicación diferente. La siguiente tabla muestra los servicios proporcionados por IBM.
+No todos los servicios están disponibles para su adquisición en cada región de {{site.data.keyword.Bluemix_notm}}. E, incluso si el servicio está disponible para su adquisición en dicha región, el servicio puede estar alojado en una ubicación diferente. La siguiente tabla muestra los servicios proporcionados por IBM. Para ver la lista completa de los recursos que están disponibles, consulte el [catálogo](https://console.bluemix.net/catalog/){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") en la consola de {{site.data.keyword.Bluemix_notm}}. 
 
-Los servicios alojados globalmente crean recursos que funcionan en varias regiones. Por ejemplo, con {{site.data.keyword.cos_full_notm}} (COS), puede elegir dispersar datos en un único centro de datos, una región entera, o incluso una combinación de regiones [seleccionando el punto final](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) donde la aplicación envía solicitudes de la API REST.
+Los servicios alojados globalmente crean recursos que funcionan en varias regiones. Por ejemplo, con {{site.data.keyword.cos_full_notm}}, puede elegir dispersar datos en un único centro de datos, una región entera, o incluso una combinación de regiones [seleccionando el punto final](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) donde la aplicación envía solicitudes de la API REST.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -67,12 +67,12 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Comprobador de contenido digital | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Sindicado de Reino Unido | No disponible | 
 | Discovery | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | 
 | Event Management | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
+| Functions | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | No disponible | Alojado en EE.UU. este | 
 | Geospatial Analytics | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Sindicado de Reino Unido | No disponible | 
 | Globalization Pipeline | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
 | Historical Instrument Analytics | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Hyper Protect Crypto Services | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | Hyper Protect DBaaS | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
-| IBM Cloud Functions | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | No disponible | Alojado en EE.UU. este | 
 | IBM Cognos Dashboard Embedded | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
 | IBM Identity Mixer | No disponible | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
 | Information Server | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
@@ -81,7 +81,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Internet Services | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | 
 | Plataforma Internet de las cosas | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | No disponible | No disponible | 
 | Investment Portfolio | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
-| Key Protect | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
+| Key Protect | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | 
 | Knowledge Catalog | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
 | Knowledge Studio | Alojado en EE.UU. sur | No disponible | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | 
 | Language Translator | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | 

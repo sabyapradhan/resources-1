@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-20"
+lastupdated: "2018-09-13"
 
 ---
 {:new_window: target="_blank"}
@@ -28,7 +28,6 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 
 | Servizio | Stati Uniti Sud | Regno Unito | Germania | Sydney | Stati Uniti Est |
 |-----|-----|-----|-----|-----|-----|
-| AI OpenScale | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | API Connect | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | Programma di traccia dell'attività | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
 | Alert Notification | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Ospitato a Sydney | Non disponibile | 
@@ -69,7 +68,6 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Digital Content Checker | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Diffuso dal Regno Unito | Non disponibile | 
 | Discovery | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | Event Management | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Ospitato a Sydney | Non disponibile | 
-| Event Streams | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
 | Functions | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Non disponibile | Ospitato in Stati Uniti Est | 
 | Geospatial Analytics | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Diffuso dal Regno Unito | Non disponibile | 
 | Globalization Pipeline | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
@@ -93,7 +91,8 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | MQ | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
 | Machine Learning | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | 
 | Master Data Management | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
-| Mobile Foundation | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Message Hub | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 
+| Mobile Foundation | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | 
 | Monitoraggio | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Diffuso da Stati Uniti Sud | Ospitato a Sydney | Non disponibile | 
 | Natural Language Classifier | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Diffuso da Stati Uniti Sud | Non disponibile | 
 | Natural Language Understanding | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | 

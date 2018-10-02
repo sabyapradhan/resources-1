@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-20"
+lastupdated: "2018-09-13"
 
 ---
 {:new_window: target="_blank"}
@@ -27,7 +27,6 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 
 | Serviço | Sul dos EUA | Reino Unido | Alemanha | Sydney | Leste dos EUA |
 |-----|-----|-----|-----|-----|-----|
-| AI OpenScale | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | API Connect | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
 | Activity Tracker | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
 | Alert Notification | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | 
@@ -68,7 +67,6 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Digital Content Checker | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Organizados por meio do Reino Unido | Não está disponível | 
 | Discovery | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
 | Event Management | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | 
-| Event Streams | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
 | Functions | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Não está disponível | Hospedado no leste dos EUA | 
 | Geospatial Analytics | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Organizados por meio do Reino Unido | Não está disponível | 
 | Globalization Pipeline | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
@@ -92,7 +90,8 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | MQ | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
 | Machine Learning | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | 
 | Master Data Management | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
-| Mobile Foundation | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Message Hub | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
+| Mobile Foundation | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | 
 | Monitoring | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Organizados por meio do Sul dos EUA | Hospedado em Sydney | Não está disponível | 
 | Natural Language Classifier | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Organizados por meio do Sul dos EUA | Não está disponível | 
 | Natural Language Understanding | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | 
