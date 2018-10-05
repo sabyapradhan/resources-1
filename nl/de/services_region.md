@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-20"
+lastupdated: "2018-09-13"
 
 ---
 {:new_window: target="_blank"}
@@ -16,7 +16,7 @@ lastupdated: "2018-09-20"
 {{site.data.keyword.Bluemix}} macht es Ihnen leicht, Services und Apps zu implementieren, zu hosten und zu skalieren. Sie können sich voll auf Ihre Anwendungslogik und den Anwendungsentwurf konzentrieren.
 {:shortdesc}
 
-Nicht alle Services sind in jeder {{site.data.keyword.Bluemix_notm}}-Region erhältlich. Auch dann, wenn der Service in einer Region erhältlich ist, kann er an einem anderen Standort gehostet werden. In der folgenden Tabelle sind die Services aufgeführt, die von IBM zur Verfügung gestellt werden. Eine vollständdige Liste der verfügbaren Resourcen finden Sie im [Katalog ](https://console.bluemix.net/catalog/){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") in der {{site.data.keyword.Bluemix_notm}}-Konsole. 
+Nicht alle Services sind in jeder {{site.data.keyword.Bluemix_notm}}-Region erhältlich. Auch dann, wenn der Service in einer Region erhältlich ist, kann er an einem anderen Standort gehostet werden. In der folgenden Tabelle sind die Services aufgeführt, die von IBM zur Verfügung gestellt werden. Eine vollständdige Liste der verfügbaren Resourcen finden Sie im [Katalog ](https://console.bluemix.net/catalog/){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") in der {{site.data.keyword.Bluemix_notm}}-Konsole.  
 
 Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Regionen hinweg betrieben werden. Mit {{site.data.keyword.cos_full_notm}} können Sie zum Beispiel Daten wahlweise in einem einzelnen Datencenter, in einer ganzen Region oder sogar in einer Kombination von Regionen verteilen, indem Sie den [Endpunkt auswählen](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints), an den Ihre Anwendung REST-API-Anforderungen sendet.
 
@@ -27,7 +27,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Re
 
 | Service | Vereinigte Staaten (Süden) | Vereintes Königreich | Deutschland | Sydney | Vereinigte Staaten (Osten) |
 |-----|-----|-----|-----|-----|-----|
-| AI OpenScale | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | API Connect | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
 | Activity Tracker | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
 | Alert Notification | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | 
@@ -68,8 +67,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Re
 | Digital Content Checker | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Syndiziert aus dem Vereinigten Königreich | Nicht verfügbar | 
 | Discovery | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
 | Event Management | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | 
-| Event Streams | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
-| Functions | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Osten) | 
+| Funktionen | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Osten) | 
 | Geospatial Analytics | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Syndiziert aus dem Vereinigten Königreich | Nicht verfügbar | 
 | Globalization Pipeline | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
 | Historical Instrument Analytics | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
@@ -92,7 +90,8 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Re
 | MQ | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Machine Learning | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Master Data Management | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
-| Mobile Foundation | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Message Hub | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 
+| Mobile Foundation | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | 
 | Monitoring | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Sydney | Nicht verfügbar | 
 | Natural Language Classifier | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | 
 | Natural Language Understanding | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | 

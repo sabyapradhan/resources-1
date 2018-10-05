@@ -4,7 +4,7 @@ copyright:
 
   years: 2017, 2018
 
-lastupdated: "2018-07-16"
+lastupdated: "2018-09-07"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2018-07-16"
 Damit die Arbeit in {{site.data.keyword.Bluemix}} noch einfacher und flexibler wird, wurden [Ressourcengruppen](/docs/resources/resourcegroups.html#rgs) eingeführt, die vom Konzept her Cloud Foundry-Bereichen gleichen. Die Ressourcengruppen zeichnen sich jedoch durch verschiedene Vorteile aus. Sie ermöglichen z. B. eine differenziertere Steuerung mithilfe von IAM (IBM Cloud Identity and Access Management) und Verbindungen zwischen Serviceinstanzen und Apps und Services aus verschiedenen Regionen und bieten eine benutzerfreundliche Möglichkeit, die Verwendung pro Gruppe anzuzeigen.
 {:shortdesc}
 
-In einem ersten Schritt werden Services von Cloud Foundry verschoben, damit sie von den Ressourcengruppen profitieren können. Das bedeutet, dass Sie einen Migrationsplan für Ihre Serviceinstanzen oder Apps über den [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.dev_console}}](https://console-demo3.bluemix.net/docs/apps/index.html#create) starten müssen, damit sie von ihren aktuellen Cloud Foundry-Organisationen und -Bereichen in eine Ressourcengruppe verschoben werden, wenn das Symbol ![Diese Serviceinstanz zu einer Ressourcengruppe migrieren](images/migrate.svg "Diese Serviceinstanz zu einer Ressourcengruppe migrieren") neben einem Ihrer Services im Dashboard angezeigt wird. Solange ein {{site.data.keyword.Bluemix_notm}}-Service noch Cloud Foundry-Organisationen, -Bereiche und -Rollen und nicht IAM und Ressourcengruppen verwendet, können Sie vorhandene Cloud Foundry-Serviceinstanzen nicht zu Ressourcengruppen migrieren.
+In einem ersten Schritt werden Services von Cloud Foundry verschoben, damit sie von den Ressourcengruppen profitieren können. Das bedeutet, dass Sie einen Migrationsplan für Ihre Serviceinstanzen oder Apps über den [{{site.data.keyword.Bluemix_notm}} {{site.data.keyword.dev_console}}](https://console.bluemix.net/docs/apps/index.html#create) starten müssen, damit sie von ihren aktuellen Cloud Foundry-Organisationen und -Bereichen in eine Ressourcengruppe verschoben werden, wenn das Symbol ![Diese Serviceinstanz zu einer Ressourcengruppe migrieren](images/migrate.svg "Diese Serviceinstanz zu einer Ressourcengruppe migrieren") neben einem Ihrer Services im Dashboard angezeigt wird. Solange ein {{site.data.keyword.Bluemix_notm}}-Service noch Cloud Foundry-Organisationen, -Bereiche und -Rollen und nicht IAM und Ressourcengruppen verwendet, können Sie vorhandene Cloud Foundry-Serviceinstanzen nicht zu Ressourcengruppen migrieren.
 
 Wenn Sie vorhandene Cloud Foundry-Serviceinstanzen oder {{site.data.keyword.dev_console}}-Apps zu einer Ressourcengruppe migrieren, kann die ausgewählte Gruppe nicht mehr geändert werden, nachdem die Migration abgeschlossen ist. Deswegen ist es wichtig, vor der Migration zu planen, wie Sie Ressourcen im Konto organisieren möchten. Dies könnte bedeuten, dass Sie vor der Migration eine oder mehrere Ressourcengruppen erstellen müssen, wenn Sie ein abrechnungsfähiges Konto haben. 
 

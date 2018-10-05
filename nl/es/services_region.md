@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-20"
+lastupdated: "2018-09-13"
 
 ---
 {:new_window: target="_blank"}
@@ -27,7 +27,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 
 | Servicio | EE.UU. sur | Reino Unido | Alemania | Sídney | EE.UU. este |
 |-----|-----|-----|-----|-----|-----|
-| AI OpenScale | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | 
 | API Connect | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | 
 | Activity Tracker | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
 | Alert Notification | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
@@ -68,7 +67,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Comprobador de contenido digital | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Sindicado de Reino Unido | No disponible | 
 | Discovery | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | 
 | Event Management | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | 
-| Event Streams | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | 
 | Functions | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | No disponible | Alojado en EE.UU. este | 
 | Geospatial Analytics | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Sindicado de Reino Unido | No disponible | 
 | Globalization Pipeline | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
@@ -92,7 +90,8 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | MQ | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
 | Machine Learning | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | 
 | Master Data Management | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
-| Mobile Foundation | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | 
+| Message Hub | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | 
+| Mobile Foundation | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | 
 | Supervisión | Alojado en EE.UU. sur | Alojado en Reino Unido | Sindicado de EE.UU. sur | Alojado en Sídney | No disponible | 
 | Natural Language Classifier | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Sindicado de EE.UU. sur | No disponible | 
 | Natural Language Understanding | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | 
