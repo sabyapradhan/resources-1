@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-13"
+lastupdated: "2018-09-20"
 
 ---
 {:new_window: target="_blank"}
@@ -16,7 +16,7 @@ lastupdated: "2018-09-13"
 {{site.data.keyword.Bluemix}} simplifie l'implémentation, l'hébergement et la mise à l'échelle des services et des applications. Ainsi, vous pouvez vous consacrer à la logique et à la conception de l'application.
 {:shortdesc}
 
-Les services ne sont pas tous disponibles à l'achat dans toutes les régions {{site.data.keyword.Bluemix_notm}}. De plus, même si le service est disponible à l'achat dans une région, il se peut qu'il soit hébergé ailleurs. Le tableau ci-dessous répertorie les services qui sont fournis par IBM. Pour obtenir la liste complète des ressources disponibles, voir le [catalogue](https://console.bluemix.net/catalog/){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") dans la console {{site.data.keyword.Bluemix_notm}}.  
+Les services ne sont pas tous disponibles à l'achat dans toutes les régions {{site.data.keyword.Bluemix_notm}}. De plus, même si le service est disponible à l'achat dans une région, il se peut qu'il soit hébergé ailleurs. Le tableau ci-dessous répertorie les services qui sont fournis par IBM. Pour obtenir la liste complète des ressources disponibles, voir le [catalogue](https://console.bluemix.net/catalog/){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") dans la console {{site.data.keyword.Bluemix_notm}}. 
 
 Les services avec hébergement global créent des ressources qui opèrent sur plusieurs régions. Par exemple, avec {{site.data.keyword.cos_full_notm}} (COS), vous pouvez choisir de répartir les données dans un centre de données, une région entière, ou même dans plusieurs régions, en [sélectionnant le noeud final](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) auquel votre application envoie les demandes d'API REST.
 
@@ -27,6 +27,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 
 | Service | Sud des Etats-Unis | Royaume-Uni | Allemagne | Sydney | Est des Etats-Unis |
 |-----|-----|-----|-----|-----|-----|
+| AI OpenScale | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | 
 | API Connect | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Activity Tracker | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
 | Alert Notification | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | 
@@ -67,6 +68,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Digital Content Checker | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Syndiqué avec Royaume-Uni | Indisponible | 
 | Discovery | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Event Management | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | 
+| Event Streams | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Fonctions | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Indisponible | Hébergé à l'Est des Etats-Unis | 
 | Geospatial Analytics | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Syndiqué avec Royaume-Uni | Indisponible | 
 | Globalization Pipeline | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
@@ -90,8 +92,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | MQ | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
 | Machine Learning | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | 
 | Master Data Management | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
-| Message Hub | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
-| Mobile Foundation | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | 
+| Mobile Foundation | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
 | Surveillance | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Syndiqué avec Sud des Etats-Unis | Hébergé à Sydney | Indisponible | 
 | Natural Language Classifier | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Syndiqué avec Sud des Etats-Unis | Indisponible | 
 | Natural Language Understanding | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | 
