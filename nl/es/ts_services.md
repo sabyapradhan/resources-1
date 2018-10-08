@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-20"
+lastupdated: "2018-09-26"
 
 ---
 
@@ -19,26 +19,25 @@ lastupdated: "2018-06-20"
 {:new_window: target="_blank"}
 
 
-# Resolución de problemas de servicios
+# Resolución de problemas de servicios y recursos
 {: #services}
 
-Entre los problemas de los servicios de {{site.data.keyword.Bluemix}} se puede incluir un error de tiempo de espera agotado de pasarela que se produce si suprime una instancia de servicio. Puede solucionar estos problemas siguiendo unos sencillos pasos.
+Los problemas de los servicios de {{site.data.keyword.Bluemix}} pueden incluir cuestiones relacionadas con la supresión de instancias de servicio. Puede solucionar estos problemas siguiendo unos sencillos pasos.
 {:shortdesc}
 
-Los servicios tienen diferentes tipos y niveles de madurez en {{site.data.keyword.Bluemix_notm}}. Por ejemplo, los servicios de IBM y los servicios de terceros y los niveles de dichos servicios son GA, beta y experimental. En función del tipo de servicio y del nivel de madurez, pueden ofrecerse distintos niveles de soporte. Para obtener más información, consulte [¿Cómo obtengo soporte para servicios?](/docs/get-support/servicessupport.html#support-different-services)
-
-## El error de intermediario de servicio se produce al suprimir una instancia de servicio
+## ¿Por qué no puedo suprimir mi instancia de servicio?
 {: #ts_service_broker}
 
 Es posible que reciba un mensaje de error si intenta suprimir una instancia de servicio que ya se ha suprimido desde el controlador de la nube.
 {:shortdesc}
 
-Cuando intenta suprimir una instancia de servicio, ve el siguiente mensaje de error del intermediario de servicios:
+Cuando intenta suprimir una instancia de servicio, aparece el siguiente mensaje de error:
 {: tsSymptoms}
+
 `Tiempo de espera excedido de pasarela`
 
 Este problema sucede si la instancia de servicio ya se ha suprimido desde el controlador de la nube.
 {: tsCauses}
 
-Cree una instancia de servicio con el mismo nombre de servicio y luego enlácela a las aplicaciones. A continuación, puede suprimir la instancia de servicio y las aplicaciones que utilizan el servicio.   
+Cree una instancia de servicio con el mismo nombre de servicio y enlácela con las aplicaciones. A continuación, puede suprimir la instancia de servicio y las aplicaciones que utilizan el servicio.   
 {: tsResolve}
