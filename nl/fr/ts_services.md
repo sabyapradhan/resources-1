@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-06-20"
+lastupdated: "2018-09-26"
 
 ---
 
@@ -19,26 +19,25 @@ lastupdated: "2018-06-20"
 {:new_window: target="_blank"}
 
 
-# Traitement des incidents liés aux services
+# Traitement des incidents liés aux services et aux ressources
 {: #services}
 
-Des problèmes liés au service {{site.data.keyword.Bluemix}} peuvent survenir, par exemple, une erreur de dépassement de délai d'attente de la passerelle peut se produire si vous supprimez une instance de service. Ces problèmes peuvent être résolus en quelques opérations simples.
+Les problèmes liés aux services {{site.data.keyword.Bluemix}} peuvent inclure des incidents lors de la suppression d'instances de service. Ces problèmes peuvent être résolus en quelques opérations simples.
 {:shortdesc}
 
-Il existe différents types et niveaux de maturité dans {{site.data.keyword.Bluemix_notm}} :  services IBM et services tiers, par exemple, ainsi que les niveaux s'appliquant à ces services (GA, bêta et expérimental). En fonction du type de service et du niveau de maturité, différents niveaux de support peuvent être proposés. Pour plus d'informations, voir [Comment obtenir de l'aide pour des services ?](/docs/get-support/servicessupport.html#support-different-services)
-
-## Une erreur du courtier de services se produit lorsque vous supprimez une instance de service
+## Pour quelle raison la suppression d'instance de service échoue-t-elle ?
 {: #ts_service_broker}
 
 Il se peut que vous receviez un message d'erreur si vous tentez de supprimer une instance de service qui a déjà été supprimée du contrôleur de cloud.
 {:shortdesc}
 
-Lorsque vous tentez de supprimer une instance de service, le message d'erreur de courtier de services suivant s'affiche :
+Lorsque vous tentez de supprimer une instance de service, le message d'erreur suivant s'affiche :
 {: tsSymptoms}
+
 `Gateway timeout`
 
 Ce problème se produit lorsque l'instance de service a déjà été supprimée du contrôleur de cloud.
 {: tsCauses}
 
-Créez une instance de service portant le même nom de service et liez-la à vos applications. Vous pouvez ensuite supprimer l'instance de service et les applications qui utilisent ce service.   
+Créez une instance de service portant le même nom de service puis liez-la à vos applications. Vous pouvez ensuite supprimer l'instance de service et les applications qui utilisent ce service.   
 {: tsResolve}
