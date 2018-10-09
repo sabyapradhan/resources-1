@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-28"
+lastupdated: "2018-10-04"
 
 ---
 {:new_window: target="_blank"}
@@ -60,6 +60,8 @@ lastupdated: "2018-09-28"
 |Continuous Delivery|在美国南部托管|从美国南部联合|从美国南部联合|不可用|在美国东部托管|不可用| 
 |Cost and Asset Management|在美国南部托管|不可用|不可用|不可用|不可用|不可用| 
 |Data Store for Memcache|在美国南部托管|不可用|不可用|不可用|不可用|不可用| 
+|Databases for PostgreSQL|在美国南部托管|不可用|不可用|不可用|不可用|不可用| 
+|Databases for Redis|在美国南部托管|不可用|不可用|不可用|不可用|不可用| 
 |Db2|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用|不可用| 
 |Db2 Hosted|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用|不可用| 
 |Db2 Warehouse|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用|不可用| 
@@ -84,7 +86,7 @@ lastupdated: "2018-09-28"
 |Internet of Things Platform|在美国南部托管|在英国托管|在德国托管|不可用|不可用|不可用| 
 |Investment Portfolio|在美国南部托管|不可用|不可用|不可用|不可用|不可用| 
 |Key Protect|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管|不可用| 
-|Knowledge Catalog|在美国南部托管|在英国托管|不可用|不可用|不可用|不可用| 
+|Knowledge Catalog|在美国南部托管|在英国托管|在德国托管|不可用|不可用|不可用| 
 |Knowledge Studio|在美国南部托管|不可用|在德国托管|在悉尼托管|在美国东部托管|不可用| 
 |Language Translator|在美国南部托管|从美国南部联合|在德国托管|在悉尼托管|在美国东部托管|不可用| 
 |Lift CLI|在美国南部托管|不可用|不可用|不可用|不可用|不可用| 
@@ -116,7 +118,7 @@ lastupdated: "2018-09-28"
 |Visual Recognition|在美国南部托管|不可用|不可用|不可用|不可用|不可用| 
 |Voice Agent with Watson|在美国南部托管|不可用|不可用|不可用|在美国东部托管|不可用| 
 |Watson Assistant（原先称为 Conversation）|在美国南部托管|从美国南部联合|在德国托管|在悉尼托管|在美国东部托管|不可用| 
-|Watson Studio|在美国南部托管|在英国托管|不可用|不可用|不可用|不可用| 
+|Watson Studio|在美国南部托管|在英国托管|在德国托管|不可用|不可用|不可用| 
 |Weather Company Data|在美国南部托管|在英国托管|不可用|在悉尼托管|不可用|不可用| 
 |WebSphere Application Server|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用|不可用| 
 |Workload Scheduler|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用|不可用| 
