@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-28"
+lastupdated: "2018-10-04"
 
 ---
 {:new_window: target="_blank"}
@@ -60,6 +60,8 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Continuous Delivery | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | Hébergé à l'Est des Etats-Unis | Indisponible | 
 | Cost and Asset Management | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Data Store for Memcache | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Databases for PostgreSQL | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Databases for Redis | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Db2 | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | Indisponible | 
 | Db2 hébergé | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | Indisponible | 
 | Db2 Warehouse | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | Indisponible | 
@@ -84,7 +86,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Internet of Things Platform | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Indisponible | Indisponible | Indisponible | 
 | Investment Portfolio | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Key Protect | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | Indisponible | 
-| Knowledge Catalog | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Knowledge Catalog | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Indisponible | Indisponible | Indisponible | 
 | Knowledge Studio | Hébergé au Sud des Etats-Unis | Indisponible | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | Indisponible | 
 | Language Translator | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | Indisponible | 
 | Lift CLI | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
@@ -116,7 +118,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Visual Recognition | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Voice Agent with Watson | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Hébergé à l'Est des Etats-Unis | Indisponible | 
 | Watson Assistant (anciennement appelé Conversation) | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | Indisponible | 
-| Watson Studio | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Watson Studio | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Indisponible | Indisponible | Indisponible | 
 | Weather Company Data | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Hébergé à Sydney | Indisponible | Indisponible | 
 | WebSphere Application Server | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | Indisponible | 
 | Workload Scheduler | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | Indisponible | 

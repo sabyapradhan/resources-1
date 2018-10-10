@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-28"
+lastupdated: "2018-10-04"
 
 ---
 {:new_window: target="_blank"}
@@ -39,7 +39,7 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Auto-Scaling | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | Não está disponível | 
 | Automated Accessibility Tester | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Organizados por meio do Reino Unido | Não está disponível | Não está disponível | 
 | Availability Monitoring | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
-| BigInsights for Apache Hadoop (assinatura) | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| BigInsights for Apache Hadoop (Subscription) | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Blockchain | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Organizados por meio do Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Não está disponível | 
 | Certificate Manager | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Cloud Foundry Enterprise Environment | Hospedado no Sul dos EUA | Não está disponível | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | Não está disponível | 
@@ -60,6 +60,8 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Continuous Delivery | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Hospedado no leste dos EUA | Não está disponível | 
 | Cost and Asset Management | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Data Store for Memcache | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Databases for PostgreSQL | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Databases for Redis | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | DB2 | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Db2 Hosted | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | DB2 Warehouse | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | Não está disponível | 
@@ -84,7 +86,7 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Internet of Things Platform | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Não está disponível | Não está disponível | Não está disponível | 
 | Investment Portfolio | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Key Protect | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | Não está disponível | 
-| Knowledge Catalog | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Knowledge Catalog | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Não está disponível | Não está disponível | Não está disponível | 
 | Knowledge Studio | Hospedado no Sul dos EUA | Não está disponível | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | Não está disponível | 
 | Language Translator | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | Não está disponível | 
 | Lift CLI | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
@@ -116,7 +118,7 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Visual Recognition | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Voice Agent with Watson | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Hospedado no leste dos EUA | Não está disponível | 
 | Watson Assistant (anteriormente Conversation) | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | Não está disponível | 
-| Watson Studio | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Watson Studio | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Não está disponível | Não está disponível | Não está disponível | 
 | Weather Company Data | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | WebSphere Application Server | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Workload Scheduler | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | Não está disponível | 
