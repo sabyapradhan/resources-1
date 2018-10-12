@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-09-28"
+lastupdated: "2018-10-04"
 
 ---
 {:new_window: target="_blank"}
@@ -60,6 +60,8 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Continuous Delivery | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Sindicado de EE.UU. sur | No disponible | Alojado en EE.UU. este | No disponible | 
 | Cost and Asset Management | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Data Store for Memcache | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | No disponible | 
+| Databases for PostgreSQL | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | No disponible | 
+| Databases for Redis | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Db2 | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | No disponible | 
 | Db2 Hosted | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | No disponible | 
 | Db2 Warehouse | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | No disponible | 
@@ -84,7 +86,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Plataforma Internet de las cosas | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | No disponible | No disponible | No disponible | 
 | Investment Portfolio | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Key Protect | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | No disponible | 
-| Knowledge Catalog | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | No disponible | 
+| Knowledge Catalog | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | No disponible | No disponible | No disponible | 
 | Knowledge Studio | Alojado en EE.UU. sur | No disponible | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | No disponible | 
 | Language Translator | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | No disponible | 
 | Lift CLI | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | No disponible | 
@@ -116,7 +118,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Visual Recognition | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Voice Agent with Watson | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | Alojado en EE.UU. este | No disponible | 
 | Watson Assistant (antes Conversation) | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | No disponible | 
-| Watson Studio | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | No disponible | 
+| Watson Studio | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | No disponible | No disponible | No disponible | 
 | Weather Company Data | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | Alojado en Sídney | No disponible | No disponible | 
 | WebSphere Application Server | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | No disponible | 
 | Workload Scheduler | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | No disponible | 
