@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-04"
+lastupdated: "2018-10-11"
 
 ---
 {:new_window: target="_blank"}
@@ -113,7 +113,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Re
 | Streaming Analytics | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Text to Speech | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | Nicht verfügbar | 
 | Tone Analyzer | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | Nicht verfügbar | 
-| Toolchain | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Osten) | Nicht verfügbar | 
+| Toolchain | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Osten) | Nicht verfügbar | 
 | VMware Solutions | Global gehostet | Global gehostet | Global gehostet | Global gehostet | Global gehostet | Global gehostet | 
 | Visual Recognition | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Voice Agent with Watson | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Osten) | Nicht verfügbar | 
