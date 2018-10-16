@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-04"
+lastupdated: "2018-10-11"
 
 ---
 {:new_window: target="_blank"}
@@ -39,7 +39,7 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Auto-Scaling | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | Não está disponível | 
 | Automated Accessibility Tester | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Organizados por meio do Reino Unido | Não está disponível | Não está disponível | 
 | Availability Monitoring | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
-| BigInsights for Apache Hadoop (Subscription) | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| BigInsights for Apache Hadoop (assinatura) | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Blockchain | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Organizados por meio do Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Não está disponível | 
 | Certificate Manager | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Cloud Foundry Enterprise Environment | Hospedado no Sul dos EUA | Não está disponível | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | Não está disponível | 
@@ -113,7 +113,7 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Streaming Analytics | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Não está disponível | Não está disponível | Não está disponível | 
 | Text to Speech | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | Não está disponível | 
 | Tone Analyzer | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | Não está disponível | 
-| Toolchain | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Hospedado no leste dos EUA | Não está disponível | 
+| Toolchain | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Não está disponível | Hospedado no leste dos EUA | Não está disponível | 
 | VMware Solutions | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | 
 | Visual Recognition | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Voice Agent with Watson | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Hospedado no leste dos EUA | Não está disponível | 
