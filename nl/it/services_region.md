@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-04"
+lastupdated: "2018-10-11"
 
 ---
 {:new_window: target="_blank"}
@@ -114,7 +114,7 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Streaming Analytics | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Non disponibile | Non disponibile | Non disponibile | 
 | Text to Speech | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | Non disponibile | 
 | Tone Analyzer | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | Non disponibile | 
-| Toolchain | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Est | Non disponibile | 
+| Toolchain | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Non disponibile | Ospitato in Stati Uniti Est | Non disponibile | 
 | Soluzioni VMware | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | 
 | Visual Recognition | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Voice Agent with Watson | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Ospitato in Stati Uniti Est | Non disponibile | 
