@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-04"
+lastupdated: "2018-10-11"
 
 ---
 {:new_window: target="_blank"}
@@ -113,7 +113,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Streaming Analytics | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | No disponible | No disponible | No disponible | 
 | Text to Speech | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | No disponible | 
 | Tone Analyzer | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | No disponible | 
-| Toolchain | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | Alojado en EE.UU. este | No disponible | 
+| Toolchain | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | No disponible | Alojado en EE.UU. este | No disponible | 
 | VMware Solutions | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | 
 | Visual Recognition | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Voice Agent with Watson | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | Alojado en EE.UU. este | No disponible | 
