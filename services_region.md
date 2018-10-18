@@ -10,7 +10,7 @@ lastupdated: "2018-10-18"
 {:shortdesc: .shortdesc}
 
 
-# Services by region
+# Service availability
 {: #services_region}
 
 {{site.data.keyword.Bluemix}} makes it easy for you to implement, host, and scale services and apps. You can focus on your application logic and application design.
