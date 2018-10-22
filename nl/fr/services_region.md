@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-11"
+lastupdated: "2018-10-17"
 
 ---
 {:new_window: target="_blank"}
@@ -57,7 +57,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Compose for RethinkDB | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | Indisponible | 
 | Compose for ScyllaDB | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | Indisponible | 
 | Compose for etcd | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | Indisponible | 
-| Continuous Delivery | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Indisponible | Hébergé à l'Est des Etats-Unis | Indisponible | 
+| Continuous Delivery | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Indisponible | Hébergé à l'Est des Etats-Unis | Indisponible | 
 | Cost and Asset Management | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Data Store for Memcache | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Databases for PostgreSQL | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
@@ -96,7 +96,7 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Master Data Management | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | Indisponible | 
 | Mobile Foundation | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | Indisponible | 
 | Surveillance | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Syndiqué avec Sud des Etats-Unis | Hébergé à Sydney | Indisponible | Indisponible | 
-| Natural Language Classifier | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Syndiqué avec Sud des Etats-Unis | Indisponible | Indisponible | 
+| Natural Language Classifier | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Syndiqué avec Sud des Etats-Unis | Hébergé à l'Est des Etats-Unis | Indisponible | 
 | Natural Language Understanding | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | Indisponible | 
 | Object Storage OpenStack Swift | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Personality Insights | Hébergé au Sud des Etats-Unis | Syndiqué avec Sud des Etats-Unis | Hébergé en Allemagne | Hébergé à Sydney | Hébergé à l'Est des Etats-Unis | Indisponible | 
