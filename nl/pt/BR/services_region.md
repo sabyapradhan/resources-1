@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-11"
+lastupdated: "2018-10-17"
 
 ---
 {:new_window: target="_blank"}
@@ -57,7 +57,7 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Compose for RethinkDB | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | Não está disponível | 
 | Compose for ScyllaDB | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | Não está disponível | 
 | Compose for etcd | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | Não está disponível | 
-| Continuous Delivery | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Organizados por meio do Sul dos EUA | Não está disponível | Hospedado no leste dos EUA | Não está disponível | 
+| Continuous Delivery | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Não está disponível | Hospedado no leste dos EUA | Não está disponível | 
 | Cost and Asset Management | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Data Store for Memcache | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Databases for PostgreSQL | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
@@ -96,7 +96,7 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Master Data Management | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Mobile Foundation | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | Não está disponível | 
 | Monitoring | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Organizados por meio do Sul dos EUA | Hospedado em Sydney | Não está disponível | Não está disponível | 
-| Natural Language Classifier | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Organizados por meio do Sul dos EUA | Não está disponível | Não está disponível | 
+| Natural Language Classifier | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Organizados por meio do Sul dos EUA | Hospedado no leste dos EUA | Não está disponível | 
 | Natural Language Understanding | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | Não está disponível | 
 | Object Storage OpenStack Swift | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Personality Insights | Hospedado no Sul dos EUA | Organizados por meio do Sul dos EUA | Hospedado na Alemanha | Hospedado em Sydney | Hospedado no leste dos EUA | Não está disponível | 
