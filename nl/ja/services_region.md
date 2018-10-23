@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-11"
+lastupdated: "2018-10-17"
 
 ---
 {:new_window: target="_blank"}
@@ -58,7 +58,7 @@ lastupdated: "2018-10-11"
 | Compose for RethinkDB | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 使用不可 | 
 | Compose for ScyllaDB | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 使用不可 | 
 | Compose for etcd | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 使用不可 | 
-| Continuous Delivery | 米国南部でホスト | 米国南部からシンジケート | 米国南部からシンジケート | 使用不可 | 米国東部でホスト | 使用不可 | 
+| Continuous Delivery | 米国南部でホスト | 英国でホスト | ドイツでホスト | 使用不可 | 米国東部でホスト | 使用不可 | 
 | Cost and Asset Management | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Data Store for Memcache | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Databases for PostgreSQL | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
@@ -97,7 +97,7 @@ lastupdated: "2018-10-11"
 | Master Data Management | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Mobile Foundation | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 使用不可 | 
 | Monitoring | 米国南部でホスト | 英国でホスト | 米国南部からシンジケート | シドニーでホスト | 使用不可 | 使用不可 | 
-| Natural Language Classifier | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | 米国南部からシンジケート | 使用不可 | 使用不可 | 
+| Natural Language Classifier | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | 米国南部からシンジケート | 米国東部でホスト | 使用不可 | 
 | Natural Language Understanding | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 使用不可 | 
 | Object Storage OpenStack Swift | 米国南部でホスト | 英国でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Personality Insights | 米国南部でホスト | 米国南部からシンジケート | ドイツでホスト | シドニーでホスト | 米国東部でホスト | 使用不可 | 

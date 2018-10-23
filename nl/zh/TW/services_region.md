@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-11"
+lastupdated: "2018-10-17"
 
 ---
 {:new_window: target="_blank"}
@@ -57,7 +57,7 @@ lastupdated: "2018-10-11"
 |Compose for RethinkDB|在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|在美國東部進行管理|不適用 | 
 |Compose for ScyllaDB|在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|在美國東部進行管理|不適用 | 
 |Compose for etcd|在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|在美國東部進行管理|不適用 | 
-|Continuous Delivery|在美國南部進行管理| 從美國南部進行聯合發佈| 從美國南部進行聯合發佈|不適用 |在美國東部進行管理|不適用 | 
+|Continuous Delivery|在美國南部進行管理|在英國進行管理|在德國進行管理|不適用 |在美國東部進行管理|不適用 | 
 |Cost and Asset Management |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 | Data Store for Memcache |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 | Databases for PostgreSQL |在美國南部進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
@@ -96,7 +96,7 @@ lastupdated: "2018-10-11"
 |Master Data Management |在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Mobile Foundation|在美國南部進行管理|在英國進行管理|在德國進行管理|在雪梨進行管理|在美國東部進行管理|不適用 | 
 |Monitoring |在美國南部進行管理|在英國進行管理| 從美國南部進行聯合發佈|在雪梨進行管理|不適用 |不適用 | 
-|Natural Language Classifier|在美國南部進行管理| 從美國南部進行聯合發佈|在德國進行管理| 從美國南部進行聯合發佈|不適用 |不適用 | 
+|Natural Language Classifier|在美國南部進行管理| 從美國南部進行聯合發佈|在德國進行管理| 從美國南部進行聯合發佈|在美國東部進行管理|不適用 | 
 |Natural Language Understanding|在美國南部進行管理| 從美國南部進行聯合發佈|在德國進行管理|在雪梨進行管理|在美國東部進行管理|不適用 | 
 |Object Storage OpenStack Swift |在美國南部進行管理|在英國進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Personality Insights|在美國南部進行管理| 從美國南部進行聯合發佈|在德國進行管理|在雪梨進行管理|在美國東部進行管理|不適用 | 

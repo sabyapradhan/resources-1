@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-11"
+lastupdated: "2018-10-17"
 
 ---
 {:new_window: target="_blank"}
@@ -58,7 +58,7 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Compose for RethinkDB | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | Non disponibile | 
 | Compose for ScyllaDB | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | Non disponibile | 
 | Compose for etcd | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | Non disponibile | 
-| Fornitura continua | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Diffuso da Stati Uniti Sud | Non disponibile | Ospitato in Stati Uniti Est | Non disponibile | 
+| Fornitura continua | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Non disponibile | Ospitato in Stati Uniti Est | Non disponibile | 
 | Cost and Asset Management | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Data Store for Memcache | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Databases for PostgreSQL | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
@@ -97,7 +97,7 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Master Data Management | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Mobile Foundation | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | Non disponibile | 
 | Monitoraggio | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Diffuso da Stati Uniti Sud | Ospitato a Sydney | Non disponibile | Non disponibile | 
-| Natural Language Classifier | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Diffuso da Stati Uniti Sud | Non disponibile | Non disponibile | 
+| Natural Language Classifier | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Diffuso da Stati Uniti Sud | Ospitato in Stati Uniti Est | Non disponibile | 
 | Natural Language Understanding | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | Non disponibile | 
 | Object Storage OpenStack Swift | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Personality Insights | Ospitato in Stati Uniti Sud | Diffuso da Stati Uniti Sud | Ospitato in Germania | Ospitato a Sydney | Ospitato in Stati Uniti Est | Non disponibile | 

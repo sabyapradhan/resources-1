@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-11"
+lastupdated: "2018-10-17"
 
 ---
 {:new_window: target="_blank"}
@@ -57,7 +57,7 @@ lastupdated: "2018-10-11"
 |Compose for RethinkDB|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管|不可用| 
 |Compose for ScyllaDB|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管|不可用| 
 |Compose for etcd|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管|不可用| 
-|Continuous Delivery|在美国南部托管|从美国南部联合|从美国南部联合|不可用|在美国东部托管|不可用| 
+|Continuous Delivery|在美国南部托管|在英国托管|在德国托管|不可用|在美国东部托管|不可用| 
 |Cost and Asset Management|在美国南部托管|不可用|不可用|不可用|不可用|不可用| 
 |Data Store for Memcache|在美国南部托管|不可用|不可用|不可用|不可用|不可用| 
 |Databases for PostgreSQL|在美国南部托管|不可用|不可用|不可用|不可用|不可用| 
@@ -96,7 +96,7 @@ lastupdated: "2018-10-11"
 |Master Data Management|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用|不可用| 
 |Mobile Foundation|在美国南部托管|在英国托管|在德国托管|在悉尼托管|在美国东部托管|不可用| 
 |监视|在美国南部托管|在英国托管|从美国南部联合|在悉尼托管|不可用|不可用| 
-|Natural Language Classifier|在美国南部托管|从美国南部联合|在德国托管|从美国南部联合|不可用|不可用| 
+|Natural Language Classifier|在美国南部托管|从美国南部联合|在德国托管|从美国南部联合|在美国东部托管|不可用| 
 |Natural Language Understanding|在美国南部托管|从美国南部联合|在德国托管|在悉尼托管|在美国东部托管|不可用| 
 |Object Storage OpenStack Swift|在美国南部托管|在英国托管|不可用|不可用|不可用|不可用| 
 |Personality Insights|在美国南部托管|从美国南部联合|在德国托管|在悉尼托管|在美国东部托管|不可用| 
