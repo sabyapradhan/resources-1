@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-11"
+lastupdated: "2018-10-17"
 
 ---
 {:new_window: target="_blank"}
@@ -57,7 +57,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Re
 | Compose for RethinkDB | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | Nicht verfügbar | 
 | Compose for ScyllaDB | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | Nicht verfügbar | 
 | Compose for etcd | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | Nicht verfügbar | 
-| Continuous Delivery | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Osten) | Nicht verfügbar | 
+| Continuous Delivery | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Osten) | Nicht verfügbar | 
 | Cost and Asset Management | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Data Store for Memcache | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Databases for PostgreSQL | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
@@ -96,7 +96,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Re
 | Master Data Management | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Mobile Foundation | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | Nicht verfügbar | 
 | Monitoring | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
-| Natural Language Classifier | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Syndiziert aus den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | 
+| Natural Language Classifier | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in den Vereinigten Staaten (Osten) | Nicht verfügbar | 
 | Natural Language Understanding | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | Nicht verfügbar | 
 | Object Storage OpenStack Swift | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Personality Insights | Gehostet in den Vereinigten Staaten (Süden) | Syndiziert aus den Vereinigten Staaten (Süden) | Gehostet in Deutschland | Gehostet in Sydney | Gehostet in den Vereinigten Staaten (Osten) | Nicht verfügbar | 

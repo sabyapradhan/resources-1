@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-11"
+lastupdated: "2018-10-17"
 
 ---
 {:new_window: target="_blank"}
@@ -57,7 +57,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Compose for RethinkDB | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | No disponible | 
 | Compose for ScyllaDB | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | No disponible | 
 | Compose for etcd | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | No disponible | 
-| Continuous Delivery | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Sindicado de EE.UU. sur | No disponible | Alojado en EE.UU. este | No disponible | 
+| Continuous Delivery | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | No disponible | Alojado en EE.UU. este | No disponible | 
 | Cost and Asset Management | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Data Store for Memcache | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Databases for PostgreSQL | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | No disponible | 
@@ -96,7 +96,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Master Data Management | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | No disponible | 
 | Mobile Foundation | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | No disponible | 
 | Supervisión | Alojado en EE.UU. sur | Alojado en Reino Unido | Sindicado de EE.UU. sur | Alojado en Sídney | No disponible | No disponible | 
-| Natural Language Classifier | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Sindicado de EE.UU. sur | No disponible | No disponible | 
+| Natural Language Classifier | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Sindicado de EE.UU. sur | Alojado en EE.UU. este | No disponible | 
 | Natural Language Understanding | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | No disponible | 
 | Object Storage OpenStack Swift | Alojado en EE.UU. sur | Alojado en Reino Unido | No disponible | No disponible | No disponible | No disponible | 
 | Personality Insights | Alojado en EE.UU. sur | Sindicado de EE.UU. sur | Alojado en Alemania | Alojado en Sídney | Alojado en EE.UU. este | No disponible | 
