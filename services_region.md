@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-29"
+lastupdated: "2018-10-30"
 
 ---
 {:new_window: target="_blank"}
@@ -71,7 +71,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Discovery | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
 | Event Management | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | Not available | 
 | Event Streams | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Hosted in AP North | 
-| Functions | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Hosted in US East | Not available | 
+| Functions | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Hosted in US East | Hosted in AP North | 
 | Geospatial Analytics | Hosted in US South | Hosted in United Kingdom | Not available | Syndicated from United Kingdom | Not available | Not available | 
 | Globalization Pipeline | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | Not available | 
 | Historical Instrument Analytics | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
