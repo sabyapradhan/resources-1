@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-30"
+lastupdated: "2018-10-31"
 
 ---
 {:new_window: target="_blank"}
@@ -96,7 +96,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Master Data Management | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | Not available | 
 | Mobile Foundation | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
 | Monitoring | Hosted in US South | Hosted in United Kingdom | Syndicated from US South | Hosted in Sydney | Not available | Not available | 
-| Natural Language Classifier | Hosted in US South | Syndicated from US South | Hosted in Germany | Syndicated from US South | Hosted in US East | Not available | 
+| Natural Language Classifier | Hosted in US South | Not available | Hosted in Germany | Not available | Hosted in US East | Not available | 
 | Natural Language Understanding | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
 | Object Storage OpenStack Swift | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | Not available | 
 | Personality Insights | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
@@ -111,7 +111,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Simulated Instrument Analytics | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
 | Speech to Text | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
 | Streaming Analytics | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Not available | Not available | 
-| Text to Speech | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
+| Text to Speech | Hosted in US South | Not available | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
 | Tone Analyzer | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
 | Toolchain | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Hosted in US East | Not available | 
 | VMware Solutions | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
