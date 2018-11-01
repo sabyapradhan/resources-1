@@ -27,99 +27,99 @@ Services that are hosted globally create resources that operate across multiple 
 
 | Service | US South | United Kingdom | Germany | Sydney | US East | AP North |
 |-----|-----|-----|-----|-----|-----|
-| AI OpenScale | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| API Connect | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Activity Tracker | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | Not available | 
-| Alert Notification | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | Not available | 
-| Analytics Engine | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Not available | Not available | 
-| Apache Spark | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | Not available | 
-| App Connect | Hosted in US South | Hosted in United Kingdom | Not available | Syndicated from US South | Not available | Not available | 
-| App ID | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | Not available | 
-| App Launch | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| Auto-Scaling | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Automated Accessibility Tester | Hosted in US South | Hosted in United Kingdom | Not available | Syndicated from United Kingdom | Not available | Not available | 
-| Availability Monitoring | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | Not available | 
-| BigInsights for Apache Hadoop (Subscription) | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| Blockchain | Hosted in US South | Syndicated from US South | Syndicated from US South | Syndicated from US South | Not available | Not available | 
-| Certificate Manager | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | Not available | 
-| Cloud Foundry Enterprise Environment | Hosted in US South | Not available | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
+| AI OpenScale | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| API Connect | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Activity Tracker | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
+| Alert Notification | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
+| Analytics Engine | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
+| Apache Spark | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
+| App Connect | Hosted in Dallas | Hosted in London | Not available | Syndicated from Dallas | Not available | Not available | 
+| App ID | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
+| App Launch | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Auto-Scaling | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Automated Accessibility Tester | Hosted in Dallas | Hosted in London | Not available | Syndicated from London | Not available | Not available | 
+| Availability Monitoring | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
+| BigInsights for Apache Hadoop (Subscription) | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Blockchain | Hosted in Dallas | Syndicated from Dallas | Syndicated from Dallas | Syndicated from Dallas | Not available | Not available | 
+| Certificate Manager | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
+| Cloud Foundry Enterprise Environment | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Cloud Object Storage | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
-| Cloudant | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Hosted in AP North | 
-| Compare Comply | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| Compose Enterprise | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Compose for Elasticsearch | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Compose for JanusGraph | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Compose for MongoDB | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Compose for MySQL | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Compose for PostgreSQL | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Compose for RabbitMQ | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Compose for Redis | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Compose for RethinkDB | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Compose for ScyllaDB | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Compose for etcd | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Continuous Delivery | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Hosted in US East | Not available | 
-| Cost and Asset Management | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| Data Store for Memcache | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| Databases for PostgreSQL | Hosted in US South | Not available | Hosted in Germany | Not available | Not available | Not available | 
-| Databases for Redis | Hosted in US South | Not available | Hosted in Germany | Not available | Not available | Not available | 
-| Db2 | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | Not available | 
-| Db2 Hosted | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | Not available | 
-| Db2 Warehouse | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | Not available | 
-| Decision Optimization | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | Not available | 
-| DevOps Insights | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Not available | Not available | 
-| Digital Content Checker | Hosted in US South | Hosted in United Kingdom | Not available | Syndicated from United Kingdom | Not available | Not available | 
-| Discovery | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Event Management | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | Not available | 
-| Event Streams | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Hosted in AP North | 
-| Functions | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Hosted in US East | Hosted in AP North | 
-| Geospatial Analytics | Hosted in US South | Hosted in United Kingdom | Not available | Syndicated from United Kingdom | Not available | Not available | 
-| Globalization Pipeline | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | Not available | 
-| Historical Instrument Analytics | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| Hyper Protect Crypto Services | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| Hyper Protect DBaaS | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | Not available | 
-| IBM Cognos Dashboard Embedded | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | Not available | 
-| IBM Identity Mixer | Not available | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | Not available | 
-| Information Server | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | Not available | 
-| Informix | Hosted in US South | Syndicated from US South | Not available | Syndicated from US South | Not available | Not available | 
-| Instrument Analytics | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
+| Cloudant | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
+| Compare Comply | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Compose Enterprise | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Compose for Elasticsearch | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Compose for JanusGraph | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Compose for MongoDB | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Compose for MySQL | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Compose for PostgreSQL | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Compose for RabbitMQ | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Compose for Redis | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Compose for RethinkDB | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Compose for ScyllaDB | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Compose for etcd | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Continuous Delivery | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Not available | 
+| Cost and Asset Management | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Data Store for Memcache | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Databases for PostgreSQL | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Not available | 
+| Databases for Redis | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Not available | 
+| Db2 | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
+| Db2 Hosted | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
+| Db2 Warehouse | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
+| Decision Optimization | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
+| DevOps Insights | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
+| Digital Content Checker | Hosted in Dallas | Hosted in London | Not available | Syndicated from London | Not available | Not available | 
+| Discovery | Hosted in Dallas | Syndicated from Dallas | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Event Management | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
+| Event Streams | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
+| Functions | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Hosted in Tokyo | 
+| Geospatial Analytics | Hosted in Dallas | Hosted in London | Not available | Syndicated from London | Not available | Not available | 
+| Globalization Pipeline | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
+| Historical Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Hyper Protect Crypto Services | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Hyper Protect DBaaS | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
+| IBM Cognos Dashboard Embedded | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
+| IBM Identity Mixer | Not available | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
+| Information Server | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
+| Informix | Hosted in Dallas | Syndicated from Dallas | Not available | Syndicated from Dallas | Not available | Not available | 
+| Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Internet Services | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
-| Internet of Things Platform | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Not available | Not available | 
-| Investment Portfolio | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| Key Protect | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Hosted in AP North | 
-| Knowledge Catalog | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Not available | Not available | 
-| Knowledge Studio | Hosted in US South | Not available | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Language Translator | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Lift CLI | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| Log Analysis | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | Not available | 
-| MQ | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | Not available | 
-| Machine Learning | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Not available | Not available | 
-| Master Data Management | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | Not available | 
-| Mobile Foundation | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Monitoring | Hosted in US South | Hosted in United Kingdom | Syndicated from US South | Hosted in Sydney | Not available | Not available | 
-| Natural Language Classifier | Hosted in US South | Not available | Hosted in Germany | Not available | Hosted in US East | Not available | 
-| Natural Language Understanding | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Object Storage OpenStack Swift | Hosted in US South | Hosted in United Kingdom | Not available | Not available | Not available | Not available | 
-| Personality Insights | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Portfolio Optimization | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| Predictive Market Scenarios | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| Push Notifications | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Real-Time Payments | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| SQL Query | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| Secure Gateway | Hosted in US South | Hosted in United Kingdom | Syndicated from US South | Syndicated from US South | Hosted in US East | Not available | 
-| Security Advisor | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| Simulated Historical Instrument Analytics | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| Simulated Instrument Analytics | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| Speech to Text | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Streaming Analytics | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Not available | Not available | 
-| Text to Speech | Hosted in US South | Not available | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Tone Analyzer | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Toolchain | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Hosted in US East | Not available | 
+| Internet of Things Platform | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
+| Investment Portfolio | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Key Protect | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
+| Knowledge Catalog | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
+| Knowledge Studio | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Language Translator | Hosted in Dallas | Syndicated from Dallas | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Lift CLI | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Log Analysis | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
+| MQ | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
+| Machine Learning | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
+| Master Data Management | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
+| Mobile Foundation | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Monitoring | Hosted in Dallas | Hosted in London | Syndicated from Dallas | Hosted in Sydney | Not available | Not available | 
+| Natural Language Classifier | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Hosted in Washington DC | Not available | 
+| Natural Language Understanding | Hosted in Dallas | Syndicated from Dallas | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Object Storage OpenStack Swift | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
+| Personality Insights | Hosted in Dallas | Syndicated from Dallas | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Portfolio Optimization | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Predictive Market Scenarios | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Push Notifications | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Real-Time Payments | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| SQL Query | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Secure Gateway | Hosted in Dallas | Hosted in London | Syndicated from Dallas | Syndicated from Dallas | Hosted in Washington DC | Not available | 
+| Security Advisor | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Simulated Historical Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Simulated Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Speech to Text | Hosted in Dallas | Syndicated from Dallas | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Streaming Analytics | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
+| Text to Speech | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Tone Analyzer | Hosted in Dallas | Syndicated from Dallas | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Toolchain | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Not available | 
 | VMware Solutions | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
-| Visual Recognition | Hosted in US South | Not available | Not available | Not available | Not available | Not available | 
-| Voice Agent with Watson | Hosted in US South | Not available | Not available | Not available | Hosted in US East | Not available | 
-| Watson Assistant (formerly Conversation) | Hosted in US South | Syndicated from US South | Hosted in Germany | Hosted in Sydney | Hosted in US East | Not available | 
-| Watson Studio | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Not available | Not available | Not available | 
-| Weather Company Data | Hosted in US South | Hosted in United Kingdom | Not available | Hosted in Sydney | Not available | Not available | 
-| WebSphere Application Server | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | Not available | 
-| Workload Scheduler | Hosted in US South | Hosted in United Kingdom | Hosted in Germany | Hosted in Sydney | Not available | Not available | 
+| Visual Recognition | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Voice Agent with Watson | Hosted in Dallas | Not available | Not available | Not available | Hosted in Washington DC | Not available | 
+| Watson Assistant (formerly Conversation) | Hosted in Dallas | Syndicated from Dallas | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Watson Studio | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
+| Weather Company Data | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
+| WebSphere Application Server | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
+| Workload Scheduler | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
  {: caption="Table 1. Service availability" caption-side="top"}
