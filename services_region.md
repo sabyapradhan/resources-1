@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-31"
+lastupdated: "2018-11-01"
 
 ---
 {:new_window: target="_blank"}
@@ -16,9 +16,9 @@ lastupdated: "2018-10-31"
 {{site.data.keyword.Bluemix}} makes it easy for you to implement, host, and scale services and apps. You can focus on your application logic and application design.
 {:shortdesc}
 
-Not all services are available for purchase in every {{site.data.keyword.Bluemix_notm}} region. And, even if the service is available to purchase in that region, the service might be hosted in a different location. The following table shows the services that are provided by IBM. For the full list of resources that are available, see the [catalog](https://console.bluemix.net/catalog/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") in the {{site.data.keyword.Bluemix_notm}} console. 
+Not all services are available for purchase in every {{site.data.keyword.Bluemix_notm}} location. And, even if the service is available to purchase in that location, the service might be hosted in a different location. The following table shows the services that are provided by IBM. For the full list of resources that are available, see the [catalog](https://console.bluemix.net/catalog/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") in the {{site.data.keyword.Bluemix_notm}} console. 
 
-Services that are hosted globally create resources that operate across multiple regions. For example, with {{site.data.keyword.cos_full_notm}}, you can choose to disperse data across a single data center, an entire region, or even a combination of regions by [selecting the endpoint](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) where your application sends REST API requests.
+Services that are hosted globally create resources that operate across multiple locations. For example, with {{site.data.keyword.cos_full_notm}}, you can choose to disperse data across a single [data center](/docs/overview/data-centers.html), or even a combination of locations by [selecting the endpoint](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) where your application sends REST API requests.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
