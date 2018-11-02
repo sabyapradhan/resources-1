@@ -25,7 +25,7 @@ Services that are hosted globally create resources that operate across multiple 
 <!-- Also, do not change the number of dashes in the second line. -->
 <!-- Ping @natimpe for details. -->
 
-| Service | US South | United Kingdom | Germany | Sydney | US East | AP North |
+| Service | Dallas | London | Frankfurt | Sydney | Washington DC | Tokyo |
 |-----|-----|-----|-----|-----|-----|
 | AI OpenScale | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | API Connect | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
