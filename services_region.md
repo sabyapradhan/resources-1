@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-02"
+lastupdated: "2018-11-05"
 
 ---
 {:new_window: target="_blank"}
@@ -60,8 +60,8 @@ Services that are hosted globally create resources that operate across multiple 
 | Continuous Delivery | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Not available | 
 | Cost and Asset Management | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Data Store for Memcache | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Databases for PostgreSQL | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Not available | 
-| Databases for Redis | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Not available | 
+| Databases for PostgreSQL | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
+| Databases for Redis | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
 | Db2 | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | Db2 Hosted | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | Db2 Warehouse | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
