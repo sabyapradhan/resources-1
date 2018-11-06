@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-05"
+lastupdated: "2018-11-06"
 
 ---
 {:new_window: target="_blank"}
@@ -68,7 +68,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Decision Optimization | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
 | DevOps Insights | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
 | Digital Content Checker | Hosted in Dallas | Hosted in London | Not available | Syndicated from London | Not available | Not available | 
-| Discovery | Hosted in Dallas | Syndicated from Dallas | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Discovery | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Event Management | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
 | Event Streams | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Functions | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Hosted in Tokyo | 
@@ -88,7 +88,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Key Protect | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Knowledge Catalog | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
 | Knowledge Studio | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Language Translator | Hosted in Dallas | Syndicated from Dallas | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Language Translator | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Lift CLI | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Log Analysis | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | MQ | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
@@ -97,9 +97,9 @@ Services that are hosted globally create resources that operate across multiple 
 | Mobile Foundation | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Monitoring | Hosted in Dallas | Hosted in London | Syndicated from Dallas | Hosted in Sydney | Not available | Not available | 
 | Natural Language Classifier | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Hosted in Washington DC | Not available | 
-| Natural Language Understanding | Hosted in Dallas | Syndicated from Dallas | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Natural Language Understanding | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Object Storage OpenStack Swift | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
-| Personality Insights | Hosted in Dallas | Syndicated from Dallas | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Personality Insights | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Portfolio Optimization | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Predictive Market Scenarios | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Push Notifications | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
@@ -109,15 +109,15 @@ Services that are hosted globally create resources that operate across multiple 
 | Security Advisor | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Simulated Historical Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Simulated Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Speech to Text | Hosted in Dallas | Syndicated from Dallas | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Speech to Text | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Streaming Analytics | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
 | Text to Speech | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Tone Analyzer | Hosted in Dallas | Syndicated from Dallas | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Toolchain | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Not available | 
+| Tone Analyzer | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Toolchain | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Hosted in Tokyo | 
 | VMware Solutions | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
 | Visual Recognition | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Voice Agent with Watson | Hosted in Dallas | Not available | Not available | Not available | Hosted in Washington DC | Not available | 
-| Watson Assistant (formerly Conversation) | Hosted in Dallas | Syndicated from Dallas | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Watson Assistant (formerly Conversation) | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Watson Studio | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
 | Weather Company Data | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
 | WebSphere Application Server | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
