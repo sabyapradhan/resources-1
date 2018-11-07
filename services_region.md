@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-06"
+lastupdated: "2018-11-07"
 
 ---
 {:new_window: target="_blank"}
@@ -57,7 +57,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Compose for RethinkDB | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Compose for ScyllaDB | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Compose for etcd | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Continuous Delivery | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Not available | 
+| Continuous Delivery | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Hosted in Tokyo | 
 | Cost and Asset Management | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Data Store for Memcache | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Databases for PostgreSQL | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
@@ -109,7 +109,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Security Advisor | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Simulated Historical Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Simulated Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Speech to Text | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Speech to Text | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Streaming Analytics | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
 | Text to Speech | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Tone Analyzer | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
