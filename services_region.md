@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-07"
+lastupdated: "2018-11-08"
 
 ---
 {:new_window: target="_blank"}
@@ -57,6 +57,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Compose for RethinkDB | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Compose for ScyllaDB | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Compose for etcd | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Consult with IBM Cloud Garage | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
 | Continuous Delivery | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Hosted in Tokyo | 
 | Cost and Asset Management | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Data Store for Memcache | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
@@ -87,19 +88,19 @@ Services that are hosted globally create resources that operate across multiple 
 | Investment Portfolio | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Key Protect | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Knowledge Catalog | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
-| Knowledge Studio | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Knowledge Studio | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Language Translator | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Lift CLI | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Log Analysis | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | MQ | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
-| Machine Learning | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
+| Machine Learning | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
 | Master Data Management | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | Mobile Foundation | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Monitoring | Hosted in Dallas | Hosted in London | Syndicated from Dallas | Hosted in Sydney | Not available | Not available | 
 | Natural Language Classifier | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Hosted in Washington DC | Not available | 
 | Natural Language Understanding | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Object Storage OpenStack Swift | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
-| Personality Insights | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Personality Insights | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Portfolio Optimization | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Predictive Market Scenarios | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Push Notifications | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
