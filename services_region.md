@@ -42,7 +42,7 @@ Services that are hosted globally create resources that operate across multiple 
 | BigInsights for Apache Hadoop (Subscription) | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Blockchain | Hosted in Dallas | Syndicated from Dallas | Syndicated from Dallas | Syndicated from Dallas | Not available | Not available | 
 | Certificate Manager | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
-| Cloud Foundry Enterprise Environment | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Cloud Foundry Enterprise Environment | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Cloud Object Storage | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
 | Cloudant | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Compare Comply | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
@@ -68,7 +68,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Decision Optimization | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
 | DevOps Insights | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
 | Digital Content Checker | Hosted in Dallas | Hosted in London | Not available | Syndicated from London | Not available | Not available | 
-| Discovery | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Discovery | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Event Management | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
 | Event Streams | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Functions | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Hosted in Tokyo | 
@@ -88,7 +88,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Key Protect | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Knowledge Catalog | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
 | Knowledge Studio | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Language Translator | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Language Translator | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Lift CLI | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Log Analysis | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | MQ | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
@@ -97,7 +97,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Mobile Foundation | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Monitoring | Hosted in Dallas | Hosted in London | Syndicated from Dallas | Hosted in Sydney | Not available | Not available | 
 | Natural Language Classifier | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Hosted in Washington DC | Not available | 
-| Natural Language Understanding | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Natural Language Understanding | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Object Storage OpenStack Swift | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
 | Personality Insights | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Portfolio Optimization | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
@@ -111,8 +111,8 @@ Services that are hosted globally create resources that operate across multiple 
 | Simulated Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Speech to Text | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Streaming Analytics | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
-| Text to Speech | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Tone Analyzer | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Text to Speech | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
+| Tone Analyzer | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Toolchain | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Hosted in Tokyo | 
 | VMware Solutions | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
 | Visual Recognition | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
