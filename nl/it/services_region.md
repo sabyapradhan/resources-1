@@ -3,14 +3,14 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-17"
+lastupdated: "2018-10-25"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
 
-# Servizi per regione
+# Disponibilità del servizio
 {: #services_region}
 
 {{site.data.keyword.Bluemix}} ti consente di implementare, ospitare o ridimensionare facilmente servizi e applicazioni. Potrai così concentrarti sulla logica e
@@ -61,8 +61,8 @@ I servizi ospitati a livello globale creano risorse che operano su più regioni.
 | Fornitura continua | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Non disponibile | Ospitato in Stati Uniti Est | Non disponibile | 
 | Cost and Asset Management | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Data Store for Memcache | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
-| Databases for PostgreSQL | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
-| Databases for Redis | Ospitato in Stati Uniti Sud | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Databases for PostgreSQL | Ospitato in Stati Uniti Sud | Non disponibile | Ospitato in Germania | Non disponibile | Non disponibile | Non disponibile | 
+| Databases for Redis | Ospitato in Stati Uniti Sud | Non disponibile | Ospitato in Germania | Non disponibile | Non disponibile | Non disponibile | 
 | Db2 | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Ospitato Db2 | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Warehouse Db2 | Ospitato in Stati Uniti Sud | Ospitato nel Regno Unito | Ospitato in Germania | Ospitato a Sydney | Non disponibile | Non disponibile | 
