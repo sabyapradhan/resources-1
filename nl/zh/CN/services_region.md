@@ -3,14 +3,14 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-17"
+lastupdated: "2018-10-25"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
 
-# 按区域列出的服务
+# 服务可用性
 {: #services_region}
 
 通过 {{site.data.keyword.Bluemix}}，您可以轻松地实施、托管和扩展服务和应用程序。您可以关注应用程序逻辑和应用程序设计。
@@ -60,8 +60,8 @@ lastupdated: "2018-10-17"
 |Continuous Delivery|在美国南部托管|在英国托管|在德国托管|不可用|在美国东部托管|不可用| 
 |Cost and Asset Management|在美国南部托管|不可用|不可用|不可用|不可用|不可用| 
 |Data Store for Memcache|在美国南部托管|不可用|不可用|不可用|不可用|不可用| 
-|Databases for PostgreSQL|在美国南部托管|不可用|不可用|不可用|不可用|不可用| 
-|Databases for Redis|在美国南部托管|不可用|不可用|不可用|不可用|不可用| 
+|Databases for PostgreSQL|在美国南部托管|不可用|在德国托管|不可用|不可用|不可用| 
+|Databases for Redis|在美国南部托管|不可用|在德国托管|不可用|不可用|不可用| 
 |Db2|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用|不可用| 
 |Db2 Hosted|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用|不可用| 
 |Db2 Warehouse|在美国南部托管|在英国托管|在德国托管|在悉尼托管|不可用|不可用| 
