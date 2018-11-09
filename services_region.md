@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-08"
+lastupdated: "2018-11-09"
 
 ---
 {:new_window: target="_blank"}
@@ -31,7 +31,7 @@ Services that are hosted globally create resources that operate across multiple 
 | API Connect | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Activity Tracker | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | Alert Notification | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
-| Analytics Engine | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
+| Analytics Engine | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
 | Apache Spark | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
 | App Connect | Hosted in Dallas | Hosted in London | Not available | Syndicated from Dallas | Not available | Not available | 
 | App ID | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
@@ -118,7 +118,7 @@ Services that are hosted globally create resources that operate across multiple 
 | VMware Solutions | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
 | Visual Recognition | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Voice Agent with Watson | Hosted in Dallas | Not available | Not available | Not available | Hosted in Washington DC | Not available | 
-| Watson Assistant (formerly Conversation) | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
+| Watson Assistant (formerly Conversation) | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Watson Studio | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
 | Weather Company Data | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
 | WebSphere Application Server | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
