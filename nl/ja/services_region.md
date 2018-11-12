@@ -3,14 +3,14 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-17"
+lastupdated: "2018-10-25"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
 
-# 地域別のサービス
+# サービス可用性
 {: #services_region}
 
 {{site.data.keyword.Bluemix}} によって、サービスとアプリの実装、ホスト、および拡大を簡単に行うことができます。 それにより、
@@ -61,8 +61,8 @@ lastupdated: "2018-10-17"
 | Continuous Delivery | 米国南部でホスト | 英国でホスト | ドイツでホスト | 使用不可 | 米国東部でホスト | 使用不可 | 
 | Cost and Asset Management | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Data Store for Memcache | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
-| Databases for PostgreSQL | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
-| Databases for Redis | 米国南部でホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Databases for PostgreSQL | 米国南部でホスト | 使用不可 | ドイツでホスト | 使用不可 | 使用不可 | 使用不可 | 
+| Databases for Redis | 米国南部でホスト | 使用不可 | ドイツでホスト | 使用不可 | 使用不可 | 使用不可 | 
 | Db2 | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Db2 Hosted | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Db2 Warehouse | 米国南部でホスト | 英国でホスト | ドイツでホスト | シドニーでホスト | 使用不可 | 使用不可 | 

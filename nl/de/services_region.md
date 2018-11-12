@@ -3,20 +3,20 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-17"
+lastupdated: "2018-10-25"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
 
-# Services nach Region
+# Serviceverfügbarkeit
 {: #services_region}
 
 {{site.data.keyword.Bluemix}} macht es Ihnen leicht, Services und Apps zu implementieren, zu hosten und zu skalieren. Sie können sich voll auf Ihre Anwendungslogik und den Anwendungsentwurf konzentrieren.
 {:shortdesc}
 
-Nicht alle Services sind in jeder {{site.data.keyword.Bluemix_notm}}-Region erhältlich. Auch dann, wenn der Service in einer Region erhältlich ist, kann er an einem anderen Standort gehostet werden. In der folgenden Tabelle sind die Services aufgeführt, die von IBM zur Verfügung gestellt werden. Eine vollständdige Liste der verfügbaren Resourcen finden Sie im [Katalog ](https://console.bluemix.net/catalog/){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") in der {{site.data.keyword.Bluemix_notm}}-Konsole. 
+Nicht alle Services sind in jeder {{site.data.keyword.Bluemix_notm}}-Region erhältlich. Auch dann, wenn der Service in einer Region erhältlich ist, kann er an einem anderen Standort gehostet werden. In der folgenden Tabelle sind die Services aufgeführt, die von IBM zur Verfügung gestellt werden. Eine vollständige Liste der verfügbaren Ressourcen finden Sie im [Katalog ](https://console.bluemix.net/catalog/){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") in der {{site.data.keyword.Bluemix_notm}}-Konsole. 
 
 Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Regionen hinweg betrieben werden. Mit {{site.data.keyword.cos_full_notm}} können Sie zum Beispiel Daten wahlweise in einem einzelnen Datencenter, in einer ganzen Region oder sogar in einer Kombination von Regionen verteilen, indem Sie den [Endpunkt auswählen](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints), an den Ihre Anwendung REST-API-Anforderungen sendet.
 
@@ -60,8 +60,8 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Re
 | Continuous Delivery | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Nicht verfügbar | Gehostet in den Vereinigten Staaten (Osten) | Nicht verfügbar | 
 | Cost and Asset Management | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Data Store for Memcache | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
-| Databases for PostgreSQL | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
-| Databases for Redis | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Databases for PostgreSQL | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Gehostet in Deutschland | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Databases for Redis | Gehostet in den Vereinigten Staaten (Süden) | Nicht verfügbar | Gehostet in Deutschland | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Db2 | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Db2 Hosted | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Db2 Warehouse | Gehostet in den Vereinigten Staaten (Süden) | Gehostet im Vereinigten Königreich | Gehostet in Deutschland | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
