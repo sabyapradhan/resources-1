@@ -3,14 +3,14 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-17"
+lastupdated: "2018-10-25"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
 
-# Services par région
+# Disponibilité des services
 {: #services_region}
 
 {{site.data.keyword.Bluemix}} simplifie l'implémentation, l'hébergement et la mise à l'échelle des services et des applications. Ainsi, vous pouvez vous consacrer à la logique et à la conception de l'application.
@@ -60,8 +60,8 @@ Les services avec hébergement global créent des ressources qui opèrent sur pl
 | Continuous Delivery | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Indisponible | Hébergé à l'Est des Etats-Unis | Indisponible | 
 | Cost and Asset Management | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Data Store for Memcache | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
-| Databases for PostgreSQL | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
-| Databases for Redis | Hébergé au Sud des Etats-Unis | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Databases for PostgreSQL | Hébergé au Sud des Etats-Unis | Indisponible | Hébergé en Allemagne | Indisponible | Indisponible | Indisponible | 
+| Databases for Redis | Hébergé au Sud des Etats-Unis | Indisponible | Hébergé en Allemagne | Indisponible | Indisponible | Indisponible | 
 | Db2 | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | Indisponible | 
 | Db2 hébergé | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | Indisponible | 
 | Db2 Warehouse | Hébergé au Sud des Etats-Unis | Hébergé au Royaume-Uni | Hébergé en Allemagne | Hébergé à Sydney | Indisponible | Indisponible | 
