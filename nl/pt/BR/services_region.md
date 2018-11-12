@@ -3,14 +3,14 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-17"
+lastupdated: "2018-10-25"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
 
-# Serviços por região
+# Disponibilidade do serviço
 {: #services_region}
 
 O {{site.data.keyword.Bluemix}} facilita a implementação, a hospedagem e os serviços de escala e apps. O foco pode ser a lógica e o design do aplicativo.
@@ -60,8 +60,8 @@ Os serviços hospedados globalmente criam recursos que operam em múltiplas regi
 | Continuous Delivery | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Não está disponível | Hospedado no leste dos EUA | Não está disponível | 
 | Cost and Asset Management | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Data Store for Memcache | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
-| Databases for PostgreSQL | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
-| Databases for Redis | Hospedado no Sul dos EUA | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Databases for PostgreSQL | Hospedado no Sul dos EUA | Não está disponível | Hospedado na Alemanha | Não está disponível | Não está disponível | Não está disponível | 
+| Databases for Redis | Hospedado no Sul dos EUA | Não está disponível | Hospedado na Alemanha | Não está disponível | Não está disponível | Não está disponível | 
 | DB2 | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Db2 Hosted | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | DB2 Warehouse | Hospedado no Sul dos EUA | Hospedado no Reino Unido | Hospedado na Alemanha | Hospedado em Sydney | Não está disponível | Não está disponível | 
