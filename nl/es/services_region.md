@@ -3,14 +3,14 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-10-17"
+lastupdated: "2018-10-25"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
 
-# Servicios por región
+# Disponibilidad de servicios
 {: #services_region}
 
 {{site.data.keyword.Bluemix}} le permite fácilmente implementar, alojar y escalar servicios y apps. Puede centrarse en la lógica de la aplicación y en el diseño de la aplicación.
@@ -60,8 +60,8 @@ Los servicios alojados globalmente crean recursos que funcionan en varias region
 | Continuous Delivery | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | No disponible | Alojado en EE.UU. este | No disponible | 
 | Cost and Asset Management | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Data Store for Memcache | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | No disponible | 
-| Databases for PostgreSQL | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | No disponible | 
-| Databases for Redis | Alojado en EE.UU. sur | No disponible | No disponible | No disponible | No disponible | No disponible | 
+| Databases for PostgreSQL | Alojado en EE.UU. sur | No disponible | Alojado en Alemania | No disponible | No disponible | No disponible | 
+| Databases for Redis | Alojado en EE.UU. sur | No disponible | Alojado en Alemania | No disponible | No disponible | No disponible | 
 | Db2 | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | No disponible | 
 | Db2 Hosted | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | No disponible | 
 | Db2 Warehouse | Alojado en EE.UU. sur | Alojado en Reino Unido | Alojado en Alemania | Alojado en Sídney | No disponible | No disponible | 
