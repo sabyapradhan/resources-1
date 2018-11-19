@@ -18,6 +18,7 @@ lastupdated: "2018-05-07"
 I seguenti servizi sono classificati come di Livello 1:
   * {{site.data.keyword.apiconnect_short}}
   * {{site.data.keyword.cloudant}}
+  * {{site.data.keyword.openwhisk_short}}
   * {{site.data.keyword.containershort_notm}}
   * {{site.data.keyword.dashdbshort}}
   * {{site.data.keyword.iot_short}}
@@ -32,4 +33,4 @@ Per ulteriori informazioni sui termini di utilizzo per i servizi, consulta [Term
 ## Deprecazione servizio
 {: #service_deprecation}
 
-IBM fornisce un avviso di almeno 30 giorni se intende sospendere o sostituire un servizio generalmente disponibile. Se non viene fornita una sostituzione equivalente, per almeno 12 mesi dalla data dell'annuncio, IBM si impegna a prendere tutte le misure necessarie per continuare l'operazione e supportare le istanze del servizio distribuite precedentemente. 
+IBM fornisce un avviso di almeno 30 giorni se intende sospendere o sostituire un servizio generalmente disponibile. Se non viene fornita una sostituzione equivalente, per almeno 12 mesi dalla data dell'annuncio, IBM si impegna a prendere tutte le misure necessarie per continuare l'operazione e supportare le istanze del servizio distribuite precedentemente.

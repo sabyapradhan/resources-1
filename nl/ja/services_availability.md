@@ -21,6 +21,7 @@ Tier 1 として識別済みです。IBM は、同等な機能を使用可能に
 以下のサービスは Tier 1 として分類されます。
   * {{site.data.keyword.apiconnect_short}}
   * {{site.data.keyword.cloudant}}
+  * {{site.data.keyword.openwhisk_short}}
   * {{site.data.keyword.containershort_notm}}
   * {{site.data.keyword.dashdbshort}}
   * {{site.data.keyword.iot_short}}
@@ -35,4 +36,4 @@ Tier 1 として識別済みです。IBM は、同等な機能を使用可能に
 ## サービスの非推奨化
 {: #service_deprecation}
 
-IBM は、一般出荷可能サービスを終了または置換する場合、その意図を通知するために少なくとも 30 日間の通知期間を設けます。同等の交換品が提供されない場合、IBM は発表日から少なくとも 12 カ月間、商業的に妥当な手段を使用して、前にデプロイされたサービスのインスタンスの運用とサポートを継続します。
+IBM は、一般出荷可能サービスを終了または置換する場合、その意図を通知するために少なくとも 30 日間の通知期間を設けます。 同等の交換品が提供されない場合、IBM は発表日から少なくとも 12 カ月間、商業的に妥当な手段を使用して、前にデプロイされたサービスのインスタンスの運用とサポートを継続します。
