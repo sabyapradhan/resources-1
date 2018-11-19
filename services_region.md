@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-16"
+lastupdated: "2018-11-19"
 
 ---
 {:new_window: target="_blank"}
@@ -80,6 +80,8 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect DBaaS | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
 | IBM Cognos Dashboard Embedded | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
 | IBM Identity Mixer | Not available | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
+| IBM Managed Financial Data API | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| IBM Simulated Instruments Analytics API | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Information Server | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | Informix | Hosted in Dallas | Syndicated from Dallas | Not available | Syndicated from Dallas | Not available | Not available | 
 | Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
