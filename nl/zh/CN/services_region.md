@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-02"
+lastupdated: "2018-11-08"
 
 ---
 {:new_window: target="_blank"}
@@ -25,7 +25,7 @@ lastupdated: "2018-11-02"
 <!-- Also, do not change the number of dashes in the second line. -->
 <!-- Ping @natimpe for details. -->
 
-|服务|美国南部|英国|德国|悉尼|美国东部|亚太地区北部|
+|服务|达拉斯|伦敦| 法兰克福|悉尼|华盛顿特区|东京|
 |-----|-----|-----|-----|-----|-----|
 |AI OpenScale| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |API Connect| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
@@ -42,7 +42,7 @@ lastupdated: "2018-11-02"
 |BigInsights for Apache Hadoop（预订）| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Blockchain| 在达拉斯托管 | 从达拉斯联合 | 从达拉斯联合 | 从达拉斯联合 |不可用|不可用| 
 |Certificate Manager| 在达拉斯托管 | 在伦敦托管 |不可用|不可用|不可用|不可用| 
-|Cloud Foundry 企业环境| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
+|Cloud Foundry 企业环境| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Cloud Object Storage|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管| 
 |Cloudant| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Compare Comply| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
@@ -57,18 +57,19 @@ lastupdated: "2018-11-02"
 |Compose for RethinkDB| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
 |Compose for ScyllaDB| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
 |Compose for etcd| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
-|Continuous Delivery| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用| 在华盛顿特区托管 |不可用| 
+| Consult with IBM Cloud Garage |在全球托管|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管| 
+|Continuous Delivery| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用| 在华盛顿特区托管 | 在东京托管 | 
 |Cost and Asset Management| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Data Store for Memcache| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
-|Databases for PostgreSQL| 在达拉斯托管 |不可用| 在法兰克福托管 |不可用|不可用|不可用| 
-|Databases for Redis| 在达拉斯托管 |不可用| 在法兰克福托管 |不可用|不可用|不可用| 
+|Databases for PostgreSQL| 在达拉斯托管 |不可用| 在法兰克福托管 |不可用|不可用| 在东京托管 | 
+|Databases for Redis| 在达拉斯托管 |不可用| 在法兰克福托管 |不可用|不可用| 在东京托管 | 
 |Db2| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Db2 Hosted| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Db2 Warehouse| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Decision Optimization| 在达拉斯托管 | 在伦敦托管 |不可用|不可用|不可用|不可用| 
 |DevOps Insights| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用|不可用| 
 |Digital Content Checker| 在达拉斯托管 | 在伦敦托管 |不可用| 从伦敦联合 |不可用|不可用| 
-|Discovery| 在达拉斯托管 | 从达拉斯联合 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
+|Discovery| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Event Management| 在达拉斯托管 | 在伦敦托管 |不可用|在悉尼托管|不可用|不可用| 
 |Event Streams| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |功能| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用| 在华盛顿特区托管 | 在东京托管 | 
@@ -87,19 +88,19 @@ lastupdated: "2018-11-02"
 |Investment Portfolio| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Key Protect| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Knowledge Catalog| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用|不可用| 
-|Knowledge Studio| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
-|Language Translator| 在达拉斯托管 | 从达拉斯联合 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
+|Knowledge Studio| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
+|Language Translator| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Lift CLI| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Log Analysis| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |MQ| 在达拉斯托管 | 在伦敦托管 |不可用|不可用|不可用|不可用| 
-|Machine Learning| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用|不可用| 
+|Machine Learning| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用| 在东京托管 | 
 |Master Data Management| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Mobile Foundation| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
 |监视| 在达拉斯托管 | 在伦敦托管 | 从达拉斯联合 |在悉尼托管|不可用|不可用| 
 |Natural Language Classifier| 在达拉斯托管 |不可用| 在法兰克福托管 |不可用| 在华盛顿特区托管 |不可用| 
-|Natural Language Understanding| 在达拉斯托管 | 从达拉斯联合 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
+|Natural Language Understanding| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Object Storage OpenStack Swift| 在达拉斯托管 | 在伦敦托管 |不可用|不可用|不可用|不可用| 
-|Personality Insights| 在达拉斯托管 | 从达拉斯联合 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
+|Personality Insights| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Portfolio Optimization| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Predictive Market Scenarios| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Push Notifications| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
@@ -109,15 +110,15 @@ lastupdated: "2018-11-02"
 |安全顾问程序| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Simulated Historical Instrument Analytics| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Simulated Instrument Analytics| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
-|Speech to Text| 在达拉斯托管 | 从达拉斯联合 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
+|Speech to Text| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Streaming Analytics| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用|不可用| 
-|Text to Speech| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
-|Tone Analyzer| 在达拉斯托管 | 从达拉斯联合 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
-|Toolchain| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用| 在华盛顿特区托管 |不可用| 
+|Text to Speech| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
+|Tone Analyzer| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
+|Toolchain| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用| 在华盛顿特区托管 | 在东京托管 | 
 |VMware Solutions|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管| 
 |Visual Recognition| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Voice Agent with Watson| 在达拉斯托管 |不可用|不可用|不可用| 在华盛顿特区托管 |不可用| 
-|Watson Assistant（原先称为 Conversation）| 在达拉斯托管 | 从达拉斯联合 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
+|Watson Assistant（原先称为 Conversation）| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
 |Watson Studio| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用|不可用| 
 |Weather Company Data| 在达拉斯托管 | 在伦敦托管 |不可用|在悉尼托管|不可用|不可用| 
 |WebSphere Application Server| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
