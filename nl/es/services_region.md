@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-08"
+lastupdated: "2018-11-13"
 
 ---
 {:new_window: target="_blank"}
@@ -31,7 +31,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | API Connect | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | No disponible | 
 | Activity Tracker | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Alert Notification | Alojado en Dallas | Alojado en Londres | No disponible | Alojado en Sídney | No disponible | No disponible | 
-| Analytics Engine | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | No disponible | 
+| Analytics Engine | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | Alojado en Tokio | 
 | Apache Spark | Alojado en Dallas | Alojado en Londres | No disponible | No disponible | No disponible | No disponible | 
 | App Connect | Alojado en Dallas | Alojado en Londres | No disponible | Sindicado desde Dallas | No disponible | No disponible | 
 | App ID | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
@@ -87,7 +87,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Plataforma Internet de las cosas | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | No disponible | 
 | Investment Portfolio | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Key Protect | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
-| Knowledge Catalog | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | No disponible | 
+| Knowledge Catalog | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | Alojado en Tokio | 
 | Knowledge Studio | Alojado en Dallas | No disponible | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Language Translator | Alojado en Dallas | No disponible | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Lift CLI | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
@@ -97,7 +97,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Master Data Management | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Mobile Foundation | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | No disponible | 
 | Supervisión | Alojado en Dallas | Alojado en Londres | Sindicado desde Dallas | Alojado en Sídney | No disponible | No disponible | 
-| Natural Language Classifier | Alojado en Dallas | No disponible | Alojado en Frankfurt | No disponible | Alojado en Washington DC | No disponible | 
+| Natural Language Classifier | Alojado en Dallas | No disponible | Alojado en Frankfurt | No disponible | Alojado en Washington DC | Alojado en Tokio | 
 | Natural Language Understanding | Alojado en Dallas | No disponible | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Object Storage OpenStack Swift | Alojado en Dallas | Alojado en Londres | No disponible | No disponible | No disponible | No disponible | 
 | Personality Insights | Alojado en Dallas | No disponible | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
@@ -118,8 +118,8 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | VMware Solutions | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | 
 | Visual Recognition | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Voice Agent with Watson | Alojado en Dallas | No disponible | No disponible | No disponible | Alojado en Washington DC | No disponible | 
-| Watson Assistant (antes Conversation) | Alojado en Dallas | No disponible | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | No disponible | 
-| Watson Studio | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | No disponible | 
+| Watson Assistant (antes Conversation) | Alojado en Dallas | No disponible | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
+| Watson Studio | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | Alojado en Tokio | 
 | Weather Company Data | Alojado en Dallas | Alojado en Londres | No disponible | Alojado en Sídney | No disponible | No disponible | 
 | WebSphere Application Server | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Workload Scheduler | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
