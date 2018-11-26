@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-08"
+lastupdated: "2018-11-13"
 
 ---
 {:new_window: target="_blank"}
@@ -35,7 +35,7 @@ o terminal](https://console.bluemix.net/docs/services/cloud-object-storage/basic
 | API Connect | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Activity Tracker | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Alert Notification | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
-| Analytics Engine | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
+| Analytics Engine | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
 | Apache Spark | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | App Connect | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Organizado em Dallas | Não está disponível | Não está disponível | 
 | App ID | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
@@ -61,7 +61,7 @@ o terminal](https://console.bluemix.net/docs/services/cloud-object-storage/basic
 | Compose for RethinkDB | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Compose for ScyllaDB | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Compose for etcd | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
-| Consult with IBM Cloud Garage | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | 
+| Consultar com o IBM Cloud Garage | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | 
 | Continuous Delivery | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Cost and Asset Management | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Data Store for Memcache | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
@@ -82,7 +82,7 @@ o terminal](https://console.bluemix.net/docs/services/cloud-object-storage/basic
 | Historical Instrument Analytics | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Hyper Protect Crypto Services | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Hyper Protect DBaaS | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
-| IBM Cognos Dashboard Embedded | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| IBM Cognos Dashboard Integrado | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | IBM Identity Mixer | Não está disponível | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Information Server | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Informix | Hospedado em Dallas | Organizado em Dallas | Não está disponível | Organizado em Dallas | Não está disponível | Não está disponível | 
@@ -91,7 +91,7 @@ o terminal](https://console.bluemix.net/docs/services/cloud-object-storage/basic
 | Internet of Things Platform | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
 | Investment Portfolio | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Key Protect | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
-| Knowledge Catalog | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
+| Knowledge Catalog | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
 | Knowledge Studio | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Language Translator | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Lift CLI | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
@@ -101,7 +101,7 @@ o terminal](https://console.bluemix.net/docs/services/cloud-object-storage/basic
 | Master Data Management | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Mobile Foundation | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Monitoring | Hospedado em Dallas | Hospedado em Londres | Organizado em Dallas | Hospedado em Sydney | Não está disponível | Não está disponível | 
-| Natural Language Classifier | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Não está disponível | Hospedado em Washington, D.C. | Não está disponível | 
+| Natural Language Classifier | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Não está disponível | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Natural Language Understanding | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Object Storage OpenStack Swift | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Personality Insights | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
@@ -122,8 +122,8 @@ o terminal](https://console.bluemix.net/docs/services/cloud-object-storage/basic
 | VMware Solutions | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | 
 | Visual Recognition | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Voice Agent with Watson | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Hospedado em Washington, D.C. | Não está disponível | 
-| Watson Assistant (anteriormente Conversation) | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
-| Watson Studio | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
+| Watson Assistant (anteriormente Conversation) | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Watson Studio | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
 | Weather Company Data | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | WebSphere Application Server | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Workload Scheduler | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
