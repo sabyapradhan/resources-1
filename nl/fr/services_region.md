@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-08"
+lastupdated: "2018-11-13"
 
 ---
 {:new_window: target="_blank"}
@@ -31,7 +31,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | API Connect | Hébergé à Dallas | Hébergé à Londres | Hébergé à Frankfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
 | Activity Tracker | Hébergé à Dallas | Hébergé à Londres | Hébergé à Frankfort | Hébergé à Sydney | Indisponible | Indisponible | 
 | Alert Notification | Hébergé à Dallas | Hébergé à Londres | Indisponible | Hébergé à Sydney | Indisponible | Indisponible | 
-| Analytics Engine | Hébergé à Dallas | Hébergé à Londres | Hébergé à Frankfort | Indisponible | Indisponible | Indisponible | 
+| Analytics Engine | Hébergé à Dallas | Hébergé à Londres | Hébergé à Frankfort | Indisponible | Indisponible | Hébergé à Tokyo | 
 | Apache Spark | Hébergé à Dallas | Hébergé à Londres | Indisponible | Indisponible | Indisponible | Indisponible | 
 | App Connect | Hébergé à Dallas | Hébergé à Londres | Indisponible | Syndiqué avec Dallas | Indisponible | Indisponible | 
 | App ID | Hébergé à Dallas | Hébergé à Londres | Hébergé à Frankfort | Hébergé à Sydney | Indisponible | Indisponible | 
@@ -87,7 +87,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Internet of Things Platform | Hébergé à Dallas | Hébergé à Londres | Hébergé à Frankfort | Indisponible | Indisponible | Indisponible | 
 | Investment Portfolio | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Key Protect | Hébergé à Dallas | Hébergé à Londres | Hébergé à Frankfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
-| Knowledge Catalog | Hébergé à Dallas | Hébergé à Londres | Hébergé à Frankfort | Indisponible | Indisponible | Indisponible | 
+| Knowledge Catalog | Hébergé à Dallas | Hébergé à Londres | Hébergé à Frankfort | Indisponible | Indisponible | Hébergé à Tokyo | 
 | Knowledge Studio | Hébergé à Dallas | Indisponible | Hébergé à Frankfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
 | Language Translator | Hébergé à Dallas | Indisponible | Hébergé à Frankfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
 | Lift CLI | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
@@ -97,7 +97,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Master Data Management | Hébergé à Dallas | Hébergé à Londres | Hébergé à Frankfort | Hébergé à Sydney | Indisponible | Indisponible | 
 | Mobile Foundation | Hébergé à Dallas | Hébergé à Londres | Hébergé à Frankfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
 | Surveillance | Hébergé à Dallas | Hébergé à Londres | Syndiqué avec Dallas | Hébergé à Sydney | Indisponible | Indisponible | 
-| Natural Language Classifier | Hébergé à Dallas | Indisponible | Hébergé à Frankfort | Indisponible | Hébergé à Washington DC | Indisponible | 
+| Natural Language Classifier | Hébergé à Dallas | Indisponible | Hébergé à Frankfort | Indisponible | Hébergé à Washington DC | Hébergé à Tokyo | 
 | Natural Language Understanding | Hébergé à Dallas | Indisponible | Hébergé à Frankfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
 | Object Storage OpenStack Swift | Hébergé à Dallas | Hébergé à Londres | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Personality Insights | Hébergé à Dallas | Indisponible | Hébergé à Frankfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
@@ -118,8 +118,8 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Solutions VMware | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Visual Recognition | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Voice Agent with Watson | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Hébergé à Washington DC | Indisponible | 
-| Watson Assistant (anciennement appelé Conversation) | Hébergé à Dallas | Indisponible | Hébergé à Frankfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
-| Watson Studio | Hébergé à Dallas | Hébergé à Londres | Hébergé à Frankfort | Indisponible | Indisponible | Indisponible | 
+| Watson Assistant (anciennement appelé Conversation) | Hébergé à Dallas | Indisponible | Hébergé à Frankfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Watson Studio | Hébergé à Dallas | Hébergé à Londres | Hébergé à Frankfort | Indisponible | Indisponible | Hébergé à Tokyo | 
 | Weather Company Data | Hébergé à Dallas | Hébergé à Londres | Indisponible | Hébergé à Sydney | Indisponible | Indisponible | 
 | WebSphere Application Server | Hébergé à Dallas | Hébergé à Londres | Hébergé à Frankfort | Hébergé à Sydney | Indisponible | Indisponible | 
 | Workload Scheduler | Hébergé à Dallas | Hébergé à Londres | Hébergé à Frankfort | Hébergé à Sydney | Indisponible | Indisponible | 
