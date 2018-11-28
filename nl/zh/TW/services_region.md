@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-23"
 
 ---
 {:new_window: target="_blank"}
@@ -80,6 +80,8 @@ lastupdated: "2018-11-13"
 |Hyper Protect DBaaS |在達拉斯進行管理|在倫敦進行管理|不適用 |不適用 |不適用 |不適用 | 
 | IBM Cognos Dashboard Embedded |在達拉斯進行管理|在倫敦進行管理|不適用 |不適用 |不適用 |不適用 | 
 |IBM Identity Mixer |不適用 |在倫敦進行管理|不適用 |在雪梨進行管理|不適用 |不適用 | 
+| IBM Managed Financial Data API |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
+| IBM Simulated Instruments Analytics API |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Information Server |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Informix|在達拉斯進行管理|從達拉斯進行聯合發佈|不適用 |從達拉斯進行聯合發佈|不適用 |不適用 | 
 |Instrument Analytics |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
