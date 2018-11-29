@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-28"
+lastupdated: "2018-11-29"
 
 ---
 {:new_window: target="_blank"}
@@ -34,7 +34,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Analytics Engine | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
 | Apache Spark | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
 | App Connect | Hosted in Dallas | Hosted in London | Not available | Syndicated from Dallas | Not available | Not available | 
-| App ID | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
+| App ID | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Hosted in Tokyo | 
 | App Launch | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Auto-Scaling | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Automated Accessibility Tester | Hosted in Dallas | Hosted in London | Not available | Syndicated from London | Not available | Not available | 
@@ -77,7 +77,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Globalization Pipeline | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | Historical Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Hyper Protect Crypto Services | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Hyper Protect DBaaS | Hosted in Dallas | Hosted in London | Not available | Not available | Hosted in Washington DC | Not available | 
+| Hyper Protect DBaaS | Hosted in Dallas | Not available | Not available | Not available | Hosted in Washington DC | Not available | 
 | IBM Cognos Dashboard Embedded | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
 | IBM Identity Mixer | Not available | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
 | IBM Managed Financial Data API | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
