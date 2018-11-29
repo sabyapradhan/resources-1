@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-23"
 
 ---
 {:new_window: target="_blank"}
@@ -80,6 +80,8 @@ lastupdated: "2018-11-13"
 |Hyper Protect DBaaS | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |IBM Cognos Dashboard Embedded | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |IBM Identity Mixer |사용할 수 없음 | 런던에서 호스팅됨 |사용할 수 없음 |시드니에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 | 
+| IBM Managed Financial Data API | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
+| IBM Simulated Instruments Analytics API | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Information Server | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 | 
 |Informix | 댈러스에서 호스팅됨 | 댈러스에서 신디케이트됨 |사용할 수 없음 | 댈러스에서 신디케이트됨 |사용할 수 없음 |사용할 수 없음 | 
 |Instrument Analytics | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 

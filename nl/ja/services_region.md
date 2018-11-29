@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-23"
 
 ---
 {:new_window: target="_blank"}
@@ -81,6 +81,8 @@ lastupdated: "2018-11-13"
 | Hyper Protect DBaaS | ダラスでホスト | ロンドンでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | IBM Cognos Dashboard Embedded | ダラスでホスト | ロンドンでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | IBM Identity Mixer | 使用不可 | ロンドンでホスト | 使用不可 | シドニーでホスト | 使用不可 | 使用不可 | 
+| IBM Managed Financial Data API | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| IBM Simulated Instruments Analytics API | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Information Server | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Informix | ダラスでホスト | ダラスからシンジケート | 使用不可 | ダラスからシンジケート | 使用不可 | 使用不可 | 
 | Instrument Analytics | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
