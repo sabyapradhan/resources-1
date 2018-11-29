@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-23"
 
 ---
 {:new_window: target="_blank"}
@@ -84,6 +84,8 @@ o terminal](https://console.bluemix.net/docs/services/cloud-object-storage/basic
 | Hyper Protect DBaaS | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | IBM Cognos Dashboard Integrado | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | IBM Identity Mixer | Não está disponível | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
+| IBM Managed Financial Data API | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| IBM Simulated Instruments Analytics API | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Information Server | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Informix | Hospedado em Dallas | Organizado em Dallas | Não está disponível | Organizado em Dallas | Não está disponível | Não está disponível | 
 | Instrument Analytics | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
