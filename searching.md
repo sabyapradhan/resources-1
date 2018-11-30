@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-16"
+lastupdated: "2018-11-30"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2018-11-16"
 # Searching for resources
 {: #searching-for-resources}
 
-You can search for resources that you expect to find in the resource list from anywhere in the {{site.data.keyword.cloud}} console. Enter the resource or tag in the search field from the console menu bar. You can also use the {{site.data.keyword.Bluemix_notm}} command-line interface (CLI) to search across your resources. The CLI searches for distributed applications and service instances across locations and data centers. 
+You can search for provisioned resources that you expect to find in the resource list and offerings in the catalog from anywhere in the {{site.data.keyword.cloud}} console. Enter the resource or tag in the search field from the console menu bar. You can also use the {{site.data.keyword.Bluemix_notm}} command-line interface (CLI) to search across your resources. The CLI searches for distributed applications and service instances across locations and data centers. 
 {:shortdesc}
 
 ## Refining your search results
