@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-11-08"
+lastupdated: "2018-11-30"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-11-08"
 If you have a service instance that is created and bound to apps in one region, you can use this service instance in another region by one of the following methods:
 {: shortdesc}
 
-  * Use the service credentials to configure your app instance directly. See [Enabling external apps to use {{site.data.keyword.Bluemix_notm}} service](/docs/resources/connect_external_app.html#externalapp) for details.
+  * Use the service credentials to configure your app instance directly. See [Connecting services to external apps](/docs/resources/connect_external_app.html#externalapp) for details.
   * Create a user-provided service as a bridge.
 
 	To use a service instance that exists in another region, complete the following steps:
