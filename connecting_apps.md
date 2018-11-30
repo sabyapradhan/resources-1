@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-10-29"
 
 ---
 
@@ -11,7 +11,7 @@ lastupdated: "2018-08-02"
 # Managing connections
 {: #connect_app}
 
-You can connect a service to an existing or new {{site.data.keyword.Bluemix}} application from the **Connections** tab on your service dashboard. Connecting a service to an application creates a binding between them, and you can unbind, add more connections, or delete connections from the **Connections** tab.
+You can connect a service to an existing or new {{site.data.keyword.Bluemix}} application from the **Connections** tab on your service dashboard. Connecting a service to an application creates a binding between them. You can unbind, add more connections, or delete connections from the **Connections** tab.
 
 However, when you connect a service instance that is managed by {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) to an application, an alias of the service that is managed by IAM is automatically created in the corresponding space with the binding information that you specified. This alias is represented as a service instance of your IAM-managed service.
 {:shortdesc}
@@ -25,12 +25,12 @@ Aliases are like symlinks that hold references to remote resources and enable in
 
 The following rules apply to aliases:
 
-* There is no extra charge for an alias, but each alias counts against your quota in your organization.
-* You can create only one alias per space in the {{site.data.keyword.Bluemix_notm}} console. However, more than one alias per space can be created by using the {{site.data.keyword.Bluemix_notm}} CLI. For more information, see [Commands for managing resource groups and resources](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource).
+* There's no extra charge for an alias, but each alias counts against your quota in your organization.
+* You can create only one alias per space in the {{site.data.keyword.Bluemix_notm}} console. However, more than one alias per space can be created by using the {{site.data.keyword.Bluemix_notm}} CLI. For more information, see [Working with resources and resource groups](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource).
 * You can create multiple connections between your IAM-managed service and any application in any space, organization, and region in the same account if you have permission.
 * Multiple connections that are made in the same space to different apps from an IAM-managed service instance use the same alias.
-* Unbinding an IAM-managed service instance *does not* delete the service instance that represents the alias.
-* Deleting the application that your IAM-managed service instance is connected to *does not* delete the instance that represents the alias.
+* Unbinding an IAM-managed service instance *doesn't* delete the service instance that represents the alias.
+* Deleting the application that your IAM-managed service instance is connected to *doesn't* delete the instance that represents the alias.
 * Deleting an IAM-managed service instance *deletes* the service instance that represents the alias.
 
 ## Creating a connection (alias) between an IAM-managed service and an app
@@ -44,25 +44,25 @@ To connect your IAM-managed service instance to an application:
 
 3. Click **Connect existing** and choose from your existing app. Or click **Create connection** to create an app to connect to.
 
-4. Specify the **Access Role for Connection**. This value sets the IAM service access role. For more information, see [IAM access](/docs/iam/users_roles.html#userroles).
+4. Specify the **Access Role for connection**. This value sets the IAM service access role. For more information, see [IAM access](/docs/iam/users_roles.html#userroles).
 
-5. Optionally, you can provide a **Service ID for Connection** by either allowing IAM to generate a unique value for you, or by providing an existing service ID. For more information, see [Creating and managing service IDs](/docs/iam/serviceid.html#serviceids).
+5. Optionally, you can provide a **Service ID for connection** by either allowing IAM to generate a unique value for you, or by providing an existing service ID. For more information, see [Creating and working with service IDs](/docs/iam/serviceid.html#serviceids).
 
 6. Click **Create**.
 
 ## Viewing an alias
 
-After you create a connection between an IAM-managed service and an app, the alias is displayed on the **Connections** tab of the connected app. Additionally, the alias is displayed as a running service instance on your dashboard, and contains a **Connections** tab only when you open it.
+After you create a connection between an IAM-managed service and an app, the alias is displayed on the **Connections** tab of the connected app. Additionally, the alias is displayed as a running service instance on your resource list, and contains a **Connections** tab only when you open it.
 
-1. Go to your dashboard.
-2. From the **Application Services** table, click the name of the service instance to open the service details view. If it has a **Connections** tab only, it is an alias.
+1. Go to your resource list.
+2. From the **Application Services** table, click the name of the service instance to open the service details view. If it has a **Connections** tab only, it's an alias.
 
 ## Deleting an alias
 
 The easiest way to delete the alias is to delete the IAM-managed service instance. However, you can maintain your IAM-managed service instance and instead delete the alias directly.
 
-1. Go to your dashboard.
-2. From the **Application Services** table, click the name of the service instance to open the service details view. If it has a **Connections** tab only, it is an alias.
+1. Go to your resource list.
+2. From the **Application Services** table, click the name of the service instance to open the service details view. If it has a **Connections** tab only, it's an alias.
 3. Delete the instance.
 
 ## Creating a connection between multiple services
