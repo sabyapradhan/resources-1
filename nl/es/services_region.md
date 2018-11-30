@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-23"
 
 ---
 {:new_window: target="_blank"}
@@ -80,6 +80,8 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Hyper Protect DBaaS | Alojado en Dallas | Alojado en Londres | No disponible | No disponible | No disponible | No disponible | 
 | IBM Cognos Dashboard Embedded | Alojado en Dallas | Alojado en Londres | No disponible | No disponible | No disponible | No disponible | 
 | IBM Identity Mixer | No disponible | Alojado en Londres | No disponible | Alojado en Sídney | No disponible | No disponible | 
+| API IBM Managed Financial Data | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
+| API IBM Simulated Instruments Analytics | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Information Server | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Informix | Alojado en Dallas | Sindicado desde Dallas | No disponible | Sindicado desde Dallas | No disponible | No disponible | 
 | Instrument Analytics | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 

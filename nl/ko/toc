@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="resources" audience="platform" arm="3816100" href="/docs/resources/acct_resources.html" path="resources"}
+{: .toc subcollection="resources" audience="platform" arm="3816100" href="/docs/resources/acct_resources.html"}
 리소스 및 서비스 관련 작업
 
     {: .navgroup id="learn"}
