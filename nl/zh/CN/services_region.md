@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-23"
 
 ---
 {:new_window: target="_blank"}
@@ -80,6 +80,8 @@ lastupdated: "2018-11-13"
 |Hyper Protect DBaaS| 在达拉斯托管 | 在伦敦托管 |不可用|不可用|不可用|不可用| 
 |IBM Cognos Dashboard Embedded| 在达拉斯托管 | 在伦敦托管 |不可用|不可用|不可用|不可用| 
 |IBM Identity Mixer|不可用| 在伦敦托管 |不可用|在悉尼托管|不可用|不可用| 
+|IBM Managed Financial Data API| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
+|IBM Simulated Instruments Analytics API| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Information Server| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Informix| 在达拉斯托管 | 从达拉斯联合 |不可用| 从达拉斯联合 |不可用|不可用| 
 |Instrument Analytics| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
