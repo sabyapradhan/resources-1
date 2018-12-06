@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-30"
+lastupdated: "2018-12-06"
 
 ---
 {:new_window: target="_blank"}
@@ -41,11 +41,11 @@ Services that are hosted globally create resources that operate across multiple 
 | Availability Monitoring | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
 | BigInsights for Apache Hadoop (Subscription) | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Blockchain | Hosted in Dallas | Syndicated from Dallas | Syndicated from Dallas | Syndicated from Dallas | Not available | Not available | 
-| Certificate Manager | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
-| Cloud Foundry Enterprise Environment | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
+| Certificate Manager | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
+| Cloud Foundry Enterprise Environment | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Cloud Object Storage | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
 | Cloudant | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Compare Comply | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Compare Comply | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Not available | 
 | Compose Enterprise | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Compose for Elasticsearch | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Compose for JanusGraph | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
@@ -94,7 +94,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Language Translator | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Lift CLI | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Log Analysis | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
-| MQ | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
+| MQ | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
 | Machine Learning | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
 | Master Data Management | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | Mobile Foundation | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
