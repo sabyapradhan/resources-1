@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-12-07"
+lastupdated: "2018-12-10"
 
 ---
 {:new_window: target="_blank"}
@@ -69,7 +69,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Decision Optimization | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
 | DevOps Insights | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
 | Digital Content Checker | Hosted in Dallas | Hosted in London | Not available | Syndicated from London | Not available | Not available | 
-| Discovery | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
+| Discovery | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Event Management | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
 | Event Streams | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Functions | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Hosted in Tokyo | 
@@ -109,7 +109,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Real-Time Payments | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | SQL Query | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Secure Gateway | Hosted in Dallas | Hosted in London | Syndicated from Dallas | Syndicated from Dallas | Hosted in Washington DC | Not available | 
-| Security Advisor | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Security Advisor | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
 | Simulated Historical Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Simulated Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Speech to Text | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
