@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-12-14"
+lastupdated: "2018-12-17"
 
 ---
 {:new_window: target="_blank"}
@@ -91,7 +91,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Key Protect | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Knowledge Catalog | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
 | Knowledge Studio | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Language Translator | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
+| Language Translator | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Lift CLI | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Log Analysis | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | MQ | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
