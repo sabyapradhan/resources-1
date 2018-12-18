@@ -62,6 +62,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Cost and Asset Management | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Data Store for Memcache | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Databases for Elasticsearch | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
+| Databases for Etcd | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
 | Databases for PostgreSQL | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
 | Databases for Redis | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
 | Db2 | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
