@@ -3,36 +3,38 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-06-20"
+lastupdated: "2018-11-28"
 
 ---
 
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:note: .note}
 
 
 # Incluindo uma credencial
 {: #service_credentials}
 
-É possível gerar um novo conjunto de credenciais para casos em que você deseja conectar manualmente um consumidor externo a um serviço {{site.data.keyword.Bluemix}}. Por exemplo, se você estiver tentando ligar um app AWS a um serviço do Watson, será necessário gerar uma nova credencial que possa ser usada para ligá-los juntos.
+É possível gerar um novo conjunto de credenciais para casos em que você deseja conectar manualmente um consumidor externo a um serviço {{site.data.keyword.Bluemix}}. Por exemplo, se você estiver tentando ligar um app AWS a um serviço do Watson, será necessário gerar uma nova credencial que possa ser usada para ligá-los.
 
-## Incluindo uma credencial ao ligar um serviço ativado por IAM
+## Incluindo uma credencial ao ligar um serviço ativado pelo IAM
 {: #IAM}
 
-Os serviços que são gerenciados pelo {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) podem gerar uma chave de recursos, também conhecida como uma credencial. Credenciais são específicas do serviço e variam com base em como cada serviço
+Os serviços que são gerenciados pelo {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) podem gerar uma chave de recursos, também conhecida como uma credencial. Credenciais são específicas do serviço e variam com base em como cada serviço
 define as credenciais que eles precisam gerar. Uma credencial pode conter um nome do usuário, senha, nome do host, porta e uma URL.
 
 No entanto, embora os conteúdos de cada credencial sejam exclusivos para o serviço que os gera, todos os serviços gerenciados pelo IAM requerem que novas credenciais incluam uma função de acesso ao serviço IAM. Alguns serviços podem gerar mais dados que requerem que parâmetros sejam passados. Por exemplo, um serviço pode requerer que você insira um parâmetro de linguagem para configurar a linguagem padrão que é retornada na chave de recursos gerada.
 
 Conclua as etapas a seguir para incluir uma credencial em um serviço que é gerenciado pelo IAM:
 
-1. No painel, selecione o nome do serviço para abrir a página de detalhes do serviço. Em seguida, selecione a guia Credenciais e clique em **Nova credencial +**.
+1. Na lista de recursos, selecione o nome do serviço para abrir a página de detalhes do serviço. Em seguida, selecione a guia Credenciais e clique em **Nova credencial +**.
 2. No diálogo Incluir nova credencial, forneça um **Nome**.
-3. Especifique a função. Este valor configura a função de acesso do serviço IAM. Para obter mais informações, consulte [Acesso IAM](/docs/iam/users_roles.html#userroles).
-4. Opcionalmente, é possível fornecer um ID de serviço permitindo que o IAM gere um valor exclusivo para você ou fornecendo um ID de serviço existente. Para obter mais informações, veja [Criando e gerenciando IDs de serviço](/docs/iam/serviceid.html#serviceids).
+3. Especifique a função. Este valor configura a função de acesso do serviço IAM. Para obter mais informações, veja: [Acesso ao IAM](/docs/iam/users_roles.html#userroles)
+4. Opcionalmente, é possível fornecer um ID de serviço permitindo que o IAM gere um valor exclusivo para você ou fornecendo um ID de serviço existente. Para obter mais informações, veja: [Criando e gerenciando IDs de serviço](https://console.stage1.bluemix.net/docs/iam/serviceid.html#serviceids)
 5. Opcionalmente, é possível fornecer mais parâmetros como um objeto JSON válido que contém parâmetros de configuração específicos do serviço, fornecidos sequencialmente ou em um arquivo.
 
-  **Nota**. A maioria dos serviços não requer parâmetros extras e, para serviços que os requerem, cada serviço define sua própria lista exclusiva de parâmetros. Para obter uma lista de parâmetros de configuração suportados, veja a documentação para a oferta de serviços específica.
+  A maioria dos serviços não requer parâmetros extras e, para serviços que fazem isso, cada serviço define sua própria lista exclusiva de parâmetros. Para obter uma lista de parâmetros de configuração suportados, veja a documentação para a oferta de serviços específica.
+  {: note}
 6. Clique em **Incluir** para gerar a nova credencial de serviço.
 
 ## Incluindo uma credencial ao ligar um serviço Cloud Foundry
@@ -49,6 +51,7 @@ Conclua as etapas a seguir para incluir uma credencial do Cloud Foundry:
 2. No diálogo Incluir nova credencial, forneça um **Nome**.
 3. Opcionalmente, é possível fornecer mais parâmetros como um objeto JSON válido que contém parâmetros de configuração específicos do serviço, fornecidos sequencialmente ou em um arquivo.
 
-  **Nota**. A maioria dos serviços não requer parâmetros extras e, para serviços que os requerem, cada serviço define sua própria lista exclusiva de parâmetros. Para obter uma lista de parâmetros de configuração suportados, veja a documentação para a oferta de serviços específica.
+  A maioria dos serviços não requer parâmetros extras e, para serviços que fazem isso, cada serviço define sua própria lista exclusiva de parâmetros. Para obter uma lista de parâmetros de configuração suportados, veja a documentação para a oferta de serviços específica.
+  {: note}
 4. Clique em **Incluir** para gerar a nova credencial de serviço.
 

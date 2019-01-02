@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-05-07"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2018-05-07"
 # Disponibilidade contínua para serviços
 {: #services_availability}
 
-O {{site.data.keyword.Bluemix_notm}} identificou um conjunto de serviços como Camada 1. A IBM não vai retirar nenhum serviço da Camada 1 sem disponibilizar um equivalente funcional ou fornecer aviso, pelo menos, cinco anos antes da retirada.
+O {{site.data.keyword.Bluemix_notm}} identificou um conjunto de serviços como Camada 1. A IBM não retira nenhum serviço da Camada 1 sem a disponibilização de um equivalente funcional ou fornecendo pelo menos cinco anos de aviso da retirada.
 
 Os serviços a seguir são classificados como Camada 1:
   * {{site.data.keyword.apiconnect_short}}
@@ -25,10 +25,10 @@ Os serviços a seguir são classificados como Camada 1:
   * {{site.data.keyword.messagehub}}
   * MongoDB by Compose
   * {{site.data.keyword.objectstorageshort}}
-  * PostgresSQL por Compose
+  * PostgreSQL by Compose
   * {{site.data.keyword.ssofull}}
 
-Para ler mais sobre os termos de uso para serviços, veja [Termos do {{site.data.keyword.Bluemix_notm}}](/docs/overview/terms-of-use/notices.html#terms).
+Para ler mais sobre os termos de uso para serviços, consulte [Termos e avisos do {{site.data.keyword.Bluemix_notm}}](/docs/overview/terms-of-use/notices.html#terms).
 
 ## Descontinuação de serviço
 {: #service_deprecation}
