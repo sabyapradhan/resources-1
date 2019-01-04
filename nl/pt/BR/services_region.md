@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-30"
+lastupdated: "2018-11-23"
 
 ---
 {:new_window: target="_blank"}
@@ -16,13 +16,13 @@ lastupdated: "2018-11-30"
 O {{site.data.keyword.Bluemix}} facilita a implementação, a hospedagem e os serviços de escala e apps. O foco pode ser a lógica e o design do aplicativo.
 {:shortdesc}
 
-Nem todos os serviços estão disponíveis para compra em todas as localizações do {{site.data.keyword.Bluemix_notm}}. E, mesmo se o serviço estiver disponível para compra nessa localização, ele poderá estar hospedado em uma localização diferente. A tabela a seguir mostra os serviços que são fornecidos pela IBM. Para obter a lista completa de recursos que estão disponíveis, consulte o [catálogo](https://cloud.ibm.com/catalog/){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") no console do {{site.data.keyword.Bluemix_notm}}. 
+Nem todos os serviços estão disponíveis para compra em todas as localizações do {{site.data.keyword.Bluemix_notm}}. E, mesmo se o serviço estiver disponível para compra nessa localização, ele poderá estar hospedado em uma localização diferente. A tabela a seguir mostra os serviços que são fornecidos pela IBM. Para obter a lista completa de recursos que estão disponíveis, consulte o [catálogo](https://console.bluemix.net/catalog/){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") no console do {{site.data.keyword.Bluemix_notm}}. 
 
 Os serviços hospedados globalmente criam os recursos que operam em múltiplas localizações. Por exemplo,
 com o {{site.data.keyword.cos_full_notm}}, é possível optar por dispersar os dados em um único
-[data center](/docs/overview/zero_downtime.html#data_center) ou mesmo em uma combinação de localizações
+[data center](/docs/overview/data-centers.html) ou mesmo em uma combinação de localizações
 [selecionando
-o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) no qual o aplicativo envia as solicitações de API de REST.
+o terminal](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) no qual o aplicativo envia as solicitações de API de REST.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -38,7 +38,7 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 | Analytics Engine | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
 | Apache Spark | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | App Connect | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Organizado em Dallas | Não está disponível | Não está disponível | 
-| App ID | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Hospedado em Tóquio | 
+| App ID | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | App Launch | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Auto-Scaling | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Automated Accessibility Tester | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Organizado em Londres | Não está disponível | Não está disponível | 
@@ -81,7 +81,7 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 | Globalization Pipeline | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Historical Instrument Analytics | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Hyper Protect Crypto Services | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
-| Hyper Protect DBaaS | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado em Washington, D.C. | Não está disponível | 
+| Hyper Protect DBaaS | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | IBM Cognos Dashboard Integrado | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | IBM Identity Mixer | Não está disponível | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | IBM Managed Financial Data API | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
@@ -129,4 +129,4 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 | Weather Company Data | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | WebSphere Application Server | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Workload Scheduler | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
-{: caption="Tabela 1. Disponibilidade de serviço" caption-side="top"}
+ {: caption="Tabela 1. Disponibilidade de serviço" caption-side="top"}

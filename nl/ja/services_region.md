@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-30"
+lastupdated: "2018-11-23"
 
 ---
 {:new_window: target="_blank"}
@@ -17,9 +17,9 @@ lastupdated: "2018-11-30"
 アプリケーション・ロジックとアプリケーション設計に集中することができます。
 {:shortdesc}
 
-各 {{site.data.keyword.Bluemix_notm}} ロケーションですべてのサービスが購入できるわけではありません。 また、当該ロケーションでサービスが購入可能な場合でも、サービスは別の場所でホストされていることがあります。 以下の表は、IBM が提供するサービスを示しています。 使用可能なリソースの全リストは、{{site.data.keyword.Bluemix_notm}} コンソール内の[カタログ](https://cloud.ibm.com/catalog/){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。 
+各 {{site.data.keyword.Bluemix_notm}} ロケーションですべてのサービスが購入できるわけではありません。 また、当該ロケーションでサービスが購入可能な場合でも、サービスは別の場所でホストされていることがあります。 以下の表は、IBM が提供するサービスを示しています。 使用可能なリソースの全リストは、{{site.data.keyword.Bluemix_notm}} コンソール内の[カタログ](https://console.bluemix.net/catalog/){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。 
 
-グローバルにホストされるサービスが作成するリソースは複数のロケーションで作動します。 例えば、{{site.data.keyword.cos_full_notm}} を使用すると、アプリケーションが REST API 要求を送信する[エンドポイントの選択](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)によって、1 つの[データ・センター](/docs/overview/zero_downtime.html#data_center)に、または、複数のロケーションの組み合わせにでも、データを分散させることを選択できます。
+グローバルにホストされるサービスが作成するリソースは複数のロケーションで作動します。 例えば、{{site.data.keyword.cos_full_notm}} を使用すると、アプリケーションが REST API 要求を送信する[エンドポイントの選択](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)によって、1 つの[データ・センター](/docs/overview/data-centers.html)に、または、複数のロケーションの組み合わせにでも、データを分散させることを選択できます。
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -35,7 +35,7 @@ lastupdated: "2018-11-30"
 | Analytics Engine | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | 使用不可 | 使用不可 | 東京でホスト | 
 | Apache Spark | ダラスでホスト | ロンドンでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | App Connect | ダラスでホスト | ロンドンでホスト | 使用不可 | ダラスからシンジケート | 使用不可 | 使用不可 | 
-| App ID | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 東京でホスト | 
+| App ID | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | App Launch | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Auto-Scaling | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 使用不可 | 
 | Automated Accessibility Tester | ダラスでホスト | ロンドンでホスト | 使用不可 | ロンドンからシンジケート | 使用不可 | 使用不可 | 
@@ -78,7 +78,7 @@ lastupdated: "2018-11-30"
 | Globalization Pipeline | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Historical Instrument Analytics | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Hyper Protect Crypto Services | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
-| Hyper Protect DBaaS | 使用不可 | 使用不可 | 使用不可 | 使用不可 | ワシントン DC でホスト | 使用不可 | 
+| Hyper Protect DBaaS | ダラスでホスト | ロンドンでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | IBM Cognos Dashboard Embedded | ダラスでホスト | ロンドンでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | IBM Identity Mixer | 使用不可 | ロンドンでホスト | 使用不可 | シドニーでホスト | 使用不可 | 使用不可 | 
 | IBM Managed Financial Data API | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
@@ -126,4 +126,4 @@ lastupdated: "2018-11-30"
 | Weather Company Data | ダラスでホスト | ロンドンでホスト | 使用不可 | シドニーでホスト | 使用不可 | 使用不可 | 
 | WebSphere Application Server | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Workload Scheduler | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
-{: caption="表 1. サービスの利用可能性" caption-side="top"}
+ {: caption="表 1. サービスの利用可能性" caption-side="top"}

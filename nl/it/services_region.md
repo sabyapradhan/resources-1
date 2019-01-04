@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-13"
+lastupdated: "2018-11-23"
 
 ---
 {:new_window: target="_blank"}
@@ -26,7 +26,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 <!-- Also, do not change the number of dashes in the second line. -->
 <!-- Ping @natimpe for details. -->
 
-| Servizio | Dallas | London | Frankfurt | Sydney | Washington DC | Tokyo |
+| Servizio | Dallas | Londra | Francoforte | Sydney | Washington DC | Tokyo |
 |-----|-----|-----|-----|-----|-----|
 | AI OpenScale | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | API Connect | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Non disponibile | 
@@ -81,6 +81,8 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Hyper Protect DBaaS | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | IBM Cognos Dashboard Embedded | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | IBM Identity Mixer | Non disponibile | Ospitato a Londra | Non disponibile | Ospitato a Sydney | Non disponibile | Non disponibile | 
+| IBM Managed Financial Data API | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| IBM Simulated Instruments Analytics API | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Information Server | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Informix | Ospitato a Dallas | Diffuso da Dallas | Non disponibile | Diffuso da Dallas | Non disponibile | Non disponibile | 
 | Instrument Analytics | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
@@ -119,7 +121,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Soluzioni VMware | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | 
 | Visual Recognition | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Voice Agent with Watson | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Ospitato a Washington DC | Non disponibile | 
-| Watson Assistant (formerly Conversation) | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
+| Watson Assistant (precedentemente Conversation) | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Watson Studio | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
 | Weather Company Data | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | WebSphere Application Server | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
