@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-23"
+lastupdated: "2018-11-30"
 
 ---
 {:new_window: target="_blank"}
@@ -16,9 +16,9 @@ lastupdated: "2018-11-23"
 {{site.data.keyword.Bluemix}} le permite fácilmente implementar, alojar y escalar servicios y apps. Puede centrarse en la lógica de la aplicación y en el diseño de la aplicación.
 {:shortdesc}
 
-No todos los servicios están disponibles para su adquisición en cada ubicación de {{site.data.keyword.Bluemix_notm}}. E, incluso si el servicio está disponible para su adquisición en dicha ubicación, el servicio puede estar alojado en una ubicación diferente. La siguiente tabla muestra los servicios proporcionados por IBM. Para ver la lista completa de los recursos que están disponibles, consulte el [catálogo](https://console.bluemix.net/catalog/){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") en la consola de {{site.data.keyword.Bluemix_notm}}. 
+No todos los servicios están disponibles para su adquisición en cada ubicación de {{site.data.keyword.Bluemix_notm}}. E, incluso si el servicio está disponible para su adquisición en dicha ubicación, el servicio puede estar alojado en una ubicación diferente. La siguiente tabla muestra los servicios proporcionados por IBM. Para ver la lista completa de los recursos que están disponibles, consulte el [catálogo](https://cloud.ibm.com/catalog/){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") en la consola de {{site.data.keyword.Bluemix_notm}}. 
 
-Los servicios alojados globalmente crean recursos que funcionan en varias ubicaciones. Por ejemplo, con {{site.data.keyword.cos_full_notm}}, puede optar por dispersar los datos en un único [centro de datos](/docs/overview/data-centers.html), o incluso en una combinación de ubicaciones, [seleccionando el punto final](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) al que aplicación envía las solicitudes de API REST.
+Los servicios alojados globalmente crean recursos que funcionan en varias ubicaciones. Por ejemplo, con {{site.data.keyword.cos_full_notm}}, puede optar por dispersar los datos en un único [centro de datos](/docs/overview/zero_downtime.html#data_center), o incluso en una combinación de ubicaciones, [seleccionando el punto final](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) al que aplicación envía las solicitudes de API REST.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -34,7 +34,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Analytics Engine | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | Alojado en Tokio | 
 | Apache Spark | Alojado en Dallas | Alojado en Londres | No disponible | No disponible | No disponible | No disponible | 
 | App Connect | Alojado en Dallas | Alojado en Londres | No disponible | Sindicado desde Dallas | No disponible | No disponible | 
-| App ID | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
+| App ID | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | Alojado en Tokio | 
 | App Launch | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Auto-Scaling | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | No disponible | 
 | Automated Accessibility Tester | Alojado en Dallas | Alojado en Londres | No disponible | Sindicado desde Londres | No disponible | No disponible | 
@@ -77,7 +77,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Globalization Pipeline | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Historical Instrument Analytics | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Hyper Protect Crypto Services | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
-| Hyper Protect DBaaS | Alojado en Dallas | Alojado en Londres | No disponible | No disponible | No disponible | No disponible | 
+| Hyper Protect DBaaS | No disponible | No disponible | No disponible | No disponible | Alojado en Washington DC | No disponible | 
 | IBM Cognos Dashboard Embedded | Alojado en Dallas | Alojado en Londres | No disponible | No disponible | No disponible | No disponible | 
 | IBM Identity Mixer | No disponible | Alojado en Londres | No disponible | Alojado en Sídney | No disponible | No disponible | 
 | API IBM Managed Financial Data | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
@@ -125,4 +125,4 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Weather Company Data | Alojado en Dallas | Alojado en Londres | No disponible | Alojado en Sídney | No disponible | No disponible | 
 | WebSphere Application Server | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Workload Scheduler | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
- {: caption="Tabla 1. Disponibilidad del servicio" caption-side="top"}
+{: caption="Tabla 1. Disponibilidad del servicio" caption-side="top"}

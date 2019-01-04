@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-05-07"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2018-05-07"
 # Disponibilidad continuada para servicios
 {: #services_availability}
 
-{{site.data.keyword.Bluemix_notm}} ha identificado un conjunto de servicios como Nivel 1. IBM no retirará ningún servicio de Nivel 1 sin que haya disponible una función equivalente o sin ofrecer un aviso de la retirada con al menos una anticipación de cinco años.
+{{site.data.keyword.Bluemix_notm}} ha identificado un conjunto de servicios como Nivel 1. IBM no retira ningún servicio de Nivel 1 sin que haya una función equivalente disponible o sin ofrecer un aviso de la retirada con al menos una anticipación de cinco años.
 
 Los siguientes servicios se clasifican como Nivel 1:
   * {{site.data.keyword.apiconnect_short}}
@@ -25,10 +25,10 @@ Los siguientes servicios se clasifican como Nivel 1:
   * {{site.data.keyword.messagehub}}
   * MongoDB by Compose
   * {{site.data.keyword.objectstorageshort}}
-  * PostgresSQL by Compose
+  * PostgreSQL by Compose
   * {{site.data.keyword.ssofull}}
 
-Para leer más sobre los términos de uso para servicios, consulte [Términos de {{site.data.keyword.Bluemix_notm}}](/docs/overview/terms-of-use/notices.html#terms).
+Para leer más sobre los términos de uso para servicios, consulte los [Avisos y condiciones de {{site.data.keyword.Bluemix_notm}}](/docs/overview/terms-of-use/notices.html#terms).
 
 ## Obsolescencia de servicios
 {: #service_deprecation}

@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="resources" audience="platform" arm="3816100" href="/docs/resources/acct_resources.html"}
+{: .toc subcollection="resources" audience="platform" arm="3816100" href="/docs/resources/acct_resources.html" path="resources"}
 Cómo trabajar con recursos y servicios
 
     {: .navgroup id="learn"}
@@ -14,17 +14,28 @@ Cómo trabajar con recursos y servicios
     {: .navgroup id="howto"}
     resourcegroups.md
     instance_migration.md
+    searching.md
+
+    {: .topicgroup}
+    Etiquetado de recursos
+        tagging_resources.md
+        grant-tag-access.md
 
     {: .topicgroup}
     Gestión de servicios
         connecting_apps.md
         service_credentials.md
+        connect_external_app.md
         service_in_other_regions.md
         s2s.md
+        using-services.md
     {: .navgroup-end}
-	
+
+    {: .navgroup id="reference"}
+    tagging_sample_syntax.md
+    {: .navgroup-end}
+
     {: .navgroup id="help"}
     faqs.md
     ts_services.md
-    ts_migration.md
     {: .navgroup-end}
