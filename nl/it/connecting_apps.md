@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-08-02"
+lastupdated: "2018-10-29"
 
 ---
 
@@ -11,9 +11,9 @@ lastupdated: "2018-08-02"
 # Gestione delle connessioni
 {: #connect_app}
 
-Puoi connettere un servizio a un'applicazione {{site.data.keyword.Bluemix}} nuova o esistente dalla scheda **Connessioni** del tuo dashboard del servizio. La connessione di un servizio a un'applicazione crea un bind tra di loro e tu puoi annullare il bind, aggiungere altre connessioni o eliminarle utilizzando la scheda **Connessioni**.
+Puoi connettere un servizio a un'applicazione {{site.data.keyword.Bluemix}} nuova o esistente dalla scheda **Connessioni** del tuo dashboard del servizio. La connessione di un servizio a un'applicazione crea un bind tra di loro. Puoi annullare il bind, aggiungere altre connessioni o eliminarle dalla scheda **Connessioni**.
 
-Tuttavia, quando connetti un'istanza del servizio gestito da {{site.data.keyword.Bluemix_notm}} IAM (Identity and Access Management) a un'applicazione, un alias del servizio gestito da IAM viene creato automaticamente nello spazio corrispondente con le informazioni di bind che hai specificato. Questo alias è rappresentato come un'istanza di servizio del tuo servizio gestito da IAM.
+Tuttavia, quando connetti un'istanza del servizio gestito da {{site.data.keyword.Bluemix_notm}} IAM (Identity and Access Management) a un'applicazione, un alias del servizio gestito da IAM viene creato automaticamente nello spazio corrispondente con le informazioni di bind che hai specificato. Questo alias è rappresentato come un'istanza del servizio del tuo servizio gestito da IAM.
 {:shortdesc}
 
 ## Cos'è un alias?
@@ -26,7 +26,7 @@ Gli alias sono come collegamenti simbolici che contengono riferimenti a risorse 
 Per gli alias si applicano le seguenti regole:
 
 * Non è previsto alcun costo aggiuntivo per un alias, ma ogni alias viene conteggiato nella quota della tua organizzazione.
-* Puoi creare un solo alias per ogni spazio nella console {{site.data.keyword.Bluemix_notm}}. Tuttavia, è possibile creare più di un alias per spazio utilizzando la CLI {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni, vedi [Comandi per gestire i gruppi di risorse e le risorse](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource).
+* Puoi creare un solo alias per ogni spazio nella console {{site.data.keyword.Bluemix_notm}}. Tuttavia, è possibile creare più di un alias per spazio utilizzando la CLI {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni, vedi [Gestione di risorse e gruppi di risorse](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource).
 * Se disponi dell'autorizzazione, puoi creare più connessioni tra il tuo servizio gestito da IAM e un'applicazione in qualsiasi spazio, organizzazione e regione nello stesso account.
 * Più connessioni eseguite nello stesso spazio a diverse applicazioni da un'istanza del servizio gestito da IAM utilizzano lo stesso alias.
 * L'annullamento del bind di un'istanza del servizio gestito da IAM *non* elimina l'istanza del servizio che rappresenta l'alias.
@@ -44,24 +44,24 @@ Per connettere la tua istanza del servizio gestito da IAM a un'applicazione:
 
 3. Fai clic su **Connetti esistente** e scegli la tua applicazione esistente. In alternativa, fai clic su **Crea connessione** per creare un'applicazione a cui connetterti.
 
-4. Specifica il **Ruolo di accesso per il collegamento**. Questo valore imposta il ruolo di accesso del servizio IAM. Per ulteriori informazioni, vedi [Accesso IAM](/docs/iam/users_roles.html#userroles).
+4. Specifica il **Ruolo di accesso per la connessione**. Questo valore imposta il ruolo di accesso del servizio IAM. Per ulteriori informazioni, vedi [Accesso IAM](/docs/iam/users_roles.html#userroles).
 
-5. Facoltativamente, puoi fornire un **ID del servizio per il collegamento ** consentendo a IAM di generare per te un valore univoco o fornendo un ID di servizio esistente. Per ulteriori informazioni, vedi [Creazione e gestione degli ID servizio](/docs/iam/serviceid.html#serviceids).
+5. Facoltativamente, puoi fornire un **ID del servizio per la connessione** consentendo a IAM di generare per te un valore univoco o fornendo un ID servizio esistente. Per ulteriori informazioni, vedi [Creazione e gestione degli ID servizio](/docs/iam/serviceid.html#serviceids).
 
 6. Fai clic su **Create**.
 
 ## Visualizzazione di un alias
 
-Dopo aver creato una connessione tra un servizio gestito da IAM e un'applicazione, l'alias viene visualizzato nella scheda **Connessioni** dell'applicazione connessa. Inoltre, l'alias viene visualizzato come istanza del servizio in esecuzione sul tuo dashboard e contiene una scheda **Connessioni** solo quando lo apri.
+Dopo aver creato una connessione tra un servizio gestito da IAM e un'applicazione, l'alias viene visualizzato nella scheda **Connessioni** dell'applicazione connessa. Inoltre, l'alias viene visualizzato come un'istanza del servizio in esecuzione sul tuo elenco risorse e contiene una scheda **Connessioni** solo quando lo apri.
 
-1. Vai al tuo dashboard.
+1. Vai all'elenco risorse.
 2. Dalla tabella **Servizi dell'applicazione**, fai clic sul nome dell'istanza del servizio per aprire la vista dei dettagli. Se contiene solo una scheda **Connessioni**, è un alias.
 
 ## Eliminazione di un alias
 
 Il modo più semplice per eliminare l'alias è eliminare l'istanza del servizio gestito da IAM. Tuttavia, puoi mantenere la tua istanza del servizio gestito da IAM ed eliminare direttamente l'alias.
 
-1. Vai al tuo dashboard.
+1. Vai all'elenco risorse.
 2. Dalla tabella **Servizi dell'applicazione**, fai clic sul nome dell'istanza del servizio per aprire la vista dei dettagli. Se contiene solo una scheda **Connessioni**, è un alias.
 3. Elimina l'istanza.
 

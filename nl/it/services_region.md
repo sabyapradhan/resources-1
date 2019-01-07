@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-23"
+lastupdated: "2018-11-30"
 
 ---
 {:new_window: target="_blank"}
@@ -17,9 +17,9 @@ lastupdated: "2018-11-23"
 sulla progettazione dell'applicazione.
 {:shortdesc}
 
-Non tutti i servizi sono disponibili per l'acquisto in ogni ubicazione {{site.data.keyword.Bluemix_notm}}. E, anche se il servizio è disponibile per l'acquisto in un'ubicazione, tale servizio potrebbe essere ospitato in un luogo differente. La seguente tabella mostra i servizi forniti da IBM. Per l'elenco completo di risorse disponibili, vedi il [catalogo](https://console.bluemix.net/catalog/){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") nella console {{site.data.keyword.Bluemix_notm}}. 
+Non tutti i servizi sono disponibili per l'acquisto in ogni ubicazione {{site.data.keyword.Bluemix_notm}}. E, anche se il servizio è disponibile per l'acquisto in un'ubicazione, tale servizio potrebbe essere ospitato in un luogo differente. La seguente tabella mostra i servizi forniti da IBM. Per l'elenco completo di risorse disponibili, vedi il [catalogo](https://cloud.ibm.com/catalog/){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") nella console {{site.data.keyword.Bluemix_notm}}. 
 
-I servizi ospitati a livello globale creano risorse che operano su più ubicazioni. Ad esempio, con {{site.data.keyword.cos_full_notm}}, puoi scegliere di diffondere i dati in un singolo [data center](/docs/overview/data-centers.html) o anche in una combinazione di ubicazioni [selezionando l'endpoint](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) in cui la tua applicazioni invia le richieste API REST.
+I servizi ospitati a livello globale creano risorse che operano su più ubicazioni. Ad esempio, con {{site.data.keyword.cos_full_notm}}, puoi scegliere di diffondere i dati in un singolo [data center](/docs/overview/zero_downtime.html#data_center) o anche in una combinazione di ubicazioni [selezionando l'endpoint](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) in cui la tua applicazioni invia le richieste API REST.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -35,7 +35,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Analytics Engine | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
 | Apache Spark | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | App Connect | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Diffuso da Dallas | Non disponibile | Non disponibile | 
-| ID App | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
+| ID App | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Ospitato a Tokyo | 
 | App Launch | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Auto-Scaling | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Non disponibile | 
 | Automated Accessibility Tester | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Diffuso da Londra | Non disponibile | Non disponibile | 
@@ -78,7 +78,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Globalization Pipeline | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Historical Instrument Analytics | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Hyper Protect Crypto Services | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
-| Hyper Protect DBaaS | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Hyper Protect DBaaS | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato a Washington DC | Non disponibile | 
 | IBM Cognos Dashboard Embedded | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | IBM Identity Mixer | Non disponibile | Ospitato a Londra | Non disponibile | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | IBM Managed Financial Data API | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
@@ -126,4 +126,4 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Weather Company Data | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | WebSphere Application Server | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Workload Scheduler | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
- {: caption="Tabella 1. Disponibilità dei servizi" caption-side="top"}
+{: caption="Tabella 1. Disponibilità dei servizi" caption-side="top"}
