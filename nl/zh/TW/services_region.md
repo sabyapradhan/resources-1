@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-23"
+lastupdated: "2018-11-30"
 
 ---
 {:new_window: target="_blank"}
@@ -16,9 +16,9 @@ lastupdated: "2018-11-23"
 {{site.data.keyword.Bluemix}} 讓您能輕鬆地實作、管理及擴充服務和應用程式。您可以將焦點放在應用程式邏輯和應用程式設計。
 {:shortdesc}
 
-並非每個 {{site.data.keyword.Bluemix_notm}} 位置都可購買到所有服務。而且，即使可在該位置購買到此服務，此服務也可能是在不同位置進行管理。下表顯示 IBM 所提供的服務。如需可用資源的完整清單，請參閱 {{site.data.keyword.Bluemix_notm}} 主控台中的[型錄](https://console.bluemix.net/catalog/){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。 
+並非每個 {{site.data.keyword.Bluemix_notm}} 位置都可購買到所有服務。而且，即使可在該位置購買到此服務，此服務也可能是在不同位置進行管理。下表顯示 IBM 所提供的服務。如需可用資源的完整清單，請參閱 {{site.data.keyword.Bluemix_notm}} 主控台中的[型錄](https://cloud.ibm.com/catalog/){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。 
 
-在全球管理的服務會建立跨越多個位置運作的資源。例如，使用 {{site.data.keyword.cos_full_notm}}，您可以選擇將資料分散在單一[資料中心](/docs/overview/data-centers.html)，或甚至是藉由[選取應用程式傳送 REST API 要求的端點](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)而分散在某個位置組合。
+在全球管理的服務會建立跨越多個位置運作的資源。例如，使用 {{site.data.keyword.cos_full_notm}}，您可以選擇將資料分散在單一[資料中心](/docs/overview/zero_downtime.html#data_center)，或甚至是藉由[選取應用程式傳送 REST API 要求的端點](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)而分散在某個位置組合。
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -34,7 +34,7 @@ lastupdated: "2018-11-23"
 |Analytics Engine |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |不適用 |在東京進行管理| 
 |Apache Spark|在達拉斯進行管理|在倫敦進行管理|不適用 |不適用 |不適用 |不適用 | 
 |App Connect|在達拉斯進行管理|在倫敦進行管理|不適用 |從達拉斯進行聯合發佈|不適用 |不適用 | 
-|App ID |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
+|App ID |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |在東京進行管理| 
 |App Launch |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Auto-Scaling|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 
 |Automated Accessibility Tester|在達拉斯進行管理|在倫敦進行管理|不適用 |從倫敦進行聯合發佈|不適用 |不適用 | 
@@ -77,7 +77,7 @@ lastupdated: "2018-11-23"
 |Globalization Pipeline|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Historical Instrument Analytics |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Hyper Protect Crypto Services |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
-|Hyper Protect DBaaS |在達拉斯進行管理|在倫敦進行管理|不適用 |不適用 |不適用 |不適用 | 
+|Hyper Protect DBaaS |不適用 |不適用 |不適用 |不適用 |在華盛頓特區進行管理|不適用 | 
 | IBM Cognos Dashboard Embedded |在達拉斯進行管理|在倫敦進行管理|不適用 |不適用 |不適用 |不適用 | 
 |IBM Identity Mixer |不適用 |在倫敦進行管理|不適用 |在雪梨進行管理|不適用 |不適用 | 
 | IBM Managed Financial Data API |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
@@ -125,4 +125,4 @@ lastupdated: "2018-11-23"
 |Weather Company Data|在達拉斯進行管理|在倫敦進行管理|不適用 |在雪梨進行管理|不適用 |不適用 | 
 |WebSphere Application Server |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Workload Scheduler |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
- {: caption="表 1. 服務可用性" caption-side="top"}
+{: caption="表 1. 服務可用性" caption-side="top"}

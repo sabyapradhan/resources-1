@@ -54,7 +54,7 @@ lastupdated: "2018-11-30"
 <dl>
 <dt>`name`</dt>
 <dd> 리소스의 사용자 정의 이름입니다.</dd>
-<dt>`지역(region)`</dt>
+<dt>`region`</dt>
 <dd>리소스가 프로비저닝된 지리적 위치입니다. 허용되는 값은 `us-south`, `us-east`, `au-syd`, `eu-gb`, `eu-de` 및 `jp-tok`입니다.</dd>
 <dt>`service_name`</dt>
 <dd>'ibmcloud catalog service-marketplace' 출력의 이름 열에 표시되는 서비스의 이름입니다.</dd>
@@ -88,7 +88,7 @@ lastupdated: "2018-11-30"
     `ibmcloud resource search 'name:my* AND type:cf-application'
 `
 
-* 메시지 허브의 모든 서비스 인스턴스를 검색하려면 다음 명령을 입력하십시오.
+* Message Hub의 모든 서비스 인스턴스를 검색하려면 다음 명령을 입력하십시오.
 
     `ibmcloud resource search 'service_name:messagehub'`
 
