@@ -85,8 +85,7 @@ Los ejemplos siguientes pueden ayudarle a buscar recursos de la cuenta.
 
 * Para buscar todas las aplicaciones de Cloud Foundry llamadas `MyResource`, especifique el mandato siguiente.
 
-    `ibmcloud resource search 'name:my* AND type:cf-application'
-`
+    `ibmcloud resource search 'name:my* AND type:cf-application'`
 
 * Para buscar todas las instancias de servicio de Message Hub, especifique el mandato siguiente.
 
