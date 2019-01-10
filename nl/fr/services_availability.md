@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-05-07"
+lastupdated: "2018-10-11"
 
 ---
 
@@ -25,12 +25,12 @@ Les services suivants ont été classés dans le niveau 1 :
   * {{site.data.keyword.messagehub}}
   * MongoDB by Compose
   * {{site.data.keyword.objectstorageshort}}
-  * PostgresSQL by Compose
+  * PostgreSQL by Compose
   * {{site.data.keyword.ssofull}}
 
-Pour en savoir plus sur les conditions d'utilisation des services, voir [Conditions d'utilisation d'{{site.data.keyword.Bluemix_notm}}](/docs/overview/terms-of-use/notices.html#terms).
+Pour en savoir plus sur les conditions d'utilisation des services, voir [Conditions et remarques s'appliquant à {{site.data.keyword.Bluemix_notm}}](/docs/overview/terms-of-use/notices.html#terms).
 
 ## Obsolescence de service
 {: #service_deprecation}
 
-IBM vous avisera au moins 30 jours à l'avance de son intention d'arrêter ou de remplacer un service disponible. Si un remplacement équivalent n'est pas fourni, pendant au moins 12 mois à compter de cette annonce, IBM utilisera tout moyen commercialement disponible pour assurer le fonctionnement et le support des instances du service déployées auparavant.
+IBM vous avisera au moins 30 jours à l'avance de son intention d'arrêter ou de remplacer un service disponible. Si aucun remplacement équivalent n'est fourni, pendant au moins 12 mois à compter de cette annonce, IBM utilisera tout moyen commercialement disponible pour assurer le fonctionnement et le support des instances du service déployées auparavant.

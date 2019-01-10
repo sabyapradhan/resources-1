@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-23"
+lastupdated: "2018-11-30"
 
 ---
 {:new_window: target="_blank"}
@@ -16,9 +16,9 @@ lastupdated: "2018-11-23"
 {{site.data.keyword.Bluemix}} simplifie l'implémentation, l'hébergement et la mise à l'échelle des services et des applications. Ainsi, vous pouvez vous consacrer à la logique et à la conception de l'application.
 {:shortdesc}
 
-Les services ne sont pas tous disponibles à l'achat sur tous les emplacements {{site.data.keyword.Bluemix_notm}}. De plus, même si le service y est disponible à l'achat, il se peut qu'il soit hébergé ailleurs. Le tableau ci-dessous répertorie les services qui sont fournis par IBM. Pour obtenir la liste complète des ressources disponibles, voir le [catalogue](https://console.bluemix.net/catalog/){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") dans la console {{site.data.keyword.Bluemix_notm}}. 
+Les services ne sont pas tous disponibles à l'achat sur tous les emplacements {{site.data.keyword.Bluemix_notm}}. De plus, même si le service y est disponible à l'achat, il se peut qu'il soit hébergé ailleurs. Le tableau ci-dessous répertorie les services qui sont fournis par IBM. Pour obtenir la liste complète des ressources disponibles, voir le [catalogue](https://cloud.ibm.com/catalog/){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") dans la console {{site.data.keyword.Bluemix_notm}}. 
 
-Les services avec hébergement global créent des ressources qui opèrent à travers plusieurs emplacements. Par exemple, avec {{site.data.keyword.cos_full_notm}}, vous pouvez opter de disséminer les données dans un seul [centre de données](/docs/overview/data-centers.html), ou même une combinaison d'emplacements en [sélectionnant le noeud final](https://console.bluemix.net/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) auquel votre application enverra les demandes d'API REST.
+Les services avec hébergement global créent des ressources qui opèrent à travers plusieurs emplacements. Par exemple, avec {{site.data.keyword.cos_full_notm}}, vous pouvez opter de disséminer les données dans un seul [centre de données](/docs/overview/zero_downtime.html#data_center), ou même une combinaison d'emplacements en [sélectionnant le noeud final](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) auquel votre application enverra les demandes d'API REST.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -34,7 +34,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Analytics Engine | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Hébergé à Tokyo | 
 | Apache Spark | Hébergé à Dallas | Hébergé à Londres | Indisponible | Indisponible | Indisponible | Indisponible | 
 | App Connect | Hébergé à Dallas | Hébergé à Londres | Indisponible | Syndiqué avec Dallas | Indisponible | Indisponible | 
-| App ID | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
+| App ID | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Hébergé à Tokyo | 
 | App Launch | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Auto-Scaling | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
 | Automated Accessibility Tester | Hébergé à Dallas | Hébergé à Londres | Indisponible | Syndiqué avec Londres | Indisponible | Indisponible | 
@@ -77,7 +77,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Globalization Pipeline | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
 | Historical Instrument Analytics | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Hyper Protect Crypto Services | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
-| Hyper Protect DBaaS | Hébergé à Dallas | Hébergé à Londres | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Hyper Protect DBaaS | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé à Washington DC | Indisponible | 
 | IBM Cognos Dashboard Embedded | Hébergé à Dallas | Hébergé à Londres | Indisponible | Indisponible | Indisponible | Indisponible | 
 | IBM Identity Mixer | Indisponible | Hébergé à Londres | Indisponible | Hébergé à Sydney | Indisponible | Indisponible | 
 | IBM Managed Financial Data API | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
@@ -125,4 +125,4 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Weather Company Data | Hébergé à Dallas | Hébergé à Londres | Indisponible | Hébergé à Sydney | Indisponible | Indisponible | 
 | WebSphere Application Server | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
 | Workload Scheduler | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
- {: caption="Tableau 1. Disponibilité des services" caption-side="top"}
+{: caption="Tableau 1. Disponibilité des services" caption-side="top"}
