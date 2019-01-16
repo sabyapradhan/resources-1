@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018
-lastupdated: "2018-11-15"
+lastupdated: "2018-01-09"
 
 ---
 
@@ -27,13 +27,13 @@ Também é possível localizar a lista de serviços ativados pelo IAM ao designa
 4. Usando o menu **Serviços**, selecione o serviço que você deseja designar. Para todos os serviços que ainda não suportam o uso do IAM, é possível continuar usando as organizações, os espaços e as funções do Cloud Foundry. 
 5. Clique em **Designar**.
 
-As organizações, os espaços e as funções do Cloud Foundry são claramente separados dos grupos de recursos e funções do IAM. Uma função do Cloud Foundry nunca pode conceder acesso a recursos dentro de um grupo de recursos.
+As organizações, os espaços e as funções do Cloud Foundry são claramente separados dos grupos de recursos e funções do IAM. Uma função do Cloud Foundry nunca pode conceder acesso a recursos dentro de um grupo de recursos. 
 {: note}
 
 
 ## Configurando seu grupos de recursos
 
-Todos os usuários obtêm um único grupo de recursos por padrão que pode ser renomeado. Se você tem uma conta faturável, é possível criar mais de um grupo de recursos para organizar seus recursos. Ao organizar recursos em grupos de recursos diferentes, é possível:
+Todos os usuários obtêm um único grupo de recursos por padrão que pode ser renomeado. Designe a função de editor ou de administrador a todos os serviços de gerenciamento de conta para criar grupos de recursos. Se você tem uma conta faturável, é possível criar mais de um grupo de recursos para organizar seus recursos. Ao organizar recursos em grupos de recursos diferentes, é possível:
 
 * Tornar a designação de acesso a um conjunto de recursos mais fácil usando um número mínimo de políticas 
 * Visualizar informações de uso do grupo de recursos para propósitos de faturamento 

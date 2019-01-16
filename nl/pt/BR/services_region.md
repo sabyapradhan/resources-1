@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-30"
+lastupdated: "2019-01-10"
 
 ---
 {:new_window: target="_blank"}
@@ -16,7 +16,7 @@ lastupdated: "2018-11-30"
 O {{site.data.keyword.Bluemix}} facilita a implementação, a hospedagem e os serviços de escala e apps. O foco pode ser a lógica e o design do aplicativo.
 {:shortdesc}
 
-Nem todos os serviços estão disponíveis para compra em todas as localizações do {{site.data.keyword.Bluemix_notm}}. E, mesmo se o serviço estiver disponível para compra nessa localização, ele poderá estar hospedado em uma localização diferente. A tabela a seguir mostra os serviços que são fornecidos pela IBM. Para obter a lista completa de recursos que estão disponíveis, consulte o [catálogo](https://cloud.ibm.com/catalog/){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") no console do {{site.data.keyword.Bluemix_notm}}. 
+Nem todos os serviços estão disponíveis para compra em todas as localizações do {{site.data.keyword.Bluemix_notm}}. E, mesmo se o serviço estiver disponível para compra nessa localização, ele poderá estar hospedado em uma localização diferente. A tabela a seguir mostra os serviços que são fornecidos pela IBM. Para obter a lista completa de recursos que estão disponíveis, consulte o [catálogo](https://cloud.ibm.com/catalog){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") no console do {{site.data.keyword.Bluemix_notm}}. 
 
 Os serviços hospedados globalmente criam os recursos que operam em múltiplas localizações. Por exemplo,
 com o {{site.data.keyword.cos_full_notm}}, é possível optar por dispersar os dados em um único
@@ -45,11 +45,11 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 | Availability Monitoring | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | BigInsights for Apache Hadoop (assinatura) | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Blockchain | Hospedado em Dallas | Organizado em Dallas | Organizado em Dallas | Organizado em Dallas | Não está disponível | Não está disponível | 
-| Certificate Manager | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
-| Cloud Foundry Enterprise Environment | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Certificate Manager | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
+| Cloud Foundry Enterprise Environment | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Cloud Object Storage | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | 
 | Cloudant | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
-| Compare Comply | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Compare Comply | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
 | Compose Enterprise | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Compose for Elasticsearch | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Compose for JanusGraph | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
@@ -65,6 +65,8 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 | Continuous Delivery | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Cost and Asset Management | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Data Store for Memcache | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Databases for Elasticsearch | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
+| Databases for Etcd | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
 | Databases for PostgreSQL | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
 | Databases for Redis | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
 | DB2 | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
@@ -73,7 +75,7 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 | Decision Optimization | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | DevOps Insights | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
 | Digital Content Checker | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Organizado em Londres | Não está disponível | Não está disponível | 
-| Discovery | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Discovery | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Event Management | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Event Streams | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Functions | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
@@ -82,7 +84,7 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 | Historical Instrument Analytics | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Hyper Protect Crypto Services | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Hyper Protect DBaaS | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado em Washington, D.C. | Não está disponível | 
-| IBM Cognos Dashboard Integrado | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| IBM Cognos Dashboard Embedded | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | IBM Identity Mixer | Não está disponível | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | IBM Managed Financial Data API | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | IBM Simulated Instruments Analytics API | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
@@ -94,37 +96,38 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 | Investment Portfolio | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Key Protect | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Knowledge Catalog | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
-| Knowledge Studio | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
-| Language Translator | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Knowledge Studio | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Language Translator | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Lift CLI | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Log Analysis | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
-| MQ | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| MQ | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Machine Learning | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
 | Master Data Management | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
+| Messages for RabbitMQ | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
 | Mobile Foundation | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Monitoring | Hospedado em Dallas | Hospedado em Londres | Organizado em Dallas | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Natural Language Classifier | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Não está disponível | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
-| Natural Language Understanding | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Natural Language Understanding | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Object Storage OpenStack Swift | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
-| Personality Insights | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Personality Insights | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Portfolio Optimization | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Predictive Market Scenarios | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Push Notifications | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Real-Time Payments | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | SQL Query | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Secure Gateway | Hospedado em Dallas | Hospedado em Londres | Organizado em Dallas | Organizado em Dallas | Hospedado em Washington, D.C. | Não está disponível | 
-| Security Advisor | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Security Advisor | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Simulated Historical Instrument Analytics | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Simulated Instrument Analytics | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
-| Speech to Text | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Speech to Text | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Streaming Analytics | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
-| Text to Speech | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
-| Tone Analyzer | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Text to Speech | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Tone Analyzer | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Toolchain | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | VMware Solutions | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | 
 | Visual Recognition | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Voice Agent with Watson | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Hospedado em Washington, D.C. | Não está disponível | 
-| Watson Assistant (anteriormente Conversation) | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Watson Assistant (anteriormente Conversation) | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Watson Studio | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
 | Weather Company Data | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | WebSphere Application Server | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
