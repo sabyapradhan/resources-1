@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2019-01-18"
+lastupdated: "2019-01-21"
 
 ---
 {:new_window: target="_blank"}
@@ -123,7 +123,7 @@ Services that are hosted globally create resources that operate across multiple 
 | VMware Solutions | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
 | Visual Recognition | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Voice Agent with Watson | Hosted in Dallas | Not available | Not available | Not available | Hosted in Washington DC | Not available | 
-| Watson Assistant (formerly Conversation) | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
+| Watson Assistant | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Watson Studio | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
 | Weather Company Data | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
 | WebSphere Application Server | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
