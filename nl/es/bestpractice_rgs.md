@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018
-lastupdated: "2018-11-15"
+lastupdated: "2018-01-09"
 
 ---
 
@@ -33,7 +33,7 @@ Las organizaciones, los espacios y los roles de Cloud Foundry están claramente 
 
 ## Configuración de los grupos de recursos
 
-Todos los usuarios obtienen un único grupo de recursos de forma predeterminada que se puede renombrar. Si tiene una cuenta facturable, puede crear más de un grupo de recursos para organizar los recursos. Al organizar recursos en distintos grupos de recursos, puede:
+Todos los usuarios obtienen un único grupo de recursos de forma predeterminada que se puede renombrar. Asigne el rol de editor o de administrador a todos los servicios de gestión de la cuenta para crear grupos de recursos. Si tiene una cuenta facturable, puede crear más de un grupo de recursos para organizar los recursos. Al organizar recursos en distintos grupos de recursos, puede:
 
 * Hacer la asignación de acceso a un conjunto de recursos más sencilla utilizando un número mínimo de políticas 
 * Ver por información de uso de grupo de recursos para fines de facturación 
