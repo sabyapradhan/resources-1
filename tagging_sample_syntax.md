@@ -15,7 +15,7 @@ lastupdated: "2018-11-12"
 # Sample tags and syntax
 {: #sample-and-syntax}
 
-You can use tags to help you organize and manage your resources. Consider writing tags like `key:value` pairs to help organize your development environments, projects, compliance, and optimization throughout your organization. This does not change the tag's underlying `key`, which will remain "name". 
+You can use tags to help you organize and manage your resources. Consider writing tags like `key:value` pairs to help organize your development environments, projects, compliance, and optimization throughout your organization.
 
 | Type | Examples | Purpose |
 |------|----------|---------|
