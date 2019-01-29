@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2018
-lastupdated: "2018-11-27"
+  years: 2018,2019
+lastupdated: "2019-01-29"
 
 ---
 
@@ -23,7 +23,7 @@ To see a full list of tags in your account, go to **Manage > Account**, and sele
 ## Tagging rules and limitations
 {: #limits}
 
-The maximum size of a tag is 128 characters. Tags are case-insensitive and the permitted characters are A-Z, 0-9, white space, underscore, hyphen, period, and a single colon. Colons are treated uniquely to work *like* a `key:value` pair but the key will always remain as "name" in the underlying object. The `value` will be the provided string with the colon. A comma separates tags, so commas can't be used within the tag name itself.
+The maximum size of a tag is 128 characters. The permitted characters are A-Z, 0-9, white space, underscore, hyphen, period, and colon, and tags  are case-insensitive. Colons turn the tag into a string where you can isolate two logical parts, like a `key:value` pair. You can't use a colon in a tag without creating this pairing. A comma separates tags and can't be used within the tag name itself.
 
 
 ## Adding and removing tags on a resource
