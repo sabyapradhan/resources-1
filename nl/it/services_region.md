@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2018-11-30"
+lastupdated: "2019-01-10"
 
 ---
 {:new_window: target="_blank"}
@@ -17,7 +17,7 @@ lastupdated: "2018-11-30"
 sulla progettazione dell'applicazione.
 {:shortdesc}
 
-Non tutti i servizi sono disponibili per l'acquisto in ogni ubicazione {{site.data.keyword.Bluemix_notm}}. E, anche se il servizio è disponibile per l'acquisto in un'ubicazione, tale servizio potrebbe essere ospitato in un luogo differente. La seguente tabella mostra i servizi forniti da IBM. Per l'elenco completo di risorse disponibili, vedi il [catalogo](https://cloud.ibm.com/catalog/){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") nella console {{site.data.keyword.Bluemix_notm}}. 
+Non tutti i servizi sono disponibili per l'acquisto in ogni ubicazione {{site.data.keyword.Bluemix_notm}}. E, anche se il servizio è disponibile per l'acquisto in un'ubicazione, tale servizio potrebbe essere ospitato in un luogo differente. La seguente tabella mostra i servizi forniti da IBM. Per l'elenco completo di risorse disponibili, vedi il [catalogo](https://cloud.ibm.com/catalog){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") nella console {{site.data.keyword.Bluemix_notm}}. 
 
 I servizi ospitati a livello globale creano risorse che operano su più ubicazioni. Ad esempio, con {{site.data.keyword.cos_full_notm}}, puoi scegliere di diffondere i dati in un singolo [data center](/docs/overview/zero_downtime.html#data_center) o anche in una combinazione di ubicazioni [selezionando l'endpoint](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) in cui la tua applicazioni invia le richieste API REST.
 
@@ -42,11 +42,11 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Availability Monitoring | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | BigInsights for Apache Hadoop (sottoscrizione) | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Blockchain | Ospitato a Dallas | Diffuso da Dallas | Diffuso da Dallas | Diffuso da Dallas | Non disponibile | Non disponibile | 
-| Gestore certificato | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
-| Ambiente Cloud Foundry Enterprise | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
+| Gestore certificato | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Non disponibile | 
+| Ambiente Cloud Foundry Enterprise | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Non disponibile | 
 | Cloud Object Storage | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | 
 | Cloudant | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
-| Compare Comply | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Compare Comply | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Non disponibile | Non disponibile | 
 | Compose Enterprise | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Non disponibile | 
 | Compose for Elasticsearch | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Non disponibile | 
 | Compose for JanusGraph | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Non disponibile | 
@@ -62,6 +62,8 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Fornitura continua | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Cost and Asset Management | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Data Store for Memcache | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Databases for Elasticsearch | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
+| Databases for Etcd | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
 | Databases for PostgreSQL | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
 | Databases for Redis | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
 | Db2 | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
@@ -70,7 +72,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Decision Optimization | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | DevOps Insights | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Non disponibile | 
 | Digital Content Checker | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Diffuso da Londra | Non disponibile | Non disponibile | 
-| Discovery | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
+| Discovery | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Event Management | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Event Streams | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Functions | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Ospitato a Washington DC | Ospitato a Tokyo | 
@@ -91,37 +93,38 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Investment Portfolio | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Key Protect | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Knowledge Catalog | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
-| Knowledge Studio | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
-| Language Translator | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
+| Knowledge Studio | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
+| Language Translator | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | CLI Lift | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Analisi log | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
-| MQ | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| MQ | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Machine Learning | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
 | Master Data Management | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
+| Messages for RabbitMQ | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
 | Mobile Foundation | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Non disponibile | 
 | Monitoraggio | Ospitato a Dallas | Ospitato a Londra | Diffuso da Dallas | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Natural Language Classifier | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Ospitato a Washington DC | Ospitato a Tokyo | 
-| Natural Language Understanding | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
+| Natural Language Understanding | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Object Storage OpenStack Swift | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
-| Personality Insights | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
+| Personality Insights | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Portfolio Optimization | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Predictive Market Scenarios | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Push Notifications | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Non disponibile | 
 | Real-Time Payments | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Query SQL | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Secure Gateway | Ospitato a Dallas | Ospitato a Londra | Diffuso da Dallas | Diffuso da Dallas | Ospitato a Washington DC | Non disponibile | 
-| Security Advisor | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
+| Security Advisor | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Simulated Historical Instrument Analytics | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Simulated Instrument Analytics | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
-| Speech to Text | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
+| Speech to Text | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Streaming Analytics | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Non disponibile | 
-| Text to Speech | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
-| Tone Analyzer | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
+| Text to Speech | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
+| Tone Analyzer | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Toolchain | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Soluzioni VMware | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | 
 | Visual Recognition | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Voice Agent with Watson | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Ospitato a Washington DC | Non disponibile | 
-| Watson Assistant (precedentemente Conversation) | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
+| Watson Assistant (precedentemente Conversation) | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Watson Studio | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
 | Weather Company Data | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | WebSphere Application Server | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 

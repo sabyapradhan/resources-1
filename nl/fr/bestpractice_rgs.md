@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018
-lastupdated: "2018-11-15"
+lastupdated: "2018-01-09"
 
 ---
 
@@ -27,13 +27,13 @@ Vous pouvez également trouver la liste des services activés par IAM lorsque vo
 4. Dans le menu **Services**, sélectionnez le service à affecter. Pour tous les services ne disposant de prise en charge via l'utilisation d'IAM, vous pouvez continuer à utiliser les rôles, les espaces et les organisations Cloud Foundry. 
 5. Cliquez sur **Affecter**.
 
-Les rôles, les espaces et les organisations Cloud Foundry sont séparés des groupes de ressources et des rôles IAM. Un rôle Cloud Foundry ne peut jamais accorder l'accès aux ressources d'un groupe de ressources.
+Les rôles, les espaces et les organisations Cloud Foundry sont séparés des groupes de ressources et des rôles IAM. Un rôle Cloud Foundry ne peut jamais accorder l'accès aux ressources d'un groupe de ressources. 
 {: note}
 
 
 ## Configuration de vos groupes de ressources
 
-Tous les utilisateurs disposent d'un groupe de ressources unique par défaut pouvant être renommé. Si vous avez un compte facturable, vous pouvez créer plusieurs groupes afin d'organiser vos ressources. Ainsi, vous pouvez :
+Tous les utilisateurs disposent d'un groupe de ressources unique par défaut pouvant être renommé. Affectez le rôle Editeur ou Administrateur à tous les services de compte pour créer des groupes de ressources. Si vous avez un compte facturable, vous pouvez créer plusieurs groupes afin d'organiser vos ressources. Ainsi, vous pouvez :
 
 * Affecter l'accès à un ensemble de ressources en utilisant un nombre minimal de règles 
 * Afficher par informations d'utilisation de groupe de ressources à des fins de facturation 

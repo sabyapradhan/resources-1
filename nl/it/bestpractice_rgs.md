@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018
-lastupdated: "2018-11-15"
+lastupdated: "2018-01-09"
 
 ---
 
@@ -27,20 +27,20 @@ Puoi anche trovare un elenco di servizi abilitati a IAM quando assegni l'accesso
 4. Utilizzando il menu **Servizi**, seleziona il servizio che vuoi assegnare. Per tutti i servizi che ancora non supportano l'utilizzo di IAM, puoi continuare ad utilizzare i ruoli, gli spazi e le organizzazioni Cloud Foundry. 
 5. Fai clic su **Assegna**.
 
-I ruoli, gli spazi e le organizzazioni Cloud Foundry sono chiaramente separati dai gruppi di risorse e dai ruoli IAM. Un ruolo Cloud Foundry non può mai concedere l'accesso alle risorse all'interno di un gruppo di risorse.
+I ruoli, gli spazi e le organizzazioni Cloud Foundry sono chiaramente separati dai gruppi di risorse e dai ruoli IAM. Un ruolo Cloud Foundry non può mai concedere l'accesso alle risorse all'interno di un gruppo di risorse. 
 {: note}
 
 
 ## Configurazione dei tuoi gruppi di risorse
 
-Tutti gli utenti ottengono un solo gruppo di risorse per impostazione predefinita che può essere ridenominato. Se hai un account fatturabile, puoi creare più di un gruppo di risorse per organizzare le tue risorse. Organizzando le risorse in gruppi di risorse differenti, puoi:
+Tutti gli utenti ottengono un solo gruppo di risorse per impostazione predefinita che può essere ridenominato. Assegna il ruolo di editor o amministratore a tutti i servizi di gestione account per creare i gruppi di risorse. Se hai un account fatturabile, puoi creare più di un gruppo di risorse per organizzare le tue risorse. Organizzando le risorse in gruppi di risorse differenti, puoi:
 
 * Assegnare l'accesso a una serie di risorse più facilmente utilizzando un numero minimo di politiche 
 * Visualizzare le informazioni di utilizzo per il gruppo di risorse per scopi di fatturazione 
 
 Per creare un nuovo gruppo di risorse, effettua le seguenti operazioni:
 
-1. Vai a **Gestisci** > **Account**.  
+1. Vai a **Gestisci** > **Account**. 
 2. Espandi **Risorse account** e seleziona **Gruppi di risorse**. 
 3. Fai clic su **Crea un gruppo di risorse**.
 4. Immetti un nome per il tuo gruppo di risorse.
@@ -49,7 +49,7 @@ Per creare un nuovo gruppo di risorse, effettua le seguenti operazioni:
 
 ## Aggiunta di risorse a un gruppo di risorse
 
-I servizi abilitati utilizzando il controllo dell'accesso IAM appartengono a un gruppo di risorse invece che a un'organizzazione o uno spazio Cloud Foundry. Quando crei un'istanza del servizio per uno di questi servizi dal catalogo, ti viene richiesto di assegnare l'istanza ad un gruppo di risorse.  
+I servizi abilitati utilizzando il controllo dell'accesso IAM appartengono a un gruppo di risorse invece che a un'organizzazione o uno spazio Cloud Foundry. Quando crei un'istanza del servizio per uno di questi servizi dal catalogo, ti viene richiesto di assegnare l'istanza ad un gruppo di risorse. 
 
 **Importante**: la tua selezione del gruppo di risorse al momento della creazione dell'istanza è finale e non può essere modificata.
 
