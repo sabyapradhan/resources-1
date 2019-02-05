@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-10-11"
+  years: 2015, 2019
+lastupdated: "2019-02-05"
 
 ---
 
@@ -26,7 +26,7 @@ The following services are classified as Tier 1:
   * MongoDB by Compose
   * {{site.data.keyword.objectstorageshort}}
   * PostgreSQL by Compose
-  * {{site.data.keyword.ssofull}}
+  * {{site.data.keyword.appid_short}}
 
 To read more about terms of use for services, see [{{site.data.keyword.Bluemix_notm}} Terms and Notices](/docs/overview/terms-of-use/notices.html#terms).
 
