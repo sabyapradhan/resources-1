@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-30"
+  years: 2015, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-11-30"
 Si tiene una instancia de servicio creada y enlazada a apps en una región, puede utilizar eta instancia de servicio en otra región mediante uno de los métodos siguientes:
 {: shortdesc}
 
-  * Utilice las credenciales del servicio para configurar directamente su instancia de app. Consulte [Conexión de servicios a apps externas](/docs/resources/connect_external_app.html#externalapp) para ver más detalles.
+  * Utilice las credenciales del servicio para configurar directamente su instancia de app. Consulte [Conexión de servicios a apps externas](/docs/resources?topic=externalapp) para ver más detalles.
   * Crear un servicio proporcionado por el usuario como un puente.
 
 	Para utilizar una instancia de servicio existente en otra región, siga estos pasos:
@@ -28,7 +28,7 @@ Si tiene una instancia de servicio creada y enlazada a apps en una región, pued
 
       3. Vaya a la región en la que desea utilizar la instancia de servicio. Pulse el **icono Menú ![Icono Menú](../icons/icon_hamburger.svg)** > **Lista de recursos**. Luego expanda el menú **UBICACIÓN** y seleccione la región donde desea utilizar la instancia de servicio.
 
-      4. Cree una instancia de servicio suministrada por el usuario utilizando las credenciales y los parámetros de conexión que ha registrado de la variable de entorno *VCAP_SERVICES*. Para obtener información, consulte [Creación de una instancia de servicio proporcionada por el usuario](/docs/apps/reqnsi.html#user_provide_services).
+      4. Cree una instancia de servicio suministrada por el usuario utilizando las credenciales y los parámetros de conexión que ha registrado de la variable de entorno *VCAP_SERVICES*. 
 
       5. Enlace la instancia de servicio proporcionada por el usuario a la app con el siguiente mandato:
 
