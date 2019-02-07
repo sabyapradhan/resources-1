@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-15"
+lastupdated: "2019-02-07"
 
 ---
 
@@ -40,7 +40,11 @@ When you have Cloud Foundry services that can be migrated to a resource group, y
 {: #create-add-resource}
 {: faq}
 
-Most likely you're dealing with an access issue. You must have at least the Viewer role on the resource group itself and at least the Editor role on the service in the account. You can contact the account administrator to verify your assigned access in the account. 
+Most likely you're dealing with an access issue. You must have at least the Viewer role on the resource group itself and at least the Editor role on the service in the account. Learn more in [Adding resources to a resource group](/docs/resources/resourcegroups.html#adding-resources-to-a-resource-group).
+
+For more information about how to check your assigned access, see [Reviewing your assigned access](/docs/iam/mngiam.html#reviewing-your-assigned-access).
+
+If you need additional access in the account, contact the account owner that is listed on the [Users](https://{DomainName}/iam#/users) page. 
 
 ## Who can create resource groups?
 {: #create-resource}
