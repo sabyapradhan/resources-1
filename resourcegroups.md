@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2017, 2018
-lastupdated: "2018-11-15"
+  years: 2017, 2019
+lastupdated: "2019-02-07"
 
 
 ---
@@ -42,6 +42,11 @@ Connections between a resource group and a Cloud Foundry org or space are restri
 ## Adding resources to a resource group
 
 Services that are managed with IAM belong to a resource group instead of Cloud Foundry org or space. When you create a service instance for one of these services from the catalog, you're prompted to assign the instance to a resource group. Your resource group selection at the time of creating the instance is final and can't be changed.
+
+For users in your account to be able to create resources from the catalog and assign them to a resource group, they must be assigned two access policies:
+
+* A policy with viewer role or higher on the resources group itself
+* A policy with editor role or higher on the service in the account
 
 ## Viewing resources within resource groups
 
