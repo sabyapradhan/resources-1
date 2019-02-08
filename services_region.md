@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2019-02-07"
+lastupdated: "2019-02-08"
 
 ---
 {:new_window: target="_blank"}
@@ -27,7 +27,6 @@ Services that are hosted globally create resources that operate across multiple 
 
 | Service | Dallas | London | Frankfurt | Sydney | Washington DC | Tokyo |
 |-----|-----|-----|-----|-----|-----|
-| AI OpenScale | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | API Connect | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Activity Tracker | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | Alert Notification | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
@@ -124,6 +123,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Visual Recognition | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Voice Agent with Watson | Hosted in Dallas | Not available | Not available | Not available | Hosted in Washington DC | Not available | 
 | Watson Assistant | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
+| Watson OpenScale | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Watson Studio | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
 | Weather Company Data | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
 | WebSphere Application Server | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
