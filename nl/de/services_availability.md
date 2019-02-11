@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-05-07"
+  years: 2015, 2019
+lastupdated: "2019-02-05"
 
 ---
 
@@ -13,7 +13,7 @@ lastupdated: "2018-05-07"
 # Fortgesetzte Verfügbarkeit für Services
 {: #services_availability}
 
-{{site.data.keyword.Bluemix_notm}} hat eine Gruppe von Services als Tier 1 ermittelt. IBM wird keine Tier 1-Service entfernen, ohne ein Funktionsäquivalent zur Verfügung zu stellen oder wenigstens fünf Jahre vorher die Rücknahme des Service bekannt zu machen.
+{{site.data.keyword.Bluemix_notm}} hat eine Gruppe von Services als Tier 1 ermittelt. IBM entfernt keine Tier 1-Service, ohne ein Funktionsäquivalent zur Verfügung zu stellen oder die Rücknahme des Service mindestens fünf Jahre zuvor anzukündigen.
 
 Die folgenden Services sind als Tier 1 klassifiziert:
   * {{site.data.keyword.apiconnect_short}}
@@ -25,10 +25,10 @@ Die folgenden Services sind als Tier 1 klassifiziert:
   * {{site.data.keyword.messagehub}}
   * MongoDB by Compose
   * {{site.data.keyword.objectstorageshort}}
-  * PostgresSQL by Compose
-  * {{site.data.keyword.ssofull}}
+  * PostgreSQL by Compose
+  * {{site.data.keyword.appid_short}}
 
-Weitere Informationen zu Nutzungsbedingungen für Services finden Sie unter [{{site.data.keyword.Bluemix_notm}}-Nutzungsbedingungen](/docs/overview/terms-of-use/notices.html#terms).
+Weitere Informationen zu Nutzungsbedingungen für Services finden Sie unter [{{site.data.keyword.Bluemix_notm}} - Nutzungsbedingungen und Bemerkungen](/docs/overview/terms-of-use/notices.html#terms).
 
 ## Serviceeinstellung
 {: #service_deprecation}

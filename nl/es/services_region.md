@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2019-01-31"
+lastupdated: "2019-02-06"
 
 ---
 {:new_window: target="_blank"}
@@ -62,9 +62,9 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Cost and Asset Management | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Data Store for Memcache | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Databases for Elasticsearch | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
-| Databases for Etcd | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Databases for PostgreSQL | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Databases for Redis | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
+| Databases for etcd | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Db2 | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Db2 Hosted | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Db2 Warehouse | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 

@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-10-11"
+  years: 2015, 2019
+lastupdated: "2019-02-05"
 
 ---
 
@@ -26,7 +26,7 @@ Los siguientes servicios se clasifican como Nivel 1:
   * MongoDB by Compose
   * {{site.data.keyword.objectstorageshort}}
   * PostgreSQL by Compose
-  * {{site.data.keyword.ssofull}}
+  * {{site.data.keyword.appid_short}}
 
 Para leer más sobre los términos de uso para servicios, consulte los [Avisos y condiciones de {{site.data.keyword.Bluemix_notm}}](/docs/overview/terms-of-use/notices.html#terms).
 
