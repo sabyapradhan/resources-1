@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-30"
+  years: 2015, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-11-30"
 Si une instance de service est créée et liée à des applications dans une région, vous pouvez l'utiliser dans une autre région de l'une des façons suivantes :
 {: shortdesc}
 
-  * Utilisez les données d'identification du service pour configurer votre instance d'application directement. Pour plus de détails, voir [Connexion de services à des applications externes](/docs/resources/connect_external_app.html#externalapp).
+  * Utilisez les données d'identification du service pour configurer votre instance d'application directement. Pour plus de détails, voir [Connexion de services à des applications externes](/docs/resources?topic=externalapp).
   * Créez un service fourni par l'utilisateur comme pont.
 
 	Pour utiliser une instance de service qui existe dans une autre région, procédez comme suit :
@@ -28,7 +28,7 @@ Si une instance de service est créée et liée à des applications dans une ré
 
       3. Accédez à la région dans laquelle vous voulez utiliser l'instance de service. Cliquez sur l'icône **Menu ![Icône Menu](../icons/icon_hamburger.svg)** > **Liste de ressources**. Développez ensuite le menu **EMPLACEMENT** et sélectionnez la région dans laquelle utiliser l'instance de service.
 
-      4. Créez une instance de service fournie par l'utilisateur en utilisant les données d'identification et les paramètres de connexion que vous avez enregistrés depuis la variable d'environnement *VCAP_SERVICES*. Pour plus d'informations, voir [Création d'une instance de service fournie par l'utilisateur](/docs/apps/reqnsi.html#user_provide_services).
+      4. Créez une instance de service fournie par l'utilisateur en utilisant les données d'identification et les paramètres de connexion que vous avez enregistrés depuis la variable d'environnement *VCAP_SERVICES*. 
 
       5. Liez l'instance de service fournie par l'utilisateur à votre application avec la commande suivante :
 

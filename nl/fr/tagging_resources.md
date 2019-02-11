@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2018
-lastupdated: "2018-11-27"
+  years: 2018,2019
+lastupdated: "2019-01-29"
 
 ---
 
@@ -23,7 +23,7 @@ Pour voir une liste complète des étiquettes de votre compte, accédez à **Gé
 ## Limitations et règles d'étiquetage
 {: #limits}
 
-La taille maximale d'une étiquette est de 128 caractères. Les caractères autorisés sont les suivants : A-Z, 0-9, espace, trait de soulignement, tiret, point et virgule. De plus, il n'est pas nécessaire de respecter l'utilisation des minuscules/majuscules pour les étiquettes. L'utilisation du signe deux points permet de créer une paire `clé:valeur` à partir de l'étiquette. Vous ne pouvez pas utiliser le signe deux points dans une étiquette sans créer de paire `clé:valeur`. Une virgule sépare les étiquettes. Il n'est donc pas possible d'utiliser de virgule dans le nom de l'étiquette lui-même.
+La taille maximale d'une étiquette est de 128 caractères. Les caractères autorisés sont les suivants : A-Z, 0-9, espace, trait de soulignement, tiret, point et virgule. De plus, il n'est pas nécessaire de respecter l'utilisation des minuscules/majuscules pour les étiquettes. L'utilisation du signe deux points permet de créer à partir de l'étiquette une chaîne dans laquelle vous pouvez isoler deux parties logiques, comme `clé:valeur`. Vous ne pouvez pas utiliser le signe deux points dans une étiquette sans créer de paire. Une virgule sépare les étiquettes et ne peut pas être utilisée dans le nom de l'étiquette lui-même.
 
 
 ## Ajout et retrait d'étiquettes sur une ressource
