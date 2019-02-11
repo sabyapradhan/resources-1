@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2019-01-10"
+lastupdated: "2019-01-23"
 
 ---
 {:new_window: target="_blank"}
@@ -62,10 +62,10 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Fornitura continua | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Cost and Asset Management | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Data Store for Memcache | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
-| Databases for Elasticsearch | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
-| Databases for Etcd | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
-| Databases for PostgreSQL | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
-| Databases for Redis | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
+| Databases for Elasticsearch | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Ospitato a Tokyo | 
+| Databases for Etcd | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Ospitato a Tokyo | 
+| Databases for PostgreSQL | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Ospitato a Tokyo | 
+| Databases for Redis | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Ospitato a Tokyo | 
 | Db2 | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Ospitato Db2 | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Warehouse Db2 | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
@@ -100,7 +100,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | MQ | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Machine Learning | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
 | Master Data Management | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
-| Messages for RabbitMQ | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
+| Messages for RabbitMQ | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Ospitato a Tokyo | 
 | Mobile Foundation | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Non disponibile | 
 | Monitoraggio | Ospitato a Dallas | Ospitato a Londra | Diffuso da Dallas | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Natural Language Classifier | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Ospitato a Washington DC | Ospitato a Tokyo | 
@@ -124,7 +124,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Soluzioni VMware | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | 
 | Visual Recognition | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Voice Agent with Watson | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Ospitato a Washington DC | Non disponibile | 
-| Watson Assistant (precedentemente Conversation) | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
+| Watson Assistant | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Watson Studio | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
 | Weather Company Data | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | WebSphere Application Server | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 

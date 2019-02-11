@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-30"
+  years: 2015, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-11-30"
 Se você tiver uma instância de serviço criada e ligada a apps em uma região, será possível usar essa instância de serviço em uma outra região com um dos métodos a seguir:
 {: shortdesc}
 
-  * Use as credenciais de serviço para configurar sua instância do app diretamente. Consulte [Conectando serviços a apps externos](/docs/resources/connect_external_app.html#externalapp) para obter detalhes.
+  * Use as credenciais de serviço para configurar sua instância do app diretamente. Consulte [Conectando serviços a apps externos](/docs/resources?topic=externalapp) para obter detalhes.
   * Crie um serviço fornecido pelo usuário como uma ponte.
 
 	Para usar uma instância de serviço existente
@@ -34,7 +34,7 @@ serviço. Clique no **Ícone Menu ![Ícone Menu](../icons/icon_hamburger.svg) **
 
       4. Crie uma instância de serviço fornecida pelo usuário usando as credenciais
 e os parâmetros de conexão que você registrou a partir da variável de ambiente
-*VCAP_SERVICES*. Para obter informações, veja [Criando uma instância de serviço fornecida pelo usuário](/docs/apps/reqnsi.html#user_provide_services).
+*VCAP_SERVICES*. 
 
       5. Ligue a instância de serviço fornecida pelo usuário ao seu app
 usando o comando a seguir:

@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2018
-lastupdated: "2018-11-27"
+  years: 2018,2019
+lastupdated: "2019-01-29"
 
 ---
 
@@ -23,7 +23,7 @@ Para ver uma lista completa de tags em sua conta, acesse **Gerenciar > Conta** e
 ## Regras e limitações de tag
 {: #limits}
 
-O tamanho máximo de uma tag é 128 caracteres. Os caracteres permitidos são A-Z, 0-9, espaço em branco, sublinhado, hífen, ponto e dois pontos, e as tags não fazem distinção entre maiúsculas e minúsculas. Os dois pontos transformam a tag em um par `key:value`. Não é possível usar dois pontos em uma tag sem criar um par `key:value`. Uma vírgula separa as tags, portanto, as vírgulas não podem ser usadas dentro do próprio nome da tag.
+O tamanho máximo de uma tag é 128 caracteres. Os caracteres permitidos são A-Z, 0-9, espaço em branco, sublinhado, hífen, ponto e dois pontos, e as tags não fazem distinção entre maiúsculas e minúsculas. Os dois pontos transformam a tag em uma sequência em que é possível isolar duas partes lógicas, como um par `key:value`. Não é possível usar dois pontos em uma tag sem criar esse pareamento. Uma vírgula separa as tags e não pode ser usada dentro do próprio nome da tag.
 
 
 ## Incluindo e removendo tags em um recurso
@@ -53,7 +53,8 @@ A mesma tag pode ser anexada a vários recursos por diferentes usuários na mesm
 ## Identificação para revendedores
 {: #resell}
 
-As tags são visíveis para todos os membros de uma conta. Se sua conta estiver associada a diferentes organizações, se você for um revendedor, por exemplo, talvez você queira recomendar a seus clientes para não armazenarem informações em tags que possam divulgar informações confidenciais aos outros na mesma conta.
+As tags são visíveis para todos os membros de uma conta.
+Se sua conta estiver associada a diferentes organizações, se você for um revendedor, por exemplo, talvez você queira recomendar a seus clientes para não armazenarem informações em tags que possam divulgar informações confidenciais aos outros na mesma conta.
 
 Para controlar a visibilidade da tag, distribua as diretrizes de identificação e informe aos usuários que as tags são visíveis em toda a conta. 
 
