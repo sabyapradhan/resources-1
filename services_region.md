@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2019-02-08"
+lastupdated: "2019-02-11"
 
 ---
 {:new_window: target="_blank"}
@@ -40,6 +40,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Availability Monitoring | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
 | BigInsights for Apache Hadoop (Subscription) | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Blockchain | Hosted in Dallas | Syndicated from Dallas | Syndicated from Dallas | Syndicated from Dallas | Not available | Not available | 
+| Blockchain Platform 2.0 | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Certificate Manager | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
 | Cloud Foundry Enterprise Environment | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Cloud Object Storage | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
@@ -81,8 +82,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect DBaaS | Not available | Not available | Not available | Not available | Hosted in Washington DC | Not available | 
 | IBM Cognos Dashboard Embedded | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
 | IBM Identity Mixer | Not available | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
-| IBM Managed Financial Data API | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| IBM Simulated Instruments Analytics API | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Information Server | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | Informix | Hosted in Dallas | Syndicated from Dallas | Not available | Syndicated from Dallas | Not available | Not available | 
 | Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
@@ -97,6 +96,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Log Analysis | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | MQ | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | Machine Learning | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
+| Managed Financial Data API | Hosted in Dallas | Not available | Not available | Not available | Hosted in Washington DC | Not available | 
 | Master Data Management | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | Messages for RabbitMQ | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Mobile Foundation | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
@@ -114,6 +114,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Security Advisor | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
 | Simulated Historical Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Simulated Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
+| Simulated Instruments Analytics API | Hosted in Dallas | Not available | Not available | Not available | Hosted in Washington DC | Not available | 
 | Speech to Text | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Streaming Analytics | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
 | Text to Speech | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
