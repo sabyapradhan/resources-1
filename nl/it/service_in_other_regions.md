@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-30"
+  years: 2015, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -11,10 +11,10 @@ lastupdated: "2018-11-30"
 # Utilizzo dei servizi in un'altra regione
 {: #cross_region_service}
 
-Se disponi di un'istanza del servizio creata e associata mediante bind ad applicazioni in un'unica regione, puoi utilizzare questa istanza in un'altra regione utilizzando uno dei seguenti metodi:
+Se disponi di un'istanza di servizio creata e associata mediante bind ad applicazioni in un'unica regione, puoi utilizzare questa istanza in un'altra regione utilizzando uno dei seguenti metodi:
 {: shortdesc}
 
-  * Utilizza le credenziali del servizio per configurare direttamente l'istanza della tua applicazione. Per i dettagli, vedi [Connessione dei servizi alle applicazioni esterne](/docs/resources/connect_external_app.html#externalapp).
+  * Utilizza le credenziali del servizio per configurare direttamente l'istanza della tua applicazione. Per i dettagli, vedi [Connessione dei servizi alle applicazioni esterne](/docs/resources?topic=externalapp).
   * Crea come ponte un servizio fornito dall'utente.
 
 	Per utilizzare un'istanza del servizio che si trova
@@ -34,7 +34,7 @@ servizio. Fai clic sull'**icona Menu ![Icona Menu](../icons/icon_hamburger.svg)*
 
       4. Crea un'istanza del servizio fornito dall'utente utilizzando le credenziali
 e i parametri di connessione che hai registrato dalla variabile di ambiente
-*VCAP_SERVICES*. Per informazioni, vedi [Creazione di un'istanza del servizio fornita dall'utente](/docs/apps/reqnsi.html#user_provide_services).
+*VCAP_SERVICES*. 
 
       5. Esegui il bind dell'istanza del servizio fornito dall'utente alla tua applicazione
 utilizzando il seguente comando:

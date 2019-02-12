@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2018
-lastupdated: "2018-11-27"
+  years: 2018,2019
+lastupdated: "2019-01-29"
 
 ---
 
@@ -23,7 +23,7 @@ Per visualizzare un elenco completo delle tag nel tuo account, vai a **Gestisci 
 ## Regole e limitazioni relative alle operazioni di tag
 {: #limits}
 
-La dimensione massima di una tag è di 128 caratteri. I caratteri consentiti sono A-Z, 0-9, gli spazi vuoti, i caratteri di sottolineatura, i trattini, i punti e i caratteri due punti; le tag non sono sensibili a maiuscole/minuscole. I caratteri due punti trasformano le tag in una coppia chiave/valore (`key:value`). Non puoi utilizzare un carattere due punti in una tag senza creare una coppia chiave/valore (`key:value`). Una virgola separa le tag e, pertanto, non può essere usata all'interno del nome della tag stesso.
+La dimensione massima di una tag è di 128 caratteri. I caratteri consentiti sono A-Z, 0-9, gli spazi vuoti, i caratteri di sottolineatura, i trattini, i punti e i caratteri due punti; le tag non sono sensibili a maiuscole/minuscole. I caratteri due punti trasformano la tag in una stringa in cui puoi isolare due parti logiche, come una coppia `key:value`. Non puoi utilizzare un carattere due punti in una tag senza creare questo accoppiamento. Una virgola separa le tag e non può essere usata all'interno del nome della tag stesso.
 
 
 ## Aggiunta e rimozione di tag su una risorsa
