@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-10-11"
+  years: 2015, 2019
+lastupdated: "2019-02-05"
 
 ---
 
@@ -26,7 +26,7 @@ lastupdated: "2018-10-11"
   * MongoDB by Compose
   * {{site.data.keyword.objectstorageshort}}
   * PostgreSQL by Compose
-  * {{site.data.keyword.ssofull}}
+  * {{site.data.keyword.appid_short}}
 
 サービスのご利用条件について詳しくは、[{{site.data.keyword.Bluemix_notm}} のご利用条件と特記事項](/docs/overview/terms-of-use/notices.html#terms)を参照してください。
 
