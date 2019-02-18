@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2018
-lastupdated: "2018-11-15"
+  years: 2018, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -49,7 +49,7 @@ Resources that belong to a resource group are managed by {{site.data.keyword.Blu
   7. Click **Assign**.
 
 ## Granting access for tagging Cloud Foundry resources
-{: #cf}
+{: #cf_tag_access}
 
 Resources that belong to a Cloud Foundry org and space are managed by Cloud Foundry org and space roles. Complete the following steps to assign the Developer space role for a user to tag Cloud Foundry resources:
 

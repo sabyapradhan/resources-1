@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-07"
+  years: 2015, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -36,6 +36,7 @@ If you want to delete service instances or check the billing information, you mu
 {: tip}
 
 ## Services with service keys
+{: #service_keys}
 
 The following services provide service keys for you to use externally:
 

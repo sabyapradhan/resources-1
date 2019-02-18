@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2018
-lastupdated: "2018-01-09"
+  years: 2018, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -11,12 +11,13 @@ lastupdated: "2018-01-09"
 {:shortdesc: .shortdesc}
 {:tip: .tip}
 {:note: .note}
+{:important: .important}
 
 
 # Best practices for organizing resources in a resource group
 {: #bp_resourcegroups}
 
-A resource group is a feature that you use to organize your account [resources](/docs/resources/acct_resources.html#resource) for access control and billing purposes. If you're familiar with using Cloud Foundry spaces, think of organizing resources in resource groups similarly to the way you organized resources in spaces. A resource is anything that can be created, managed, and contained within a resource group. Users aren't added to resource groups. Only resources can be added. 
+A resource group is a feature that you use to organize your account [resources](/docs/resources?topic=resources-resource) for access control and billing purposes. If you're familiar with using Cloud Foundry spaces, think of organizing resources in resource groups similarly to the way you organized resources in spaces. A resource is anything that can be created, managed, and contained within a resource group. Users aren't added to resource groups. Only resources can be added. 
 
 Currently, not all services support the use of {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) access control and the assignment to a resource group. IAM-enabled services prompt you to assign new service instances to a resource group when you create them from the catalog. Access to the resources within a resource group and the resource group itself are managed by IAM. By using IAM roles, you can provide users access to the resources that are organized within the resource groups. IAM roles can also provide the ability to view, edit, add new service instances to, or manage access to a resource group.
 
@@ -32,6 +33,7 @@ Cloud Foundry orgs, spaces, and roles are distinctly separate from resource grou
 
 
 ## Setting up your resource groups
+{: #setuprgs}
 
 All users get a single resource group by default that can be renamed. Assign the editor or adminstrator role to all account management services to create resource groups. If you have a billable account, you can create more than one resource group for organizing your resources. By organizing resources in different resource groups, you can:
 
@@ -46,17 +48,19 @@ To create a new resource group, complete the following steps:
 4. Enter a name for your resource group.
 5. Click **Add**.
 
-
 ## Adding resources to a resource group
+{: #addingtorgs}
 
 Services that are enabled by using IAM access control belong to a resource group instead of Cloud Foundry org or space. When you create a service instance for one of these services from the catalog, you're prompted to assign the instance to a resource group. 
 
-**Important**: Your resource group selection at the time of creating the instance is final and can't be changed.
+Your resource group selection at the time of creating the instance is final and can't be changed.
+{: important}
 
-As more services enable the assignment to resource groups and the use of IAM access control, you're notified on your resource list if you have existing Cloud Foundry service instances that are eligible for migration. By [migrating a service instance to a resource group](/docs/resources/instance_migration.html), you're creating a new linked instance in a resource group of your choice and the Cloud Foundry instance becomes an alias. 
+As more services enable the assignment to resource groups and the use of IAM access control, you're notified on your resource list if you have existing Cloud Foundry service instances that are eligible for migration. By [migrating a service instance to a resource group](/docs/resources?topic=resources-migrate), you're creating a new linked instance in a resource group of your choice and the Cloud Foundry instance becomes an alias. 
 
 
 ## Assigning access to resource groups and the resources within them
+{: #assigning_access_rgs}
 
 You provide access for users or groups of users that are organized in access groups by creating access policies. Access policies set a target, which is typically a service instance or all instances of a service in a resource group, and a role, which defines what type of access is allowed. There are two types of access policies that you need to assign as an account owner to enable the users in your account access to working with resources in resource groups:
 
@@ -79,6 +83,7 @@ If you want a user to create a new service instance and add it to a resource gro
 
 
 ## Sample access policies
+{: #sample_policies}
 
 Review the following sample access policies to help you determine how you might want to assign access to resources within your account that belong to resource groups.
 
@@ -88,8 +93,9 @@ Review the following sample access policies to help you determine how you might 
 4. A policy that grants the user the Platform Role “Administrator” on the entire account (all IAM-enabled services). A policy with these details allows the user to perform any platform actions on any resource in the entire account and also includes the ability to perform management actions on the account such as managing the resource groups in the account.
 
 ## Use case examples
+{: #usecase_examples}
 
-For each of these use cases, if you have a group of users that you want to all have the same level of access, add them to an [access group](/docs/iam/groups.html#groups). By using access groups, you can use a minimal number of access policies since all members of the access group inherit any access that is assigned to the group.
+For each of these use cases, if you have a group of users that you want to all have the same level of access, add them to an [access group](/docs/iam?topic=iam-groups). By using access groups, you can use a minimal number of access policies since all members of the access group inherit any access that is assigned to the group.
 {: tip}
 
 <ol>

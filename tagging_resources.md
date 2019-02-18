@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 2018,2019
+  years: 2018, 2019
 lastupdated: "2019-01-29"
 
 ---
@@ -24,7 +24,6 @@ To see a full list of tags in your account, go to **Manage > Account**, and sele
 {: #limits}
 
 The maximum size of a tag is 128 characters. The permitted characters are A-Z, 0-9, white space, underscore, hyphen, period, and colon, and tags  are case-insensitive. Colons turn the tag into a string where you can isolate two logical parts, like a `key:value` pair. You can't use a colon in a tag without creating this pairing. A comma separates tags and can't be used within the tag name itself.
-
 
 ## Adding and removing tags on a resource
 {: #add-remove}

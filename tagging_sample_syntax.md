@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-29"
+lastupdated: "2019-01-28"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2019-01-29"
 # Sample tags and syntax
 {: #sample-and-syntax}
 
-You can use tags to help you organize and manage your resources. Consider writing tags like `key:value` pairs to help organize your development environments, projects, compliance, and optimization throughout your organization.
+You can use tags to help you organize and manage your resources. Consider writing tags as `key:value` pairs to help organize your development environments, projects, compliance, and optimization throughout your organization.
 
 | Type | Examples | Purpose |
 |------|----------|---------|

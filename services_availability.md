@@ -28,7 +28,7 @@ The following services are classified as Tier 1:
   * PostgreSQL by Compose
   * {{site.data.keyword.appid_short}}
 
-To read more about terms of use for services, see [{{site.data.keyword.Bluemix_notm}} Terms and Notices](/docs/overview/terms-of-use/notices.html#terms).
+To read more about terms of use for services, see [{{site.data.keyword.Bluemix_notm}} Terms and Notices](/docs/overview?topic=overview-terms).
 
 ## Service deprecation
 {: #service_deprecation}

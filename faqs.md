@@ -26,25 +26,25 @@ lastupdated: "2019-02-07"
 
 A resource group is a way for you to organize your account resources in customizable groupings. Any account resource that is managed by using {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) access control belongs to a resource group within your account. You assign resources to a resource group when you create them from the catalog. You can then view usage per resource group in your account, and easily assign users access to all resources in a resource group or just to a single resource in a resource group.
 
-For more information about creating and working with resource groups, see [Managing resource groups](/docs/resources/resourcegroups.html#rgs).  
+For more information about creating and working with resource groups, see [Managing resource groups](/docs/resources?topic=resources-rgs).  
 
 ## Why should I migrate my Cloud Foundry service instances to a resource group?
 {: #instance-migrated}
 {: faq}
 
-Migrating your Cloud Foundry services to a resource group means that the services you're using are now available for use with IAM access control and resource groups. You can take advantage of fine-grained access control by using IAM roles. You can also view usage per resource group in your account. 
+Migrating your Cloud Foundry services to a resource group means that the services you're using are now available for use with IAM access control and resource groups. You can take advantage of fine-grained access control by using IAM roles. You can also view usage per resource group in your account.
 
-When you have Cloud Foundry services that can be migrated to a resource group, you receive a notification on your resource list. For more information about the migration process, see [Migrating Cloud Foundry service instances and apps to a resource group](/docs/resources/instance_migration.html#migrate).
+When you have Cloud Foundry services that can be migrated to a resource group, you receive a notification on your resource list. For more information about the migration process, see [Migrating Cloud Foundry service instances and apps to a resource group](/docs/resources?topic=resources-migrate).
 
-## Why can’t I create a resource and add it to a resource group?
+## Why can't I create a resource and add it to a resource group?
 {: #create-add-resource}
 {: faq}
 
-Most likely you're dealing with an access issue. You must have at least the Viewer role on the resource group itself and at least the Editor role on the service in the account. Learn more in [Adding resources to a resource group](/docs/resources/resourcegroups.html#adding-resources-to-a-resource-group).
+Most likely you're dealing with an access issue. You must have at least the Viewer role on the resource group itself and at least the Editor role on the service in the account. Learn more in [Adding resources to a resource group](/docs/resources?topic=resources-rgs#add_to_rgs).
 
-For more information about how to check your assigned access, see [Reviewing your assigned access](/docs/iam/mngiam.html#reviewing-your-assigned-access).
+For more information about how to check your assigned access, see [Reviewing your assigned access](/docs/iam?topic=iam-iammanidaccser#review_your_access).
 
-If you need additional access in the account, contact the account owner that is listed on the [Users](https://{DomainName}/iam#/users) page. 
+If you need additional access in the account, contact the account owner that is listed on the [Users](https://{DomainName}/iam#/users) page.
 
 ## Who can create resource groups?
 {: #create-resource}
@@ -68,4 +68,4 @@ You can't move service instances between resource groups. If you assign a servic
 {: #view-usage}
 {: faq}
 
-Yes, you can. To open the Usage Dashboard page, click **Manage** &gt; **Billing and usage**. Select **Usage** to view a summary of the usage by resource group for the account. 
+Yes, you can. To open the Usage Dashboard page, click **Manage** &gt; **Billing and usage**. Select **Usage** to view a summary of the usage by resource group for the account.
