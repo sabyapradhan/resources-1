@@ -35,7 +35,7 @@ Cloud Foundry orgs, spaces, and roles are distinctly separate from resource grou
 ## Setting up your resource groups
 {: #setuprgs}
 
-All users get a single resource group by default that can be renamed. Assign the editor or adminstrator role to all account management services to create resource groups. If you have a billable account, you can create more than one resource group for organizing your resources. By organizing resources in different resource groups, you can:
+All users get a single resource group by default that can be renamed. Assign the editor or administrator role to all account management services to create resource groups. If you have a billable account, you can create more than one resource group for organizing your resources. By organizing resources in different resource groups, you can:
 
 * Make assigning access to a set of resources easier by using a minimal number of policies 
 * View by resource group usage information for billing purposes 
