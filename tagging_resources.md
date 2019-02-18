@@ -53,7 +53,7 @@ The same tag can be attached to multiple resources by different users in the sam
 {: #resell}
 
 Tags are visible to all members of an account.
-If your account is associated with different organizations, if you're a reseller for example, you might want to reccomend your customers not to store information in tags that may disclose sensitive information to others in the same account.
+If your account is associated with different organizations, if you're a reseller for example, you might want to recommend your customers not to store information in tags that may disclose sensitive information to others in the same account.
 
 To control tag visibility, circulate tagging guidelines and let users know that tags are visible account-wide. 
 
