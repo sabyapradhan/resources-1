@@ -28,7 +28,7 @@ If you have a service instance that is created and bound to apps in one region, 
 
       3. Switch to the region where you want to use the service instance. lick the **Menu icon  ![Menu icon](../icons/icon_hamburger.svg)** > **Resource list**. Then, expand the **LOCATION** menu and select the region where you want to use the service instance.
 
-      4. Create a user-provided service instance by using the credentials and connection parameters that you recorded from the *VCAP_SERVICES* environment variable. For information, see [Creating a user-provided service instance](/docs/apps/tutorials?topic=creating-apps-add_service#user_provide_services).
+      4. Create a user-provided service instance by using the credentials and connection parameters that you recorded from the *VCAP_SERVICES* environment variable. 
 
       5. Bind the user-provided service instance to your app by using the following command:
 
