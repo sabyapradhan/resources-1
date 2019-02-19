@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2019-02-06"
+lastupdated: "2019-02-13"
 
 ---
 {:new_window: target="_blank"}
@@ -31,7 +31,6 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 
 | Serviço | Dallas | Londres | Frankfurt | Sydney | Washington DC | Tóquio |
 |-----|-----|-----|-----|-----|-----|
-| AI OpenScale | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | API Connect | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Activity Tracker | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Alert Notification | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
@@ -45,6 +44,7 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 | Availability Monitoring | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | BigInsights for Apache Hadoop (assinatura) | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Blockchain | Hospedado em Dallas | Organizado em Dallas | Organizado em Dallas | Organizado em Dallas | Não está disponível | Não está disponível | 
+| Blockchain Platform 2.0 | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Certificate Manager | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
 | Cloud Foundry Enterprise Environment | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Cloud Object Storage | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | 
@@ -86,8 +86,6 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 | Hyper Protect DBaaS | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado em Washington, D.C. | Não está disponível | 
 | IBM Cognos Dashboard Embedded | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | IBM Identity Mixer | Não está disponível | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
-| IBM Managed Financial Data API | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
-| IBM Simulated Instruments Analytics API | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Information Server | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Informix | Hospedado em Dallas | Organizado em Dallas | Não está disponível | Organizado em Dallas | Não está disponível | Não está disponível | 
 | Instrument Analytics | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
@@ -102,6 +100,7 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 | Log Analysis | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | MQ | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Machine Learning | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
+| Managed Financial Data API | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Hospedado em Washington, D.C. | Não está disponível | 
 | Master Data Management | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Messages for RabbitMQ | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Mobile Foundation | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
@@ -119,6 +118,7 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 | Security Advisor | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Simulated Historical Instrument Analytics | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Simulated Instrument Analytics | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
+| Simulated Instruments Analytics API | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Hospedado em Washington, D.C. | Não está disponível | 
 | Speech to Text | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Streaming Analytics | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
 | Text to Speech | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
@@ -128,6 +128,7 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 | Visual Recognition | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Voice Agent with Watson | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Hospedado em Washington, D.C. | Não está disponível | 
 | Watson Assistant | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Watson OpenScale | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Watson Studio | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
 | Weather Company Data | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | WebSphere Application Server | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 

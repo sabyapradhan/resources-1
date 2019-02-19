@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2017, 2018
-lastupdated: "2018-11-15"
+  years: 2017, 2019
+lastupdated: "2019-02-07"
 
 
 ---
@@ -43,6 +43,11 @@ As conexões entre um grupo de recursos e uma organização ou espaço do Cloud 
 
 Os serviços que são gerenciados com o IAM pertencem a um grupo de recursos em vez de organização ou espaço do Cloud Foundry. Ao criar uma instância de serviço para um desses serviços por meio do catálogo, será solicitado que designe a instância a um grupo de recursos. A seleção de grupo de recursos no momento da
 criação da instância é definitiva e não pode ser mudada.
+
+Para que os usuários em sua conta sejam capazes de criar recursos do catálogo e designá-los a um grupo de recursos, eles deverão ter duas políticas de acesso designadas:
+
+* Uma política com função de visualizador ou superior no próprio grupo de recursos
+* Uma política com função de editor ou superior no serviço na conta
 
 ## Visualizando recursos em grupos de recursos
 

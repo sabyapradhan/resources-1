@@ -4,8 +4,8 @@
 
 copyright:
 
-  years: 2017, 2018
-lastupdated: "2018-11-15"
+  years: 2017, 2019
+lastupdated: "2019-02-07"
 
 
 ---
@@ -22,7 +22,7 @@ lastupdated: "2018-11-15"
 
 Un gruppo di risorse è un modo per organizzare le risorse dell'account in raggruppamenti personalizzabili, in modo da poter assegnare rapidamente agli utenti l'accesso a più di una risorsa alla volta. Qualsiasi risorsa dell'account gestita attraverso il controllo dell'accesso {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) appartiene a un gruppo di risorse all'interno del tuo account. I servizi Cloud Foundry sono assegnati alle organizzazioni e agli spazi e non possono essere aggiunti a un gruppo di risorse.
 
-Per iniziare a gestire i tuoi gruppi di risorse, vai a **Gestisci** &gt; **Account**. Espandi **Risorse account** e seleziona quindi **Gruppi di risorse**.Da lì puoi visualizzare i tuoi gruppi di risorse, aggiungere risorse, rinominarle, gestire l'accesso e creare nuovi gruppi di risorse. Per ulteriori informazioni sull'utilizzo dei gruppi di risorse, consulta [Procedure consigliate per l'organizzazione delle risorse nei gruppi di risorse](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
+Per iniziare a gestire i tuoi gruppi di risorse, vai a **Gestisci** &gt; **Account**. Espandi **Risorse account** e seleziona quindi **Gruppi di risorse**. Da lì puoi visualizzare i tuoi gruppi di risorse, aggiungere risorse, rinominarle, gestire l'accesso e creare nuovi gruppi di risorse. Per ulteriori informazioni sull'utilizzo dei gruppi di risorse, consulta [Procedure consigliate per l'organizzazione delle risorse nei gruppi di risorse](/docs/resources/bestpractice_rgs.html#bp_resourcegroups).
 
 
 ## Creazione di un gruppo di risorse
@@ -42,6 +42,11 @@ Le connessioni tra un gruppo di risorse e un'organizzazione o uno spazio Cloud F
 ## Aggiunta di risorse a un gruppo di risorse
 
 I servizi che sono gestiti con IAM appartengono a un gruppo di risorse invece che a un'organizzazione o uno spazio Cloud Foundry. Quando crei un'istanza del servizio per uno di questi servizi dal catalogo, ti viene richiesto di assegnare l'istanza ad un gruppo di risorse. La tua selezione del gruppo di risorse al momento della creazione dell'istanza è finale e non può essere modificata.
+
+Perché gli utenti nel tuo account possano creare risorse dal catalogo e assegnarle a un gruppo di risorse, è necessario che ad essi siano assegnate due politiche di accesso:
+
+* Una politica con il ruolo di visualizzatore o superiore sul gruppo di risorse stesso
+* Una politica con il ruolo di editor o superiore sul servizio nell'account
 
 ## Visualizzazione delle risorse nei gruppi di risorse
 

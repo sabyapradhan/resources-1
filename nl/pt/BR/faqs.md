@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-15"
+lastupdated: "2019-02-07"
 
 ---
 
@@ -47,8 +47,11 @@ grupo de recursos](/docs/resources/instance_migration.html#migrate).
 {: faq}
 
 Muito provavelmente você está lidando com um problema de acesso. Deve-se ter pelo menos a função de visualizador no
-próprio grupo de recursos e, pelo menos, a função do editor no serviço da conta. É possível entrar em contato com o administrador da
-conta para verificar o acesso designado na conta. 
+próprio grupo de recursos e, pelo menos, a função do editor no serviço da conta. Saiba mais em [Incluindo recursos em um grupo de recursos](/docs/resources/resourcegroups.html#adding-resources-to-a-resource-group).
+
+Para obter mais informações sobre como verificar o seu acesso designado, consulte [Revisando o seu acesso designado](/docs/iam/mngiam.html#reviewing-your-assigned-access).
+
+Se você precisar de acesso adicional na conta, entre em contato com o proprietário da conta que está listado na página [Usuários](https://{DomainName}/iam#/users). 
 
 ## Quem pode criar grupos de recursos?
 {: #create-resource}

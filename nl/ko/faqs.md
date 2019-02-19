@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-15"
+lastupdated: "2019-02-07"
 
 ---
 
@@ -40,7 +40,11 @@ Cloud Foundry 서비스를 리소스 그룹으로 마이그레이션하면 사�
 {: #create-add-resource}
 {: faq}
 
-액세스 문제를 처리 중일 가능성이 높습니다. 리소스 그룹 자체에서 최소한 뷰어 역할을 갖고 있어야 하고 계정의 서비스에서는 최소한 편집자 역할을 갖고 있어야 합니다. 계정 관리자에게 문의하여 계정에서 지정된 액세스 권한을 검증할 수 있습니다. 
+액세스 문제를 처리 중일 가능성이 높습니다. 리소스 그룹 자체에서 최소한 뷰어 역할을 갖고 있어야 하고 계정의 서비스에서는 최소한 편집자 역할을 갖고 있어야 합니다. [리소스 그룹에 리소스 추가](/docs/resources/resourcegroups.html#adding-resources-to-a-resource-group)에서 더 자세히 알아보십시오. 
+
+지정된 액세스 권한을 확인하는 방법에 대한 자세한 정보는 [지정된 액세스 권한 검토](/docs/iam/mngiam.html#reviewing-your-assigned-access)를 참조하십시오. 
+
+계정에서 추가 액세스 권한을 필요로 하는 경우에는 [사용자](https://{DomainName}/iam#/users) 페이지에 나열된 계정 소유자에게 문의하십시오.  
 
 ## 누가 리소스 그룹을 작성할 수 있습니까?
 {: #create-resource}

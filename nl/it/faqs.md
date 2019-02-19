@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-15"
+lastupdated: "2019-02-07"
 
 ---
 
@@ -40,7 +40,11 @@ Quando disponi di servizi Cloud Foundry che possono essere migrati a un gruppo d
 {: #create-add-resource}
 {: faq}
 
-Molto probabilmente stai avendo un problema di accesso. Devi avere almeno il ruolo di visualizzatore sul gruppo di risorse stesso e almeno il ruolo di editor sul servizio nell'account. Puoi contattare l'amministratore dell'account per verificare il tuo accesso assegnato nell'account. 
+Molto probabilmente stai avendo un problema di accesso. Devi avere almeno il ruolo di visualizzatore sul gruppo di risorse stesso e almeno il ruolo di editor sul servizio nell'account. Trova ulteriori informazioni in [Aggiunta di risorse a un gruppo di risorse](/docs/resources/resourcegroups.html#adding-resources-to-a-resource-group).
+
+Per ulteriori informazioni su come controllare il tuo accesso assegnato, vedi [Controllo del tuo accesso assegnato](/docs/iam/mngiam.html#reviewing-your-assigned-access).
+
+Se hai bisogno di accesso aggiuntivo nell'account, contatta il proprietario dell'account che è elencato nella pagina [Users](https://{DomainName}/iam#/users). 
 
 ## Chi può creare i gruppi di risorse?
 {: #create-resource}
