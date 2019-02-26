@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-11-30"
+  years: 2015, 2019
+lastupdated: "2019-02-18"
 
 ---
 
@@ -44,12 +44,12 @@ Pressione a tecla de barra (/) para navegar o cursor para o campo de procura.
 ## Procurando com a CLI
 {: #searching-cl}
 
-Também é possível procurar em todos os seus recursos usando a sintaxe de consulta Lucene, com um comando único usando a CLI do {{site.data.keyword.Bluemix_notm}}, a partir da versão 0.6.7. 
+Também é possível procurar em todos os seus recursos usando a sintaxe de consulta Lucene, com um comando único usando a CLI do {{site.data.keyword.Bluemix_notm}}, a partir da versão 0.6.7.
 
   A CLI atualmente não procura recursos que estão em execução em instâncias de infraestrutura clássica.
   {: note}
 
-É possível procurar os atributos a seguir: 
+É possível procurar os atributos a seguir:
 
 <dl>
 <dt>`Nome `</dt>
@@ -99,9 +99,7 @@ Os exemplos a seguir podem ajudar a procurar recursos de conta.
 * Para procurar por todos os recursos que foram criados entre 16 de maio de 2018 e 20 de maio de 2018, insira o comando a seguir.
 
     `ibmcloud resource search "creation_date:[2018-05-16T00:00:00Z TO 2018-05-20T00:00:00Z]"`
-    
+
 * Para procurar por todos os recursos cujo nome comece com "my", ordenado por tipo, insira o comando a seguir.
 
     `ibmcloud resource search 'name:my*' -s type`
-
-

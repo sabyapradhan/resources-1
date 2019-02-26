@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-29"
+  years: 2017, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -26,7 +26,7 @@ Os aliases são como links simbólicos que contêm referências a recursos remot
 As regras a seguir se aplicam a aliases:
 
 * Não há encargos extras para um alias, mas cada alias é contado com relação à sua cota em sua organização.
-* É possível criar apenas um alias por espaço no console do {{site.data.keyword.Bluemix_notm}}. No entanto, mais de um alias por espaço pode ser criado usando a CLI do {{site.data.keyword.Bluemix_notm}}. Para obter mais informações, consulte [Trabalhando com recursos e grupos de recursos](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource).
+* É possível criar apenas um alias por espaço no console do {{site.data.keyword.Bluemix_notm}}. No entanto, mais de um alias por espaço pode ser criado usando a CLI do {{site.data.keyword.Bluemix_notm}}. Para obter mais informações, consulte [Trabalhando com recursos e grupos de recursos](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource).
 * Será possível criar múltiplas conexões entre seu serviço gerenciado pelo IAM e qualquer aplicativo em qualquer espaço, organização e região na mesma conta se você tiver permissão.
 * Múltiplas conexões feitas no mesmo espaço para diferentes apps por meio de uma instância de serviço gerenciada pelo IAM usam o mesmo alias.
 * A desvinculação de uma instância de serviço gerenciada pelo IAM *não* exclui a instância de serviço que representa o alias.
@@ -44,13 +44,14 @@ Para conectar sua instância de serviço gerenciada pelo IAM a um aplicativo:
 
 3. Clique em **Conectar existente** e escolha em seu app existente. Ou clique em **Criar conexão** para criar um app ao qual se conectar.
 
-4. Especifique a **Função de acesso para conexão**. Este valor configura a função de acesso do serviço IAM. Para obter mais informações, veja [Acesso ao IAM](/docs/iam/users_roles.html#userroles).
+4. Especifique a **Função de acesso para conexão**. Este valor configura a função de acesso do serviço IAM. Para obter mais informações, veja [Acesso ao IAM](/docs/iam?topic=iam-userroles).
 
-5. Opcionalmente, é possível fornecer um **ID de serviço para conexão**, permitindo que o IAM gere um valor exclusivo para você ou fornecendo um ID de serviço existente. Para obter mais informações, consulte [Criando e trabalhando com IDs de serviço](/docs/iam/serviceid.html#serviceids).
+5. Opcionalmente, é possível fornecer um **ID de serviço para conexão**, permitindo que o IAM gere um valor exclusivo para você ou fornecendo um ID de serviço existente. Para obter mais informações, consulte [Criando e trabalhando com IDs de serviço](/docs/iam?topic=iam-serviceids).
 
 6. Clique em **Criar**.
 
 ## Visualizando um alias
+{: #view_alias}
 
 Depois que você cria uma conexão entre um serviço gerenciado pelo IAM e um app, o alias é exibido na guia **Conexões** do app conectado. Além disso, o alias é exibido como uma instância de serviço em execução em sua lista de recursos e contém uma guia **Conexões** apenas quando você o abre.
 
@@ -58,6 +59,7 @@ Depois que você cria uma conexão entre um serviço gerenciado pelo IAM e um ap
 2. Na tabela **Application Services**, clique no nome da instância de serviço para abrir a visualização de detalhes do serviço. Se ela tiver somente uma guia **Conexões**, ela será um alias.
 
 ## Excluindo um alias
+{: #delete_alias}
 
 A maneira mais fácil de excluir o alias é excluir a instância de serviço gerenciada pelo IAM. No entanto, é possível manter sua instância de serviço gerenciado pelo IAM e excluir o alias diretamente.
 
@@ -66,6 +68,6 @@ A maneira mais fácil de excluir o alias é excluir a instância de serviço ger
 3. Exclua a instância.
 
 ## Criando uma conexão entre vários serviços
-{: #cf}
+{: #multiple_services}
 
-Para obter mais informações, veja [Usando serviços em outro serviço](/docs/resources/s2s.html#s2s_binding).
+Para obter mais informações, veja [Usando serviços em outro serviço](/docs/resources?topic=resources-s2s_binding).

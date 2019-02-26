@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-07"
+  years: 2015, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -38,6 +38,7 @@ Caso queira excluir instâncias de serviço ou verificar as informações de fat
 {: tip}
 
 ## Serviços com chaves de serviço
+{: #service_keys}
 
 Os serviços a seguir fornecem chaves de serviço para você usar externamente:
 

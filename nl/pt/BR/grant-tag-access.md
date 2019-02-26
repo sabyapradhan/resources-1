@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2018
-lastupdated: "2018-11-15"
+  years: 2018, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2018-11-15"
 # Concedendo aos usuários acesso aos recursos de tag	
 {: #access}	
 	
-Como proprietário da conta, talvez você queira delegar algumas das responsabilidades de recursos de identificação. Para fazer isso, é possível conceder acesso a outros usuários na conta para incluir e remover tags de recursos. Para que os usuários na conta incluam tags em um recurso, eles devem ter o acesso apropriado designado. O acesso a serviços que pertencem a um grupo de recursos é gerenciado pelas políticas de acesso do {{site.data.keyword.Bluemix}} Identity and Access Management (IAM), e o acesso aos serviços que pertencem a uma organização e um espaço do Cloud Foundry é gerenciado pelas funções de espaço e organização do Cloud Foundry.
+Como proprietário da conta, talvez você queira delegar algumas das responsabilidades de recursos de identificação. Para fazer isso, é possível conceder acesso a outros usuários na conta para incluir e remover tags de recursos. Para que os usuários na conta incluam tags em um recurso, eles devem ter o acesso apropriado designado. O acesso a serviços que pertencem a um grupo de recursos é gerenciado pelas políticas de acesso do {{site.data.keyword.Bluemix}} Identity and Access Management (IAM), e o acesso aos serviços que pertencem a uma organização e um espaço do Cloud Foundry é gerenciado pelas funções de espaço e organização do Cloud Foundry.	
 {: shortdesc}
 
 ## Identificando permissões
@@ -28,7 +28,7 @@ As tags ficam visíveis para qualquer usuário em uma conta. Quando um recurso �
 |--------|---------------|
 | Ativado para IAM | Editor ou Administrador no recurso | 
 | Cloud Foundry | Função de desenvolvedor no espaço ao qual o recurso pertence  | 
-| Infraestrutura clássica* | Visualizar a permissão de detalhes de hardware ou visualizar a permissão de detalhes do servidor virtual |
+| Infraestrutura clássica*| Visualizar a permissão de detalhes de hardware ou visualizar a permissão de detalhes do servidor virtual |
 | Cloud Object Storage S3 na infraestrutura clássica | Permissão de gerenciamento de armazenamento |
 {: caption="Tabela 1. Funções necessárias para incluir e remover tags" caption-side="top"}
 
@@ -49,7 +49,7 @@ Os recursos que pertencem a um grupo de recursos são gerenciados pelas polític
   7. Clique em **Designar**.
 
 ## Concedendo acesso para identificar recursos do Cloud Foundry
-{: #cf}
+{: #cf_tag_access}
 
 Os recursos pertencentes a uma organização e um espaço do Cloud Foundry são gerenciados pelas funções de organização e espaço do Cloud Foundry. Conclua as etapas a seguir para designar a função de espaço do Desenvolvedor a um usuário para identificar os recursos do Cloud Foundry:
 

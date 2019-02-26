@@ -28,7 +28,7 @@ Os serviços a seguir são classificados como Camada 1:
   * PostgreSQL by Compose
   * {{site.data.keyword.appid_short}}
 
-Para ler mais sobre os termos de uso para serviços, consulte [Termos e avisos do {{site.data.keyword.Bluemix_notm}}](/docs/overview/terms-of-use/notices.html#terms).
+Para ler mais sobre os termos de uso dos serviços, consulte [Termos e avisos do {{site.data.keyword.Bluemix_notm}}](/docs/overview?topic=overview-terms).
 
 ## Descontinuação de serviço
 {: #service_deprecation}
