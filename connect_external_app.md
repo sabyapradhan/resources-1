@@ -4,6 +4,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
+keywords: service keys, api keys, using services outside IBM cloud
+
+subcollection: resources
+
 ---
 
 {: new_window: target="_blank"}
@@ -23,11 +27,11 @@ Most services don't require extra parameters, and for services that do, each ser
 
 1. Create an instance of the service.
     1. Click **Catalog**.
-    2. From the catalog, select the service that you want by clicking the service tile. 
+    2. From the catalog, select the service that you want by clicking the service tile.
     3. Select the location and org and space or resource group, and then click **Create**.
-2. From the service details page, select **Service Credentials** to view or add credentials in JSON format. 
+2. From the service details page, select **Service Credentials** to view or add credentials in JSON format.
     * To create new credentials, select **New credential** and optionally add configuration parameters manually or import a file in JSON format, then click **Add**. Select **View credentials** to save the credentials to connect to your external app.
-    * Select a set of credentials and click **View credentials** in the Actions column if they already exist. 
+    * Select a set of credentials and click **View credentials** in the Actions column if they already exist.
 3. Use the API key that is displayed as the credentials to connect to the service instance.
 
 Your application that runs outside of {{site.data.keyword.Bluemix_notm}} can now access the {{site.data.keyword.Bluemix_notm}} service.

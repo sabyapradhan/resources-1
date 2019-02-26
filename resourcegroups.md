@@ -7,6 +7,9 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-02-07"
 
+keywords: resource group, account resources, users access to resource groups, create resource group
+
+subcollection: resources
 
 ---
 
@@ -35,7 +38,7 @@ If you have a Lite account or 30-day trial, you can't create extra resource grou
 Connections between a resource group and a Cloud Foundry org or space are restricted by your quota. For more information, see [What is an alias?](/docs/resources?topic=resources-connect_app#what_is_alias).
 {: note}
 
-1. Go to **Manage** &gt; **Account**. Expand **Account resources** and then select **Resource groups**. 
+1. Go to **Manage** &gt; **Account**. Expand **Account resources** and then select **Resource groups**.
 2. Click **Create a resource group**.
 3. Enter a name for your resource group.
 4. Click **Add**.
@@ -60,7 +63,7 @@ To easily view the resources that are contained within a resource group, filter 
 
 Your first resource group is created and named `Default` for you. You can choose to update the name of this group or any other groups that you create.
 
-1. Go to **Manage** &gt; **Account**. Expand **Account resources** and then select **Resource groups**. 
+1. Go to **Manage** &gt; **Account**. Expand **Account resources** and then select **Resource groups**.
 2. Select **Rename** from the **Actions** ![List of actions icon](../icons/action-menu-icon.svg) menu.
 3. Enter a unique name and click **Save**.
 

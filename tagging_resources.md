@@ -5,6 +5,10 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-01-29"
 
+keywords: add tags, tags, full list of tags, how to use tags
+
+subcollection: resources
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -28,13 +32,13 @@ The maximum size of a tag is 128 characters. The permitted characters are A-Z, 0
 ## Adding and removing tags on a resource
 {: #add-remove}
 
-1. From the {{site.data.keyword.Bluemix_notm}} console, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Resource list** to view your list of resources. 
+1. From the {{site.data.keyword.Bluemix_notm}} console, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Resource list** to view your list of resources.
 2. Expand the resource type twistie that contains the resource you want to tag. For example, if you want to tag an instance of {{site.data.keyword.cos_full_notm}}, expand **Storage**.  
-3. Click the Actions icon ![Actions icon](../icons/action-menu-icon.svg) to add or update a tag for the resource. 
+3. Click the Actions icon ![Actions icon](../icons/action-menu-icon.svg) to add or update a tag for the resource.
 
-    * To add a tag, click the Actions menu ![Actions icon](../icons/action-menu-icon.svg), select **Add Tags**, and type a name for your tag. 
+    * To add a tag, click the Actions menu ![Actions icon](../icons/action-menu-icon.svg), select **Add Tags**, and type a name for your tag.
     * To add additional tags, click the Edit icon ![Edit icon](../icons/edit-tagging.svg) next to the displayed tag, and type a name for your tag. Press Enter to continue adding tags.
-4. To remove a tag, click the Edit icon ![Edit icon](../icons/edit-tagging.svg). Then, click the Remove icon ![Remove icon](../icons/close-tagging.svg) next to the tag. 
+4. To remove a tag, click the Edit icon ![Edit icon](../icons/edit-tagging.svg). Then, click the Remove icon ![Remove icon](../icons/close-tagging.svg) next to the tag.
 
 ## Searching for tags
 {: #search-tags}
@@ -55,8 +59,7 @@ The same tag can be attached to multiple resources by different users in the sam
 Tags are visible to all members of an account.
 If your account is associated with different organizations, if you're a reseller for example, you might want to recommend your customers not to store information in tags that may disclose sensitive information to others in the same account.
 
-To control tag visibility, circulate tagging guidelines and let users know that tags are visible account-wide. 
+To control tag visibility, circulate tagging guidelines and let users know that tags are visible account-wide.
 
 Use codes rather than names for clients and accounts and avoid placing sensitive information in tags.
 {: tip}
-

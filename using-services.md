@@ -5,6 +5,10 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-01-28"
 
+keywords: classic infrastructure assets, application development, services that work with classic infrastructure
+
+subcollection: resources
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -28,4 +32,3 @@ For example, do you want to add cognitive capabilities from Watson to your apps 
 2. Create an instance of the service with just a few clicks.
 3. Set up the service to run with your existing code by copying the service credentials and adding them to your application.
 4. After the update to the app, deploy the new version to your classic infrastructure assets.
-

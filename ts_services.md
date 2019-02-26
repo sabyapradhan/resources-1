@@ -6,6 +6,10 @@ copyright:
 
 lastupdated: "2019-01-28"
 
+keywords: troubleshooting services, troubleshooting resources, service problems, resource problems, error message
+
+subcollection: resources
+
 ---
 
 
@@ -44,11 +48,11 @@ This problem happens if the service instance is already deleted from the cloud c
 Create a service instance with the same service name, and bind it to your applications. Then, you can delete the service instance and the applications that use the service.   
 {: tsResolve}
 
-## Why was a service instance migrated to the wrong resource group? 
+## Why was a service instance migrated to the wrong resource group?
 {: #ts_service_instance}
 {: troubleshoot}
 
-You might notice that a service instance was migrated to the wrong resource group and can't be reassigned. 
+You might notice that a service instance was migrated to the wrong resource group and can't be reassigned.
 {:shortdesc}
 
 You can't move resources between resource groups after they're assigned.
@@ -64,29 +68,29 @@ To correct this issue, you can try deleting the instance and creating a new one 
 {: #ts_migrate_instance}
 {: troubleshoot}
 
-As a user in the account, you're having trouble when you migrate an eligible instance. 
+As a user in the account, you're having trouble when you migrate an eligible instance.
 {:shortdesc}
 
-You can't migrate an eligible instance. 
+You can't migrate an eligible instance.
 {: tsSymptoms}
 
-If you're unable to migrate an eligible instance, you might not have the correct access. 
+If you're unable to migrate an eligible instance, you might not have the correct access.
 {: tsCauses}
 
-Users must have specific access to migrate an instance. To check out what access you have, click **Manage** &gt; **Access (IAM)** from the console menu bar, and then click **Users**. Click your name and review your Access policies for assigned IAM roles and Cloud Foundry access to see which orgs you have access to and your assigned Cloud Foundry roles. 
+Users must have specific access to migrate an instance. To check out what access you have, click **Manage** &gt; **Access (IAM)** from the console menu bar, and then click **Users**. Click your name and review your Access policies for assigned IAM roles and Cloud Foundry access to see which orgs you have access to and your assigned Cloud Foundry roles.
 {: tsResolve}
 
 ## Why can't I migrate all of my services?
 {: #ts_service_migration}
 {: troubleshoot}
 
-Not all services are eligible for migration. 
+Not all services are eligible for migration.
 {:shortdesc}
 
-You can't migrate certain services. 
+You can't migrate certain services.
 {: tsSymptoms}
 
-You're migrating services that aren't available to be added to resource groups and aren't managed by using Identity and Access Management (IAM). If a service is not eligible, there isn't an option for migration. 
+You're migrating services that aren't available to be added to resource groups and aren't managed by using Identity and Access Management (IAM). If a service is not eligible, there isn't an option for migration.
 {: tsCauses}
 
 Check services to confirm they're eligible for migration. You receive a notification and see a `support_rc_migration` flag to tell if a service is eligible for migration.
