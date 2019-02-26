@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 2018,2019
+  years: 2018, 2019
 lastupdated: "2019-01-29"
 
 ---
@@ -24,7 +24,6 @@ Pour voir une liste complète des étiquettes de votre compte, accédez à **Gé
 {: #limits}
 
 La taille maximale d'une étiquette est de 128 caractères. Les caractères autorisés sont les suivants : A-Z, 0-9, espace, trait de soulignement, tiret, point et virgule. De plus, il n'est pas nécessaire de respecter l'utilisation des minuscules/majuscules pour les étiquettes. L'utilisation du signe deux points permet de créer à partir de l'étiquette une chaîne dans laquelle vous pouvez isoler deux parties logiques, comme `clé:valeur`. Vous ne pouvez pas utiliser le signe deux points dans une étiquette sans créer de paire. Une virgule sépare les étiquettes et ne peut pas être utilisée dans le nom de l'étiquette lui-même.
-
 
 ## Ajout et retrait d'étiquettes sur une ressource
 {: #add-remove}
@@ -54,7 +53,7 @@ La même étiquette peut être associée à plusieurs ressources par différents
 {: #resell}
 
 Tous les membres d'un compte peuvent voir les étiquettes.
-Si votre compte est associé à différentes organisation (si vous êtes revendeur, par exemple), vous pouvez recommander à vos clients de ne pas stocker d'informations sur des étiquettes, d'autres utilisateurs du même compte risqueraient alors d'accéder à des informations confidentielles.
+Si votre compte est associé à différentes organisations (si vous êtes revendeur, par exemple), vous pouvez recommander à vos clients de ne pas stocker d'informations sur des étiquettes, d'autres utilisateurs du même compte risqueraient alors d'accéder à des informations confidentielles.
 
 Pour contrôler la visibilité des étiquettes, suivez les instructions d'étiquetage et faites savoir aux utilisateurs que les étiquettes sont visibles dans l'ensemble du compte. 
 

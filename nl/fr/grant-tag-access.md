@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2018
-lastupdated: "2018-11-15"
+  years: 2018, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -49,7 +49,7 @@ Les ressources qui appartiennent à un groupe de ressources sont gérées par le
   7. Cliquez sur **Affecter**.
 
 ## Octroi de l'accès pour l'étiquetage des ressources Cloud Foundry
-{: #cf}
+{: #cf_tag_access}
 
 Les ressources appartenant à un espace et à une organisation Cloud Foundry sont gérées par les rôles d'espace et d'organisation Cloud Foundry. Procédez comme suit pour affecter le rôle d'espace Développeur afin qu'un utilisateur puisse étiqueter les ressources Cloud Foundry :
 

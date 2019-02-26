@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-15"
+lastupdated: "2019-02-07"
 
 ---
 
@@ -26,21 +26,25 @@ lastupdated: "2018-11-15"
 
 Un groupe de ressources permet d'organiser vos ressources de compte en regroupements personnalisables. Chaque ressource de compte gérée à l'aide du contrôle d'accès {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) appartient à un groupe de ressources au sein de votre compte. Lorsque vous créez des ressources à partir du catalogue, vous les affectez à un groupe de ressources. Vous pouvez alors consulter l'utilisation par groupe de ressources dans votre compte et affecter facilement l'accès utilisateur à toutes les ressources d'un groupe de ressources ou uniquement à une seule ressource d'un groupe.
 
-Pour plus d'informations sur la création et l'utilisation des groupes de ressources, voir [Gestion des groupes de ressources](/docs/resources/resourcegroups.html#rgs).  
+Pour plus d'informations sur la création et l'utilisation des groupes de ressources, voir [Gestion des groupes de ressources](/docs/resources?topic=resources-rgs).  
 
 ## Pourquoi dois-je migrer mes instances de service Cloud Foundry vers un groupe de ressources ?
 {: #instance-migrated}
 {: faq}
 
-Le fait de migrer vos services Cloud Foundry vers un groupe de ressources fait que les services que vous utilisez sont désormais disponibles pour être utilisés avec les groupes de ressources et le contrôle d'accès IAM. Vous pouvez bénéficier du contrôle d'accès à granularité fine en utilisant des rôles IAM. Vous pouvez également consulter l'utilisation par groupe de ressources dans votre compte. 
+Le fait de migrer vos services Cloud Foundry vers un groupe de ressources fait que les services que vous utilisez sont désormais disponibles pour être utilisés avec les groupes de ressources et le contrôle d'accès IAM. Vous pouvez bénéficier du contrôle d'accès à granularité fine en utilisant des rôles IAM. Vous pouvez également consulter l'utilisation par groupe de ressources dans votre compte.
 
-Lorsque vous avez des services Cloud Foundry pouvant être migrés vers un groupe de ressources, vous recevez une notification dans votre liste de ressources. Pour plus d'informations sur le processus de migration, voir [Migration d'applications et d'instances de service dans un groupe de ressources](/docs/resources/instance_migration.html#migrate).
+Lorsque vous avez des services Cloud Foundry pouvant être migrés vers un groupe de ressources, vous recevez une notification dans votre liste de ressources. Pour plus d'informations sur le processus de migration, voir [Migration d'applications et d'instances de service dans un groupe de ressources](/docs/resources?topic=resources-migrate).
 
 ## Pourquoi ne puis-je pas créer de ressource et l'ajouter à un groupe de ressources ?
 {: #create-add-resource}
 {: faq}
 
-Dans la plupart des cas, ce problème est lié à l'accès. Vous devez avoir au moins le rôle Afficheur pour le groupe de ressources et au moins le rôle Editeur pour le service du compte. Vous pouvez contacter l'administrateur du compte pour vérifier l'accès qui vous est affecté. 
+Dans la plupart des cas, ce problème est lié à l'accès. Vous devez avoir au moins le rôle Afficheur pour le groupe de ressources et au moins le rôle Editeur pour le service du compte. Pour en savoir plus, consultez la rubrique [Ajout de ressources à un groupe de ressources](/docs/resources?topic=resources-rgs#add_to_rgs).
+
+Pour plus d'informations sur la vérification de votre accès affecté, voir [Révision des accès affectés](/docs/iam?topic=iam-iammanidaccser#review_your_access).
+
+Si vous avez besoin d'un accès supplémentaire au compte, contactez le propriétaire du compte indiqué sur la page des [utilisateurs](https://{DomainName}/iam#/users).
 
 ## Qui peut créer des groupes de ressources ?
 {: #create-resource}
@@ -64,4 +68,4 @@ Vous ne pouvez pas déplacer des instances de service entre différents groupes 
 {: #view-usage}
 {: faq}
 
-Oui. Pour ouvrir la page Tableau de bord de l'utilisation, cliquez sur **Gérer** &gt; **Facturation et utilisation**. Sélectionnez **Utilisation** pour afficher un récapitulatif de l'utilisation par groupe de ressources pour le compte. 
+Oui. Pour ouvrir la page Tableau de bord de l'utilisation, cliquez sur **Gérer** &gt; **Facturation et utilisation**. Sélectionnez **Utilisation** pour afficher un récapitulatif de l'utilisation par groupe de ressources pour le compte.

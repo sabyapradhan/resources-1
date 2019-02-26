@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-11-30"
+  years: 2015, 2019
+lastupdated: "2019-02-18"
 
 ---
 
@@ -44,12 +44,12 @@ Appuyez sur la touche Barre oblique (/) pour positionner votre curseur dans la z
 ## Recherche avec l'interface de ligne de commande (CLI)
 {: #searching-cl}
 
-Vous pouvez également effectuer une recherche dans toutes vos ressources en utilisant la syntaxe de requête Lucene, avec une seule commande en utilisant l'interface CLI {{site.data.keyword.Bluemix_notm}} et ce à partir de la version 0.6.7. 
+Vous pouvez également effectuer une recherche dans toutes vos ressources en utilisant la syntaxe de requête Lucene, avec une seule commande en utilisant l'interface CLI {{site.data.keyword.Bluemix_notm}} et ce à partir de la version 0.6.7.
 
   L'interface CLI ne prend pas actuellement en charge la recherche de ressources qui s'exécutent dans les instances de l'infrastructure classique.
   {: note}
 
-Vous pouvez rechercher les attributs suivants : 
+Vous pouvez rechercher les attributs suivants :
 
 <dl>
 <dt>`name`</dt>
@@ -99,9 +99,7 @@ Les exemples suivants peuvent vous aider lors de la recherche de ressources de c
 * Pour rechercher toutes les ressources créées entre le 16 mai 2018 et 20 mai 2018, entrez la commande suivante.
 
     `ibmcloud resource search "creation_date:[2018-05-16T00:00:00Z TO 2018-05-20T00:00:00Z]"`
-    
+
 * Pour rechercher toutes les ressources dont le nom commence par "my", classées par type, entrez la commande suivante.
 
     `ibmcloud resource search 'name:my*' -s type`
-
-

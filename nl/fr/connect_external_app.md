@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-07"
+  years: 2015, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -37,6 +37,7 @@ Si vous souhaitez supprimer des instances de service ou consulter les informatio
 {: tip}
 
 ## Services avec clés de service
+{: #service_keys}
 
 Les services suivants vous fournissent des clés de service pour un usage externe :
 

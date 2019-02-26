@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2018
-lastupdated: "2018-01-09"
+  years: 2018, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -11,12 +11,13 @@ lastupdated: "2018-01-09"
 {:shortdesc: .shortdesc}
 {:tip: .tip}
 {:note: .note}
+{:important: .important}
 
 
 # Meilleures pratiques pour l'organisation des ressources dans un groupe de ressources
 {: #bp_resourcegroups}
 
-Un groupe de ressources est une fonction permettant d'organiser vos [ressources](/docs/resources/acct_resources.html#resource) de compte à des fins de contrôle d'accès et de facturation. Si vous êtes habitué à utiliser les espaces Cloud Foundry, vous pouvez être tenté d'organiser les ressources dans des groupes de ressources de la même manière que vous les organisiez dans des espaces. Tout élément pouvant être créé, géré et inclus dans un groupe de ressources est appelé une ressource. Il n'est pas possible d'ajouter d'utilisateurs à des groupes de ressources. Seules des ressources peuvent être ajoutées. 
+Un groupe de ressources est une fonction permettant d'organiser vos [ressources](/docs/resources?topic=resources-resource) de compte à des fins de contrôle d'accès et de facturation. Si vous êtes habitué à utiliser les espaces Cloud Foundry, vous pouvez être tenté d'organiser les ressources dans des groupes de ressources de la même manière que vous les organisiez dans des espaces. Tout élément pouvant être créé, géré et inclus dans un groupe de ressources est appelé une ressource. Il n'est pas possible d'ajouter d'utilisateurs à des groupes de ressources. Seules des ressources peuvent être ajoutées. 
 
 Actuellement, tous les services ne prennent pas en charge l'utilisation du {{site.data.keyword.Bluemix_notm}} contrôle d'accès IAM (Identity and Access Management) et l'affectation à un groupe de ressources. Les services activés par IAM vous invitent à affecter de nouvelles instances de service à un groupe de ressources lors de leur création à partir du catalogue. L'accès aux ressources d'un groupe de ressources et au groupe lui-même est géré par IAM. En utilisant des rôles IAM, vous pouvez permettre aux utilisateurs d'accéder aux ressources organisées dans les groupes de ressources. Les rôles IAM peuvent également vous permettre d'afficher, de modifier et d'ajouter des instances de service dans un groupe de ressources ou de gérer l'accès à ce dernier.
 
@@ -32,8 +33,9 @@ Les rôles, les espaces et les organisations Cloud Foundry sont séparés des gr
 
 
 ## Configuration de vos groupes de ressources
+{: #setuprgs}
 
-Tous les utilisateurs disposent d'un groupe de ressources unique par défaut pouvant être renommé. Affectez le rôle Editeur ou Administrateur à tous les services de compte pour créer des groupes de ressources. Si vous avez un compte facturable, vous pouvez créer plusieurs groupes afin d'organiser vos ressources. Ainsi, vous pouvez :
+Tous les utilisateurs disposent d'un groupe de ressources unique par défaut pouvant être renommé. Affectez le rôle Editeur ou Administrateur à tous les services de gestion des comptes pour créer des groupes de ressources. Si vous avez un compte facturable, vous pouvez créer plusieurs groupes afin d'organiser vos ressources. Ainsi, vous pouvez :
 
 * Affecter l'accès à un ensemble de ressources en utilisant un nombre minimal de règles 
 * Afficher par informations d'utilisation de groupe de ressources à des fins de facturation 
@@ -46,17 +48,19 @@ Pour créer un groupe de ressources, procédez comme suit :
 4. Entrez un nom pour le groupe de ressources.
 5. Cliquez sur **Ajouter**.
 
-
 ## Ajout de ressources à un groupe de ressources
+{: #addingtorgs}
 
 Les services activés à l'aide du contrôle d'accès IAM appartiennent à un groupe de ressources et non à un espace ou à une organisation Cloud Foundry. Lorsque vous créez une instance de service pour l'un de ces services à partir du catalogue, vous êtes invité à affecter l'instance à un groupe de ressources. 
 
-**Important** : La sélection du groupe de ressources au moment de la création de l'instance est définitive et ne peut pas être modifiée.
+Votre sélection de groupe de ressource au moment de la création de l'instance est définitive et ne peut pas être modifiée.
+{: important}
 
-Lorsque des services supplémentaires permettent l'affectation à des groupes de ressources ainsi que l'utilisation du contrôle d'accès IAM, vous recevez des notifications sur votre liste de ressources si vous disposez d'instances de service Cloud Foundry éligibles à la migration. En [migrant une instance de service vers un groupe de ressources](/docs/resources/instance_migration.html), vous créez une instance liée dans un groupe de ressources de votre choix et l'instance Cloud Foundry devient un alias. 
+Lorsque des services supplémentaires permettent l'affectation à des groupes de ressources ainsi que l'utilisation du contrôle d'accès IAM, vous recevez des notifications sur votre liste de ressources si vous disposez d'instances de service Cloud Foundry éligibles à la migration. En [migrant une instance de service vers un groupe de ressources](/docs/resources?topic=resources-migrate), vous créez une instance liée dans un groupe de ressources de votre choix et l'instance Cloud Foundry devient un alias. 
 
 
 ## Affectation de l'accès à des groupes de ressources et aux ressources s'y trouvant
+{: #assigning_access_rgs}
 
 En créant des règles, vous octroyez l'accès aux utilisateurs ou aux groupes d'utilisateurs organisés dans des groupes d'accès. Les règles d'accès définissent une cible, qui est généralement une instance de service ou toutes les instances d'un service d'un groupe de ressources, qui définit le type d'accès autorisé. Il existe deux types de règle d'accès que vous devez affecter en tant que propriétaire de compte afin de permettre aux utilisateur de votre compte d'accéder aux ressources des groupes de ressources :
 
@@ -79,6 +83,7 @@ Si vous souhaitez qu'un utilisateur puisse créer une instance de service et l'a
 
 
 ## Exemples de règle d'accès
+{: #sample_policies}
 
 Consultez les exemples de règle d'accès suivants pour déterminer plus facilement comment affecter l'accès à des ressources de votre compte faisant partie de groupes de ressources.
 
@@ -88,8 +93,9 @@ Consultez les exemples de règle d'accès suivants pour déterminer plus facilem
 4. Règle qui octroie à l'utilisateur le rôle de plateforme “Administrateur” pour l'ensemble du compte (tous les services activés par IAM). Une règle avec ces caractéristiques permet à l'utilisateur d'effectuer des actions de plateforme sur les ressources de l'ensemble du compte et permet également d'effectuer des actions de gestion sur le compte, telles que la gestion des groupes de ressources dans le compte.
 
 ## Exemples de cas d'utilisation
+{: #usecase_examples}
 
-Pour chacun de ces cas d'utilisation, si vous souhaitez que les utilisateurs d'un groupe aient tous le même niveau d'accès, ajoutez-les à un [groupe d'accès](/docs/iam/groups.html#groups). L'utilisation de groupes d'accès permet de réduire de manière significative le nombre de règles d'accès. En effet, tous les membres du groupe héritent de l'accès affecté au groupe.
+Pour chacun de ces cas d'utilisation, si vous souhaitez que les utilisateurs d'un groupe aient tous le même niveau d'accès, ajoutez-les à un [groupe d'accès](/docs/iam?topic=iam-groups). L'utilisation de groupes d'accès permet de réduire de manière significative le nombre de règles d'accès. En effet, tous les membres du groupe héritent de l'accès affecté au groupe.
 {: tip}
 
 <ol>

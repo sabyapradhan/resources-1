@@ -14,7 +14,7 @@ lastupdated: "2019-01-28"
 Wenn Sie über eine Serviceinstanz verfügen, die erstellt und an Apps in einer einzigen Region gebunden wurde, können Sie diese Serviceinstanz mit einer der folgenden Methoden in einer anderen Region verwenden:
 {: shortdesc}
 
-  * Verwenden Sie die Serviceberechtigungsnachweise, um Ihre App-Instanz direkt zu konfigurieren. Ausführliche Informationen finden Sie in [Verbindung von Services zu externen Apps herstellen](/docs/resources?topic=externalapp).
+  * Verwenden Sie die Serviceberechtigungsnachweise, um Ihre App-Instanz direkt zu konfigurieren. Ausführliche Informationen finden Sie in [Verbindung von Services zu externen Apps herstellen](/docs/resources?topic=resources-externalapp#externalapp).
   * Erstellen Sie einen vom Benutzer bereitgestellten Service als Bridge.
 
 	Führen Sie die folgenden Schritte aus, um eine Serviceinstanz zu verwenden, die in einer anderen Region existiert:
