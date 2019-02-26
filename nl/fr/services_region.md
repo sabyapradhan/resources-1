@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2019-02-06"
+lastupdated: "2019-01-23"
 
 ---
 {:new_window: target="_blank"}
@@ -61,10 +61,10 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Continuous Delivery | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Hébergé à Washington DC | Hébergé à Tokyo | 
 | Cost and Asset Management | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Data Store for Memcache | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
-| Databases for Elasticsearch | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
-| Databases for PostgreSQL | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
-| Databases for Redis | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
-| Databases for etcd | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Databases for Elasticsearch | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Hébergé à Tokyo | 
+| Databases for Etcd | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Hébergé à Tokyo | 
+| Databases for PostgreSQL | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Hébergé à Tokyo | 
+| Databases for Redis | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Hébergé à Tokyo | 
 | Db2 | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
 | Db2 hébergé | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
 | Db2 Warehouse | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
@@ -96,10 +96,10 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Language Translator | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
 | Lift CLI | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Log Analysis | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
-| MQ | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
+| MQ | Hébergé à Dallas | Hébergé à Londres | Indisponible | Hébergé à Sydney | Indisponible | Indisponible | 
 | Machine Learning | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Hébergé à Tokyo | 
 | Master Data Management | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
-| Messages for RabbitMQ | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Messages for RabbitMQ | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Hébergé à Tokyo | 
 | Mobile Foundation | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
 | Surveillance | Hébergé à Dallas | Hébergé à Londres | Syndiqué avec Dallas | Hébergé à Sydney | Indisponible | Indisponible | 
 | Natural Language Classifier | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Indisponible | Hébergé à Washington DC | Hébergé à Tokyo | 
