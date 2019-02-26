@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2018
-lastupdated: "2018-01-09"
+  years: 2018, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -11,12 +11,13 @@ lastupdated: "2018-01-09"
 {:shortdesc: .shortdesc}
 {:tip: .tip}
 {:note: .note}
+{:important: .important}
 
 
 # Procedure ottimali per organizzare le risorse in un gruppo di risorse
 {: #bp_resourcegroups}
 
-Un gruppo di risorse è una funzione che usi per organizzare le [risorse](/docs/resources/acct_resources.html#resource) del tuo account per scopi di controllo dell'accesso e fatturazione. Se hai dimestichezza con l'utilizzo di spazio Cloud Foundry, pensa all'organizzazione delle risorse in gruppi di risorse come qualcosa di simile al modo in cui organizzavi le risorse negli spazi. Una risorsa è qualsiasi cosa possa essere creata, gestita e contenuta in un gruppo di risorse. Gli utenti non vengono aggiunti ai gruppi di risorse. Solo le risorse possono essere aggiunte. 
+Un gruppo di risorse è una funzione che usi per organizzare le [risorse](/docs/resources?topic=resources-resource) del tuo account per scopi di controllo dell'accesso e fatturazione. Se hai dimestichezza con l'utilizzo di spazio Cloud Foundry, pensa all'organizzazione delle risorse in gruppi di risorse come qualcosa di simile al modo in cui organizzavi le risorse negli spazi. Una risorsa è qualsiasi cosa possa essere creata, gestita e contenuta in un gruppo di risorse. Gli utenti non vengono aggiunti ai gruppi di risorse. Solo le risorse possono essere aggiunte. 
 
 Al momento, non tutti i servizi supportano l'utilizzo del controllo dell'accesso {{site.data.keyword.Bluemix_notm}} IAM (Identity and Access Management) e l'assegnazione a un gruppo di risorse. I servizi abilitati a IAM ti richiedono di assegnare le nuove istanze del servizio a un gruppo di risorse quando ne esegui la creazione dal catalogo. L'accesso alle risorse in un gruppo di risorse e al gruppo stesso viene gestito da IAM. Utilizzando i ruoli IAM, puoi fornire agli utenti l'accesso alle risorse organizzate all'interno dei gruppi di risorse. I ruoli IAM possono inoltre fornire la capacità di visualizzare, modificare, aggiungere nuove istanze o gestire l'accesso a un gruppo di risorse.
 
@@ -32,6 +33,7 @@ I ruoli, gli spazi e le organizzazioni Cloud Foundry sono chiaramente separati d
 
 
 ## Configurazione dei tuoi gruppi di risorse
+{: #setuprgs}
 
 Tutti gli utenti ottengono un solo gruppo di risorse per impostazione predefinita che può essere ridenominato. Assegna il ruolo di editor o amministratore a tutti i servizi di gestione account per creare i gruppi di risorse. Se hai un account fatturabile, puoi creare più di un gruppo di risorse per organizzare le tue risorse. Organizzando le risorse in gruppi di risorse differenti, puoi:
 
@@ -46,17 +48,19 @@ Per creare un nuovo gruppo di risorse, effettua le seguenti operazioni:
 4. Immetti un nome per il tuo gruppo di risorse.
 5. Fai clic su **Aggiungi**.
 
-
 ## Aggiunta di risorse a un gruppo di risorse
+{: #addingtorgs}
 
 I servizi abilitati utilizzando il controllo dell'accesso IAM appartengono a un gruppo di risorse invece che a un'organizzazione o uno spazio Cloud Foundry. Quando crei un'istanza del servizio per uno di questi servizi dal catalogo, ti viene richiesto di assegnare l'istanza ad un gruppo di risorse. 
 
-**Importante**: la tua selezione del gruppo di risorse al momento della creazione dell'istanza è finale e non può essere modificata.
+La tua selezione del gruppo di risorse al momento della creazione dell'istanza è finale e non può essere modificata.
+{: important}
 
-Col crescere del numero di servizi che abilitano l'assegnazione ai gruppi di risorse e l'utilizzo del controllo dell'accesso IAM, ti viene inviata una notifica sul tuo elenco risorse se hai istanze del servizio Cloud Foundry idonee per la migrazione. [Migrando un'istanza del servizio a un gruppo di risorse](/docs/resources/instance_migration.html), stai creando una nuova istanza collegata a un gruppo di risorse di tua scelta e l'istanza Cloud Foundry diventa un alias. 
+Col crescere del numero di servizi che abilitano l'assegnazione ai gruppi di risorse e l'utilizzo del controllo dell'accesso IAM, ti viene inviata una notifica sul tuo elenco risorse se hai istanze del servizio Cloud Foundry idonee per la migrazione. [Migrando un'istanza del servizio a un gruppo di risorse](/docs/resources?topic=resources-migrate), stai creando una nuova istanza collegata a un gruppo di risorse di tua scelta e l'istanza Cloud Foundry diventa un alias. 
 
 
 ## Assegnazione dell'accesso ai gruppi di risorse e alle risorse al loro interno
+{: #assigning_access_rgs}
 
 Fornisci l'accesso per gli utenti o i gruppi di utenti organizzati in gruppi di accesso creando le politiche di accesso. Le politiche di accesso impostano una destinazione, normalmente un'istanza del servizio o tutte le istanze di un servizio in un gruppo di risorse e un ruolo, che definisce quale tipo di accesso viene consentito. Esistono due tipi di politiche di accesso di cui hai bisogno da assegnare a un proprietario dell'account per abilitare gli utenti ad accedere al tuo account per utilizzare le risorse nei gruppi di risorse:
 
@@ -79,6 +83,7 @@ Se vuoi che un utente crei una nuova istanza del servizio e la aggiunga a un gru
 
 
 ## Politiche di accesso di esempio
+{: #sample_policies}
 
 Controlla le seguenti politiche di accesso di esempio per aiutarti a determinare come potresti assegnare l'accesso alle risorse nel tuo account che appartengono ai gruppi di risorse.
 
@@ -88,8 +93,9 @@ Controlla le seguenti politiche di accesso di esempio per aiutarti a determinare
 4. Una politica che concede all'utente il ruolo della piattaforma “Amministratore” nell'intero account (tutti i servizi gestiti IAM). Una politica con questi dettagli consente all'utente di eseguire tutte le azioni della piattaforma su qualsiasi risorsa nell'intero account e inoltre include la capacità di eseguire le azioni di gestione della piattaforma nell'account come la gestione dei gruppi di risorse nell'account.
 
 ## Esempi di casi di utilizzo
+{: #usecase_examples}
 
-Per ognuno di questi casi di utilizzo, se hai un gruppo di utenti che vuoi abbiano tutti lo stesso livello di accesso, aggiungili a un [gruppo di accesso](/docs/iam/groups.html#groups). Utilizzando i gruppi di accesso, puoi usare un numero minimo di politiche di accesso poiché tutti i membri del gruppo di accesso ereditano qualsiasi accesso assegnato al gruppo.
+Per ognuno di questi casi di utilizzo, se hai un gruppo di utenti che vuoi abbiano tutti lo stesso livello di accesso, aggiungili a un [gruppo di accesso](/docs/iam?topic=iam-groups). Utilizzando i gruppi di accesso, puoi usare un numero minimo di politiche di accesso poiché tutti i membri del gruppo di accesso ereditano qualsiasi accesso assegnato al gruppo.
 {: tip}
 
 <ol>

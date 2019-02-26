@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-10-11"
+  years: 2015, 2019
+lastupdated: "2019-02-05"
 
 ---
 
@@ -26,11 +26,11 @@ I seguenti servizi sono classificati come di Livello 1:
   * MongoDB da Compose
   * {{site.data.keyword.objectstorageshort}}
   * PostgreSQL da Compose
-  * {{site.data.keyword.ssofull}}
+  * {{site.data.keyword.appid_short}}
 
-Per ulteriori informazioni sui termini di utilizzo per i servizi, consulta [Termini e informazioni particolari di {{site.data.keyword.Bluemix_notm}}](/docs/overview/terms-of-use/notices.html#terms).
+Per saperne di più sui termini di utilizzo per i servizi, vedi [Termini e informazioni particolari di {{site.data.keyword.Bluemix_notm}}](/docs/overview?topic=overview-terms).
 
-## Deprecazione servizio
+## Indicazione dell'obsolescenza di un servizio
 {: #service_deprecation}
 
 IBM fornisce un avviso di almeno 30 giorni se intende sospendere o sostituire un servizio generalmente disponibile. Se non viene fornita una sostituzione equivalente, per almeno 12 mesi dalla data dell'annuncio, IBM si impegna a prendere tutte le misure necessarie per continuare il funzionamento e il supporto delle istanze del servizio distribuite precedentemente.

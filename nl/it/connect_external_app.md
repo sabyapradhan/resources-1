@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-07"
+  years: 2015, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -39,6 +39,7 @@ Se vuoi eliminare delle istanze del servizio oppure controllare le informazioni 
 {: tip}
 
 ## Servizi con chiavi del servizio
+{: #service_keys}
 
 I seguenti servizi forniscono le chiavi del servizio per l'utilizzo esterno:
 

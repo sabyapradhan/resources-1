@@ -28,7 +28,7 @@ lastupdated: "2019-02-05"
   * PostgreSQL by Compose
   * {{site.data.keyword.appid_short}}
 
-サービスのご利用条件について詳しくは、[{{site.data.keyword.Bluemix_notm}} のご利用条件と特記事項](/docs/overview/terms-of-use/notices.html#terms)を参照してください。
+サービスのご利用条件について詳しくは、[{{site.data.keyword.Bluemix_notm}} のご利用条件と特記事項](/docs/overview?topic=overview-terms)を参照してください。
 
 ## サービスの非推奨化
 {: #service_deprecation}

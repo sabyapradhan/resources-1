@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-07"
+  years: 2015, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -36,6 +36,7 @@ lastupdated: "2018-11-07"
 {: tip}
 
 ## 서비스 키가 있는 서비스
+{: #service_keys}
 
 다음 서비스는 외부적으로 사용할 서비스 키를 제공합니다.
 

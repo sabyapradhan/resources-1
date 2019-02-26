@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2018
-lastupdated: "2018-11-15"
+  years: 2018, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2018-11-15"
 # Concessione agli utenti dell'accesso eseguire operazioni di tag sulle risorse	
 {: #access}	
 	
-In qualità di proprietario dell'account, potresti voler delegare parte della responsabilità delle operazioni di tag sulle risorse. Per farlo, puoi concedere l'accesso ad altri utenti nell'account per aggiungere tag alle risorse o per rimuoverle. Per poter aggiungere tag a una risorsa, agli utenti nell'account deve essere assegnato l'accesso appropriato. L'accesso ai servizi che appartengono a un gruppo di risorse è gestito dalle politiche di accesso {{site.data.keyword.Bluemix}} IAM (Identity and Access Management) e l'accesso ai servizi che appartengono a un'organizzazione e uno spazio Cloud Foundry  gestiti dai ruoli per l'organizzazione e lo spazio Cloud Foundry.
+In qualità di proprietario dell'account, potresti voler delegare parte della responsabilità delle operazioni di tag sulle risorse. Per farlo, puoi concedere l'accesso ad altri utenti nell'account per aggiungere tag alle risorse o per rimuoverle. Per poter aggiungere tag a una risorsa, agli utenti nell'account deve essere assegnato l'accesso appropriato. L'accesso ai servizi che appartengono a un gruppo di risorse è gestito dalle politiche di accesso {{site.data.keyword.Bluemix}} IAM (Identity and Access Management) e l'accesso ai servizi che appartengono a un'organizzazione e uno spazio Cloud Foundry gestiti dai ruoli per l'organizzazione e lo spazio Cloud Foundry.	
 {: shortdesc}
 
 ## Autorizzazioni delle operazioni di tag
@@ -27,8 +27,8 @@ Le tag sono visibili a qualsiasi utente in un account. Dopo essere stata aggiunt
 | Tipo di risorsa | Ruolo |
 |--------|---------------|
 | Abilitata a IAM | Editor o Amministratore sulla risorsa | 
-| Cloud Foundry | Ruolo Sviluppatore sullo spazio a cui appartiene la risorsa. | 
-| Infrastruttura classica* | Autorizzazione di visualizzazione dei dettagli hardware o autorizzazione di visualizzazione dei dettagli del server virtuale |
+| Cloud Foundry | Ruolo Sviluppatore sullo spazio a cui appartiene la risorsa.  | 
+| Infrastruttura classica*| Autorizzazione di visualizzazione dei dettagli hardware o autorizzazione di visualizzazione dei dettagli del server virtuale |
 | Cloud Object Storage S3 sull'infrastruttura classica | Autorizzazione di gestione dell'archiviazione |
 {: caption="Tabella 1. Ruoli richiesti per l'aggiunta e la rimozione di tag" caption-side="top"}
 
@@ -49,7 +49,7 @@ Le risorse che appartengono a un gruppo di risorse sono gestite dalle politiche 
   7. Fai clic su **Assegna**.
 
 ## Concessione dell'accesso per l'esecuzione di operazioni di tag su risorse Cloud Foundry
-{: #cf}
+{: #cf_tag_access}
 
 Le risorse che appartengono a un'organizzazione e a uno spazio Cloud Foundry sono gestite dai ruoli di organizzazione e spazio Cloud Foundry. Completa la seguente procedura per assegnare il ruolo dello spazio Sviluppatore per consentire a un utente di eseguire operazioni di tag su risorse Cloud Foundry:
 
