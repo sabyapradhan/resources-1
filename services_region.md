@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-02-26"
+lastupdated: "2019-02-27"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -66,6 +66,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Cost and Asset Management | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Data Store for Memcache | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Databases for Elasticsearch | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
+| Databases for MongoDB | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Databases for PostgreSQL | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Databases for Redis | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Databases for etcd | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
