@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-01-29"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2019-01-28"
 # Tags de amostra e sintaxe
 {: #sample-and-syntax}
 
-É possível usar tags para ajudar a organizar e gerenciar seus recursos. Considere a gravação de tags como pares `key:value` para ajudar a organizar seus ambientes de desenvolvimento, projetos, conformidade e otimização em toda a sua organização.
+É possível usar tags para ajudar a organizar e gerenciar seus recursos. Considere escrever tags como pares `key:value` para ajudar a organizar seus ambientes de desenvolvimento, projetos, conformidade e otimização em toda a sua organização.
 
 | Tipo | Exemplos | Propósito |
 |------|----------|---------|

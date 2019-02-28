@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 2018, 2019
+  years: 2018,2019
 lastupdated: "2019-01-29"
 
 ---
@@ -23,7 +23,8 @@ Rufen Sie **Verwalten > Konto** auf und wählen Sie **Tags** aus, um eine vollst
 ## Tagregeln und -einschränkungen
 {: #limits}
 
-Die maximale Größe eines Tags beträgt 128 Zeichen. Zulässige Zeichen sind A-Z, 0-9, Leerraum, Unterstreichungszeichen, Bindestrich, Punkt und Doppelpunkt. Bei Tags wird die Groß-/Kleinschreibung nicht beachtet. Durch Doppelpunkte wird der Tag zu einer Zeichenfolge, in der zwei logische Teile isoliert werden wie bei einem `Schlüssel:Wert`-Paar. Es ist nicht möglich, einen Doppelpunkt in einem Tag zu verwenden, ohne dass ein solches Paar erstellt wird. Kommas werden zum Trennen von Tags verwendet und dürfen deshalb nicht im Tagnamen verwendet werden.
+Die maximale Größe eines Tags beträgt 128 Zeichen. Zulässige Zeichen sind A-Z, 0-9, Leerraum, Unterstreichungszeichen, Bindestrich, Punkt und Doppelpunkt. Bei Tags wird die Groß-/Kleinschreibung nicht beachtet. Durch Doppelpunkte wird der Tag zu einer Zeichenfolge, in der zwei logische Teile isoliert werden wie bei einem `Schlüssel:Wert`-Paar. Es ist nicht möglich, einen Doppelpunkt in einem Tag zu verwenden, ohne dass ein solches Paar erstellt wird. Kommas werden zum Trennen von Tags verwendet und dürfen deshalb nicht im Tagnamen verwendet werden. 
+
 
 ## Tags zu einer Ressource hinzufügen und entfernen
 {: #add-remove}
@@ -53,7 +54,7 @@ Derselbe Tag kann von verschiedenen Benutzern zu unterschiedlichen Ressourcen in
 {: #resell}
 
 Tags sind für alle Mitglieder eines Kontos sichtbar.
-Wenn Sie beispielsweise Vertriebspartner mehrerer Unternehmen sind und Ihr Konto demzufolge mit verschiedenen Organisationen verknüpft ist, ist es Ihnen möglicherweise ein Anliegen, dass Ihre Kunden keine Informationen in Tags speichern, durch die andere Benutzer desselben Kontos an sensible Daten gelangen. 
+Wenn Sie beispielsweise Vertriebspartner mehrerer Unternehmen sind und Ihr Konto demzufolge mit verschiedenen Organisationen verknüpft ist, ist es Ihnen möglicherweise ein Anliegen, dass Ihre Kunden keine Informationen in Tags speichern, durch die andere Benutzer desselben Kontos an sensible Daten gelangen.
 
 Geben Sie zum Steuern der Sichtbarkeit von Tags die Tagrichtlinien weiter und weisen Sie Benutzer darauf hin, dass Tags innerhalb des gesamten Kontos sichtbar sind. 
 

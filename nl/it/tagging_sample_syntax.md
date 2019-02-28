@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-01-29"
 
 ---
 
@@ -15,7 +15,7 @@ lastupdated: "2019-01-28"
 # Tag di esempio e sintassi
 {: #sample-and-syntax}
 
-Puoi utilizzare le tag come ausilio nell'organizzazione e nella gestione delle tue risorse. Considera di scrivere le tag come coppie chiave:valore (`key:value`) per aiutarti a organizzare i tuoi ambienti di sviluppo e i progetti, la conformità e l'ottimizzazione in tutta la tua organizzazione.
+Puoi utilizzare le tag come ausilio nell'organizzazione e nella gestione delle tue risorse. Considera di scrivere le tag come coppie chiave:valore (`key:value`) per aiutarti a organizzare i tuoi ambienti di sviluppo, i progetti, la conformità e l'ottimizzazione in tutta la tua organizzazione.
 
 | Tipo | Esempi | Scopo |
 |------|----------|---------|

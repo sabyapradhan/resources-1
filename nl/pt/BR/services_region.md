@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2019-01-23"
+lastupdated: "2019-01-31"
 
 ---
 {:new_window: target="_blank"}
@@ -65,10 +65,10 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 | Continuous Delivery | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Cost and Asset Management | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Data Store for Memcache | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
-| Databases for Elasticsearch | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Hospedado em Tóquio | 
-| Databases for Etcd | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Hospedado em Tóquio | 
-| Databases for PostgreSQL | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Hospedado em Tóquio | 
-| Databases for Redis | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Hospedado em Tóquio | 
+| Databases for Elasticsearch | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Databases for Etcd | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Databases for PostgreSQL | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Databases for Redis | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | DB2 | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Db2 Hosted | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | DB2 Warehouse | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
@@ -100,10 +100,10 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 | Language Translator | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Lift CLI | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Log Analysis | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
-| MQ | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
+| MQ | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Machine Learning | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
 | Master Data Management | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
-| Messages for RabbitMQ | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Hospedado em Tóquio | 
+| Messages for RabbitMQ | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Mobile Foundation | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Monitoring | Hospedado em Dallas | Hospedado em Londres | Organizado em Dallas | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Natural Language Classifier | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Não está disponível | Hospedado em Washington, D.C. | Hospedado em Tóquio | 

@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2019
-lastupdated: "2019-01-28"
+  years: 2015, 2018
+lastupdated: "2018-11-28"
 
 ---
 
@@ -29,8 +29,8 @@ Conclua as etapas a seguir para incluir uma credencial em um serviço que é ger
 
 1. Na lista de recursos, selecione o nome do serviço para abrir a página de detalhes do serviço. Em seguida, selecione a guia Credenciais e clique em **Nova credencial +**.
 2. No diálogo Incluir nova credencial, forneça um **Nome**.
-3. Especifique a função. Este valor configura a função de acesso do serviço IAM. Para obter mais informações, veja: [Acesso ao IAM](/docs/iam?topic=iam-userroles)
-4. Opcionalmente, é possível fornecer um ID de serviço permitindo que o IAM gere um valor exclusivo para você ou fornecendo um ID de serviço existente. Para obter mais informações, consulte: [Criando e trabalhando com IDs de serviço](/docs/iam?topic=iam-serviceids)
+3. Especifique a função. Este valor configura a função de acesso do serviço IAM. Para obter mais informações, veja: [Acesso ao IAM](/docs/iam/users_roles.html#userroles)
+4. Opcionalmente, é possível fornecer um ID de serviço permitindo que o IAM gere um valor exclusivo para você ou fornecendo um ID de serviço existente. Para obter mais informações, veja: [Criando e gerenciando IDs de serviço](/docs/iam/serviceid.html#serviceids)
 5. Opcionalmente, é possível fornecer mais parâmetros como um objeto JSON válido que contém parâmetros de configuração específicos do serviço, fornecidos sequencialmente ou em um arquivo.
 
   A maioria dos serviços não requer parâmetros extras e, para serviços que fazem isso, cada serviço define sua própria lista exclusiva de parâmetros. Para obter uma lista de parâmetros de configuração suportados, veja a documentação para a oferta de serviços específica.
@@ -38,7 +38,7 @@ Conclua as etapas a seguir para incluir uma credencial em um serviço que é ger
 6. Clique em **Incluir** para gerar a nova credencial de serviço.
 
 ## Incluindo uma credencial ao ligar um serviço Cloud Foundry
-{: #cf_credential}
+{: #cf}
 
 Os serviços do Cloud Foundry podem gerar uma chave de serviço, também conhecida como credencial. Credenciais são específicas do serviço e variam com base em como cada serviço
 define as credenciais que eles precisam gerar. Uma credencial de serviço pode conter um nome do usuário, senha, nome do host, porta e uma URL.

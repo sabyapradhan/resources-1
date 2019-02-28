@@ -14,7 +14,7 @@ lastupdated: "2019-01-28"
 Se disponi di un'istanza di servizio creata e associata mediante bind ad applicazioni in un'unica regione, puoi utilizzare questa istanza in un'altra regione utilizzando uno dei seguenti metodi:
 {: shortdesc}
 
-  * Utilizza le credenziali del servizio per configurare direttamente l'istanza della tua applicazione. Per i dettagli, vedi [Connessione dei servizi alle applicazioni esterne](/docs/resources?topic=resources-externalapp#externalapp).
+  * Utilizza le credenziali del servizio per configurare direttamente l'istanza della tua applicazione. Per i dettagli, vedi [Connessione dei servizi alle applicazioni esterne](/docs/resources?topic=externalapp).
   * Crea come ponte un servizio fornito dall'utente.
 
 	Per utilizzare un'istanza del servizio che si trova

@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 2018, 2019
+  years: 2018,2019
 lastupdated: "2019-01-29"
 
 ---
@@ -24,6 +24,7 @@ Para ver una lista completa de las etiquetas de su cuenta, vaya a **Gestionar > 
 {: #limits}
 
 El tamaño máximo de una etiqueta es de 128 caracteres. Los caracteres permitidos son A-Z, 0-9, espacios en blanco, signo de subrayado, guion, punto y signo de dos puntos, y las etiquetas no distinguen entre mayúsculas y minúsculas. El signo de dos puntos convierte la etiqueta en una serie en la que puede aislar dos partes lógicas, como un par `clave:valor`. No puede utilizar un signo de dos puntos en una etiqueta sin crear este emparejamiento. Una coma separa etiquetas y no se pueden utilizar en el nombre de la propia etiqueta.
+
 
 ## Adición y eliminación de etiquetas en un recurso
 {: #add-remove}
