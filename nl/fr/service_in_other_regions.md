@@ -14,7 +14,7 @@ lastupdated: "2019-01-28"
 Si une instance de service est créée et liée à des applications dans une région, vous pouvez l'utiliser dans une autre région de l'une des façons suivantes :
 {: shortdesc}
 
-  * Utilisez les données d'identification du service pour configurer votre instance d'application directement. Pour plus de détails, voir [Connexion de services à des applications externes](/docs/resources?topic=resources-externalapp#externalapp).
+  * Utilisez les données d'identification du service pour configurer votre instance d'application directement. Pour plus de détails, voir [Connexion de services à des applications externes](/docs/resources?topic=externalapp).
   * Créez un service fourni par l'utilisateur comme pont.
 
 	Pour utiliser une instance de service qui existe dans une autre région, procédez comme suit :
