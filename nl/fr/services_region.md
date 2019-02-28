@@ -3,129 +3,129 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2019-01-10"
+lastupdated: "2019-01-23"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
 
-# Service availability
+# Disponibilité des services
 {: #services_region}
 
-{{site.data.keyword.Bluemix}} makes it easy for you to implement, host, and scale services and apps. You can focus on your application logic and application design.
+{{site.data.keyword.Bluemix}} simplifie l'implémentation, l'hébergement et la mise à l'échelle des services et des applications. Ainsi, vous pouvez vous consacrer à la logique et à la conception de l'application.
 {:shortdesc}
 
-Not all services are available for purchase in every {{site.data.keyword.Bluemix_notm}} location. And, even if the service is available to purchase in that location, the service might be hosted in a different location. The following table shows the services that are provided by IBM. For the full list of resources that are available, see the [catalog](https://cloud.ibm.com/catalog){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") in the {{site.data.keyword.Bluemix_notm}} console. 
+Les services ne sont pas tous disponibles à l'achat sur tous les emplacements {{site.data.keyword.Bluemix_notm}}. De plus, même si le service y est disponible à l'achat, il se peut qu'il soit hébergé ailleurs. Le tableau ci-dessous répertorie les services qui sont fournis par IBM. Pour obtenir la liste complète des ressources disponibles, voir le [catalogue](https://cloud.ibm.com/catalog){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") dans la console {{site.data.keyword.Bluemix_notm}}. 
 
-Services that are hosted globally create resources that operate across multiple locations. For example, with {{site.data.keyword.cos_full_notm}}, you can choose to disperse data across a single [data center](/docs/overview/zero_downtime.html#data_center), or even a combination of locations by [selecting the endpoint](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) where your application sends REST API requests.
+Les services avec hébergement global créent des ressources qui opèrent à travers plusieurs emplacements. Par exemple, avec {{site.data.keyword.cos_full_notm}}, vous pouvez opter de disséminer les données dans un seul [centre de données](/docs/overview/zero_downtime.html#data_center), ou même une combinaison d'emplacements en [sélectionnant le noeud final](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) auquel votre application enverra les demandes d'API REST.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
 <!-- Also, do not change the number of dashes in the second line. -->
 <!-- Ping @natimpe for details. -->
 
-| Service | Dallas | London | Frankfurt | Sydney | Washington DC | Tokyo |
+| Service | Dallas | Londres | Francfort | Sydney | Washington DC | Tokyo |
 |-----|-----|-----|-----|-----|-----|
-| AI OpenScale | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| API Connect | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Activity Tracker | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
-| Alert Notification | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
-| Analytics Engine | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
-| Apache Spark | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
-| App Connect | Hosted in Dallas | Hosted in London | Not available | Syndicated from Dallas | Not available | Not available | 
-| App ID | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Hosted in Tokyo | 
-| App Launch | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Auto-Scaling | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Automated Accessibility Tester | Hosted in Dallas | Hosted in London | Not available | Syndicated from London | Not available | Not available | 
-| Availability Monitoring | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
-| BigInsights for Apache Hadoop (Subscription) | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Blockchain | Hosted in Dallas | Syndicated from Dallas | Syndicated from Dallas | Syndicated from Dallas | Not available | Not available | 
-| Certificate Manager | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
-| Cloud Foundry Enterprise Environment | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Cloud Object Storage | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
-| Cloudant | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Compare Comply | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Not available | 
-| Compose Enterprise | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Compose for Elasticsearch | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Compose for JanusGraph | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Compose for MongoDB | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Compose for MySQL | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Compose for PostgreSQL | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Compose for RabbitMQ | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Compose for Redis | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Compose for RethinkDB | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Compose for ScyllaDB | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Compose for etcd | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Consult with IBM Cloud Garage | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
-| Continuous Delivery | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Hosted in Tokyo | 
-| Cost and Asset Management | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Data Store for Memcache | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Databases for Elasticsearch | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
-| Databases for Etcd | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
-| Databases for PostgreSQL | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
-| Databases for Redis | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
-| Db2 | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
-| Db2 Hosted | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
-| Db2 Warehouse | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
-| Decision Optimization | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
-| DevOps Insights | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
-| Digital Content Checker | Hosted in Dallas | Hosted in London | Not available | Syndicated from London | Not available | Not available | 
-| Discovery | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Event Management | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
-| Event Streams | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Functions | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Hosted in Tokyo | 
-| Geospatial Analytics | Hosted in Dallas | Hosted in London | Not available | Syndicated from London | Not available | Not available | 
-| Globalization Pipeline | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
-| Historical Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Hyper Protect Crypto Services | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Hyper Protect DBaaS | Not available | Not available | Not available | Not available | Hosted in Washington DC | Not available | 
-| IBM Cognos Dashboard Embedded | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
-| IBM Identity Mixer | Not available | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
-| IBM Managed Financial Data API | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| IBM Simulated Instruments Analytics API | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Information Server | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
-| Informix | Hosted in Dallas | Syndicated from Dallas | Not available | Syndicated from Dallas | Not available | Not available | 
-| Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Internet Services | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
-| Internet of Things Platform | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
-| Investment Portfolio | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Key Protect | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Knowledge Catalog | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
-| Knowledge Studio | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Language Translator | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Lift CLI | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Log Analysis | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
-| MQ | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
-| Machine Learning | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
-| Master Data Management | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
-| Messages for RabbitMQ | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
-| Mobile Foundation | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Monitoring | Hosted in Dallas | Hosted in London | Syndicated from Dallas | Hosted in Sydney | Not available | Not available | 
-| Natural Language Classifier | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Hosted in Washington DC | Hosted in Tokyo | 
-| Natural Language Understanding | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Object Storage OpenStack Swift | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
-| Personality Insights | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Portfolio Optimization | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Predictive Market Scenarios | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Push Notifications | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Real-Time Payments | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| SQL Query | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Secure Gateway | Hosted in Dallas | Hosted in London | Syndicated from Dallas | Syndicated from Dallas | Hosted in Washington DC | Not available | 
-| Security Advisor | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
-| Simulated Historical Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Simulated Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Speech to Text | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Streaming Analytics | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
-| Text to Speech | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Tone Analyzer | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Toolchain | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Hosted in Tokyo | 
-| VMware Solutions | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
-| Visual Recognition | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
-| Voice Agent with Watson | Hosted in Dallas | Not available | Not available | Not available | Hosted in Washington DC | Not available | 
-| Watson Assistant (formerly Conversation) | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Watson Studio | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
-| Weather Company Data | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
-| WebSphere Application Server | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
-| Workload Scheduler | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
-{: caption="Table 1. Service availability" caption-side="top"}
+| AI OpenScale | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| API Connect | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Activity Tracker | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
+| Alert Notification | Hébergé à Dallas | Hébergé à Londres | Indisponible | Hébergé à Sydney | Indisponible | Indisponible | 
+| Analytics Engine | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Hébergé à Tokyo | 
+| Apache Spark | Hébergé à Dallas | Hébergé à Londres | Indisponible | Indisponible | Indisponible | Indisponible | 
+| App Connect | Hébergé à Dallas | Hébergé à Londres | Indisponible | Syndiqué avec Dallas | Indisponible | Indisponible | 
+| App ID | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Hébergé à Tokyo | 
+| App Launch | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Auto-Scaling | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Automated Accessibility Tester | Hébergé à Dallas | Hébergé à Londres | Indisponible | Syndiqué avec Londres | Indisponible | Indisponible | 
+| Availability Monitoring | Hébergé à Dallas | Hébergé à Londres | Indisponible | Hébergé à Sydney | Indisponible | Indisponible | 
+| BigInsights for Apache Hadoop (Abonnement) | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Blockchain | Hébergé à Dallas | Syndiqué avec Dallas | Syndiqué avec Dallas | Syndiqué avec Dallas | Indisponible | Indisponible | 
+| Certificate Manager | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Indisponible | 
+| Cloud Foundry Enterprise Environment | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Cloud Object Storage | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | 
+| Cloudant | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Compare Comply | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Indisponible | Indisponible | Indisponible | 
+| Compose Enterprise | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Compose for Elasticsearch | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Compose for JanusGraph | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Compose for MongoDB | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Compose for MySQL | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Compose for PostgreSQL | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Compose for RabbitMQ | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Compose for Redis | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Compose for RethinkDB | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Compose for ScyllaDB | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Compose for etcd | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Consult with IBM Cloud Garage | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | 
+| Continuous Delivery | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Cost and Asset Management | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Data Store for Memcache | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Databases for Elasticsearch | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Hébergé à Tokyo | 
+| Databases for Etcd | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Hébergé à Tokyo | 
+| Databases for PostgreSQL | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Hébergé à Tokyo | 
+| Databases for Redis | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Hébergé à Tokyo | 
+| Db2 | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
+| Db2 hébergé | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
+| Db2 Warehouse | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
+| Decision Optimization | Hébergé à Dallas | Hébergé à Londres | Indisponible | Indisponible | Indisponible | Indisponible | 
+| DevOps Insights | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Indisponible | 
+| Digital Content Checker | Hébergé à Dallas | Hébergé à Londres | Indisponible | Syndiqué avec Londres | Indisponible | Indisponible | 
+| Discovery | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Event Management | Hébergé à Dallas | Hébergé à Londres | Indisponible | Hébergé à Sydney | Indisponible | Indisponible | 
+| Event Streams | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Fonctions | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Geospatial Analytics | Hébergé à Dallas | Hébergé à Londres | Indisponible | Syndiqué avec Londres | Indisponible | Indisponible | 
+| Globalization Pipeline | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
+| Historical Instrument Analytics | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Hyper Protect Crypto Services | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Hyper Protect DBaaS | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé à Washington DC | Indisponible | 
+| IBM Cognos Dashboard Embedded | Hébergé à Dallas | Hébergé à Londres | Indisponible | Indisponible | Indisponible | Indisponible | 
+| IBM Identity Mixer | Indisponible | Hébergé à Londres | Indisponible | Hébergé à Sydney | Indisponible | Indisponible | 
+| IBM Managed Financial Data API | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| IBM Simulated Instruments Analytics API | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Information Server | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
+| Informix | Hébergé à Dallas | Syndiqué avec Dallas | Indisponible | Syndiqué avec Dallas | Indisponible | Indisponible | 
+| Instrument Analytics | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Internet Services | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | 
+| Internet of Things Platform | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Indisponible | 
+| Investment Portfolio | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Key Protect | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Knowledge Catalog | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Hébergé à Tokyo | 
+| Knowledge Studio | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Language Translator | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Lift CLI | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Log Analysis | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
+| MQ | Hébergé à Dallas | Hébergé à Londres | Indisponible | Hébergé à Sydney | Indisponible | Indisponible | 
+| Machine Learning | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Hébergé à Tokyo | 
+| Master Data Management | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
+| Messages for RabbitMQ | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Hébergé à Tokyo | 
+| Mobile Foundation | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Surveillance | Hébergé à Dallas | Hébergé à Londres | Syndiqué avec Dallas | Hébergé à Sydney | Indisponible | Indisponible | 
+| Natural Language Classifier | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Indisponible | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Natural Language Understanding | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Object Storage OpenStack Swift | Hébergé à Dallas | Hébergé à Londres | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Personality Insights | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Portfolio Optimization | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Predictive Market Scenarios | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Push Notifications | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Real-Time Payments | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| SQL Query | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Secure Gateway | Hébergé à Dallas | Hébergé à Londres | Syndiqué avec Dallas | Syndiqué avec Dallas | Hébergé à Washington DC | Indisponible | 
+| Security Advisor | Hébergé à Dallas | Hébergé à Londres | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Simulated Historical Instrument Analytics | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Simulated Instrument Analytics | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Speech to Text | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Streaming Analytics | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Indisponible | 
+| Text to Speech | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Tone Analyzer | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Toolchain | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Solutions VMware | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | 
+| Visual Recognition | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
+| Voice Agent with Watson | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Hébergé à Washington DC | Indisponible | 
+| Watson Assistant | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Watson Studio | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Hébergé à Tokyo | 
+| Weather Company Data | Hébergé à Dallas | Hébergé à Londres | Indisponible | Hébergé à Sydney | Indisponible | Indisponible | 
+| WebSphere Application Server | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
+| Workload Scheduler | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
+{: caption="Tableau 1. Disponibilité des services" caption-side="top"}
