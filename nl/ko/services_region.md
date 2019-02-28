@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2019-02-13"
+  years: 2015, 2019
+lastupdated: "2019-02-20"
 
 ---
 {:new_window: target="_blank"}
@@ -18,7 +18,7 @@ lastupdated: "2019-02-13"
 
 모든 {{site.data.keyword.Bluemix_notm}} 위치에서 모든 서비스를 구매할 수 있는 것은 아닙니다. 해당 위치에서 서비스를 구매할 수 있는 경우에도 서비스는 다른 위치에서 호스팅될 수 있습니다. 다음 표는 IBM에서 제공하는 서비스를 보여줍니다. 사용 가능한 리소스의 전체 목록을 보려면 {{site.data.keyword.Bluemix_notm}} 콘솔에서 [카탈로그](https://cloud.ibm.com/catalog){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오. 
 
-글로벌로 호스팅되는 서비스는 여러 위치에서 운용되는 리소스를 작성합니다. 예를 들어, {{site.data.keyword.cos_full_notm}}에서 사용자는 애플리케이션이 REST API 요청을 전송하는 [엔드포인트를 선택](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)하여 단일 [데이터 센터](/docs/overview/zero_downtime.html#data_center) 또는 조합된 위치에서 데이터를 분산시키도록 선택할 수 있습니다.
+글로벌로 호스팅되는 서비스는 여러 위치에서 운용되는 리소스를 작성합니다. 예를 들어, {{site.data.keyword.cos_full_notm}}에서 사용자는 애플리케이션이 REST API 요청을 전송하는 [엔드포인트를 선택](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability)하여 단일 [데이터 센터](/docs/overview?topic=overview-zero-downtime#data_center) 또는 조합된 위치에서 데이터를 분산시키도록 선택할 수 있습니다.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -41,11 +41,11 @@ lastupdated: "2019-02-13"
 |BigInsights for Apache Hadoop(구독) | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Blockchain | 댈러스에서 호스팅됨 | 댈러스에서 신디케이트됨 | 댈러스에서 신디케이트됨 | 댈러스에서 신디케이트됨 |사용할 수 없음 |사용할 수 없음 | 
 |Blockchain Platform 2.0 | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
-|Certificate Manager | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
+|Certificate Manager | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 |Cloud Foundry Enterprise Environment | 댈러스에서 호스팅됨 |사용할 수 없음 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 |사용할 수 없음 | 
 |Cloud Object Storage |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |Cloudant | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 
-| Compare Comply | 댈러스에서 호스팅됨 |사용할 수 없음 | 프랑크푸르트에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
+|Compare and Comply | 댈러스에서 호스팅됨 |사용할 수 없음 | 프랑크푸르트에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Compose Enterprise | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 |사용할 수 없음 | 
 |Compose for Elasticsearch | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 |사용할 수 없음 | 
 |Compose for JanusGraph | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 |사용할 수 없음 | 

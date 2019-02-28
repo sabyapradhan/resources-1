@@ -2,7 +2,7 @@
 
 copyright:
 
-  years: 2018,2019
+  years: 2018, 2019
 lastupdated: "2019-01-29"
 
 ---
@@ -23,8 +23,7 @@ Per visualizzare un elenco completo delle tag nel tuo account, vai a **Gestisci 
 ## Regole e limitazioni relative alle operazioni di tag
 {: #limits}
 
-La dimensione massima di una tag è di 128 caratteri. I caratteri consentiti sono A-Z, 0-9, gli spazi vuoti, i caratteri di sottolineatura, i trattini, i punti e i caratteri due punti; le tag non sono sensibili a maiuscole/minuscole. I caratteri due punti trasformano la tag in una stringa in cui puoi isolare due parti logiche, come una coppia `key:value`. Non puoi utilizzare un carattere due punti in una tag senza creare questo accoppiamento. Una virgola separa le tag e non può essere usata all'interno del nome della tag stesso.
-
+La dimensione massima di una tag è di 128 caratteri. I caratteri consentiti sono A-Z, 0-9, gli spazi vuoti, i caratteri di sottolineatura, i trattini, i punti e i caratteri due punti; le tag non sono sensibili a maiuscole/minuscole. I caratteri due punti trasformano la tag in una stringa in cui puoi isolare due parti logiche, come una coppia `chiave:valore`. Non puoi utilizzare un carattere due punti in una tag senza creare questa coppia. Una virgola separa le tag e non può essere utilizzata all'interno del nome della tag stesso.
 
 ## Aggiunta e rimozione di tag su una risorsa
 {: #add-remove}
@@ -54,7 +53,7 @@ La stessa tag può essere collegata a più risorse da vari utenti nello stesso a
 {: #resell}
 
 Le tag sono visibili a tutti i membri di un account.
-Se il tuo account è associato a varie organizzazioni, se sei un rivenditore ad esempio, potresti voler consigliare ai tuoi clienti di non archiviare informazioni nelle tag che potrebbero diffondere informazioni sensibili ad altri nello stesso account.
+Se il tuo account è associato a diverse organizzazioni, ad esempio se sei un rivenditore, sarebbe opportuno che consigliassi ai tuoi clienti di non memorizzare informazioni nelle tag che potrebbero diffondere informazioni sensibili ad altri utenti nello stesso account.
 
 Per controllare la visibilità delle tag, fai circolare le linee guida sulle operazioni di tag e lascia che gli utenti sappiano che le tag sono visibili a livello di account. 
 

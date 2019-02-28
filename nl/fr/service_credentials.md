@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-11-28"
+  years: 2015, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -28,8 +28,8 @@ Pour ajouter des données d'identification à un service géré par IAM, procéd
 
 1. Dans la liste de ressources, sélectionnez le nom du service pour ouvrir la page des détails du service. Sélectionnez ensuite l'onglet Données d'identification et cliquez sur **Nouvelles données d'identification + **.
 2. Dans la boîte de dialogue Ajouter de nouvelles données d'identification, entrez un **Nom**.
-3. Spécifiez le rôle. Cette valeur définit le rôle d'accès du service IAM. Pour plus d'informations, voir [Accès IAM](/docs/iam/users_roles.html#userroles)
-4. Facultatif : vous pouvez renseigner la zone ID de service soit en autorisant IAM à générer automatiquement une valeur unique, soit en fournissant l'ID d'un service existant. Pour plus d'informations, voir [Création et gestion des ID de service](/docs/iam/serviceid.html#serviceids)
+3. Spécifiez le rôle. Cette valeur définit le rôle d'accès du service IAM. Pour plus d'informations, voir [Accès IAM](/docs/iam?topic=iam-userroles)
+4. Facultatif : vous pouvez renseigner la zone ID de service soit en autorisant IAM à générer automatiquement une valeur unique, soit en fournissant l'ID d'un service existant. Pour plus d'informations, voir [Création et utilisation des ID de service](/docs/iam?topic=iam-serviceids). 
 5. Vous pouvez également fournir d'autres paramètres par le biais d'un objet JSON valide contenant des paramètres de configuration spécifiques au service et qui seront soumis soit en ligne, soit dans un fichier.
 
   La plupart des services ne requièrent pas de paramètres supplémentaires et pour ceux qui en ont besoin, chaque service définit sa propre liste unique de paramètres. Pour la liste des paramètres de configuration pris en charge, reportez-vous à la documentation de l'offre de service concernée.
@@ -37,7 +37,7 @@ Pour ajouter des données d'identification à un service géré par IAM, procéd
 6. Cliquez sur **Ajouter** pour générer les nouvelles données d'identification du service.
 
 ## Ajout de données d'identification lors de la liaison d'un service Cloud Foundry
-{: #cf}
+{: #cf_credential}
 
 Les services Cloud Foundry peuvent générer une clé de service, également dénommée donnée d'identification. Les données d'identification sont propres au service concerné et varient en fonction de la manière dont chaque service définit les données d'identification devant être générées. Les données d'identification de service peuvent contenir un nom d'utilisateur, un mot de passe, un nom d'hôte, un port et une URL.
 
