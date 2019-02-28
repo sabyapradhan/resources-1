@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-11-28"
+  years: 2015, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -28,8 +28,8 @@ Completa la seguente procedura per aggiungere una credenziale a un servizio gest
 
 1. Dall'elenco risorse, seleziona il nome del servizio per aprire la relativa pagina dei dettagli. Quindi, seleziona la scheda Credenziali e fai clic su **Nuova credenziale + **.
 2. Dalla finestra di dialogo dell'aggiunta della nuova credenziale, fornisci un **Nome**.
-3. Specifica il ruolo. Questo valore imposta il ruolo di accesso del servizio IAM. Per ulteriori informazioni, vedi: [Accesso IAM](/docs/iam/users_roles.html#userroles)
-4. Facoltativamente, puoi fornire un ID servizio consentendo a IAM di generare per te un valore univoco o fornendo un ID di servizio esistente. Per ulteriori informazioni, vedi: [Creazione e gestione degli ID servizio](/docs/iam/serviceid.html#serviceids)
+3. Specifica il ruolo. Questo valore imposta il ruolo di accesso del servizio IAM. Per ulteriori informazioni, vedi: [Accesso IAM](/docs/iam?topic=iam-userroles)
+4. Facoltativamente, puoi fornire un ID servizio consentendo a IAM di generare per te un valore univoco o fornendo un ID di servizio esistente. Per ulteriori informazioni, vedi [Creazione e gestione degli ID servizio](/docs/iam?topic=iam-serviceids)
 5. Facoltativamente, puoi fornire ulteriori parametri come un oggetto JSON valido che contiene i parametri di configurazione specifici per il servizio, forniti sia incorporati che in un file.
 
   La maggior parte dei servizi non richiede ulteriori parametri, e per i servizi che li richiedono, ognuno di essi definisce il proprio elenco di parametri univoco. Per un elenco di parametri di configurazione supportati, consulta la documentazione per l'offerta del servizio in particolare.
@@ -37,7 +37,7 @@ Completa la seguente procedura per aggiungere una credenziale a un servizio gest
 6. Fai clic su **Aggiungi** per generare la nuova credenziale del servizio.
 
 ## Aggiunta di una credenziale quando si associa un servizio Cloud Foundry
-{: #cf}
+{: #cf_credential}
 
 I servizi Cloud Foundry possono generare una chiave del servizio, nota anche come credenziale. Le credenziali sono specifiche del servizio e variano in base a come ogni servizio definisce le credenziali che deve generare. Una credenziale del servizio può contenere un nome utente, una password, un nome host, una porta e un URL.
 

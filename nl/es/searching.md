@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-11-30"
+  years: 2015, 2019
+lastupdated: "2019-02-18"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2018-11-30"
 # Búsqueda de recursos
 {: #searching-for-resources}
 
-Puede buscar recursos suministrados que espera encontrar en la lista de recursos y ofertas en el catálogo desde cualquier lugar de la consola de {{site.data.keyword.cloud}}. Escriba el recurso o la etiqueta en el campo de búsqueda de la barra de menús de la consola. También puede utilizar la interfaz de línea de mandatos (CLI) de {{site.data.keyword.Bluemix_notm}} para buscar entre sus recursos. La CLI busca aplicaciones distribuidas e instancias de servicio en ubicaciones y centros de datos. 
+Puede buscar recursos suministrados que espera encontrar en la lista de recursos y ofertas en el catálogo desde cualquier lugar de la consola de {{site.data.keyword.cloud}}. Escriba el recurso o la etiqueta en el campo de búsqueda de la barra de menús de la consola. También puede utilizar la interfaz de línea de mandatos (CLI) de {{site.data.keyword.Bluemix_notm}} para buscar entre sus recursos. La CLI busca aplicaciones distribuidas e instancias de servicio en ubicaciones y centros de datos.
 {:shortdesc}
 
 ## Limitación de los resultados de la búsqueda
@@ -44,17 +44,17 @@ Pulse la tecla de barra inclinada (/) para mover el cursor al campo de búsqueda
 ## Búsqueda con la CLI
 {: #searching-cl}
 
-También puede buscar entre todos los recursos utilizando la sintaxis de consulta de Lucene, con un solo mandato mediante la CLI de {{site.data.keyword.Bluemix_notm}}, a partir de la versión 0.6.7. 
+También puede buscar entre todos los recursos utilizando la sintaxis de consulta de Lucene, con un solo mandato mediante la CLI de {{site.data.keyword.Bluemix_notm}}, a partir de la versión 0.6.7.
 
   Actualmente, la CLI no busca recursos que se ejecutan en instancias de la infraestructura clásica.
   {: note}
 
-Puede buscar los siguientes atributos: 
+Puede buscar los siguientes atributos:
 
 <dl>
-<dt>`name`</dt>
+<dt>`nombre`</dt>
 <dd> El nombre del recurso definido por el usuario.</dd>
-<dt>`region`</dt>
+<dt>`región`</dt>
 <dd>La ubicación geográfica en la que se suministra el recurso. Los valores permitidos son `us-south`, `us-east`, `au-syd`, `eu-gb`, `eu-de` y `jp-tok`.</dd>
 <dt>`service_name`</dt>
 <dd>El nombre del servicio, tal como aparece en la columna Nombre de la salida de 'ibmcloud catalog service-marketplace'.</dd>
@@ -85,7 +85,8 @@ Los ejemplos siguientes pueden ayudarle a buscar recursos de la cuenta.
 
 * Para buscar todas las aplicaciones de Cloud Foundry llamadas `MyResource`, especifique el mandato siguiente.
 
-    `ibmcloud resource search 'name:my* AND type:cf-application'`
+    `ibmcloud resource search 'name:my* AND type:cf-application'
+`
 
 * Para buscar todas las instancias de servicio de Message Hub, especifique el mandato siguiente.
 
@@ -98,9 +99,7 @@ Los ejemplos siguientes pueden ayudarle a buscar recursos de la cuenta.
 * Para buscar todos los recursos creados entre el 16 de mayo de 2018 y el 20 de mayo de 2018, escriba el siguiente mandato:
 
     `ibmcloud resource search "creation_date:[2018-05-16T00:00:00Z TO 2018-05-20T00:00:00Z]"`
-    
+
 * Para buscar todos los recursos cuyo nombre comience por "my", ordenados por tipo, escriba el siguiente mandato.
 
     `ibmcloud resource search 'name:my*' -s type`
-
-

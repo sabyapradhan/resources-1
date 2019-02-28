@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2018
-lastupdated: "2018-11-15"
+  years: 2018, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -49,7 +49,7 @@ Los recursos pertenecientes a un grupo de recursos se gestionan mediante políti
   7. Pulse **Asignar**.
 
 ## Cómo otorgar acceso para etiquetar recursos de Cloud Foundry
-{: #cf}
+{: #cf_tag_access}
 
 Los recursos pertenecientes a una organización y espacio de Cloud se gestionan mediante roles de organización y espacio de Cloud Foundry. Siga los pasos siguientes para asignar el rol de espacio de Desarrollador para que un usuario pueda etiquetar recursos de Cloud Foundry:
 

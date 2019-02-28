@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2019-01-31"
+  years: 2015, 2019
+lastupdated: "2019-02-20"
 
 ---
 {:new_window: target="_blank"}
@@ -18,7 +18,7 @@ lastupdated: "2019-01-31"
 
 Nicht alle Services sind an jedem {{site.data.keyword.Bluemix_notm}}-Standort erhältlich. Auch dann, wenn der Service an einem Standort erhältlich ist, kann er an einem anderen Standort gehostet werden. In der folgenden Tabelle sind die Services aufgeführt, die von IBM zur Verfügung gestellt werden. Eine vollständige Liste der verfügbaren Ressourcen finden Sie im [Katalog ](https://cloud.ibm.com/catalog){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") in der {{site.data.keyword.Bluemix_notm}}-Konsole. 
 
-Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Standorte hinweg betrieben werden. Zum Beispiel können Sie mit {{site.data.keyword.cos_full_notm}} wählen, die Daten über ein einziges [Rechenzentrum](/docs/overview/zero_downtime.html#data_center) oder über eine Kombination von Standorten zu verteilen, indem Sie den [Endpunkt auswählen](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints), an den Ihre Anwendung REST-API-Anforderungen sendet.
+Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Standorte hinweg betrieben werden. Zum Beispiel können Sie mit {{site.data.keyword.cos_full_notm}} wählen, die Daten über ein einziges [Rechenzentrum](/docs/overview?topic=overview-zero-downtime#data_center) oder über eine Kombination von Standorten zu verteilen, indem Sie den [Endpunkt auswählen](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability), an den Ihre Anwendung REST-API-Anforderungen sendet.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -27,7 +27,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 
 | Service | Dallas | London | Frankfurt | Sydney | Washington DC | Tokio |
 |-----|-----|-----|-----|-----|-----|
-| AI OpenScale | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | API Connect | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Nicht verfügbar | 
 | Activity Tracker | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Alert Notification | Gehostet in Dallas | Gehostet in London | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
@@ -41,11 +40,12 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Availability Monitoring | Gehostet in Dallas | Gehostet in London | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | BigInsights for Apache Hadoop (Abonnement) | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Blockchain | Gehostet in Dallas | Syndiziert aus Dallas | Syndiziert aus Dallas | Syndiziert aus Dallas | Nicht verfügbar | Nicht verfügbar | 
-| Certificate Manager | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Blockchain Platform 2.0 | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Certificate Manager | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Nicht verfügbar | Nicht verfügbar | Gehostet in Tokio | 
 | Cloud Foundry-Unternehmensumgebung | Gehostet in Dallas | Nicht verfügbar | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Nicht verfügbar | 
 | Cloud Object Storage | Global gehostet | Global gehostet | Global gehostet | Global gehostet | Global gehostet | Global gehostet | 
 | Cloudant | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
-| Compare Comply | Gehostet in Dallas | Nicht verfügbar | Gehostet in Frankfurt | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Compare and Comply | Gehostet in Dallas | Nicht verfügbar | Gehostet in Frankfurt | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Compose Enterprise | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Nicht verfügbar | 
 | Compose for Elasticsearch | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Nicht verfügbar | 
 | Compose for JanusGraph | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Nicht verfügbar | 
@@ -62,9 +62,9 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Cost and Asset Management | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Data Store for Memcache | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Databases for Elasticsearch | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
-| Databases for Etcd | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Databases for PostgreSQL | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Databases for Redis | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
+| Databases for etcd | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Db2 | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Db2 Hosted | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Db2 Warehouse | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
@@ -82,8 +82,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Hyper Protect DBaaS | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in Washington DC | Nicht verfügbar | 
 | IBM Cognos Dashboard Embedded | Gehostet in Dallas | Gehostet in London | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | IBM Identity Mixer | Nicht verfügbar | Gehostet in London | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
-| IBM Managed Financial Data API | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
-| IBM Simulated Instruments Analytics API | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Information Server | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Informix | Gehostet in Dallas | Syndiziert aus Dallas | Nicht verfügbar | Syndiziert aus Dallas | Nicht verfügbar | Nicht verfügbar | 
 | Instrument Analytics | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
@@ -98,6 +96,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Log Analysis | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | MQ | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Machine Learning | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Nicht verfügbar | Nicht verfügbar | Gehostet in Tokio | 
+| Managed Financial Data API | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in Washington DC | Nicht verfügbar | 
 | Master Data Management | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Messages for RabbitMQ | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Mobile Foundation | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Nicht verfügbar | 
@@ -115,6 +114,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Security Advisor | Gehostet in Dallas | Gehostet in London | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Simulated Historical Instrument Analytics | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Simulated Instrument Analytics | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Simulated Instruments Analytics API | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in Washington DC | Nicht verfügbar | 
 | Speech to Text | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Streaming Analytics | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Text to Speech | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
@@ -124,6 +124,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Visual Recognition | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Voice Agent with Watson | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in Washington DC | Nicht verfügbar | 
 | Watson Assistant | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
+| Watson OpenScale | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Watson Studio | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Nicht verfügbar | Nicht verfügbar | Gehostet in Tokio | 
 | Weather Company Data | Gehostet in Dallas | Gehostet in London | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | WebSphere Application Server | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 

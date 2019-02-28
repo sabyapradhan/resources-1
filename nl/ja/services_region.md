@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2019-01-31"
+  years: 2015, 2019
+lastupdated: "2019-02-20"
 
 ---
 {:new_window: target="_blank"}
@@ -19,7 +19,7 @@ lastupdated: "2019-01-31"
 
 各 {{site.data.keyword.Bluemix_notm}} ロケーションですべてのサービスが購入できるわけではありません。 また、当該ロケーションでサービスが購入可能な場合でも、サービスは別の場所でホストされていることがあります。 以下の表は、IBM が提供するサービスを示しています。 使用可能なリソースの全リストは、{{site.data.keyword.Bluemix_notm}} コンソール内の[カタログ](https://cloud.ibm.com/catalog){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。 
 
-グローバルにホストされるサービスが作成するリソースは複数のロケーションで作動します。 例えば、{{site.data.keyword.cos_full_notm}} を使用すると、アプリケーションが REST API 要求を送信する[エンドポイントの選択](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)によって、1 つの[データ・センター](/docs/overview/zero_downtime.html#data_center)に、または、複数のロケーションの組み合わせにでも、データを分散させることを選択できます。
+グローバルにホストされるサービスが作成するリソースは複数のロケーションで作動します。 例えば、{{site.data.keyword.cos_full_notm}} を使用すると、アプリケーションが REST API 要求を送信する[エンドポイントの選択](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability)によって、1 つの[データ・センター](/docs/overview?topic=overview-zero-downtime#data_center)に、または、複数のロケーションの組み合わせにでも、データを分散させることを選択できます。
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -28,7 +28,6 @@ lastupdated: "2019-01-31"
 
 | サービス | ダラス | ロンドン | フランクフルト | シドニー | ワシントン DC | 東京 |
 |-----|-----|-----|-----|-----|-----|
-| AI OpenScale | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | API Connect | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 使用不可 | 
 | Activity Tracker | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Alert Notification | ダラスでホスト | ロンドンでホスト | 使用不可 | シドニーでホスト | 使用不可 | 使用不可 | 
@@ -42,11 +41,12 @@ lastupdated: "2019-01-31"
 | Availability Monitoring | ダラスでホスト | ロンドンでホスト | 使用不可 | シドニーでホスト | 使用不可 | 使用不可 | 
 | BigInsights for Apache Hadoop (サブスクリプション) | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Blockchain | ダラスでホスト | ダラスからシンジケート | ダラスからシンジケート | ダラスからシンジケート | 使用不可 | 使用不可 | 
-| Certificate Manager | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | 使用不可 | 使用不可 | 使用不可 | 
+| Blockchain Platform 2.0 | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Certificate Manager | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | 使用不可 | 使用不可 | 東京でホスト | 
 | Cloud Foundry エンタープライズ環境 | ダラスでホスト | 使用不可 | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 使用不可 | 
 | Cloud Object Storage | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 
 | Cloudant | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
-| Compare Comply | ダラスでホスト | 使用不可 | フランクフルトでホスト | 使用不可 | 使用不可 | 使用不可 | 
+| Compare and Comply | ダラスでホスト | 使用不可 | フランクフルトでホスト | 使用不可 | 使用不可 | 使用不可 | 
 | Compose Enterprise | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 使用不可 | 
 | Compose for Elasticsearch | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 使用不可 | 
 | Compose for JanusGraph | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 使用不可 | 
@@ -63,9 +63,9 @@ lastupdated: "2019-01-31"
 | Cost and Asset Management | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Data Store for Memcache | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Databases for Elasticsearch | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
-| Databases for Etcd | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
 | Databases for PostgreSQL | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
 | Databases for Redis | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
+| Databases for etcd | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
 | Db2 | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Db2 Hosted | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Db2 Warehouse | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
@@ -83,8 +83,6 @@ lastupdated: "2019-01-31"
 | Hyper Protect DBaaS | 使用不可 | 使用不可 | 使用不可 | 使用不可 | ワシントン DC でホスト | 使用不可 | 
 | IBM Cognos Dashboard Embedded | ダラスでホスト | ロンドンでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | IBM Identity Mixer | 使用不可 | ロンドンでホスト | 使用不可 | シドニーでホスト | 使用不可 | 使用不可 | 
-| IBM Managed Financial Data API | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
-| IBM Simulated Instruments Analytics API | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Information Server | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Informix | ダラスでホスト | ダラスからシンジケート | 使用不可 | ダラスからシンジケート | 使用不可 | 使用不可 | 
 | Instrument Analytics | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
@@ -99,6 +97,7 @@ lastupdated: "2019-01-31"
 | Log Analysis | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | MQ | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Machine Learning | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | 使用不可 | 使用不可 | 東京でホスト | 
+| Managed Financial Data API | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | ワシントン DC でホスト | 使用不可 | 
 | Master Data Management | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Messages for RabbitMQ | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
 | Mobile Foundation | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 使用不可 | 
@@ -116,6 +115,7 @@ lastupdated: "2019-01-31"
 | セキュリティー・アドバイザー | ダラスでホスト | ロンドンでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Simulated Historical Instrument Analytics | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Simulated Instrument Analytics | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
+| Simulated Instruments Analytics API | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | ワシントン DC でホスト | 使用不可 | 
 | Speech to Text | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
 | Streaming Analytics | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | 使用不可 | 使用不可 | 使用不可 | 
 | Text to Speech | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
@@ -125,6 +125,7 @@ lastupdated: "2019-01-31"
 | Visual Recognition | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Voice Agent with Watson | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | ワシントン DC でホスト | 使用不可 | 
 | Watson Assistant | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
+| Watson OpenScale | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Watson Studio | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | 使用不可 | 使用不可 | 東京でホスト | 
 | Weather Company Data | ダラスでホスト | ロンドンでホスト | 使用不可 | シドニーでホスト | 使用不可 | 使用不可 | 
 | WebSphere Application Server | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 

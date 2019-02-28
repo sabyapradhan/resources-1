@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-29"
+  years: 2017, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -26,7 +26,7 @@ Los alias son como enlaces simbólicos que mantienen referencias con recursos re
 Se aplican las siguientes reglas a los alias:
 
 * No hay ningún cargo adicional para un alias, pero cada alias se tiene en cuenta en su cuota en su organización.
-* Solo puede crear un alias por espacio en la consola de {{site.data.keyword.Bluemix_notm}}. Sin embargo, se puede crear más de un alias por espacio utilizando la CLI de {{site.data.keyword.Bluemix_notm}}. Para obtener más información, consulte [Cómo trabajar con recursos y grupos de recursos](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource).
+* Solo puede crear un alias por espacio en la consola de {{site.data.keyword.Bluemix_notm}}. Sin embargo, se puede crear más de un alias por espacio utilizando la CLI de {{site.data.keyword.Bluemix_notm}}. Para obtener más información, consulte [Cómo trabajar con recursos y grupos de recursos](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource).
 * Puede crear varias conexiones entre su servicio gestionado por IAM y cualquier aplicación en cualquier espacio, organización y región en la misma cuenta si tiene permisos.
 * Varias conexiones que se realizan en el mismo espacio con apps diferentes desde una instancia de servicio gestionada por IAM utilizan el mismo alias.
 * Desenlazar una instancia de servicio gestionada por IAM *no* suprime la instancia de servicio que representa el alias.
@@ -44,13 +44,14 @@ Para conectar su instancia de servicio gestionada por IAM con una aplicación:
 
 3. Pulse **Conectar existente** y elija su app existente. O pulse **Crear conexión** para crear una app a la que conectarse.
 
-4. Especifique el **Rol de acceso de conexión**. Este valor define el rol de acceso de servicio de IAM. Para obtener más información, consulte [Acceso de IAM](/docs/iam/users_roles.html#userroles).
+4. Especifique el **Rol de acceso de conexión**. Este valor define el rol de acceso de servicio de IAM. Para obtener más información, consulte [Acceso de IAM](/docs/iam?topic=iam-userroles).
 
-5. Opcionalmente, puede proporcionar un **ID de servicio para conexión** permitiendo a IAM generar un valor exclusivo para usted o proporcionando un ID de servicio existente. Para obtener más información, consulte [Cómo crear y trabajar con ID de servicio](/docs/iam/serviceid.html#serviceids).
+5. Opcionalmente, puede proporcionar un **ID de servicio para conexión** permitiendo a IAM generar un valor exclusivo para usted o proporcionando un ID de servicio existente. Para obtener más información, consulte [Cómo crear y trabajar con ID de servicio](/docs/iam?topic=iam-serviceids).
 
 6. Pulse **Crear**.
 
 ## Visualización de un alias
+{: #view_alias}
 
 Después de crear una conexión entre un servicio gestionado por IAM y una app, se muestra el alias en el separador **Conexiones** de la app conectada. Además, el alias se muestra como una instancia de servicio en ejecución en su lista de recursos y solo contiene un separador **Conexiones** cuando la abre.
 
@@ -58,6 +59,7 @@ Después de crear una conexión entre un servicio gestionado por IAM y una app, 
 2. En la tabla **Servicios de aplicación**, pulse el nombre de la instancia de servicio para abrir la vista de detalles de servicio. Si solo tiene un separador **Conexiones**, es un alias.
 
 ## Supresión de un alias
+{: #delete_alias}
 
 La forma más fácil de suprimir el alias es suprimir la instancia de servicio gestionada por IAM. Sin embargo, puede mantener su instancia de servicio gestionada por IAM y en su lugar suprimir el alias directamente.
 
@@ -66,6 +68,6 @@ La forma más fácil de suprimir el alias es suprimir la instancia de servicio g
 3. Suprima la instancia.
 
 ## Creación de una conexión entre varios servicios
-{: #cf}
+{: #multiple_services}
 
-Para obtener más información, consulte [Utilización de servicios en otro servicio](/docs/resources/s2s.html#s2s_binding).
+Para obtener más información, consulte [Utilización de servicios en otro servicio](/docs/resources?topic=resources-s2s_binding).

@@ -28,7 +28,7 @@ Los siguientes servicios se clasifican como Nivel 1:
   * PostgreSQL by Compose
   * {{site.data.keyword.appid_short}}
 
-Para leer más sobre los términos de uso para servicios, consulte los [Avisos y condiciones de {{site.data.keyword.Bluemix_notm}}](/docs/overview/terms-of-use/notices.html#terms).
+Para leer más sobre los términos de uso para servicios, consulte los [Avisos y condiciones de {{site.data.keyword.Bluemix_notm}}](/docs/overview?topic=overview-terms).
 
 ## Obsolescencia de servicios
 {: #service_deprecation}
