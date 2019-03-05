@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2019-02-13"
+  years: 2015, 2019
+lastupdated: "2019-02-20"
 
 ---
 {:new_window: target="_blank"}
@@ -18,7 +18,7 @@ lastupdated: "2019-02-13"
 
 並非每個 {{site.data.keyword.Bluemix_notm}} 位置都可購買到所有服務。而且，即使可在該位置購買到此服務，此服務也可能是在不同位置進行管理。下表顯示 IBM 所提供的服務。如需可用資源的完整清單，請參閱 {{site.data.keyword.Bluemix_notm}} 主控台中的[型錄](https://cloud.ibm.com/catalog){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。 
 
-在全球管理的服務會建立跨越多個位置運作的資源。例如，使用 {{site.data.keyword.cos_full_notm}}，您可以選擇將資料分散在單一[資料中心](/docs/overview/zero_downtime.html#data_center)，或甚至是藉由[選取應用程式傳送 REST API 要求的端點](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)而分散在某個位置組合。
+在全球管理的服務會建立跨越多個位置運作的資源。例如，使用 {{site.data.keyword.cos_full_notm}}，您可以選擇將資料分散在單一[資料中心](/docs/overview?topic=overview-zero-downtime#data_center)，或甚至是藉由[選取應用程式傳送 REST API 要求的端點](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability)而分散在某個位置組合。
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -41,11 +41,11 @@ lastupdated: "2019-02-13"
 |BigInsights for Apache Hadoop（訂閱）|在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Blockchain |在達拉斯進行管理|從達拉斯進行聯合發佈|從達拉斯進行聯合發佈|從達拉斯進行聯合發佈|不適用 |不適用 | 
 |Blockchain Platform 2.0 |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
-|Certificate Manager |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |不適用 |不適用 | 
+|Certificate Manager |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |不適用 |在東京進行管理| 
 |Cloud Foundry Enterprise Environment|在達拉斯進行管理|不適用 |在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 
 |Cloud Object Storage |在全球管理|在全球管理|在全球管理|在全球管理|在全球管理|在全球管理| 
 |Cloudant |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
-|Compare Comply |在達拉斯進行管理|不適用 |在法蘭克福進行管理|不適用 |不適用 |不適用 | 
+|Compare and Comply |在達拉斯進行管理|不適用 |在法蘭克福進行管理|不適用 |不適用 |不適用 | 
 |Compose Enterprise|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 
 |Compose for Elasticsearch|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 
 |Compose for JanusGraph|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 

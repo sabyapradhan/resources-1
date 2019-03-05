@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-29"
+  years: 2017, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -26,7 +26,7 @@ lastupdated: "2018-10-29"
 下列規則適用於別名：
 
 * 別名不需要額外費用，但每一個別名都會計入您組織中的配額。
-* 在 {{site.data.keyword.Bluemix_notm}} 主控台中，每個空間只能建立一個別名。不過，使用 {{site.data.keyword.Bluemix_notm}} CLI 可以為每個空間建立多個別名。如需相關資訊，請參閱[使用資源和資源群組](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource)。
+* 在 {{site.data.keyword.Bluemix_notm}} 主控台中，每個空間只能建立一個別名。不過，使用 {{site.data.keyword.Bluemix_notm}} CLI 可以為每個空間建立多個別名。如需相關資訊，請參閱[使用資源和資源群組](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource)。
 * 如果您具有許可權，則可以在 IAM 管理服務，與相同帳戶中任何空間、組織及地區內的任何應用程式之間，建立多個連線。
 * 相同空間中從 IAM 管理服務實例到不同應用程式所建立的多個連線，將會使用相同的別名。
 * 取消連結 IAM 管理服務實例*不會* 刪除代表別名的服務實例。
@@ -44,13 +44,14 @@ lastupdated: "2018-10-29"
 
 3. 按一下**連接現有項目**，然後從現有應用程式中進行選擇。或者，按一下**建立連線**，以建立要連接至的應用程式。
 
-4. 指定**連線的存取角色**。此值會設定 IAM 服務存取角色。如需相關資訊，請參閱 [IAM 存取](/docs/iam/users_roles.html#userroles)。
+4. 指定**連線的存取角色**。此值會設定 IAM 服務存取角色。如需相關資訊，請參閱 [IAM 存取](/docs/iam?topic=iam-userroles)。
 
-5. 您可以選擇性地提供**連線的服務 ID**，方法是容許 IAM 為您產生唯一值，或提供現有的服務 ID。如需相關資訊，請參閱[建立及使用服務 ID](/docs/iam/serviceid.html#serviceids)。
+5. 您可以選擇性地提供**連線的服務 ID**，方法是容許 IAM 為您產生唯一值，或提供現有的服務 ID。如需相關資訊，請參閱[建立及使用服務 ID](/docs/iam?topic=iam-serviceids)。
 
 6. 按一下**建立**。
 
 ## 檢視別名
+{: #view_alias}
 
 在 IAM 管理服務與應用程式之間建立連線之後，別名就會顯示在所連接應用程式的**連線**標籤上。此外，在資源清單上，別名會顯示為執行中的服務實例，而且只有在您開啟它時，才會包含**連線**標籤。
 
@@ -58,14 +59,15 @@ lastupdated: "2018-10-29"
 2. 從**應用程式服務**表格，按一下服務實例的名稱，以開啟服務詳細資料視圖。如果其中只有**連線**標籤，則它是別名。
 
 ## 刪除別名
+{: #delete_alias}
 
 刪除別名的最簡單方式是刪除 IAM 管理的服務實例。不過，您可以維護 IAM 管理的服務實例，並改為直接刪除別名。
 
-1. 移至資源清單。
-2. 從**應用程式服務**表格，按一下服務實例的名稱，以開啟服務詳細資料視圖。如果只有**連線**標籤，則它是別名。
+1. 移至您的資源清單。
+2. 從**應用程式服務**表格，按一下服務實例的名稱，以開啟服務詳細資料視圖。如果其中只有**連線**標籤，則它是別名。
 3. 刪除實例。
 
 ## 建立多個服務之間的連線
-{: #cf}
+{: #multiple_services}
 
-如需相關資訊，請參閱[在另一個服務中使用服務](/docs/resources/s2s.html#s2s_binding)。
+如需相關資訊，請參閱[在另一個服務中使用服務](/docs/resources?topic=resources-s2s_binding)。

@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2019-02-13"
+  years: 2015, 2019
+lastupdated: "2019-02-20"
 
 ---
 {:new_window: target="_blank"}
@@ -19,7 +19,7 @@ sulla progettazione dell'applicazione.
 
 Non tutti i servizi sono disponibili per l'acquisto in ogni ubicazione {{site.data.keyword.Bluemix_notm}}. E, anche se il servizio è disponibile per l'acquisto in un'ubicazione, tale servizio potrebbe essere ospitato in un luogo differente. La seguente tabella mostra i servizi forniti da IBM. Per l'elenco completo di risorse disponibili, vedi il [catalogo](https://cloud.ibm.com/catalog){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") nella console {{site.data.keyword.Bluemix_notm}}. 
 
-I servizi ospitati a livello globale creano risorse che operano su più ubicazioni. Ad esempio, con {{site.data.keyword.cos_full_notm}}, puoi scegliere di diffondere i dati in un singolo [data center](/docs/overview/zero_downtime.html#data_center) o anche in una combinazione di ubicazioni [selezionando l'endpoint](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) in cui la tua applicazioni invia le richieste API REST.
+I servizi ospitati a livello globale creano risorse che operano su più ubicazioni. Ad esempio, con {{site.data.keyword.cos_full_notm}}, puoi scegliere di diffondere i dati in un singolo [data center](/docs/overview?topic=overview-zero-downtime#data_center) o anche in una combinazione di ubicazioni [selezionando l'endpoint](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability) in cui la tua applicazioni invia le richieste API REST.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -42,11 +42,11 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | BigInsights for Apache Hadoop (sottoscrizione) | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Blockchain | Ospitato a Dallas | Diffuso da Dallas | Diffuso da Dallas | Diffuso da Dallas | Non disponibile | Non disponibile | 
 | Blockchain Platform 2.0 | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
-| Gestore certificato | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Non disponibile | 
+| Gestore certificato | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
 | Ambiente Cloud Foundry Enterprise | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Non disponibile | 
 | Cloud Object Storage | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | 
 | Cloudant | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
-| Compare Comply | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Non disponibile | Non disponibile | 
+| Compare and Comply | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Non disponibile | Non disponibile | 
 | Compose Enterprise | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Non disponibile | 
 | Compose for Elasticsearch | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Non disponibile | 
 | Compose for JanusGraph | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Non disponibile | 

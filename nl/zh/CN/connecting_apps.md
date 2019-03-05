@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-29"
+  years: 2017, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -26,7 +26,7 @@ lastupdated: "2018-10-29"
 以下规则适用于别名：
 
 * 别名没有额外费用，但每个别名都会计入组织中的配额。
-* 在 {{site.data.keyword.Bluemix_notm}} 控制台中，每个空间只能创建一个别名。但是，使用 {{site.data.keyword.Bluemix_notm}} CLI 可以为每个空间创建多个别名。有关更多信息，请参阅[使用资源和资源组](/docs/cli/reference/ibmcloud/cli_resource_group.html#ibmcloud_commands_resource)。
+* 在 {{site.data.keyword.Bluemix_notm}} 控制台中，每个空间只能创建一个别名。但是，使用 {{site.data.keyword.Bluemix_notm}} CLI 可以为每个空间创建多个别名。有关更多信息，请参阅[使用资源和资源组](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource)。
 * 如果您具有相应许可权，那么可以在 IAM 管理的服务与同一帐户的任何空间、组织和区域中的任何应用程序之间创建多个连接。
 * 在同一空间中创建的从 IAM 管理的服务实例到不同应用程序之间的多个连接将使用相同的别名。
 * 取消绑定 IAM 管理的服务实例*不会*删除用于表示别名的服务实例。
@@ -44,13 +44,14 @@ lastupdated: "2018-10-29"
 
 3. 单击**连接现有项**，然后从现有应用程序中进行选择。或者，单击**创建连接**以创建要连接的应用程序。
 
-4. 指定**用于连接的访问角色**。此值用于设置 IAM 服务访问角色。有关更多信息，请参阅 [IAM 访问权](/docs/iam/users_roles.html#userroles)。
+4. 指定**用于连接的访问角色**。此值用于设置 IAM 服务访问角色。有关更多信息，请参阅 [IAM 访问权](/docs/iam?topic=iam-userroles)。
 
-5. （可选）可以通过允许 IAM 生成唯一值来提供**用于连接的服务标识**，或者提供现有服务标识。有关更多信息，请参阅[创建和使用服务标识](/docs/iam/serviceid.html#serviceids)。
+5. （可选）可以通过允许 IAM 生成唯一值来提供**用于连接的服务标识**，或者提供现有服务标识。有关更多信息，请参阅[创建和使用服务标识](/docs/iam?topic=iam-serviceids)。
 
 6. 单击**创建**。
 
 ## 查看别名
+{: #view_alias}
 
 在 IAM 管理的服务与应用程序之间创建连接后，别名会显示在已连接应用程序的**连接**选项卡上。此外，别名还会在资源列表上显示为正在运行的服务实例，并且仅在您将其打开时才包含**连接**选项卡。
 
@@ -58,6 +59,7 @@ lastupdated: "2018-10-29"
 2. 在**应用程序服务**表中，单击服务实例的名称以打开服务详细信息视图。如果其中仅有**连接**选项卡，说明这是别名。
 
 ## 删除别名
+{: #delete_alias}
 
 删除别名最简单的方法是删除 IAM 管理的服务实例。但是，也可以保留 IAM 管理的服务实例，而改为直接删除别名。
 
@@ -66,6 +68,6 @@ lastupdated: "2018-10-29"
 3. 删除实例。
 
 ## 在多个服务之间创建连接
-{: #cf}
+{: #multiple_services}
 
-有关更多信息，请参阅[在其他服务中使用服务](/docs/resources/s2s.html#s2s_binding)。
+有关更多信息，请参阅[在其他服务中使用服务](/docs/resources?topic=resources-s2s_binding)。

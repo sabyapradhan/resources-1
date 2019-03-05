@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-10-11"
+  years: 2015, 2019
+lastupdated: "2019-02-05"
 
 ---
 
@@ -26,9 +26,9 @@ lastupdated: "2018-10-11"
   * MongoDB by Compose
   * {{site.data.keyword.objectstorageshort}}
   * PostgreSQL by Compose
-  * {{site.data.keyword.ssofull}}
+  * {{site.data.keyword.appid_short}}
 
-要阅读有关服务使用条款的更多信息，请参阅 [{{site.data.keyword.Bluemix_notm}} 条款和声明](/docs/overview/terms-of-use/notices.html#terms)。
+要阅读有关服务使用条款的更多信息，请参阅 [{{site.data.keyword.Bluemix_notm}} 条款和声明](/docs/overview?topic=overview-terms)。
 
 ## 服务废弃
 {: #service_deprecation}

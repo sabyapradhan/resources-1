@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2018
-lastupdated: "2018-11-15"
+  years: 2018, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -49,13 +49,13 @@ lastupdated: "2018-11-15"
   7. 按一下**指派**。
 
 ## 授與標記 Cloud Foundry 資源的存取權
-{: #cf}
+{: #cf_tag_access}
 
 屬於 Cloud Foundry 組織和空間的資源是由 Cloud Foundry 組織和空間角色進行管理。請完成下列步驟，將「開發人員」空間角色指派給使用者，以標記 Cloud Foundry 資源：
 
  1. 按一下**管理 > 存取 (IAM)**，然後選取**使用者**。
 2. 選取您要為其提供存取權的使用者名稱。
-3. 按一下 **Cloud Foundry 存取**。 
+3. 按一下 **Cloud Foundry 存取權**。 
 4. 按一下**指派組織**。
 5. 展開並選取具有您要讓使用者存取之服務實例的`組織`。 
 6. 選取地區。 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-07"
+  years: 2015, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -14,7 +14,7 @@ lastupdated: "2018-11-07"
 # 将服务连接到外部应用程序
 {: #externalapp}
 
-您可能会有应用程序是在 {{site.data.keyword.Bluemix}} 外部创建和运行的，或者您可能会使用第三方工具。如果 {{site.data.keyword.Bluemix_notm}} 服务提供的服务密钥可从因特网访问，那么您可以将这些服务与本地应用程序或第三方工具配合使用。
+您可能会有在 {{site.data.keyword.Bluemix}} 外部创建和运行的应用程序，或者您可能会使用第三方工具。如果 {{site.data.keyword.Bluemix_notm}} 服务提供的服务密钥可从因特网访问，那么您可以将这些服务与本地应用程序或第三方工具一起使用。
 
 要允许外部应用程序或第三方工具使用 {{site.data.keyword.Bluemix_notm}} 服务，请完成以下步骤：
 
@@ -36,6 +36,7 @@ lastupdated: "2018-11-07"
 {: tip}
 
 ## 带服务密钥的服务
+{: #service_keys}
 
 以下服务会提供服务密钥供您在外部使用：
 

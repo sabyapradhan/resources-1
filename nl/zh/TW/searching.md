@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2018-11-30"
+  years: 2015, 2019
+lastupdated: "2019-02-18"
 
 ---
 
@@ -44,12 +44,12 @@ lastupdated: "2018-11-30"
 ## 使用 CLI 進行搜尋
 {: #searching-cl}
 
-您也可以使用 Lucene 查詢語法來搜尋您的所有資源（從 0.6.7 版開始，使用 {{site.data.keyword.Bluemix_notm}} CLI 透過單一指令來搜尋）。 
+您也可以使用 Lucene 查詢語法來搜尋您的所有資源（從 0.6.7 版開始，使用 {{site.data.keyword.Bluemix_notm}} CLI 透過單一指令來搜尋）。
 
   CLI 目前不會搜尋在標準基礎架構實例上執行的資源。
   {: note}
 
-您可以搜尋下列屬性： 
+您可以搜尋下列屬性：
 
 <dl>
 <dt>`name`</dt>
@@ -99,9 +99,7 @@ lastupdated: "2018-11-30"
 * 若要搜尋在 2018 年 5 月 16 至 2018 年 5 月 20 日之間建立的所有資源，請輸入下列指令。
 
     `ibmcloud resource search "creation_date:[2018-05-16T00:00:00Z TO 2018-05-20T00:00:00Z]"`
-    
+
 * 若要搜尋名稱開頭為 "my" 且依類型排序的所有資源，請輸入下列指令。
 
     `ibmcloud resource search 'name:my*' -s type`
-
-

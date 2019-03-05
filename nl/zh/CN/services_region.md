@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2019-02-13"
+  years: 2015, 2019
+lastupdated: "2019-02-20"
 
 ---
 {:new_window: target="_blank"}
@@ -18,7 +18,7 @@ lastupdated: "2019-02-13"
 
 不是所有的服务都可以在每个 {{site.data.keyword.Bluemix_notm}} 位置进行购买。此外，即便服务在该位置可供购买，该服务也可能是在其他位置托管的。下表显示 IBM 提供的服务。有关可用资源的完整列表，请参阅 {{site.data.keyword.Bluemix_notm}} 控制台中的[目录](https://cloud.ibm.com/catalog){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。 
 
-全球托管的服务会创建可在多个位置运行的资源。例如，使用 {{site.data.keyword.cos_full_notm}} 时，您可以通过[选择端点](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)（应用程序在该端点中发送 REST API 请求），选择在单个[数据中心](/docs/overview/zero_downtime.html#data_center)，甚至在多个位置的组合中分散数据。
+全球托管的服务会创建可在多个位置运行的资源。例如，使用 {{site.data.keyword.cos_full_notm}} 时，您可以通过[选择端点](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability)（应用程序在该端点中发送 REST API 请求），选择在单个[数据中心](/docs/overview?topic=overview-zero-downtime#data_center)，甚至在多个位置的组合中分散数据。
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -41,11 +41,11 @@ lastupdated: "2019-02-13"
 |BigInsights for Apache Hadoop（预订）| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Blockchain| 在达拉斯托管 | 从达拉斯联合 | 从达拉斯联合 | 从达拉斯联合 |不可用|不可用| 
 |Blockchain Platform 2.0| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
-|Certificate Manager| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用|不可用| 
+|Certificate Manager| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用| 在东京托管 | 
 |Cloud Foundry Enterprise Environment| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
 |Cloud Object Storage|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管| 
 |Cloudant| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
-|Compare Comply| 在达拉斯托管 |不可用| 在法兰克福托管 |不可用|不可用|不可用| 
+|Compare and Comply| 在达拉斯托管 |不可用| 在法兰克福托管 |不可用|不可用|不可用| 
 |Compose Enterprise| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
 |Compose for Elasticsearch| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
 |Compose for JanusGraph| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
