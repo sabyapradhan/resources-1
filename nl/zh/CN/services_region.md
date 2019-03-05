@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2019-01-31"
+lastupdated: "2019-02-13"
 
 ---
 {:new_window: target="_blank"}
@@ -27,7 +27,6 @@ lastupdated: "2019-01-31"
 
 |服务|达拉斯|伦敦| 法兰克福|悉尼|华盛顿特区|东京|
 |-----|-----|-----|-----|-----|-----|
-|AI OpenScale| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |API Connect| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
 |Activity Tracker| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Alert Notification| 在达拉斯托管 | 在伦敦托管 |不可用|在悉尼托管|不可用|不可用| 
@@ -41,6 +40,7 @@ lastupdated: "2019-01-31"
 |Availability Monitoring| 在达拉斯托管 | 在伦敦托管 |不可用|在悉尼托管|不可用|不可用| 
 |BigInsights for Apache Hadoop（预订）| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Blockchain| 在达拉斯托管 | 从达拉斯联合 | 从达拉斯联合 | 从达拉斯联合 |不可用|不可用| 
+|Blockchain Platform 2.0| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Certificate Manager| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用|不可用| 
 |Cloud Foundry Enterprise Environment| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
 |Cloud Object Storage|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管| 
@@ -62,9 +62,9 @@ lastupdated: "2019-01-31"
 |Cost and Asset Management| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Data Store for Memcache| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 | Databases for Elasticsearch | 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
-| Databases for Etcd | 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Databases for PostgreSQL| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Databases for Redis| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
+|Databases for etcd| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Db2| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Db2 Hosted| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Db2 Warehouse| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
@@ -82,8 +82,6 @@ lastupdated: "2019-01-31"
 |Hyper Protect DBaaS|不可用|不可用|不可用|不可用| 在华盛顿特区托管 |不可用| 
 |IBM Cognos Dashboard Embedded| 在达拉斯托管 | 在伦敦托管 |不可用|不可用|不可用|不可用| 
 |IBM Identity Mixer|不可用| 在伦敦托管 |不可用|在悉尼托管|不可用|不可用| 
-|IBM Managed Financial Data API| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
-|IBM Simulated Instruments Analytics API| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Information Server| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Informix| 在达拉斯托管 | 从达拉斯联合 |不可用| 从达拉斯联合 |不可用|不可用| 
 |Instrument Analytics| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
@@ -98,6 +96,7 @@ lastupdated: "2019-01-31"
 |Log Analysis| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |MQ| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Machine Learning| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用| 在东京托管 | 
+|Managed Financial Data API| 在达拉斯托管 |不可用|不可用|不可用| 在华盛顿特区托管 |不可用| 
 |Master Data Management| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 | Messages for RabbitMQ | 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Mobile Foundation| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
@@ -115,6 +114,7 @@ lastupdated: "2019-01-31"
 |安全顾问程序| 在达拉斯托管 | 在伦敦托管 |不可用|不可用|不可用|不可用| 
 |Simulated Historical Instrument Analytics| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Simulated Instrument Analytics| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
+|Simulated Instruments Analytics API| 在达拉斯托管 |不可用|不可用|不可用| 在华盛顿特区托管 |不可用| 
 |Speech to Text| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Streaming Analytics| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用|不可用| 
 |Text to Speech| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
@@ -124,6 +124,7 @@ lastupdated: "2019-01-31"
 |Visual Recognition| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Voice Agent with Watson| 在达拉斯托管 |不可用|不可用|不可用| 在华盛顿特区托管 |不可用| 
 | Watson Assistant | 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
+|Watson OpenScale| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Watson Studio| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用| 在东京托管 | 
 |Weather Company Data| 在达拉斯托管 | 在伦敦托管 |不可用|在悉尼托管|不可用|不可用| 
 |WebSphere Application Server| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 

@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2019
-lastupdated: "2019-02-20"
+  years: 2015, 2018
+lastupdated: "2019-02-13"
 
 ---
 {:new_window: target="_blank"}
@@ -19,7 +19,7 @@ lastupdated: "2019-02-20"
 
 各 {{site.data.keyword.Bluemix_notm}} ロケーションですべてのサービスが購入できるわけではありません。 また、当該ロケーションでサービスが購入可能な場合でも、サービスは別の場所でホストされていることがあります。 以下の表は、IBM が提供するサービスを示しています。 使用可能なリソースの全リストは、{{site.data.keyword.Bluemix_notm}} コンソール内の[カタログ](https://cloud.ibm.com/catalog){: new_window} ![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン") を参照してください。 
 
-グローバルにホストされるサービスが作成するリソースは複数のロケーションで作動します。 例えば、{{site.data.keyword.cos_full_notm}} を使用すると、アプリケーションが REST API 要求を送信する[エンドポイントの選択](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability)によって、1 つの[データ・センター](/docs/overview?topic=overview-zero-downtime#data_center)に、または、複数のロケーションの組み合わせにでも、データを分散させることを選択できます。
+グローバルにホストされるサービスが作成するリソースは複数のロケーションで作動します。 例えば、{{site.data.keyword.cos_full_notm}} を使用すると、アプリケーションが REST API 要求を送信する[エンドポイントの選択](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)によって、1 つの[データ・センター](/docs/overview/zero_downtime.html#data_center)に、または、複数のロケーションの組み合わせにでも、データを分散させることを選択できます。
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -42,11 +42,11 @@ lastupdated: "2019-02-20"
 | BigInsights for Apache Hadoop (サブスクリプション) | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Blockchain | ダラスでホスト | ダラスからシンジケート | ダラスからシンジケート | ダラスからシンジケート | 使用不可 | 使用不可 | 
 | Blockchain Platform 2.0 | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
-| Certificate Manager | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | 使用不可 | 使用不可 | 東京でホスト | 
+| Certificate Manager | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | 使用不可 | 使用不可 | 使用不可 | 
 | Cloud Foundry エンタープライズ環境 | ダラスでホスト | 使用不可 | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 使用不可 | 
 | Cloud Object Storage | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 
 | Cloudant | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
-| Compare and Comply | ダラスでホスト | 使用不可 | フランクフルトでホスト | 使用不可 | 使用不可 | 使用不可 | 
+| Compare Comply | ダラスでホスト | 使用不可 | フランクフルトでホスト | 使用不可 | 使用不可 | 使用不可 | 
 | Compose Enterprise | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 使用不可 | 
 | Compose for Elasticsearch | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 使用不可 | 
 | Compose for JanusGraph | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 使用不可 | 

@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-15"
+lastupdated: "2019-02-07"
 
 ---
 
@@ -40,7 +40,11 @@ lastupdated: "2018-11-15"
 {: #create-add-resource}
 {: faq}
 
-最可能的情況是您在處理存取權問題。您必須至少具有資源群組本身的「檢視者」角色，且至少必須具有帳戶中服務的「編輯者」角色。您可以與帳戶管理者聯絡，以驗證您在帳戶中的已指派存取權。 
+最可能的情況是您在處理存取權問題。您必須至少具有資源群組本身的「檢視者」角色，且至少必須具有帳戶中服務的「編輯者」角色。在[將資源新增至資源群組](/docs/resources/resourcegroups.html#adding-resources-to-a-resource-group)中進一步瞭解。
+
+如需如何檢查已指派存取權的相關資訊，請參閱[檢閱已指派存取權](/docs/iam/mngiam.html#reviewing-your-assigned-access)。
+
+如果您需要帳戶中的其他存取權，請聯絡[使用者](https://{DomainName}/iam#/users)頁面上所列的帳戶擁有者。 
 
 ## 誰可以建立資源群組？
 {: #create-resource}

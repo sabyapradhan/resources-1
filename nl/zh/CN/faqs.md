@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2018
+  years: 2015, 2019
 
-lastupdated: "2018-11-15"
+lastupdated: "2019-02-07"
 
 ---
 
@@ -40,7 +40,11 @@ lastupdated: "2018-11-15"
 {: #create-add-resource}
 {: faq}
 
-很可能是因为您遇到了访问权问题。您必须至少具有对资源组本身的“查看者”角色，还必须至少具有对帐户中服务的“编辑者”角色。您可以联系帐户管理员来确认帐户中分配给您的访问权。 
+很可能是因为您遇到了访问权问题。您必须至少具有对资源组本身的“查看者”角色，还必须至少具有对帐户中服务的“编辑者”角色。请在[向资源组添加资源](/docs/resources/resourcegroups.html#adding-resources-to-a-resource-group)中了解更多信息。
+
+有关如何检查已分配访问权的更多信息，请参阅[复查分配的访问权](/docs/iam/mngiam.html#reviewing-your-assigned-access)。
+
+如果需要帐户中的其他访问权，请与[用户](https://{DomainName}/iam#/users)页面上列出的帐户所有者联系。 
 
 ## 谁可以创建资源组？
 {: #create-resource}
