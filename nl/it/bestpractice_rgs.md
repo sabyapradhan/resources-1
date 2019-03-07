@@ -5,6 +5,10 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-01-28"
 
+keywords: organize resources, set up resource groups, best practice, resource group strategy
+
+subcollection: resources
+
 ---
 
 {:new_window: target="_blank"}  
@@ -17,18 +21,18 @@ lastupdated: "2019-01-28"
 # Procedure ottimali per organizzare le risorse in un gruppo di risorse
 {: #bp_resourcegroups}
 
-Un gruppo di risorse è una funzione che usi per organizzare le [risorse](/docs/resources?topic=resources-resource) del tuo account per scopi di controllo dell'accesso e fatturazione. Se hai dimestichezza con l'utilizzo di spazio Cloud Foundry, pensa all'organizzazione delle risorse in gruppi di risorse come qualcosa di simile al modo in cui organizzavi le risorse negli spazi. Una risorsa è qualsiasi cosa possa essere creata, gestita e contenuta in un gruppo di risorse. Gli utenti non vengono aggiunti ai gruppi di risorse. Solo le risorse possono essere aggiunte. 
+Un gruppo di risorse è una funzione che usi per organizzare le [risorse](/docs/resources?topic=resources-resource) del tuo account per scopi di controllo dell'accesso e fatturazione. Se hai dimestichezza con l'utilizzo di spazio Cloud Foundry, pensa all'organizzazione delle risorse in gruppi di risorse come qualcosa di simile al modo in cui organizzavi le risorse negli spazi. Una risorsa è qualsiasi cosa possa essere creata, gestita e contenuta in un gruppo di risorse. Gli utenti non vengono aggiunti ai gruppi di risorse. Solo le risorse possono essere aggiunte.
 
 Al momento, non tutti i servizi supportano l'utilizzo del controllo dell'accesso {{site.data.keyword.Bluemix_notm}} IAM (Identity and Access Management) e l'assegnazione a un gruppo di risorse. I servizi abilitati a IAM ti richiedono di assegnare le nuove istanze del servizio a un gruppo di risorse quando ne esegui la creazione dal catalogo. L'accesso alle risorse in un gruppo di risorse e al gruppo stesso viene gestito da IAM. Utilizzando i ruoli IAM, puoi fornire agli utenti l'accesso alle risorse organizzate all'interno dei gruppi di risorse. I ruoli IAM possono inoltre fornire la capacità di visualizzare, modificare, aggiungere nuove istanze o gestire l'accesso a un gruppo di risorse.
 
 Puoi anche trovare un elenco di servizi abilitati a IAM quando assegni l'accesso alle risorse dalla IU Identità e accesso completando la seguente procedura:
-1. Vai a **Gestisci** &gt; **Accesso (IAM)** e seleziona **Utenti**. 
-2. Seleziona un qualsiasi utente e fai clic su **Politiche di accesso**. 
+1. Vai a **Gestisci** &gt; **Accesso (IAM)** e seleziona **Utenti**.
+2. Seleziona un qualsiasi utente e fai clic su **Politiche di accesso**.
 3. Seleziona **Assegna accesso** > **Assegna l'accesso alle risorse**.
-4. Utilizzando il menu **Servizi**, seleziona il servizio che vuoi assegnare. Per tutti i servizi che ancora non supportano l'utilizzo di IAM, puoi continuare ad utilizzare i ruoli, gli spazi e le organizzazioni Cloud Foundry. 
+4. Utilizzando il menu **Servizi**, seleziona il servizio che vuoi assegnare. Per tutti i servizi che ancora non supportano l'utilizzo di IAM, puoi continuare ad utilizzare i ruoli, gli spazi e le organizzazioni Cloud Foundry.
 5. Fai clic su **Assegna**.
 
-I ruoli, gli spazi e le organizzazioni Cloud Foundry sono chiaramente separati dai gruppi di risorse e dai ruoli IAM. Un ruolo Cloud Foundry non può mai concedere l'accesso alle risorse all'interno di un gruppo di risorse. 
+I ruoli, gli spazi e le organizzazioni Cloud Foundry sono chiaramente separati dai gruppi di risorse e dai ruoli IAM. Un ruolo Cloud Foundry non può mai concedere l'accesso alle risorse all'interno di un gruppo di risorse.
 {: note}
 
 
@@ -37,13 +41,13 @@ I ruoli, gli spazi e le organizzazioni Cloud Foundry sono chiaramente separati d
 
 Tutti gli utenti ottengono un solo gruppo di risorse per impostazione predefinita che può essere ridenominato. Assegna il ruolo di editor o amministratore a tutti i servizi di gestione account per creare i gruppi di risorse. Se hai un account fatturabile, puoi creare più di un gruppo di risorse per organizzare le tue risorse. Organizzando le risorse in gruppi di risorse differenti, puoi:
 
-* Assegnare l'accesso a una serie di risorse più facilmente utilizzando un numero minimo di politiche 
-* Visualizzare le informazioni di utilizzo per il gruppo di risorse per scopi di fatturazione 
+* Assegnare l'accesso a una serie di risorse più facilmente utilizzando un numero minimo di politiche
+* Visualizzare le informazioni di utilizzo per il gruppo di risorse per scopi di fatturazione
 
 Per creare un nuovo gruppo di risorse, effettua le seguenti operazioni:
 
-1. Vai a **Gestisci** > **Account**. 
-2. Espandi **Risorse account** e seleziona **Gruppi di risorse**. 
+1. Vai a **Gestisci** > **Account**.
+2. Espandi **Risorse account** e seleziona **Gruppi di risorse**.
 3. Fai clic su **Crea un gruppo di risorse**.
 4. Immetti un nome per il tuo gruppo di risorse.
 5. Fai clic su **Aggiungi**.
@@ -51,12 +55,12 @@ Per creare un nuovo gruppo di risorse, effettua le seguenti operazioni:
 ## Aggiunta di risorse a un gruppo di risorse
 {: #addingtorgs}
 
-I servizi abilitati utilizzando il controllo dell'accesso IAM appartengono a un gruppo di risorse invece che a un'organizzazione o uno spazio Cloud Foundry. Quando crei un'istanza del servizio per uno di questi servizi dal catalogo, ti viene richiesto di assegnare l'istanza ad un gruppo di risorse. 
+I servizi abilitati utilizzando il controllo dell'accesso IAM appartengono a un gruppo di risorse invece che a un'organizzazione o uno spazio Cloud Foundry. Quando crei un'istanza del servizio per uno di questi servizi dal catalogo, ti viene richiesto di assegnare l'istanza ad un gruppo di risorse.
 
 La tua selezione del gruppo di risorse al momento della creazione dell'istanza è finale e non può essere modificata.
 {: important}
 
-Col crescere del numero di servizi che abilitano l'assegnazione ai gruppi di risorse e l'utilizzo del controllo dell'accesso IAM, ti viene inviata una notifica sul tuo elenco risorse se hai istanze del servizio Cloud Foundry idonee per la migrazione. [Migrando un'istanza del servizio a un gruppo di risorse](/docs/resources?topic=resources-migrate), stai creando una nuova istanza collegata a un gruppo di risorse di tua scelta e l'istanza Cloud Foundry diventa un alias. 
+Col crescere del numero di servizi che abilitano l'assegnazione ai gruppi di risorse e l'utilizzo del controllo dell'accesso IAM, ti viene inviata una notifica sul tuo elenco risorse se hai istanze del servizio Cloud Foundry idonee per la migrazione. [Migrando un'istanza del servizio a un gruppo di risorse](/docs/resources?topic=resources-migrate), stai creando una nuova istanza collegata a un gruppo di risorse di tua scelta e l'istanza Cloud Foundry diventa un alias.
 
 
 ## Assegnazione dell'accesso ai gruppi di risorse e alle risorse al loro interno
@@ -69,13 +73,13 @@ Fornisci l'accesso per gli utenti o i gruppi di utenti organizzati in gruppi di 
 
 Controlla la seguente tabella per ulteriori informazioni sui due tipi di accesso e cosa consente di fare a un utente ogni ruolo IAM della piattaforma assegnato:
 
-| Dettagli della politica di accesso  | Azioni per l'accesso ai gruppi di risorse | Azione sulle risorse nei gruppi di risorse | 
+| Dettagli della politica di accesso  | Azioni per l'accesso ai gruppi di risorse | Azione sulle risorse nei gruppi di risorse |
 |:-----------------|:--------------|:---------------|
 | Assegna accesso a | Gruppo di risorse selezionato | Servizio selezionato in un gruppo di risorse |
-| Ruolo visualizzatore  | Visualizzare il gruppo e le sue caratteristiche ma non le risorse nel gruppo. | Visualizzare le risorse nel gruppo. | 
-| Ruolo operatore | Non applicabile | Non applicabile | 
+| Ruolo visualizzatore  | Visualizzare il gruppo e le sue caratteristiche ma non le risorse nel gruppo. | Visualizzare le risorse nel gruppo. |
+| Ruolo operatore | Non applicabile | Non applicabile |
 | Ruolo editor | Visualizzare o modificare il nome o altre caratteristiche del gruppo ma non le risorse nel gruppo. | Creare, eliminare, modificare, sospendere, riprendere, visualizzare, associare e gestire l'accesso alle risorse nel gruppo di risorse. |
-| Ruolo amministratore |  Visualizzare, modificare o gestire l'accesso al gruppo ma non alle risorse nel gruppo | Creare, eliminare, modificare, sospendere, riprendere, visualizzare, associare e gestire l'accesso alle risorse nel gruppo di risorse. | 
+| Ruolo amministratore |  Visualizzare, modificare o gestire l'accesso al gruppo ma non alle risorse nel gruppo | Creare, eliminare, modificare, sospendere, riprendere, visualizzare, associare e gestire l'accesso alle risorse nel gruppo di risorse. |
 {: caption="Tabella 1. Accesso ai gruppi di risorse" caption-side="top"}
 
 Se vuoi che un utente crei una nuova istanza del servizio e la aggiunga a un gruppo di risorse, l'utente deve essere assegnato come Visualizzatore o ruolo superiore sul gruppo di risorse e Editor o ruolo superiore sul servizio.
@@ -108,12 +112,10 @@ Per ognuno di questi casi di utilizzo, se hai un gruppo di utenti che vuoi abbia
 <li><p>Ho un account con più gruppi di risorse. Ho alcuni utenti che sono amministratori del servizio A in tutto il mio account e hanno bisogno di accedere a tutte le istanze di tale servizio nonché della capacità di creare le istanze, ma questi utenti non hanno bisogno di accedere a tutte le altre risorse nell'account.</p>
 <p>Vorrei assegnare a tre utenti il ruolo di amministratore per il servizio A al livello dell'account, nonché assegnare loro il ruolo di visualizzatore per tutti i gruppi di risorse nell'account di cui devono creare le istanze.</p>
 </li>
-<li><p>Ho un utente nel mio account che deve solo accedere a una risorsa specifica in un servizio, ad esempio la capacità di scrivere in un bucket A in IBM Cloud Object Storage. Questo utente non dovrebbe visualizzare i gruppi di risorse nel mio account o accedere ad alcun altro servizio o bucket in questa istanza di Cloud Object Storage.</p> 
+<li><p>Ho un utente nel mio account che deve solo accedere a una risorsa specifica in un servizio, ad esempio la capacità di scrivere in un bucket A in IBM Cloud Object Storage. Questo utente non dovrebbe visualizzare i gruppi di risorse nel mio account o accedere ad alcun altro servizio o bucket in questa istanza di Cloud Object Storage.</p>
 <p>Vorrei fornire a questo utente il ruolo di scrittore nel bucket A nell'istanza specifica di Cloud Object Storage. Puoi concedere questa politica utilizzando le interfacce specifiche del servizio (la IU Cloud Object Storage, in questo esempio) oppure la IU di assegnazione dell'accesso principale. La IU specifica per il servizio è consigliata perché ti consente di scegliere da un elenco di risorse, mentre la IU di assegnazione dell'accesso non visualizza le risorse al di sotto del livello dell'istanza del servizio e dovrai immettere manualmente il CRN per assegnare la politica a queste risorse.</p>
 </li>
 <li><p>Sto attualmente utilizzando le organizzazioni e gli spazi Cloud Foundry ma inizierò utilizzando i gruppi di risorse e i gruppi di accesso per i miei servizi abilitati a IAM. Attualmente, i miei utenti e le mie risorse sono organizzati in organizzazioni per linee di business e gli spazi sono utilizzati per i diversi progetti in una linea di business.</p>
 <p>Vorrei utilizzare i gruppi di risorse per organizzare le risorse proprio come facevo con gli spazi, pensando a ciascun gruppo di risorse come a uno spazio di progetto. Vorrei quindi configurare dei gruppi di accesso separati per concedere l'accesso necessario ai miei utenti per i corretti gruppi di risorse a livello del progetto. L'accesso può essere concesso a tutte le risorse in un gruppo di risorse oppure anche solo a un gruppo selezionato di risorse all'interno di un gruppo di risorse. Puoi quindi configurare ciascun gruppo di accesso con differenti livelli di accesso alle risorse in un gruppo di risorse, concedendo a ciascun gruppo di utenti l'accesso di cui hanno bisogno per lavorare con le risorse o il gruppo di risorse stesso.</p>
 </li>
 </ol>
-
-

@@ -5,6 +5,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
+keywords: service key, api key, bind, credential
+
+subcollection: resources
+
 ---
 
 {:new_window: target="_blank"}
@@ -52,4 +56,3 @@ Cloud Foundry 服务可以生成服务密钥，该密钥也称为凭证。凭证
   大多数服务不需要额外参数；对于需要额外参数的服务，每个服务都会定义自己的唯一参数列表。有关受支持的配置参数的列表，请参阅特定服务产品的文档。
   {: note}
 4. 单击**添加**以生成新的服务凭证。
-

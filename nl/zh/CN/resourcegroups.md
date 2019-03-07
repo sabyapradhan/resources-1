@@ -7,6 +7,9 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-02-07"
 
+keywords: resource group, account resources, users access to resource groups, create resource group
+
+subcollection: resources
 
 ---
 
@@ -35,7 +38,7 @@ lastupdated: "2019-02-07"
 资源组与 Cloud Foundry 组织或空间之间的连接受您的配额限制。有关更多信息，请参阅[什么是别名？](/docs/resources?topic=resources-connect_app#what_is_alias)。
 {: note}
 
-1. 转至**管理** &gt; **帐户**。展开**帐户资源**，然后选择**资源组**。 
+1. 转至**管理** &gt; **帐户**。展开**帐户资源**，然后选择**资源组**。
 2. 单击**创建资源组**。
 3. 输入资源组的名称。
 4. 单击**添加**。
@@ -60,7 +63,7 @@ lastupdated: "2019-02-07"
 
 已为您创建第一个资源组并命名为 `Default`。您可以选择更新此组或您所创建的任何其他组的名称。
 
-1. 转至**管理** &gt; **帐户**。展开**帐户资源**，然后选择**资源组**。 
+1. 转至**管理** &gt; **帐户**。展开**帐户资源**，然后选择**资源组**。
 2. 从**操作** ![“操作列表”图标](../icons/action-menu-icon.svg) 菜单中选择**重命名**。
 3. 输入唯一名称，然后单击**保存**。
 

@@ -6,6 +6,10 @@ copyright:
 
 lastupdated: "2019-01-28"
 
+keywords: troubleshooting services, troubleshooting resources, service problems, resource problems, error message
+
+subcollection: resources
+
 ---
 
 
@@ -44,11 +48,11 @@ Dieses Problem tritt auf, wenn die Serviceinstanz bereits vom Cloud-Controller g
 Erstellen Sie eine Serviceinstanz mit demselben Namen und binden Sie sie an Ihre Anwendungen. Anschließend können Sie die Serviceinstanz und die Anwendungen löschen, die den Service verwenden.   
 {: tsResolve}
 
-## Warum wurde eine Serviceinstanz in die falsche Ressourcengruppe migriert? 
+## Warum wurde eine Serviceinstanz in die falsche Ressourcengruppe migriert?
 {: #ts_service_instance}
 {: troubleshoot}
 
-Möglicherweise stellen Sie fest, dass eine Serviceinstanz in die falsche Ressourcengruppe migriert wurde und die Zuweisung nicht geändert werden kann. 
+Möglicherweise stellen Sie fest, dass eine Serviceinstanz in die falsche Ressourcengruppe migriert wurde und die Zuweisung nicht geändert werden kann.
 {:shortdesc}
 
 Sie können Ressourcen nach dem Zuweisen nicht in eine andere Ressourcengruppe verschieben.
@@ -64,29 +68,29 @@ Dieses Problem können Sie lösen, indem Sie versuchen, die Instanz zu löschen,
 {: #ts_migrate_instance}
 {: troubleshoot}
 
-Als ein Benutzer des Kontos haben Sie Probleme beim Migrieren einer infrage kommenden Instanz. 
+Als ein Benutzer des Kontos haben Sie Probleme beim Migrieren einer infrage kommenden Instanz.
 {:shortdesc}
 
-Sie können eine infrage kommende Instanz nicht migrieren. 
+Sie können eine infrage kommende Instanz nicht migrieren.
 {: tsSymptoms}
 
-Wenn Sie eine infrage kommende Instanz nicht migrieren können, verfügen Sie möglicherweise nicht über den richtigen Zugriff. 
+Wenn Sie eine infrage kommende Instanz nicht migrieren können, verfügen Sie möglicherweise nicht über den richtigen Zugriff.
 {: tsCauses}
 
-Benutzer müssen über einen bestimmten Zugriff verfügen, um eine Instanz migrieren zu können. Ermitteln Sie Ihre Zugriffsmöglichkeiten, indem Sie in der Menüleiste der Konsole auf **Verwalten** &gt; **Zugriff (IAM)** und anschließend auf **Benutzer** klicken. Klicken Sie auf Ihren Namen und prüfen Sie Ihre Zugriffsrichtlinien auf zugewiesene IAM-Rollen und überprüfen Sie den Cloud Foundry-Zugriff, um die Organisationen, für die Sie über Zugriff verfügen, und die Ihnen zugewiesenen Cloud Foundry-Rollen zu ermitteln. 
+Benutzer müssen über einen bestimmten Zugriff verfügen, um eine Instanz migrieren zu können. Ermitteln Sie Ihre Zugriffsmöglichkeiten, indem Sie in der Menüleiste der Konsole auf **Verwalten** &gt; **Zugriff (IAM)** und anschließend auf **Benutzer** klicken. Klicken Sie auf Ihren Namen und prüfen Sie Ihre Zugriffsrichtlinien auf zugewiesene IAM-Rollen und überprüfen Sie den Cloud Foundry-Zugriff, um die Organisationen, für die Sie über Zugriff verfügen, und die Ihnen zugewiesenen Cloud Foundry-Rollen zu ermitteln.
 {: tsResolve}
 
 ## Warum kann ich nicht meine gesamten Services migrieren?
 {: #ts_service_migration}
 {: troubleshoot}
 
-Eine Migration ist nicht bei allen Services zulässig. 
+Eine Migration ist nicht bei allen Services zulässig.
 {:shortdesc}
 
-Sie können bestimmte Services nicht migrieren. 
+Sie können bestimmte Services nicht migrieren.
 {: tsSymptoms}
 
-Sie versuchen Services zu migrieren, die nicht für ein Hinzufügen zu Ressourcengruppen infrage kommen und nicht über Identity and Access Management (IAM) verwaltet werden. Wenn ein Service nicht infrage kommt, ist eine Migration nicht möglich. 
+Sie versuchen Services zu migrieren, die nicht für ein Hinzufügen zu Ressourcengruppen infrage kommen und nicht über Identity and Access Management (IAM) verwaltet werden. Wenn ein Service nicht infrage kommt, ist eine Migration nicht möglich.
 {: tsCauses}
 
 Überprüfen Sie die Services, um zu bestätigen, dass eine Migration zulässig ist. Sie erhalten eine Benachrichtigung und können anhand des Flags `support_rc_migration` erkennen, ob ein Service migriert werden kann.

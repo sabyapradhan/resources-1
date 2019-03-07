@@ -7,6 +7,9 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-02-07"
 
+keywords: resource group, account resources, users access to resource groups, create resource group
+
+subcollection: resources
 
 ---
 
@@ -35,7 +38,7 @@ Se disponi di un account Lite o una prova gratuita di 30 giorni, non puoi creare
 Le connessioni tra un gruppo di risorse e un'organizzazione o uno spazio Cloud Foundry sono limitate dalla tua quota. Per ulteriori informazioni, vedi [Cos'è un alias?](/docs/resources?topic=resources-connect_app#what_is_alias).
 {: note}
 
-1. Vai a **Gestisci** &gt; **Account**. Espandi **Risorse account** e seleziona quindi **Gruppi di risorse**. 
+1. Vai a **Gestisci** &gt; **Account**. Espandi **Risorse account** e seleziona quindi **Gruppi di risorse**.
 2. Fai clic su **Crea un gruppo di risorse**.
 3. Immetti un nome per il tuo gruppo di risorse.
 4. Fai clic su **Aggiungi**.
@@ -60,7 +63,7 @@ Per visualizzare facilmente le risorse contenute in un gruppo di risorse, filtra
 
 Il tuo primo gruppo di risorse viene creato e denominato `Default` automaticamente. Puoi scegliere di aggiornare il nome di questo gruppo o di qualsiasi altro gruppo che hai creato.
 
-1. Vai a **Gestisci** &gt; **Account**. Espandi **Risorse account** e seleziona quindi **Gruppi di risorse**. 
+1. Vai a **Gestisci** &gt; **Account**. Espandi **Risorse account** e seleziona quindi **Gruppi di risorse**.
 2. Seleziona **Rinomina** dal menu **Azioni** ![Icona di elenco di azioni](../icons/action-menu-icon.svg).
 3. Immetti un nome univoco e fai clic su **Salva**.
 

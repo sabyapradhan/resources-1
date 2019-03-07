@@ -3,7 +3,11 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-02-20"
+lastupdated: "2019-02-28"
+
+keywords: location, regions, data centers, service location, service availability
+
+subcollection: resources
 
 ---
 {:new_window: target="_blank"}
@@ -16,7 +20,7 @@ lastupdated: "2019-02-20"
 {{site.data.keyword.Bluemix}} 讓您能輕鬆地實作、管理及擴充服務和應用程式。您可以將焦點放在應用程式邏輯和應用程式設計。
 {:shortdesc}
 
-並非每個 {{site.data.keyword.Bluemix_notm}} 位置都可購買到所有服務。而且，即使可在該位置購買到此服務，此服務也可能是在不同位置進行管理。下表顯示 IBM 所提供的服務。如需可用資源的完整清單，請參閱 {{site.data.keyword.Bluemix_notm}} 主控台中的[型錄](https://cloud.ibm.com/catalog){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。 
+並非每個 {{site.data.keyword.Bluemix_notm}} 位置都可購買到所有服務。而且，即使可在該位置購買到此服務，此服務也可能是在不同位置進行管理。下表顯示 IBM 所提供的服務。如需可用資源的完整清單，請參閱 {{site.data.keyword.Bluemix_notm}} 主控台中的[型錄](https://cloud.ibm.com/catalog){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。
 
 在全球管理的服務會建立跨越多個位置運作的資源。例如，使用 {{site.data.keyword.cos_full_notm}}，您可以選擇將資料分散在單一[資料中心](/docs/overview?topic=overview-zero-downtime#data_center)，或甚至是藉由[選取應用程式傳送 REST API 要求的端點](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability)而分散在某個位置組合。
 
@@ -62,6 +66,7 @@ lastupdated: "2019-02-20"
 |Cost and Asset Management |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 | Data Store for Memcache |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 | Databases for Elasticsearch |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
+| Databases for MongoDB |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 | Databases for PostgreSQL |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 | Databases for Redis |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 | Databases for etcd |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 

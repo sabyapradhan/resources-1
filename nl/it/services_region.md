@@ -3,7 +3,11 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-02-20"
+lastupdated: "2019-02-28"
+
+keywords: location, regions, data centers, service location, service availability
+
+subcollection: resources
 
 ---
 {:new_window: target="_blank"}
@@ -17,7 +21,7 @@ lastupdated: "2019-02-20"
 sulla progettazione dell'applicazione.
 {:shortdesc}
 
-Non tutti i servizi sono disponibili per l'acquisto in ogni ubicazione {{site.data.keyword.Bluemix_notm}}. E, anche se il servizio è disponibile per l'acquisto in un'ubicazione, tale servizio potrebbe essere ospitato in un luogo differente. La seguente tabella mostra i servizi forniti da IBM. Per l'elenco completo di risorse disponibili, vedi il [catalogo](https://cloud.ibm.com/catalog){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") nella console {{site.data.keyword.Bluemix_notm}}. 
+Non tutti i servizi sono disponibili per l'acquisto in ogni ubicazione {{site.data.keyword.Bluemix_notm}}. E, anche se il servizio è disponibile per l'acquisto in un'ubicazione, tale servizio potrebbe essere ospitato in un luogo differente. La seguente tabella mostra i servizi forniti da IBM. Per l'elenco completo di risorse disponibili, vedi il [catalogo](https://cloud.ibm.com/catalog){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") nella console {{site.data.keyword.Bluemix_notm}}.
 
 I servizi ospitati a livello globale creano risorse che operano su più ubicazioni. Ad esempio, con {{site.data.keyword.cos_full_notm}}, puoi scegliere di diffondere i dati in un singolo [data center](/docs/overview?topic=overview-zero-downtime#data_center) o anche in una combinazione di ubicazioni [selezionando l'endpoint](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability) in cui la tua applicazioni invia le richieste API REST.
 
@@ -63,6 +67,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Cost and Asset Management | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Data Store for Memcache | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Databases for Elasticsearch | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
+| Databases for MongoDB | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Databases for PostgreSQL | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Databases for Redis | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Databases for etcd | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 

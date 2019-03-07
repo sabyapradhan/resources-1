@@ -5,6 +5,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
+keywords: service key, api key, bind, credential
+
+subcollection: resources
+
 ---
 
 {:new_window: target="_blank"}
@@ -52,4 +56,3 @@ Completa la seguente procedura per aggiungere una credenziale Cloud Foundry:
   La maggior parte dei servizi non richiede ulteriori parametri, e per i servizi che li richiedono, ognuno di essi definisce il proprio elenco di parametri univoco. Per un elenco di parametri di configurazione supportati, consulta la documentazione per l'offerta del servizio in particolare.
   {: note}
 4. Fai clic su **Aggiungi** per generare la nuova credenziale del servizio.
-

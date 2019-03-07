@@ -4,6 +4,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
+keywords: service availability, service location, using services across regions
+
+subcollection: resources
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,7 +23,7 @@ lastupdated: "2019-01-28"
 
 	若要使用存在於另一個地區的服務實例，請完成下列步驟：
 
-      1. 若要切換至服務實例所在的地區，請按一下**「功能表」圖示 ![「功能表」圖示](../icons/icon_hamburger.svg)** > **資源清單**。然後，展開**位置**功能表，並選取地區。 
+      1. 若要切換至服務實例所在的地區，請按一下**「功能表」圖示 ![「功能表」圖示](../icons/icon_hamburger.svg)** > **資源清單**。然後，展開**位置**功能表，並選取地區。
 
       2. 在服務存在的地區中，從服務實例的 VCAP_SERVICES 環境變數擷取認證及連線參數。請完成下列步驟：
 
@@ -28,7 +32,7 @@ lastupdated: "2019-01-28"
 
       3. 切換至您要使用服務實例的地區。按一下**「功能表」圖示 ![「功能表」圖示](../icons/icon_hamburger.svg)** > **資源清單**。然後，展開**位置**功能表，並選取您要在其中使用服務實例的地區。
 
-      4. 使用您從 *VCAP_SERVICES* 環境變數記錄的認證及連線參數，建立使用者提供的服務實例。 
+      4. 使用您從 *VCAP_SERVICES* 環境變數記錄的認證及連線參數，建立使用者提供的服務實例。
 
       5. 使用下列指令，以將使用者提供的服務實例連結至應用程式：
 

@@ -6,6 +6,10 @@ copyright:
 
 lastupdated: "2019-02-19"
 
+keywords: migrate, migrating to a resource group, migrate Cloud Foundry
+
+subcollection: resources
+
 ---
 
 {:shortdesc: .shortdesc}
