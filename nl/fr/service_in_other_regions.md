@@ -4,6 +4,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
+keywords: service availability, service location, using services across regions
+
+subcollection: resources
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,7 +23,7 @@ Si une instance de service est créée et liée à des applications dans une ré
 
 	Pour utiliser une instance de service qui existe dans une autre région, procédez comme suit :
 
-      1. Pour accéder à la région dans laquelle se trouve l'instance de service, cliquez sur l'icône **Menu  ![Icône Menu](../icons/icon_hamburger.svg)** > **Liste de ressources**. Développez ensuite le menu **EMPLACEMENT** et sélectionnez la région. 
+      1. Pour accéder à la région dans laquelle se trouve l'instance de service, cliquez sur l'icône **Menu  ![Icône Menu](../icons/icon_hamburger.svg)** > **Liste de ressources**. Développez ensuite le menu **EMPLACEMENT** et sélectionnez la région.
 
       2. Récupérez les données d'identification et les paramètres de connexion depuis la variable d'environnement VCAP_SERVICES de l'instance de service dans la région dans laquelle le service existe. Procédez comme suit :
 
@@ -28,7 +32,7 @@ Si une instance de service est créée et liée à des applications dans une ré
 
       3. Accédez à la région dans laquelle vous voulez utiliser l'instance de service. Cliquez sur l'icône **Menu ![Icône Menu](../icons/icon_hamburger.svg)** > **Liste de ressources**. Développez ensuite le menu **EMPLACEMENT** et sélectionnez la région dans laquelle utiliser l'instance de service.
 
-      4. Créez une instance de service fournie par l'utilisateur en utilisant les données d'identification et les paramètres de connexion que vous avez enregistrés depuis la variable d'environnement *VCAP_SERVICES*. 
+      4. Créez une instance de service fournie par l'utilisateur en utilisant les données d'identification et les paramètres de connexion que vous avez enregistrés depuis la variable d'environnement *VCAP_SERVICES*.
 
       5. Liez l'instance de service fournie par l'utilisateur à votre application avec la commande suivante :
 

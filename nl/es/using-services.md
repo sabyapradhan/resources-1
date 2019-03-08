@@ -5,6 +5,10 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-01-28"
 
+keywords: classic infrastructure assets, application development, services that work with classic infrastructure
+
+subcollection: resources
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -28,4 +32,3 @@ Por ejemplo, ¿desea añadir capacidades cognitivas de Watson a las apps que se 
 2. Cree una instancia del servicio con tan solo unas pulsaciones.
 3. Configure el servicio para que se ejecute con el código existente copiando las credenciales del servicio y añadiéndolas a la aplicación.
 4. Después de actualizar la app, despliegue la nueva versión en los activos de la infraestructura clásica.
-

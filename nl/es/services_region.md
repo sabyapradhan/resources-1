@@ -3,7 +3,11 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-02-20"
+lastupdated: "2019-02-28"
+
+keywords: location, regions, data centers, service location, service availability
+
+subcollection: resources
 
 ---
 {:new_window: target="_blank"}
@@ -16,7 +20,7 @@ lastupdated: "2019-02-20"
 {{site.data.keyword.Bluemix}} le permite fácilmente implementar, alojar y escalar servicios y apps. Puede centrarse en la lógica de la aplicación y en el diseño de la aplicación.
 {:shortdesc}
 
-No todos los servicios están disponibles para su adquisición en cada ubicación de {{site.data.keyword.Bluemix_notm}}. E, incluso si el servicio está disponible para su adquisición en dicha ubicación, el servicio puede estar alojado en una ubicación diferente. La siguiente tabla muestra los servicios proporcionados por IBM. Para ver la lista completa de los recursos que están disponibles, consulte el [catálogo](https://cloud.ibm.com/catalog){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") en la consola de {{site.data.keyword.Bluemix_notm}}. 
+No todos los servicios están disponibles para su adquisición en cada ubicación de {{site.data.keyword.Bluemix_notm}}. E, incluso si el servicio está disponible para su adquisición en dicha ubicación, el servicio puede estar alojado en una ubicación diferente. La siguiente tabla muestra los servicios proporcionados por IBM. Para ver la lista completa de los recursos que están disponibles, consulte el [catálogo](https://cloud.ibm.com/catalog){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") en la consola de {{site.data.keyword.Bluemix_notm}}.
 
 Los servicios alojados globalmente crean recursos que funcionan en varias ubicaciones. Por ejemplo, con {{site.data.keyword.cos_full_notm}}, puede optar por dispersar los datos en un único [centro de datos](/docs/overview?topic=overview-zero-downtime#data_center), o incluso en una combinación de ubicaciones, [seleccionando el punto final](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability) al que aplicación envía las solicitudes de API REST.
 
@@ -62,6 +66,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Cost and Asset Management | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Data Store for Memcache | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Databases for Elasticsearch | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
+| Databases for MongoDB | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Databases for PostgreSQL | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Databases for Redis | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Databases for etcd | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 

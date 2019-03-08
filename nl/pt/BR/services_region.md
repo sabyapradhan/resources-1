@@ -3,7 +3,11 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-02-20"
+lastupdated: "2019-02-28"
+
+keywords: location, regions, data centers, service location, service availability
+
+subcollection: resources
 
 ---
 {:new_window: target="_blank"}
@@ -16,7 +20,7 @@ lastupdated: "2019-02-20"
 O {{site.data.keyword.Bluemix}} facilita a implementação, a hospedagem e os serviços de escala e apps. O foco pode ser a lógica e o design do aplicativo.
 {:shortdesc}
 
-Nem todos os serviços estão disponíveis para compra em todas as localizações do {{site.data.keyword.Bluemix_notm}}. E, mesmo se o serviço estiver disponível para compra nessa localização, ele poderá estar hospedado em uma localização diferente. A tabela a seguir mostra os serviços que são fornecidos pela IBM. Para obter a lista completa de recursos que estão disponíveis, consulte o [catálogo](https://cloud.ibm.com/catalog){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") no console do {{site.data.keyword.Bluemix_notm}}. 
+Nem todos os serviços estão disponíveis para compra em todas as localizações do {{site.data.keyword.Bluemix_notm}}. E, mesmo se o serviço estiver disponível para compra nessa localização, ele poderá estar hospedado em uma localização diferente. A tabela a seguir mostra os serviços que são fornecidos pela IBM. Para obter a lista completa de recursos que estão disponíveis, consulte o [catálogo](https://cloud.ibm.com/catalog){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") no console do {{site.data.keyword.Bluemix_notm}}.
 
 Os serviços hospedados globalmente criam os recursos que operam em múltiplas localizações. Por exemplo,
 com o {{site.data.keyword.cos_full_notm}}, é possível optar por dispersar os dados em um único
@@ -66,6 +70,7 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Cost and Asset Management | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Data Store for Memcache | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Databases for Elasticsearch | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Databases for MongoDB | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Databases for PostgreSQL | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Databases for Redis | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Databases for etcd | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 

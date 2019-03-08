@@ -6,6 +6,10 @@ copyright:
 
 lastupdated: "2019-02-07"
 
+keywords: resource FAQs, resource frequently asked questions
+
+subcollection: resources
+
 ---
 
 
