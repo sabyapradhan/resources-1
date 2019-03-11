@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-02-07"
+lastupdated: "2019-03-11"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -73,3 +73,9 @@ You can't move service instances between resource groups. If you assign a servic
 {: faq}
 
 Yes, you can. To open the Usage Dashboard page, click **Manage** &gt; **Billing and usage**. Select **Usage** to view a summary of the usage by resource group for the account.
+
+## Who can add tags to a resource?
+{: #tag-fag}
+{: faq}
+
+Any user assigned the correct access for the specific type of resource can add tags. When a resource is tagged, it is visible to all users who have read access to the resource. However, to add or remove a tag from a resource, certain access roles or permissions are required depending on the resource type. For example, for any resources that are managed by using IAM, you must be assigned the Editor or Administrator role on the resource. For more information about the required access for other resources types, see [Tagging permissions](/docs/resources?topic=resources-access#tagging-permissions).
