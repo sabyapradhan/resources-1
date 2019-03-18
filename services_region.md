@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-03-15"
+lastupdated: "2019-03-18"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -82,6 +82,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Functions | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Hosted in Tokyo | 
 | Geospatial Analytics | Hosted in Dallas | Hosted in London | Not available | Syndicated from London | Not available | Not available | 
 | Globalization Pipeline | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
+| HPC Cluster | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
 | Historical Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Hyper Protect Crypto Services | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Hyper Protect DBaaS | Not available | Not available | Not available | Not available | Hosted in Washington DC | Not available | 
