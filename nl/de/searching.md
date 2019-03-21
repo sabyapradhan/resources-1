@@ -103,6 +103,6 @@ Die folgenden Beispiele erleichtern die Suche nach Kontoressourcen:
 
     `ibmcloud resource search "creation_date:[2018-05-16T00:00:00Z TO 2018-05-20T00:00:00Z]"`
 
-* Suchen Sie, geordnet nach Ressourcentyp, nach allen Ressourcen, deren Name mit 'my' beginnt, indem Sie den folgenden Befehl eingeben:
+* Suchen Sie nach allen Ressourcen, geordnet nach Ressourcentyp, deren Name mit 'my' beginnt, indem Sie den folgenden Befehl eingeben:
 
     `ibmcloud resource search 'name:my*' -s type`
