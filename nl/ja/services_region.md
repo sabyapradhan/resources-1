@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-03-20"
+lastupdated: "2019-03-28"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -71,9 +71,9 @@ subcollection: resources
 | Databases for PostgreSQL | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
 | Databases for Redis | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
 | Databases for etcd | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
+| Db2 | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Db2 Hosted | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Db2 Warehouse | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
-| Db2 on Cloud | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Decision Optimization | ダラスでホスト | ロンドンでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | DevOps Insights | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | 使用不可 | 使用不可 | 使用不可 | 
 | Digital Content Checker | ダラスでホスト | ロンドンでホスト | 使用不可 | ロンドンからシンジケート | 使用不可 | 使用不可 | 
