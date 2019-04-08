@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-03-28"
+lastupdated: "2019-04-04"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -46,7 +46,7 @@ subcollection: resources
 |Blockchain | 댈러스에서 호스팅됨 | 댈러스에서 신디케이트됨 | 댈러스에서 신디케이트됨 | 댈러스에서 신디케이트됨 |사용할 수 없음 |사용할 수 없음 | 
 |Blockchain Platform 2.0 | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Certificate Manager | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 | 도쿄에서 호스팅됨 | 
-|Cloud Foundry Enterprise Environment | 댈러스에서 호스팅됨 |사용할 수 없음 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 |사용할 수 없음 | 
+|Cloud Foundry Enterprise Environment | 댈러스에서 호스팅됨 |사용할 수 없음 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Cloud Object Storage |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |Cloudant | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Compare and Comply | 댈러스에서 호스팅됨 |사용할 수 없음 | 프랑크푸르트에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 

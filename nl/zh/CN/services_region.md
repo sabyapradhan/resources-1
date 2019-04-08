@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-03-28"
+lastupdated: "2019-04-04"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -46,7 +46,7 @@ subcollection: resources
 |Blockchain| 在达拉斯托管 | 从达拉斯联合 | 从达拉斯联合 | 从达拉斯联合 |不可用|不可用| 
 |Blockchain Platform 2.0| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Certificate Manager| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用| 在东京托管 | 
-|Cloud Foundry Enterprise Environment| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
+|Cloud Foundry Enterprise Environment| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Cloud Object Storage|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管| 
 |Cloudant| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Compare and Comply| 在达拉斯托管 |不可用| 在法兰克福托管 |不可用|不可用|不可用| 
