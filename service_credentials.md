@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-08"
 
 keywords: service key, api key, bind, credential
 
@@ -16,7 +16,7 @@ subcollection: resources
 {:note: .note}
 
 
-# Adding a credential
+# Adding and viewing credentials
 {: #service_credentials}
 
 You can generate a new set of credentials for cases where you want to manually connect an external consumer to an {{site.data.keyword.Bluemix}} service. For example, if you're trying to bind an AWS app to a Watson service, you need to generate a new credential that can be used to bind them together.
@@ -56,3 +56,15 @@ Complete the following steps to add a Cloud Foundry credential:
   Most services don't require extra parameters, and for services that do, each service defines its own unique list of parameters. For a list of supported configuration parameters, see the documentation for the particular service offering.
   {: note}
 4. Click **Add** to generate the new service credential.
+
+## Viewing a credential
+{: #viewing-credentials}
+
+After a credential is created for a service, it can be viewed at any time for users that need the API key value. However, all users must be have the correct level of access to see the details of a credential including the API key value. The access of the user must be equal to or greater than that of the service credential. For example, if the credential has the IAM service role `Writer`, then the user trying to view the credential must have the IAM service role `Writer` or `Manager` for that particilar service assigned. When a user doesn't have the correct access, details such as the API key value are redacted.
+
+To view an existing service credential for a service, complete the following steps:
+
+1. From the Resource list, select the name of the service to open the service details page. 
+2. Click **Service credentials**
+3. Expand **View credentials** on the row for an existing credential.
+
