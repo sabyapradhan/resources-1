@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-08"
+lastupdated: "2019-04-09"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -49,7 +49,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Cloud Foundry Enterprise Environment | Not available | Not available | Hosted in Frankfurt | Not available | Not available | Not available | 
 | Cloud Object Storage | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
 | Cloudant | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Compare and Comply | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Not available | Not available | 
+| Compare and Comply | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Hosted in Washington DC | Not available | 
 | Compose Enterprise | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Compose for Elasticsearch | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Compose for JanusGraph | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
@@ -70,9 +70,9 @@ Services that are hosted globally create resources that operate across multiple 
 | Databases for PostgreSQL | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Databases for Redis | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Databases for etcd | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Db2 | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | Db2 Hosted | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | Db2 Warehouse | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
+| Db2 on Cloud | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | Decision Optimization | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
 | DevOps Insights | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
 | Digital Content Checker | Hosted in Dallas | Hosted in London | Not available | Syndicated from London | Not available | Not available | 
@@ -122,7 +122,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Simulated Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Simulated Instruments Analytics API | Hosted in Dallas | Not available | Not available | Not available | Hosted in Washington DC | Not available | 
 | Speech to Text | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
-| Streaming Analytics | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Not available | 
+| Streaming Analytics | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Not available | 
 | Text to Speech | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Tone Analyzer | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Toolchain | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Hosted in Washington DC | Hosted in Tokyo | 
