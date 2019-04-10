@@ -60,7 +60,7 @@ Complete the following steps to add a Cloud Foundry credential:
 ## Viewing a credential
 {: #viewing-credentials}
 
-After a credential is created for a service, it can be viewed at any time for users that need the API key value. However, all users must have the correct level of access to see the details of a credential including the API key value. The access of the user must be equal to or greater than that of the service credential. For example, if the credential has the IAM service role `Writer`, then the user trying to view the credential must have the IAM service role `Writer` or `Manager` for that particilar service assigned. When a user doesn't have the correct access, details such as the API key value are redacted.
+After a credential is created for a service, it can be viewed at any time for users that need the API key value. However, all users must have the correct level of access to see the details of a credential including the API key value. The access of the user must be equal to or greater than that of the service credential. For example, if the credential has the IAM service role `Writer`, then the user trying to view the credential must have the IAM service role `Writer` or `Manager` for that particular service assigned. When a user doesn't have the correct access, details such as the API key value are redacted.
 
 To view an existing service credential for a service, complete the following steps:
 
