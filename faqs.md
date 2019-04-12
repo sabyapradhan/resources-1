@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-03-11"
+lastupdated: "2019-04-11"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -36,11 +36,11 @@ For more information about creating and working with resource groups, see [Manag
 {: #instance-migrated}
 {: faq}
 
-Migrating your Cloud Foundry services to a resource group means that the services you're using are now available for use with IAM access control and resource groups. You can take advantage of fine-grained access control by using IAM roles. You can also view usage per resource group in your account.
+Migrating your Cloud Foundry services to a resource group means that the services you're using are now available for use with IAM access control and resource groups. You can take advantage of fine-grained access control by using IAM roles. You can also view usage per resource group in your account. 
 
 When you have Cloud Foundry services that can be migrated to a resource group, you receive a notification on your resource list. For more information about the migration process, see [Migrating Cloud Foundry service instances and apps to a resource group](/docs/resources?topic=resources-migrate).
 
-## Why can't I create a resource and add it to a resource group?
+## Why can't I add a resource to a resource group?
 {: #create-add-resource}
 {: faq}
 
@@ -48,13 +48,15 @@ Most likely you're dealing with an access issue. You must have at least the View
 
 For more information about how to check your assigned access, see [Reviewing your assigned access](/docs/iam?topic=iam-iammanidaccser#review_your_access).
 
-If you need additional access in the account, contact the account owner that is listed on the [Users](https://{DomainName}/iam#/users) page.
+If you need additional access in the account, contact the account owner that is listed on the [Users](https://{DomainName}/iam#/users) page. 
 
 ## Who can create resource groups?
 {: #create-resource}
 {: faq}
 
 You can create resource groups only if you're assigned the Administrator role on all {{site.data.keyword.Bluemix_notm}} Identity and Access enabled services in the account.
+
+Lite accounts can have only the default resource group, so you can't create any additional resource groups even if you have the required access.
 
 ## Can I delete a resource group?
 {: #delete-resource-group}
@@ -72,7 +74,7 @@ You can't move service instances between resource groups. If you assign a servic
 {: #view-usage}
 {: faq}
 
-Yes, you can. To open the Usage Dashboard page, click **Manage** &gt; **Billing and usage**. Select **Usage** to view a summary of the usage by resource group for the account.
+Yes, you can. To open the Usage Dashboard page, click **Manage** &gt; **Billing and usage**. Select **Usage** to view a summary of the usage by resource group for the account. 
 
 ## Who can add tags to a resource?
 {: #tag-fag}
