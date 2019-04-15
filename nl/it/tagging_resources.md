@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-29"
+lastupdated: "2019-04-03"
 
 keywords: add tags, tags, full list of tags, how to use tags
 
@@ -19,7 +19,7 @@ subcollection: resources
 # Gestione delle tag
 {: #tag}
 
-Una tag è un'etichetta che assegni a una risorsa per filtrare facilmente le risorse nel tuo elenco risorse. Puoi utilizzare le tag per organizzare le tue risorse e trovarle facilmente in un secondo momento.  
+Una tag è un'etichetta che assegni a una risorsa per filtrare facilmente le risorse nel tuo elenco risorse. Puoi utilizzare le tag per organizzare le tue risorse e trovarle facilmente in un secondo momento. Puoi utilizzare le tag anche per aiutarti a identificare uno specifico utilizzo del team o una specifica allocazione dei costi quando esamini il tuo [report di utilizzo esportato](/docs/billing-usage?topic=billing-usage-viewingusage#export-csv).
 {: shortdesc}
 
 Per visualizzare un elenco completo delle tag nel tuo account, vai a **Gestisci > Account** e seleziona **Tag**.
@@ -27,18 +27,18 @@ Per visualizzare un elenco completo delle tag nel tuo account, vai a **Gestisci 
 ## Regole e limitazioni relative alle operazioni di tag
 {: #limits}
 
-La dimensione massima di una tag è di 128 caratteri. I caratteri consentiti sono A-Z, 0-9, gli spazi vuoti, i caratteri di sottolineatura, i trattini, i punti e i caratteri due punti; le tag non sono sensibili a maiuscole/minuscole. I caratteri due punti trasformano la tag in una stringa in cui puoi isolare due parti logiche, come una coppia `chiave:valore`. Non puoi utilizzare un carattere due punti in una tag senza creare questa coppia. Una virgola separa le tag e non può essere utilizzata all'interno del nome della tag stesso.
+La dimensione massima di una tag è di 128 caratteri. I caratteri consentiti sono A-Z, 0-9, gli spazi vuoti, i caratteri di sottolineatura, i trattini, i punti e i caratteri due punti; le tag non sono sensibili a maiuscole/minuscole. I caratteri due punti trasformano le tag in una stringa in cui puoi isolare due parti logiche, come una coppia chiave/valore (`key:value`). Non puoi utilizzare un carattere due punti in una tag senza creare questa coppia. Una virgola separa le tag e non può essere utilizzata all'interno nel nome stesso della tag. 
 
 ## Aggiunta e rimozione di tag su una risorsa
 {: #add-remove}
 
 1. Dalla console {{site.data.keyword.Bluemix_notm}}, fai clic sull'icona Menu ![Icona Menu](../icons/icon_hamburger.svg) > **Elenco risorse** per visualizzare il tuo elenco di risorse.
 2. Espandi la freccia del tipo di risorsa che contiene la risorsa su cui vuoi eseguire operazioni di tag. Ad esempio, se vuoi eseguire operazioni di tag su un'istanza di {{site.data.keyword.cos_full_notm}}, espandi **Archiviazione**.  
-3. Fai clic sull'icona Azioni ![Icona Azioni](../icons/action-menu-icon.svg) per aggiungere o aggiornare una tag per la risorsa.
+3. Fai clic sull'icona **Azioni** ![Icona Azioni](../icons/action-menu-icon.svg) per aggiungere o aggiornare una tag per la risorsa.
 
-    * Per aggiungere una tag, fai clic sul menu Azioni ![Menu Azioni](../icons/action-menu-icon.svg), seleziona **Aggiungi tag** e immetti un nome per la tua tag.
-    * Per aggiungere ulteriori tag, fai clic sull'icona Modifica ![Icona Modifica](../icons/edit-tagging.svg) accanto alla tag visualizzata e immetti un nome per la tua tag. Premi Invio per continuare ad aggiungere tag.
-4. Per rimuovere una tag, fai clic sull'icona Modifica ![Icona Modifica](../icons/edit-tagging.svg). Fai quindi clic sull'icona Rimuovi ![Icona Rimuovi](../icons/close-tagging.svg) accanto alla tag.
+    * Per aggiungere una tag, fai clic sul menu **Azioni** ![Icona Azioni](../icons/action-menu-icon.svg), seleziona **Aggiungi tag** e immetti un nome per la tua tag. 
+    * Per aggiungere altre tag, fai clic sull'icona **Modifica** ![Icona Modifica](../icons/edit-tagging.svg) accanto alla tag visualizzata e immetti un nome per la tua tag. Premi Invio per continuare ad aggiungere tag.
+4. Per rimuovere una tag, fai clic sull'icona **Modifica** ![Icona Modifica](../icons/edit-tagging.svg). Quindi, fai clic sull'icona **Rimuovi** ![Icona Rimuovi](../icons/close-tagging.svg) accanto alla tag. 
 
 ## Ricerca di tag
 {: #search-tags}
@@ -56,8 +56,7 @@ La stessa tag può essere collegata a più risorse da vari utenti nello stesso a
 ## Operazioni di tag per i rivenditori
 {: #resell}
 
-Le tag sono visibili a tutti i membri di un account.
-Se il tuo account è associato a diverse organizzazioni, ad esempio se sei un rivenditore, sarebbe opportuno che consigliassi ai tuoi clienti di non memorizzare informazioni nelle tag che potrebbero diffondere informazioni sensibili ad altri utenti nello stesso account.
+Le tag sono visibili a tutti i membri di un account. Se il tuo account è associato a varie organizzazioni, se sei un rivenditore ad esempio, potresti voler consigliare ai tuoi clienti di non archiviare informazioni nelle tag che potrebbero diffondere informazioni sensibili ad altri nello stesso account. 
 
 Per controllare la visibilità delle tag, fai circolare le linee guida sulle operazioni di tag e lascia che gli utenti sappiano che le tag sono visibili a livello di account.
 
