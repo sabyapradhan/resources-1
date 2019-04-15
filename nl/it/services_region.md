@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-04"
+lastupdated: "2019-03-20"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -47,7 +47,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Blockchain | Ospitato a Dallas | Diffuso da Dallas | Diffuso da Dallas | Diffuso da Dallas | Non disponibile | Non disponibile | 
 | Blockchain Platform 2.0 | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Gestore certificato | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
-| Ambiente Cloud Foundry Enterprise | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
+| Ambiente Cloud Foundry Enterprise | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Non disponibile | 
 | Cloud Object Storage | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | 
 | Cloudant | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Compare and Comply | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Non disponibile | Non disponibile | 
@@ -71,9 +71,9 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Databases for PostgreSQL | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Databases for Redis | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Databases for etcd | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
-| Db2 | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Db2 Hosted | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Warehouse Db2 | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
+| Db2 on Cloud | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Decision Optimization | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | DevOps Insights | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Non disponibile | 
 | Digital Content Checker | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Diffuso da Londra | Non disponibile | Non disponibile | 
