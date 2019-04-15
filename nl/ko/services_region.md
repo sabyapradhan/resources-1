@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-03-20"
+lastupdated: "2019-04-10"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -46,10 +46,10 @@ subcollection: resources
 |Blockchain | 댈러스에서 호스팅됨 | 댈러스에서 신디케이트됨 | 댈러스에서 신디케이트됨 | 댈러스에서 신디케이트됨 |사용할 수 없음 |사용할 수 없음 | 
 |Blockchain Platform 2.0 | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Certificate Manager | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 | 도쿄에서 호스팅됨 | 
-|Cloud Foundry Enterprise Environment | 댈러스에서 호스팅됨 |사용할 수 없음 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 |사용할 수 없음 | 
+|Cloud Foundry Enterprise Environment |사용할 수 없음 |사용할 수 없음 | 프랑크푸르트에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Cloud Object Storage |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |Cloudant | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 
-|Compare and Comply | 댈러스에서 호스팅됨 |사용할 수 없음 | 프랑크푸르트에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
+|Compare and Comply | 댈러스에서 호스팅됨 |사용할 수 없음 | 프랑크푸르트에서 호스팅됨 |사용할 수 없음 | 워싱턴 DC에서 호스팅됨 |사용할 수 없음 | 
 |Compose Enterprise | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 |사용할 수 없음 | 
 |Compose for Elasticsearch | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 |사용할 수 없음 | 
 |Compose for JanusGraph | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 |사용할 수 없음 | 
@@ -122,7 +122,7 @@ subcollection: resources
 |Simulated Instrument Analytics | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Simulated Instruments Analytics API | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 워싱턴 DC에서 호스팅됨 |사용할 수 없음 | 
 |Speech to Text | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 
-|Streaming Analytics | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
+|Streaming Analytics | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |사용할 수 없음 | 워싱턴 DC에서 호스팅됨 |사용할 수 없음 | 
 |Text to Speech | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Tone Analyzer | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Toolchain | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |사용할 수 없음 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 

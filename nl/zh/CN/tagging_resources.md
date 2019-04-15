@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-29"
+lastupdated: "2019-04-03"
 
 keywords: add tags, tags, full list of tags, how to use tags
 
@@ -19,7 +19,7 @@ subcollection: resources
 # 使用标记
 {: #tag}
 
-标记是您为资源分配的标签，用于对资源列表中的资源进行轻松过滤。可以使用标记来组织资源，并在日后轻松找到这些资源。  
+标记是您为资源分配的标签，用于对资源列表中的资源进行轻松过滤。可以使用标记来组织资源，并在日后轻松找到这些资源。在查看[导出的使用情况报告](/docs/billing-usage?topic=billing-usage-viewingusage#export-csv)时，还可以使用标记来帮助识别特定团队使用情况或成本分配。
 {: shortdesc}
 
 要查看帐户中标记的完整列表，请转至**管理 > 帐户**，然后选择**标记**。
@@ -34,11 +34,11 @@ subcollection: resources
 
 1. 在 {{site.data.keyword.Bluemix_notm}} 控制台中，单击“菜单”图标 ![“菜单”图标](../icons/icon_hamburger.svg) > **资源列表**以查看资源列表。
 2. 展开包含要标记的资源的资源类型折叠标记。例如，如果要标记 {{site.data.keyword.cos_full_notm}} 的实例，请展开**存储**。  
-3. 单击“操作”图标 ![“操作”图标](../icons/action-menu-icon.svg) 以添加或更新资源的标记。
+3. 单击**操作**图标 ![“操作”图标](../icons/action-menu-icon.svg) 以添加或更新资源的标记。
 
-    * 要添加标记，请单击“操作”菜单 ![“操作”图标](../icons/action-menu-icon.svg)，选择**添加标记**，然后输入标记的名称。
-    * 要添加其他标记，请单击所显示标记旁边的“编辑”图标 ![“编辑”图标](../icons/edit-tagging.svg)，然后输入标记的名称。按 Enter 键以继续添加标记。
-4. 要除去标记，请单击“编辑”图标 ![“编辑”图标](../icons/edit-tagging.svg)。然后，单击标记旁边的“除去”图标 ![“除去”图标](../icons/close-tagging.svg)。
+    * 要添加标记，请单击**操作**菜单 ![“操作”图标](../icons/action-menu-icon.svg)，选择**添加标记**，然后输入标记的名称。
+    * 要添加更多标记，请单击所显示标记旁边的**编辑**图标 ![“编辑”图标](../icons/edit-tagging.svg)，然后输入标记的名称。按 Enter 键以继续添加标记。
+4. 要除去标记，请单击**编辑**图标 ![“编辑”图标](../icons/edit-tagging.svg)。然后，单击标记旁边的**除去**图标 ![“除去”图标](../icons/close-tagging.svg)。
 
 ## 搜索标记
 {: #search-tags}
@@ -56,7 +56,7 @@ subcollection: resources
 ## 针对经销商进行标记
 {: #resell}
 
-标记对帐户的所有成员可见。如果帐户与不同组织相关联（例如，如果您是经销商），您可能要建议客户不要将敏感信息存储在标记中，以免同一帐户中的其他人看到。
+标记对帐户的所有成员可见。如果帐户与不同组织相关联（例如，如果您是经销商），您可能要建议客户不将敏感信息存储在标记中，以免同一帐户中的其他人看到。
 
 要控制标记可见性，请广泛传阅标记准则，让用户知道标记是在整个帐户范围内可见。
 

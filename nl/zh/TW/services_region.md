@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-03-20"
+lastupdated: "2019-04-10"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -46,10 +46,10 @@ subcollection: resources
 |Blockchain |在達拉斯進行管理|從達拉斯進行聯合發佈|從達拉斯進行聯合發佈|從達拉斯進行聯合發佈|不適用 |不適用 | 
 |Blockchain Platform 2.0 |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Certificate Manager |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |不適用 |在東京進行管理| 
-|Cloud Foundry Enterprise Environment|在達拉斯進行管理|不適用 |在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 
+|Cloud Foundry Enterprise Environment|不適用 |不適用 |在法蘭克福進行管理|不適用 |不適用 |不適用 | 
 |Cloud Object Storage |在全球管理|在全球管理|在全球管理|在全球管理|在全球管理|在全球管理| 
 |Cloudant |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
-|Compare and Comply |在達拉斯進行管理|不適用 |在法蘭克福進行管理|不適用 |不適用 |不適用 | 
+|Compare and Comply |在達拉斯進行管理|不適用 |在法蘭克福進行管理|不適用 |在華盛頓特區進行管理|不適用 | 
 |Compose Enterprise|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 
 |Compose for Elasticsearch|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 
 |Compose for JanusGraph|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 
@@ -122,7 +122,7 @@ subcollection: resources
 |Simulated Instrument Analytics |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Simulated Instruments Analytics API |在達拉斯進行管理|不適用 |不適用 |不適用 |在華盛頓特區進行管理|不適用 | 
 |Speech to Text|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
-|Streaming Analytics |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |不適用 |不適用 | 
+|Streaming Analytics |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |在華盛頓特區進行管理|不適用 | 
 |Text to Speech|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 |Tone Analyzer|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 | Toolchain |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |在華盛頓特區進行管理|在東京進行管理| 

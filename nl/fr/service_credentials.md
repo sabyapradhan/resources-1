@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-08"
 
 keywords: service key, api key, bind, credential
 
@@ -16,7 +16,7 @@ subcollection: resources
 {:note: .note}
 
 
-# Ajout de données d'identification
+# Ajout et affichage de données d'identification
 {: #service_credentials}
 
 Vous pouvez générer un nouveau jeu de données d'identification pour le cas où vous voudriez connecter manuellement un consommateur extérieur à un service {{site.data.keyword.Bluemix}}. Par exemple, si vous tentez de lier une application AWS à un service Watson, vous devrez générer de nouvelles données d'identification pouvant être utilisées pour lier entre eux ces deux éléments.
@@ -56,3 +56,15 @@ Pour ajouter des données d'identification Cloud Foundry, procédez comme suit :
   La plupart des services ne requièrent pas de paramètres supplémentaires et pour ceux qui en ont besoin, chaque service définit sa propre liste unique de paramètres. Pour la liste des paramètres de configuration pris en charge, reportez-vous à la documentation de l'offre de service concernée.
   {: note}
 4. Cliquez sur **Ajouter** pour générer les nouvelles données d'identification du service.
+
+## Affichage de données d'identification
+{: #viewing-credentials}
+
+Une fois créées pour un service, les données d'identification peuvent être affichées à tout moment pour les utilisateurs qui ont besoin de la valeur de la clé d'API. Toutefois, ces utilisateurs doivent disposer du niveau d'accès requis pour afficher les détails des données d'identification, y compris la valeur de la clé d'API. Le niveau d'accès de l'utilisateur doit être égal ou supérieur à celui des données d'identification du service. Par exemple, si les données d'identification détiennent le rôle de service IAM `Auteur`, l'utilisateur qui tente d'afficher les données d'identification doit détenir le rôle de service IAM `Auteur` ou `Responsable` pour ce service affecté particulier. Lorsqu'un utilisateur ne dispose pas du droit accès approprié, les détails tels que la valeur de la clé d'API sont occultés.
+
+Pour afficher les données d'identification de service d'un service, procédez comme suit :
+
+1. Dans la liste Ressources, sélectionnez le nom du service pour ouvrir la page des détails du service. 
+2. Cliquez sur **Données d'identification pour le service**
+3. Développez **Afficher les données d'identification** sur la ligne de données d'identification existantes.
+
