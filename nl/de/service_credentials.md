@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-08"
 
 keywords: service key, api key, bind, credential
 
@@ -16,7 +16,7 @@ subcollection: resources
 {:note: .note}
 
 
-# Berechtigungsnachweis hinzufügen
+# Berechtigungsnachweise hinzufügen und anzeigen
 {: #service_credentials}
 
 Sie können eine neue Gruppe von Berechtigungsnachweisen für die Fälle generieren, in denen Sie einen externen Konsumenten manuell mit einem {{site.data.keyword.Bluemix}}-Service verbinden möchten. Wenn Sie beispielsweise versuchen, eine AWS-App an einen Watson-Service zu binden, müssen Sie einen neuen Berechtigungsnachweis generieren, der für das Binden von App und Service verwendet werden kann.
@@ -56,3 +56,15 @@ Führen Sie die folgenden Schritte aus, um einen Cloud Foundry-Berechtigungsnach
   Für die meisten Services sind keine zusätzlichen Parameter erforderlich. Bei den Services, die zusätzliche Parameter erfordern, definiert jeder Service eine eigene Parameterliste. Eine Liste der unterstützten Konfigurationsparameter finden Sie in der Dokumentation für das jeweilige Serviceangebot.
   {: note}
 4. Klicken Sie auf **Hinzufügen**, um den neuen Serviceberechtigungsnachweis zu generieren.
+
+## Berechtigungsnachweis anzeigen
+{: #viewing-credentials}
+
+Nachdem ein Berechtigungsnachweis für einen Service erstellt wurde, kann er jederzeit für Benutzer angezeigt werden, die den API-Schlüsselwert benötigen. Alle Benutzer müssen jedoch über die korrekte Zugriffsebene verfügen, um die Details eines Berechtigungsnachweises, einschließlich des API-Schlüsselwerts, anzuzeigen. Der Zugriff des Benutzers muss größer-gleich dem des Berechtigungsnachweises für den Service sein. Wenn der Berechtigungsnachweis beispielsweise die IAM-Servicerolle `Writer` hat, muss dem Benutzer, der den Berechtigungsnachweis anzeigen möchte, die IAM-Servicerolle `Writer` oder `Manager` für diesen bestimmten Service zugewiesen sein. Wenn ein Benutzer nicht über den korrekten Zugriff verfügt, sind Details (wie z. B. der API-Schlüsselwert) redigiert.
+
+Führen Sie die folgenden Schritte aus, um einen vorhandenen Serviceberechtigungsnachweis für einen Service anzuzeigen:
+
+1. Wählen Sie in der Ressourcenliste den Namen des Service aus, um die Seite mit den Servicedetails zu öffnen. 
+2. Klicken Sie auf **Serviceberechtigungsnachweise**.
+3. Erweitern Sie in der Zeile für einen vorhandenen Berechtigungsnachweis die Option **Berechtigungsnachweise anzeigen**.
+
