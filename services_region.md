@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-22"
+lastupdated: "2019-04-23"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -46,7 +46,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Blockchain | Hosted in Dallas | Syndicated from Dallas | Syndicated from Dallas | Syndicated from Dallas | Not available | Not available | 
 | Blockchain Platform 2.0 | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Certificate Manager | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
-| Cloud Foundry Enterprise Environment | Not available | Not available | Hosted in Frankfurt | Not available | Not available | Not available | 
+| Cloud Foundry Enterprise Environment | Hosted in Dallas | Not available | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
 | Cloud Object Storage | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | Hosted globally | 
 | Cloudant | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Hosted in Tokyo | 
 | Compare and Comply | Hosted in Dallas | Not available | Hosted in Frankfurt | Not available | Hosted in Washington DC | Not available | 
