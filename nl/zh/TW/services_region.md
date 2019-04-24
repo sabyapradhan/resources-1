@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-03-20"
+lastupdated: "2019-04-04"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -46,7 +46,7 @@ subcollection: resources
 |Blockchain |在達拉斯進行管理|從達拉斯進行聯合發佈|從達拉斯進行聯合發佈|從達拉斯進行聯合發佈|不適用 |不適用 | 
 |Blockchain Platform 2.0 |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Certificate Manager |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |不適用 |在東京進行管理| 
-|Cloud Foundry Enterprise Environment|在達拉斯進行管理|不適用 |在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 
+|Cloud Foundry Enterprise Environment|在達拉斯進行管理|不適用 |在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 |Cloud Object Storage |在全球管理|在全球管理|在全球管理|在全球管理|在全球管理|在全球管理| 
 |Cloudant |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 |Compare and Comply |在達拉斯進行管理|不適用 |在法蘭克福進行管理|不適用 |不適用 |不適用 | 
@@ -70,9 +70,9 @@ subcollection: resources
 | Databases for PostgreSQL |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 | Databases for Redis |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 | Databases for etcd |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
+|Db2 |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Db2 Hosted |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Db2 Warehouse |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
-| Db2 on Cloud |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Decision Optimization|在達拉斯進行管理|在倫敦進行管理|不適用 |不適用 |不適用 |不適用 | 
 |DevOps Insights|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |不適用 |不適用 | 
 |Digital Content Checker|在達拉斯進行管理|在倫敦進行管理|不適用 |從倫敦進行聯合發佈|不適用 |不適用 | 
