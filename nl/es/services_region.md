@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-03-06"
+lastupdated: "2019-03-20"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -70,9 +70,9 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Databases for PostgreSQL | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Databases for Redis | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Databases for etcd | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
-| Db2 | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Db2 Hosted | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Db2 Warehouse | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
+| Db2 on Cloud | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Decision Optimization | Alojado en Dallas | Alojado en Londres | No disponible | No disponible | No disponible | No disponible | 
 | DevOps Insights | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | No disponible | 
 | Comprobador de contenido digital | Alojado en Dallas | Alojado en Londres | No disponible | Sindicado desde Londres | No disponible | No disponible | 
@@ -82,6 +82,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Funciones | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | Alojado en Washington DC | Alojado en Tokio | 
 | Geospatial Analytics | Alojado en Dallas | Alojado en Londres | No disponible | Sindicado desde Londres | No disponible | No disponible | 
 | Globalization Pipeline | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
+| Clúster HPC | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | 
 | Historical Instrument Analytics | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Hyper Protect Crypto Services | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Hyper Protect DBaaS | No disponible | No disponible | No disponible | No disponible | Alojado en Washington DC | No disponible | 

@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-03-06"
+lastupdated: "2019-03-20"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -71,9 +71,9 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Databases for PostgreSQL | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Databases for Redis | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Databases for etcd | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
-| Db2 | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Db2 Hosted | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Warehouse Db2 | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
+| Db2 on Cloud | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Decision Optimization | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | DevOps Insights | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Non disponibile | 
 | Digital Content Checker | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Diffuso da Londra | Non disponibile | Non disponibile | 
@@ -83,6 +83,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Functions | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Geospatial Analytics | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Diffuso da Londra | Non disponibile | Non disponibile | 
 | Globalization Pipeline | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
+| HPC Cluster | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | 
 | Historical Instrument Analytics | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Hyper Protect Crypto Services | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Hyper Protect DBaaS | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato a Washington DC | Non disponibile | 
