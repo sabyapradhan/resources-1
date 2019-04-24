@@ -2,12 +2,8 @@
 
 copyright:
 
-  years: 2018, 2019
-lastupdated: "2019-01-28"
-
-keywords: organize resources, set up resource groups, best practice, resource group strategy
-
-subcollection: resources
+  years: 2018
+lastupdated: "2018-01-09"
 
 ---
 
@@ -15,56 +11,52 @@ subcollection: resources
 {:shortdesc: .shortdesc}
 {:tip: .tip}
 {:note: .note}
-{:important: .important}
 
 
 # Bewährte Verfahren zum Organisieren von Ressourcen in Ressourcengruppen
 {: #bp_resourcegroups}
 
-Eine Ressourcengruppe bietet Ihnen die Möglichkeit, Ihre Konto[ressourcen](/docs/resources?topic=resources-resource) nach Zugriffssteuerungs- und Abrechnungskriterien zusammenzufassen. Wenn Sie mit der Verwendung von Cloud Foundry-Bereichen vertraut sind, können Sie sich die Zusammenfassung von Ressourcen in Ressourcengruppen wie die Zusammenfassung von Ressourcen in Bereichen vorstellen. Als Ressourcen werden Elemente bezeichnet, die innerhalb einer Ressourcengruppe erstellt, verwaltet und gespeichert werden können. Benutzer werden nicht zu Ressourcengruppen hinzugefügt. Nur Ressourcen können hinzugefügt werden.
+Eine Ressourcengruppe bietet Ihnen die Möglichkeit, Ihre Konto[ressourcen](/docs/resources/acct_resources.html#resource) nach Zugriffssteuerungs- und Abrechnungskriterien zusammenzufassen. Wenn Sie mit der Verwendung von Cloud Foundry-Bereichen vertraut sind, können Sie sich die Zusammenfassung von Ressourcen in Ressourcengruppen wie die Zusammenfassung von Ressourcen in Bereichen vorstellen. Als Ressourcen werden Elemente bezeichnet, die innerhalb einer Ressourcengruppe erstellt, verwaltet und gespeichert werden können. Benutzer werden nicht zu Ressourcengruppen hinzugefügt. Nur Ressourcen können hinzugefügt werden. 
 
 Derzeit unterstützen nicht alle Services die Verwendung der Zugriffssteuerung {{site.data.keyword.Bluemix_notm}} Identity and Access Management (IAM) und die Zuweisung zu einer Ressourcengruppe. IAM-fähige Services fordern Sie auf, neue Serviceinstanzen zu einer Ressourcengruppe hinzuzufügen, wenn Sie diese über den Katalog erstellen. Der Zugriff auf die Ressourcen in einer Ressourcengruppe und die Ressourcengruppe selbst wird von IAM verwaltet. Durch die Verwendung von IAM-Rollen können Sie den Benutzern Zugriff auf die Ressourcen bereitstellen, die in Ressourcengruppen zusammengefasst sind. IAM-Rollen können auch die Möglichkeit zum Anzeigen, Bearbeiten und Hinzufügen neuer Serviceinstanzen oder zum Verwalten des Zugriffs auf eine Ressourcengruppe bieten.
 
 Sie können die Liste der IAM-fähigen Services auch anzeigen, wenn Sie in der IAM-Benutzerschnittstelle wie folgt Zugriff auf Ressourcen zuweisen:
-1. Rufen Sie **Verwalten** &gt; **Zugriff (IAM)** auf und wählen Sie dann **Benutzer** aus.
-2. Wählen Sie einen Benutzernamen aus und klicken Sie auf **Zugriffsrichtlinien**.
+1. Rufen Sie **Verwalten** &gt; **Zugriff (IAM)** auf und wählen Sie dann **Benutzer** aus. 
+2. Wählen Sie einen Benutzernamen aus und klicken Sie auf **Zugriffsrichtlinien**. 
 3. Wählen Sie **Zugriff zuweisen** > **Zugriff zu Ressourcen zuweisen** aus.
-4. Wählen Sie über das Menü **Services** den Service aus, der zugewiesen werden soll. Für alle Services, die die Verwendung von IAM noch nicht unterstützen, können Sie weiterhin Cloud Foundry-Organisationen, -Bereiche und -Rollen verwenden.
+4. Wählen Sie über das Menü **Services** den Service aus, der zugewiesen werden soll. Für alle Services, die die Verwendung von IAM noch nicht unterstützen, können Sie weiterhin Cloud Foundry-Organisationen, -Bereiche und -Rollen verwenden. 
 5. Klicken Sie auf **Zuweisen**.
 
-Cloud Foundry-Organisationen, -Bereiche und -Rollen unterscheiden sich deutlich von IAM-Rollen. Über eine Cloud Foundry-Rolle kann niemals Zugriff auf Ressourcen in einer Ressourcengruppe erteilt werden.
+Cloud Foundry-Organisationen, -Bereiche und -Rollen unterscheiden sich deutlich von IAM-Rollen. Über eine Cloud Foundry-Rolle kann niemals Zugriff auf Ressourcen in einer Ressourcengruppe erteilt werden. 
 {: note}
 
 
 ## Ressourcengruppen einrichten
-{: #setuprgs}
 
 Alle Benutzer erhalten standardmäßig eine einzelne Benutzergruppe, die umbenannt werden kann. Weisen Sie die Rolle des Bearbeiters oder des Administrators dem Gültigkeitsbereich 'Alle Kontoverwaltungsservices' zu, um Ressourcengruppen zu erstellen. Falls Sie über ein gebührenpflichtiges Konto verfügen, können Sie mehrere Ressourcengruppen zum Organisieren der Ressourcen erstellen. Wenn Sie Ressourcen in unterschiedlichen Ressourcengruppen zusammenfassen, eröffnen sich folgende Möglichkeiten:
 
-* Zuweisung des Zugriffs auf eine Ressourcengruppe durch Verwendung einer minimalen Anzahl an Richtlinien erleichtern
-* Anzeigen von Ressourcengruppen nach Nutzungsinformationen der Ressourcengruppen zu Abrechnungszwecken
+* Zuweisung des Zugriffs auf eine Ressourcengruppe durch Verwendung einer minimalen Anzahl an Richtlinien erleichtern 
+* Anzeigen von Ressourcengruppen nach Nutzungsinformationen der Ressourcengruppen zu Abrechnungszwecken 
 
 Führen Sie die folgenden Schritte aus, um eine neue Ressourcengruppe zu erstellen:
 
-1. Rufen Sie **Verwalten** > **Konto** auf.
-2. Erweitern Sie den Eintrag **Kontoressourcen** und wählen Sie **Ressourcengruppen** aus.
+1. Rufen Sie **Verwalten** > **Konto** auf. 
+2. Erweitern Sie den Eintrag **Kontoressourcen** und wählen Sie **Ressourcengruppen** aus. 
 3. Klicken Sie auf **Ressourcengruppe erstellen**.
 4. Geben Sie einen Namen für Ihre Ressourcengruppe ein.
 5. Klicken Sie auf **Hinzufügen**.
 
+
 ## Ressourcen zu einer Ressourcengruppe hinzufügen
-{: #addingtorgs}
 
-Services, die über die IAM-Zugriffssteuerung aktiviert werden, gehören nicht zu einer Organisation oder einem Bereich von Cloud Foundry, sondern zu einer Ressourcengruppe. Wenn Sie eine Serviceinstanz für einen dieser Services über den Katalog erstellen, werden Sie aufgefordert, die Instanz einer Ressourcengruppe zuzuweisen.
+Services, die über die IAM-Zugriffssteuerung aktiviert werden, gehören nicht zu einer Organisation oder einem Bereich von Cloud Foundry, sondern zu einer Ressourcengruppe. Wenn Sie eine Serviceinstanz für einen dieser Services über den Katalog erstellen, werden Sie aufgefordert, die Instanz einer Ressourcengruppe zuzuweisen. 
 
-Ihre Ressourcengruppenauswahl bei der Erstellung der Instanz ist endgültig und kann nicht geändert werden.
-{: important}
+**Wichtig**: Ihre Ressourcengruppenauswahl bei der Erstellung der Instanz ist endgültig und kann nicht geändert werden.
 
-Da die Zahl der Services, die die Zuweisung zu Ressourcengruppen und die Verwendung der IAM-Zugriffssteuerung ermöglichen, zunimmt, werden Sie auf der Ressourcenliste benachrichtigt, falls Cloud Foundry-Serviceinstanzen vorhanden sind, die für die Migration ausgewählt werden können. Durch das [Migrieren einer Serviceinstanz zu einer Ressourcengruppe](/docs/resources?topic=resources-migrate) erstellen Sie eine neue verknüpfte Instanz in einer Ressourcengruppe Ihrer Wahl und die Cloud Foundry-Instanz wird zu einem Alias.
+Da die Zahl der Services, die die Zuweisung zu Ressourcengruppen und die Verwendung der IAM-Zugriffssteuerung ermöglichen, zunimmt, werden Sie auf der Ressourcenliste benachrichtigt, falls Cloud Foundry-Serviceinstanzen vorhanden sind, die für die Migration ausgewählt werden können. Durch das [Migrieren einer Serviceinstanz zu einer Ressourcengruppe](/docs/resources/instance_migration.html) erstellen Sie eine neue verknüpfte Instanz in einer Ressourcengruppe Ihrer Wahl und die Cloud Foundry-Instanz wird zu einem Alias. 
 
 
 ## Zugriff auf Ressourcengruppen und die in ihnen enthaltenen Ressourcen zuweisen
-{: #assigning_access_rgs}
 
 Den Zugriff für Benutzer oder Benutzergruppen, die zu Zugriffsgruppen zusammengefasst sind, stellen Sie durch die Erstellung von Zugriffsrichtlinien bereit. In Zugriffsrichtlinien wird ein Ziel festgelegt, bei dem es sich in der Regel um eine Serviceinstanz oder alle Instanzen eines Service in einer Ressourcengruppe handelt, sowie eine Rolle, die den zulässigen Zugriffstyp definiert. Es gibt zwei Arten von Zugriffsrichtlinien, die Sie als Kontoeigner zuweisen müssen, damit die Benutzer in Ihrem Konto über den nötigen Zugriff für die Arbeit mit den Ressourcen in den Ressourcengruppen verfügen.
 
@@ -73,13 +65,13 @@ Den Zugriff für Benutzer oder Benutzergruppen, die zu Zugriffsgruppen zusammeng
 
 Weitere Informationen zu den zwei Arten des Zugriffs und den Möglichkeiten des Benutzers hinsichtlich jeder zugewiesenen IAM-Plattformrolle finden Sie in der folgenden Tabelle:
 
-| Zugriffsrichtlinie - Details  | Aktionen für Zugriff auf Ressourcengruppen | Aktion für Ressourcen in Ressourcengruppen |
+| Zugriffsrichtlinie - Details  | Aktionen für Zugriff auf Ressourcengruppen | Aktion für Ressourcen in Ressourcengruppen | 
 |:-----------------|:--------------|:---------------|
 | Zugriff zuweisen für | Ausgewählte Ressourcengruppe | Ausgewählten Service in einer Ressourcengruppe |
-| Anzeigeberechtigten-Rolle  | Gruppe und Merkmale, aber nicht Ressourcen in der Gruppe anzeigen | Ressourcen in der Gruppe anzeigen |
-| Operatorrolle | Nicht zutreffend | Nicht zutreffend |
+| Anzeigeberechtigten-Rolle  | Gruppe und Merkmale, aber nicht Ressourcen in der Gruppe anzeigen | Ressourcen in der Gruppe anzeigen | 
+| Operatorrolle | Nicht zutreffend | Nicht zutreffend | 
 | Bearbeiterrolle | Name oder Merkmale der Gruppe anzeigen oder bearbeiten, aber nicht der Ressourcen in der Gruppe | Zugriff auf Ressourcen in Ressourcengruppe erstellen, löschen, bearbeiten, aussetzen, wiederaufnehmen, anzeigen, binden und verwalten |
-| Administratorrolle |  Zugriff auf Gruppe anzeigen, bearbeiten oder verwalten, aber nicht auf Ressourcen in der Gruppe | Zugriff auf Ressourcen in Ressourcengruppe erstellen, löschen, bearbeiten, aussetzen, wiederaufnehmen, anzeigen, binden und verwalten |
+| Administratorrolle |  Zugriff auf Gruppe anzeigen, bearbeiten oder verwalten, aber nicht auf Ressourcen in der Gruppe | Zugriff auf Ressourcen in Ressourcengruppe erstellen, löschen, bearbeiten, aussetzen, wiederaufnehmen, anzeigen, binden und verwalten | 
 {: caption="Tabelle 1. Zugriff auf Ressourcengruppen" caption-side="top"}
 
 Wenn ein Benutzer neue Serviceinstanz erstellen und diese zu einer Ressourcengruppe hinzufügen können soll, muss dem Benutzer die Rolle eines Anzeigeberechtigten oder eine Rolle mit umfassenderen Berechtigungen für die Ressourcengruppe sowie die Rolle eines Editors (Bearbeiters) für den Service zugewiesen werden.
@@ -87,7 +79,6 @@ Wenn ein Benutzer neue Serviceinstanz erstellen und diese zu einer Ressourcengru
 
 
 ## Beispiele für Zugriffsrichtlinien
-{: #sample_policies}
 
 Die folgenden Zugriffsrichtlinienbeispiele sollen die Entscheidung erleichtern, wie der Zugriff auf Ressourcen im Konto zugewiesen soll, die zu Ressourcengruppen gehören.
 
@@ -97,9 +88,8 @@ Die folgenden Zugriffsrichtlinienbeispiele sollen die Entscheidung erleichtern, 
 4. Eine Richtlinie, die dem Benutzer die Plattformrolle 'Administrator' für das gesamte Konto (alle IAM-fähigen Services) erteilt. Eine Richtlinie mit diesen Details ermöglicht dem Benutzer das Ausführen von Plattformaktionen für jede Ressource im gesamten Konto und umfasst auch die Fähigkeit zum Ausführen von Verwaltungsaktionen für das Konto, wie zum Beispiel das Verwalten der Ressourcengruppen im Konto.
 
 ## Anwendungsfallbeispiele
-{: #usecase_examples}
 
-Falls Sie über eine Gruppe aus Benutzern verfügen, die alle dieselbe Zugriffsebene aufweisen sollen, fügen Sie diese für jeden der obigen Anwendungsfälle zu einer [Zugriffsgruppe](/docs/iam?topic=iam-groups) hinzu. Wenn Sie Zugriffsgruppen verwenden, können Sie ein Minimum an Zugriffsrichtlinien verwenden, da alle Mitglieder der Zugriffsgruppe alle Zugriffsrechte erhalten, die der Gruppe zugewiesen sind.
+Falls Sie über eine Gruppe aus Benutzern verfügen, die alle dieselbe Zugriffsebene aufweisen sollen, fügen Sie diese für jeden der obigen Anwendungsfälle zu einer [Zugriffsgruppe](/docs/iam/groups.html#groups) hinzu. Wenn Sie Zugriffsgruppen verwenden, können Sie ein Minimum an Zugriffsrichtlinien verwenden, da alle Mitglieder der Zugriffsgruppe alle Zugriffsrechte erhalten, die der Gruppe zugewiesen sind.
 {: tip}
 
 <ol>
@@ -112,10 +102,12 @@ Falls Sie über eine Gruppe aus Benutzern verfügen, die alle dieselbe Zugriffse
 <li><p>Ich habe ein Konto mit mehreren Ressourcengruppen. Ich habe einige Benutzer, die Administratoren für Service A für das gesamte Konto sind und Zugriff auf alle Instanzen dieses Service sowie die Fähigkeit zum Erstellen von Instanzen benötigen; diese Benutzer benötigen jedoch nicht Zugriff auf andere Ressourcen im Konto.</p>
 <p>Diesen Benutzern sollte die Administratorrolle für Service A auf Kontoebene und gleichzeitig die Rolle eines Anzeigeberechtigten für alle Ressourcengruppen im Konto zugewiesen werden, für die sie Instanzen erstellen können müssen.</p>
 </li>
-<li><p>Ich habe einen Benutzer in meinem Konto, der nur Zugriff auf eine bestimmte Ressource in einem Service benötigt, zum Beispiel die Fähigkeit zum Schreiben in Bucket A in IBM Cloud Object Storage. Dieser Benutzer sollte nicht die Ressourcengruppen im Konto anzeigen oder auf andere Services oder andere Buckets in dieser Instanz von Cloud Object Storage zugreifen können.</p>
+<li><p>Ich habe einen Benutzer in meinem Konto, der nur Zugriff auf eine bestimmte Ressource in einem Service benötigt, zum Beispiel die Fähigkeit zum Schreiben in Bucket A in IBM Cloud Object Storage. Dieser Benutzer sollte nicht die Ressourcengruppen im Konto anzeigen oder auf andere Services oder andere Buckets in dieser Instanz von Cloud Object Storage zugreifen können.</p> 
 <p>Diesem Benutzer sollte die Rolle eines Schreibberechtigten für Bucket A in einer bestimmten Instanz von Cloud Object Storage erteilt werden. Sie können diese Richtlinie entweder mithilfe servicespezifischer Schnittstellen (in diesem Beispiel die Cloud Object Storage-Benutzerschnittstelle) oder der Hauptbenutzerschnittstelle zum Zuweisen von Zugriff erteilen. Es wird empfohlen, die servicespezifische Benutzerschnittstelle zu verwenden, weil hierbei aus einer Liste von Ressourcen ausgewählt werden kann, während in der Benutzerschnittstelle zum Zuweisen von Zugriff keine Ressourcen unterhalb der Serviceinstanzebene angezeigt werden und Sie den CRN-Wert zum Zuweisen der Richtlinie für diese Ressourcen manuell eingeben müssen.</p>
 </li>
 <li><p>Ich verwende zurzeit Cloud Foundry-Organisationen und -Bereiche, möchte jedoch mit der Verwendung von Ressourcengruppen und Zugriffsgruppen für meine IAM-fähigen Services beginnen. Zum gegenwärtigen Zeitpunkt sind Benutzer und Ressourcen in Organisationen für bestimmte Geschäftsbereiche zusammengefasst; die Bereiche werden für verschiedene Projekte innerhalb eines Geschäftsbereichs verwendet.</p>
 <p>Die Ressourcen sollten auf dieselbe Weise in den Ressourcengruppen zusammengefasst werden wie bisher in den Bereichen, wobei jede Ressourcengruppe einen Projektbereich darstellen soll. Dann sollten separate Zugriffsgruppen eingerichtet werden, um den Benutzern die erforderlichen Zugriffsberechtigungen für die entsprechenden Ressourcengruppen auf Projektebene zu erteilen. Dabei kann der Zugriff für alle Ressourcen in einer Ressourcengruppe oder für ausgewählte Ressourcen innerhalb einer Ressourcengruppe erteilt werden. So kann jede Zugriffsgruppe mit unterschiedlichen Zugriffsebenen für Ressourcen innerhalb einer Ressourcengruppe eingerichtet werden, wodurch jede Benutzergruppe die Zugriffsberechtigungen erhält, die die Benutzer für die Arbeit mit den Ressourcen oder mit der Ressourcengruppe selbst benötigen.</p>
 </li>
 </ol>
+
+

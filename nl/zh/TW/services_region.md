@@ -2,12 +2,8 @@
 
 copyright:
 
-  years: 2015, 2019
-lastupdated: "2019-04-10"
-
-keywords: location, regions, data centers, service location, service availability
-
-subcollection: resources
+  years: 2015, 2018
+lastupdated: "2019-01-10"
 
 ---
 {:new_window: target="_blank"}
@@ -20,9 +16,9 @@ subcollection: resources
 {{site.data.keyword.Bluemix}} 讓您能輕鬆地實作、管理及擴充服務和應用程式。您可以將焦點放在應用程式邏輯和應用程式設計。
 {:shortdesc}
 
-並非每個 {{site.data.keyword.Bluemix_notm}} 位置都可購買到所有服務。而且，即使可在該位置購買到此服務，此服務也可能是在不同位置進行管理。下表顯示 IBM 所提供的服務。如需可用資源的完整清單，請參閱 {{site.data.keyword.Bluemix_notm}} 主控台中的[型錄](https://cloud.ibm.com/catalog){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。
+並非每個 {{site.data.keyword.Bluemix_notm}} 位置都可購買到所有服務。而且，即使可在該位置購買到此服務，此服務也可能是在不同位置進行管理。下表顯示 IBM 所提供的服務。如需可用資源的完整清單，請參閱 {{site.data.keyword.Bluemix_notm}} 主控台中的[型錄](https://cloud.ibm.com/catalog){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。 
 
-在全球管理的服務會建立跨越多個位置運作的資源。例如，使用 {{site.data.keyword.cos_full_notm}}，您可以選擇將資料分散在單一[資料中心](/docs/overview?topic=overview-zero-downtime#data_center)，或甚至是藉由[選取應用程式傳送 REST API 要求的端點](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability)而分散在某個位置組合。
+在全球管理的服務會建立跨越多個位置運作的資源。例如，使用 {{site.data.keyword.cos_full_notm}}，您可以選擇將資料分散在單一[資料中心](/docs/overview/zero_downtime.html#data_center)，或甚至是藉由[選取應用程式傳送 REST API 要求的端點](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints)而分散在某個位置組合。
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -31,6 +27,7 @@ subcollection: resources
 
 |服務| 達拉斯 | 倫敦 | 法蘭克福 |雪梨| 華盛頓特區 | 東京 |
 |-----|-----|-----|-----|-----|-----|
+| AI OpenScale |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |API Connect|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 
 |Activity Tracker |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Alert Notification|在達拉斯進行管理|在倫敦進行管理|不適用 |在雪梨進行管理|不適用 |不適用 | 
@@ -44,12 +41,11 @@ subcollection: resources
 |Availability Monitoring|在達拉斯進行管理|在倫敦進行管理|不適用 |在雪梨進行管理|不適用 |不適用 | 
 |BigInsights for Apache Hadoop（訂閱）|在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Blockchain |在達拉斯進行管理|從達拉斯進行聯合發佈|從達拉斯進行聯合發佈|從達拉斯進行聯合發佈|不適用 |不適用 | 
-|Blockchain Platform 2.0 |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
-|Certificate Manager |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |不適用 |在東京進行管理| 
-|Cloud Foundry Enterprise Environment|不適用 |不適用 |在法蘭克福進行管理|不適用 |不適用 |不適用 | 
+|Certificate Manager |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |不適用 |不適用 | 
+|Cloud Foundry Enterprise Environment|在達拉斯進行管理|不適用 |在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 
 |Cloud Object Storage |在全球管理|在全球管理|在全球管理|在全球管理|在全球管理|在全球管理| 
 |Cloudant |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
-|Compare and Comply |在達拉斯進行管理|不適用 |在法蘭克福進行管理|不適用 |在華盛頓特區進行管理|不適用 | 
+|Compare Comply |在達拉斯進行管理|不適用 |在法蘭克福進行管理|不適用 |不適用 |不適用 | 
 |Compose Enterprise|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 
 |Compose for Elasticsearch|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 
 |Compose for JanusGraph|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 
@@ -65,14 +61,13 @@ subcollection: resources
 |Continuous Delivery|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |在華盛頓特區進行管理|在東京進行管理| 
 |Cost and Asset Management |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 | Data Store for Memcache |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
-| Databases for Elasticsearch |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
-| Databases for MongoDB |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
-| Databases for PostgreSQL |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
-| Databases for Redis |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
-| Databases for etcd |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
+| Databases for Elasticsearch |在達拉斯進行管理|不適用 |在法蘭克福進行管理|不適用 |不適用 |在東京進行管理| 
+| Databases for Etcd |在達拉斯進行管理|不適用 |在法蘭克福進行管理|不適用 |不適用 |在東京進行管理| 
+| Databases for PostgreSQL |在達拉斯進行管理|不適用 |在法蘭克福進行管理|不適用 |不適用 |在東京進行管理| 
+| Databases for Redis |在達拉斯進行管理|不適用 |在法蘭克福進行管理|不適用 |不適用 |在東京進行管理| 
+|Db2 |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Db2 Hosted |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Db2 Warehouse |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
-| Db2 on Cloud |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Decision Optimization|在達拉斯進行管理|在倫敦進行管理|不適用 |不適用 |不適用 |不適用 | 
 |DevOps Insights|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |不適用 |不適用 | 
 |Digital Content Checker|在達拉斯進行管理|在倫敦進行管理|不適用 |從倫敦進行聯合發佈|不適用 |不適用 | 
@@ -82,12 +77,13 @@ subcollection: resources
 | Functions |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |在華盛頓特區進行管理|在東京進行管理| 
 |Geospatial Analytics |在達拉斯進行管理|在倫敦進行管理|不適用 |從倫敦進行聯合發佈|不適用 |不適用 | 
 |Globalization Pipeline|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
-| HPC Cluster |在全球管理|在全球管理|在全球管理|在全球管理|在全球管理|在全球管理| 
 |Historical Instrument Analytics |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Hyper Protect Crypto Services |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Hyper Protect DBaaS |不適用 |不適用 |不適用 |不適用 |在華盛頓特區進行管理|不適用 | 
 | IBM Cognos Dashboard Embedded |在達拉斯進行管理|在倫敦進行管理|不適用 |不適用 |不適用 |不適用 | 
 |IBM Identity Mixer |不適用 |在倫敦進行管理|不適用 |在雪梨進行管理|不適用 |不適用 | 
+| IBM Managed Financial Data API |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
+| IBM Simulated Instruments Analytics API |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Information Server |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Informix|在達拉斯進行管理|從達拉斯進行聯合發佈|不適用 |從達拉斯進行聯合發佈|不適用 |不適用 | 
 |Instrument Analytics |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
@@ -100,11 +96,10 @@ subcollection: resources
 |Language Translator|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 |Lift CLI |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Log Analysis |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
-|MQ |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
+|MQ |在達拉斯進行管理|在倫敦進行管理|不適用 |在雪梨進行管理|不適用 |不適用 | 
 |Machine Learning |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |不適用 |在東京進行管理| 
-|Managed Financial Data API |在達拉斯進行管理|不適用 |不適用 |不適用 |在華盛頓特區進行管理|不適用 | 
 |Master Data Management |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
-| Messages for RabbitMQ |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
+| Messages for RabbitMQ |在達拉斯進行管理|不適用 |在法蘭克福進行管理|不適用 |不適用 |在東京進行管理| 
 |Mobile Foundation|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 
 |Monitoring |在達拉斯進行管理|在倫敦進行管理|從達拉斯進行聯合發佈|在雪梨進行管理|不適用 |不適用 | 
 |Natural Language Classifier|在達拉斯進行管理|不適用 |在法蘭克福進行管理|不適用 |在華盛頓特區進行管理|在東京進行管理| 
@@ -120,17 +115,15 @@ subcollection: resources
 |Security Advisor|在達拉斯進行管理|在倫敦進行管理|不適用 |不適用 |不適用 |不適用 | 
 |Simulated Historical Instrument Analytics |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Simulated Instrument Analytics |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
-|Simulated Instruments Analytics API |在達拉斯進行管理|不適用 |不適用 |不適用 |在華盛頓特區進行管理|不適用 | 
 |Speech to Text|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
-|Streaming Analytics |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |在華盛頓特區進行管理|不適用 | 
+|Streaming Analytics |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |不適用 |不適用 | 
 |Text to Speech|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 |Tone Analyzer|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 | Toolchain |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |在華盛頓特區進行管理|在東京進行管理| 
 | VMware Solutions |在全球管理|在全球管理|在全球管理|在全球管理|在全球管理|在全球管理| 
 |Visual Recognition	|在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Voice Agent with Watson |在達拉斯進行管理|不適用 |不適用 |不適用 |在華盛頓特區進行管理|不適用 | 
-| Watson Assistant |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
-|Watson OpenScale |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
+|Watson Assistant（先前為 Conversation）|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 |Watson Studio |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |不適用 |在東京進行管理| 
 |Weather Company Data|在達拉斯進行管理|在倫敦進行管理|不適用 |在雪梨進行管理|不適用 |不適用 | 
 |WebSphere Application Server |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
