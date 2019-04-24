@@ -3,11 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
-
-keywords: sample tags, tags example
-
-subcollection: resources
+lastupdated: "2019-01-29"
 
 ---
 
@@ -19,7 +15,7 @@ subcollection: resources
 # 샘플 태그 및 구문
 {: #sample-and-syntax}
 
-태그를 사용하면 리소스를 구성하고 관리하는 데 도움이 될 수 있습니다. 조직 전체에서 개발 환경, 프로젝트, 규제 준수 및 최적화를 구성하는 데 도움이 되도록 태그를 `key:value` 쌍으로 작성하십시오.
+태그를 사용하면 리소스를 구성하고 관리하는 데 도움이 될 수 있습니다. 조직 전체에서 개발 환경, 프로젝트, 규제 준수 및 최적화를 구성하는 데 도움이 되도록 태그를 `key:value` 쌍과 같이 작성하십시오.
 
 |유형 |예 |용도 |
 |------|----------|---------|

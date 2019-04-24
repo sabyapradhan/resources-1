@@ -2,12 +2,8 @@
 
 copyright:
 
-  years: 2015, 2019
-lastupdated: "2019-04-08"
-
-keywords: service key, api key, bind, credential
-
-subcollection: resources
+  years: 2015, 2018
+lastupdated: "2018-11-28"
 
 ---
 
@@ -16,7 +12,7 @@ subcollection: resources
 {:note: .note}
 
 
-# Ajout et affichage de données d'identification
+# Ajout de données d'identification
 {: #service_credentials}
 
 Vous pouvez générer un nouveau jeu de données d'identification pour le cas où vous voudriez connecter manuellement un consommateur extérieur à un service {{site.data.keyword.Bluemix}}. Par exemple, si vous tentez de lier une application AWS à un service Watson, vous devrez générer de nouvelles données d'identification pouvant être utilisées pour lier entre eux ces deux éléments.
@@ -32,8 +28,8 @@ Pour ajouter des données d'identification à un service géré par IAM, procéd
 
 1. Dans la liste de ressources, sélectionnez le nom du service pour ouvrir la page des détails du service. Sélectionnez ensuite l'onglet Données d'identification et cliquez sur **Nouvelles données d'identification + **.
 2. Dans la boîte de dialogue Ajouter de nouvelles données d'identification, entrez un **Nom**.
-3. Spécifiez le rôle. Cette valeur définit le rôle d'accès du service IAM. Pour plus d'informations, voir [Accès IAM](/docs/iam?topic=iam-userroles)
-4. Facultatif : vous pouvez renseigner la zone ID de service soit en autorisant IAM à générer automatiquement une valeur unique, soit en fournissant l'ID d'un service existant. Pour plus d'informations, voir [Création et utilisation des ID de service](/docs/iam?topic=iam-serviceids).
+3. Spécifiez le rôle. Cette valeur définit le rôle d'accès du service IAM. Pour plus d'informations, voir [Accès IAM](/docs/iam/users_roles.html#userroles)
+4. Facultatif : vous pouvez renseigner la zone ID de service soit en autorisant IAM à générer automatiquement une valeur unique, soit en fournissant l'ID d'un service existant. Pour plus d'informations, voir [Création et gestion des ID de service](/docs/iam/serviceid.html#serviceids)
 5. Vous pouvez également fournir d'autres paramètres par le biais d'un objet JSON valide contenant des paramètres de configuration spécifiques au service et qui seront soumis soit en ligne, soit dans un fichier.
 
   La plupart des services ne requièrent pas de paramètres supplémentaires et pour ceux qui en ont besoin, chaque service définit sa propre liste unique de paramètres. Pour la liste des paramètres de configuration pris en charge, reportez-vous à la documentation de l'offre de service concernée.
@@ -41,7 +37,7 @@ Pour ajouter des données d'identification à un service géré par IAM, procéd
 6. Cliquez sur **Ajouter** pour générer les nouvelles données d'identification du service.
 
 ## Ajout de données d'identification lors de la liaison d'un service Cloud Foundry
-{: #cf_credential}
+{: #cf}
 
 Les services Cloud Foundry peuvent générer une clé de service, également dénommée donnée d'identification. Les données d'identification sont propres au service concerné et varient en fonction de la manière dont chaque service définit les données d'identification devant être générées. Les données d'identification de service peuvent contenir un nom d'utilisateur, un mot de passe, un nom d'hôte, un port et une URL.
 
@@ -56,15 +52,4 @@ Pour ajouter des données d'identification Cloud Foundry, procédez comme suit :
   La plupart des services ne requièrent pas de paramètres supplémentaires et pour ceux qui en ont besoin, chaque service définit sa propre liste unique de paramètres. Pour la liste des paramètres de configuration pris en charge, reportez-vous à la documentation de l'offre de service concernée.
   {: note}
 4. Cliquez sur **Ajouter** pour générer les nouvelles données d'identification du service.
-
-## Affichage de données d'identification
-{: #viewing-credentials}
-
-Une fois créées pour un service, les données d'identification peuvent être affichées à tout moment pour les utilisateurs qui ont besoin de la valeur de la clé d'API. Toutefois, ces utilisateurs doivent disposer du niveau d'accès requis pour afficher les détails des données d'identification, y compris la valeur de la clé d'API. Le niveau d'accès de l'utilisateur doit être égal ou supérieur à celui des données d'identification du service. Par exemple, si les données d'identification détiennent le rôle de service IAM `Auteur`, l'utilisateur qui tente d'afficher les données d'identification doit détenir le rôle de service IAM `Auteur` ou `Responsable` pour ce service affecté particulier. Lorsqu'un utilisateur ne dispose pas du droit accès approprié, les détails tels que la valeur de la clé d'API sont occultés.
-
-Pour afficher les données d'identification de service d'un service, procédez comme suit :
-
-1. Dans la liste Ressources, sélectionnez le nom du service pour ouvrir la page des détails du service. 
-2. Cliquez sur **Données d'identification pour le service**
-3. Développez **Afficher les données d'identification** sur la ligne de données d'identification existantes.
 

@@ -3,11 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
-
-keywords: sample tags, tags example
-
-subcollection: resources
+lastupdated: "2019-01-29"
 
 ---
 
@@ -19,7 +15,7 @@ subcollection: resources
 # Beispieltags und Syntax
 {: #sample-and-syntax}
 
-Mithilfe von Tags können Sie Ihre Ressourcen strukturieren und verwalten. Es kann sinnvoll sein, Tags in Form von `Schlüssel:Wert`-Paaren zu verwenden, um die Entwicklungsumgebungen und Projekte sowie die Einhaltung von Vorschriften und Optimierung im gesamten Unternehmen zu strukturieren.
+Mithilfe von Tags können Sie Ihre Ressourcen strukturieren und verwalten. Es kann sinnvoll sein, Tags in Form von `Schlüssel:Wert`-Paaren zu verwenden, um die Entwicklungsumgebungen und Projekte sowie die Einhaltung von Vorschriften und Optimierung im gesamten Unternehmen zu strukturieren. 
 
 | Typ | Beispiele | Zweck |
 |------|----------|---------|

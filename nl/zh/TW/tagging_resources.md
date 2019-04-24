@@ -2,12 +2,8 @@
 
 copyright:
 
-  years: 2018, 2019
-lastupdated: "2019-04-03"
-
-keywords: add tags, tags, full list of tags, how to use tags
-
-subcollection: resources
+  years: 2018,2019
+lastupdated: "2019-01-29"
 
 ---
 
@@ -19,7 +15,7 @@ subcollection: resources
 # 使用標籤
 {: #tag}
 
-標籤是您指派給資源的標籤，可讓您輕鬆過濾資源清單中的資源。您可以使用標籤來組織資源，以方便之後尋找。當您檢視[匯出的用量報告](/docs/billing-usage?topic=billing-usage-viewingusage#export-csv)時，您也可以使用標籤來協助您識別特定的團隊用量或成本配置。
+標籤是您指派給資源的標籤，可讓您輕鬆過濾資源清單中的資源。您可以使用標籤來組織資源，以方便之後尋找。  
 {: shortdesc}
 
 若要查看帳戶中的完整標籤清單，請移至**管理 > 帳戶**，然後選取**標籤**。
@@ -29,16 +25,17 @@ subcollection: resources
 
 標籤的大小上限是 128 個字元。允許的字元包含 A-Z、0-9、空格、底線、連字號、句點和冒號，且標籤不區分大小寫。冒號會將標籤轉換成字串，您可以在此字串中隔離兩個邏輯部分，例如 `key:value` 配對。如果沒有建立此配對，則不能在標籤中使用冒號。逗點會區隔標籤，所以標籤名稱本身之內不能使用逗點。
 
+
 ## 新增及移除資源上的標籤
 {: #add-remove}
 
-1. 從 {{site.data.keyword.Bluemix_notm}} 主控台按一下「功能表」圖示 ![「功能表」圖示](../icons/icon_hamburger.svg) > **資源清單**，以檢視資源清單。
+1. 從 {{site.data.keyword.Bluemix_notm}} 主控台按一下「功能表」圖示 ![「功能表」圖示](../icons/icon_hamburger.svg) > **資源清單**，以檢視資源清單。 
 2. 展開包含您要標記之資源的資源類型小三角形。例如，如果您要標記 {{site.data.keyword.cos_full_notm}} 的實例，請展開**儲存空間**。  
-3. 按一下**動作**圖示 ![「動作」圖示](../icons/action-menu-icon.svg)，以新增或更新資源的標籤。
+3. 按一下「動作」圖示 ![「動作」圖示](../icons/action-menu-icon.svg)，以新增或更新資源的標籤。 
 
-    * 若要新增標籤，請按一下**動作**功能表 ![「動作」圖示](../icons/action-menu-icon.svg)、選取**新增標籤**，然後鍵入標籤的名稱。
-    * 若要新增其他標籤，請按一下所顯示標籤旁的**編輯**圖示 ![「編輯」圖示](../icons/edit-tagging.svg)，然後鍵入標籤的名稱。按下 Enter 鍵，以繼續新增標籤。
-4. 若要移除標籤，請按一下**編輯**圖示 ![「編輯」圖示](../icons/edit-tagging.svg)。然後，按一下標籤旁的**移除**圖示 ![「移除」圖示](../icons/close-tagging.svg)。
+    * 若要新增標籤，請按一下「動作」功能表 ![「動作」圖示](../icons/action-menu-icon.svg)、選取**新增標籤**，然後鍵入標籤的名稱。 
+    * 若要新增其他標籤，請按一下所顯示標籤旁的「編輯」圖示 ![「編輯」圖示](../icons/edit-tagging.svg)，然後鍵入標籤的名稱。按下 Enter 鍵，以繼續新增標籤。
+4. 若要移除標籤，請按一下「編輯」圖示 ![「編輯」圖示](../icons/edit-tagging.svg)。然後，按一下標籤旁的「移除」圖示 ![「移除」圖示](../icons/close-tagging.svg)。 
 
 ## 搜尋標籤
 {: #search-tags}
@@ -58,7 +55,8 @@ subcollection: resources
 
 帳戶的所有成員都可以看見標籤。如果您的帳戶與不同組織相關聯，例如您是轉銷商的話，則您可能會想要建議客戶不要將資訊儲存在標籤中，因為這樣可能會將機密性資訊揭露給相同帳戶中的其他成員。
 
-若要控制標籤的可見性，請廣傳標記準則，並讓使用者知道整個帳戶中的成員都能看見標籤。
+若要控制標籤的可見性，請廣傳標記準則，並讓使用者知道整個帳戶中的成員都能看見標籤。 
 
 請使用代碼，而不要使用客戶和帳戶的名稱，並避免將機密性資訊放在標籤中。
 {: tip}
+

@@ -3,11 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
-
-keywords: sample tags, tags example
-
-subcollection: resources
+lastupdated: "2019-01-29"
 
 ---
 
@@ -19,7 +15,7 @@ subcollection: resources
 # 样本标记和语法
 {: #sample-and-syntax}
 
-可以使用标记来帮助您组织和管理资源。请考虑将标记编写为 `key:value` 对，以帮助您对整个组织内的开发环境、项目、合规性和优化进行组织。
+可以使用标记来帮助您组织和管理资源。请考虑将标记编写为类似于 `key:value` 对，以帮助您对整个组织内的开发环境、项目、合规性和优化进行组织。
 
 |类型|示例|用途|
 |------|----------|---------|

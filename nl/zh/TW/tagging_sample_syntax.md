@@ -3,11 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
-
-keywords: sample tags, tags example
-
-subcollection: resources
+lastupdated: "2019-01-29"
 
 ---
 
@@ -19,7 +15,7 @@ subcollection: resources
 # 標籤和語法範例
 {: #sample-and-syntax}
 
-您可以使用標籤來協助您組織及管理資源。請考慮將標籤撰寫成 `key:value` 配對，以協助管理整個組織的開發環境、專案、法規遵循和最佳化。
+您可以使用標籤來協助您組織及管理資源。請考慮撰寫像是 `key:value` 配對的標籤，以協助管理整個組織的開發環境、專案、法規遵循和最佳化。
 
 |類型|範例| 目的 |
 |------|----------|---------|

@@ -3,11 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
-
-keywords: sample tags, tags example
-
-subcollection: resources
+lastupdated: "2019-01-29"
 
 ---
 

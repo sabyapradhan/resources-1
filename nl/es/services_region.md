@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2019-01-23"
+lastupdated: "2019-01-31"
 
 ---
 {:new_window: target="_blank"}
@@ -61,10 +61,10 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Continuous Delivery | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | Alojado en Washington DC | Alojado en Tokio | 
 | Cost and Asset Management | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Data Store for Memcache | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
-| Databases for Elasticsearch | Alojado en Dallas | No disponible | Alojado en Frankfurt | Alojado en Sídney | No disponible | Alojado en Tokio | 
-| Databases for Etcd | Alojado en Dallas | No disponible | Alojado en Frankfurt | Alojado en Sídney | No disponible | Alojado en Tokio | 
-| Databases for PostgreSQL | Alojado en Dallas | No disponible | Alojado en Frankfurt | Alojado en Sídney | No disponible | Alojado en Tokio | 
-| Databases for Redis | Alojado en Dallas | No disponible | Alojado en Frankfurt | Alojado en Sídney | No disponible | Alojado en Tokio | 
+| Databases for Elasticsearch | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
+| Databases for Etcd | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
+| Databases for PostgreSQL | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
+| Databases for Redis | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Db2 | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Db2 Hosted | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Db2 Warehouse | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
@@ -96,10 +96,10 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Language Translator | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Lift CLI | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Log Analysis | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
-| MQ | Alojado en Dallas | Alojado en Londres | No disponible | Alojado en Sídney | No disponible | No disponible | 
+| MQ | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Machine Learning | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | Alojado en Tokio | 
 | Master Data Management | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
-| Messages for RabbitMQ | Alojado en Dallas | No disponible | Alojado en Frankfurt | Alojado en Sídney | No disponible | Alojado en Tokio | 
+| Messages for RabbitMQ | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Mobile Foundation | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | No disponible | 
 | Supervisión | Alojado en Dallas | Alojado en Londres | Sindicado desde Dallas | Alojado en Sídney | No disponible | No disponible | 
 | Natural Language Classifier | Alojado en Dallas | No disponible | Alojado en Frankfurt | No disponible | Alojado en Washington DC | Alojado en Tokio | 

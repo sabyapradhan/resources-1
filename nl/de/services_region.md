@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2018
-lastupdated: "2019-01-23"
+lastupdated: "2019-01-31"
 
 ---
 {:new_window: target="_blank"}
@@ -61,10 +61,10 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Continuous Delivery | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Nicht verfügbar | Gehostet in Washington DC | Gehostet in Tokio | 
 | Cost and Asset Management | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Data Store for Memcache | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
-| Databases for Elasticsearch | Gehostet in Dallas | Nicht verfügbar | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Gehostet in Tokio | 
-| Databases for Etcd | Gehostet in Dallas | Nicht verfügbar | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Gehostet in Tokio | 
-| Databases for PostgreSQL | Gehostet in Dallas | Nicht verfügbar | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Gehostet in Tokio | 
-| Databases for Redis | Gehostet in Dallas | Nicht verfügbar | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Gehostet in Tokio | 
+| Databases for Elasticsearch | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
+| Databases for Etcd | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
+| Databases for PostgreSQL | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
+| Databases for Redis | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Db2 | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Db2 Hosted | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Db2 Warehouse | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
@@ -96,10 +96,10 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Language Translator | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Lift CLI | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Log Analysis | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
-| MQ | Gehostet in Dallas | Gehostet in London | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
+| MQ | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Machine Learning | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Nicht verfügbar | Nicht verfügbar | Gehostet in Tokio | 
 | Master Data Management | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
-| Messages for RabbitMQ | Gehostet in Dallas | Nicht verfügbar | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Gehostet in Tokio | 
+| Messages for RabbitMQ | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Mobile Foundation | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Nicht verfügbar | 
 | Monitoring | Gehostet in Dallas | Gehostet in London | Syndiziert aus Dallas | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Natural Language Classifier | Gehostet in Dallas | Nicht verfügbar | Gehostet in Frankfurt | Nicht verfügbar | Gehostet in Washington DC | Gehostet in Tokio | 
