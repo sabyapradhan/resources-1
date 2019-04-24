@@ -11,7 +11,7 @@ lastupdated: "2019-01-28"
 # Utilización de servicios en otra región
 {: #cross_region_service}
 
-Si tiene una instancia de servicio creada y enlazada a apps en una región, puede utilizar eta instancia de servicio en otra región mediante uno de los métodos siguientes:
+Si tiene una instancia de servicio creada y enlazada a apps en una región, puede utilizar esta instancia de servicio en otra región mediante uno de los métodos siguientes:
 {: shortdesc}
 
   * Utilice las credenciales del servicio para configurar directamente su instancia de app. Consulte [Conexión de servicios a apps externas](/docs/resources?topic=externalapp) para ver más detalles.
