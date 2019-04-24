@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-04"
+lastupdated: "2019-04-10"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -50,10 +50,10 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Blockchain | Hospedado em Dallas | Organizado em Dallas | Organizado em Dallas | Organizado em Dallas | Não está disponível | Não está disponível | 
 | Blockchain Platform 2.0 | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Certificate Manager | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
-| Cloud Foundry Enterprise Environment | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
+| Cloud Foundry Enterprise Environment | Não está disponível | Não está disponível | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
 | Cloud Object Storage | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | 
 | Cloudant | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
-| Compare and Comply | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
+| Compare and Comply | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Não está disponível | Hospedado em Washington, D.C. | Não está disponível | 
 | Compose Enterprise | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Compose for Elasticsearch | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Compose for JanusGraph | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
@@ -74,9 +74,9 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Databases for PostgreSQL | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Databases for Redis | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Databases for etcd | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
-| DB2 | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Db2 Hosted | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | DB2 Warehouse | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
+| Db2 on Cloud | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Decision Optimization | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | DevOps Insights | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
 | Digital Content Checker | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Organizado em Londres | Não está disponível | Não está disponível | 
@@ -126,7 +126,7 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Simulated Instrument Analytics | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Simulated Instruments Analytics API | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Hospedado em Washington, D.C. | Não está disponível | 
 | Speech to Text | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
-| Streaming Analytics | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
+| Streaming Analytics | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Hospedado em Washington, D.C. | Não está disponível | 
 | Text to Speech | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Tone Analyzer | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Toolchain | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Hospedado em Washington, D.C. | Hospedado em Tóquio | 

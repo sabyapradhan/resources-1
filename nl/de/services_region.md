@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-04"
+lastupdated: "2019-04-10"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -46,10 +46,10 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Blockchain | Gehostet in Dallas | Syndiziert aus Dallas | Syndiziert aus Dallas | Syndiziert aus Dallas | Nicht verfügbar | Nicht verfügbar | 
 | Blockchain Platform 2.0 | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Certificate Manager | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Nicht verfügbar | Nicht verfügbar | Gehostet in Tokio | 
-| Cloud Foundry-Unternehmensumgebung | Gehostet in Dallas | Nicht verfügbar | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
+| Cloud Foundry-Unternehmensumgebung | Nicht verfügbar | Nicht verfügbar | Gehostet in Frankfurt | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Cloud Object Storage | Global gehostet | Global gehostet | Global gehostet | Global gehostet | Global gehostet | Global gehostet | 
 | Cloudant | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
-| Compare and Comply | Gehostet in Dallas | Nicht verfügbar | Gehostet in Frankfurt | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Compare and Comply | Gehostet in Dallas | Nicht verfügbar | Gehostet in Frankfurt | Nicht verfügbar | Gehostet in Washington DC | Nicht verfügbar | 
 | Compose Enterprise | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Nicht verfügbar | 
 | Compose for Elasticsearch | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Nicht verfügbar | 
 | Compose for JanusGraph | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Nicht verfügbar | 
@@ -70,9 +70,9 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Databases for PostgreSQL | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Databases for Redis | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Databases for etcd | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
-| Db2 | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Db2 Hosted | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Db2 Warehouse | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
+| Db2 on Cloud | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Decision Optimization | Gehostet in Dallas | Gehostet in London | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | DevOps Insights | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Digital Content Checker | Gehostet in Dallas | Gehostet in London | Nicht verfügbar | Syndiziert aus London | Nicht verfügbar | Nicht verfügbar | 
@@ -122,7 +122,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Simulated Instrument Analytics | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Simulated Instruments Analytics API | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in Washington DC | Nicht verfügbar | 
 | Speech to Text | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
-| Streaming Analytics | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
+| Streaming Analytics | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Nicht verfügbar | Gehostet in Washington DC | Nicht verfügbar | 
 | Text to Speech | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Tone Analyzer | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Toolchain | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Nicht verfügbar | Gehostet in Washington DC | Gehostet in Tokio | 

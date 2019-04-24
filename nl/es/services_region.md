@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-04"
+lastupdated: "2019-04-10"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -46,10 +46,10 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Blockchain | Alojado en Dallas | Sindicado desde Dallas | Sindicado desde Dallas | Sindicado desde Dallas | No disponible | No disponible | 
 | Blockchain Platform 2.0 | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Certificate Manager | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | Alojado en Tokio | 
-| Cloud Foundry Enterprise Environment | Alojado en Dallas | No disponible | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
+| Cloud Foundry Enterprise Environment | No disponible | No disponible | Alojado en Frankfurt | No disponible | No disponible | No disponible | 
 | Cloud Object Storage | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | 
 | Cloudant | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
-| Compare and Comply | Alojado en Dallas | No disponible | Alojado en Frankfurt | No disponible | No disponible | No disponible | 
+| Compare and Comply | Alojado en Dallas | No disponible | Alojado en Frankfurt | No disponible | Alojado en Washington DC | No disponible | 
 | Compose Enterprise | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | No disponible | 
 | Compose for Elasticsearch | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | No disponible | 
 | Compose for JanusGraph | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | No disponible | 
@@ -70,9 +70,9 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Databases for PostgreSQL | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Databases for Redis | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Databases for etcd | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
-| Db2 | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Db2 Hosted | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Db2 Warehouse | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
+| Db2 on Cloud | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Decision Optimization | Alojado en Dallas | Alojado en Londres | No disponible | No disponible | No disponible | No disponible | 
 | DevOps Insights | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | No disponible | 
 | Comprobador de contenido digital | Alojado en Dallas | Alojado en Londres | No disponible | Sindicado desde Londres | No disponible | No disponible | 
@@ -122,7 +122,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Simulated Instrument Analytics | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | API Simulated Instruments Analytics | Alojado en Dallas | No disponible | No disponible | No disponible | Alojado en Washington DC | No disponible | 
 | Speech to Text | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
-| Streaming Analytics | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | No disponible | 
+| Streaming Analytics | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | Alojado en Washington DC | No disponible | 
 | Text to Speech | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Tone Analyzer | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Toolchain | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | Alojado en Washington DC | Alojado en Tokio | 

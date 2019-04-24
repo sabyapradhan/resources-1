@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-08"
 
 keywords: service key, api key, bind, credential
 
@@ -16,7 +16,7 @@ subcollection: resources
 {:note: .note}
 
 
-# Incluindo uma credencial
+# Incluindo e visualizando credenciais
 {: #service_credentials}
 
 É possível gerar um novo conjunto de credenciais para casos em que você deseja conectar manualmente um consumidor externo a um serviço {{site.data.keyword.Bluemix}}. Por exemplo, se você estiver tentando ligar um app AWS a um serviço do Watson, será necessário gerar uma nova credencial que possa ser usada para ligá-los.
@@ -58,3 +58,15 @@ Conclua as etapas a seguir para incluir uma credencial do Cloud Foundry:
   A maioria dos serviços não requer parâmetros extras e, para serviços que fazem isso, cada serviço define sua própria lista exclusiva de parâmetros. Para obter uma lista de parâmetros de configuração suportados, veja a documentação para a oferta de serviços específica.
   {: note}
 4. Clique em **Incluir** para gerar a nova credencial de serviço.
+
+## Visualizando uma credencial
+{: #viewing-credentials}
+
+Depois que uma credencial é criada para um serviço, ela pode ser visualizada a qualquer momento para usuários que precisam do valor da chave de API. No entanto, todos os usuários devem ter o nível correto de acesso para ver os detalhes de uma credencial, incluindo o valor da chave de API. O acesso do usuário deve ser igual ou maior que o da credencial de serviço. Por exemplo, se a credencial tiver a função de serviço do IAM `Writer`, o usuário que estiver tentando visualizar a credencial deverá ter a função de serviço do IAM `Writer` ou `Manager` para esse serviço específico designado. Quando um usuário não tiver o acesso correto, os detalhes, como o valor da chave de API, serão editados.
+
+Para visualizar uma credencial de serviço existente para um serviço, conclua as etapas a seguir:
+
+1. Na lista de Recursos, selecione o nome do serviço para abrir a página de detalhes do serviço. 
+2. Clique em **Credenciais de serviço**
+3. Expanda **Visualizar credenciais** na linha para uma credencial existente.
+

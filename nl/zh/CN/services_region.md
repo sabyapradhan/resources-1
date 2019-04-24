@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-04"
+lastupdated: "2019-04-10"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -46,10 +46,10 @@ subcollection: resources
 |Blockchain| 在达拉斯托管 | 从达拉斯联合 | 从达拉斯联合 | 从达拉斯联合 |不可用|不可用| 
 |Blockchain Platform 2.0| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Certificate Manager| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用| 在东京托管 | 
-|Cloud Foundry Enterprise Environment| 在达拉斯托管 |不可用| 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
+|Cloud Foundry Enterprise Environment|不可用|不可用| 在法兰克福托管 |不可用|不可用|不可用| 
 |Cloud Object Storage|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管| 
 |Cloudant| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
-|Compare and Comply| 在达拉斯托管 |不可用| 在法兰克福托管 |不可用|不可用|不可用| 
+|Compare and Comply| 在达拉斯托管 |不可用| 在法兰克福托管 |不可用| 在华盛顿特区托管 |不可用| 
 |Compose Enterprise| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
 |Compose for Elasticsearch| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
 |Compose for JanusGraph| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
@@ -70,19 +70,19 @@ subcollection: resources
 |Databases for PostgreSQL| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Databases for Redis| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Databases for etcd| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
-|Db2| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Db2 Hosted| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Db2 Warehouse| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
+|Db2 on Cloud | 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Decision Optimization| 在达拉斯托管 | 在伦敦托管 |不可用|不可用|不可用|不可用| 
 |DevOps Insights| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用|不可用| 
 |Digital Content Checker| 在达拉斯托管 | 在伦敦托管 |不可用| 从伦敦联合 |不可用|不可用| 
 |Discovery| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Event Management| 在达拉斯托管 | 在伦敦托管 |不可用|在悉尼托管|不可用|不可用| 
 |Event Streams| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
-|功能| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用| 在华盛顿特区托管 | 在东京托管 | 
+| Functions | 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用| 在华盛顿特区托管 | 在东京托管 | 
 |Geospatial Analytics| 在达拉斯托管 | 在伦敦托管 |不可用| 从伦敦联合 |不可用|不可用| 
 |Globalization Pipeline| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
-|HPC 集群|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管| 
+| HPC Cluster |在全球托管|在全球托管|在全球托管|在全球托管|在全球托管|在全球托管| 
 |Historical Instrument Analytics| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Hyper Protect Crypto Services| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Hyper Protect DBaaS|不可用|不可用|不可用|不可用| 在华盛顿特区托管 |不可用| 
@@ -106,7 +106,7 @@ subcollection: resources
 |Master Data Management| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 | Messages for RabbitMQ | 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Mobile Foundation| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
-|监视| 在达拉斯托管 | 在伦敦托管 | 从达拉斯联合 |在悉尼托管|不可用|不可用| 
+| Monitoring | 在达拉斯托管 | 在伦敦托管 | 从达拉斯联合 |在悉尼托管|不可用|不可用| 
 |Natural Language Classifier| 在达拉斯托管 |不可用| 在法兰克福托管 |不可用| 在华盛顿特区托管 | 在东京托管 | 
 |Natural Language Understanding| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Object Storage OpenStack Swift| 在达拉斯托管 | 在伦敦托管 |不可用|不可用|不可用|不可用| 
@@ -117,12 +117,12 @@ subcollection: resources
 |Real-Time Payments| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |SQL Query| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Secure Gateway| 在达拉斯托管 | 在伦敦托管 | 从达拉斯联合 | 从达拉斯联合 | 在华盛顿特区托管 |不可用| 
-|安全顾问程序| 在达拉斯托管 | 在伦敦托管 |不可用|不可用|不可用|不可用| 
+| Security Advisor | 在达拉斯托管 | 在伦敦托管 |不可用|不可用|不可用|不可用| 
 |Simulated Historical Instrument Analytics| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Simulated Instrument Analytics| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Simulated Instruments Analytics API| 在达拉斯托管 |不可用|不可用|不可用| 在华盛顿特区托管 |不可用| 
 |Speech to Text| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
-|Streaming Analytics| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用|不可用| 
+|Streaming Analytics| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用| 在华盛顿特区托管 |不可用| 
 |Text to Speech| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Tone Analyzer| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Toolchain| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用| 在华盛顿特区托管 | 在东京托管 | 

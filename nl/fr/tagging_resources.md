@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-29"
+lastupdated: "2019-04-03"
 
 keywords: add tags, tags, full list of tags, how to use tags
 
@@ -19,7 +19,7 @@ subcollection: resources
 # Utilisation d'étiquettes
 {: #tag}
 
-Une étiquette est un libellé affecté à une ressource pour un filtrage simple des ressources de votre liste de ressources. Les étiquettes permettent d'organiser vos ressources et de les trouver facilement ultérieurement.  
+Une étiquette est un libellé affecté à une ressource pour un filtrage simple des ressources de votre liste de ressources. Les étiquettes permettent d'organiser vos ressources et de les trouver facilement ultérieurement. Vous pouvez également utiliser des étiquettes pour vous aider à identifier l'utilisation spécifique des équipes ou l'allocation des coûts lorsque vous affichez votre [rapport d'utilisation exporté](/docs/billing-usage?topic=billing-usage-viewingusage#export-csv).
 {: shortdesc}
 
 Pour voir une liste complète des étiquettes de votre compte, accédez à **Gérer > Comptes** puis sélectionnez **Etiquettes**.
@@ -34,11 +34,11 @@ La taille maximale d'une étiquette est de 128 caractères. Les caractères auto
 
 1. Dans la console {{site.data.keyword.Bluemix_notm}}, cliquez sur l'icône Menu ![Icône Menu](../icons/icon_hamburger.svg) > **Liste de ressources** pour afficher votre liste de ressources.
 2. Cliquez sur le bouton de développement du type de ressource correspondant à la ressource à étiqueter. Par exemple, si vous souhaitez étiqueter une instance d'{{site.data.keyword.cos_full_notm}}, sélectionnez **Stockage**.  
-3. Cliquez sur l'icône Actions ![Icône Actions](../icons/action-menu-icon.svg) pour ajouter ou mettre à jour une étiquette pour la ressource.
+3. Cliquez sur l'icône **Actions** ![Icône Actions](../icons/action-menu-icon.svg) pour ajouter ou mettre à jour une étiquette pour la ressource.
 
-    * Pour ajouter une étiquette, cliquez sur le menu Actions ![Icône Actions](../icons/action-menu-icon.svg), sélectionnez **Ajouter des étiquettes** et entrez un nom pour votre étiquette.
-    * Pour ajouter des étiquettes supplémentaires, cliquez sur l'icône Editer ![Icône Editer](../icons/edit-tagging.svg) se trouvant en regard de l'étiquette affichée et entrez un nom pour votre étiquette. Appuyez sur Entrée pour continuer à ajouter des étiquettes.
-4. Pour retirer une étiquette, cliquez sur l'icône Editer ![Icône Editer](../icons/edit-tagging.svg). Cliquez ensuite sur l'icône Retirer ![Icône Retirer](../icons/close-tagging.svg) se trouvant en regard de l'étiquette.
+    * Pour ajouter une étiquette, cliquez sur l'icône de menu **Actions** ![Icône Actions](../icons/action-menu-icon.svg), sélectionnez **Ajouter des étiquettes** et entrez un nom pour votre étiquette.
+    * Pour ajouter des étiquettes supplémentaires, cliquez sur l'icône **Editer** ![Icône Editer](../icons/edit-tagging.svg) en regard de l'étiquette affichée et entrez un nom pour votre étiquette. Appuyez sur Entrée pour continuer à ajouter des étiquettes.
+4. Pour retirer une étiquette, cliquez sur l'icône **Editer** ![Icône Editer](../icons/edit-tagging.svg). Cliquez ensuite sur l'icône **Retirer** ![Icône Retirer](../icons/close-tagging.svg) en regard de l'étiquette.
 
 ## Recherche d'étiquettes
 {: #search-tags}
@@ -56,8 +56,7 @@ La même étiquette peut être associée à plusieurs ressources par différents
 ## Etiquetage pour les revendeurs
 {: #resell}
 
-Tous les membres d'un compte peuvent voir les étiquettes.
-Si votre compte est associé à différentes organisations (si vous êtes revendeur, par exemple), vous pouvez recommander à vos clients de ne pas stocker d'informations sur des étiquettes, d'autres utilisateurs du même compte risqueraient alors d'accéder à des informations confidentielles.
+Tous les membres d'un compte peuvent voir les étiquettes. Si votre compte est associé à différentes organisations (si vous êtes revendeur, par exemple), vous pouvez recommander à vos clients de ne pas stocker sur des étiquettes des informations qui pourraient dévoiler à d'autres utilisateurs du même compte des informations confidentielles.
 
 Pour contrôler la visibilité des étiquettes, suivez les instructions d'étiquetage et faites savoir aux utilisateurs que les étiquettes sont visibles dans l'ensemble du compte.
 
