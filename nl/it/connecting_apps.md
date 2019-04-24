@@ -52,7 +52,7 @@ Per connettere la tua istanza del servizio gestito da IAM a un'applicazione:
 
 5. Facoltativamente, puoi fornire un **ID del servizio per la connessione** consentendo a IAM di generare per te un valore univoco o fornendo un ID servizio esistente. Per ulteriori informazioni, vedi [Creazione e gestione degli ID servizio](/docs/iam?topic=iam-serviceids).
 
-6. Fai clic su **Create**.
+6. Fai clic su **Crea**.
 
 ## Visualizzazione di un alias
 {: #view_alias}

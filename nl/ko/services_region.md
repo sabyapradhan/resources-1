@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-02-28"
+lastupdated: "2019-03-06"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -128,7 +128,7 @@ subcollection: resources
 | VMware Solutions |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |Visual Recognition | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Voice Agent with Watson | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 워싱턴 DC에서 호스팅됨 |사용할 수 없음 | 
-|Watson 지원 | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 
+| Watson Assistant | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Watson OpenScale | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Watson Studio | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 |Weather Company Data | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 |사용할 수 없음 |시드니에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 | 

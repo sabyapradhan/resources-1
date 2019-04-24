@@ -49,7 +49,7 @@ Ressourcen, die zu einer Ressourcengruppe gehören, werden über IAM-Richtlinien
   3. Klicken Sie auf **Zugriffsrichtlinien** > **Zugriff zuweisen**.
   4. Wählen Sie die Option **Zugriff zu Ressourcen zuweisen** aus.
   5. Wählen Sie in der Serviceliste einen bestimmten Service oder die Option **Alle Services mit aktiviertem Identity and Access Management** aus.
-  6. Wählen Sie in der Liste der plattformbezogenen Zugriffsrollen die Rolle**Editor (Bearbeiter)** aus.
+  6. Wählen Sie in der Liste der plattformbezogenen Zugriffsrollen die Rolle **Editor (Bearbeiter)** aus.
   7. Klicken Sie auf **Zuweisen**.
 
 ## Zugriff für das Tagging von Cloud Foundry-Ressourcen erteilen
