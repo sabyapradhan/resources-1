@@ -7,6 +7,9 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-02-07"
 
+keywords: resource group, account resources, users access to resource groups, create resource group
+
+subcollection: resources
 
 ---
 
@@ -35,7 +38,7 @@ lastupdated: "2019-02-07"
 資源群組與 Cloud Foundry 組織或空間之間的連線受限於您的配額。如需相關資訊，請參閱[何謂別名？](/docs/resources?topic=resources-connect_app#what_is_alias)。
 {: note}
 
-1. 移至**管理** &gt; **帳戶**。展開**帳戶資源**，然後選取**資源群組**。 
+1. 移至**管理** &gt; **帳戶**。展開**帳戶資源**，然後選取**資源群組**。
 2. 按一下**建立資源群組**。
 3. 輸入資源群組的名稱。
 4. 按一下**新增**。
@@ -60,7 +63,7 @@ lastupdated: "2019-02-07"
 
 您的第一個資源群組會建立並命名為 `Default`。您可以選擇更新此群組或您建立之任何其他群組的名稱。
 
-1. 移至**管理** &gt; **帳戶**。展開**帳戶資源**，然後選取**資源群組**。 
+1. 移至**管理** &gt; **帳戶**。展開**帳戶資源**，然後選取**資源群組**。
 2. 從**動作** ![「動作清單」圖示](../icons/action-menu-icon.svg) 功能表中，選取**重新命名**。
 3. 輸入唯一名稱，然後按一下**儲存**。
 

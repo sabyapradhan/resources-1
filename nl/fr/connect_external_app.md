@@ -4,6 +4,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
+keywords: service keys, api keys, using services outside IBM cloud
+
+subcollection: resources
+
 ---
 
 {: new_window: target="_blank"}
@@ -23,11 +27,11 @@ La plupart des services ne requièrent pas de paramètres supplémentaires et po
 
 1. Créez une instance du service.
     1. Cliquez sur **Catalogue**.
-    2. Dans le catalogue, sélectionnez le service de votre choix en cliquant sur la vignette correspondante. 
+    2. Dans le catalogue, sélectionnez le service de votre choix en cliquant sur la vignette correspondante.
     3. Sélectionnez l'emplacement et une organisation et un espace ou un groupe de ressources, puis cliquez sur **Créer**.
-2. Sur la page des détails du service, sélectionnez **Données d'identification du service** pour afficher ou ajouter des données d'identification au format JSON. 
+2. Sur la page des détails du service, sélectionnez **Données d'identification du service** pour afficher ou ajouter des données d'identification au format JSON.
     * Pour créer de nouvelles données d'identification, sélectionnez **Nouvelles données d'identification** et si vous le souhaitez, ajoutez des paramètres de configuration manuellement ou importez un fichier au format JSON, puis cliquez sur **Ajouter**. Sélectionnez **Afficher les données d'identification** pour sauvegarder les données d'identification vous permettant de vous connecter à votre application externe.
-    * Sélectionnez un ensemble de données d'identification et cliquez sur **Afficher les données d'identification** dans la colonne Actions s'ils existent déjà. 
+    * Sélectionnez un ensemble de données d'identification et cliquez sur **Afficher les données d'identification** dans la colonne Actions s'ils existent déjà.
 3. Utilisez la clé d'API affichée comme données d'identification pour vous connecter à l'instance de service.
 
 Votre application qui s'exécute en dehors de {{site.data.keyword.Bluemix_notm}} peut désormais accéder au

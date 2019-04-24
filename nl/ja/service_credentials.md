@@ -5,6 +5,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
+keywords: service key, api key, bind, credential
+
+subcollection: resources
+
 ---
 
 {:new_window: target="_blank"}
@@ -52,4 +56,3 @@ Cloud Foundry 資格情報を追加するには、以下の手順を実行して
   多くのサービスでは追加のパラメーターは必要なく、追加パラメーターを必要とするサービスでは、各サービスが独自の固有パラメーター・リストを定義しています。 サポートされている構成パラメーターのリストについては、特定のサービス・オファリング用の資料を参照してください。
   {: note}
 4. **「追加」**をクリックして、新しいサービス資格情報を生成します。
-

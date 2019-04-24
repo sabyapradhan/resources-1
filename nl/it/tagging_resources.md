@@ -5,6 +5,10 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-01-29"
 
+keywords: add tags, tags, full list of tags, how to use tags
+
+subcollection: resources
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -28,13 +32,13 @@ La dimensione massima di una tag è di 128 caratteri. I caratteri consentiti son
 ## Aggiunta e rimozione di tag su una risorsa
 {: #add-remove}
 
-1. Dalla console {{site.data.keyword.Bluemix_notm}}, fai clic sull'icona Menu ![Icona Menu](../icons/icon_hamburger.svg) > **Elenco risorse** per visualizzare il tuo elenco di risorse. 
+1. Dalla console {{site.data.keyword.Bluemix_notm}}, fai clic sull'icona Menu ![Icona Menu](../icons/icon_hamburger.svg) > **Elenco risorse** per visualizzare il tuo elenco di risorse.
 2. Espandi la freccia del tipo di risorsa che contiene la risorsa su cui vuoi eseguire operazioni di tag. Ad esempio, se vuoi eseguire operazioni di tag su un'istanza di {{site.data.keyword.cos_full_notm}}, espandi **Archiviazione**.  
-3. Fai clic sull'icona Azioni ![Icona Azioni](../icons/action-menu-icon.svg) per aggiungere o aggiornare una tag per la risorsa. 
+3. Fai clic sull'icona Azioni ![Icona Azioni](../icons/action-menu-icon.svg) per aggiungere o aggiornare una tag per la risorsa.
 
-    * Per aggiungere una tag, fai clic sul menu Azioni ![Menu Azioni](../icons/action-menu-icon.svg), seleziona **Aggiungi tag** e immetti un nome per la tua tag. 
+    * Per aggiungere una tag, fai clic sul menu Azioni ![Menu Azioni](../icons/action-menu-icon.svg), seleziona **Aggiungi tag** e immetti un nome per la tua tag.
     * Per aggiungere ulteriori tag, fai clic sull'icona Modifica ![Icona Modifica](../icons/edit-tagging.svg) accanto alla tag visualizzata e immetti un nome per la tua tag. Premi Invio per continuare ad aggiungere tag.
-4. Per rimuovere una tag, fai clic sull'icona Modifica ![Icona Modifica](../icons/edit-tagging.svg). Fai quindi clic sull'icona Rimuovi ![Icona Rimuovi](../icons/close-tagging.svg) accanto alla tag. 
+4. Per rimuovere una tag, fai clic sull'icona Modifica ![Icona Modifica](../icons/edit-tagging.svg). Fai quindi clic sull'icona Rimuovi ![Icona Rimuovi](../icons/close-tagging.svg) accanto alla tag.
 
 ## Ricerca di tag
 {: #search-tags}
@@ -55,8 +59,7 @@ La stessa tag può essere collegata a più risorse da vari utenti nello stesso a
 Le tag sono visibili a tutti i membri di un account.
 Se il tuo account è associato a diverse organizzazioni, ad esempio se sei un rivenditore, sarebbe opportuno che consigliassi ai tuoi clienti di non memorizzare informazioni nelle tag che potrebbero diffondere informazioni sensibili ad altri utenti nello stesso account.
 
-Per controllare la visibilità delle tag, fai circolare le linee guida sulle operazioni di tag e lascia che gli utenti sappiano che le tag sono visibili a livello di account. 
+Per controllare la visibilità delle tag, fai circolare le linee guida sulle operazioni di tag e lascia che gli utenti sappiano che le tag sono visibili a livello di account.
 
 Utilizza dei codici invece dei nomi per clienti ed account ed evita di inserire informazioni sensibili nelle tag.
 {: tip}
-

@@ -5,6 +5,10 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-01-29"
 
+keywords: add tags, tags, full list of tags, how to use tags
+
+subcollection: resources
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -28,13 +32,13 @@ O tamanho máximo de uma tag é 128 caracteres. Os caracteres permitidos são A-
 ## Incluindo e removendo tags em um recurso
 {: #add-remove}
 
-1. No console do {{site.data.keyword.Bluemix_notm}}, clique no ícone Menu ![Ícone Menu](../icons/icon_hamburger.svg) > **Lista de recursos** para visualizar sua lista de recursos. 
+1. No console do {{site.data.keyword.Bluemix_notm}}, clique no ícone Menu ![Ícone Menu](../icons/icon_hamburger.svg) > **Lista de recursos** para visualizar sua lista de recursos.
 2. Expanda a seta de tipo de recurso que contém o recurso que você deseja identificar. Por exemplo, se você deseja identificar uma instância do {{site.data.keyword.cos_full_notm}}, expanda **Armazenamento**.  
-3. Clique no ícone Ações ![Ícone Ações](../icons/action-menu-icon.svg) para incluir ou atualizar uma tag para o recurso. 
+3. Clique no ícone Ações ![Ícone Ações](../icons/action-menu-icon.svg) para incluir ou atualizar uma tag para o recurso.
 
-    * Para incluir uma tag, clique no menu Ações ![Ícone Ações](../icons/action-menu-icon.svg), selecione **Incluir tags** e digite um nome para sua tag. 
+    * Para incluir uma tag, clique no menu Ações ![Ícone Ações](../icons/action-menu-icon.svg), selecione **Incluir tags** e digite um nome para sua tag.
     * Para incluir tags adicionais, clique no ícone Editar ![Ícone Editar](../icons/edit-tagging.svg) próximo à tag exibida e digite um nome para a sua tag. Pressione Enter para continuar a incluir tags.
-4. Para remover uma tag, clique no ícone Editar ![Ícone Editar](../icons/edit-tagging.svg). Em seguida, clique no ícone Remover ![Ícone Remover](../icons/close-tagging.svg) próximo à tag. 
+4. Para remover uma tag, clique no ícone Editar ![Ícone Editar](../icons/edit-tagging.svg). Em seguida, clique no ícone Remover ![Ícone Remover](../icons/close-tagging.svg) próximo à tag.
 
 ## Procurando tags
 {: #search-tags}
@@ -55,8 +59,7 @@ A mesma tag pode ser anexada a vários recursos por diferentes usuários na mesm
 As tags são visíveis para todos os membros de uma conta.
 Se a sua conta está associada a diferentes organizações, no caso de você ser um revendedor, por exemplo, talvez você queira recomendar a seus clientes para não armazenarem informações em tags que possam divulgar informações confidenciais para outros na mesma conta.
 
-Para controlar a visibilidade da tag, distribua as diretrizes de identificação e informe aos usuários que as tags são visíveis em toda a conta. 
+Para controlar a visibilidade da tag, distribua as diretrizes de identificação e informe aos usuários que as tags são visíveis em toda a conta.
 
 Use códigos em vez de nomes para clientes e contas e evite colocar informações confidenciais nas tags.
 {: tip}
-

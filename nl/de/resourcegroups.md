@@ -7,6 +7,9 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-02-07"
 
+keywords: resource group, account resources, users access to resource groups, create resource group
+
+subcollection: resources
 
 ---
 
@@ -35,7 +38,7 @@ Wenn Sie über ein Lite-Konto oder ein 30-Tage-Testkonto verfügen, können Sie 
 Verbindungen zwischen einer Ressourcengruppe und einer Cloud Foundry-Organisation oder einem Cloud Foundry-Bereich sind durch Ihr Kontingent eingeschränkt. Weitere Informationen finden Sie in [Was ist ein Alias?](/docs/resources?topic=resources-connect_app#what_is_alias).
 {: note}
 
-1. Rufen Sie **Verwalten** &gt; **Konto** auf. Erweitern Sie den Eintrag **Kontoressourcen** und wählen Sie anschließend **Ressourcengruppen** aus. 
+1. Rufen Sie **Verwalten** &gt; **Konto** auf. Erweitern Sie den Eintrag **Kontoressourcen** und wählen Sie anschließend **Ressourcengruppen** aus.
 2. Klicken Sie auf **Ressourcengruppe erstellen**.
 3. Geben Sie einen Namen für Ihre Ressourcengruppe ein.
 4. Klicken Sie auf **Hinzufügen**.
@@ -60,7 +63,7 @@ Um die Ressourcen, die in einer Ressourcengruppe enthalten sind, auf einfache We
 
 Ihre erste Ressourcengruppe wird vom System für Sie erstellt und erhält den Namen `Standard`. Sie können auswählen, ob der Name dieser Gruppe oder anderer Gruppen, die Sie erstellen, aktualisiert werden soll.
 
-1. Rufen Sie **Verwalten** &gt; **Konto** auf. Erweitern Sie den Eintrag **Kontoressourcen** und wählen Sie anschließend **Ressourcengruppen** aus. 
+1. Rufen Sie **Verwalten** &gt; **Konto** auf. Erweitern Sie den Eintrag **Kontoressourcen** und wählen Sie anschließend **Ressourcengruppen** aus.
 2. Wählen Sie im Menü **Aktionen** ![Symbol für Aktionsliste](../icons/action-menu-icon.svg) die Option **Umbenennen** aus.
 3. Geben Sie einen eindeutigen Namen ein und klicken Sie auf **Speichern**.
 

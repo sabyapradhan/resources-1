@@ -3,7 +3,11 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-02-20"
+lastupdated: "2019-02-28"
+
+keywords: location, regions, data centers, service location, service availability
+
+subcollection: resources
 
 ---
 {:new_window: target="_blank"}
@@ -16,7 +20,7 @@ lastupdated: "2019-02-20"
 {{site.data.keyword.Bluemix}} macht es Ihnen leicht, Services und Apps zu implementieren, zu hosten und zu skalieren. Sie können sich voll auf Ihre Anwendungslogik und den Anwendungsentwurf konzentrieren.
 {:shortdesc}
 
-Nicht alle Services sind an jedem {{site.data.keyword.Bluemix_notm}}-Standort erhältlich. Auch dann, wenn der Service an einem Standort erhältlich ist, kann er an einem anderen Standort gehostet werden. In der folgenden Tabelle sind die Services aufgeführt, die von IBM zur Verfügung gestellt werden. Eine vollständige Liste der verfügbaren Ressourcen finden Sie im [Katalog ](https://cloud.ibm.com/catalog){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") in der {{site.data.keyword.Bluemix_notm}}-Konsole. 
+Nicht alle Services sind an jedem {{site.data.keyword.Bluemix_notm}}-Standort erhältlich. Auch dann, wenn der Service an einem Standort erhältlich ist, kann er an einem anderen Standort gehostet werden. In der folgenden Tabelle sind die Services aufgeführt, die von IBM zur Verfügung gestellt werden. Eine vollständige Liste der verfügbaren Ressourcen finden Sie im [Katalog ](https://cloud.ibm.com/catalog){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") in der {{site.data.keyword.Bluemix_notm}}-Konsole.
 
 Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Standorte hinweg betrieben werden. Zum Beispiel können Sie mit {{site.data.keyword.cos_full_notm}} wählen, die Daten über ein einziges [Rechenzentrum](/docs/overview?topic=overview-zero-downtime#data_center) oder über eine Kombination von Standorten zu verteilen, indem Sie den [Endpunkt auswählen](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability), an den Ihre Anwendung REST-API-Anforderungen sendet.
 
@@ -62,6 +66,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Cost and Asset Management | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Data Store for Memcache | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Databases for Elasticsearch | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
+| Databases for MongoDB | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Databases for PostgreSQL | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Databases for Redis | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Databases for etcd | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 

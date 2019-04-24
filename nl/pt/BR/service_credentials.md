@@ -5,6 +5,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
+keywords: service key, api key, bind, credential
+
+subcollection: resources
+
 ---
 
 {:new_window: target="_blank"}
@@ -54,4 +58,3 @@ Conclua as etapas a seguir para incluir uma credencial do Cloud Foundry:
   A maioria dos serviços não requer parâmetros extras e, para serviços que fazem isso, cada serviço define sua própria lista exclusiva de parâmetros. Para obter uma lista de parâmetros de configuração suportados, veja a documentação para a oferta de serviços específica.
   {: note}
 4. Clique em **Incluir** para gerar a nova credencial de serviço.
-

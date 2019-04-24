@@ -5,6 +5,10 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-01-28"
 
+keywords: classic infrastructure assets, application development, services that work with classic infrastructure
+
+subcollection: resources
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -28,4 +32,3 @@ Soll beispielsweise kognitive Funktionalität von Watson in Ihren Apps hinzugef�
 2. Erstellen Sie mit nur wenigen Klicks eine Instanz des Service.
 3. Konfigurieren Sie den Service für die Ausführung mit dem bereits vorhandenen Code, indem Sie die Berechtigungsnachweise des Service kopieren und diese zur Anwendung hinzufügen.
 4. Stellen Sie nach der Aktualisierung der App die neue Version in Ihren Assets der klassischen Infrastruktur bereit.
-

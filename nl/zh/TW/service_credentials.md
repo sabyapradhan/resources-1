@@ -5,6 +5,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
+keywords: service key, api key, bind, credential
+
+subcollection: resources
+
 ---
 
 {:new_window: target="_blank"}
@@ -52,4 +56,3 @@ Cloud Foundry 服務可以產生服務金鑰（也稱為認證）。認證是服
   大部分服務都不需要額外的參數，對於有需要的服務，每個服務都會定義自己獨特的參數清單。如需所支援配置參數的清單，請參閱特定服務供應項目的文件。
   {: note}
 4. 按一下**新增**，以產生新的服務認證。
-

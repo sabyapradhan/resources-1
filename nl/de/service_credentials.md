@@ -5,6 +5,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
+keywords: service key, api key, bind, credential
+
+subcollection: resources
+
 ---
 
 {:new_window: target="_blank"}
@@ -29,7 +33,7 @@ Führen Sie die folgenden Schritte aus, um einen Berechtigungsnachweis für eine
 1. Wählen Sie in der Ressourcenliste den Namen des Service aus, um die Seite mit den Servicedetails zu öffnen. Wählen Sie dann die Registerkarte für Berechtigungsnachweise aus und klicken Sie auf **Neuen Berechtigungsnachweis + **.
 2. Geben Sie im Dialogfeld für das Hinzufügen eines neuen Berechtigungsnachweises einen **Name** an.
 3. Geben Sie die Rolle an. Dieser Wert legt die Zugriffsrolle des IAM-Service fest. Weitere Informationen finden Sie unter [IAM-Zugriff](/docs/iam?topic=iam-userroles)
-4. Optional können Sie eine Service-ID bereitstellen, indem Sie IAM einen eindeutigen Wert für Sie generieren lassen oder indem Sie eine vorhandene Service-ID bereitstellen. Weitre Informationen finden Sie in [Service-IDs erstellen und verwenden](/docs/iam?topic=iam-serviceids). 
+4. Optional können Sie eine Service-ID bereitstellen, indem Sie IAM einen eindeutigen Wert für Sie generieren lassen oder indem Sie eine vorhandene Service-ID bereitstellen. Weitre Informationen finden Sie in [Service-IDs erstellen und verwenden](/docs/iam?topic=iam-serviceids).
 5. Optional können Sie weitere Parameter als gültiges JSON-Objekt mit servicespezifischen Konfigurationsparametern inline oder in einer Datei angeben.
 
   Für die meisten Services sind keine zusätzlichen Parameter erforderlich. Bei den Services, die zusätzliche Parameter erfordern, definiert jeder Service eine eigene Parameterliste. Eine Liste der unterstützten Konfigurationsparameter finden Sie in der Dokumentation für das jeweilige Serviceangebot.
@@ -52,4 +56,3 @@ Führen Sie die folgenden Schritte aus, um einen Cloud Foundry-Berechtigungsnach
   Für die meisten Services sind keine zusätzlichen Parameter erforderlich. Bei den Services, die zusätzliche Parameter erfordern, definiert jeder Service eine eigene Parameterliste. Eine Liste der unterstützten Konfigurationsparameter finden Sie in der Dokumentation für das jeweilige Serviceangebot.
   {: note}
 4. Klicken Sie auf **Hinzufügen**, um den neuen Serviceberechtigungsnachweis zu generieren.
-

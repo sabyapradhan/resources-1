@@ -5,6 +5,10 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-01-29"
 
+keywords: add tags, tags, full list of tags, how to use tags
+
+subcollection: resources
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -28,13 +32,13 @@ El tamaño máximo de una etiqueta es de 128 caracteres. Los caracteres permitid
 ## Adición y eliminación de etiquetas en un recurso
 {: #add-remove}
 
-1. En la consola de {{site.data.keyword.Bluemix_notm}}, pulse el icono de Menú ![Icono de Menú](../icons/icon_hamburger.svg) > **Lista de recursos** para ver su lista de recursos. 
+1. En la consola de {{site.data.keyword.Bluemix_notm}}, pulse el icono de Menú ![Icono de Menú](../icons/icon_hamburger.svg) > **Lista de recursos** para ver su lista de recursos.
 2. Expanda el triángulo del tipo de recurso que contiene el recurso que desea etiquetar. Por ejemplo, si desea etiquetar una instancia de {{site.data.keyword.cos_full_notm}}, expanda **Almacenamiento**.  
-3. Pulse el icono Acciones ![Icono Acciones](../icons/action-menu-icon.svg) para añadir o actualizar una etiqueta correspondiente al recurso. 
+3. Pulse el icono Acciones ![Icono Acciones](../icons/action-menu-icon.svg) para añadir o actualizar una etiqueta correspondiente al recurso.
 
-    * Para añadir una etiqueta, pulse el menú Acciones ![Icono de Acciones](../icons/action-menu-icon.svg), seleccione **Añadir etiquetas** y escriba un nombre para la etiqueta. 
+    * Para añadir una etiqueta, pulse el menú Acciones ![Icono de Acciones](../icons/action-menu-icon.svg), seleccione **Añadir etiquetas** y escriba un nombre para la etiqueta.
     * Para añadir etiquetas adicionales, pulse el icono Editar ![Icono Editar](../icons/edit-tagging.svg) situado junto a la etiqueta visualizada y escriba un nombre para la etiqueta. Pulse Intro para seguir añadiendo etiquetas.
-4. Para eliminar una etiqueta, pulse el icono Editar ![Icono Editar](../icons/edit-tagging.svg). A continuación, pulse el icono Eliminar ![Icono Eliminar](../icons/close-tagging.svg) junto a la etiqueta. 
+4. Para eliminar una etiqueta, pulse el icono Editar ![Icono Editar](../icons/edit-tagging.svg). A continuación, pulse el icono Eliminar ![Icono Eliminar](../icons/close-tagging.svg) junto a la etiqueta.
 
 ## Búsqueda de etiquetas
 {: #search-tags}
@@ -55,8 +59,7 @@ La misma etiqueta se puede adjuntar a varios recursos por parte de distintos usu
 Las etiquetas son visibles para todos los miembros de una cuenta.
 Si su cuenta está asociada con diferentes organizaciones, por ejemplo si es un distribuidor, quizás desee recomendar a sus clientes que no almacenen en etiquetas información que pueda revelar información confidencial a terceros en la misma cuenta.
 
-Para controlar la visibilidad de las etiquetas, haga circular las directrices de etiquetado y comunique a los usuarios que las etiquetas son visibles en toda la cuenta. 
+Para controlar la visibilidad de las etiquetas, haga circular las directrices de etiquetado y comunique a los usuarios que las etiquetas son visibles en toda la cuenta.
 
 Utilice códigos en lugar de nombres para clientes y cuentas y evite colocar información confidencial en etiquetas.
 {: tip}
-

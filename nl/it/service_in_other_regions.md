@@ -4,6 +4,10 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
+keywords: service availability, service location, using services across regions
+
+subcollection: resources
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -20,7 +24,7 @@ Se disponi di un'istanza di servizio creata e associata mediante bind ad applica
 	Per utilizzare un'istanza del servizio che si trova
 in un'altra regione, completa la seguente procedura:
 
-      1. Per passare alla regione in cui si trova l'istanza del servizio, fai clic sull'**icona Menu  ![Icona Menu](../icons/icon_hamburger.svg)** > **Elenco risorse**. Espandi quindi il menu **UBICAZIONE** e seleziona la regione. 
+      1. Per passare alla regione in cui si trova l'istanza del servizio, fai clic sull'**icona Menu  ![Icona Menu](../icons/icon_hamburger.svg)** > **Elenco risorse**. Espandi quindi il menu **UBICAZIONE** e seleziona la regione.
 
       2. Recupera le credenziali e i parametri di connessione dalla variabile di ambiente VCAP_SERVICES dell'istanza del servizio nella regione in cui si trova il servizio. Completa la seguente
 procedura:
@@ -34,7 +38,7 @@ servizio. Fai clic sull'**icona Menu ![Icona Menu](../icons/icon_hamburger.svg)*
 
       4. Crea un'istanza del servizio fornito dall'utente utilizzando le credenziali
 e i parametri di connessione che hai registrato dalla variabile di ambiente
-*VCAP_SERVICES*. 
+*VCAP_SERVICES*.
 
       5. Esegui il bind dell'istanza del servizio fornito dall'utente alla tua applicazione
 utilizzando il seguente comando:

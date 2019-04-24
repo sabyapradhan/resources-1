@@ -3,7 +3,11 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-02-20"
+lastupdated: "2019-02-28"
+
+keywords: location, regions, data centers, service location, service availability
+
+subcollection: resources
 
 ---
 {:new_window: target="_blank"}
@@ -16,7 +20,7 @@ lastupdated: "2019-02-20"
 通过 {{site.data.keyword.Bluemix}}，您可以轻松地实施、托管和扩展服务和应用程序。您可以关注应用程序逻辑和应用程序设计。
 {:shortdesc}
 
-不是所有的服务都可以在每个 {{site.data.keyword.Bluemix_notm}} 位置进行购买。此外，即便服务在该位置可供购买，该服务也可能是在其他位置托管的。下表显示 IBM 提供的服务。有关可用资源的完整列表，请参阅 {{site.data.keyword.Bluemix_notm}} 控制台中的[目录](https://cloud.ibm.com/catalog){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。 
+不是所有的服务都可以在每个 {{site.data.keyword.Bluemix_notm}} 位置进行购买。此外，即便服务在该位置可供购买，该服务也可能是在其他位置托管的。下表显示 IBM 提供的服务。有关可用资源的完整列表，请参阅 {{site.data.keyword.Bluemix_notm}} 控制台中的[目录](https://cloud.ibm.com/catalog){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。
 
 全球托管的服务会创建可在多个位置运行的资源。例如，使用 {{site.data.keyword.cos_full_notm}} 时，您可以通过[选择端点](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability)（应用程序在该端点中发送 REST API 请求），选择在单个[数据中心](/docs/overview?topic=overview-zero-downtime#data_center)，甚至在多个位置的组合中分散数据。
 
@@ -62,6 +66,7 @@ lastupdated: "2019-02-20"
 |Cost and Asset Management| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Data Store for Memcache| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 | Databases for Elasticsearch | 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
+| Databases for MongoDB | 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Databases for PostgreSQL| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Databases for Redis| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Databases for etcd| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 

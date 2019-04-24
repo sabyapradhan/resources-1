@@ -3,7 +3,11 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-02-20"
+lastupdated: "2019-02-28"
+
+keywords: location, regions, data centers, service location, service availability
+
+subcollection: resources
 
 ---
 {:new_window: target="_blank"}
@@ -16,7 +20,7 @@ lastupdated: "2019-02-20"
 {{site.data.keyword.Bluemix}}에서는 서비스 및 앱을 손쉽게 구현, 호스팅 및 스케일링할 수 있습니다. 애플리케이션 로직 및 애플리케이션 디자인에 집중할 수 있습니다.
 {:shortdesc}
 
-모든 {{site.data.keyword.Bluemix_notm}} 위치에서 모든 서비스를 구매할 수 있는 것은 아닙니다. 해당 위치에서 서비스를 구매할 수 있는 경우에도 서비스는 다른 위치에서 호스팅될 수 있습니다. 다음 표는 IBM에서 제공하는 서비스를 보여줍니다. 사용 가능한 리소스의 전체 목록을 보려면 {{site.data.keyword.Bluemix_notm}} 콘솔에서 [카탈로그](https://cloud.ibm.com/catalog){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오. 
+모든 {{site.data.keyword.Bluemix_notm}} 위치에서 모든 서비스를 구매할 수 있는 것은 아닙니다. 해당 위치에서 서비스를 구매할 수 있는 경우에도 서비스는 다른 위치에서 호스팅될 수 있습니다. 다음 표는 IBM에서 제공하는 서비스를 보여줍니다. 사용 가능한 리소스의 전체 목록을 보려면 {{site.data.keyword.Bluemix_notm}} 콘솔에서 [카탈로그](https://cloud.ibm.com/catalog){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")를 참조하십시오.
 
 글로벌로 호스팅되는 서비스는 여러 위치에서 운용되는 리소스를 작성합니다. 예를 들어, {{site.data.keyword.cos_full_notm}}에서 사용자는 애플리케이션이 REST API 요청을 전송하는 [엔드포인트를 선택](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability)하여 단일 [데이터 센터](/docs/overview?topic=overview-zero-downtime#data_center) 또는 조합된 위치에서 데이터를 분산시키도록 선택할 수 있습니다.
 
@@ -62,6 +66,7 @@ lastupdated: "2019-02-20"
 |Cost and Asset Management | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Data Store for Memcache | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 | Databases for Elasticsearch | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 
+| Databases for MongoDB | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Databases for PostgreSQL | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Databases for Redis | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 | Databases for etcd | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 

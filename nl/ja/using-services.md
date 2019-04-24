@@ -5,6 +5,10 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-01-28"
 
+keywords: classic infrastructure assets, application development, services that work with classic infrastructure
+
+subcollection: resources
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -28,4 +32,3 @@ lastupdated: "2019-01-28"
 2. わずか数クリックで、サービスのインスタンスを作成します。
 3. サービス資格情報をコピーし、アプリケーションに追加して、サービスが既存のコードで実行されるようにセットアップします。
 4. アプリを更新した後に、クラシック・インフラストラクチャー資産に新規バージョンをデプロイします。
-
