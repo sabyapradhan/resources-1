@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2019-02-13"
+  years: 2015, 2019
+lastupdated: "2019-02-20"
 
 ---
 {:new_window: target="_blank"}
@@ -20,9 +20,9 @@ Nem todos os serviços estão disponíveis para compra em todas as localizaçõe
 
 Os serviços hospedados globalmente criam os recursos que operam em múltiplas localizações. Por exemplo,
 com o {{site.data.keyword.cos_full_notm}}, é possível optar por dispersar os dados em um único
-[data center](/docs/overview/zero_downtime.html#data_center) ou mesmo em uma combinação de localizações
+[data center](/docs/overview?topic=overview-zero-downtime#data_center) ou mesmo em uma combinação de localizações
 [selecionando
-o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) no qual o aplicativo envia as solicitações de API de REST.
+o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability) no qual o aplicativo envia as solicitações de API de REST.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -45,11 +45,11 @@ o terminal](/docs/services/cloud-object-storage/basics/endpoints.html#select-reg
 | BigInsights for Apache Hadoop (assinatura) | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Blockchain | Hospedado em Dallas | Organizado em Dallas | Organizado em Dallas | Organizado em Dallas | Não está disponível | Não está disponível | 
 | Blockchain Platform 2.0 | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
-| Certificate Manager | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
+| Certificate Manager | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
 | Cloud Foundry Enterprise Environment | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Cloud Object Storage | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | Hospedado globalmente | 
 | Cloudant | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
-| Compare Comply | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
+| Compare and Comply | Hospedado em Dallas | Não está disponível | Hospedado em Frankfurt | Não está disponível | Não está disponível | Não está disponível | 
 | Compose Enterprise | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Compose for Elasticsearch | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 
 | Compose for JanusGraph | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Não está disponível | 

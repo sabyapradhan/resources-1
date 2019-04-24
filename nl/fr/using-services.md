@@ -5,10 +5,6 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-01-28"
 
-keywords: classic infrastructure assets, application development, services that work with classic infrastructure
-
-subcollection: resources
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -32,3 +28,4 @@ Par exemple, souhaiteriez-vous ajouter des capacités cognitives de Watson à vo
 2. Créez une instance du service en quelques clics.
 3. Configurez le service pour son exécution avec le code existant en copiant les données d'identification au service et en les ajoutant à votre application.
 4. Après la mise à jour de l'application, déployez la nouvelle version dans les actifs de votre infrastructure classique.
+

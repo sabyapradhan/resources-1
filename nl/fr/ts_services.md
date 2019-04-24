@@ -6,10 +6,6 @@ copyright:
 
 lastupdated: "2019-01-28"
 
-keywords: troubleshooting services, troubleshooting resources, service problems, resource problems, error message
-
-subcollection: resources
-
 ---
 
 
@@ -48,11 +44,11 @@ Ce problème se produit lorsque l'instance de service a déjà été supprimée 
 Créez une instance de service portant le même nom de service puis liez-la à vos applications. Vous pouvez ensuite supprimer l'instance de service et les applications qui utilisent ce service.   
 {: tsResolve}
 
-## Pourquoi une instance de service a-t-elle été migrée vers un groupe de ressources incorrect ?
+## Pourquoi une instance de service a-t-elle été migrée vers un groupe de ressources incorrect ? 
 {: #ts_service_instance}
 {: troubleshoot}
 
-Vous pouvez remarquer qu'une instance de service a été migrée vers un groupe de ressources incorrect et ne peut pas être réaffectée.
+Vous pouvez remarquer qu'une instance de service a été migrée vers un groupe de ressources incorrect et ne peut pas être réaffectée. 
 {:shortdesc}
 
 Vous ne pouvez pas déplacer des ressources entre des groupes de ressources une fois qu'elles sont affectées.
@@ -68,29 +64,29 @@ Pour corriger ce problème, vous pouvez tenter de supprimer l'instance et d'en c
 {: #ts_migrate_instance}
 {: troubleshoot}
 
-En tant qu'utilisateur du compte, vous rencontrez des problèmes lors de la migration d'une instance éligible.
+En tant qu'utilisateur du compte, vous rencontrez des problèmes lors de la migration d'une instance éligible. 
 {:shortdesc}
 
-Vous ne pouvez pas migrer une instance éligible.
+Vous ne pouvez pas migrer une instance éligible. 
 {: tsSymptoms}
 
-Si vous ne pouvez pas migrer une instance éligible, il est possible que vous ne disposiez pas de l'accès correct.
+Si vous ne pouvez pas migrer une instance éligible, il est possible que vous ne disposiez pas de l'accès correct. 
 {: tsCauses}
 
-Les utilisateurs doivent avoir un accès spécifique pour migrer une instance. Pour vérifier l'accès dont vous disposez, cliquez sur **Gérer** &gt; **Accès (IAM)** dans la barre de menus de la console puis cliquez sur **Utilisateurs**. Cliquez sur votre nom et passez en revue vos règles d'accès pour les rôles IAM affectés et les droits d'accès Cloud Foundry afin de voir les organisations auxquelles vous avez accès, ainsi que les rôles Cloud Foundry qui vous sont affectés.
+Les utilisateurs doivent avoir un accès spécifique pour migrer une instance. Pour vérifier l'accès dont vous disposez, cliquez sur **Gérer** &gt; **Accès (IAM)** dans la barre de menus de la console puis cliquez sur **Utilisateurs**. Cliquez sur votre nom et passez en revue vos règles d'accès pour les rôles IAM affectés et les droits d'accès Cloud Foundry afin de voir les organisations auxquelles vous avez accès, ainsi que les rôles Cloud Foundry qui vous sont affectés. 
 {: tsResolve}
 
 ## Pourquoi ne puis-je pas migrer tous mes services ?
 {: #ts_service_migration}
 {: troubleshoot}
 
-Tous les services ne sont pas éligibles pour la migration.
+Tous les services ne sont pas éligibles pour la migration. 
 {:shortdesc}
 
-Vous ne pouvez pas migrer certains services.
+Vous ne pouvez pas migrer certains services. 
 {: tsSymptoms}
 
-Vous migrez des services qui ne sont pas disponibles pour être ajoutés aux groupes de ressources et qui ne sont pas gérés via l'utilisation d'IAM (Identity and Access Management). Si aucun service n'est éligible, la migration n'est pas possible.
+Vous migrez des services qui ne sont pas disponibles pour être ajoutés aux groupes de ressources et qui ne sont pas gérés via l'utilisation d'IAM (Identity and Access Management). Si aucun service n'est éligible, la migration n'est pas possible. 
 {: tsCauses}
 
 Vérifiez les services pour confirmer qu'ils sont éligibles pour la migration. Vous recevez une notification et un indicateur `support_rc_migration` signale si un service est éligible pour la migration.

@@ -4,10 +4,6 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
-keywords: service keys, api keys, using services outside IBM cloud
-
-subcollection: resources
-
 ---
 
 {: new_window: target="_blank"}
@@ -27,11 +23,11 @@ subcollection: resources
 
 1. 创建服务的实例。
     1. 单击**目录**。
-    2. 在“目录”中，通过单击相应服务磁贴来选择所需的服务。
+    2. 在“目录”中，通过单击相应服务磁贴来选择所需的服务。 
     3. 选择位置，并选择组织和空间或资源组，然后单击**创建**。
-2. 在服务详细信息页面中，选择**服务凭证**来查看或添加 JSON 格式的凭证。
+2. 在服务详细信息页面中，选择**服务凭证**来查看或添加 JSON 格式的凭证。 
     * 要创建新凭证，请选择**新建凭证**，还可以选择手动添加配置参数或导入 JSON 格式的文件，然后单击**添加**。选择**查看凭证**以保存用于连接外部应用程序的凭证。
-    * 选择一组凭证，然后单击“操作”列中的**查看凭证**（如果已经存在）。
+    * 选择一组凭证，然后单击“操作”列中的**查看凭证**（如果已经存在）。 
 3. 使用显示的 API 密钥作为凭证来连接到服务实例。
 
 在 {{site.data.keyword.Bluemix_notm}} 外部运行的应用程序现在可以访问 {{site.data.keyword.Bluemix_notm}} 服务。

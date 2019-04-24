@@ -6,10 +6,6 @@ copyright:
 
 lastupdated: "2019-01-28"
 
-keywords: troubleshooting services, troubleshooting resources, service problems, resource problems, error message
-
-subcollection: resources
-
 ---
 
 
@@ -48,7 +44,7 @@ subcollection: resources
 請建立具有相同服務名稱的服務實例，然後將它連結至應用程式。然後，您就可以刪除服務實例以及使用該服務的應用程式。   
 {: tsResolve}
 
-## 為什麼服務實例會移轉至錯誤的資源群組？
+## 為什麼服務實例會移轉至錯誤的資源群組？ 
 {: #ts_service_instance}
 {: troubleshoot}
 

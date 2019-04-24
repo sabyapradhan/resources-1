@@ -4,10 +4,6 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-01-28"
 
-keywords: create connection, connect a service, bind, alias
-
-subcollection: resources
-
 ---
 
 {:shortdesc: .shortdesc}

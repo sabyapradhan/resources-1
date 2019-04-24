@@ -5,10 +5,6 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-01-28"
 
-keywords: classic infrastructure assets, application development, services that work with classic infrastructure
-
-subcollection: resources
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -32,3 +28,4 @@ subcollection: resources
 2. 몇 번의 클릭만으로 서비스의 인스턴스를 작성하십시오.
 3. 서비스 인증 정보를 복사하고 이를 사용자 애플리케이션에 추가하여 기존 코드로 실행할 서비스를 설정하십시오.
 4. 앱을 업데이트한 후에 클래식 인프라 자산에 새 버전을 배치하십시오.
+

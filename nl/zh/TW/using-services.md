@@ -5,10 +5,6 @@ copyright:
   years: 2018, 2019
 lastupdated: "2019-01-28"
 
-keywords: classic infrastructure assets, application development, services that work with classic infrastructure
-
-subcollection: resources
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -33,3 +29,4 @@ subcollection: resources
 2. 只要按幾下滑鼠，即可建立服務的實例。
 3. 複製服務認證，並將其新增至您的應用程式，以便將服務設定為使用您現有的程式碼來執行。
 4. 更新應用程式之後，將新版本部署至標準基礎架構資產。
+

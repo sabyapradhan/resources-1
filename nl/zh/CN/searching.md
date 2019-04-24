@@ -5,10 +5,6 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-18"
 
-keywords: search, find,
-
-subcollection: resources, find resources
-
 ---
 
 {:new_window: target="_blank"}
@@ -56,8 +52,7 @@ subcollection: resources, find resources
 可以搜索以下属性：
 
 <dl>
-<dt>`name`</dt>
-<dd> 用户定义的资源名称。</dd>
+<dt>`name`</dt><dd> 用户定义的资源名称。</dd>
 <dt>`region`</dt>
 <dd>供应资源的地理位置。允许的值为 `us-south`、`us-east`、`au-syd`、`eu-gb`、`eu-de` 和 `jp-tok`。</dd>
 <dt>`service_name`</dt>

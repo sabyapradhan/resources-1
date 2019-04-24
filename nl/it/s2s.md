@@ -4,10 +4,6 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
-keywords: service authorization, service instance's access
-
-subcollection: resources
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -20,6 +16,6 @@ Autorizzazione accesso al servizio consente a un servizio di accedere a un altro
 
 Per utilizzare un'istanza del servizio da un altro servizio, completa la seguente procedura:
 
-1. Nell'elenco risorse, fai clic su **Servizi** e seleziona il servizio a cui vuoi accedere. Viene visualizzata la pagina dei dettagli del servizio.
+1. Nell'elenco risorse, fai clic su **Servizi** e seleziona il servizio a cui vuoi accedere. Viene visualizzata la pagina dei dettagli del servizio. 
 2. Nel riquadro di navigazione, fai clic su **Connessioni** per autorizzare il bind da altre istanze del servizio utilizzando la console dell'istanza del servizio.
 3. Se vuoi negare ad altri servizi l'accesso all'istanza, fai clic su **Connessioni** nel riquadro di navigazione e seleziona quindi **Annulla bind** nel menu dell'applicazione connessa per rimuovere il bind del servizio.

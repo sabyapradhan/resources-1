@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2019-02-13"
+  years: 2015, 2019
+lastupdated: "2019-02-20"
 
 ---
 {:new_window: target="_blank"}
@@ -18,7 +18,7 @@ lastupdated: "2019-02-13"
 
 Les services ne sont pas tous disponibles à l'achat sur tous les emplacements {{site.data.keyword.Bluemix_notm}}. De plus, même si le service y est disponible à l'achat, il se peut qu'il soit hébergé ailleurs. Le tableau ci-dessous répertorie les services qui sont fournis par IBM. Pour obtenir la liste complète des ressources disponibles, voir le [catalogue](https://cloud.ibm.com/catalog){: new_window} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe") dans la console {{site.data.keyword.Bluemix_notm}}. 
 
-Les services avec hébergement global créent des ressources qui opèrent à travers plusieurs emplacements. Par exemple, avec {{site.data.keyword.cos_full_notm}}, vous pouvez opter de disséminer les données dans un seul [centre de données](/docs/overview/zero_downtime.html#data_center), ou même une combinaison d'emplacements en [sélectionnant le noeud final](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) auquel votre application enverra les demandes d'API REST.
+Les services avec hébergement global créent des ressources qui opèrent à travers plusieurs emplacements. Par exemple, avec {{site.data.keyword.cos_full_notm}}, vous pouvez opter de disséminer les données dans un seul [centre de données](/docs/overview?topic=overview-zero-downtime#data_center), ou même une combinaison d'emplacements en [sélectionnant le noeud final](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability) auquel votre application enverra les demandes d'API REST.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -41,11 +41,11 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | BigInsights for Apache Hadoop (Abonnement) | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Blockchain | Hébergé à Dallas | Syndiqué avec Dallas | Syndiqué avec Dallas | Syndiqué avec Dallas | Indisponible | Indisponible | 
 | Blockchain Platform 2.0 | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
-| Certificate Manager | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Indisponible | 
+| Certificate Manager | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Hébergé à Tokyo | 
 | Cloud Foundry Enterprise Environment | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
 | Cloud Object Storage | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Cloudant | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
-| Compare Comply | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Indisponible | Indisponible | Indisponible | 
+| Compare and Comply | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Indisponible | Indisponible | Indisponible | 
 | Compose Enterprise | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
 | Compose for Elasticsearch | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
 | Compose for JanusGraph | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 

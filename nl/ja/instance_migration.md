@@ -6,10 +6,6 @@ copyright:
 
 lastupdated: "2019-02-19"
 
-keywords: migrate, migrating to a resource group, migrate Cloud Foundry
-
-subcollection: resources
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -81,7 +77,7 @@ Cloud Foundry サービス・インスタンスをリソース・グループに
 ### サービス・インスタンスのマイグレーション
 {: #migrate_instances}
 
-サービス・インスタンスを Cloud Foundry の組織とスペースからリソース・グループにマイグレーションすると、新しくリンクされたサービス・インスタンスがリソース・グループ内に作成されます。 Cloud Foundry 組織とスペース内の元のインスタンスは[別名](/docs/resources?topic=resources-connect_app#what_is_alias)になります。 別名は、組織の割り当て量に計上されますが、請求対象になるのはリソース・グループ内のサービス・インスタンスの使用です。
+サービス・インスタンスを Cloud Foundry の組織とスペースからリソース・グループにマイグレーションすると、新しくリンクされたサービス・インスタンスがリソース・グループ内に作成されます。 Cloud Foundry 組織とスペース内の元のインスタンスは[別名](/docs/resources?topic=resources-connect_app#what_is_alias)になります。別名は、組織の割り当て量に計上されますが、請求対象になるのはリソース・グループ内のサービス・インスタンスの使用です。
 
 ![リソース・グループへの Cloud Foundry サービス・インスタンスのマイグレーション](images/migration.gif){: gif}
 

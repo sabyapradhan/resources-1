@@ -5,10 +5,6 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-18"
 
-keywords: search, find,
-
-subcollection: resources, find resources
-
 ---
 
 {:new_window: target="_blank"}

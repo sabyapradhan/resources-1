@@ -4,10 +4,6 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
-keywords: service keys, api keys, using services outside IBM cloud
-
-subcollection: resources
-
 ---
 
 {: new_window: target="_blank"}
@@ -29,11 +25,11 @@ A maioria dos serviços não requer parâmetros extras e, para serviços que faz
 
 1. Crie uma instância do serviço.
     1. Clique em **Catálogo**.
-    2. No catálogo, selecione o serviço desejado clicando no bloco do serviço.
+    2. No catálogo, selecione o serviço desejado clicando no bloco do serviço. 
     3. Selecione o local, a organização e o espaço ou grupo de recursos e, em seguida, clique em **Criar**.
-2. Na página de detalhes do serviço, selecione **Credenciais de serviço** para visualizar ou incluir credenciais no formato JSON.
+2. Na página de detalhes do serviço, selecione **Credenciais de serviço** para visualizar ou incluir credenciais no formato JSON. 
     * Para criar novas credenciais, selecione **Nova credencial** e, opcionalmente, inclua parâmetros de configuração manualmente ou importe um arquivo no formato JSON e, em seguida, clique em **Incluir**. Selecione **Visualizar credenciais** para salvar as credenciais para se conectar ao seu app externo.
-    * Selecione um conjunto de credenciais e clique em **Visualizar credenciais** na coluna Ações se elas já existirem.
+    * Selecione um conjunto de credenciais e clique em **Visualizar credenciais** na coluna Ações se elas já existirem. 
 3. Use a chave de API que é exibida como as credenciais para se conectar à instância de serviço.
 
 Seu aplicativo que é executado fora do {{site.data.keyword.Bluemix_notm}} agora poderá acessar o serviço do {{site.data.keyword.Bluemix_notm}}.

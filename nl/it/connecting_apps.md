@@ -4,10 +4,6 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-01-28"
 
-keywords: create connection, connect a service, bind, alias
-
-subcollection: resources
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -52,7 +48,7 @@ Per connettere la tua istanza del servizio gestito da IAM a un'applicazione:
 
 5. Facoltativamente, puoi fornire un **ID del servizio per la connessione** consentendo a IAM di generare per te un valore univoco o fornendo un ID servizio esistente. Per ulteriori informazioni, vedi [Creazione e gestione degli ID servizio](/docs/iam?topic=iam-serviceids).
 
-6. Fai clic su **Crea**.
+6. Fai clic su **Create**.
 
 ## Visualizzazione di un alias
 {: #view_alias}

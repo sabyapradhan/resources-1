@@ -5,10 +5,6 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-02-05"
 
-keywords: lifecycle, end of support, service availability
-
-subcollection: resources
-
 ---
 
 {:new_window: target="_blank"}

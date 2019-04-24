@@ -4,10 +4,6 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
-keywords: service keys, api keys, using services outside IBM cloud
-
-subcollection: resources
-
 ---
 
 {: new_window: target="_blank"}
@@ -27,11 +23,11 @@ Für die meisten Services sind keine zusätzlichen Parameter erforderlich. Bei d
 
 1. Erstellen Sie eine Instanz des Service.
     1. Klicken Sie auf **Katalog**.
-    2. Wählen Sie im Katalog den gewünschten Service aus, indem Sie auf die Kachel für den Service klicken.
+    2. Wählen Sie im Katalog den gewünschten Service aus, indem Sie auf die Kachel für den Service klicken. 
     3. Wählen Sie den Standort, die Organisation und den Bereich oder die Ressourcengruppe aus und klicken Sie dann auf **Erstellen**.
-2. Wählen Sie auf der Seite mit den Servicedetails die Option **Serviceberechtigungsnachweise** aus, um Berechtigungsnachweise im JSON-Format anzuzeigen oder hinzuzufügen.
+2. Wählen Sie auf der Seite mit den Servicedetails die Option **Serviceberechtigungsnachweise** aus, um Berechtigungsnachweise im JSON-Format anzuzeigen oder hinzuzufügen. 
     * Wenn Sie neue Berechtigungsnachweise erstellen wollen, wählen Sie **Neuer Berechtigungsnachweis** aus und fügen Sie optional manuell Berechtigungsnachweise hinzu oder importieren Sie eine Datei in JSON-Format und klicken Sie anschließend auf **Hinzufügen**. Wählen Sie **Berechtigungsnachweise anzeigen** aus, um die Berechtigungsnachweis für die Verbindungsherstellung zu Ihrer externen App zu speichern.
-    * Wenn die Berechtigungsnachweise bereits vorhanden sind, wählen Sie eine Gruppe von Berechtigungsnachweisen aus und klicken Sie in der Spalte 'Aktionen' auf **Berechtigungsnachweise anzeigen**.
+    * Wenn die Berechtigungsnachweise bereits vorhanden sind, wählen Sie eine Gruppe von Berechtigungsnachweisen aus und klicken Sie in der Spalte 'Aktionen' auf **Berechtigungsnachweise anzeigen**. 
 3. Verwenden Sie den angezeigten API-Schlüssel als Berechtigungsnachweise zur Herstellung einer Verbindung zu der Serviceinstanz.
 
 Ihre Anwendung, die außerhalb von {{site.data.keyword.Bluemix_notm}} ausgeführt wird, kann nun auf den {{site.data.keyword.Bluemix_notm}}-Service zugreifen.

@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2018
-lastupdated: "2018-01-09"
+  years: 2018, 2019
+lastupdated: "2019-01-28"
 
 ---
 
@@ -11,12 +11,13 @@ lastupdated: "2018-01-09"
 {:shortdesc: .shortdesc}
 {:tip: .tip}
 {:note: .note}
+{:important: .important}
 
 
 # Melhores práticas para organizar recursos em um grupo de recursos
 {: #bp_resourcegroups}
 
-Um grupo de recursos é um recurso que você usa para organizar os [recursos](/docs/resources/acct_resources.html#resource) da conta para propósitos de controle de acesso e faturamento. Se você estiver familiarizado com o uso de espaços do Cloud Foundry, pense em organizar recursos em grupos de recursos de forma semelhante à maneira como organizou os recursos em espaços. Um recurso é qualquer coisa que possa ser criada, gerenciada e contida em um grupo de recursos. Os usuários não são incluídos em grupos de recursos. Somente recursos podem ser incluídos. 
+Um grupo de recursos é um recurso que você usa para organizar os [recursos](/docs/resources?topic=resources-resource) da conta para propósitos de controle de acesso e faturamento. Se você estiver familiarizado com o uso de espaços do Cloud Foundry, pense em organizar recursos em grupos de recursos de forma semelhante à maneira como organizou os recursos em espaços. Um recurso é qualquer coisa que possa ser criada, gerenciada e contida em um grupo de recursos. Os usuários não são incluídos em grupos de recursos. Somente recursos podem ser incluídos. 
 
 Atualmente, nem todos os serviços suportam o uso de controle de acesso do {{site.data.keyword.Bluemix_notm}} Identidade e Acesso Management (IAM) e a designação a um grupo de recursos. Os serviços ativados pelo IAM solicitam que você designe novas instâncias de serviço a um grupo de recursos ao criá-las por meio do catálogo. O acesso aos recursos em um grupo de recursos e o grupo de recursos em si são gerenciados pelo IAM. Usando funções do IAM, é possível fornecer aos usuários acesso aos recursos que são organizados nos grupos de recursos. As funções do IAM também podem fornecer a capacidade de visualizar, editar, incluir novas instâncias de serviço ou gerenciar o acesso a um grupo de recursos.
 
@@ -32,6 +33,7 @@ As organizações, os espaços e as funções do Cloud Foundry são claramente s
 
 
 ## Configurando seu grupos de recursos
+{: #setuprgs}
 
 Todos os usuários obtêm um único grupo de recursos por padrão que pode ser renomeado. Designe a função de editor ou de administrador a todos os serviços de gerenciamento de conta para criar grupos de recursos. Se você tem uma conta faturável, é possível criar mais de um grupo de recursos para organizar seus recursos. Ao organizar recursos em grupos de recursos diferentes, é possível:
 
@@ -46,17 +48,20 @@ Para criar um novo grupo de recursos, conclua as etapas a seguir:
 4. Insira um nome para seu grupo de recursos.
 5. Clique em **Incluir**.
 
-
 ## Incluindo recursos em um grupo de recursos
+{: #addingtorgs}
 
 Os serviços que são ativados usando o controle de acesso do IAM pertencem a um grupo de recursos, em vez de organização ou espaço do Cloud Foundry. Ao criar uma instância de serviço para um desses serviços por meio do catálogo, será solicitado que designe a instância a um grupo de recursos. 
 
-**Importante**: sua seleção de grupo de recursos no momento da criação da instância é final e não pode ser mudada.
+A seleção de grupo de recursos no momento da
+criação da instância é definitiva e não pode ser mudada.
+{: important}
 
-À medida que mais serviços ativarem a designação para grupos de recursos e o uso do controle de acesso do IAM, você será notificado em sua lista de recursos se você tiver instâncias de serviço existentes do Cloud Foundry que sejam elegíveis para migração. Ao [migrar uma instância de serviço para um grupo de recursos](/docs/resources/instance_migration.html), você está criando uma nova instância vinculada em um grupo de recursos de sua escolha e a instância do Cloud Foundry se torna um alias. 
+À medida que mais serviços ativarem a designação para grupos de recursos e o uso do controle de acesso do IAM, você será notificado em sua lista de recursos se você tiver instâncias de serviço existentes do Cloud Foundry que sejam elegíveis para migração. Ao [migrar uma instância de serviço para um grupo de recursos](/docs/resources?topic=resources-migrate), você está criando uma nova instância vinculada em um grupo de recursos de sua escolha e a instância do Cloud Foundry se torna um alias. 
 
 
 ## Designando acesso a grupos de recursos e aos recursos dentro deles
+{: #assigning_access_rgs}
 
 Você fornece acesso para usuários ou grupos de usuários que são organizados em grupos de acesso, criando políticas de acesso. As políticas de acesso configuram um destino, que é geralmente uma instância de serviço ou todas as instâncias de um serviço em um grupo de recursos e uma função que define qual tipo de acesso é permitido. Há dois tipos de políticas de acesso que você precisa designar como um proprietário da conta para permitir aos usuários em sua conta o acesso para trabalhar com recursos em grupos de recursos:
 
@@ -79,6 +84,7 @@ Se você deseja que um usuário crie uma nova instância de serviço e inclua-a 
 
 
 ## As políticas de acesso de amostra
+{: #sample_policies}
 
 Revise as políticas de acesso de amostra a seguir para ajudá-lo a determinar como você pode desejar designar acesso aos recursos em sua conta que pertencem a grupos de recursos.
 
@@ -88,8 +94,9 @@ Revise as políticas de acesso de amostra a seguir para ajudá-lo a determinar c
 4. Uma política que concede ao usuário a Função de plataforma “Administrador” na conta inteira (todos os serviços ativados por IAM). Uma política com esses detalhes permite que o usuário execute quaisquer ações da plataforma em qualquer recurso na conta inteira e também inclui a capacidade de executar ações de gerenciamento na conta, como gerenciar os grupos de recursos na conta.
 
 ## Exemplos de Caso de Uso
+{: #usecase_examples}
 
-Para cada um desses casos de uso, se tiver um grupo de usuários que você deseja que todos tenham o mesmo nível de acesso, inclua-os em um [grupo de acesso](/docs/iam/groups.html#groups). Usando grupos de acesso, é possível usar um número mínimo de políticas de acesso, já que todos os membros do grupo de acesso herdam qualquer acesso que esteja designado ao grupo.
+Para cada um desses casos de uso, se tiver um grupo de usuários que você deseja que todos tenham o mesmo nível de acesso, inclua-os em um [grupo de acesso](/docs/iam?topic=iam-groups). Usando grupos de acesso, é possível usar um número mínimo de políticas de acesso, já que todos os membros do grupo de acesso herdam qualquer acesso que esteja designado ao grupo.
 {: tip}
 
 <ol>

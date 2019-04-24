@@ -26,25 +26,25 @@ lastupdated: "2019-02-07"
 
 资源组是一种使用可定制的分组来组织帐户资源的方法。使用 {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) 访问控制来管理的任何帐户资源都属于您帐户中的资源组。从“目录”创建资源时，可以将资源分配到资源组中。这样就可以查看帐户中每个资源组的使用情况，还可以轻松地为用户分配对资源组中所有资源的访问权，或只为用户分配对资源组中单个资源的访问权。
 
-有关创建和使用资源组的更多信息，请参阅[管理资源组](/docs/resources/resourcegroups.html#rgs)。  
+有关创建和使用资源组的更多信息，请参阅[管理资源组](/docs/resources?topic=resources-rgs)。  
 
 ## 为什么应该将 Cloud Foundry 服务实例迁移到资源组？
 {: #instance-migrated}
 {: faq}
 
-将 Cloud Foundry 服务迁移到资源组意味着您当前使用的服务现在可与 IAM 访问控制和资源组配合使用。您可以使用 IAM 角色来进行细颗粒度的访问控制。还可以查看帐户中每个资源组的使用情况。 
+将 Cloud Foundry 服务迁移到资源组意味着您当前使用的服务现在可与 IAM 访问控制和资源组配合使用。您可以使用 IAM 角色来进行细颗粒度的访问控制。还可以查看帐户中每个资源组的使用情况。
 
-您具有可迁移到资源组的 Cloud Foundry 服务时，会在资源列表上收到相应通知。有关迁移过程的更多信息，请参阅[将 Cloud Foundry 服务实例和应用程序迁移到资源组](/docs/resources/instance_migration.html#migrate)。
+您具有可迁移到资源组的 Cloud Foundry 服务时，会在资源列表上收到相应通知。有关迁移过程的更多信息，请参阅[将 Cloud Foundry 服务实例和应用程序迁移到资源组](/docs/resources?topic=resources-migrate)。
 
 ## 为什么无法创建资源并将其添加到资源组？
 {: #create-add-resource}
 {: faq}
 
-很可能是因为您遇到了访问权问题。您必须至少具有对资源组本身的“查看者”角色，还必须至少具有对帐户中服务的“编辑者”角色。请在[向资源组添加资源](/docs/resources/resourcegroups.html#adding-resources-to-a-resource-group)中了解更多信息。
+很可能是因为您遇到了访问权问题。您必须至少具有对资源组本身的“查看者”角色，还必须至少具有对帐户中服务的“编辑者”角色。请在[向资源组添加资源](/docs/resources?topic=resources-rgs#add_to_rgs)中了解更多信息。
 
-有关如何检查已分配访问权的更多信息，请参阅[复查分配的访问权](/docs/iam/mngiam.html#reviewing-your-assigned-access)。
+有关如何检查已分配访问权的更多信息，请参阅[复查分配的访问权](/docs/iam?topic=iam-iammanidaccser#review_your_access)。
 
-如果需要帐户中的其他访问权，请与[用户](https://{DomainName}/iam#/users)页面上列出的帐户所有者联系。 
+如果需要帐户中的其他访问权，请与[用户](https://{DomainName}/iam#/users)页面上列出的帐户所有者联系。
 
 ## 谁可以创建资源组？
 {: #create-resource}
@@ -68,4 +68,4 @@ lastupdated: "2019-02-07"
 {: #view-usage}
 {: faq}
 
-是的，可以。要打开“使用情况仪表板”页面，请单击**管理** &gt; **计费和使用情况**。选择**使用情况**以按帐户的资源组来查看使用情况摘要。 
+是的，可以。要打开“使用情况仪表板”页面，请单击**管理** &gt; **计费和使用情况**。选择**使用情况**以按帐户的资源组来查看使用情况摘要。

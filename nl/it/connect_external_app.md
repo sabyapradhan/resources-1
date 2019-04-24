@@ -4,10 +4,6 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
-keywords: service keys, api keys, using services outside IBM cloud
-
-subcollection: resources
-
 ---
 
 {: new_window: target="_blank"}
@@ -29,11 +25,11 @@ La maggior parte dei servizi non richiede ulteriori parametri, e per i servizi c
 
 1. Crea un'istanza del servizio.
     1. Fai clic su **Catalogo**.
-    2. Dal catalogo, seleziona il servizio che vuoi facendo clic sul relativo tile.
+    2. Dal catalogo, seleziona il servizio che vuoi facendo clic sul relativo tile. 
     3. Seleziona l'ubicazione e l'organizzazione e lo spazio o il gruppo di risorse, quindi fai clic su **Crea**.
-2. Dalla pagina dei dettagli del servizio, seleziona **Credenziali del servizio** per visualizzare o aggiungere le credenziali nel formato JSON.
+2. Dalla pagina dei dettagli del servizio, seleziona **Credenziali del servizio** per visualizzare o aggiungere le credenziali nel formato JSON. 
     * Per creare nuove credenziali, seleziona **Nuova credenziale** e facoltativamente aggiungi i parametri di configurazione manualmente o importa un file in formato JSON, quindi fai clic su **Aggiungi**. Seleziona **Visualizza credenziali** per salvare le credenziali per il collegamento alla tua applicazione esterna.
-    * Seleziona un insieme di credenziali e fai clic su **Visualizza credenziali** nella colonna Azioni se già esiste.
+    * Seleziona un insieme di credenziali e fai clic su **Visualizza credenziali** nella colonna Azioni se già esiste. 
 3. Utilizza la chiave API visualizzata come credenziali per stabilire una
 connessione all'istanza del servizio.
 

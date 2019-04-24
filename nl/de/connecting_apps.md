@@ -4,10 +4,6 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-01-28"
 
-keywords: create connection, connect a service, bind, alias
-
-subcollection: resources
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -30,7 +26,7 @@ Aliasnamen sind wie symbolische Verbindungen (Symlinks), die Verweise auf ferne 
 Die folgenden Regeln gelten für Aliasnamen:
 
 * Es wird keine zusätzliche Gebühr für einen Aliasnamen erhoben, aber jeder Aliasname wird auf das Kontingent in Ihrer Organisation angerechnet.
-* In der {{site.data.keyword.Bluemix_notm}}-Konsole können Sie pro Bereich nur einen Aliasnamen erstellen. Mit der {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle kann jedoch mehr als ein Aliasname pro Bereich erstellt werden. Weitere Informationen finden Sie in [Mit Ressourcen und Ressourcengruppen arbeiten](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource).
+* In der {{site.data.keyword.Bluemix_notm}}-Konsole können Sie pro Bereich nur einen Aliasnamen erstellen. Mit der {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle kann jedoch mehr als ein Aliasname pro Bereich erstellt werden. Weitere Informationen finden Sie in [Mit Ressourcen und Ressourcengruppen arbeiten](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_commands_resource). 
 * Sie können mehrere Verbindungen zwischen Ihrem IAM-verwalteten Service und einer beliebigen Anwendung in einem Bereich, einer Organisation und einer Region in demselben Konto erstellen, sofern Sie dazu berechtigt sind.
 * Mehrere Verbindungen, die in demselben Bereich zu verschiedenen Anwendungen von einer IAM-verwalteten Serviceinstanz hergestellt wurden, verwenden denselben Aliasnamen.
 * Wenn Sie die Bindung einer IAM-verwalteten Serviceinstanz aufheben, wird die Serviceinstanz, die den Aliasnamen darstellt, *nicht* gelöscht.
@@ -50,7 +46,7 @@ Gehen Sie wie folgt vor, um Ihre IAM-verwaltete Serviceinstanz mit einer Anwendu
 
 4. Geben Sie die **Zugriffsrolle für Verbindung** an. Dieser Wert legt die Zugriffsrolle des IAM-Service fest. Weitere Informationen finden Sie unter [IAM-Zugriff](/docs/iam?topic=iam-userroles).
 
-5. Optional können Sie eine **Service-ID für Verbindung** bereitstellen, indem Sie IAM einen eindeutigen Wert generieren lassen oder indem Sie eine vorhandene Service-ID bereitstellen. Weitere Informationen finden Sie in [Service-IDs erstellen und verwenden](/docs/iam?topic=iam-serviceids).
+5. Optional können Sie eine **Service-ID für Verbindung** bereitstellen, indem Sie IAM einen eindeutigen Wert generieren lassen oder indem Sie eine vorhandene Service-ID bereitstellen. Weitere Informationen finden Sie in [Service-IDs erstellen und verwenden](/docs/iam?topic=iam-serviceids). 
 
 6. Klicken Sie auf **Erstellen**.
 

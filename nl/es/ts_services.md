@@ -6,10 +6,6 @@ copyright:
 
 lastupdated: "2019-01-28"
 
-keywords: troubleshooting services, troubleshooting resources, service problems, resource problems, error message
-
-subcollection: resources
-
 ---
 
 
@@ -48,11 +44,11 @@ Este problema sucede si la instancia de servicio ya se ha suprimido desde el con
 Cree una instancia de servicio con el mismo nombre de servicio y enlácela con las aplicaciones. A continuación, puede suprimir la instancia de servicio y las aplicaciones que utilizan el servicio.   
 {: tsResolve}
 
-## ¿Por qué se ha migrado una instancia de servicio al grupo de recursos incorrecto?
+## ¿Por qué se ha migrado una instancia de servicio al grupo de recursos incorrecto? 
 {: #ts_service_instance}
 {: troubleshoot}
 
-Es posible que observe que una instancia de servicio se ha migrado al grupo de recursos incorrecto y no se puede volver a asignar.
+Es posible que observe que una instancia de servicio se ha migrado al grupo de recursos incorrecto y no se puede volver a asignar. 
 {:shortdesc}
 
 No puede mover los recursos entre grupos de recursos cuando ya estén asignados.
@@ -68,29 +64,29 @@ Para solucionar este problema, intente suprimir la instancia y crear una nueva d
 {: #ts_migrate_instance}
 {: troubleshoot}
 
-Como usuario de la cuenta, está teniendo problemas al migrar una instancia apta.
+Como usuario de la cuenta, está teniendo problemas al migrar una instancia apta. 
 {:shortdesc}
 
-No se puede migrar una instancia apta.
+No se puede migrar una instancia apta. 
 {: tsSymptoms}
 
-Si no puede migrar una instancia apta, es posible que no tenga el acceso correcto.
+Si no puede migrar una instancia apta, es posible que no tenga el acceso correcto. 
 {: tsCauses}
 
-Los usuarios deben tener acceso específico para migrar una instancia. Para comprobar el acceso que tiene, pulse **Gestionar** &gt; **Acceso (IAM)** en la barra de menús de la consola y, a continuación, pulse **Usuarios**. Pulse el nombre y revise las políticas de acceso de los roles IAM asignados y el acceso de Cloud Foundry para ver a qué organizaciones tiene acceso y los roles de Cloud Foundry que tiene asignados.
+Los usuarios deben tener acceso específico para migrar una instancia. Para comprobar el acceso que tiene, pulse **Gestionar** &gt; **Acceso (IAM)** en la barra de menús de la consola y, a continuación, pulse **Usuarios**. Pulse el nombre y revise las políticas de acceso de los roles IAM asignados y el acceso de Cloud Foundry para ver a qué organizaciones tiene acceso y los roles de Cloud Foundry que tiene asignados. 
 {: tsResolve}
 
 ## ¿Por qué no puedo migrar todos mis servicios?
 {: #ts_service_migration}
 {: troubleshoot}
 
-No todos los servicios son aptos para la migración.
+No todos los servicios son aptos para la migración. 
 {:shortdesc}
 
-No puede migrar determinados servicios.
+No puede migrar determinados servicios. 
 {: tsSymptoms}
 
-Está intentando migrar servicios que no están disponibles para que se añadan a grupos de recursos y que no se gestionan mediante Identity and Access Management (IAM). Si un servicio no es apto, no hay ninguna opción para la migración.
+Está intentando migrar servicios que no están disponibles para que se añadan a grupos de recursos y que no se gestionan mediante Identity and Access Management (IAM). Si un servicio no es apto, no hay ninguna opción para la migración. 
 {: tsCauses}
 
 Compruebe los servicios para confirmar que son aptos para la migración. Recibirá una notificación y verá un distintivo `support_rc_migration` que indica si un servicio es apto para la migración.

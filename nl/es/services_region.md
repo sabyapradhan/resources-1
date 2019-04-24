@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2015, 2018
-lastupdated: "2019-02-13"
+  years: 2015, 2019
+lastupdated: "2019-02-20"
 
 ---
 {:new_window: target="_blank"}
@@ -18,7 +18,7 @@ lastupdated: "2019-02-13"
 
 No todos los servicios están disponibles para su adquisición en cada ubicación de {{site.data.keyword.Bluemix_notm}}. E, incluso si el servicio está disponible para su adquisición en dicha ubicación, el servicio puede estar alojado en una ubicación diferente. La siguiente tabla muestra los servicios proporcionados por IBM. Para ver la lista completa de los recursos que están disponibles, consulte el [catálogo](https://cloud.ibm.com/catalog){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") en la consola de {{site.data.keyword.Bluemix_notm}}. 
 
-Los servicios alojados globalmente crean recursos que funcionan en varias ubicaciones. Por ejemplo, con {{site.data.keyword.cos_full_notm}}, puede optar por dispersar los datos en un único [centro de datos](/docs/overview/zero_downtime.html#data_center), o incluso en una combinación de ubicaciones, [seleccionando el punto final](/docs/services/cloud-object-storage/basics/endpoints.html#select-regions-and-endpoints) al que aplicación envía las solicitudes de API REST.
+Los servicios alojados globalmente crean recursos que funcionan en varias ubicaciones. Por ejemplo, con {{site.data.keyword.cos_full_notm}}, puede optar por dispersar los datos en un único [centro de datos](/docs/overview?topic=overview-zero-downtime#data_center), o incluso en una combinación de ubicaciones, [seleccionando el punto final](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability) al que aplicación envía las solicitudes de API REST.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- Everything after the second line of the table will be deleted. -->
@@ -41,11 +41,11 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | BigInsights for Apache Hadoop (Subscription) | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Blockchain | Alojado en Dallas | Sindicado desde Dallas | Sindicado desde Dallas | Sindicado desde Dallas | No disponible | No disponible | 
 | Blockchain Platform 2.0 | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
-| Certificate Manager | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | No disponible | 
+| Certificate Manager | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | Alojado en Tokio | 
 | Cloud Foundry Enterprise Environment | Alojado en Dallas | No disponible | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | No disponible | 
 | Cloud Object Storage | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | 
 | Cloudant | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
-| Compare Comply | Alojado en Dallas | No disponible | Alojado en Frankfurt | No disponible | No disponible | No disponible | 
+| Compare and Comply | Alojado en Dallas | No disponible | Alojado en Frankfurt | No disponible | No disponible | No disponible | 
 | Compose Enterprise | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | No disponible | 
 | Compose for Elasticsearch | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | No disponible | 
 | Compose for JanusGraph | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | No disponible | 

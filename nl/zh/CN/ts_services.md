@@ -6,10 +6,6 @@ copyright:
 
 lastupdated: "2019-01-28"
 
-keywords: troubleshooting services, troubleshooting resources, service problems, resource problems, error message
-
-subcollection: resources
-
 ---
 
 
@@ -48,7 +44,7 @@ subcollection: resources
 您可以使用相同服务名称创建一个服务实例，然后将其绑定到应用程序。这样就可以删除该服务实例以及使用该服务的应用程序了。   
 {: tsResolve}
 
-## 为何服务实例会迁移到错误的资源组？
+## 为何服务实例会迁移到错误的资源组？ 
 {: #ts_service_instance}
 {: troubleshoot}
 
