@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-02-07"
+lastupdated: "2019-04-11"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -36,11 +36,11 @@ Weitere Informationen zum Erstellen von und Arbeiten mit Ressourcengruppen finde
 {: #instance-migrated}
 {: faq}
 
-Durch die Migration Ihrer Cloud Foundry-Services auf eine Ressourcengruppe stehen die von Ihnen benutzten Services für den Einsatz mit der IAM-Zugriffssteuerung und den entsprechenden Ressourcengruppen zur Verfügung. Sie können die differenzierte Zugriffssteuerung mithilfe von IAM-Rollen nutzen. Außerdem können Sie die Informationen zur Nutzung pro Ressourcengruppe in Ihrem Konto anzeigen.
+Durch die Migration Ihrer Cloud Foundry-Services auf eine Ressourcengruppe stehen die von Ihnen benutzten Services für den Einsatz mit der IAM-Zugriffssteuerung und den entsprechenden Ressourcengruppen zur Verfügung. Sie können die differenzierte Zugriffssteuerung mithilfe von IAM-Rollen nutzen. Außerdem können Sie die Informationen zur Nutzung pro Ressourcengruppe in Ihrem Konto anzeigen. 
 
 Wenn Sie über Cloud Foundry-Services verfügen, die in eine Ressourcengruppe migriert werden können, erhalten Sie eine Benachrichtigung in Ihrer Ressourcenliste. Weitere Informationen zum Migrationsprozess finden Sie im Abschnitt zum [Migrieren von Cloud Foundry-Serviceinstanzen und -Apps in eine Ressourcengruppe](/docs/resources?topic=resources-migrate).
 
-## Warum kann ich keine Ressource erstellen und sie zu einer Ressourcengruppe hinzufügen?
+## Warum kann ich keine Ressource zu einer Ressourcengruppe hinzufügen? 
 {: #create-add-resource}
 {: faq}
 
@@ -48,13 +48,15 @@ Mit hoher Wahrscheinlichkeit liegt auf Ihrem System ein Problem mit dem Zugriff 
 
 Weitere Informationen zum Überprüfen des zugeordneten Zugriffs finden Sie unter [Zugeordneten Zugriff prüfen](/docs/iam?topic=iam-iammanidaccser#review_your_access).
 
-Wenn Sie zusätzlichen Zugriff auf das Konto benötigen, setzen Sie sich mit dem Kontoeigner in Verbindung, der auf der Seite [Benutzer](https://{DomainName}/iam#/users) aufgelistet ist.
+Wenn Sie zusätzlichen Zugriff auf das Konto benötigen, setzen Sie sich mit dem Kontoeigner in Verbindung, der auf der Seite [Benutzer](https://{DomainName}/iam#/users) aufgelistet ist. 
 
 ## Wer kann Ressourcengruppen erstellen?
 {: #create-resource}
 {: faq}
 
 Sie können Ressourcengruppen nur dann erstellen, wenn Ihnen die Administratorrolle für alle IAM-fähigen {{site.data.keyword.Bluemix_notm}}-Services im Konto zugewiesen wurde.
+
+Für Lite-Konten ist nur die Standardressourcengruppe zulässig. Daher können Sie keine zusätzlichen Ressourcengruppen erstellen, selbst wenn Sie über die erforderliche Zugriffsberechtigung verfügen. 
 
 ## Kann ich eine Ressourcengruppe löschen?
 {: #delete-resource-group}
@@ -72,4 +74,10 @@ Die Verschiebung von Serviceinstanzen von einer Ressourcengruppe in eine andere 
 {: #view-usage}
 {: faq}
 
-Ja, das können Sie. Klicken Sie zum Öffnen der Dashboardseite 'Nutzung' auf **Verwalten** &gt; **Abrechnung und Nutzung**. Wählen Sie **Nutzung** aus, um eine Nutzungsübersicht für die einzelnen Ressourcengruppen für das Konto anzuzeigen.
+Ja, das können Sie. Klicken Sie zum Öffnen der Dashboardseite 'Nutzung' auf **Verwalten** &gt; **Abrechnung und Nutzung**. Wählen Sie **Nutzung** aus, um eine Nutzungsübersicht für die einzelnen Ressourcengruppen für das Konto anzuzeigen. 
+
+## Wer kann Tags zu einer Ressource hinzufügen? 
+{: #tag-fag}
+{: faq}
+
+Jeder Benutzer, dem die korrekte Zugriffsberechtigung für den betreffenden Ressourcentyp zugewiesen wurde, kann Tags hinzufügen. Wenn eine Ressource mit einem Tag versehen wird, ist der Tag für alle Benutzer sichtbar, die über einen Lesezugriff auf die Ressource verfügen. Zum Hinzufügen oder Entfernen eines Ressourcentags sind je nach Ressourcentyp jedoch bestimmte Zugriffsrollen bzw. Zugriffsberechtigungen erforderlich. So muss beispielsweise für alle Ressourcen, die über IAM verwaltet werden, die Rolle eines Bearbeiters oder Administrators für die betreffende Ressource zugewiesen werden. Weitere Informationen zur erforderlichen Zugriffsberechtigung für andere Ressourcentypen finden Sie in [Taggingberechtigungen](/docs/resources?topic=resources-access#tagging-permissions). 

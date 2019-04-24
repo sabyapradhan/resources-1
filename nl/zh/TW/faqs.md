@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-02-07"
+lastupdated: "2019-04-11"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -36,11 +36,11 @@ subcollection: resources
 {: #instance-migrated}
 {: faq}
 
-將 Cloud Foundry 服務移轉至資源群組，表示您使用中的服務現在已經可以搭配 IAM 存取控制及資源群組來使用。您可以使用 IAM 角色來利用精細的存取控制。也可以檢視帳戶中每個資源群組的用量。
+將 Cloud Foundry 服務移轉至資源群組，表示您使用中的服務現在已經可以搭配 IAM 存取控制及資源群組來使用。您可以使用 IAM 角色來利用精細的存取控制。也可以檢視帳戶中每個資源群組的用量。 
 
 當您有可以移轉至資源群組的 Cloud Foundry 服務時，會在資源清單上收到通知。如需移轉程序的相關資訊，請參閱[將 Cloud Foundry 服務實例及應用程式移轉至資源群組](/docs/resources?topic=resources-migrate)。
 
-## 為何無法建立資源並新增至資源群組？
+## 為什麼我無法將資源新增至資源群組？
 {: #create-add-resource}
 {: faq}
 
@@ -48,13 +48,15 @@ subcollection: resources
 
 如需如何檢查已指派存取權的相關資訊，請參閱[檢閱已指派的存取權](/docs/iam?topic=iam-iammanidaccser#review_your_access)。
 
-如果您需要帳戶中的其他存取權，請與[使用者](https://{DomainName}/iam#/users)頁面中所列的帳戶擁有者聯絡。
+如果您需要帳戶中的其他存取權，請與[使用者](https://{DomainName}/iam#/users)頁面中所列的帳戶擁有者聯絡。 
 
 ## 誰可以建立資源群組？
 {: #create-resource}
 {: faq}
 
 只有在您被指派了帳戶中所有已啟用 {{site.data.keyword.Bluemix_notm}} Identity and Access 之服務的「管理者」角色時，您才能建立資源群組。
+
+精簡帳戶只能有 default 資源群組，因此即使您有必要的存取權，也不能建立任何其他資源群組。
 
 ## 我可以刪除資源群組嗎？
 {: #delete-resource-group}
@@ -72,4 +74,10 @@ subcollection: resources
 {: #view-usage}
 {: faq}
 
-是的，可以。若要開啟「用量儀表板」頁面，請按一下**管理** &gt; **計費及用量**。選取**用量**，即可依帳戶的資源群組來檢視用量摘要。
+是的，可以。若要開啟「用量儀表板」頁面，請按一下**管理** &gt; **計費及用量**。選取**用量**，即可依帳戶的資源群組來檢視用量摘要。 
+
+## 誰可以新增標籤至資源？
+{: #tag-fag}
+{: faq}
+
+任何被指派特定資源類型之正確存取權的使用者都可以新增標籤。標記資源之後，對資源具有讀取權的所有使用者都可以看見該資源。不過若要新增或移除資源中的標籤，視資源類型而定，會需要特定的存取角色或許可權。例如，對於使用 IAM 管理的任何資源，您必須獲得指派資源的「編輯者」或「管理者」角色。如需其他資源類型之必要存取權的相關資訊，請參閱[標記許可權](/docs/resources?topic=resources-access#tagging-permissions)。

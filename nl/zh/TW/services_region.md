@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-10"
+lastupdated: "2019-04-17"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -70,9 +70,9 @@ subcollection: resources
 | Databases for PostgreSQL |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 | Databases for Redis |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 | Databases for etcd |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
+|Db2 |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Db2 Hosted |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Db2 Warehouse |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
-| Db2 on Cloud |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Decision Optimization|在達拉斯進行管理|在倫敦進行管理|不適用 |不適用 |不適用 |不適用 | 
 |DevOps Insights|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |不適用 |不適用 | 
 |Digital Content Checker|在達拉斯進行管理|在倫敦進行管理|不適用 |從倫敦進行聯合發佈|不適用 |不適用 | 

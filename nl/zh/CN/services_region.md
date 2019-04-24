@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-10"
+lastupdated: "2019-04-17"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -70,9 +70,9 @@ subcollection: resources
 |Databases for PostgreSQL| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Databases for Redis| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Databases for etcd| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
+|Db2| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Db2 Hosted| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Db2 Warehouse| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
-|Db2 on Cloud | 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Decision Optimization| 在达拉斯托管 | 在伦敦托管 |不可用|不可用|不可用|不可用| 
 |DevOps Insights| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用|不可用| 
 |Digital Content Checker| 在达拉斯托管 | 在伦敦托管 |不可用| 从伦敦联合 |不可用|不可用| 

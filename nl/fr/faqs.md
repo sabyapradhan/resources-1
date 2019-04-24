@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-02-07"
+lastupdated: "2019-04-11"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -36,11 +36,11 @@ Pour plus d'informations sur la création et l'utilisation des groupes de ressou
 {: #instance-migrated}
 {: faq}
 
-Le fait de migrer vos services Cloud Foundry vers un groupe de ressources fait que les services que vous utilisez sont désormais disponibles pour être utilisés avec les groupes de ressources et le contrôle d'accès IAM. Vous pouvez bénéficier du contrôle d'accès à granularité fine en utilisant des rôles IAM. Vous pouvez également consulter l'utilisation par groupe de ressources dans votre compte.
+Le fait de migrer vos services Cloud Foundry vers un groupe de ressources fait que les services que vous utilisez sont désormais disponibles pour être utilisés avec les groupes de ressources et le contrôle d'accès IAM. Vous pouvez bénéficier du contrôle d'accès à granularité fine en utilisant des rôles IAM. Vous pouvez également consulter l'utilisation par groupe de ressources dans votre compte. 
 
 Lorsque vous avez des services Cloud Foundry pouvant être migrés vers un groupe de ressources, vous recevez une notification dans votre liste de ressources. Pour plus d'informations sur le processus de migration, voir [Migration d'applications et d'instances de service dans un groupe de ressources](/docs/resources?topic=resources-migrate).
 
-## Pourquoi ne puis-je pas créer de ressource et l'ajouter à un groupe de ressources ?
+## Pourquoi ne puis-je pas ajouter de ressource à un groupe de ressources ?
 {: #create-add-resource}
 {: faq}
 
@@ -48,13 +48,15 @@ Dans la plupart des cas, ce problème est lié à l'accès. Vous devez avoir au 
 
 Pour plus d'informations sur la vérification de votre accès affecté, voir [Révision des accès affectés](/docs/iam?topic=iam-iammanidaccser#review_your_access).
 
-Si vous avez besoin d'un accès supplémentaire au compte, contactez le propriétaire du compte indiqué sur la page des [utilisateurs](https://{DomainName}/iam#/users).
+Si vous avez besoin d'un accès supplémentaire au compte, contactez le propriétaire du compte indiqué sur la page des [utilisateurs](https://{DomainName}/iam#/users). 
 
 ## Qui peut créer des groupes de ressources ?
 {: #create-resource}
 {: faq}
 
 Vous pouvez créer des groupes de ressources uniquement si vous disposez du rôle Administrateur pour tous les services activés par IAM {{site.data.keyword.Bluemix_notm}} dans le compte.
+
+Les comptes Lite ne peuvent inclure que le groupe de ressources par défaut. Vous ne pouvez donc pas créer de groupe de ressources supplémentaire même si vous disposez de l'accès requis.
 
 ## Puis-je supprimer un groupe de ressources ?
 {: #delete-resource-group}
@@ -72,4 +74,10 @@ Vous ne pouvez pas déplacer des instances de service entre différents groupes 
 {: #view-usage}
 {: faq}
 
-Oui. Pour ouvrir la page Tableau de bord de l'utilisation, cliquez sur **Gérer** &gt; **Facturation et utilisation**. Sélectionnez **Utilisation** pour afficher un récapitulatif de l'utilisation par groupe de ressources pour le compte.
+Oui. Pour ouvrir la page Tableau de bord de l'utilisation, cliquez sur **Gérer** &gt; **Facturation et utilisation**. Sélectionnez **Utilisation** pour afficher un récapitulatif de l'utilisation par groupe de ressources pour le compte. 
+
+## Qui peut ajouter des étiquettes à une ressource ?
+{: #tag-fag}
+{: faq}
+
+Tout utilisateur disposant de l'accès correct pour le type spécifique de ressource peut ajouter des étiquettes. Lorsqu'une ressource est étiquetée, elle est visible par tous les utilisateurs ayant un accès en lecture à la ressource. Cependant, pour ajouter ou retirer une étiquette à une ressource, certains droits ou rôles d'accès sont requis en fonction du type de ressource. Par exemple, pour les ressources gérées via IAM, le rôle Editeur ou Administrateur doit vous être affecté pour la ressource. Pour plus d'informations sur l'accès requis pour les autres types de ressource, voir [Droits d'étiquetage](/docs/resources?topic=resources-access#tagging-permissions).

@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-10"
+lastupdated: "2019-04-17"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -70,9 +70,9 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Databases for PostgreSQL | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
 | Databases for Redis | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
 | Databases for etcd | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
+| Db2 | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
 | Db2 hébergé | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
 | Db2 Warehouse | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
-| Db2 on Cloud | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
 | Decision Optimization | Hébergé à Dallas | Hébergé à Londres | Indisponible | Indisponible | Indisponible | Indisponible | 
 | DevOps Insights | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Indisponible | 
 | Digital Content Checker | Hébergé à Dallas | Hébergé à Londres | Indisponible | Syndiqué avec Londres | Indisponible | Indisponible | 
