@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-02-07"
+lastupdated: "2019-04-11"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -40,13 +40,13 @@ Para obter mais informações sobre como criar e trabalhar com os grupos de recu
 
 A migração dos serviços do Cloud Foundry para um grupo de recursos significa que os serviços que estão sendo usados agora
 estão disponíveis para uso com o controle de acesso do IAM e os grupos de recursos. É possível obter vantagem do controle de acesso
-de baixa granularidade usando as funções do IAM. Também é possível visualizar o uso por grupo de recursos na conta.
+de baixa granularidade usando as funções do IAM. Também é possível visualizar o uso por grupo de recursos na conta. 
 
 Quando você tiver serviços do Cloud Foundry que possam ser migrados para um grupo de recursos, você receberá uma notificação em sua lista de recursos. Para obter mais informações sobre o processo de migração, consulte
 [Migrando as instâncias de serviço e os apps do Cloud Foundry para um
 grupo de recursos](/docs/resources?topic=resources-migrate).
 
-## Por que não consigo criar um recurso e incluí-lo em um grupo de recursos?
+## Por que não posso incluir um recurso em um grupo de recursos?
 {: #create-add-resource}
 {: faq}
 
@@ -55,13 +55,15 @@ próprio grupo de recursos e, pelo menos, a função do editor no serviço da co
 
 Para obter mais informações sobre como verificar o seu acesso designado, consulte [Revisando o seu acesso designado](/docs/iam?topic=iam-iammanidaccser#review_your_access).
 
-Se você precisar de acesso adicional na conta, entre em contato com o proprietário da conta que está listado na página [Usuários](https://{DomainName}/iam#/users).
+Se você precisar de acesso adicional na conta, entre em contato com o proprietário da conta que está listado na página [Usuários](https://{DomainName}/iam#/users). 
 
 ## Quem pode criar grupos de recursos?
 {: #create-resource}
 {: faq}
 
 É possível criar grupos de recursos apenas se você tiver designada a função de Administrador em todos os serviços {{site.data.keyword.Bluemix_notm}} Identity and Access ativados para a conta.
+
+As contas Lite podem ter somente o grupo de recursos padrão, portanto, não é possível criar nenhum grupo de recursos adicional mesmo se você tem o acesso necessário.
 
 ## Posso excluir um grupo de recursos?
 {: #delete-resource-group}
@@ -79,4 +81,10 @@ Não é possível mover as instâncias de serviço entre os grupos de recursos. 
 {: #view-usage}
 {: faq}
 
-Sim, você pode. Para abrir a página Painel de uso, clique em **Gerenciar** &gt; **Faturamento e uso**. Selecione **Uso** para visualizar um resumo do uso por grupo de recursos para a conta.
+Sim, você pode. Para abrir a página Painel de uso, clique em **Gerenciar** &gt; **Faturamento e uso**. Selecione **Uso** para visualizar um resumo do uso por grupo de recursos para a conta. 
+
+## Quem pode incluir tags em um recurso?
+{: #tag-fag}
+{: faq}
+
+Qualquer usuário designado com o acesso correto para o tipo específico de recurso pode incluir tags. Quando um recurso é identificado, ele fica visível para todos os usuários que têm acesso de leitura para o recurso. No entanto, para incluir ou remover uma tag de um recurso, determinadas funções ou permissões de acesso são necessárias, dependendo do tipo de recurso. Por exemplo, para qualquer recurso que seja gerenciado usando o IAM, a função de Editor ou de Administrador deve estar designada a você no recurso. Para obter mais informações sobre o acesso necessário para outros tipos de recursos, consulte [Identificando permissões](/docs/resources?topic=resources-access#tagging-permissions).
