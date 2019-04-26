@@ -10,7 +10,11 @@ subcollection: resources
 
 ---
 
+{:new_window: target="_blank"}  
 {:shortdesc: .shortdesc}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # Connecting services to a Cloud Foundry app
 {: #s2s_binding}
