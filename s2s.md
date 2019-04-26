@@ -4,7 +4,7 @@ copyright:
   years: 2015, 2019
 lastupdated: "2019-01-28"
 
-keywords: service authorization, service instance's access
+keywords: service authorization, service instance's access, connect service to app
 
 subcollection: resources
 
@@ -12,16 +12,26 @@ subcollection: resources
 
 {:shortdesc: .shortdesc}
 
-# Using services in another service
+# Connecting services to a Cloud Foundry app
 {: #s2s_binding}
 
-Service access authorization provides a way for one service to access another service
-directly. You can authorize and configure a service instance's access to other service instances on
-the resource list.
+To use a service in a Cloud Foundry app, you must create a connection or bind that service to the app.
 {: shortdesc}
 
-To use a service instance from another service, complete the following steps:
+To connect a service to your app by starting from the details page for a specific service, complete the following steps:
+
+You can also create connections from your app to the service. Select your app from the resource list, go to the **Connections** menu, and select the service.
+{: note)
 
 1. On the resource list, click **Services** and select the service that you want to access. The service details page is displayed.
-2. In the navigation pane, click **Connections** to authorize the binding from other service instances by using the console of the service instance.
-3. If you want to deny other services access to the service instance, click **Connections** in the navigation pane and then click **Unbind** in the menu for the connected application to remove the service binding.
+2. Click **Connections** in the navigation.
+3. Click **Create connection**.
+4. Click **Connect** for the row of the app that you want to create the connection for.
+5. Select an access role to assign to the connection. This role defines the allowable actions that can be performed by the app accessing the service.
+6. Optional: Select, create, or auto-generate a service ID for the app to use to access the service. This service ID is assigned the access role that you selected in the previous step, and it can be used for scripting purposes as the credential of the app to make calls to the service.
+7. Optional: Add configuration parameters in JSON format.
+8. Click **Connect & restage app**.
+
+
+If you want to deny apps access to the service instance after they are connected, click **Connections** in the navigation pane and then click **Unbind** in the menu for the connected application to remove the service binding.
+{: tip}
