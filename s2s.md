@@ -32,7 +32,7 @@ You can also create connections from your app to the service. Select your app fr
 3. Click **Create connection**.
 4. Click **Connect** for the row of the app that you want to create the connection for.
 5. Select an access role to assign to the connection. This role defines the allowable actions that can be performed by the app accessing the service.
-6. Optional: Select, create, or auto-generate a service ID for the app to use to access the service. This service ID is assigned the access role that you selected in the previous step, and it can be used for scripting purposes as the credential of the app to make calls to the service.
+6. Optional: Select, create, or auto-generate a service ID for the app to use to access the service. This service ID is assigned the access role that you selected in the previous step.
 7. Optional: Add configuration parameters in JSON format.
 8. Click **Connect & restage app**.
 
