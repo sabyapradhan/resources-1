@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-26"
 
 keywords: service authorization, service instance's access, connect service to app
 
