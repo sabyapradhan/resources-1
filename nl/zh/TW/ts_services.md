@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-01-28"
+lastupdated: "2019-03-11"
 
 keywords: troubleshooting services, troubleshooting resources, service problems, resource problems, error message
 
@@ -48,7 +48,7 @@ subcollection: resources
 請建立具有相同服務名稱的服務實例，然後將它連結至應用程式。然後，您就可以刪除服務實例以及使用該服務的應用程式。   
 {: tsResolve}
 
-## 為什麼服務實例會移轉至錯誤的資源群組？
+## 為什麼服務實例會移轉至錯誤的資源群組？ 
 {: #ts_service_instance}
 {: troubleshoot}
 
@@ -64,7 +64,7 @@ subcollection: resources
 若要更正此問題，您可以嘗試刪除實例，並從型錄建立新的實例。您可以在建立新實例時，將它指派給正確的資源群組。
 {: tsResolve}
 
-## 為什麼我無法移轉符合資格的實例？
+## 為什麼我無法將符合資格的 Cloud Foundry 服務實例移轉到資源群組？
 {: #ts_migrate_instance}
 {: troubleshoot}
 
@@ -90,8 +90,8 @@ subcollection: resources
 您無法移轉某些服務。
 {: tsSymptoms}
 
-您所移轉的服務無法新增至資源群組，且不是使用 Identity and Access Management (IAM) 進行管理。如果服務不符合資格，就不會有移轉選項。
+您所嘗試移轉的服務無法新增至資源群組，且不是使用 Identity and Access Management (IAM) 進行管理。如果服務不符合資格，就不會有移轉選項。
 {: tsCauses}
 
-請檢查服務，以確認其符合移轉資格。您會收到通知，並看到 `support_rc_migration` 旗標，以分辨服務是否符合移轉資格。
+請檢查服務，以確認其符合移轉資格。您會收到通知，並看到 ![將此服務實例移轉至資源群組](images/migrate.svg "將此服務實例移轉至資源群組") 圖示，以分辨服務是否符合移轉資格。
 {: tsResolve}

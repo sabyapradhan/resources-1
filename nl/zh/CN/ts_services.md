@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-01-28"
+lastupdated: "2019-03-11"
 
 keywords: troubleshooting services, troubleshooting resources, service problems, resource problems, error message
 
@@ -48,7 +48,7 @@ subcollection: resources
 您可以使用相同服务名称创建一个服务实例，然后将其绑定到应用程序。这样就可以删除该服务实例以及使用该服务的应用程序了。   
 {: tsResolve}
 
-## 为何服务实例会迁移到错误的资源组？
+## 为何服务实例会迁移到错误的资源组？ 
 {: #ts_service_instance}
 {: troubleshoot}
 
@@ -64,7 +64,7 @@ subcollection: resources
 要更正此问题，您可以尝试在目录中删除该实例，然后再创建新实例。在创建新实例时，可以将其分配给正确的资源组。
 {: tsResolve}
 
-## 为什么我不能迁移有资格迁移的实例？
+## 为什么我不能将有资格的 Cloud Foundry 服务实例迁移到资源组？
 {: #ts_migrate_instance}
 {: troubleshoot}
 
@@ -90,8 +90,8 @@ subcollection: resources
 您无法迁移某些实例。
 {: tsSymptoms}
 
-您迁移的服务不可供添加到资源组，并且不是使用 Identity and Access Management (IAM) 进行管理的。如果服务没有资格迁移，那么无法选择迁移。
+您要尝试迁移的服务不支持添加到资源组，并且不是由 Identity and Access Management (IAM) 进行管理的。如果服务没有资格迁移，那么无法选择迁移。
 {: tsCauses}
 
-检查服务以确认它们有资格迁移。您会收到通知并看到 `support_rc_migration` 标志，根据此标志可判断服务是否有资格迁移。
+检查服务以确认它们有资格迁移。您会收到通知并看到 ![将此服务实例迁移到资源组](images/migrate.svg "将此服务实例迁移到资源组") 图标，根据此图标可判断服务是否有资格迁移。
 {: tsResolve}

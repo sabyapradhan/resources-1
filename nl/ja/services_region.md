@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-17"
+lastupdated: "2019-04-24"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -47,7 +47,7 @@ subcollection: resources
 | Blockchain | ダラスでホスト | ダラスからシンジケート | ダラスからシンジケート | ダラスからシンジケート | 使用不可 | 使用不可 | 
 | Blockchain Platform 2.0 | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Certificate Manager | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | 使用不可 | 使用不可 | 東京でホスト | 
-| Cloud Foundry エンタープライズ環境 | 使用不可 | 使用不可 | フランクフルトでホスト | 使用不可 | 使用不可 | 使用不可 | 
+| Cloud Foundry エンタープライズ環境 | ダラスでホスト | 使用不可 | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 使用不可 | 
 | Cloud Object Storage | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 　グローバルにホスト | 
 | Cloudant | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
 | Compare and Comply | ダラスでホスト | 使用不可 | フランクフルトでホスト | 使用不可 | ワシントン DC でホスト | 使用不可 | 

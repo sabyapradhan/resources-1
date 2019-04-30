@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="resources" audience="platform" arm="3816100" href="/docs/resources?topic=resource" path="resources"}
+{: .toc subcollection="resources" audience="platform" arm="3816100" href="/docs/resources?topic=resources-resource#resource" path="resources"}
 使用資源和服務
 
     {: .navgroup id="learn"}
