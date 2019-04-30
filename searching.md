@@ -72,9 +72,7 @@ You can search for the following attributes:
 <dd>The resource type. The allowed values are `k8-cluster`, `cf-service-instance`, `cf-user-provided-service-instance`, `cf-organization`, `cf-service-binding`, `cf-space`, `cf-application`, `resource-instance`, `resource-alias`, `resource-binding`, `resource-group`, `vmware-solutions`, `cloud-object-storage-infrastructure`, `block-storage`, `file-storage`, `cloud-backup` .</dd>
 <dt>`creation_date`</dt>
 <dd>The date on which the resource is created.</dd>
-
 <dt>`modification_date`</dt>
-
 <dd> The last modification date of the resource.</dd>
 <dt>`tags`</dt>
 <dd>The tags that have been attached to the resource </dd>
@@ -82,6 +80,7 @@ You can search for the following attributes:
 <dd>The tags that have been attached to a classic infrastructure resource. Requires you to specify `-p classic-infrastructure` parameter. </dd>  
 <dt>`_objectType:`</dt>
 <dd>The object type of the classic infrastructure resource. Allowed values are: `SoftLayer_Virtual_DedicatedHost`, `SoftLayer_Hardware`, `SoftLayer_Network_Application_Delivery_Controller`, `SoftLayer_Network_Subnet_IpAddress`, `SoftLayer_Network_Vlan`, `SoftLayer_Network_Vlan_Firewall`, `SoftLayer_Virtual_Guest`. Requires you to specify `-p classic-infrastructure` parameter. </dd> 
+</dl>
 
 ### Search examples
 {: #resource-name}
