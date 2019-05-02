@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-17"
+lastupdated: "2019-04-24"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -46,7 +46,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Blockchain | Alojado en Dallas | Sindicado desde Dallas | Sindicado desde Dallas | Sindicado desde Dallas | No disponible | No disponible | 
 | Blockchain Platform 2.0 | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Certificate Manager | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | Alojado en Tokio | 
-| Cloud Foundry Enterprise Environment | No disponible | No disponible | Alojado en Frankfurt | No disponible | No disponible | No disponible | 
+| Cloud Foundry Enterprise Environment | Alojado en Dallas | No disponible | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | No disponible | 
 | Cloud Object Storage | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | 
 | Cloudant | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Compare and Comply | Alojado en Dallas | No disponible | Alojado en Frankfurt | No disponible | Alojado en Washington DC | No disponible | 
