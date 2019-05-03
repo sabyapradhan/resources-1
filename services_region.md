@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-02"
+lastupdated: "2019-05-03"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -87,7 +87,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect Crypto Services | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
 | Hyper Protect DBaaS | Not available | Not available | Not available | Not available | Hosted in Washington DC | Not available | 
 | IBM Cognos Dashboard Embedded | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
-| IBM Identity Mixer | Not available | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
 | Information Server | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | Informix | Hosted in Dallas | Syndicated from Dallas | Not available | Syndicated from Dallas | Not available | Not available | 
 | Instrument Analytics | Hosted in Dallas | Not available | Not available | Not available | Not available | Not available | 
