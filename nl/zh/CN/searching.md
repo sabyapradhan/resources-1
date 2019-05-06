@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-04-30"
 
 keywords: search, find,
 
@@ -50,8 +50,6 @@ subcollection: resources, find resources
 
 您还可以在 {{site.data.keyword.Bluemix_notm}} CLI（从 V0.6.7 开始）中，使用 Lucene 查询语法通过一个命令在所有资源中进行搜索。
 
-  CLI 目前不会搜索在经典基础架构实例上运行的资源。
-  {: note}
 
 可以搜索以下属性：
 
@@ -63,7 +61,7 @@ subcollection: resources, find resources
 <dt>`service_name`</dt>
 <dd>在“ibmcloud catalog service-marketplace”的输出的 Name 列中显示的服务名称。</dd>
 <dt>`family`</dt>
-<dd>资源所属的云组件。允许的值为 `cloud_foundry`、`containers` 或 `resource_controller`。</dd>
+<dd>资源所属的云组件。允许的值为 `cloud_foundry`、`containers`、`vmware`、`resource_controller` 或 `ims`。</dd></dd>
 <dt>`organization_id`</dt>
 <dd>Cloud Foundry 组织 GUID。</dd>
 <dt>`doc.space_id`</dt>
@@ -71,39 +69,55 @@ subcollection: resources, find resources
 <dt>`doc.resource_group_id`</dt>
 <dd>资源组的标识。</dd>
 <dt>`type`</dt>
-<dd>资源类型。允许的值为 `k8-cluster`、`cf-service-instance`、`cf-user-provided-service-instance`、`cf-organization`、`cf-service-binding`, `cf-space`、`cf-application`、`resource-instance`、`resource-alias`、`resource-binding` 和 `resource-group`。</dd>
+<dd>资源类型。允许的值为 `k8-cluster`、`cf-service-instance`、`cf-user-provided-service-instance`、`cf-organization`、`cf-service-binding`、`cf-space`、`cf-application`、`resource-instance`、`resource-alias`、`resource-binding`、`resource-group`、`vmware-solutions`、`cloud-object-storage-infrastructure`、`block-storage`、`file-storage` 或 `cloud-backup`。</dd>
 <dt>`creation_date`</dt>
 <dd>创建资源的日期。</dd>
 <dt>`modification_date`</dt>
 <dd> 上次修改资源的日期。</dd>
+<dt>`tags`</dt>
+<dd>已附加到资源的标记。</dd>
+<dt>`tagReferences.tag.name`</dt>
+<dd>已附加到经典基础架构资源的标记。需要指定 `-p classic-infrastructure` 参数。</dd>  
+<dt>`_objectType:`</dt>
+<dd>经典基础架构资源的对象类型。允许的值为：`SoftLayer_Virtual_DedicatedHost`、`SoftLayer_Hardware`、`SoftLayer_Network_Application_Delivery_Controller`、`SoftLayer_Network_Subnet_IpAddress`、`SoftLayer_Network_Vlan`、`SoftLayer_Network_Vlan_Firewall` 或 `SoftLayer_Virtual_Guest`。需要指定 `-p classic-infrastructure` 参数。</dd> 
 </dl>
 
 ### 搜索示例
 {: #resource-name}
 
+
 以下示例可帮助您搜索帐户资源。
 
-* 要搜索名为 `ABC` 的所有资源，请输入以下命令。
-
+* 要搜索名为 `ABC` 的所有资源，请输入以下命令：
     `ibmcloud resource search ‘name:ABC’`
-
-* 要搜索名为 `MyResource` 的所有 Cloud Foundry 应用程序，请输入以下命令。
+  
+* 要搜索名为 `MyResource` 的所有 Cloud Foundry 应用程序，请输入以下命令：
 
     `ibmcloud resource search 'name:my* AND type:cf-application'
 `
 
-* 要搜索 Message Hub 的所有服务实例，请输入以下命令。
+* 要搜索 Message Hub 的所有服务实例，请输入以下命令：
 
     `ibmcloud resource search 'service_name:messagehub'`
 
-* 要搜索 `us-south` 区域中 `a07181ca-f917-4ee6-af22-b2c0c2a2d5d7` Cloud Foundry 组织中或 `c900d9671b235c00461c5e311a8aeced` 资源组中的所有资源，请输入以下命令。
-
+* 要搜索 `us-south` 区域中 `a07181ca-f917-4ee6-af22-b2c0c2a2d5d7` Cloud Foundry 组织中或 `c900d9671b235c00461c5e311a8aeced` 资源组中的所有资源，请输入以下命令：
     `ibmcloud resource search (organization_id:a07181ca-f917-4ee6-af22-b2c0c2a2d5d7 OR doc.resource_group_id:c900d9671b235c00461c5e311a8aeced) AND 'region:us-south'`
+    
 
-* 要搜索在 2018 年 5 月 16 日至 2018 年 5 月 20 日之间创建的所有资源，请输入以下命令。
-
+* 要搜索在 2018 年 5 月 16 日至 2018 年 5 月 20 日之间创建的非经典基础架构资源，请输入以下命令：
     `ibmcloud resource search "creation_date:[2018-05-16T00:00:00Z TO 2018-05-20T00:00:00Z]"`
-
-* 要搜索名称以“my”开头的所有资源且按类型排序，请输入以下命令。
+    
+* 要搜索名称以“my”开头的非经典基础架构资源且按类型排序，请输入以下命令：
 
     `ibmcloud resource search 'name:my*' -s type`
+    
+* 要搜索已使用 `MyTag` 进行标记的非经典基础架构资源，请输入以下命令：
+    `ibmcloud resource search 'tags:MyTag'`
+    
+* 要搜索已使用 `MyTag` 进行标记的所有经典基础架构资源，请输入以下命令：
+    `ibmcloud resource search 'tagReferences.tag.name:MyTag' -p classic-infrastructure'`
+    
+* 要搜索类型为 `Softlayer_Hardware` 的所有经典基础架构资源，请输入以下命令：
+    `ibmcloud resource search '_objectType:SoftLayer_Hardware' -p classic-infrastructure'`
+  
+

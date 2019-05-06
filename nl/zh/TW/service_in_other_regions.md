@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-26"
 
 keywords: service availability, service location, using services across regions
 
@@ -32,7 +32,7 @@ subcollection: resources
 
       3. 切換至您要使用服務實例的地區。按一下**「功能表」圖示 ![「功能表」圖示](../icons/icon_hamburger.svg)** > **資源清單**。然後，展開**位置**功能表，並選取您要在其中使用服務實例的地區。
 
-      4. 使用您從 *VCAP_SERVICES* 環境變數記錄的認證及連線參數，建立使用者提供的服務實例。
+      4. 使用您從 *VCAP_SERVICES* 環境變數記錄的認證及連線參數，建立使用者提供的服務實例。如需資訊，請參閱[建立使用者提供的服務實例](/docs/apps/tutorials?topic=creating-apps-add-resource#user_provide_services)。
 
       5. 使用下列指令，以將使用者提供的服務實例連結至應用程式：
 
