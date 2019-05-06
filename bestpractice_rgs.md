@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-05-06"
 
 keywords: organize resources, set up resource groups, best practice, resource group strategy
 
@@ -113,7 +113,7 @@ For each of these use cases, if you have a group of users that you want to all h
 <p>I would assign these users the Administrator role on Service A at the account level, as well as assigning them Viewer role for all resource groups in the account where they need to create instances.</p>
 </li>
 <li><p>I have a user in my account who only needs access to a specific resource in one service, for example the ability to write to a Bucket A in IBM Cloud Object Storage. This user shouldn’t see the resource groups in my account or access any other services or any other buckets in this instance of Cloud Object Storage.</p>
-<p>I would give this user the Writer role on Bucket A in the specific instance of Cloud Object Storage. You can either grant this policy by using service-specific interfaces (the Cloud Object Storage UI, in this example) or the main Assign Access UI. The service-specific UI is recommended because it allows you to choose from a list of resources, while the Assign Access UI doesn't display resources below the service instance level and you would need to manually enter the CRN to assign policy to those resources.</p>
+<p>I would give this user the Writer role on Bucket A in the specific instance of Cloud Object Storage. You can either grant this policy by using service-specific interfaces (the Cloud Object Storage UI, in this example) or the main Assign Access UI. The service-specific UI is recommended because it allows you to choose from a list of resources, while the Assign Access UI doesn't display resources past the service instance level and you would need to manually enter the CRN to assign policy to those resources.</p>
 </li>
 <li><p>I'm by using Cloud Foundry orgs and spaces today, but I'm going to start by using resource groups and access groups for my IAM-enabled services. Currently, my users and resources are organized in orgs for lines of business and the spaces are used for different projects within a line of business.</p>
 <p>I would use resource groups to organize resources the same way I did with spaces thinking of each resource group as a project space. Then, I would set up separate access groups to give the necessary access to my users for the right project-level resource groups. Access can be given to all resources in a resource group or to even just a select group of resources within a resource group. So, you can set up each access group with different levels of access to resources within a resource group, which gives each group of users the access they require for working with the resources or the resource group itself.</p>
