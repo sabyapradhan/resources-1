@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-26"
 
 keywords: service availability, service location, using services across regions
 
@@ -32,7 +32,7 @@ Si une instance de service est créée et liée à des applications dans une ré
 
       3. Accédez à la région dans laquelle vous voulez utiliser l'instance de service. Cliquez sur l'icône **Menu ![Icône Menu](../icons/icon_hamburger.svg)** > **Liste de ressources**. Développez ensuite le menu **EMPLACEMENT** et sélectionnez la région dans laquelle utiliser l'instance de service.
 
-      4. Créez une instance de service fournie par l'utilisateur en utilisant les données d'identification et les paramètres de connexion que vous avez enregistrés depuis la variable d'environnement *VCAP_SERVICES*.
+      4. Créez une instance de service fournie par l'utilisateur en utilisant les données d'identification et les paramètres de connexion que vous avez enregistrés depuis la variable d'environnement *VCAP_SERVICES*. Pour plus d'informations, voir [Création d'une instance de service fournie par l'utilisateur](/docs/apps/tutorials?topic=creating-apps-add-resource#user_provide_services).
 
       5. Liez l'instance de service fournie par l'utilisateur à votre application avec la commande suivante :
 

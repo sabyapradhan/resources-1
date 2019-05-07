@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-24"
+lastupdated: "2019-05-01"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -46,7 +46,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Blockchain | Alojado en Dallas | Sindicado desde Dallas | Sindicado desde Dallas | Sindicado desde Dallas | No disponible | No disponible | 
 | Blockchain Platform 2.0 | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Certificate Manager | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | Alojado en Tokio | 
-| Cloud Foundry Enterprise Environment | Alojado en Dallas | No disponible | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | No disponible | 
+| Cloud Foundry Enterprise Environment | No disponible | No disponible | Alojado en Frankfurt | No disponible | No disponible | No disponible | 
 | Cloud Object Storage | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | Alojado globalmente | 
 | Cloudant | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Compare and Comply | Alojado en Dallas | No disponible | Alojado en Frankfurt | No disponible | Alojado en Washington DC | No disponible | 
@@ -134,5 +134,4 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Watson Studio | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | Alojado en Tokio | 
 | Weather Company Data | Alojado en Dallas | Alojado en Londres | No disponible | Alojado en Sídney | No disponible | No disponible | 
 | WebSphere Application Server | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
-| Workload Scheduler | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 {: caption="Tabla 1. Disponibilidad del servicio" caption-side="top"}

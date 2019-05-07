@@ -2,25 +2,38 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-26"
 
-keywords: service authorization, service instance's access
+keywords: service authorization, service instance's access, connect service to app
 
 subcollection: resources
 
 ---
 
+{:new_window: target="_blank"}  
 {:shortdesc: .shortdesc}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
-# Utilización de servicios en otro servicio
+# Conexión de servicios a una app de Cloud Foundry
 {: #s2s_binding}
 
-La autorización de acceso a servicio proporciona una forma para que un servicio acceda a otro servicio
-directamente. Puede autorizar y configurar un acceso de instancia de servicio a otras instancias de servicio en la lista de recursos.
+Para utilizar un servicio en una app de Cloud Foundry, debe crear una conexión o enlazar ese servicio a la app.
 {: shortdesc}
 
-Para utilizar una instancia de servicio de otro servicio, siga estos pasos:
+Para conectar un servicio a la app empezando desde la página de detalles de un servicio específico, siga los pasos siguientes:
+
+También puede crear conexiones entre la app y al servicio. Seleccione la app en la lista de recursos, vaya al menú **Conexiones** y seleccione el servicio.
 
 1. En la lista de recursos, pulse **Servicios** y seleccione el servicio al que desea acceder. Se mostrará la página de detalles del servicio.
-2. En el panel de navegación, pulse **Conexiones** para autorizar el enlace desde otras instancias de servicio utilizando la consola de la instancia de servicio.
-3. Si desea denegar a otros servicios el acceso a la instancia de servicio, pulse **Conexiones** en el panel de navegación y luego pulse **Desenlazar** en el menú de la aplicación conectada para eliminar el enlace de servicio.
+2. Pulse **Conexiones** en el área de navegación.
+3. Pulse **Crear conexión**.
+4. Pulse **Conectar** para la fila de la app para la que desea crear la conexión.
+5. Seleccione un rol de acceso para asignarlo a la conexión. Este rol define las acciones permitidas que puede llevar a cabo la app que accede al servicio.
+6. Opcional: seleccione, cree o genere automáticamente un ID de servicio que utilizará la app para acceder al servicio. A este ID de servicio se le asigna el rol de acceso que ha seleccionado en el paso anterior.
+7. Opcional: añada parámetros de configuración en formato JSON.
+8. Pulse **Conectar y volver transferir app**.
+
+Si desea denegar a la app acceso a la instancia de servicio después de que se conecte, pulse **Conexiones** en el panel de navegación y luego pulse **Desenlazar** en el menú de la aplicación conectada para eliminar el enlace de servicio.
+{: tip}

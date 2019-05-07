@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-24"
+lastupdated: "2019-05-01"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -46,7 +46,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Blockchain | Hébergé à Dallas | Syndiqué avec Dallas | Syndiqué avec Dallas | Syndiqué avec Dallas | Indisponible | Indisponible | 
 | Blockchain Platform 2.0 | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Certificate Manager | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Hébergé à Tokyo | 
-| Cloud Foundry Enterprise Environment | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
+| Cloud Foundry Enterprise Environment | Indisponible | Indisponible | Hébergé à Francfort | Indisponible | Indisponible | Indisponible | 
 | Cloud Object Storage | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Cloudant | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
 | Compare and Comply | Hébergé à Dallas | Indisponible | Hébergé à Francfort | Indisponible | Hébergé à Washington DC | Indisponible | 
@@ -134,5 +134,4 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Watson Studio | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Hébergé à Tokyo | 
 | Weather Company Data | Hébergé à Dallas | Hébergé à Londres | Indisponible | Hébergé à Sydney | Indisponible | Indisponible | 
 | WebSphere Application Server | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
-| Workload Scheduler | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
 {: caption="Tableau 1. Disponibilité des services" caption-side="top"}

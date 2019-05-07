@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-26"
 
 keywords: service availability, service location, using services across regions
 
@@ -32,7 +32,7 @@ Wenn Sie über eine Serviceinstanz verfügen, die erstellt und an Apps in einer 
 
       3. Wechseln Sie zu der Region, in der Sie die Serviceinstanz verwenden möchten. Klicken Sie auf das **Menüsymbol ![Menüsymbol](../icons/icon_hamburger.svg)** und danach auf **Ressourcenliste**. Erweitern Sie anschließend das Menü **Standort** und wählen Sie die Region aus, in der Sie die Serviceinstanz verwenden möchten.
 
-      4. Erstellen Sie eine vom Benutzer zur Verfügung gestellte Serviceinstanz, indem Sie die Berechtigungsnachweise und Verbindungsparameter verwenden, die Sie aus der Umgebungsvariablen *VCAP_SERVICES* aufgezeichnet haben.
+      4. Erstellen Sie eine vom Benutzer zur Verfügung gestellte Serviceinstanz, indem Sie die Berechtigungsnachweise und Verbindungsparameter verwenden, die Sie aus der Umgebungsvariablen *VCAP_SERVICES* aufgezeichnet haben. Informationen finden Sie unter [Vom Benutzer zur Verfügung gestellte Serviceinstanz erstellen](/docs/apps/tutorials?topic=creating-apps-add-resource#user_provide_services). 
 
       5. Binden Sie die vom Benutzer bereitgestellte Serviceinstanz mit dem folgenden Befehl an Ihre App:
 

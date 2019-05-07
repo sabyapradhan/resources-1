@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-26"
 
 keywords: service availability, service location, using services across regions
 
@@ -38,7 +38,7 @@ serviço. Clique no **Ícone Menu ![Ícone Menu](../icons/icon_hamburger.svg) **
 
       4. Crie uma instância de serviço fornecida pelo usuário usando as credenciais
 e os parâmetros de conexão que você registrou a partir da variável de ambiente
-*VCAP_SERVICES*.
+*VCAP_SERVICES*. Para obter informações, veja [Criando uma instância de serviço fornecida pelo usuário](/docs/apps/tutorials?topic=creating-apps-add-resource#user_provide_services).
 
       5. Ligue a instância de serviço fornecida pelo usuário ao seu app
 usando o comando a seguir:

@@ -48,7 +48,7 @@ Los servicios que ofrecen soporte al control de acceso y organización de Cloud 
 
 ![Enlace de una instancia de servicio a un espacio de Cloud Foundry para crear un alias](images/alias.svg "Enlace de una instancia de servicio a un espacio de Cloud Foundry para crear un alias")
 
-### {{site.data.keyword.dev_console}} apps
+### Apps de {{site.data.keyword.dev_console}}
 {: #app_services}
 
 Anteriormente, las apps de {{site.data.keyword.dev_console}} podían estar asociadas solo con instancias de servicio de Cloud Foundry. Ahora, si migra las apps a un grupo de recursos, puede asociar las apps con instancias de servicio que pertenecen a un grupo de recursos y que dan soporte al control de acceso de Cloud IAM.

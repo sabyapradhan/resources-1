@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-04-30"
 
 keywords: search, find,
 
@@ -50,8 +50,6 @@ Drücken Sie die Schrägstrichtaste (/), um den Cursor in das Suchfeld zu verset
 
 Sie können Ihre gesamten Ressourcen auch unter Verwendung der Lucene-Abfragesyntax durchsuchen. Dazu müssen Sie in der {{site.data.keyword.Bluemix_notm}}-Befehlszeilenschnittstelle einen einzigen Befehl eingeben (gilt ab Version 0.6.7).
 
-  Derzeit unterstützt die Befehlszeilenschnittstelle keine Suche nach Ressourcen, die auf Instanzen der klassischen Infrastruktur ausgeführt werden.
-  {: note}
 
 Sie können nach den folgenden Attributen suchen:
 
@@ -63,7 +61,7 @@ Sie können nach den folgenden Attributen suchen:
 <dt>`service_name`</dt>
 <dd>Der Name des Service, wie er in der Spalte 'Name' in der Ausgabe zu 'ibmcloud catalog service-marketplace' erscheint.</dd>
 <dt>`family`</dt>
-<dd>Die Cloudkomponente, zu der Ihre Ressource gehört. Zulässige Werte: `cloud_foundry`, `containers` und `resource_controller`.</dd>
+<dd>Die Cloudkomponente, zu der Ihre Ressource gehört. Die zulässigen Werte sind `cloud_foundry`, `containers`, `vmware`, `resource_controller` oder `ims`. </dd></dd>
 <dt>`organization_id`</dt>
 <dd>Die GUID der Cloud Foundry-Organisation.</dd>
 <dt>`doc.space_id`</dt>
@@ -71,38 +69,54 @@ Sie können nach den folgenden Attributen suchen:
 <dt>`doc.resource_group_id`</dt>
 <dd>Die ID der Ressourcengruppe.</dd>
 <dt>`type`</dt>
-<dd>Der Ressourcentyp. Zulässige Werte: `k8-cluster`, `cf-service-instance`, `cf-user-provided-service-instance`, `cf-organization`, `cf-service-binding`, `cf-space`, `cf-application`, `resource-instance`, `resource-alias`, `resource-binding` und `resource-group`.</dd>
+<dd>Der Ressourcentyp. Die zulässigen Werte sind `k8-cluster`, `cf-service-instance`, `cf-user-provided-service-instance`, `cf-organization`, `cf-service-binding`, `cf-space`, `cf-application`, `resource-instance`, `resource-alias`, `resource-binding`, `resource-group`, `vmware-solutions`, `cloud-object-storage-infrastructure`, `block-storage`, `file-storage`, `cloud-backup`. </dd>
 <dt>`creation_date`</dt>
 <dd>Das Erstellungsdatum der Ressource.</dd>
 <dt>`modification_date`</dt>
 <dd> Das Datum, an dem die Ressource zuletzt geändert wurde.</dd>
+<dt>`tags`</dt>
+<dd>Die Tags, die an die Ressource angehängt wurden. </dd>
+<dt>`tagReferences.tag.name`</dt>
+<dd>Die Tags, die an eine klassische Infrastrukturressource angehängt wurden. Sie müssen den Parameter `-p classic-infrastructure` angeben. </dd>  
+<dt>`_objectType:`</dt>
+<dd>Der Objekttyp der klassischen Infrastrukturressource. Zulässige Werte sind: `SoftLayer_Virtual_DedicatedHost`, `SoftLayer_Hardware`, `SoftLayer_Network_Application_Delivery_Controller`, `SoftLayer_Network_Subnet_IpAddress`, `SoftLayer_Network_Vlan`, `SoftLayer_Network_Vlan_Firewall`, `SoftLayer_Virtual_Guest`. Sie müssen den Parameter `-p classic-infrastructure` angeben. </dd> 
 </dl>
 
 ### Suchbeispiele
 {: #resource-name}
 
+
 Die folgenden Beispiele erleichtern die Suche nach Kontoressourcen:
 
-* Suchen Sie nach allen Ressourcen namens `ABC`, indem Sie den folgenden Befehl eingeben:
-
+* Geben Sie den folgenden Befehl ein, um nach allen Ressourcen namens `ABC` zu suchen:
     `ibmcloud resource search ‘name:ABC’`
-
-* Suchen Sie nach allen Cloud Foundry-Anwendungen namens `MyResource`, indem Sie den folgenden Befehl eingeben:
+  
+* Geben Sie den folgenden Befehl ein, um nach allen Cloud Foundry-Anwendungen namens `MyResource` zu suchen: 
 
     `ibmcloud resource search 'name:my* AND type:cf-application'`
 
-* Suchen Sie nach allen Message Hub-Serviceinstanzen, indem Sie den folgenden Befehl eingeben:
+* Geben Sie den folgenden Befehl ein, um nach allen Serviceinstanzen von Message Hub zu suchen: 
 
     `ibmcloud resource search 'service_name:messagehub'`
 
-* Suchen Sie nach allen Ressourcen in der CLoud Foundry-Organisation `a07181ca-f917-4ee6-af22-b2c0c2a2d5d7` oder der Ressourcengruppe `c900d9671b235c00461c5e311a8aeced` in der Region `us-south`, indem Sie den folgenden Befehl eingeben:
-
+* Geben Sie den folgenden Befehl ein, um nach allen Ressourcen entweder in der Cloud Foundry-Organisation `a07181ca-f917-4ee6-af22-b2c0c2a2d5d7` oder in der Ressourcengruppe `c900d9671b235c00461c5e311a8aeced` in der Region `us-south` zu suchen:
     `ibmcloud resource search (organization_id:a07181ca-f917-4ee6-af22-b2c0c2a2d5d7 OR doc.resource_group_id:c900d9671b235c00461c5e311a8aeced) AND 'region:us-south'`
+    
 
-* Suchen Sie nach allen Ressourcen, die zwischen dem 16. und 20. Mai 2018 erstellt wurden, indem Sie den folgenden Befehl eingeben:
-
+* Geben Sie den folgenden Befehl ein, um nach Ressourcen zu suchen, die nicht zur klassischen Infrastruktur gehören und die zwischen dem 16. Mai 2018 und dem 20. Mai 2018 erstellt wurden:
     `ibmcloud resource search "creation_date:[2018-05-16T00:00:00Z TO 2018-05-20T00:00:00Z]"`
-
-* Suchen Sie nach allen Ressourcen, geordnet nach Ressourcentyp, deren Name mit 'my' beginnt, indem Sie den folgenden Befehl eingeben:
+    
+* Geben Sie den folgenden Befehl ein, um nach Ressourcen zu suchen, die nicht zur klassischen Infrastruktur gehören und deren Name mit "my" beginnt, sortiert nach Typ: 
 
     `ibmcloud resource search 'name:my*' -s type`
+    
+* Geben Sie den folgenden Befehl ein, um nach Ressourcen zu suchen, die nicht zur klassischen Infrastruktur gehören und die mit dem Tag `MyTag` versehen sind:
+    `ibmcloud resource search 'tags:MyTag'`
+    
+* Geben Sie den folgenden Befehl ein, um nach allen klassischen Infrastrukturressourcen zu suchen, die mit dem Tag `MyTag` versehen sind:
+    `ibmcloud resource search 'tagReferences.tag.name:MyTag' -p classic-infrastructure'`
+    
+* Geben Sie den folgenden Befehl ein, um nach der gesamten klassischen Infrastruktur vom Typ `Softlayer_Hardware` zu suchen:
+    `ibmcloud resource search '_objectType:SoftLayer_Hardware' -p classic-infrastructure'`
+  
+
