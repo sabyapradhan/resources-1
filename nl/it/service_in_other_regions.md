@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-26"
 
 keywords: service availability, service location, using services across regions
 
@@ -38,7 +38,7 @@ servizio. Fai clic sull'**icona Menu ![Icona Menu](../icons/icon_hamburger.svg)*
 
       4. Crea un'istanza del servizio fornito dall'utente utilizzando le credenziali
 e i parametri di connessione che hai registrato dalla variabile di ambiente
-*VCAP_SERVICES*.
+*VCAP_SERVICES*. Per informazioni, vedi [Creazione di un'istanza del servizio fornita dall'utente](/docs/apps/tutorials?topic=creating-apps-add-resource#user_provide_services).
 
       5. Esegui il bind dell'istanza del servizio fornito dall'utente alla tua applicazione
 utilizzando il seguente comando:

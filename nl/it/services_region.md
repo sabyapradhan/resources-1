@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-24"
+lastupdated: "2019-05-01"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -47,7 +47,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Blockchain | Ospitato a Dallas | Diffuso da Dallas | Diffuso da Dallas | Diffuso da Dallas | Non disponibile | Non disponibile | 
 | Blockchain Platform 2.0 | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Gestore certificato | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
-| Ambiente Cloud Foundry Enterprise | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Non disponibile | 
+| Ambiente Cloud Foundry Enterprise | Non disponibile | Non disponibile | Ospitato a Francoforte | Non disponibile | Non disponibile | Non disponibile | 
 | Cloud Object Storage | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | Ospitato a livello globale | 
 | Cloudant | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Compare and Comply | Ospitato a Dallas | Non disponibile | Ospitato a Francoforte | Non disponibile | Ospitato a Washington DC | Non disponibile | 
@@ -135,5 +135,4 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Watson Studio | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
 | Weather Company Data | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | WebSphere Application Server | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
-| Workload Scheduler | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
 {: caption="Tabella 1. Disponibilità dei servizi" caption-side="top"}
