@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-26"
 
 keywords: service availability, service location, using services across regions
 
@@ -32,7 +32,7 @@ subcollection: resources
 
       3. 서비스 인스턴스를 사용하려는 지역으로 전환하십시오. **메뉴 아이콘 ![메뉴 아이콘](../icons/icon_hamburger.svg)** > **리소스 목록**을 클릭하십시오. 그런 다음 **위치** 메뉴를 펼친 후 서비스 인스턴스를 사용할 지역을 선택하십시오.
 
-      4. *VCAP_SERVICES* 환경 변수에서 기록한 인증 정보와 연결 매개변수를 사용하여 사용자 제공 서비스 인스턴스를 작성하십시오.
+      4. *VCAP_SERVICES* 환경 변수에서 기록한 인증 정보와 연결 매개변수를 사용하여 사용자 제공 서비스 인스턴스를 작성하십시오. 자세한 정보는 [사용자 제공 서비스 인스턴스 작성](/docs/apps/tutorials?topic=creating-apps-add-resource#user_provide_services)을 참조하십시오. 
 
       5. 다음 명령을 사용하여 사용자 제공 서비스 인스턴스를 앱에 바인딩하십시오.
 

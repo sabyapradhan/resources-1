@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-04-30"
 
 keywords: search, find,
 
@@ -50,8 +50,6 @@ subcollection: resources, find resources
 
 버전 0.6.7부터 {{site.data.keyword.Bluemix_notm}} CLI를 사용하여 하나의 명령으로 Lucene 조회 구문을 통해 모든 리소스에서 검색할 수도 있습니다.
 
-  현재 CLI는 클래식 인프라 인스턴스에서 실행 중인 리소스를 검색하지 않습니다.
-  {: note}
 
 다음 속성을 검색할 수 있습니다.
 
@@ -63,7 +61,7 @@ subcollection: resources, find resources
 <dt>`service_name`</dt>
 <dd>'ibmcloud catalog service-marketplace' 출력의 이름 열에 표시되는 서비스의 이름입니다.</dd>
 <dt>`family`</dt>
-<dd>리소스가 속한 클라우드 컴포넌트입니다. 허용되는 값은 `cloud_foundry`, `containers` 또는 `resource_controller`입니다.</dd>
+<dd>리소스가 속한 클라우드 컴포넌트입니다. 허용되는 값은 `cloud_foundry`, `containers`, `vmware`, `resource_controller` 또는 `ims`입니다.</dd></dd>
 <dt>`organization_id`</dt>
 <dd>Cloud Foundry 조직 GUID입니다.</dd>
 <dt>`doc.space_id`</dt>
@@ -71,22 +69,28 @@ subcollection: resources, find resources
 <dt>`doc.resource_group_id`</dt>
 <dd>리소스 그룹의 ID입니다.</dd>
 <dt>`type`</dt>
-<dd>리소스 유형입니다. 허용되는 값은 `k8-cluster`, `cf-service-instance`, `cf-user-provided-service-instance`, `cf-organization`, `cf-service-binding`, `cf-space`, `cf-application`, `resource-instance`, `resource-alias`, `resource-binding` 및 `resource-group`입니다.</dd>
+<dd>리소스 유형입니다. 허용되는 값은 `k8-cluster`, `cf-service-instance`, `cf-user-provided-service-instance`, `cf-organization`, `cf-service-binding`, `cf-space`, `cf-application`, `resource-instance`, `resource-alias`, `resource-binding`, `resource-group`, `vmware-solutions`, `cloud-object-storage-infrastructure`, `block-storage`, `file-storage`, `cloud-backup`입니다.</dd>
 <dt>`creation_date`</dt>
 <dd>리소스가 작성된 날짜입니다.</dd>
 <dt>`modification_date`</dt>
 <dd> 마지막으로 리소스가 수정된 날짜입니다.</dd>
+<dt>`tags`</dt>
+<dd>리소스에 첨부된 태그</dd>
+<dt>`tagReferences.tag.name`</dt>
+<dd>클래식 인프라 리소스에 첨부된 태그입니다. `-p classic-infrastructure` 매개변수를 지정해야 합니다. </dd>  
+<dt>`_objectType:`</dt>
+<dd>클래식 인프라 리소스의 오브젝트 유형입니다. 허용되는 값은 다음과 같습니다. `SoftLayer_Virtual_DedicatedHost`, `SoftLayer_Hardware`, `SoftLayer_Network_Application_Delivery_Controller`, `SoftLayer_Network_Subnet_IpAddress`, `SoftLayer_Network_Vlan`, `SoftLayer_Network_Vlan_Firewall`, `SoftLayer_Virtual_Guest`. `-p classic-infrastructure` 매개변수를 지정해야 합니다. </dd> 
 </dl>
 
 ### 검색 예제
 {: #resource-name}
 
+
 다음 예제는 계정 리소스를 검색하는 데 도움이 될 수 있습니다.
 
 * `ABC`라는 모든 리소스를 검색하려면 다음 명령을 입력하십시오.
-
     `ibmcloud resource search ‘name:ABC’`
-
+  
 * `MyResource`라는 모든 Cloud Foundry 애플리케이션을 검색하려면 다음 명령을 입력하십시오.
 
     `ibmcloud resource search 'name:my* AND type:cf-application'
@@ -97,13 +101,23 @@ subcollection: resources, find resources
     `ibmcloud resource search 'service_name:messagehub'`
 
 * `us-south` 지역에 있는 `a07181ca-f917-4ee6-af22-b2c0c2a2d5d7` Cloud Foundry 조직 또는 `c900d9671b235c00461c5e311a8aeced` 리소스 그룹에서 모든 리소스를 검색하려면 다음 명령을 입력하십시오.
-
     `ibmcloud resource search (organization_id:a07181ca-f917-4ee6-af22-b2c0c2a2d5d7 OR doc.resource_group_id:c900d9671b235c00461c5e311a8aeced) AND 'region:us-south'`
+    
 
-* 2018년 5월 16일에서 2018년 5월 20일 사이에 작성된 모든 리소스를 검색하려면 다음 명령을 입력하십시오.
-
+* 2018년 5월 16일에서 2018년 5월 20일 사이에 작성된 클래식 인프라가 아닌 리소스를 검색하려면 다음 명령을 입력하십시오.
     `ibmcloud resource search "creation_date:[2018-05-16T00:00:00Z TO 2018-05-20T00:00:00Z]"`
-
-* 이름이 "my"로 시작하는 모든 리소스를 검색하려면 다음 명령을 입력하십시오.
+    
+* 유형별로 정렬된, 이름이 "my"로 시작하고 클래식 인프라가 아닌 리소스를 검색하려면 다음 명령을 입력하십시오.
 
     `ibmcloud resource search 'name:my*' -s type`
+    
+* `MyTag`로 태그가 지정된 클래식 인프라가 아닌 리소스를 검색하려면 다음 명령을 입력하십시오.
+    `ibmcloud resource search 'tags:MyTag'`
+    
+* `MyTag`로 태그가 지정된 모든 클래식 인프라 리소스를 검색하려면 다음 명령을 입력하십시오.
+    `ibmcloud resource search 'tagReferences.tag.name:MyTag' -p classic-infrastructure'`
+    
+* `Softlayer_Hardware` 유형의 모든 클래식 인프라를 검색하려면 다음 명령을 입력하십시오.
+    `ibmcloud resource search '_objectType:SoftLayer_Hardware' -p classic-infrastructure'`
+  
+
