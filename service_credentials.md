@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-08"
+lastupdated: "2019-05-08"
 
 keywords: service key, api key, bind, credential
 
@@ -14,12 +14,16 @@ subcollection: resources
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:note: .note}
+{:tip: .tip}
 
 
 # Adding and viewing credentials
 {: #service_credentials}
 
-You can generate a new set of credentials for cases where you want to manually connect an external consumer to an {{site.data.keyword.Bluemix}} service. For example, if you're trying to bind an AWS app to a Watson service, you need to generate a new credential that can be used to bind them together.
+You can generate a new set of credentials for cases where you want to manually connect an app or external consumer to an {{site.data.keyword.Bluemix}} service. For example, if you're trying to bind an AWS app to a Watson service, you need to generate a new credential that can be used to bind them together. After your credential is created, you can [manually add](/docs/apps/tutorials?topic=creating-apps-credentials_overview) it to your {{site.data.keyword.Bluemix_notm}} app or other [external consumer](/docs/resources?topic=resources-externalapp) to connect your service.
+
+To manually add credentials to your apps, refer to the documentation for the type of app or compute option that you are using.
+{: tip}
 
 ## Adding a credential when binding an IAM-enabled service
 {: #IAM}
@@ -67,4 +71,5 @@ To view an existing service credential for a service, complete the following ste
 1. From the Resource list, select the name of the service to open the service details page. 
 2. Click **Service credentials**
 3. Expand **View credentials** on the row for an existing credential.
+
 
