@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-30"
+lastupdated: "2019-05-08"
 
 keywords: search, find,
 
@@ -37,8 +37,8 @@ You can search for provisioned resources that you expect to find in the resource
 <dd>Use this option to view a filtered catalog search. The first five results are displayed by name. If you want a more detailed search criteria for catalog entries, such as searching the description, you can click this link and get a filtered catalog results view. This option helps you find the offerings that you want to create faster. This appears if it matches to a catalog result. This field doesn't appear if your search query starts with `tag:`.</dd>
 <dt>Search support cases</dt>
 <dd>Use this option to filter by your open support cases across the platform, including infrastructure resources. This shows up at the end of the search if you search for anything, including if you search by `tag:`.</dd>
-<dt>Search in Docs</dt>
-<dd>Use this option to get a filtered of the documentation. This shows up at the end of the search if you search for anything, including if you search by `tag:`.</dd>
+<dt>Search in IBM Cloud docs</dt>
+<dd>Use this option to get a filtered search of the documentation. This shows up at the end of the search if you search for anything, including if you search by `tag:`.</dd>
 </dl>
 
 Press the Forward Slash key (/) to navigate your cursor to the search field.
