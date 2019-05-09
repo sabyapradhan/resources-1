@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-02-18"
+lastupdated: "2019-04-30"
 
 keywords: search, find,
 
@@ -50,8 +50,6 @@ subcollection: resources, find resources
 
 バージョン 0.6.7 以降、{{site.data.keyword.Bluemix_notm}} CLI で単一のコマンドによって Lucene 照会構文を使用することで、すべてのリソースで検索することもできます。
 
-  現在、CLI は、従クラシック・インフラストラクチャー・インスタンスで実行されているリソースを検索しません。
-  {: note}
 
 以下の属性を検索できます。
 
@@ -63,7 +61,7 @@ subcollection: resources, find resources
 <dt>`service_name`</dt>
 <dd>「ibmcloud catalog service-marketplace」の出力の名前列に表示されるサービスの名前。</dd>
 <dt>`family`</dt>
-<dd>リソースが属するクラウド・コンポーネント。 許可される値は、`cloud_foundry`、`containers`、または `resource_controller` です。</dd>
+<dd>リソースが属するクラウド・コンポーネント。 許可される値は、`cloud_foundry`、`containers`、`vmware`、`resource_controller`、`ims` です。</dd></dd>
 <dt>`organization_id`</dt>
 <dd>Cloud Foundry 組織 GUID。</dd>
 <dt>`doc.space_id`</dt>
@@ -71,39 +69,54 @@ subcollection: resources, find resources
 <dt>`doc.resource_group_id`</dt>
 <dd>リソース・グループの ID。</dd>
 <dt>`type`</dt>
-<dd>リソース・タイプ。 許可される値は、`k8-cluster`、`cf-service-instance`、`cf-user-provided-service-instance`、`cf-organization`、`cf-service-binding`、`cf-space`、`cf-application`、`resource-instance`、`resource-alias`、`resource-binding`、および `resource-group` です。</dd>
+<dd>リソース・タイプ。 許可される値は、`k8-cluster`、`cf-service-instance`、`cf-user-provided-service-instance`、`cf-organization`、`cf-service-binding`、`cf-space`、`cf-application`、`resource-instance`、`resource-alias`、`resource-binding`、`resource-group`、`vmware-solutions`、`cloud-object-storage-infrastructure`、`block-storage`、`file-storage`、`cloud-backup` です。</dd>
 <dt>`creation_date`</dt>
 <dd>リソースが作成された日付。</dd>
 <dt>`modification_date`</dt>
 <dd> リソースの最終変更日。</dd>
+<dt>`tags`</dt>
+<dd>リソースに付加されたタグ。</dd>
+<dt>`tagReferences.tag.name`</dt>
+<dd>クラシック・インフラストラクチャー・リソースに付加されたタグ。`-p classic-infrastructure` パラメーターを指定する必要があります。</dd>  
+<dt>`_objectType:`</dt>
+<dd>クラシック・インフラストラクチャー・リソースのオブジェクト・タイプ。 許可される値は、`SoftLayer_Virtual_DedicatedHost`、`SoftLayer_Hardware`、`SoftLayer_Network_Application_Delivery_Controller`、`SoftLayer_Network_Subnet_IpAddress`、`SoftLayer_Network_Vlan`、`SoftLayer_Network_Vlan_Firewall`、`SoftLayer_Virtual_Guest` です。`-p classic-infrastructure` パラメーターを指定する必要があります。</dd> 
 </dl>
 
 ### 検索の例
 {: #resource-name}
 
+
 以下の例は、アカウント・リソースの検索に役立ちます。
 
-* `ABC` という名前のすべてのリソースを検索するには、以下のコマンドを入力します。
-
+* `ABC` という名前のすべてのリソースを検索するには、次のコマンドを入力します。
     `ibmcloud resource search ‘name:ABC’`
+  
+* `MyResource` という名前のすべての Cloud Foundry アプリケーションを検索するには、次のコマンドを入力します。
 
-* `MyResource` という名前のすべての Cloud Foundry アプリケーションを検索するには、以下のコマンドを入力します。
+    `ibmcloud resource search 'name:my* AND type:cf-application'`
 
-    `ibmcloud resource search 'name:my* AND type:cf-application'
-`
-
-* メッセージング・ハブのすべてのサービス・インスタンスを検索するには、以下のコマンドを入力します。
+* メッセージング・ハブのすべてのサービス・インスタンスを検索するには、次のコマンドを入力します。
 
     `ibmcloud resource search 'service_name:messagehub'`
 
-* `us-south` 地域の `a07181ca-f917-4ee6-af22-b2c0c2a2d5d7` Cloud Foundry 組織または `c900d9671b235c00461c5e311a8aeced` リソース・グループ内のすべてのリソースを検索するには、以下のコマンドを入力します。
-
+* `us-south` 地域の `a07181ca-f917-4ee6-af22-b2c0c2a2d5d7` Cloud Foundry 組織または `c900d9671b235c00461c5e311a8aeced` リソース・グループ内のすべてのリソースを検索するには、次のコマンドを入力します。
     `ibmcloud resource search (organization_id:a07181ca-f917-4ee6-af22-b2c0c2a2d5d7 OR doc.resource_group_id:c900d9671b235c00461c5e311a8aeced) AND 'region:us-south'`
+    
 
-* 2018 年 5 月 16 日から 2018 年 5 月 20 日までに作成されたすべてのリソースを検索するには、以下のコマンドを入力します。
-
+* 2018 年 5 月 16 日から 2018 年 5 月 20 日までに作成された、クラシック・インフラストラクチャーではないリソースを検索するには、次のコマンドを入力します。
     `ibmcloud resource search "creation_date:[2018-05-16T00:00:00Z TO 2018-05-20T00:00:00Z]"`
-
-* 名前が「my」で始まるすべてのリソースを検索して、タイプで順序付けるには、以下のコマンドを入力します。
+    
+* 名前が「my」で始まる、クラシック・インフラストラクチャーではないリソースを検索して、タイプの順に並べるには、次のコマンドを入力します。
 
     `ibmcloud resource search 'name:my*' -s type`
+    
+* `MyTag` というタグが付いた、クラシック・インフラストラクチャーではないリソースを検索するには、次のコマンドを入力します。
+    `ibmcloud resource search 'tags:MyTag'`
+    
+* `MyTag` というタグが付いたすべてのクラシック・インフラストラクチャー・リソースを検索するには、次のコマンドを入力します。
+    `ibmcloud resource search 'tagReferences.tag.name:MyTag' -p classic-infrastructure'`
+    
+* タイプ `Softlayer_Hardware` のすべてのクラシック・インフラストラクチャーを検索するには、次のコマンドを入力します。
+    `ibmcloud resource search '_objectType:SoftLayer_Hardware' -p classic-infrastructure'`
+  
+

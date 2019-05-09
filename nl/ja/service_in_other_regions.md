@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-04-26"
 
 keywords: service availability, service location, using services across regions
 
@@ -32,7 +32,7 @@ subcollection: resources
 
       3. サービス・インスタンスを利用する地域に切り替えます。 **「メニュー」アイコン ![「メニュー」アイコン](../icons/icon_hamburger.svg)**>**「リソース・リスト」**をクリックします。 次に、**「ロケーション」**メニューを展開し、サービス・インスタンスを使用する地域を選択します。
 
-      4. *VCAP_SERVICES* 環境変数から記録した資格情報と接続パラメーターを使用して、ユーザー提供のサービス・インスタンスを作成します。
+      4. *VCAP_SERVICES* 環境変数から記録した資格情報と接続パラメーターを使用して、ユーザー提供のサービス・インスタンスを作成します。 詳しくは、[ユーザー提供のサービス・インスタンスの作成](/docs/apps/tutorials?topic=creating-apps-add-resource#user_provide_services)を参照してください。
 
       5. 以下のコマンドを使用して、ユーザー提供のサービス・インスタンスをアプリにバインドします。
 
