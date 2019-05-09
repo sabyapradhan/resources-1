@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-08"
+lastupdated: "2019-05-09"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -32,7 +32,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Service | Dallas | London | Frankfurt | Sydney | Washington DC | Tokyo |
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
-| Activity Tracker | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Not available | Not available | 
 | Alert Notification | Hosted in Dallas | Hosted in London | Not available | Hosted in Sydney | Not available | Not available | 
 | Analytics Engine | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Not available | Not available | Hosted in Tokyo | 
 | Apache Spark | Hosted in Dallas | Hosted in London | Not available | Not available | Not available | Not available | 
