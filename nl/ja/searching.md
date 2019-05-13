@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-30"
+lastupdated: "2019-05-08"
 
 keywords: search, find,
 
@@ -37,8 +37,8 @@ subcollection: resources, find resources
 <dd>このオプションを使用して、フィルターに掛けられたカタログ検索を表示します。 最初の 5 つの結果が名前で表示されます。 説明の検索など、カタログ・エントリーの詳細検索基準が必要な場合は、このリンクをクリックして、フィルターに掛けられたカタログ結果ビューを表示できます。 このオプションは、作成するオファリングを迅速に見つけるのに役立ちます。 これは、カタログ結果と一致した場合に表示されます。 検索照会が `tag:` で始まる場合、このフィールドは表示されません。</dd>
 <dt>サポート Case での検索</dt>
 <dd>このオプションを使用して、インフラストラクチャー・リソースを含む、プラットフォーム全体のオープン・サポート Case でフィルターに掛けます。 これは、`tag:` によって検索した場合も含め、何か検索を実行した場合に検索の最後に表示されます。</dd>
-<dt>資料内での検索</dt>
-<dd>このオプションを使用して、資料をフィルターに掛けて検索します。 これは、`tag:` によって検索した場合も含め、何か検索を実行した場合に検索の最後に表示されます。</dd>
+<dt>IBM Cloud 資料内での検索</dt>
+<dd>このオプションを使用して、資料をフィルターに掛けて検索します。これは、`tag:` によって検索した場合も含め、何か検索を実行した場合に検索の最後に表示されます。</dd>
 </dl>
 
 スラッシュ・キー (/) を押して、カーソルを検索フィールドに移動します。
@@ -75,11 +75,11 @@ subcollection: resources, find resources
 <dt>`modification_date`</dt>
 <dd> リソースの最終変更日。</dd>
 <dt>`tags`</dt>
-<dd>リソースに付加されたタグ。</dd>
+<dd>リソースに付加されたタグ。 </dd>
 <dt>`tagReferences.tag.name`</dt>
-<dd>クラシック・インフラストラクチャー・リソースに付加されたタグ。`-p classic-infrastructure` パラメーターを指定する必要があります。</dd>  
+<dd>クラシック・インフラストラクチャー・リソースに付加されたタグ。 `-p classic-infrastructure` パラメーターを指定する必要があります。 </dd>  
 <dt>`_objectType:`</dt>
-<dd>クラシック・インフラストラクチャー・リソースのオブジェクト・タイプ。 許可される値は、`SoftLayer_Virtual_DedicatedHost`、`SoftLayer_Hardware`、`SoftLayer_Network_Application_Delivery_Controller`、`SoftLayer_Network_Subnet_IpAddress`、`SoftLayer_Network_Vlan`、`SoftLayer_Network_Vlan_Firewall`、`SoftLayer_Virtual_Guest` です。`-p classic-infrastructure` パラメーターを指定する必要があります。</dd> 
+<dd>クラシック・インフラストラクチャー・リソースのオブジェクト・タイプ。 許可される値は、`SoftLayer_Virtual_DedicatedHost`、`SoftLayer_Hardware`、`SoftLayer_Network_Application_Delivery_Controller`、`SoftLayer_Network_Subnet_IpAddress`、`SoftLayer_Network_Vlan`、`SoftLayer_Network_Vlan_Firewall`、`SoftLayer_Virtual_Guest` です。 `-p classic-infrastructure` パラメーターを指定する必要があります。 </dd> 
 </dl>
 
 ### 検索の例
@@ -93,7 +93,8 @@ subcollection: resources, find resources
   
 * `MyResource` という名前のすべての Cloud Foundry アプリケーションを検索するには、次のコマンドを入力します。
 
-    `ibmcloud resource search 'name:my* AND type:cf-application'`
+    `ibmcloud resource search 'name:my* AND type:cf-application'
+`
 
 * メッセージング・ハブのすべてのサービス・インスタンスを検索するには、次のコマンドを入力します。
 

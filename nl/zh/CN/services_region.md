@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-01"
+lastupdated: "2019-05-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -87,7 +87,6 @@ subcollection: resources
 |Hyper Protect Crypto Services| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
 |Hyper Protect DBaaS|不可用|不可用|不可用|不可用| 在华盛顿特区托管 |不可用| 
 |IBM Cognos Dashboard Embedded| 在达拉斯托管 | 在伦敦托管 |不可用|不可用|不可用|不可用| 
-|IBM Identity Mixer|不可用| 在伦敦托管 |不可用|在悉尼托管|不可用|不可用| 
 |Information Server| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Informix| 在达拉斯托管 | 从达拉斯联合 |不可用| 从达拉斯联合 |不可用|不可用| 
 |Instrument Analytics| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
@@ -99,7 +98,6 @@ subcollection: resources
 |Knowledge Studio| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Language Translator| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 | 在东京托管 | 
 |Lift CLI| 在达拉斯托管 |不可用|不可用|不可用|不可用|不可用| 
-|Log Analysis| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |MQ| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Machine Learning| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用| 在东京托管 | 
 |Managed Financial Data API| 在达拉斯托管 |不可用|不可用|不可用| 在华盛顿特区托管 |不可用| 

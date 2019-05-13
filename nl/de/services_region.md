@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-01"
+lastupdated: "2019-05-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -87,7 +87,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Hyper Protect Crypto Services | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
 | Hyper Protect DBaaS | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in Washington DC | Nicht verfügbar | 
 | IBM Cognos Dashboard Embedded | Gehostet in Dallas | Gehostet in London | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
-| IBM Identity Mixer | Nicht verfügbar | Gehostet in London | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Information Server | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Informix | Gehostet in Dallas | Syndiziert aus Dallas | Nicht verfügbar | Syndiziert aus Dallas | Nicht verfügbar | Nicht verfügbar | 
 | Instrument Analytics | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
@@ -99,7 +98,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Knowledge Studio | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Language Translator | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Gehostet in Tokio | 
 | Lift CLI | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 
-| Log Analysis | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | MQ | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Machine Learning | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Nicht verfügbar | Nicht verfügbar | Gehostet in Tokio | 
 | Managed Financial Data API | Gehostet in Dallas | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Gehostet in Washington DC | Nicht verfügbar | 

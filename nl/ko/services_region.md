@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-01"
+lastupdated: "2019-05-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -87,7 +87,6 @@ subcollection: resources
 |Hyper Protect Crypto Services | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
 |Hyper Protect DBaaS |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 워싱턴 DC에서 호스팅됨 |사용할 수 없음 | 
 |IBM Cognos Dashboard Embedded | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
-|IBM Identity Mixer |사용할 수 없음 | 런던에서 호스팅됨 |사용할 수 없음 |시드니에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 | 
 |Information Server | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 | 
 |Informix | 댈러스에서 호스팅됨 | 댈러스에서 신디케이트됨 |사용할 수 없음 | 댈러스에서 신디케이트됨 |사용할 수 없음 |사용할 수 없음 | 
 |Instrument Analytics | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
@@ -99,7 +98,6 @@ subcollection: resources
 |Knowledge Studio | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Language Translator | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Lift CLI | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 
-|Log Analysis | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 | 
 |MQ | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 | 
 |Machine Learning | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 |Managed Financial Data API | 댈러스에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 워싱턴 DC에서 호스팅됨 |사용할 수 없음 | 

@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-01"
+lastupdated: "2019-05-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -88,7 +88,6 @@ subcollection: resources
 | Hyper Protect Crypto Services | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
 | Hyper Protect DBaaS | 使用不可 | 使用不可 | 使用不可 | 使用不可 | ワシントン DC でホスト | 使用不可 | 
 | IBM Cognos Dashboard Embedded | ダラスでホスト | ロンドンでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
-| IBM Identity Mixer | 使用不可 | ロンドンでホスト | 使用不可 | シドニーでホスト | 使用不可 | 使用不可 | 
 | Information Server | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Informix | ダラスでホスト | ダラスからシンジケート | 使用不可 | ダラスからシンジケート | 使用不可 | 使用不可 | 
 | Instrument Analytics | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
@@ -100,7 +99,6 @@ subcollection: resources
 | Knowledge Studio | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
 | Language Translator | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 東京でホスト | 
 | Lift CLI | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 
-| Log Analysis | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | MQ | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Machine Learning | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | 使用不可 | 使用不可 | 東京でホスト | 
 | Managed Financial Data API | ダラスでホスト | 使用不可 | 使用不可 | 使用不可 | ワシントン DC でホスト | 使用不可 | 

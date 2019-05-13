@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-05-06"
 
 keywords: organize resources, set up resource groups, best practice, resource group strategy
 

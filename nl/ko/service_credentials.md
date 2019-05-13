@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-08"
+lastupdated: "2019-05-08"
 
 keywords: service key, api key, bind, credential
 
@@ -14,12 +14,16 @@ subcollection: resources
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:note: .note}
+{:tip: .tip}
 
 
 # 인증 정보 추가 및 보기
 {: #service_credentials}
 
-외부 이용자를 {{site.data.keyword.Bluemix}} 서비스에 수동으로 연결하려는 경우에는 새 인증 정보 세트를 생성할 수 있습니다. 예를 들어, AWS 앱을 Watson 서비스에 바인드하려고 시도하는 경우에는 이를 함께 바인드하는 데 사용될 수 있는 새 인증 정보를 생성해야 합니다.
+앱 또는 외부 이용자를 {{site.data.keyword.Bluemix}} 서비스에 수동으로 연결하려는 경우에는 새 인증 정보 세트를 생성할 수 있습니다. 예를 들어, AWS 앱을 Watson 서비스에 바인드하려고 시도하는 경우에는 이를 함께 바인드하는 데 사용될 수 있는 새 인증 정보를 생성해야 합니다. 인증 정보를 작성한 다음 사용자의 서비스에 연결할 {{site.data.keyword.Bluemix_notm}} 앱 또는 [외부 이용자](/docs/resources?topic=resources-externalapp)에 [수동으로 추가](/docs/apps/tutorials?topic=creating-apps-credentials_overview)할 수 있습니다.
+
+앱에 인증 정보를 수동으로 추가하려면 사용 중인 앱 유형 또는 컴퓨팅 옵션의 문서를 참조하십시오.
+{: tip}
 
 ## IAM-사용 서비스를 바인딩할 때 인증 정보 추가
 {: #IAM}
@@ -67,4 +71,5 @@ Cloud Foundry 인증 정보를 추가하려면 다음 단계를 완료하십시�
 1. 리소스 목록에서 서비스의 이름을 선택하여 서비스 세부사항 페이지를 여십시오. 
 2. **서비스 인증 정보**를 클릭하십시오.
 3. 기존 인증 정보에 대한 행에서 **인증 정보 보기**를 펼치십시오.
+
 

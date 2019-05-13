@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-08"
+lastupdated: "2019-05-08"
 
 keywords: service key, api key, bind, credential
 
@@ -14,12 +14,16 @@ subcollection: resources
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:note: .note}
+{:tip: .tip}
 
 
 # Berechtigungsnachweise hinzufügen und anzeigen
 {: #service_credentials}
 
-Sie können eine neue Gruppe von Berechtigungsnachweisen für die Fälle generieren, in denen Sie einen externen Konsumenten manuell mit einem {{site.data.keyword.Bluemix}}-Service verbinden möchten. Wenn Sie beispielsweise versuchen, eine AWS-App an einen Watson-Service zu binden, müssen Sie einen neuen Berechtigungsnachweis generieren, der für das Binden von App und Service verwendet werden kann.
+Sie können eine neue Gruppe von Berechtigungsnachweisen für die Fälle generieren, in denen Sie eine App oder einen externen Konsumenten manuell mit einem {{site.data.keyword.Bluemix}}-Service verbinden möchten. Wenn Sie beispielsweise versuchen, eine AWS-App an einen Watson-Service zu binden, müssen Sie einen neuen Berechtigungsnachweis generieren, der für das Binden von App und Service verwendet werden kann. Nachdem Ihr Berechtigungsnachweis erstellt wurde, können Sie ihn [manuell hinzufügen](/docs/apps/tutorials?topic=creating-apps-credentials_overview), entweder zu Ihrer {{site.data.keyword.Bluemix_notm}}-App oder zu einem anderen [externen Konsumenten](/docs/resources?topic=resources-externalapp), damit die App bzw. der Konsument eine Verbindung zu Ihrem Service herstellen können.
+
+Informationen zum manuellen Hinzufügen von Berechtigungsnachweisen zu Ihren Apps enthält die Dokumentation für den verwendeten App-Typ bzw. die genutzte Berechnungsoption.
+{: tip}
 
 ## Berechtigungsnachweis beim Binden eines IAM-fähigen Service hinzufügen
 {: #IAM}
@@ -67,4 +71,5 @@ Führen Sie die folgenden Schritte aus, um einen vorhandenen Serviceberechtigung
 1. Wählen Sie in der Ressourcenliste den Namen des Service aus, um die Seite mit den Servicedetails zu öffnen. 
 2. Klicken Sie auf **Serviceberechtigungsnachweise**.
 3. Erweitern Sie in der Zeile für einen vorhandenen Berechtigungsnachweis die Option **Berechtigungsnachweise anzeigen**.
+
 

@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-08"
+lastupdated: "2019-05-08"
 
 keywords: service key, api key, bind, credential
 
@@ -14,12 +14,16 @@ subcollection: resources
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:note: .note}
+{:tip: .tip}
 
 
 # 添加和查看凭证
 {: #service_credentials}
 
-如果您希望手动将外部使用者连接到 {{site.data.keyword.Bluemix}} 服务，那么可以生成一组新凭证。例如，如果要尝试将 AWS 应用程序绑定到 Watson 服务，那么需要生成可用于将这两者绑定在一起的新凭证。
+如果您希望手动将应用程序或外部使用者连接到 {{site.data.keyword.Bluemix}} 服务，那么可以生成一组新凭证。例如，如果要尝试将 AWS 应用程序绑定到 Watson 服务，那么需要生成可用于将这两者绑定在一起的新凭证。创建凭证后，可以将其[手动添加](/docs/apps/tutorials?topic=creating-apps-credentials_overview)到 {{site.data.keyword.Bluemix_notm}} 应用程序或其他[外部使用者](/docs/resources?topic=resources-externalapp)以连接服务。
+
+要手动将凭证添加到应用程序，请参阅相关文档以了解要使用的应用程序类型或计算选项。
+{: tip}
 
 ## 绑定支持 IAM 的服务时添加凭证
 {: #IAM}
@@ -67,4 +71,5 @@ Cloud Foundry 服务可以生成服务密钥，该密钥也称为凭证。凭证
 1. 在资源列表中，选择服务名称以打开服务详细信息页面。 
 2. 单击**服务凭证**。
 3. 在现有凭证所在的行上展开**查看凭证**。
+
 
