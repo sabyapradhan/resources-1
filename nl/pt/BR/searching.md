@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-30"
+lastupdated: "2019-05-08"
 
 keywords: search, find,
 
@@ -37,8 +37,8 @@ subcollection: resources, find resources
 <dd>Use essa opção para visualizar uma procura de catálogo filtrada. Os primeiros cinco resultados são exibidos pelo nome. Se você desejar obter um critério de procura mais detalhado para entradas no catálogo, como procurar a descrição, será possível clicar nesse link e obter uma visualização de resultados do catálogo filtrados. Essa opção ajuda a localizar as ofertas que você deseja criar mais rapidamente. Isso aparecerá se houver correspondência com um resultado do catálogo. Esse campo não aparecerá se a consulta de procura iniciar com `tag:`.</dd>
 <dt>Procurar casos de suporte</dt>
 <dd>Use essa opção para filtrar por casos de suporte abertos na plataforma, incluindo recursos de infraestrutura. Isso é mostrado no final da procura se você procurar qualquer coisa, inclusive se você procurar por `tag:`.</dd>
-<dt>Procurar no Docs</dt>
-<dd>Use essa opção para obter uma filtragem da documentação. Isso é mostrado no final da procura se você procurar qualquer coisa, inclusive se você procurar por `tag:`.</dd>
+<dt>Procurar nos docs do IBM Cloud</dt>
+<dd>Use essa opção para obter uma procura filtrada da documentação. Isso é mostrado no final da procura se você procurar qualquer coisa, inclusive se você procurar por `tag:`.</dd>
 </dl>
 
 Pressione a tecla de barra (/) para navegar o cursor para o campo de procura.

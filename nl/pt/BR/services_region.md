@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-01"
+lastupdated: "2019-05-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -91,7 +91,6 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Hyper Protect Crypto Services | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
 | Hyper Protect DBaaS | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Hospedado em Washington, D.C. | Não está disponível | 
 | IBM Cognos Dashboard Embedded | Hospedado em Dallas | Hospedado em Londres | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
-| IBM Identity Mixer | Não está disponível | Hospedado em Londres | Não está disponível | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Information Server | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Informix | Hospedado em Dallas | Organizado em Dallas | Não está disponível | Organizado em Dallas | Não está disponível | Não está disponível | 
 | Instrument Analytics | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
@@ -103,7 +102,6 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Knowledge Studio | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Language Translator | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Hospedado em Washington, D.C. | Hospedado em Tóquio | 
 | Lift CLI | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Não está disponível | Não está disponível | 
-| Log Analysis | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | MQ | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Hospedado em Sydney | Não está disponível | Não está disponível | 
 | Machine Learning | Hospedado em Dallas | Hospedado em Londres | Hospedado em Frankfurt | Não está disponível | Não está disponível | Hospedado em Tóquio | 
 | Managed Financial Data API | Hospedado em Dallas | Não está disponível | Não está disponível | Não está disponível | Hospedado em Washington, D.C. | Não está disponível | 

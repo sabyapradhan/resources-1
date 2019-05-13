@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-30"
+lastupdated: "2019-05-08"
 
 keywords: search, find,
 
@@ -37,8 +37,8 @@ Puede buscar recursos suministrados que espera encontrar en la lista de recursos
 <dd>Utilice esta opción para ver una búsqueda de catálogo filtrada. Los primeros cinco resultados se muestran por su nombre. Si desea un criterio de búsqueda más detallado para las entradas de catálogo, como por ejemplo buscar la descripción, puede pulsar este enlace y obtener una vista de resultados de catálogo filtrada. Esta opción le ayuda a encontrar con mayor rapidez las ofertas que desea crear. Esta opción aparece si coincide con un resultado de catálogo. Este campo no aparece si la consulta de búsqueda empieza por `tag:`.</dd>
 <dt>Casos de soporte de búsqueda</dt>
 <dd>Utilice esta opción para filtrar por los casos de soporte abierto en toda la plataforma, incluidos los recursos de la infraestructura. Esto aparece al final de la búsqueda si busca algo, incluso si busca por `tag:`.</dd>
-<dt>Buscar en documentación</dt>
-<dd>Utilice esta opción para obtener un filtrado de la documentación. Esto aparece al final de la búsqueda si busca algo, incluso si busca por `tag:`.</dd>
+<dt>Buscar en la documentación de IBM Cloud</dt>
+<dd>Utilice esta opción para realizar una búsqueda filtrada de la documentación. Esto aparece al final de la búsqueda si busca algo, incluso si busca por `tag:`.</dd>
 </dl>
 
 Pulse la tecla de barra inclinada (/) para mover el cursor al campo de búsqueda.

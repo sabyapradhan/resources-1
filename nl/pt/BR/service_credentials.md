@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-08"
+lastupdated: "2019-05-08"
 
 keywords: service key, api key, bind, credential
 
@@ -14,12 +14,16 @@ subcollection: resources
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:note: .note}
+{:tip: .tip}
 
 
 # Incluindo e visualizando credenciais
 {: #service_credentials}
 
-É possível gerar um novo conjunto de credenciais para casos em que você deseja conectar manualmente um consumidor externo a um serviço {{site.data.keyword.Bluemix}}. Por exemplo, se você estiver tentando ligar um app AWS a um serviço do Watson, será necessário gerar uma nova credencial que possa ser usada para ligá-los.
+É possível gerar um novo conjunto de credenciais para os casos em que você deseja conectar manualmente um app ou consumidor externo a um serviço do {{site.data.keyword.Bluemix}}. Por exemplo, se você estiver tentando ligar um app AWS a um serviço do Watson, será necessário gerar uma nova credencial que possa ser usada para ligá-los. Após a criação de sua credencial, é possível [incluí-la manualmente](/docs/apps/tutorials?topic=creating-apps-credentials_overview) em seu app do {{site.data.keyword.Bluemix_notm}} ou em outro [consumidor externo](/docs/resources?topic=resources-externalapp) para conectar seu serviço.
+
+Para incluir credenciais manualmente em seus apps, consulte a documentação para o tipo de aplicativo ou a opção de cálculo que está sendo usada.
+{: tip}
 
 ## Incluindo uma credencial ao ligar um serviço ativado pelo IAM
 {: #IAM}
@@ -69,4 +73,5 @@ Para visualizar uma credencial de serviço existente para um serviço, conclua a
 1. Na lista de Recursos, selecione o nome do serviço para abrir a página de detalhes do serviço. 
 2. Clique em **Credenciais de serviço**
 3. Expanda **Visualizar credenciais** na linha para uma credencial existente.
+
 

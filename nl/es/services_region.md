@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-01"
+lastupdated: "2019-05-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -87,7 +87,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Hyper Protect Crypto Services | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
 | Hyper Protect DBaaS | No disponible | No disponible | No disponible | No disponible | Alojado en Washington DC | No disponible | 
 | IBM Cognos Dashboard Embedded | Alojado en Dallas | Alojado en Londres | No disponible | No disponible | No disponible | No disponible | 
-| IBM Identity Mixer | No disponible | Alojado en Londres | No disponible | Alojado en Sídney | No disponible | No disponible | 
 | Information Server | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Informix | Alojado en Dallas | Sindicado desde Dallas | No disponible | Sindicado desde Dallas | No disponible | No disponible | 
 | Instrument Analytics | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
@@ -99,7 +98,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Knowledge Studio | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Language Translator | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | Alojado en Tokio | 
 | Lift CLI | Alojado en Dallas | No disponible | No disponible | No disponible | No disponible | No disponible | 
-| Log Analysis | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | MQ | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Machine Learning | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | Alojado en Tokio | 
 | API Managed Financial Data | Alojado en Dallas | No disponible | No disponible | No disponible | Alojado en Washington DC | No disponible | 

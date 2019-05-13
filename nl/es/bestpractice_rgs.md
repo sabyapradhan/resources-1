@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-05-06"
 
 keywords: organize resources, set up resource groups, best practice, resource group strategy
 
@@ -113,7 +113,7 @@ Para cada uno de estos casos de uso, si tiene un grupo de usuarios que desea que
 <p>Quiero asignar a estos usuarios el rol Administrador en el Servicio A a nivel de cuenta, así como asignarles el rol Visor para todos los grupos de recursos de la cuenta donde necesiten crear instancias.</p>
 </li>
 <li><p>Tengo un usuario en mi cuenta que solo necesita acceso a un recurso específico en un servicio, por ejemplo la capacidad de escribir en un Grupo A en IBM Cloud Object Storage. Este usuario no debería ver los grupos de recursos en mi cuenta ni acceder a ningún otro servicio ni a ningún otro grupo en esta instancia de Cloud Object Storage.</p>
-<p>Quiero dar a este usuario el rol Escritor en el Grupo A en la instancia específica de Cloud Object Storage. Puede otorgar esta política utilizando interfaces específicas del servicio (la IU de Cloud Object Storage, en este ejemplo) o la IU principal de Asignar acceso. La IU específica del servicio está recomendada porque le permite elegir entre una lista de recursos, mientras que la IU de Asignar acceso no muestra recursos por debajo del nivel de instancia de servicio y deberá especificar manualmente el CRN para asignar la política a estos recursos.</p>
+<p>Quiero dar a este usuario el rol Escritor en el Grupo A en la instancia específica de Cloud Object Storage. Puede otorgar esta política utilizando interfaces específicas del servicio (la IU de Cloud Object Storage, en este ejemplo) o la IU principal de Asignar acceso. La IU específica del servicio está recomendada porque le permite elegir entre una lista de recursos, mientras que la IU de Asignar acceso no muestra recursos más allá del nivel de instancia de servicio y deberá especificar manualmente el CRN para asignar la política a estos recursos.</p>
 </li>
 <li><p>Hoy estoy utilizando las organizaciones y los espacios de Cloud Foundry, pero voy a empezar a utilizar grupos de recursos y grupos de acceso para mis servicios habilitados para IAM. Actualmente, mis usuarios y recursos están organizados en organizaciones para las líneas de negocio y los espacios se utilizan para diferentes proyectos dentro de una línea de negocio.</p>
 <p>Utilizaré grupos de recursos para organizar recursos de la misma forma en que lo hice con espacios, pensando en cada grupo de recursos como un espacio de proyectos. A continuación, configuraré grupos de acceso independientes para dar el acceso necesario a mis usuarios para los grupos de recursos de nivel de proyecto adecuados. El acceso se puede dar a todos los recursos de un grupo de recursos o incluso a un grupo de recursos selecto dentro de un grupo de recursos. Por lo tanto, puede configurar cada grupo de acceso con distintos niveles de acceso a los recursos dentro de un grupo de recursos, lo que otorga a cada grupo de usuarios el acceso que necesitan para trabajar con los recursos o el propio grupo de recursos.</p>
