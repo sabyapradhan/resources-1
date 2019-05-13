@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-01"
+lastupdated: "2019-05-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -87,7 +87,6 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Hyper Protect Crypto Services | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
 | Hyper Protect DBaaS | Indisponible | Indisponible | Indisponible | Indisponible | Hébergé à Washington DC | Indisponible | 
 | IBM Cognos Dashboard Embedded | Hébergé à Dallas | Hébergé à Londres | Indisponible | Indisponible | Indisponible | Indisponible | 
-| IBM Identity Mixer | Indisponible | Hébergé à Londres | Indisponible | Hébergé à Sydney | Indisponible | Indisponible | 
 | Information Server | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
 | Informix | Hébergé à Dallas | Syndiqué avec Dallas | Indisponible | Syndiqué avec Dallas | Indisponible | Indisponible | 
 | Instrument Analytics | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
@@ -99,7 +98,6 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Knowledge Studio | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
 | Language Translator | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Hébergé à Tokyo | 
 | Lift CLI | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Indisponible | Indisponible | 
-| Log Analysis | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
 | MQ | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
 | Machine Learning | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Hébergé à Tokyo | 
 | Managed Financial Data API | Hébergé à Dallas | Indisponible | Indisponible | Indisponible | Hébergé à Washington DC | Indisponible | 

@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-30"
+lastupdated: "2019-05-08"
 
 keywords: search, find,
 
@@ -36,9 +36,9 @@ Vous pouvez rechercher des ressources mises à disposition devant se trouver dan
 <dt>Afficher tous les résultats de catalogue</dt>
 <dd>Cette option permet d'afficher une recherche de catalogue filtrée. Les cinq premiers résultats s'affichent par nom. Si vous souhaitez avoir un critère de recherche plus détaillé pour les entrées de catalogue, comme la recherche de la description, vous pouvez cliquer sur ce lien et obtenir une vue des résultats de catalogue filtrés. Cette option vous permet de trouver plus rapidement les offres que vous souhaitez créer. Elle s'affiche si elle correspond à un résultat de catalogue. Cette zone ne s'affiche pas si votre requête de recherche commence par `tag:`.</dd>
 <dt>Rechercher dans les cas de support</dt>
-<dd>Cette option permet de filtrer en fonction de vos cas de support ouverts au sein de la plateforme, notamment les ressources d'infrastructure. Cette option s'affiche à la fin de la recherche, notamment si vous effectuez une recherche en utilisant `tag:`.</dd>
-<dt>Rechercher dans des documents</dt>
-<dd>Cette option permet d'obtenir un résultat filtré de la documentation. Cette option s'affiche à la fin de la recherche, notamment si vous effectuez une recherche en utilisant `tag:`.</dd>
+<dd>Cette option permet de filtrer en fonction de vos cas de support ouverts au sein de la plateforme, notamment les ressources d'infrastructure. Elle s'affiche à la fin de la recherche, notamment si vous effectuez une recherche en utilisant `tag:`.</dd>
+<dt>Rechercher dans la documentation IBM Cloud</dt>
+<dd>Cette option permet d'obtenir une recherche filtrée de la documentation. Elle s'affiche à la fin de la recherche, notamment si vous effectuez une recherche en utilisant `tag:`.</dd>
 </dl>
 
 Appuyez sur la touche Barre oblique (/) pour positionner votre curseur dans la zone de recherche.

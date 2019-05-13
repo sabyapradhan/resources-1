@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-08"
+lastupdated: "2019-05-08"
 
 keywords: service key, api key, bind, credential
 
@@ -14,12 +14,16 @@ subcollection: resources
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:note: .note}
+{:tip: .tip}
 
 
 # Ajout et affichage de données d'identification
 {: #service_credentials}
 
-Vous pouvez générer un nouveau jeu de données d'identification pour le cas où vous voudriez connecter manuellement un consommateur extérieur à un service {{site.data.keyword.Bluemix}}. Par exemple, si vous tentez de lier une application AWS à un service Watson, vous devrez générer de nouvelles données d'identification pouvant être utilisées pour lier entre eux ces deux éléments.
+Vous pouvez générer un nouveau jeu de données d'identification pour le cas où vous voudriez connecter manuellement une application ou un consommateur externe à un service {{site.data.keyword.Bluemix}}. Par exemple, si vous tentez de lier une application AWS à un service Watson, vous devrez générer de nouvelles données d'identification pouvant être utilisées pour lier entre eux ces deux éléments. Une fois que vos données d'identification sont créées, vous pouvez les [ajouter manuellement](/docs/apps/tutorials?topic=creating-apps-credentials_overview) à votre application {{site.data.keyword.Bluemix_notm}} ou à un autre [consommateur externe](/docs/resources?topic=resources-externalapp) pour connecter votre service.
+
+Pour ajouter manuellement des données d'identification à vos applications, consultez la documentation du type d'application ou de l'option de traitement que vous utilisez.
+{: tip}
 
 ## Ajout de données d'identification lors de la liaison d'un service avec l'offre IAM activée
 {: #IAM}
@@ -67,4 +71,5 @@ Pour afficher les données d'identification de service d'un service, procédez c
 1. Dans la liste Ressources, sélectionnez le nom du service pour ouvrir la page des détails du service. 
 2. Cliquez sur **Données d'identification pour le service**
 3. Développez **Afficher les données d'identification** sur la ligne de données d'identification existantes.
+
 
