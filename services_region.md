@@ -25,7 +25,7 @@ Not all services are available for purchase in every {{site.data.keyword.Bluemix
 Services that are hosted globally create resources that operate across multiple locations. For example, with {{site.data.keyword.cos_full_notm}}, you can choose to disperse data across a single [data center](/docs/overview?topic=overview-zero-downtime#data_center), or even a combination of locations by [selecting the endpoint](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability) where your application sends REST API requests.
 
 <!-- Do not manually change the table or add content after the table. -->
-<!-- Everything after the second line of the table will be deleted. -->
+<!-- The tables and everything after are deleted and refreshed daily. -->
 <!-- Also, do not change the number of dashes in the second line. -->
 <!-- Ping @natimpe for details. -->
 
