@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-01"
+lastupdated: "2019-05-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -87,7 +87,6 @@ subcollection: resources
 |Hyper Protect Crypto Services |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
 |Hyper Protect DBaaS |不適用 |不適用 |不適用 |不適用 |在華盛頓特區進行管理|不適用 | 
 | IBM Cognos Dashboard Embedded |在達拉斯進行管理|在倫敦進行管理|不適用 |不適用 |不適用 |不適用 | 
-|IBM Identity Mixer |不適用 |在倫敦進行管理|不適用 |在雪梨進行管理|不適用 |不適用 | 
 |Information Server |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Informix|在達拉斯進行管理|從達拉斯進行聯合發佈|不適用 |從達拉斯進行聯合發佈|不適用 |不適用 | 
 |Instrument Analytics |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
@@ -99,7 +98,6 @@ subcollection: resources
 |Knowledge Studio |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 |Language Translator|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|在東京進行管理| 
 |Lift CLI |在達拉斯進行管理|不適用 |不適用 |不適用 |不適用 |不適用 | 
-|Log Analysis |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |MQ |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Machine Learning |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |不適用 |在東京進行管理| 
 |Managed Financial Data API |在達拉斯進行管理|不適用 |不適用 |不適用 |在華盛頓特區進行管理|不適用 | 

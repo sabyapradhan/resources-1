@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-30"
+lastupdated: "2019-05-08"
 
 keywords: search, find,
 
@@ -37,8 +37,8 @@ Puoi cercare le risorse di cui è stato eseguito il provisioning che prevedi di 
 <dd>Utilizza questa opzione per visualizzare una ricerca nel catalogo filtrata. I primi cinque risultati vengono visualizzati in base al nome. Se vuoi dei criteri di ricerca più dettagliati per le voci di catalogo, come ad esempio la ricerca nella descrizione, puoi fare clic su questo link e ottenere una vista dei risultati del catalogo filtrata. Questa opzione ti aiuta a trovare le offerte che vuoi creare più rapidamente. Viene visualizzata se corrisponde a un risultato del catalogo. Questo campo non viene visualizzato se la tua query di ricerca inizia con `tag:`.</dd>
 <dt>Ricerca nei casi di supporto</dt>
 <dd>Utilizza questa opzione per filtrare in base ai tuoi casi di supporto aperti nella piattaforma, comprese le risorse dell'infrastruttura. Viene visualizzata alla fine della ricerca se cerchi qualcosa, anche se cerchi in base alla `tag:`.</dd>
-<dt>Ricerca nei documenti</dt>
-<dd>Utilizza questa opzione per ottenere una vista filtrata della documentazione. Viene visualizzata alla fine della ricerca se cerchi qualcosa, anche se cerchi in base alla `tag:`.</dd>
+<dt>Ricerca nella documentazione IBM Cloud</dt>
+<dd>Utilizza questa opzione per ottenere una ricerca filtrata della documentazione. Viene visualizzata alla fine della ricerca se cerchi qualcosa, anche se cerchi in base alla `tag:`.</dd>
 </dl>
 
 Premi il tasto barra (/) per portare il tuo cursore al campo di ricerca.

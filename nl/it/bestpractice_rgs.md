@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-05-06"
 
 keywords: organize resources, set up resource groups, best practice, resource group strategy
 
@@ -113,7 +113,7 @@ Per ognuno di questi casi di utilizzo, se hai un gruppo di utenti che vuoi abbia
 <p>Vorrei assegnare a tre utenti il ruolo di amministratore per il servizio A al livello dell'account, nonché assegnare loro il ruolo di visualizzatore per tutti i gruppi di risorse nell'account di cui devono creare le istanze.</p>
 </li>
 <li><p>Ho un utente nel mio account che deve solo accedere a una risorsa specifica in un servizio, ad esempio la capacità di scrivere in un bucket A in IBM Cloud Object Storage. Questo utente non dovrebbe visualizzare i gruppi di risorse nel mio account o accedere ad alcun altro servizio o bucket in questa istanza di Cloud Object Storage.</p>
-<p>Vorrei fornire a questo utente il ruolo di scrittore nel bucket A nell'istanza specifica di Cloud Object Storage. Puoi concedere questa politica utilizzando le interfacce specifiche del servizio (la IU Cloud Object Storage, in questo esempio) oppure la IU di assegnazione dell'accesso principale. La IU specifica per il servizio è consigliata perché ti consente di scegliere da un elenco di risorse, mentre la IU di assegnazione dell'accesso non visualizza le risorse al di sotto del livello dell'istanza del servizio e dovrai immettere manualmente il CRN per assegnare la politica a queste risorse.</p>
+<p>Vorrei fornire a questo utente il ruolo di scrittore nel bucket A nell'istanza specifica di Cloud Object Storage. Puoi concedere questa politica utilizzando le interfacce specifiche del servizio (la IU Cloud Object Storage, in questo esempio) oppure la IU di assegnazione dell'accesso principale. L'IU specifica per il servizio viene consigliata perché ti consente di scegliere in un elenco di risorse, mentre l'IU di assegnazione dell'accesso non visualizza le risorse al di sotto del livello dell'istanza e dovrai immettere manualmente il CRN per assegnare la politica a queste risorse.</p>
 </li>
 <li><p>Sto attualmente utilizzando le organizzazioni e gli spazi Cloud Foundry ma inizierò utilizzando i gruppi di risorse e i gruppi di accesso per i miei servizi abilitati a IAM. Attualmente, i miei utenti e le mie risorse sono organizzati in organizzazioni per linee di business e gli spazi sono utilizzati per i diversi progetti in una linea di business.</p>
 <p>Vorrei utilizzare i gruppi di risorse per organizzare le risorse proprio come facevo con gli spazi, pensando a ciascun gruppo di risorse come a uno spazio di progetto. Vorrei quindi configurare dei gruppi di accesso separati per concedere l'accesso necessario ai miei utenti per i corretti gruppi di risorse a livello del progetto. L'accesso può essere concesso a tutte le risorse in un gruppo di risorse oppure anche solo a un gruppo selezionato di risorse all'interno di un gruppo di risorse. Puoi quindi configurare ciascun gruppo di accesso con differenti livelli di accesso alle risorse in un gruppo di risorse, concedendo a ciascun gruppo di utenti l'accesso di cui hanno bisogno per lavorare con le risorse o il gruppo di risorse stesso.</p>

@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-01"
+lastupdated: "2019-05-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -88,7 +88,6 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Hyper Protect Crypto Services | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
 | Hyper Protect DBaaS | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Ospitato a Washington DC | Non disponibile | 
 | IBM Cognos Dashboard Embedded | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
-| IBM Identity Mixer | Non disponibile | Ospitato a Londra | Non disponibile | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Information Server | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Informix | Ospitato a Dallas | Diffuso da Dallas | Non disponibile | Diffuso da Dallas | Non disponibile | Non disponibile | 
 | Instrument Analytics | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
@@ -100,7 +99,6 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Knowledge Studio | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | Language Translator | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Ospitato a Tokyo | 
 | CLI Lift | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 
-| Analisi log | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | MQ | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Machine Learning | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
 | Managed Financial Data API | Ospitato a Dallas | Non disponibile | Non disponibile | Non disponibile | Ospitato a Washington DC | Non disponibile | 

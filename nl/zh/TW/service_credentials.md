@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-08"
+lastupdated: "2019-05-08"
 
 keywords: service key, api key, bind, credential
 
@@ -14,12 +14,16 @@ subcollection: resources
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:note: .note}
+{:tip: .tip}
 
 
 # 新增及檢視認證
 {: #service_credentials}
 
-您可以針對要將外部消費者手動連接至 {{site.data.keyword.Bluemix}} 服務的情況，產生一組新的認證。例如，如果您嘗試將 AWS 應用程式連結至 Watson 服務，則需要產生新的認證，以用來將它們連結在一起。
+您可以針對要將應用程式或外部消費者手動連接至 {{site.data.keyword.Bluemix}} 服務的情況，產生一組新的認證。例如，如果您嘗試將 AWS 應用程式連結至 Watson 服務，則需要產生新的認證，以用來將它們連結在一起。在建立了您的認證之後，可以將它[手動新增](/docs/apps/tutorials?topic=creating-apps-credentials_overview)至您的 {{site.data.keyword.Bluemix_notm}} 應用程式或其他[外部消費者](/docs/resources?topic=resources-externalapp)，以連接您的服務。
+
+若要將認證手動新增至您的應用程式，請參閱您所使用應用程式或運算選項之類型的文件。
+{: tip}
 
 ## 在連結已啟用 IAM 的服務時新增認證
 {: #IAM}
@@ -67,4 +71,5 @@ Cloud Foundry 服務可以產生服務金鑰（也稱為認證）。認證是服
 1. 從資源清單中選取服務的名稱，以開啟服務詳細資料頁面。 
 2. 按一下**服務認證**。
 3. 展開現有認證列上的**檢視認證**。
+
 

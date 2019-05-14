@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-04-08"
+lastupdated: "2019-05-08"
 
 keywords: service key, api key, bind, credential
 
@@ -14,12 +14,16 @@ subcollection: resources
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:note: .note}
+{:tip: .tip}
 
 
 # Aggiunta e visualizzazione delle credenziali
 {: #service_credentials}
 
-Puoi generare una nuova serie di credenziali per i casi in cui vuoi collegare manualmente un consumatore esterno a un servizio {{site.data.keyword.Bluemix}}. Ad esempio, se stai tentando di associare un'applicazione AWS a un servizio Watson, devi generare una nuova credenziale che possa essere utilizzata per associarli.
+Puoi generare una nuova serie di credenziali per i casi in cui vuoi connettere manualmente un'applicazione o un consumatore esterno a un servizio {{site.data.keyword.Bluemix}}. Ad esempio, se stai tentando di associare un'applicazione AWS a un servizio Watson, devi generare una nuova credenziale che possa essere utilizzata per associarli. Dopo aver creato le tue credenziali, puoi [aggiungerle manualmente](/docs/apps/tutorials?topic=creating-apps-credentials_overview) alla tua applicazione {{site.data.keyword.Bluemix_notm}} o a un altro [consumatore esterno](/docs/resources?topic=resources-externalapp) per connettere il tuo servizio.
+
+Per aggiungere manualmente le credenziali alle tue applicazioni, fai riferimento alla documentazione per il tipo di applicazione o opzione di calcolo che stai utilizzando.
+{: tip}
 
 ## Aggiunta di una credenziale quando si associa un servizio abilitato a IAM
 {: #IAM}
@@ -60,11 +64,12 @@ Completa la seguente procedura per aggiungere una credenziale Cloud Foundry:
 ## Visualizzazione di una credenziale
 {: #viewing-credentials}
 
-Dopo aver creato una credenziale per un servizio, può essere visualizzata in qualsiasi momento per gli utenti che hanno bisogno del valore chiave API. Tuttavia, tutti gli utenti devono disporre del corretto livello di accesso per vedere i dettagli di una credenziale, incluso il valore chiave API. L'accesso dell'utente deve essere pari o superiore a quello della credenziale del servizio. Ad esempio, se la credenziale ha il ruolo di servizio IAM `Scrittore`, l'utente che sta tentando di visualizzare la credenziale deve avere assegnato il ruolo del servizio IAM `Scrittore` o `Gestore` per tale particolare servizio. Quando un utente non dispone dell'accesso corretto, i dettagli come il valore chiave API vengono censurati. 
+Dopo aver creato una credenziale per un servizio, può essere visualizzata in qualsiasi momento per gli utenti che hanno bisogno del valore chiave API. Tuttavia, tutti gli utenti devono disporre del corretto livello di accesso per vedere i dettagli di una credenziale, incluso il valore chiave API. L'accesso dell'utente deve essere pari o superiore a quello della credenziale del servizio. Ad esempio, se la credenziale ha il ruolo di servizio IAM `Scrittore`, l'utente che sta tentando di visualizzare la credenziale deve avere assegnato il ruolo del servizio IAM `Scrittore` o `Gestore` per tale particolare servizio. Quando un utente non dispone dell'accesso corretto, i dettagli come il valore chiave API vengono censurati.
 
-Per visualizzare una credenziale esistente per un servizio, completa la seguente procedura: 
+Per visualizzare una credenziale esistente per un servizio, completa la seguente procedura:
 
-1. Dall'elenco risorse, seleziona il nome del servizio per aprire la relativa pagina dei dettagli.  
+1. Dall'elenco risorse, seleziona il nome del servizio per aprire la relativa pagina dei dettagli. 
 2. Fai clic su **Credenziali del servizio**
-3. Espandi **Visualizza credenziali** sulla riga di una credenziale esistente. 
+3. Espandi **Visualizza credenziali** sulla riga di una credenziale esistente.
+
 
