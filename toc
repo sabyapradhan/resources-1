@@ -23,6 +23,7 @@ Working with resources and services
 
     {: .topicgroup}
     Managing services
+        change-plan.md
         connecting_apps.md
         service_credentials.md
         connect_external_app.md
