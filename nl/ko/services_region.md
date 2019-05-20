@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-08"
+lastupdated: "2019-05-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -25,14 +25,13 @@ subcollection: resources
 글로벌로 호스팅되는 서비스는 여러 위치에서 운용되는 리소스를 작성합니다. 예를 들어, {{site.data.keyword.cos_full_notm}}에서 사용자는 애플리케이션이 REST API 요청을 전송하는 [엔드포인트를 선택](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability)하여 단일 [데이터 센터](/docs/overview?topic=overview-zero-downtime#data_center) 또는 조합된 위치에서 데이터를 분산시키도록 선택할 수 있습니다.
 
 <!-- Do not manually change the table or add content after the table. -->
-<!-- Everything after the second line of the table will be deleted. -->
+<!-- The tables and everything after are deleted and refreshed daily. -->
 <!-- Also, do not change the number of dashes in the second line. -->
 <!-- Ping @natimpe for details. -->
 
 |서비스 |댈러스 | 런던 | 프랑크푸르트 |시드니 | 워싱턴 DC | 도쿄 |
 |-----|-----|-----|-----|-----|-----|
 |API Connect | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 |사용할 수 없음 | 
-|Activity Tracker | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |시드니에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 | 
 |Alert Notification | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 |사용할 수 없음 |시드니에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 | 
 |Analytics Engine | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 |Apache Spark | 댈러스에서 호스팅됨 | 런던에서 호스팅됨 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 |사용할 수 없음 | 

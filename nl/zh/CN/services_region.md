@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-08"
+lastupdated: "2019-05-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -25,14 +25,13 @@ subcollection: resources
 全球托管的服务会创建可在多个位置运行的资源。例如，使用 {{site.data.keyword.cos_full_notm}} 时，您可以通过[选择端点](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability)（应用程序在该端点中发送 REST API 请求），选择在单个[数据中心](/docs/overview?topic=overview-zero-downtime#data_center)，甚至在多个位置的组合中分散数据。
 
 <!-- Do not manually change the table or add content after the table. -->
-<!-- Everything after the second line of the table will be deleted. -->
+<!-- The tables and everything after are deleted and refreshed daily. -->
 <!-- Also, do not change the number of dashes in the second line. -->
 <!-- Ping @natimpe for details. -->
 
 |服务|达拉斯|伦敦| 法兰克福|悉尼|华盛顿特区|东京|
 |-----|-----|-----|-----|-----|-----|
 |API Connect| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管| 在华盛顿特区托管 |不可用| 
-|Activity Tracker| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |在悉尼托管|不可用|不可用| 
 |Alert Notification| 在达拉斯托管 | 在伦敦托管 |不可用|在悉尼托管|不可用|不可用| 
 |Analytics Engine| 在达拉斯托管 | 在伦敦托管 | 在法兰克福托管 |不可用|不可用| 在东京托管 | 
 |Apache Spark| 在达拉斯托管 | 在伦敦托管 |不可用|不可用|不可用|不可用| 

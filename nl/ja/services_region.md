@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-08"
+lastupdated: "2019-05-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -26,14 +26,13 @@ subcollection: resources
 グローバルにホストされるサービスが作成するリソースは複数のロケーションで作動します。 例えば、{{site.data.keyword.cos_full_notm}} を使用すると、アプリケーションが REST API 要求を送信する[エンドポイントの選択](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability)によって、1 つの[データ・センター](/docs/overview?topic=overview-zero-downtime#data_center)に、または、複数のロケーションの組み合わせにでも、データを分散させることを選択できます。
 
 <!-- Do not manually change the table or add content after the table. -->
-<!-- Everything after the second line of the table will be deleted. -->
+<!-- The tables and everything after are deleted and refreshed daily. -->
 <!-- Also, do not change the number of dashes in the second line. -->
 <!-- Ping @natimpe for details. -->
 
 | サービス | ダラス | ロンドン | フランクフルト | シドニー | ワシントン DC | 東京 |
 |-----|-----|-----|-----|-----|-----|
 | API Connect | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | ワシントン DC でホスト | 使用不可 | 
-| Activity Tracker | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | シドニーでホスト | 使用不可 | 使用不可 | 
 | Alert Notification | ダラスでホスト | ロンドンでホスト | 使用不可 | シドニーでホスト | 使用不可 | 使用不可 | 
 | Analytics Engine | ダラスでホスト | ロンドンでホスト | フランクフルトでホスト | 使用不可 | 使用不可 | 東京でホスト | 
 | Apache Spark | ダラスでホスト | ロンドンでホスト | 使用不可 | 使用不可 | 使用不可 | 使用不可 | 

@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-08"
+lastupdated: "2019-05-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -25,14 +25,13 @@ subcollection: resources
 在全球管理的服務會建立跨越多個位置運作的資源。例如，使用 {{site.data.keyword.cos_full_notm}}，您可以選擇將資料分散在單一[資料中心](/docs/overview?topic=overview-zero-downtime#data_center)，或甚至是藉由[選取應用程式傳送 REST API 要求的端點](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability)而分散在某個位置組合。
 
 <!-- Do not manually change the table or add content after the table. -->
-<!-- Everything after the second line of the table will be deleted. -->
+<!-- The tables and everything after are deleted and refreshed daily. -->
 <!-- Also, do not change the number of dashes in the second line. -->
 <!-- Ping @natimpe for details. -->
 
 |服務| 達拉斯 | 倫敦 | 法蘭克福 |雪梨| 華盛頓特區 | 東京 |
 |-----|-----|-----|-----|-----|-----|
 |API Connect|在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|在華盛頓特區進行管理|不適用 | 
-|Activity Tracker |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|在雪梨進行管理|不適用 |不適用 | 
 |Alert Notification|在達拉斯進行管理|在倫敦進行管理|不適用 |在雪梨進行管理|不適用 |不適用 | 
 |Analytics Engine |在達拉斯進行管理|在倫敦進行管理|在法蘭克福進行管理|不適用 |不適用 |在東京進行管理| 
 |Apache Spark|在達拉斯進行管理|在倫敦進行管理|不適用 |不適用 |不適用 |不適用 | 

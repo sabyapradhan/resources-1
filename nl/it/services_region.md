@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-08"
+lastupdated: "2019-05-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -26,14 +26,13 @@ Non tutti i servizi sono disponibili per l'acquisto in ogni ubicazione {{site.da
 I servizi ospitati a livello globale creano risorse che operano su più ubicazioni. Ad esempio, con {{site.data.keyword.cos_full_notm}}, puoi scegliere di diffondere i dati in un singolo [data center](/docs/overview?topic=overview-zero-downtime#data_center) o anche in una combinazione di ubicazioni [selezionando l'endpoint](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability) in cui la tua applicazioni invia le richieste API REST.
 
 <!-- Do not manually change the table or add content after the table. -->
-<!-- Everything after the second line of the table will be deleted. -->
+<!-- The tables and everything after are deleted and refreshed daily. -->
 <!-- Also, do not change the number of dashes in the second line. -->
 <!-- Ping @natimpe for details. -->
 
 | Servizio | Dallas | Londra | Francoforte | Sydney | Washington DC | Tokyo |
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Ospitato a Washington DC | Non disponibile | 
-| Programma di traccia dell'attività | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Alert Notification | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Ospitato a Sydney | Non disponibile | Non disponibile | 
 | Analytics Engine | Ospitato a Dallas | Ospitato a Londra | Ospitato a Francoforte | Non disponibile | Non disponibile | Ospitato a Tokyo | 
 | Apache Spark | Ospitato a Dallas | Ospitato a Londra | Non disponibile | Non disponibile | Non disponibile | Non disponibile | 

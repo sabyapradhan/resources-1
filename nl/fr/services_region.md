@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-08"
+lastupdated: "2019-05-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -25,14 +25,13 @@ Les services ne sont pas tous disponibles à l'achat sur tous les emplacements {
 Les services avec hébergement global créent des ressources qui opèrent à travers plusieurs emplacements. Par exemple, avec {{site.data.keyword.cos_full_notm}}, vous pouvez opter de disséminer les données dans un seul [centre de données](/docs/overview?topic=overview-zero-downtime#data_center), ou même une combinaison d'emplacements en [sélectionnant le noeud final](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability) auquel votre application enverra les demandes d'API REST.
 
 <!-- Do not manually change the table or add content after the table. -->
-<!-- Everything after the second line of the table will be deleted. -->
+<!-- The tables and everything after are deleted and refreshed daily. -->
 <!-- Also, do not change the number of dashes in the second line. -->
 <!-- Ping @natimpe for details. -->
 
 | Service | Dallas | Londres | Francfort | Sydney | Washington DC | Tokyo |
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Hébergé à Washington DC | Indisponible | 
-| Activity Tracker | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Hébergé à Sydney | Indisponible | Indisponible | 
 | Alert Notification | Hébergé à Dallas | Hébergé à Londres | Indisponible | Hébergé à Sydney | Indisponible | Indisponible | 
 | Analytics Engine | Hébergé à Dallas | Hébergé à Londres | Hébergé à Francfort | Indisponible | Indisponible | Hébergé à Tokyo | 
 | Apache Spark | Hébergé à Dallas | Hébergé à Londres | Indisponible | Indisponible | Indisponible | Indisponible | 
