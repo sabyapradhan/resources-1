@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-08"
+lastupdated: "2019-05-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -25,14 +25,13 @@ Nicht alle Services sind an jedem {{site.data.keyword.Bluemix_notm}}-Standort er
 Services, die global gehostet werden, erstellen Ressourcen, die über mehrere Standorte hinweg betrieben werden. Zum Beispiel können Sie mit {{site.data.keyword.cos_full_notm}} wählen, die Daten über ein einziges [Rechenzentrum](/docs/overview?topic=overview-zero-downtime#data_center) oder über eine Kombination von Standorten zu verteilen, indem Sie den [Endpunkt auswählen](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability), an den Ihre Anwendung REST-API-Anforderungen sendet.
 
 <!-- Do not manually change the table or add content after the table. -->
-<!-- Everything after the second line of the table will be deleted. -->
+<!-- The tables and everything after are deleted and refreshed daily. -->
 <!-- Also, do not change the number of dashes in the second line. -->
 <!-- Ping @natimpe for details. -->
 
 | Service | Dallas | London | Frankfurt | Sydney | Washington DC | Tokio |
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Gehostet in Washington DC | Nicht verfügbar | 
-| Activity Tracker | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Alert Notification | Gehostet in Dallas | Gehostet in London | Nicht verfügbar | Gehostet in Sydney | Nicht verfügbar | Nicht verfügbar | 
 | Analytics Engine | Gehostet in Dallas | Gehostet in London | Gehostet in Frankfurt | Nicht verfügbar | Nicht verfügbar | Gehostet in Tokio | 
 | Apache Spark | Gehostet in Dallas | Gehostet in London | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | Nicht verfügbar | 

@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-08"
+lastupdated: "2019-05-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -25,14 +25,13 @@ No todos los servicios están disponibles para su adquisición en cada ubicació
 Los servicios alojados globalmente crean recursos que funcionan en varias ubicaciones. Por ejemplo, con {{site.data.keyword.cos_full_notm}}, puede optar por dispersar los datos en un único [centro de datos](/docs/overview?topic=overview-zero-downtime#data_center), o incluso en una combinación de ubicaciones, [seleccionando el punto final](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability) al que aplicación envía las solicitudes de API REST.
 
 <!-- Do not manually change the table or add content after the table. -->
-<!-- Everything after the second line of the table will be deleted. -->
+<!-- The tables and everything after are deleted and refreshed daily. -->
 <!-- Also, do not change the number of dashes in the second line. -->
 <!-- Ping @natimpe for details. -->
 
 | Servicio | Dallas | Londres | Frankfurt | Sídney | Washington DC | Tokio |
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | Alojado en Washington DC | No disponible | 
-| Activity Tracker | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | Alojado en Sídney | No disponible | No disponible | 
 | Alert Notification | Alojado en Dallas | Alojado en Londres | No disponible | Alojado en Sídney | No disponible | No disponible | 
 | Analytics Engine | Alojado en Dallas | Alojado en Londres | Alojado en Frankfurt | No disponible | No disponible | Alojado en Tokio | 
 | Apache Spark | Alojado en Dallas | Alojado en Londres | No disponible | No disponible | No disponible | No disponible | 
