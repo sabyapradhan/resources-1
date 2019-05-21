@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-04-11"
+lastupdated: "2019-05-21"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -54,7 +54,7 @@ If you need additional access in the account, contact the account owner that is 
 {: #create-resource}
 {: faq}
 
-You can create resource groups only if you're assigned the Administrator role on all {{site.data.keyword.Bluemix_notm}} Identity and Access enabled services in the account.
+You can create resource groups only if you're assigned the Administrator role on All Account Management services in the account.
 
 Lite accounts can have only the default resource group, so you can't create any additional resource groups even if you have the required access.
 
