@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-21"
+lastupdated: "2019-05-23"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -68,7 +68,17 @@ You can't delete a resource group after it's created.
 {: #instances-between-rgs}
 {: faq}
 
-You can't move service instances between resource groups. If you assign a service instance incorrectly, you must delete and recreate the instance to assign it to the correct resource group.  
+You can't move service instances between resource groups. If you assign a service instance incorrectly, you must delete and recreate the instance to assign it to another resource group.  
+
+## How do I delete a service from my account?
+{: #service-removal}
+{: faq}
+
+You can delete a service instance by using the following steps:
+
+1. From your dashboard, click **View resources** within the Resources summary widget.
+2. Expand the sections to locate the service instance that you want to delete.
+3. Select the **Actions** ![List of actions icon](../icons/action-menu-icon.svg) menu for the row, and click **Delete**.
 
 ## Can I view usage per resource group?
 {: #view-usage}
