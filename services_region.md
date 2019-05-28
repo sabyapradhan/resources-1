@@ -13,7 +13,6 @@ subcollection: resources
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-
 # Service availability
 {: #services_region}
 
@@ -29,6 +28,7 @@ Services that are hosted globally create resources that operate across multiple 
 <!-- Also, do not change the number of dashes in the second line. -->
 <!-- Ping @natimpe for details. -->
 
+<!-- Everything is deleted after this line. -->
 | Service | Dallas | London | Frankfurt | Sydney | Washington DC | Tokyo |
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hosted in Dallas | Hosted in London | Hosted in Frankfurt | Hosted in Sydney | Hosted in Washington DC | Not available | 
