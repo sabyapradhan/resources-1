@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-31"
+lastupdated: "2019-06-03"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -152,7 +152,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Availability Monitoring | Hosted in London | Not available | 
 | BigInsights for Apache Hadoop (Subscription) | Not available | Not available | 
 | Blockchain | Syndicated from Dallas | Syndicated from Dallas | 
-| Blockchain Platform | Not available | Not available | 
+| Blockchain Platform | Not available | Hosted in Frankfurt | 
 | Certificate Manager | Hosted in London | Hosted in Frankfurt | 
 | Cloud Foundry Enterprise Environment | Not available | Hosted in Frankfurt | 
 | Cloud Object Storage | Hosted globally | Hosted globally | 
@@ -261,7 +261,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Availability Monitoring | Hosted in Sydney | Not available | 
 | BigInsights for Apache Hadoop (Subscription) | Not available | Not available | 
 | Blockchain | Syndicated from Dallas | Not available | 
-| Blockchain Platform | Not available | Not available | 
+| Blockchain Platform | Not available | Hosted in Tokyo | 
 | Certificate Manager | Not available | Hosted in Tokyo | 
 | Cloud Foundry Enterprise Environment | Not available | Not available | 
 | Cloud Object Storage | Hosted globally | Hosted globally | 
