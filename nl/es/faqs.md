@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-04-11"
+lastupdated: "2019-05-23"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -54,7 +54,7 @@ Si necesita acceso adicional en la cuenta, póngase en contacto con el propietar
 {: #create-resource}
 {: faq}
 
-Solo puede crear grupos de recursos si se le asigna el rol Administrador en todos los servicios habilitados para {{site.data.keyword.Bluemix_notm}} Identity and Access en la cuenta.
+Solo puede crear grupos de recursos si se le asigna el rol Administrador en todos los servicios de gestión de cuentas en la cuenta.
 
 Las cuentas Lite solo pueden tener el grupo de recursos predeterminado, por lo que no puede crear grupos de recursos adicionales aunque tenga el acceso necesario.
 
@@ -68,7 +68,17 @@ No se puede suprimir un grupo de recursos después de haberlo creado.
 {: #instances-between-rgs}
 {: faq}
 
-No puede mover instancias de servicio entre grupos de recursos. Si asigna una instancia de servicio de forma incorrecta, tiene que suprimir y volver a crear la instancia para asignarla al grupo de recursos correcto.  
+No puede mover instancias de servicio entre grupos de recursos. Si asigna una instancia de servicio de forma incorrecta, tiene que suprimir y volver a crear la instancia para asignarla a otro grupo de recursos.  
+
+## ¿Cómo suprimo un servicio de mi cuenta?
+{: #service-removal}
+{: faq}
+
+Para suprimir una instancia de servicio, siga estos pasos:
+
+1. En el panel de control, pulse **Ver recursos** en el widget Resumen de recursos.
+2. Amplíe las secciones para localizar la instancia de servicio que desea suprimir.
+3. Seleccione el menú **Acciones** ![Icono Lista de acciones](../icons/action-menu-icon.svg) de la fila y pulse **Suprimir**.
 
 ## ¿Puedo ver el uso por grupo de recursos?
 {: #view-usage}

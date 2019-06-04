@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-04-11"
+lastupdated: "2019-05-23"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -44,19 +44,19 @@ Quando disponi di servizi Cloud Foundry che possono essere migrati a un gruppo d
 {: #create-add-resource}
 {: faq}
 
-Molto probabilmente stai avendo un problema di accesso. Devi avere almeno il ruolo di visualizzatore sul gruppo di risorse stesso e almeno il ruolo di editor sul servizio nell'account. Per ulteriori informazioni, vedi [Aggiunta di risorse a un gruppo di risorse](/docs/resources?topic=resources-rgs#add_to_rgs).
+Molto probabilmente stai avendo un problema di accesso. Devi avere almeno il ruolo di visualizzatore sul gruppo di risorse stesso e almeno il ruolo di editor sul servizio nell'account. Trova ulteriori informazioni in [Aggiunta di risorse a un gruppo di risorse](/docs/resources?topic=resources-rgs#add_to_rgs).
 
-Per ulteriori informazioni su come controllare l'accesso assegnato, vedi [Controllo del tuo accesso assegnato](/docs/iam?topic=iam-iammanidaccser#review_your_access).
+Per ulteriori informazioni su come controllare il tuo accesso assegnato, vedi [Controllo del tuo accesso assegnato](/docs/iam?topic=iam-iammanidaccser#review_your_access).
 
-Se hai bisogno di ulteriore accesso nell'account, contatta il proprietario dell'account elencato nella pagina [Utenti](https://{DomainName}/iam#/users). 
+Se hai bisogno di accesso aggiuntivo nell'account, contatta il proprietario dell'account che è elencato nella pagina [Users](https://{DomainName}/iam#/users). 
 
 ## Chi può creare i gruppi di risorse?
 {: #create-resource}
 {: faq}
 
-Puoi creare dei gruppi di risorse solo se ti è stato assegnato il ruolo di Amministratore su tutti i servizi abilitati per l'accesso e l'identità {{site.data.keyword.Bluemix_notm}} nell'account.
+Puoi creare dei gruppi di risorse solo se ti è stato assegnato il ruolo di Amministratore su tutti i servizi di gestione nell'account.
 
-Gli account Lite possono avere solo il gruppo di risorse predefinito, quindi non puoi creare gruppi di risorse aggiuntivi anche se disponi dell'accesso richiesto.
+Gli account Lite possono avere solo il gruppo di risorse predefinito, per cui non puoi creare altri gruppi di risorse anche se disponi dell'accesso richiesto.
 
 ## Posso eliminare un gruppo di risorse?
 {: #delete-resource-group}
@@ -68,7 +68,17 @@ Non puoi eliminare un gruppo di risorse dopo averlo creato.
 {: #instances-between-rgs}
 {: faq}
 
-Non puoi spostare le istanze del servizio tra i gruppi di risorse. Se assegni un'istanza del servizio in modo non corretto, devi eliminare e creare nuovamente l'istanza per assegnarla al gruppo di risorse corretto.  
+Non puoi spostare le istanze del servizio tra i gruppi di risorse. Se assegni un'istanza del servizio in modo non corretto, devi eliminare e creare nuovamente l'istanza per assegnarla a un altro gruppo di risorse.  
+
+## Come posso eliminare un servizio dal mio account?
+{: #service-removal}
+{: faq}
+
+Puoi eliminare un'istanza del servizio utilizzando la seguente procedura:
+
+1. Dal tuo dashboard, fai clic su **Visualizza risorse** nel widget Riepilogo risorse.
+2. Espandi le sezioni per individuare l'istanza del servizio che vuoi eliminare.
+3. Seleziona il menu **Azioni** ![Icona Elenco di azioni](../icons/action-menu-icon.svg) per la riga e fai clic su **Elimina**.
 
 ## Posso visualizzare l'utilizzo del gruppo di risorse?
 {: #view-usage}
@@ -76,8 +86,8 @@ Non puoi spostare le istanze del servizio tra i gruppi di risorse. Se assegni un
 
 Sì, puoi. Per aprire la pagina Dashboard di utilizzo, fai clic su **Gestisci** &gt; **Fatturazione e utilizzo**. Seleziona **Utilizzo** per visualizzare un riepilogo dell'utilizzo in base al gruppo di risorse per l'account. 
 
-## Chi può aggiungere tag a una risorsa?
+## Chi può aggiungere le tag a una risorsa?
 {: #tag-fag}
 {: faq}
 
-Qualsiasi utente a cui è assegnato l'accesso corretto per il tipo specifico di risorsa può aggiungere tag. Quando una risorsa viene contrassegnata con tag, è visibile a tutti gli utenti che hanno accesso in lettura alla risorsa. Tuttavia, per aggiungere o rimuovere una tag da una risorsa, sono necessari determinati ruoli di accesso o autorizzazioni a seconda del tipo di risorsa. Ad esempio, per tutte le risorse che vengono gestite tramite IAM, ti deve essere assegnato il ruolo Editor o Amministratore sulla risorsa. Per ulteriori informazioni sull'accesso richiesto per gli altri tipi di risorse, vedi [Autorizzazioni delle operazioni di tag](/docs/resources?topic=resources-access#tagging-permissions).
+Tutti gli utenti a cui è stato assegnato l'accesso corretto per il tipo specifico di risorsa possono aggiungere delle tag. Dopo che una tag è stata aggiunta a una risorsa, è visibile a tutti gli utenti che hanno accesso in lettura alla risorsa. Tuttavia, per aggiungere o rimuovere una tag da una risorsa, sono necessarie delle specifiche autorizzazioni o degli specifici ruoli di accesso, a seconda del tipo di risorsa. Ad esempio, per tutte le risorse gestite utilizzando IAM, devi avere assegnato il ruolo di editor o amministratore sulla risorsa. Per ulteriori informazioni sull'accesso richiesto per altri tipi di risorse, vedi [Autorizzazioni delle operazioni di tag](/docs/resources?topic=resources-access#tagging-permissions).
