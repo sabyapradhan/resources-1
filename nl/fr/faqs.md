@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-04-11"
+lastupdated: "2019-05-23"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -54,7 +54,7 @@ Si vous avez besoin d'un accès supplémentaire au compte, contactez le proprié
 {: #create-resource}
 {: faq}
 
-Vous pouvez créer des groupes de ressources uniquement si vous disposez du rôle Administrateur pour tous les services activés par IAM {{site.data.keyword.Bluemix_notm}} dans le compte.
+Vous pouvez créer des groupes de ressources uniquement si vous disposez du rôle Administrateur pour tous les services de gestion des comptes dans le compte.
 
 Les comptes Lite ne peuvent inclure que le groupe de ressources par défaut. Vous ne pouvez donc pas créer de groupe de ressources supplémentaire même si vous disposez de l'accès requis.
 
@@ -68,7 +68,17 @@ Une fois un groupe de ressources créé, il n'est pas possible de le supprimer.
 {: #instances-between-rgs}
 {: faq}
 
-Vous ne pouvez pas déplacer des instances de service entre différents groupes de ressources. Si vous affectez une instance de service de manière incorrecte, vous devez supprimer et recréer l'instance afin de l'affecter au groupe de ressources correct.  
+Vous ne pouvez pas déplacer des instances de service entre différents groupes de ressources. Si vous affectez une instance de service de manière incorrecte, vous devez supprimer et recréer l'instance afin de l'affecter à un autre groupe de ressources.   
+
+## Comment supprimer un service de mon compte ?
+{: #service-removal}
+{: faq}
+
+Vous pouvez supprimer une instance de service en procédant comme suit :
+
+1. A partir du tableau de bord, cliquez sur **Afficher les ressources** dans le widget récapitulant les ressources. 
+2. Développez les sections et localisez l'instance de service que vous souhaitez supprimer. 
+3. Sélectionnez l'icône **Actions** ![icône Liste d'actions](../icons/action-menu-icon.svg) pour la ligne, puis cliquez sur **Supprimer**.
 
 ## Puis-je consulter l'utilisation par groupe de ressources ?
 {: #view-usage}
