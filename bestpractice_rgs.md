@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-05-06"
+lastupdated: "2019-06-03"
 
 keywords: organize resources, set up resource groups, best practice, resource group strategy
 
@@ -73,14 +73,16 @@ You provide access for users or groups of users that are organized in access gro
 
 Review the following table for more information about the two types of access and what each assigned platform IAM role provides a user the ability to do:
 
-| Access policy details  | Actions for access on resource groups | Action on resources in resource groups |
+|   | Actions for access to manage resource groups | Action on resources in resource groups |
 |:-----------------|:--------------|:---------------|
-| Assign access to | Selected resource group | Selected service in a resource group |
 | Viewer role  | View the group and its characteristics, but not the resources in the group | View resources in the group |
 | Operator role | Not applicable | Not applicable |
 | Editor role | View or edit name or other characteristics of the group, but not the resources in the group | Create, delete, edit, suspend, resume, view, bind, and manage access of resources in the resource group |
 | Administrator role |  View, edit, or manage access for the group, but not the resources in the group | Create, delete, edit, suspend, resume, view, bind, and manage access of resources in the resource group |
+{: row-headers}
+{: class="comparison-table"}
 {: caption="Table 1. Access for resource groups" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the selected role of an access policy. The column headers identify the type of policy whether its assigning access to manage a resource group or access to resources within a resource group. The remaining cells tell you the allowable actions based on the type of policy and the specific role that is selected as defined in the header rows."}
 
 If you want a user to create a new service instance and add it to a resource group, the user must be assigned as a Viewer or higher on the resource group and Editor or above on the service.
 {: tip}
