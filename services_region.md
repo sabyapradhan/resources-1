@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-03"
+lastupdated: "2019-06-04"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -240,7 +240,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Watson Studio | Hosted in London | Hosted in Frankfurt | 
 | Weather Company Data | Hosted in London | Not available | 
 | WebSphere Application Server | Hosted in London | Hosted in Frankfurt | 
-{: caption="Table 1. Service availability - Europe" caption-side="top"}
+{: caption="Table 2. Service availability - Europe" caption-side="top"}
 {: #paas-table2}
 {: tab-title="Europe"}
 {: tab-group="PaaS"}
@@ -349,7 +349,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Watson Studio | Not available | Hosted in Tokyo | 
 | Weather Company Data | Hosted in Sydney | Not available | 
 | WebSphere Application Server | Hosted in Sydney | Not available | 
-{: caption="Table 1. Service availability - Asia Pacific" caption-side="top"}
+{: caption="Table 3. Service availability - Asia Pacific" caption-side="top"}
 {: #paas-table3}
 {: tab-title="Asia Pacific"}
 {: tab-group="PaaS"}
