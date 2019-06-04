@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-06-03"
 
 keywords: tagging, enabling others to tag, tagging permissions
 
@@ -35,6 +35,7 @@ Tags are visible to any user in an account. Once a resource is tagged, the tag i
 | Classic infrastructure*| View hardware details permission or view virtual server details permission |
 | Cloud Object Storage S3 on classic infrastructure | Storage manage permission |
 {: caption="Table 1. Required roles for adding and removing tags" caption-side="top"}
+{: summary="This is a simple data table. However, the asterisk indicates that you must read the qualifying note after this table."}
 
 *The taggable resources in classic infrastructure are Virtual Guest, Virtual Dedicated Host, Network Application Delivery Controller, Gateway Member, Subnet, VLAN, and VLAN Firewall (Dedicated).
 
