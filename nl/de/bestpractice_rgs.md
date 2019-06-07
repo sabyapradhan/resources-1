@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-05-06"
+lastupdated: "2019-06-03"
 
 keywords: organize resources, set up resource groups, best practice, resource group strategy
 
@@ -73,14 +73,16 @@ Den Zugriff für Benutzer oder Benutzergruppen, die zu Zugriffsgruppen zusammeng
 
 Weitere Informationen zu den zwei Arten des Zugriffs und den Möglichkeiten des Benutzers hinsichtlich jeder zugewiesenen IAM-Plattformrolle finden Sie in der folgenden Tabelle:
 
-| Zugriffsrichtlinie - Details  | Aktionen für Zugriff auf Ressourcengruppen | Aktion für Ressourcen in Ressourcengruppen |
+|   | Aktionen für den Verwaltungszugriff auf Ressourcengruppen | Aktion für Ressourcen in Ressourcengruppen |
 |:-----------------|:--------------|:---------------|
-| Zugriff zuweisen für | Ausgewählte Ressourcengruppe | Ausgewählten Service in einer Ressourcengruppe |
 | Anzeigeberechtigten-Rolle  | Gruppe und Merkmale, aber nicht Ressourcen in der Gruppe anzeigen | Ressourcen in der Gruppe anzeigen |
 | Operatorrolle | Nicht zutreffend | Nicht zutreffend |
 | Bearbeiterrolle | Name oder Merkmale der Gruppe anzeigen oder bearbeiten, aber nicht der Ressourcen in der Gruppe | Zugriff auf Ressourcen in Ressourcengruppe erstellen, löschen, bearbeiten, aussetzen, wiederaufnehmen, anzeigen, binden und verwalten |
 | Administratorrolle |  Zugriff auf Gruppe anzeigen, bearbeiten oder verwalten, aber nicht auf Ressourcen in der Gruppe | Zugriff auf Ressourcen in Ressourcengruppe erstellen, löschen, bearbeiten, aussetzen, wiederaufnehmen, anzeigen, binden und verwalten |
+{: row-headers}
+{: class="comparison-table"}
 {: caption="Tabelle 1. Zugriff auf Ressourcengruppen" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the selected role of an access policy. The column headers identify the type of policy whether its assigning access to manage a resource group or access to resources within a resource group. The remaining cells tell you the allowable actions based on the type of policy and the specific role that is selected as defined in the header rows."}
 
 Wenn ein Benutzer neue Serviceinstanz erstellen und diese zu einer Ressourcengruppe hinzufügen können soll, muss dem Benutzer die Rolle eines Anzeigeberechtigten oder eine Rolle mit umfassenderen Berechtigungen für die Ressourcengruppe sowie die Rolle eines Editors (Bearbeiters) für den Service zugewiesen werden.
 {: tip}

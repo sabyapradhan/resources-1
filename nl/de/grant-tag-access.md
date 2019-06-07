@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-06-03"
 
 keywords: tagging, enabling others to tag, tagging permissions
 
@@ -22,7 +22,7 @@ subcollection: resources
 Als Kontoeigner können Sie einen Teil der Zuständigkeit für das Ressourcentagging delegieren. Erteilen Sie dazu anderen Benutzern des Kontos den erforderlichen Zugriff für das Hinzufügen und Entfernen von Ressourcentags. Benutzer des Kontos können Tags zu einer Ressource hinzufügen, wenn ihnen die erforderliche Zugriffsberechtigung zugewiesen wurde. Der Zugriff auf Services, die zu einer Ressourcengruppe gehören, wird über IAM-Zugriffsrichtlinien von {{site.data.keyword.Bluemix}} (IAM = Identity and Access Management, Identitäts- und Zugriffsmanagement) gesteuert, der Zugriff auf Services, die zu einer Cloud Foundry-Organisation und einem Cloud Foundry-Bereich gehören, über Rollen für Cloud Foundry-Organisationen und -Bereiche.
 {: shortdesc}
 
-## Tagberechtigungen
+## Taggingberechtigungen
 {: #tagging-permissions}
 
 Tags sind für alle Benutzer in einem Konto sichtbar. Sobald eine Ressource mit einem Tag versehen ist, ist der Tag für alle Benutzer sichtbar, die über einen Lesezugriff auf die Ressource verfügen. Zum Hinzufügen oder Entfernen eines Ressourcentags sind je nach Ressourcentyp bestimmte Zugriffsrollen bzw. Zugriffsberechtigungen erforderlich. Entnehmen Sie der folgenden Tabelle die Rollen, die für die einzelnen Ressourcentypen erforderlich sind.
@@ -35,6 +35,7 @@ Tags sind für alle Benutzer in einem Konto sichtbar. Sobald eine Ressource mit 
 | Klassische Infrastruktur*| Berechtigung zum Anzeigen von Hardwaredetails oder Berechtigung zum Anzeigen von Details virtueller Server |
 | Cloud Object Storage S3 für klassische Infrastruktur | Berechtigung zum Verwalten von Speicher |
 {: caption="Tabelle 1. Für das Hinzufügen und Entfernen von Tags erforderliche Rollen" caption-side="top"}
+{: summary="This is a simple data table. However, the asterisk indicates that you must read the qualifying note after this table."}
 
 *In der klassischen Infrastruktur können den folgenden Ressourcen Tags hinzugefügt werden: virtuelle Gastmaschine, virtueller dedizierter Host, Network Application Delivery Controller, Gateway-Member, Teilnetz, VLAN und VLAN-Firewall (dediziert).
 
