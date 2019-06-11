@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-23"
+lastupdated: "2019-05-21"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -75,20 +75,7 @@ Não é possível excluir um grupo de recursos após ele ter sido criado.
 {: #instances-between-rgs}
 {: faq}
 
-Não é possível mover as instâncias de serviço entre os grupos de recursos. Caso uma instância de
-serviço seja designada incorretamente, deve-se excluir e recriar a instância para designá-la a outro
-grupo de recursos.  
-
-## Como excluo um serviço da minha conta?
-{: #service-removal}
-{: faq}
-
-É possível excluir uma instância de serviço usando as etapas a seguir:
-
-1. Em seu painel, clique em **Visualizar recursos** dentro do widget de resumo Recursos.
-2. Expanda a seções para localizar a instância de serviço que deseja excluir.
-3. Selecione o menu **Ações**![Ícone da Lista de ações](../icons/action-menu-icon.svg)
-para a linha e clique em **Excluir**.
+Não é possível mover as instâncias de serviço entre os grupos de recursos. Se você designar uma instância de serviço incorretamente, deverá excluir e recriar a instância para designá-la ao grupo de recursos correto.  
 
 ## Posso visualizar o uso por grupo de recursos?
 {: #view-usage}

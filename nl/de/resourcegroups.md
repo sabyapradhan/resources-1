@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2019
-lastupdated: "2019-02-07"
+lastupdated: "2019-05-21"
 
 keywords: resource group, account resources, users access to resource groups, create resource group
 
@@ -20,7 +20,7 @@ subcollection: resources
 {:new_window: target="_blank"}
 {:note: .note}
 
-# Ressourcengruppen verwalten
+# Ressourcengruppen erstellen und verwalten
 {: #rgs}
 
 Ressourcengruppen bieten Ihnen die Möglichkeit, Ihre Kontoressourcen in anpassbaren Gruppierungen zu organisieren, sodass Sie den Benutzern schnell Zugriff auf mehrere Ressourcen gleichzeitig zuordnen können. Jede Kontoressource, die mit der Zugriffssteuerung von {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) verwaltet wird, gehört zu einer Ressourcengruppe innerhalb Ihres Kontos. Cloud Foundry-Services werden Organisationen und Bereichen zugewiesen und können nicht zu einer Ressourcengruppe hinzugefügt werden.
@@ -33,7 +33,7 @@ Beginnen Sie mit dem Verwalten Ihrer Ressourcengruppen, indem Sie **Verwalten** 
 
 Wenn Sie über ein nutzungsabhängiges Konto oder ein Abonnementkonto verfügen, dann können Sie mehrere Ressourcengruppen erstellen, um auf einfache Weise Kontingente zu verwalten und die Informationen zu Abrechnung und Nutzung für ein Ressourcenset anzuzeigen. Durch die Gruppierung von Ressourcen wird außerdem die gleichzeitige Zuweisung von Zugriffsberechtigungen für mehrere Instanzen an die Benutzer erleichtert. Des Weiteren ist zu beachten, dass Sie eine Ressourcengruppe umbenennen, jedoch keine erstellte Ressourcengruppe löschen können.
 
-Wenn Sie über ein Lite-Konto oder ein 30-Tage-Testkonto verfügen, können Sie zwar keine zusätzlichen Ressourcengruppen erstellen, jedoch die Standardressourcengruppe umbenennen.
+Ihnen muss eine IAM-Richtlinie mit der Administratorrolle für alle Kontoverwaltungsservices zugewiesen sein, damit Sie weitere Ressourcengruppen erstellen können. Wenn Sie über ein Lite-Konto oder ein 30-Tage-Testkonto verfügen, können Sie zwar keine zusätzlichen Ressourcengruppen erstellen, jedoch die Standardressourcengruppe umbenennen.
 
 Verbindungen zwischen einer Ressourcengruppe und einer Cloud Foundry-Organisation oder einem Cloud Foundry-Bereich sind durch Ihr Kontingent eingeschränkt. Weitere Informationen finden Sie in [Was ist ein Alias?](/docs/resources?topic=resources-connect_app#what_is_alias).
 {: note}

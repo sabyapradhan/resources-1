@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-23"
+lastupdated: "2019-05-21"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -68,17 +68,7 @@ Une fois un groupe de ressources créé, il n'est pas possible de le supprimer.
 {: #instances-between-rgs}
 {: faq}
 
-Vous ne pouvez pas déplacer des instances de service entre différents groupes de ressources. Si vous affectez une instance de service de manière incorrecte, vous devez supprimer et recréer l'instance afin de l'affecter à un autre groupe de ressources.   
-
-## Comment supprimer un service de mon compte ?
-{: #service-removal}
-{: faq}
-
-Vous pouvez supprimer une instance de service en procédant comme suit :
-
-1. A partir du tableau de bord, cliquez sur **Afficher les ressources** dans le widget récapitulant les ressources. 
-2. Développez les sections et localisez l'instance de service que vous souhaitez supprimer. 
-3. Sélectionnez l'icône **Actions** ![icône Liste d'actions](../icons/action-menu-icon.svg) pour la ligne, puis cliquez sur **Supprimer**.
+Vous ne pouvez pas déplacer des instances de service entre différents groupes de ressources. Si vous affectez une instance de service de manière incorrecte, vous devez supprimer et recréer l'instance afin de l'affecter au groupe de ressources correct.  
 
 ## Puis-je consulter l'utilisation par groupe de ressources ?
 {: #view-usage}

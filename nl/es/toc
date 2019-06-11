@@ -23,6 +23,7 @@ Cómo trabajar con recursos y servicios
 
     {: .topicgroup}
     Gestión de servicios
+        change-plan.md
         connecting_apps.md
         service_credentials.md
         connect_external_app.md

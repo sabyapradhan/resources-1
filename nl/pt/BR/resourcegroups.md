@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2019
-lastupdated: "2019-02-07"
+lastupdated: "2019-05-21"
 
 keywords: resource group, account resources, users access to resource groups, create resource group
 
@@ -20,7 +20,7 @@ subcollection: resources
 {:new_window: target="_blank"}
 {:note: .note}
 
-# Gerenciando grupos de recursos
+# Criando e gerenciando grupos de recursos
 {: #rgs}
 
 Um grupo de recursos é uma maneira de organizar seus recursos de conta em agrupamentos customizáveis para que seja possível designar rapidamente acesso aos usuários para mais de um recurso por vez. Qualquer recurso de conta que é gerenciado usando o controle de acesso do {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) pertence a um grupo de recursos em sua conta. Os serviços do Cloud Foundry são designados a organizações e espaços e não podem ser incluídos em um grupo de recursos.
@@ -33,7 +33,7 @@ Para iniciar o gerenciamento de seus grupos de recursos, acesse **Gerenciar ** &
 
 Se você tiver uma conta pré-paga ou de assinatura, será possível criar múltiplos grupos de recursos para gerenciar a cota e visualizar o uso de faturamento facilmente para um conjunto de recursos. Também será possível agrupar recursos para tornar mais fácil a designação de acesso de usuários para mais de uma instância por vez. É importante observar que é possível renomear um grupo de recursos, mas não é possível excluir um grupo de recursos após ele ter sido criado.
 
-Se você tem uma conta Lite ou uma avaliação de 30 dias, não é possível criar grupos de recursos adicionais, mas é possível renomear o grupo de recursos padrão.
+Uma política do IAM deve estar designada a você com a função de Administrador em todos os serviços de gerenciamento de conta para criar mais grupos de recursos. Se você tem uma conta Lite ou uma avaliação de 30 dias, não é possível criar grupos de recursos adicionais, mas é possível renomear o grupo de recursos padrão.
 
 As conexões entre um grupo de recursos e uma organização ou espaço do Cloud Foundry são restringidas por sua cota. Para obter mais informações, veja [O que é um alias?](/docs/resources?topic=resources-connect_app#what_is_alias).
 {: note}

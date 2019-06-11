@@ -23,6 +23,7 @@ Recursos e serviços Trabalhando com
 
     {: .topicgroup}
     Gerenciando serviços
+        change-plan.md
         connecting_apps.md
         service_credentials.md
         connect_external_app.md

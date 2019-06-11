@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-23"
+lastupdated: "2019-05-21"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -68,17 +68,7 @@ subcollection: resources
 {: #instances-between-rgs}
 {: faq}
 
-不能在资源组之间移动服务实例。如果错误地分配了服务实例，那么必须删除该实例，然后重新创建实例，以将其分配给其他资源组。  
-
-## 如何从帐户中删除服务？
-{: #service-removal}
-{: faq}
-
-可以使用以下步骤来删除服务实例：
-
-1. 在仪表板中，单击“资源摘要”窗口小部件中的**查看资源**。
-2. 展开各个部分，以找到要删除的服务实例。
-3. 选择相应行的**操作** ![“操作列表”图标](../icons/action-menu-icon.svg) 菜单，单击**删除**。
+不能在资源组之间移动服务实例。如果错误地分配了服务实例，那么必须删除该实例，然后重新创建实例，以将其分配给正确的资源组。  
 
 ## 可以查看每个资源组的使用情况吗？
 {: #view-usage}

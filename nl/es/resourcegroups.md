@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2019
-lastupdated: "2019-02-07"
+lastupdated: "2019-05-21"
 
 keywords: resource group, account resources, users access to resource groups, create resource group
 
@@ -20,10 +20,10 @@ subcollection: resources
 {:new_window: target="_blank"}
 {:note: .note}
 
-# Gestionar grupos de recursos
+# Creación y gestión de grupos de recursos
 {: #rgs}
 
-Un grupo de recursos es una manera de organizar sus recursos de cuenta en agrupaciones personalizables para que pueda asignar accesos de usuario rápidamente a más de un recurso a la vez. Cualquier recurso de cuenta gestionado utilizando el control de acceso de la Gestión de identidad y acceso de {{site.data.keyword.Bluemix}} pertenece a un grupo de recursos dentro de su cuenta. Los servicios de Cloud Foundry se asignan a organizaciones o espacios y no se pueden añadir a un grupo de recursos.
+Un grupo de recursos es una manera de organizar sus recursos de cuenta en agrupaciones personalizables para que pueda asignar accesos de usuario rápidamente a más de un recurso a la vez. Cualquier recurso de cuenta gestionado utilizando el control de acceso de {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) pertenece a un grupo de recursos dentro de su cuenta. Los servicios de Cloud Foundry se asignan a organizaciones o espacios y no se pueden añadir a un grupo de recursos.
 
 Para empezar a gestionar sus grupos de recursos, vaya a **Gestionar** &gt; **Cuenta**. Amplíe los **Recursos de cuenta** y luego seleccione **Grupos de recursos**. Desde ahí puede ver sus grupos de recursos, añadir recursos, cambiarles el nombre, gestionar accesos y crear nuevos grupos de recursos. Para obtener más información sobre cómo trabajar con grupos de recursos, consulte [Mejores prácticas para organizar los recursos en grupos de recursos](/docs/resources?topic=resources-bp_resourcegroups).
 
@@ -33,7 +33,7 @@ Para empezar a gestionar sus grupos de recursos, vaya a **Gestionar** &gt; **Cue
 
 Si tiene una cuenta de Pago según uso o de Suscripción, puede crear varios grupos de recursos para gestionar fácilmente la cuota y ver el uso de facturación de un conjunto de recursos. También puede agrupar recursos para facilitarles la asignación de acceso a los usuarios a más de una instancia a la vez. Es importante tener en cuenta que puede cambiar el nombre de un grupo de recursos, pero no puede suprimir un grupo de recursos una vez creado.
 
-Si tiene una cuenta Lite o una prueba de 30 días, no puede crear grupos de recursos adicionales pero puede renombrar su grupo de recursos predeterminado.
+Debe tener asignada una política de IAM con un rol de administrador en Todos los servicios de gestión de cuentas para crear más grupos de recursos. Si tiene una cuenta Lite o una prueba de 30 días, no puede crear grupos de recursos adicionales pero puede renombrar su grupo de recursos predeterminado.
 
 Las conexiones entre un grupo de recursos y una organización de Cloud Foundry o espacio están restringidas por su cuota. Para obtener más información, consulte [¿Qué es un alias?](/docs/resources?topic=resources-connect_app#what_is_alias)
 {: note}

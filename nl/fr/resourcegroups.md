@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2019
-lastupdated: "2019-02-07"
+lastupdated: "2019-05-21"
 
 keywords: resource group, account resources, users access to resource groups, create resource group
 
@@ -20,7 +20,7 @@ subcollection: resources
 {:new_window: target="_blank"}
 {:note: .note}
 
-# Gestion des groupes de ressources
+# Création et gestion des groupes de ressources
 {: #rgs}
 
 Un groupe de ressources permet d'organiser vos ressources de compte en regroupements personnalisables de manière à pouvoir affecter rapidement des accès utilisateur à plusieurs ressources à la fois. Chaque ressource de compte gérée à l'aide du contrôle d'accès {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) appartient à un groupe de ressources au sein de votre compte. Les services Cloud Foundry sont affectés à des organisations et des espaces et ne peuvent pas être ajoutés à un groupe de ressources.
@@ -33,7 +33,7 @@ Pour commencer à gérer vos groupes de ressources, accédez à **Gérer** &gt; 
 
 Si vous disposez d'un compte Paiement à la carte ou Abonnement, vous pouvez créer plusieurs groupes de ressources de manière à faciliter la gestion du quota et l'affichage de la facturation d'utilisation d'un ensemble de ressources. Vous pouvez également regrouper des ressources afin de faciliter l'affectation d'accès utilisateur à plusieurs instances à la fois. Il est important de noter que vous pouvez renommer un groupe de ressources, mais que vous ne pouvez pas le supprimer après sa création.
 
-Si vous disposez d'un compte Lite ou d'un compte d'essai de 30 jours, vous ne pouvez pas créer de groupes de ressources supplémentaires, mais vous pouvez renommer votre groupe de ressources par défaut.
+Une règle IAM avec le rôle d'administrateur sur tous les services de gestion des comptes doit vous être attribué pour pouvoir créer d'autres groupes de ressources. Si vous disposez d'un compte Lite ou d'un compte d'essai de 30 jours, vous ne pouvez pas créer de groupes de ressources supplémentaires, mais vous pouvez renommer votre groupe de ressources par défaut.
 
 Les connexions entre un groupe de ressources et une organisation ou un espace Cloud Foundry sont restreintes par votre quota. Pour plus d'informations, voir [Qu'est-ce qu'un alias ?](/docs/resources?topic=resources-connect_app#what_is_alias).
 {: note}

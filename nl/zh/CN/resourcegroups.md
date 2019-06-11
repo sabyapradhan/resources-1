@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2019
-lastupdated: "2019-02-07"
+lastupdated: "2019-05-21"
 
 keywords: resource group, account resources, users access to resource groups, create resource group
 
@@ -20,7 +20,7 @@ subcollection: resources
 {:new_window: target="_blank"}
 {:note: .note}
 
-# 管理资源组
+# 创建和管理资源组
 {: #rgs}
 
 资源组是一种使用可定制的分组来组织帐户资源的方法，可帮助您一次性快速为用户分配对多个资源的访问权。使用 {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) 访问控制来管理的任何帐户资源都属于您帐户中的资源组。Cloud Foundry 服务会分配给组织和空间，并且无法添加到资源组。
@@ -33,7 +33,7 @@ subcollection: resources
 
 如果您拥有现收现付或预订帐户，那么可以创建多个资源组，从而轻松地管理配额和查看一组资源的计费使用情况。您还可以对资源进行分组，从而更轻松地为用户一次性分配对多个实例的访问权。值得注意的是，在创建资源组后，可进行重命名，但是无法删除资源组。
 
-如果您拥有轻量帐户或 30 天试用帐户，那么不能创建额外的资源组，但可以重命名缺省资源组。
+必须以所有帐户管理服务的“管理员”角色来为您分配 IAM 策略，您才能创建更多资源组。如果您拥有轻量帐户或 30 天试用帐户，那么不能创建额外的资源组，但可以重命名缺省资源组。
 
 资源组与 Cloud Foundry 组织或空间之间的连接受您的配额限制。有关更多信息，请参阅[什么是别名？](/docs/resources?topic=resources-connect_app#what_is_alias)。
 {: note}

@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2019
-lastupdated: "2019-02-07"
+lastupdated: "2019-05-21"
 
 keywords: resource group, account resources, users access to resource groups, create resource group
 
@@ -20,7 +20,7 @@ subcollection: resources
 {:new_window: target="_blank"}
 {:note: .note}
 
-# 리소스 그룹 관리
+# 리소스 그룹 작성 및 관리
 {: #rgs}
 
 리소스 그룹은 한 번에 둘 이상의 리소스에 대한 사용자 액세스를 신속하게 지정할 수 있도록 사용자 정의할 수 있는 그룹화에서 계정 리소스를 구성하기 위한 방법입니다. {{site.data.keyword.Bluemix}} Identity and Access Management(IAM) 액세스 제어를 사용하여 관리되는 계정 리소스는 계정 내의 리소스 그룹에 속합니다. Cloud Foundry 서비스는 조직 및 영역에 지정되고 리소스 그룹에 추가될 수 없습니다.
@@ -33,7 +33,7 @@ subcollection: resources
 
 종량과금제 또는 구독 계정이 있으면 여러 개의 리소스 그룹을 작성하여 할당량을 손쉽게 관리하고 리소스 세트에 대한 청구 사용량을 볼 수 있습니다. 한 번에 둘 이상의 인스턴스에 대한 사용자 액세스를 보다 쉽게 지정할 수 있도록 리소스를 그룹화할 수도 있습니다. 리소스 그룹의 이름을 바꿀 수 있지만 리소스 그룹을 작성한 후에는 삭제할 수 없습니다.
 
-Lite 계정 또는 30일 평가판을 보유한 경우에는 추가 리소스 그룹을 작성할 수 없습니다. 단, 기본 리소스 그룹의 이름은 변경이 가능합니다.
+추가 리소스 그룹을 작성하려면 모든 계정 관리 서비스에서 관리자 역할이 있는 IAM 정책이 지정되어야 합니다. Lite 계정 또는 30일 평가판을 보유한 경우에는 추가 리소스 그룹을 작성할 수 없습니다. 단, 기본 리소스 그룹의 이름은 변경이 가능합니다.
 
 리소스 그룹과 Cloud Foundry 조직 또는 영역 간의 연결은 할당량에 따라 제한됩니다. 자세한 정보는 [별명의 개념](/docs/resources?topic=resources-connect_app#what_is_alias)을 참조하십시오.
 {: note}

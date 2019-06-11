@@ -5,7 +5,7 @@
 copyright:
 
   years: 2017, 2019
-lastupdated: "2019-02-07"
+lastupdated: "2019-05-21"
 
 keywords: resource group, account resources, users access to resource groups, create resource group
 
@@ -20,7 +20,7 @@ subcollection: resources
 {:new_window: target="_blank"}
 {:note: .note}
 
-# 管理資源群組
+# 建立及管理資源群組
 {: #rgs}
 
 資源群組可讓您用可自訂的分組來組織帳戶資源，以便您可以一次將對多個資源的存取權快速指派給使用者。使用 {{site.data.keyword.Bluemix}} Identity and Access Management (IAM) 存取控制來管理的任何帳戶資源，都屬於您帳戶內的資源群組。Cloud Foundry 服務會指派給組織和空間，而且不能新增至資源群組。
@@ -33,7 +33,7 @@ subcollection: resources
 
 如果您具有「隨收隨付制」或「訂閱」帳戶，則可以建立多個資源群組來輕鬆地管理配額，以及檢視一組資源的計費用量。您也可以將資源分組，以便更輕鬆地同時將對多個實例的存取權指派給使用者。請務必注意，您可以重新命名資源群組，但在建立資源群組之後即無法將它刪除。
 
-如果您有「精簡」帳戶或 30 天試用，您無法建立額外的資源群組，但可以將 default 資源群組重新命名。
+您必須獲指派具有所有帳戶管理服務之「管理者」角色的 IAM 原則，才能建立更多的資源群組。如果您有「精簡」帳戶或 30 天試用，您無法建立額外的資源群組，但可以將 default 資源群組重新命名。
 
 資源群組與 Cloud Foundry 組織或空間之間的連線受限於您的配額。如需相關資訊，請參閱[何謂別名？](/docs/resources?topic=resources-connect_app#what_is_alias)。
 {: note}

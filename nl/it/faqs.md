@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-23"
+lastupdated: "2019-05-21"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -68,17 +68,7 @@ Non puoi eliminare un gruppo di risorse dopo averlo creato.
 {: #instances-between-rgs}
 {: faq}
 
-Non puoi spostare le istanze del servizio tra i gruppi di risorse. Se assegni un'istanza del servizio in modo non corretto, devi eliminare e creare nuovamente l'istanza per assegnarla a un altro gruppo di risorse.  
-
-## Come posso eliminare un servizio dal mio account?
-{: #service-removal}
-{: faq}
-
-Puoi eliminare un'istanza del servizio utilizzando la seguente procedura:
-
-1. Dal tuo dashboard, fai clic su **Visualizza risorse** nel widget Riepilogo risorse.
-2. Espandi le sezioni per individuare l'istanza del servizio che vuoi eliminare.
-3. Seleziona il menu **Azioni** ![Icona Elenco di azioni](../icons/action-menu-icon.svg) per la riga e fai clic su **Elimina**.
+Non puoi spostare le istanze del servizio tra i gruppi di risorse. Se assegni un'istanza del servizio in modo non corretto, devi eliminare e creare nuovamente l'istanza per assegnarla al gruppo di risorse corretto.  
 
 ## Posso visualizzare l'utilizzo del gruppo di risorse?
 {: #view-usage}
