@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-29"
+lastupdated: "2019-06-05"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -36,7 +36,6 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Serviço | Dallas | Washington DC | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hospedado em Dallas | Hospedado em Washington, D.C. | 
-| Activity Tracker | Hospedado em Dallas | Não está disponível | 
 | Alert Notification | Hospedado em Dallas | Não está disponível | 
 | Analytics Engine | Hospedado em Dallas | Não está disponível | 
 | Apache Spark | Hospedado em Dallas | Não está disponível | 
@@ -47,6 +46,7 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Automated Accessibility Tester | Hospedado em Dallas | Não está disponível | 
 | Availability Monitoring | Hospedado em Dallas | Não está disponível | 
 | BigInsights for Apache Hadoop (assinatura) | Hospedado em Dallas | Não está disponível | 
+| Block Storage for VPC | Não está disponível | Não está disponível | 
 | Blockchain | Hospedado em Dallas | Não está disponível | 
 | Blockchain Platform | Hospedado em Dallas | Não está disponível | 
 | Certificate Manager | Hospedado em Dallas | Não está disponível | 
@@ -83,6 +83,7 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Discovery | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Event Management | Hospedado em Dallas | Não está disponível | 
 | Event Streams | Hospedado em Dallas | Hospedado em Washington, D.C. | 
+| Floating IP for VPC | Hospedado em Dallas | Não está disponível | 
 | Functions | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Geospatial Analytics | Hospedado em Dallas | Não está disponível | 
 | Globalization Pipeline | Hospedado em Dallas | Não está disponível | 
@@ -102,6 +103,7 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Knowledge Studio | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Language Translator | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Lift CLI | Hospedado em Dallas | Não está disponível | 
+| Load Balancer for VPC | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | MQ | Hospedado em Dallas | Não está disponível | 
 | Machine Learning | Hospedado em Dallas | Não está disponível | 
 | Managed Financial Data API | Hospedado em Dallas | Hospedado em Washington, D.C. | 
@@ -120,6 +122,7 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | SQL Query | Hospedado em Dallas | Não está disponível | 
 | Secure Gateway | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Security Advisor | Hospedado em Dallas | Não está disponível | 
+| Security Group for VPC | Hospedado em Dallas | Não está disponível | 
 | Simulated Historical Instrument Analytics | Hospedado em Dallas | Não está disponível | 
 | Simulated Instrument Analytics | Hospedado em Dallas | Não está disponível | 
 | Simulated Instruments Analytics API | Hospedado em Dallas | Hospedado em Washington, D.C. | 
@@ -129,6 +132,9 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Tone Analyzer | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Toolchain | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | VMware Solutions | Hospedado globalmente | Hospedado globalmente | 
+| VPN for VPC | Hospedado em Dallas | Hospedado em Washington, D.C. | 
+| Virtual Private Cloud | Hospedado em Dallas | Não está disponível | 
+| Virtual Server for VPC | Não está disponível | Não está disponível | 
 | Visual Recognition | Hospedado em Dallas | Não está disponível | 
 | Voice Agent with Watson | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Watson Assistant | Hospedado em Dallas | Hospedado em Washington, D.C. | 
@@ -146,7 +152,6 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Serviço | Londres | Frankfurt | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hospedado em Londres | Hospedado em Frankfurt | 
-| Activity Tracker | Hospedado em Londres | Hospedado em Frankfurt | 
 | Alert Notification | Hospedado em Londres | Não está disponível | 
 | Analytics Engine | Hospedado em Londres | Hospedado em Frankfurt | 
 | Apache Spark | Hospedado em Londres | Não está disponível | 
@@ -157,8 +162,9 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Automated Accessibility Tester | Hospedado em Londres | Não está disponível | 
 | Availability Monitoring | Hospedado em Londres | Não está disponível | 
 | BigInsights for Apache Hadoop (assinatura) | Não está disponível | Não está disponível | 
+| Block Storage for VPC | Não está disponível | Não está disponível | 
 | Blockchain | Organizado em Dallas | Organizado em Dallas | 
-| Blockchain Platform | Não está disponível | Não está disponível | 
+| Blockchain Platform | Não está disponível | Hospedado em Frankfurt | 
 | Certificate Manager | Hospedado em Londres | Hospedado em Frankfurt | 
 | Cloud Foundry Enterprise Environment | Não está disponível | Hospedado em Frankfurt | 
 | Cloud Object Storage | Hospedado globalmente | Hospedado globalmente | 
@@ -193,6 +199,7 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Discovery | Hospedado em Londres | Hospedado em Frankfurt | 
 | Event Management | Hospedado em Londres | Não está disponível | 
 | Event Streams | Hospedado em Londres | Hospedado em Frankfurt | 
+| Floating IP for VPC | Hospedado em Londres | Hospedado em Frankfurt | 
 | Functions | Hospedado em Londres | Hospedado em Frankfurt | 
 | Geospatial Analytics | Hospedado em Londres | Não está disponível | 
 | Globalization Pipeline | Hospedado em Londres | Hospedado em Frankfurt | 
@@ -212,6 +219,7 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Knowledge Studio | Hospedado em Londres | Hospedado em Frankfurt | 
 | Language Translator | Hospedado em Londres | Hospedado em Frankfurt | 
 | Lift CLI | Não está disponível | Não está disponível | 
+| Load Balancer for VPC | Hospedado em Londres | Hospedado em Frankfurt | 
 | MQ | Hospedado em Londres | Hospedado em Frankfurt | 
 | Machine Learning | Hospedado em Londres | Hospedado em Frankfurt | 
 | Managed Financial Data API | Não está disponível | Não está disponível | 
@@ -230,6 +238,7 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | SQL Query | Não está disponível | Não está disponível | 
 | Secure Gateway | Hospedado em Londres | Organizado em Dallas | 
 | Security Advisor | Hospedado em Londres | Não está disponível | 
+| Security Group for VPC | Hospedado em Londres | Hospedado em Frankfurt | 
 | Simulated Historical Instrument Analytics | Não está disponível | Não está disponível | 
 | Simulated Instrument Analytics | Não está disponível | Não está disponível | 
 | Simulated Instruments Analytics API | Não está disponível | Não está disponível | 
@@ -239,6 +248,9 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Tone Analyzer | Hospedado em Londres | Hospedado em Frankfurt | 
 | Toolchain | Hospedado em Londres | Hospedado em Frankfurt | 
 | VMware Solutions | Hospedado globalmente | Hospedado globalmente | 
+| VPN for VPC | Hospedado em Londres | Hospedado em Frankfurt | 
+| Virtual Private Cloud | Hospedado em Londres | Hospedado em Frankfurt | 
+| Virtual Server for VPC | Não está disponível | Não está disponível | 
 | Visual Recognition | Não está disponível | Não está disponível | 
 | Voice Agent with Watson | Não está disponível | Não está disponível | 
 | Watson Assistant | Hospedado em Londres | Hospedado em Frankfurt | 
@@ -256,7 +268,6 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Serviço | Sydney | Tóquio | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hospedado em Sydney | Não está disponível | 
-| Activity Tracker | Hospedado em Sydney | Não está disponível | 
 | Alert Notification | Hospedado em Sydney | Não está disponível | 
 | Analytics Engine | Não está disponível | Hospedado em Tóquio | 
 | Apache Spark | Não está disponível | Não está disponível | 
@@ -267,8 +278,9 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Automated Accessibility Tester | Organizado em Londres | Não está disponível | 
 | Availability Monitoring | Hospedado em Sydney | Não está disponível | 
 | BigInsights for Apache Hadoop (assinatura) | Não está disponível | Não está disponível | 
+| Block Storage for VPC | Não está disponível | Não está disponível | 
 | Blockchain | Organizado em Dallas | Não está disponível | 
-| Blockchain Platform | Não está disponível | Não está disponível | 
+| Blockchain Platform | Não está disponível | Hospedado em Tóquio | 
 | Certificate Manager | Não está disponível | Hospedado em Tóquio | 
 | Cloud Foundry Enterprise Environment | Não está disponível | Não está disponível | 
 | Cloud Object Storage | Hospedado globalmente | Hospedado globalmente | 
@@ -303,6 +315,7 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Discovery | Hospedado em Sydney | Hospedado em Tóquio | 
 | Event Management | Hospedado em Sydney | Não está disponível | 
 | Event Streams | Hospedado em Sydney | Hospedado em Tóquio | 
+| Floating IP for VPC | Hospedado em Sydney | Hospedado em Tóquio | 
 | Functions | Não está disponível | Hospedado em Tóquio | 
 | Geospatial Analytics | Organizado em Londres | Não está disponível | 
 | Globalization Pipeline | Hospedado em Sydney | Não está disponível | 
@@ -322,6 +335,7 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Knowledge Studio | Hospedado em Sydney | Hospedado em Tóquio | 
 | Language Translator | Hospedado em Sydney | Hospedado em Tóquio | 
 | Lift CLI | Não está disponível | Não está disponível | 
+| Load Balancer for VPC | Hospedado em Sydney | Hospedado em Tóquio | 
 | MQ | Hospedado em Sydney | Não está disponível | 
 | Machine Learning | Não está disponível | Hospedado em Tóquio | 
 | Managed Financial Data API | Não está disponível | Não está disponível | 
@@ -340,6 +354,7 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | SQL Query | Não está disponível | Não está disponível | 
 | Secure Gateway | Organizado em Dallas | Não está disponível | 
 | Security Advisor | Não está disponível | Não está disponível | 
+| Security Group for VPC | Hospedado em Sydney | Hospedado em Tóquio | 
 | Simulated Historical Instrument Analytics | Não está disponível | Não está disponível | 
 | Simulated Instrument Analytics | Não está disponível | Não está disponível | 
 | Simulated Instruments Analytics API | Não está disponível | Não está disponível | 
@@ -349,6 +364,9 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Tone Analyzer | Hospedado em Sydney | Hospedado em Tóquio | 
 | Toolchain | Não está disponível | Hospedado em Tóquio | 
 | VMware Solutions | Hospedado globalmente | Hospedado globalmente | 
+| VPN for VPC | Hospedado em Sydney | Hospedado em Tóquio | 
+| Virtual Private Cloud | Hospedado em Sydney | Hospedado em Tóquio | 
+| Virtual Server for VPC | Não está disponível | Não está disponível | 
 | Visual Recognition | Não está disponível | Não está disponível | 
 | Voice Agent with Watson | Não está disponível | Não está disponível | 
 | Watson Assistant | Hospedado em Sydney | Hospedado em Tóquio | 

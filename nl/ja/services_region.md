@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-29"
+lastupdated: "2019-06-05"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -33,7 +33,6 @@ subcollection: resources
 | サービス | ダラス | ワシントン DC | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | ダラスでホスト | ワシントン DC でホスト | 
-| Activity Tracker | ダラスでホスト | 使用不可 | 
 | Alert Notification | ダラスでホスト | 使用不可 | 
 | Analytics Engine | ダラスでホスト | 使用不可 | 
 | Apache Spark | ダラスでホスト | 使用不可 | 
@@ -44,6 +43,7 @@ subcollection: resources
 | Automated Accessibility Tester | ダラスでホスト | 使用不可 | 
 | Availability Monitoring | ダラスでホスト | 使用不可 | 
 | BigInsights for Apache Hadoop (サブスクリプション) | ダラスでホスト | 使用不可 | 
+| Block Storage for VPC | 使用不可 | 使用不可 | 
 | Blockchain | ダラスでホスト | 使用不可 | 
 | Blockchain Platform | ダラスでホスト | 使用不可 | 
 | Certificate Manager | ダラスでホスト | 使用不可 | 
@@ -80,6 +80,7 @@ subcollection: resources
 | Discovery | ダラスでホスト | ワシントン DC でホスト | 
 | Event Management | ダラスでホスト | 使用不可 | 
 | Event Streams | ダラスでホスト | ワシントン DC でホスト | 
+| Floating IP for VPC | ダラスでホスト | 使用不可 | 
 | Functions | ダラスでホスト | ワシントン DC でホスト | 
 | Geospatial Analytics | ダラスでホスト | 使用不可 | 
 | Globalization Pipeline | ダラスでホスト | 使用不可 | 
@@ -99,6 +100,7 @@ subcollection: resources
 | Knowledge Studio | ダラスでホスト | ワシントン DC でホスト | 
 | Language Translator | ダラスでホスト | ワシントン DC でホスト | 
 | Lift CLI | ダラスでホスト | 使用不可 | 
+| Load Balancer for VPC | ダラスでホスト | ワシントン DC でホスト | 
 | MQ | ダラスでホスト | 使用不可 | 
 | Machine Learning | ダラスでホスト | 使用不可 | 
 | Managed Financial Data API | ダラスでホスト | ワシントン DC でホスト | 
@@ -117,6 +119,7 @@ subcollection: resources
 | SQL Query | ダラスでホスト | 使用不可 | 
 | Secure Gateway | ダラスでホスト | ワシントン DC でホスト | 
 | セキュリティー・アドバイザー | ダラスでホスト | 使用不可 | 
+| Security Group for VPC | ダラスでホスト | 使用不可 | 
 | Simulated Historical Instrument Analytics | ダラスでホスト | 使用不可 | 
 | Simulated Instrument Analytics | ダラスでホスト | 使用不可 | 
 | Simulated Instruments Analytics API | ダラスでホスト | ワシントン DC でホスト | 
@@ -126,6 +129,9 @@ subcollection: resources
 | Tone Analyzer | ダラスでホスト | ワシントン DC でホスト | 
 | ツールチェーン | ダラスでホスト | ワシントン DC でホスト | 
 | VMware ソリューション | 　グローバルにホスト | 　グローバルにホスト | 
+| VPN for VPC | ダラスでホスト | ワシントン DC でホスト | 
+| Virtual Private Cloud | ダラスでホスト | 使用不可 | 
+| Virtual Server for VPC | 使用不可 | 使用不可 | 
 | Visual Recognition | ダラスでホスト | 使用不可 | 
 | Voice Agent with Watson | ダラスでホスト | ワシントン DC でホスト | 
 | Watson Assistant | ダラスでホスト | ワシントン DC でホスト | 
@@ -143,7 +149,6 @@ subcollection: resources
 | サービス | ロンドン | フランクフルト | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | ロンドンでホスト | フランクフルトでホスト | 
-| Activity Tracker | ロンドンでホスト | フランクフルトでホスト | 
 | Alert Notification | ロンドンでホスト | 使用不可 | 
 | Analytics Engine | ロンドンでホスト | フランクフルトでホスト | 
 | Apache Spark | ロンドンでホスト | 使用不可 | 
@@ -154,8 +159,9 @@ subcollection: resources
 | Automated Accessibility Tester | ロンドンでホスト | 使用不可 | 
 | Availability Monitoring | ロンドンでホスト | 使用不可 | 
 | BigInsights for Apache Hadoop (サブスクリプション) | 使用不可 | 使用不可 | 
+| Block Storage for VPC | 使用不可 | 使用不可 | 
 | Blockchain | ダラスからシンジケート | ダラスからシンジケート | 
-| Blockchain Platform | 使用不可 | 使用不可 | 
+| Blockchain Platform | 使用不可 | フランクフルトでホスト | 
 | Certificate Manager | ロンドンでホスト | フランクフルトでホスト | 
 | Cloud Foundry エンタープライズ環境 | 使用不可 | フランクフルトでホスト | 
 | Cloud Object Storage | 　グローバルにホスト | 　グローバルにホスト | 
@@ -190,6 +196,7 @@ subcollection: resources
 | Discovery | ロンドンでホスト | フランクフルトでホスト | 
 | Event Management | ロンドンでホスト | 使用不可 | 
 | Event Streams | ロンドンでホスト | フランクフルトでホスト | 
+| Floating IP for VPC | ロンドンでホスト | フランクフルトでホスト | 
 | Functions | ロンドンでホスト | フランクフルトでホスト | 
 | Geospatial Analytics | ロンドンでホスト | 使用不可 | 
 | Globalization Pipeline | ロンドンでホスト | フランクフルトでホスト | 
@@ -209,6 +216,7 @@ subcollection: resources
 | Knowledge Studio | ロンドンでホスト | フランクフルトでホスト | 
 | Language Translator | ロンドンでホスト | フランクフルトでホスト | 
 | Lift CLI | 使用不可 | 使用不可 | 
+| Load Balancer for VPC | ロンドンでホスト | フランクフルトでホスト | 
 | MQ | ロンドンでホスト | フランクフルトでホスト | 
 | Machine Learning | ロンドンでホスト | フランクフルトでホスト | 
 | Managed Financial Data API | 使用不可 | 使用不可 | 
@@ -227,6 +235,7 @@ subcollection: resources
 | SQL Query | 使用不可 | 使用不可 | 
 | Secure Gateway | ロンドンでホスト | ダラスからシンジケート | 
 | セキュリティー・アドバイザー | ロンドンでホスト | 使用不可 | 
+| Security Group for VPC | ロンドンでホスト | フランクフルトでホスト | 
 | Simulated Historical Instrument Analytics | 使用不可 | 使用不可 | 
 | Simulated Instrument Analytics | 使用不可 | 使用不可 | 
 | Simulated Instruments Analytics API | 使用不可 | 使用不可 | 
@@ -236,6 +245,9 @@ subcollection: resources
 | Tone Analyzer | ロンドンでホスト | フランクフルトでホスト | 
 | ツールチェーン | ロンドンでホスト | フランクフルトでホスト | 
 | VMware ソリューション | 　グローバルにホスト | 　グローバルにホスト | 
+| VPN for VPC | ロンドンでホスト | フランクフルトでホスト | 
+| Virtual Private Cloud | ロンドンでホスト | フランクフルトでホスト | 
+| Virtual Server for VPC | 使用不可 | 使用不可 | 
 | Visual Recognition | 使用不可 | 使用不可 | 
 | Voice Agent with Watson | 使用不可 | 使用不可 | 
 | Watson Assistant | ロンドンでホスト | フランクフルトでホスト | 
@@ -253,7 +265,6 @@ subcollection: resources
 | サービス | シドニー | 東京 | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | シドニーでホスト | 使用不可 | 
-| Activity Tracker | シドニーでホスト | 使用不可 | 
 | Alert Notification | シドニーでホスト | 使用不可 | 
 | Analytics Engine | 使用不可 | 東京でホスト | 
 | Apache Spark | 使用不可 | 使用不可 | 
@@ -264,8 +275,9 @@ subcollection: resources
 | Automated Accessibility Tester | ロンドンからシンジケート | 使用不可 | 
 | Availability Monitoring | シドニーでホスト | 使用不可 | 
 | BigInsights for Apache Hadoop (サブスクリプション) | 使用不可 | 使用不可 | 
+| Block Storage for VPC | 使用不可 | 使用不可 | 
 | Blockchain | ダラスからシンジケート | 使用不可 | 
-| Blockchain Platform | 使用不可 | 使用不可 | 
+| Blockchain Platform | 使用不可 | 東京でホスト | 
 | Certificate Manager | 使用不可 | 東京でホスト | 
 | Cloud Foundry エンタープライズ環境 | 使用不可 | 使用不可 | 
 | Cloud Object Storage | 　グローバルにホスト | 　グローバルにホスト | 
@@ -300,6 +312,7 @@ subcollection: resources
 | Discovery | シドニーでホスト | 東京でホスト | 
 | Event Management | シドニーでホスト | 使用不可 | 
 | Event Streams | シドニーでホスト | 東京でホスト | 
+| Floating IP for VPC | シドニーでホスト | 東京でホスト | 
 | Functions | 使用不可 | 東京でホスト | 
 | Geospatial Analytics | ロンドンからシンジケート | 使用不可 | 
 | Globalization Pipeline | シドニーでホスト | 使用不可 | 
@@ -319,6 +332,7 @@ subcollection: resources
 | Knowledge Studio | シドニーでホスト | 東京でホスト | 
 | Language Translator | シドニーでホスト | 東京でホスト | 
 | Lift CLI | 使用不可 | 使用不可 | 
+| Load Balancer for VPC | シドニーでホスト | 東京でホスト | 
 | MQ | シドニーでホスト | 使用不可 | 
 | Machine Learning | 使用不可 | 東京でホスト | 
 | Managed Financial Data API | 使用不可 | 使用不可 | 
@@ -337,6 +351,7 @@ subcollection: resources
 | SQL Query | 使用不可 | 使用不可 | 
 | Secure Gateway | ダラスからシンジケート | 使用不可 | 
 | セキュリティー・アドバイザー | 使用不可 | 使用不可 | 
+| Security Group for VPC | シドニーでホスト | 東京でホスト | 
 | Simulated Historical Instrument Analytics | 使用不可 | 使用不可 | 
 | Simulated Instrument Analytics | 使用不可 | 使用不可 | 
 | Simulated Instruments Analytics API | 使用不可 | 使用不可 | 
@@ -346,6 +361,9 @@ subcollection: resources
 | Tone Analyzer | シドニーでホスト | 東京でホスト | 
 | ツールチェーン | 使用不可 | 東京でホスト | 
 | VMware ソリューション | 　グローバルにホスト | 　グローバルにホスト | 
+| VPN for VPC | シドニーでホスト | 東京でホスト | 
+| Virtual Private Cloud | シドニーでホスト | 東京でホスト | 
+| Virtual Server for VPC | 使用不可 | 使用不可 | 
 | Visual Recognition | 使用不可 | 使用不可 | 
 | Voice Agent with Watson | 使用不可 | 使用不可 | 
 | Watson Assistant | シドニーでホスト | 東京でホスト | 

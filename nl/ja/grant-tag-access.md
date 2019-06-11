@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-06-03"
 
 keywords: tagging, enabling others to tag, tagging permissions
 
@@ -35,6 +35,7 @@ subcollection: resources
 | クラシック・インフラストラクチャー*| 「ハードウェア詳細の表示 (View hardware details)」許可または「仮想サーバー詳細の表示 (view virtual server details)」許可 |
 | クラシック・インフラストラクチャー上の Cloud Object Storage S3 | ストレージ管理許可 |
 {: caption="表 1. タグの追加および削除に必要な役割" caption-side="top"}
+{: summary="This is a simple data table. However, the asterisk indicates that you must read the qualifying note after this table."}
 
 * クラシック・インフラストラクチャー内のタグ付け可能リソースは、仮想ゲスト、仮想専用ホスト、ネットワーク・アプリケーション配信コントローラー、ゲートウェイ・メンバー、サブネット、VLAN、および VLAN ファイアウォール (専用) です。
 

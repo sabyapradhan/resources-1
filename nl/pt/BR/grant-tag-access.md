@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-06-03"
 
 keywords: tagging, enabling others to tag, tagging permissions
 
@@ -35,6 +35,7 @@ As tags ficam visíveis para qualquer usuário em uma conta. Quando um recurso �
 | Infraestrutura clássica*| Visualizar a permissão de detalhes de hardware ou visualizar a permissão de detalhes do servidor virtual |
 | Cloud Object Storage S3 na infraestrutura clássica | Permissão de gerenciamento de armazenamento |
 {: caption="Tabela 1. Funções necessárias para incluir e remover tags" caption-side="top"}
+{: summary="This is a simple data table. However, the asterisk indicates that you must read the qualifying note after this table."}
 
 *Os recursos identificáveis na infraestrutura clássica são Convidados virtuais, Host dedicado virtual, Controlador de entrega de aplicativo de rede, Membro do gateway, Sub-rede, VLAN e Firewall de VLAN (Dedicado).
 

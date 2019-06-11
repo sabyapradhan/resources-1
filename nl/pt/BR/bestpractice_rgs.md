@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-05-06"
+lastupdated: "2019-06-03"
 
 keywords: organize resources, set up resource groups, best practice, resource group strategy
 
@@ -74,14 +74,16 @@ Você fornece acesso para usuários ou grupos de usuários que são organizados 
 
 Revise a tabela a seguir para obter mais informações sobre os dois tipos de acesso e o que cada função do IAM da plataforma designada fornece a um usuário a capacidade de fazer:
 
-| Detalhes da política de acesso  | Ações para acesso em grupos de recursos | Ação em recursos em grupos de recursos |
+|   | Ações para o acesso ao gerenciamento de grupos de recurso | Ação em recursos em grupos de recursos |
 |:-----------------|:--------------|:---------------|
-| Designar acesso a | Grupo de recursos selecionados | Serviço selecionado em um grupo de recursos |
 | Função de visualizador  | Visualizar o grupo e suas características, mas não os recursos no grupo | Visualizar recursos no grupo |
 | Função de operador | Não aplicável | Não aplicável |
 | Função do editor | Visualizar ou editar o nome ou outras características do grupo, mas não os recursos no grupo | Criar, excluir, editar, suspender, continuar, visualizar, ligar e gerenciar o acesso de recursos no grupo de recursos |
 | Função de administrador |  Visualizar, editar ou gerenciar o acesso para o grupo, mas não os recursos no grupo | Criar, excluir, editar, suspender, continuar, visualizar, ligar e gerenciar o acesso de recursos no grupo de recursos |
+{: row-headers}
+{: class="comparison-table"}
 {: caption="Tabela 1. Acesso para grupos de recursos" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the selected role of an access policy. The column headers identify the type of policy whether its assigning access to manage a resource group or access to resources within a resource group. The remaining cells tell you the allowable actions based on the type of policy and the specific role that is selected as defined in the header rows."}
 
 Se você deseja que um usuário crie uma nova instância de serviço e inclua-a em um grupo de recursos, o usuário deve ser designado como um Visualizador ou superior no grupo de recursos e Editor ou acima no serviço.
 {: tip}

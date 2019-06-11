@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-06-03"
 
 keywords: tagging, enabling others to tag, tagging permissions
 
@@ -35,6 +35,7 @@ subcollection: resources
 | 標準基礎架構*| 檢視硬體詳細資料許可權或檢視虛擬伺服器詳細資料許可權 |
 | 標準基礎架構上的 Cloud Object Storage S3 | 儲存空間管理許可權 |
 {: caption="表 1. 新增及移除標籤所需的角色" caption-side="top"}
+{: summary="This is a simple data table. However, the asterisk indicates that you must read the qualifying note after this table."}
 
 *標準基礎架構中的可標記資源包含虛擬訪客、虛擬專用主機、網路應用程式遞送控制器、閘道成員、子網路、VLAN 和 VLAN 防火牆（專用）。
 

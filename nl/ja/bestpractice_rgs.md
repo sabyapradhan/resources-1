@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-05-06"
+lastupdated: "2019-06-03"
 
 keywords: organize resources, set up resource groups, best practice, resource group strategy
 
@@ -73,14 +73,16 @@ IAM アクセス制御を使用して有効にされたサービスは、Cloud F
 
 以下の表で、2 つのタイプのアクセス権限の詳細、および割り当てられた各プラットフォーム IAM 役割によりユーザーが操作できるようになる内容を確認してください。
 
-| アクセス・ポリシーの詳細  | リソース・グループに対するアクセス権限のアクション | リソース・グループ内のリソースに対するアクション |
+|   | リソース・グループ管理のためのアクセス権限のアクション | リソース・グループ内のリソースに対するアクション |
 |:-----------------|:--------------|:---------------|
-| アクセス権限の割り当て先 | 選択されたリソース・グループ | リソース・グループ内の選択されたサービス |
 | ビューアー役割  | グループとその特性の表示。ただし、グループ内のリソースは表示できない | グループ内のリソースの表示 |
 | オペレーター役割 | 適用外 | 適用外 |
 | エディター役割 | グループの名前またはその他の特性の表示または編集。ただし、グループ内のリソースの表示または編集はできない | リソース・グループ内のリソースの作成、削除、編集、一時停止、再開、表示、バインド、およびアクセス管理 |
 | 管理者役割 |  グループのアクセス権限の表示、編集、または管理。ただし、グループ内のリソースの表示、編集、または管理はできない | リソース・グループ内のリソースの作成、削除、編集、一時停止、再開、表示、バインド、およびアクセス管理 |
+{: row-headers}
+{: class="comparison-table"}
 {: caption="表 1. リソース・グループに対するアクセス権限" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the selected role of an access policy. The column headers identify the type of policy whether its assigning access to manage a resource group or access to resources within a resource group. The remaining cells tell you the allowable actions based on the type of policy and the specific role that is selected as defined in the header rows."}
 
 ユーザーが新しいサービス・インスタンスを作成し、それをリソース・グループに追加できるようにするには、ユーザーにリソース・グループのビューアー以上の役割およびサービスのエディター以上の役割を割り当てる必要があります。
 {: tip}
