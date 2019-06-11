@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-29"
+lastupdated: "2019-06-05"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -32,7 +32,6 @@ subcollection: resources
 |服務| 達拉斯 | 華盛頓特區 | 
 |-----|-----|-----|-----|-----|-----|
 |API Connect|在達拉斯進行管理|在華盛頓特區進行管理| 
-|Activity Tracker |在達拉斯進行管理|不適用 | 
 |Alert Notification|在達拉斯進行管理|不適用 | 
 |Analytics Engine |在達拉斯進行管理|不適用 | 
 |Apache Spark|在達拉斯進行管理|不適用 | 
@@ -43,6 +42,7 @@ subcollection: resources
 |Automated Accessibility Tester|在達拉斯進行管理|不適用 | 
 |Availability Monitoring|在達拉斯進行管理|不適用 | 
 |BigInsights for Apache Hadoop（訂閱）|在達拉斯進行管理|不適用 | 
+|Block Storage for VPC|不適用 |不適用 | 
 |Blockchain |在達拉斯進行管理|不適用 | 
 |Blockchain Platform|在達拉斯進行管理|不適用 | 
 |Certificate Manager |在達拉斯進行管理|不適用 | 
@@ -79,6 +79,7 @@ subcollection: resources
 |Discovery|在達拉斯進行管理|在華盛頓特區進行管理| 
 |Event Management|在達拉斯進行管理|不適用 | 
 | Event Streams |在達拉斯進行管理|在華盛頓特區進行管理| 
+|Floating IP for VPC|在達拉斯進行管理|不適用 | 
 | Functions |在達拉斯進行管理|在華盛頓特區進行管理| 
 |Geospatial Analytics |在達拉斯進行管理|不適用 | 
 |Globalization Pipeline|在達拉斯進行管理|不適用 | 
@@ -98,6 +99,7 @@ subcollection: resources
 |Knowledge Studio |在達拉斯進行管理|在華盛頓特區進行管理| 
 |Language Translator|在達拉斯進行管理|在華盛頓特區進行管理| 
 |Lift CLI |在達拉斯進行管理|不適用 | 
+|Load Balancer for VPC|在達拉斯進行管理|在華盛頓特區進行管理| 
 |MQ |在達拉斯進行管理|不適用 | 
 |Machine Learning |在達拉斯進行管理|不適用 | 
 |Managed Financial Data API |在達拉斯進行管理|在華盛頓特區進行管理| 
@@ -116,6 +118,7 @@ subcollection: resources
 |SQL Query |在達拉斯進行管理|不適用 | 
 |Secure Gateway|在達拉斯進行管理|在華盛頓特區進行管理| 
 |Security Advisor|在達拉斯進行管理|不適用 | 
+|Security Group for VPC|在達拉斯進行管理|不適用 | 
 |Simulated Historical Instrument Analytics |在達拉斯進行管理|不適用 | 
 |Simulated Instrument Analytics |在達拉斯進行管理|不適用 | 
 |Simulated Instruments Analytics API |在達拉斯進行管理|在華盛頓特區進行管理| 
@@ -125,6 +128,9 @@ subcollection: resources
 |Tone Analyzer|在達拉斯進行管理|在華盛頓特區進行管理| 
 | Toolchain |在達拉斯進行管理|在華盛頓特區進行管理| 
 | VMware Solutions |在全球管理|在全球管理| 
+|VPN for VPC|在達拉斯進行管理|在華盛頓特區進行管理| 
+|Virtual Private Cloud|在達拉斯進行管理|不適用 | 
+|Virtual Server for VPC|不適用 |不適用 | 
 |Visual Recognition	|在達拉斯進行管理|不適用 | 
 |Voice Agent with Watson |在達拉斯進行管理|在華盛頓特區進行管理| 
 | Watson Assistant |在達拉斯進行管理|在華盛頓特區進行管理| 
@@ -142,7 +148,6 @@ subcollection: resources
 |服務| 倫敦 | 法蘭克福 | 
 |-----|-----|-----|-----|-----|-----|
 |API Connect|在倫敦進行管理|在法蘭克福進行管理| 
-|Activity Tracker |在倫敦進行管理|在法蘭克福進行管理| 
 |Alert Notification|在倫敦進行管理|不適用 | 
 |Analytics Engine |在倫敦進行管理|在法蘭克福進行管理| 
 |Apache Spark|在倫敦進行管理|不適用 | 
@@ -153,8 +158,9 @@ subcollection: resources
 |Automated Accessibility Tester|在倫敦進行管理|不適用 | 
 |Availability Monitoring|在倫敦進行管理|不適用 | 
 |BigInsights for Apache Hadoop（訂閱）|不適用 |不適用 | 
+|Block Storage for VPC|不適用 |不適用 | 
 |Blockchain |從達拉斯進行聯合發佈|從達拉斯進行聯合發佈| 
-|Blockchain Platform|不適用 |不適用 | 
+|Blockchain Platform|不適用 |在法蘭克福進行管理| 
 |Certificate Manager |在倫敦進行管理|在法蘭克福進行管理| 
 |Cloud Foundry Enterprise Environment|不適用 |在法蘭克福進行管理| 
 |Cloud Object Storage |在全球管理|在全球管理| 
@@ -189,6 +195,7 @@ subcollection: resources
 |Discovery|在倫敦進行管理|在法蘭克福進行管理| 
 |Event Management|在倫敦進行管理|不適用 | 
 | Event Streams |在倫敦進行管理|在法蘭克福進行管理| 
+|Floating IP for VPC|在倫敦進行管理|在法蘭克福進行管理| 
 | Functions |在倫敦進行管理|在法蘭克福進行管理| 
 |Geospatial Analytics |在倫敦進行管理|不適用 | 
 |Globalization Pipeline|在倫敦進行管理|在法蘭克福進行管理| 
@@ -208,6 +215,7 @@ subcollection: resources
 |Knowledge Studio |在倫敦進行管理|在法蘭克福進行管理| 
 |Language Translator|在倫敦進行管理|在法蘭克福進行管理| 
 |Lift CLI |不適用 |不適用 | 
+|Load Balancer for VPC|在倫敦進行管理|在法蘭克福進行管理| 
 |MQ |在倫敦進行管理|在法蘭克福進行管理| 
 |Machine Learning |在倫敦進行管理|在法蘭克福進行管理| 
 |Managed Financial Data API |不適用 |不適用 | 
@@ -226,6 +234,7 @@ subcollection: resources
 |SQL Query |不適用 |不適用 | 
 |Secure Gateway|在倫敦進行管理|從達拉斯進行聯合發佈| 
 |Security Advisor|在倫敦進行管理|不適用 | 
+|Security Group for VPC|在倫敦進行管理|在法蘭克福進行管理| 
 |Simulated Historical Instrument Analytics |不適用 |不適用 | 
 |Simulated Instrument Analytics |不適用 |不適用 | 
 |Simulated Instruments Analytics API |不適用 |不適用 | 
@@ -235,6 +244,9 @@ subcollection: resources
 |Tone Analyzer|在倫敦進行管理|在法蘭克福進行管理| 
 | Toolchain |在倫敦進行管理|在法蘭克福進行管理| 
 | VMware Solutions |在全球管理|在全球管理| 
+|VPN for VPC|在倫敦進行管理|在法蘭克福進行管理| 
+|Virtual Private Cloud|在倫敦進行管理|在法蘭克福進行管理| 
+|Virtual Server for VPC|不適用 |不適用 | 
 |Visual Recognition	|不適用 |不適用 | 
 |Voice Agent with Watson |不適用 |不適用 | 
 | Watson Assistant |在倫敦進行管理|在法蘭克福進行管理| 
@@ -252,7 +264,6 @@ subcollection: resources
 |服務|雪梨| 東京 | 
 |-----|-----|-----|-----|-----|-----|
 |API Connect|在雪梨進行管理|不適用 | 
-|Activity Tracker |在雪梨進行管理|不適用 | 
 |Alert Notification|在雪梨進行管理|不適用 | 
 |Analytics Engine |不適用 |在東京進行管理| 
 |Apache Spark|不適用 |不適用 | 
@@ -263,8 +274,9 @@ subcollection: resources
 |Automated Accessibility Tester|從倫敦進行聯合發佈|不適用 | 
 |Availability Monitoring|在雪梨進行管理|不適用 | 
 |BigInsights for Apache Hadoop（訂閱）|不適用 |不適用 | 
+|Block Storage for VPC|不適用 |不適用 | 
 |Blockchain |從達拉斯進行聯合發佈|不適用 | 
-|Blockchain Platform|不適用 |不適用 | 
+|Blockchain Platform|不適用 |在東京進行管理| 
 |Certificate Manager |不適用 |在東京進行管理| 
 |Cloud Foundry Enterprise Environment|不適用 |不適用 | 
 |Cloud Object Storage |在全球管理|在全球管理| 
@@ -299,6 +311,7 @@ subcollection: resources
 |Discovery|在雪梨進行管理|在東京進行管理| 
 |Event Management|在雪梨進行管理|不適用 | 
 | Event Streams |在雪梨進行管理|在東京進行管理| 
+|Floating IP for VPC|在雪梨進行管理|在東京進行管理| 
 | Functions |不適用 |在東京進行管理| 
 |Geospatial Analytics |從倫敦進行聯合發佈|不適用 | 
 |Globalization Pipeline|在雪梨進行管理|不適用 | 
@@ -318,6 +331,7 @@ subcollection: resources
 |Knowledge Studio |在雪梨進行管理|在東京進行管理| 
 |Language Translator|在雪梨進行管理|在東京進行管理| 
 |Lift CLI |不適用 |不適用 | 
+|Load Balancer for VPC|在雪梨進行管理|在東京進行管理| 
 |MQ |在雪梨進行管理|不適用 | 
 |Machine Learning |不適用 |在東京進行管理| 
 |Managed Financial Data API |不適用 |不適用 | 
@@ -336,6 +350,7 @@ subcollection: resources
 |SQL Query |不適用 |不適用 | 
 |Secure Gateway|從達拉斯進行聯合發佈|不適用 | 
 |Security Advisor|不適用 |不適用 | 
+|Security Group for VPC|在雪梨進行管理|在東京進行管理| 
 |Simulated Historical Instrument Analytics |不適用 |不適用 | 
 |Simulated Instrument Analytics |不適用 |不適用 | 
 |Simulated Instruments Analytics API |不適用 |不適用 | 
@@ -345,6 +360,9 @@ subcollection: resources
 |Tone Analyzer|在雪梨進行管理|在東京進行管理| 
 | Toolchain |不適用 |在東京進行管理| 
 | VMware Solutions |在全球管理|在全球管理| 
+|VPN for VPC|在雪梨進行管理|在東京進行管理| 
+|Virtual Private Cloud|在雪梨進行管理|在東京進行管理| 
+|Virtual Server for VPC|不適用 |不適用 | 
 |Visual Recognition	|不適用 |不適用 | 
 |Voice Agent with Watson |不適用 |不適用 | 
 | Watson Assistant |在雪梨進行管理|在東京進行管理| 

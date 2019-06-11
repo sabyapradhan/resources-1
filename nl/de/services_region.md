@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-29"
+lastupdated: "2019-06-05"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -32,7 +32,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Service | Dallas | Washington DC | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Gehostet in Dallas | Gehostet in Washington DC | 
-| Activity Tracker | Gehostet in Dallas | Nicht verfügbar | 
 | Alert Notification | Gehostet in Dallas | Nicht verfügbar | 
 | Analytics Engine | Gehostet in Dallas | Nicht verfügbar | 
 | Apache Spark | Gehostet in Dallas | Nicht verfügbar | 
@@ -43,6 +42,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Automated Accessibility Tester | Gehostet in Dallas | Nicht verfügbar | 
 | Availability Monitoring | Gehostet in Dallas | Nicht verfügbar | 
 | BigInsights for Apache Hadoop (Abonnement) | Gehostet in Dallas | Nicht verfügbar | 
+| Block Storage for VPC | Nicht verfügbar | Nicht verfügbar | 
 | Blockchain | Gehostet in Dallas | Nicht verfügbar | 
 | Blockchain Platform | Gehostet in Dallas | Nicht verfügbar | 
 | Certificate Manager | Gehostet in Dallas | Nicht verfügbar | 
@@ -79,6 +79,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Discovery | Gehostet in Dallas | Gehostet in Washington DC | 
 | Event Management | Gehostet in Dallas | Nicht verfügbar | 
 | Event Streams | Gehostet in Dallas | Gehostet in Washington DC | 
+| Floating IP for VPC | Gehostet in Dallas | Nicht verfügbar | 
 | Functions | Gehostet in Dallas | Gehostet in Washington DC | 
 | Geospatial Analytics | Gehostet in Dallas | Nicht verfügbar | 
 | Globalization Pipeline | Gehostet in Dallas | Nicht verfügbar | 
@@ -98,6 +99,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Knowledge Studio | Gehostet in Dallas | Gehostet in Washington DC | 
 | Language Translator | Gehostet in Dallas | Gehostet in Washington DC | 
 | Lift CLI | Gehostet in Dallas | Nicht verfügbar | 
+| Load Balancer for VPC | Gehostet in Dallas | Gehostet in Washington DC | 
 | MQ | Gehostet in Dallas | Nicht verfügbar | 
 | Machine Learning | Gehostet in Dallas | Nicht verfügbar | 
 | Managed Financial Data API | Gehostet in Dallas | Gehostet in Washington DC | 
@@ -116,6 +118,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | SQL Query | Gehostet in Dallas | Nicht verfügbar | 
 | Secure Gateway | Gehostet in Dallas | Gehostet in Washington DC | 
 | Security Advisor | Gehostet in Dallas | Nicht verfügbar | 
+| Security Group for VPC | Gehostet in Dallas | Nicht verfügbar | 
 | Simulated Historical Instrument Analytics | Gehostet in Dallas | Nicht verfügbar | 
 | Simulated Instrument Analytics | Gehostet in Dallas | Nicht verfügbar | 
 | Simulated Instruments Analytics API | Gehostet in Dallas | Gehostet in Washington DC | 
@@ -125,6 +128,9 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Tone Analyzer | Gehostet in Dallas | Gehostet in Washington DC | 
 | Toolchain | Gehostet in Dallas | Gehostet in Washington DC | 
 | VMware Solutions | Global gehostet | Global gehostet | 
+| VPN for VPC | Gehostet in Dallas | Gehostet in Washington DC | 
+| Virtual Private Cloud | Gehostet in Dallas | Nicht verfügbar | 
+| Virtual Server for VPC | Nicht verfügbar | Nicht verfügbar | 
 | Visual Recognition | Gehostet in Dallas | Nicht verfügbar | 
 | Voice Agent with Watson | Gehostet in Dallas | Gehostet in Washington DC | 
 | Watson Assistant | Gehostet in Dallas | Gehostet in Washington DC | 
@@ -142,7 +148,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Service | London | Frankfurt | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Gehostet in London | Gehostet in Frankfurt | 
-| Activity Tracker | Gehostet in London | Gehostet in Frankfurt | 
 | Alert Notification | Gehostet in London | Nicht verfügbar | 
 | Analytics Engine | Gehostet in London | Gehostet in Frankfurt | 
 | Apache Spark | Gehostet in London | Nicht verfügbar | 
@@ -153,8 +158,9 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Automated Accessibility Tester | Gehostet in London | Nicht verfügbar | 
 | Availability Monitoring | Gehostet in London | Nicht verfügbar | 
 | BigInsights for Apache Hadoop (Abonnement) | Nicht verfügbar | Nicht verfügbar | 
+| Block Storage for VPC | Nicht verfügbar | Nicht verfügbar | 
 | Blockchain | Syndiziert aus Dallas | Syndiziert aus Dallas | 
-| Blockchain Platform | Nicht verfügbar | Nicht verfügbar | 
+| Blockchain Platform | Nicht verfügbar | Gehostet in Frankfurt | 
 | Certificate Manager | Gehostet in London | Gehostet in Frankfurt | 
 | Cloud Foundry-Unternehmensumgebung | Nicht verfügbar | Gehostet in Frankfurt | 
 | Cloud Object Storage | Global gehostet | Global gehostet | 
@@ -189,6 +195,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Discovery | Gehostet in London | Gehostet in Frankfurt | 
 | Event Management | Gehostet in London | Nicht verfügbar | 
 | Event Streams | Gehostet in London | Gehostet in Frankfurt | 
+| Floating IP for VPC | Gehostet in London | Gehostet in Frankfurt | 
 | Functions | Gehostet in London | Gehostet in Frankfurt | 
 | Geospatial Analytics | Gehostet in London | Nicht verfügbar | 
 | Globalization Pipeline | Gehostet in London | Gehostet in Frankfurt | 
@@ -208,6 +215,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Knowledge Studio | Gehostet in London | Gehostet in Frankfurt | 
 | Language Translator | Gehostet in London | Gehostet in Frankfurt | 
 | Lift CLI | Nicht verfügbar | Nicht verfügbar | 
+| Load Balancer for VPC | Gehostet in London | Gehostet in Frankfurt | 
 | MQ | Gehostet in London | Gehostet in Frankfurt | 
 | Machine Learning | Gehostet in London | Gehostet in Frankfurt | 
 | Managed Financial Data API | Nicht verfügbar | Nicht verfügbar | 
@@ -226,6 +234,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | SQL Query | Nicht verfügbar | Nicht verfügbar | 
 | Secure Gateway | Gehostet in London | Syndiziert aus Dallas | 
 | Security Advisor | Gehostet in London | Nicht verfügbar | 
+| Security Group for VPC | Gehostet in London | Gehostet in Frankfurt | 
 | Simulated Historical Instrument Analytics | Nicht verfügbar | Nicht verfügbar | 
 | Simulated Instrument Analytics | Nicht verfügbar | Nicht verfügbar | 
 | Simulated Instruments Analytics API | Nicht verfügbar | Nicht verfügbar | 
@@ -235,6 +244,9 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Tone Analyzer | Gehostet in London | Gehostet in Frankfurt | 
 | Toolchain | Gehostet in London | Gehostet in Frankfurt | 
 | VMware Solutions | Global gehostet | Global gehostet | 
+| VPN for VPC | Gehostet in London | Gehostet in Frankfurt | 
+| Virtual Private Cloud | Gehostet in London | Gehostet in Frankfurt | 
+| Virtual Server for VPC | Nicht verfügbar | Nicht verfügbar | 
 | Visual Recognition | Nicht verfügbar | Nicht verfügbar | 
 | Voice Agent with Watson | Nicht verfügbar | Nicht verfügbar | 
 | Watson Assistant | Gehostet in London | Gehostet in Frankfurt | 
@@ -252,7 +264,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Service | Sydney | Tokio | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Gehostet in Sydney | Nicht verfügbar | 
-| Activity Tracker | Gehostet in Sydney | Nicht verfügbar | 
 | Alert Notification | Gehostet in Sydney | Nicht verfügbar | 
 | Analytics Engine | Nicht verfügbar | Gehostet in Tokio | 
 | Apache Spark | Nicht verfügbar | Nicht verfügbar | 
@@ -263,8 +274,9 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Automated Accessibility Tester | Syndiziert aus London | Nicht verfügbar | 
 | Availability Monitoring | Gehostet in Sydney | Nicht verfügbar | 
 | BigInsights for Apache Hadoop (Abonnement) | Nicht verfügbar | Nicht verfügbar | 
+| Block Storage for VPC | Nicht verfügbar | Nicht verfügbar | 
 | Blockchain | Syndiziert aus Dallas | Nicht verfügbar | 
-| Blockchain Platform | Nicht verfügbar | Nicht verfügbar | 
+| Blockchain Platform | Nicht verfügbar | Gehostet in Tokio | 
 | Certificate Manager | Nicht verfügbar | Gehostet in Tokio | 
 | Cloud Foundry-Unternehmensumgebung | Nicht verfügbar | Nicht verfügbar | 
 | Cloud Object Storage | Global gehostet | Global gehostet | 
@@ -299,6 +311,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Discovery | Gehostet in Sydney | Gehostet in Tokio | 
 | Event Management | Gehostet in Sydney | Nicht verfügbar | 
 | Event Streams | Gehostet in Sydney | Gehostet in Tokio | 
+| Floating IP for VPC | Gehostet in Sydney | Gehostet in Tokio | 
 | Functions | Nicht verfügbar | Gehostet in Tokio | 
 | Geospatial Analytics | Syndiziert aus London | Nicht verfügbar | 
 | Globalization Pipeline | Gehostet in Sydney | Nicht verfügbar | 
@@ -318,6 +331,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Knowledge Studio | Gehostet in Sydney | Gehostet in Tokio | 
 | Language Translator | Gehostet in Sydney | Gehostet in Tokio | 
 | Lift CLI | Nicht verfügbar | Nicht verfügbar | 
+| Load Balancer for VPC | Gehostet in Sydney | Gehostet in Tokio | 
 | MQ | Gehostet in Sydney | Nicht verfügbar | 
 | Machine Learning | Nicht verfügbar | Gehostet in Tokio | 
 | Managed Financial Data API | Nicht verfügbar | Nicht verfügbar | 
@@ -336,6 +350,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | SQL Query | Nicht verfügbar | Nicht verfügbar | 
 | Secure Gateway | Syndiziert aus Dallas | Nicht verfügbar | 
 | Security Advisor | Nicht verfügbar | Nicht verfügbar | 
+| Security Group for VPC | Gehostet in Sydney | Gehostet in Tokio | 
 | Simulated Historical Instrument Analytics | Nicht verfügbar | Nicht verfügbar | 
 | Simulated Instrument Analytics | Nicht verfügbar | Nicht verfügbar | 
 | Simulated Instruments Analytics API | Nicht verfügbar | Nicht verfügbar | 
@@ -345,6 +360,9 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Tone Analyzer | Gehostet in Sydney | Gehostet in Tokio | 
 | Toolchain | Nicht verfügbar | Gehostet in Tokio | 
 | VMware Solutions | Global gehostet | Global gehostet | 
+| VPN for VPC | Gehostet in Sydney | Gehostet in Tokio | 
+| Virtual Private Cloud | Gehostet in Sydney | Gehostet in Tokio | 
+| Virtual Server for VPC | Nicht verfügbar | Nicht verfügbar | 
 | Visual Recognition | Nicht verfügbar | Nicht verfügbar | 
 | Voice Agent with Watson | Nicht verfügbar | Nicht verfügbar | 
 | Watson Assistant | Gehostet in Sydney | Gehostet in Tokio | 
