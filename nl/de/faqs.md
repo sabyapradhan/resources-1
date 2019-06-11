@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-21"
+lastupdated: "2019-05-23"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -54,7 +54,7 @@ Wenn Sie zusätzlichen Zugriff auf das Konto benötigen, setzen Sie sich mit dem
 {: #create-resource}
 {: faq}
 
-Sie können Ressourcengruppen nur dann erstellen, wenn Ihnen die Administratorrolle für alle Kontoverwaltungsservices im Konto zugewiesen wurde. 
+Sie können Ressourcengruppen nur dann erstellen, wenn Ihnen die Administratorrolle für alle Kontoverwaltungsservices im Konto zugewiesen wurde.
 
 Für Lite-Konten ist nur die Standardressourcengruppe zulässig. Daher können Sie keine zusätzlichen Ressourcengruppen erstellen, selbst wenn Sie über die erforderliche Zugriffsberechtigung verfügen.
 
@@ -68,7 +68,17 @@ Nach der Erstellung können Sie eine Ressourcengruppe nicht mehr löschen.
 {: #instances-between-rgs}
 {: faq}
 
-Die Verschiebung von Serviceinstanzen von einer Ressourcengruppe in eine andere Ressourcengruppe ist nicht möglich. Wenn Ihnen bei der Zuweisung einer Serviceinstanz ein Fehler unterlaufen ist, müssen Sie die Instanz löschen und erneut erstellen, um sie der korrekten Ressourcengruppe zuzuweisen.  
+Die Verschiebung von Serviceinstanzen von einer Ressourcengruppe in eine andere Ressourcengruppe ist nicht möglich. Wenn Ihnen bei der Zuweisung einer Serviceinstanz ein Fehler unterlaufen ist, müssen Sie die Instanz löschen und erneut erstellen, um sie einer anderen Ressourcengruppe zuzuweisen.  
+
+## Wie kann ich einen Service aus meinem Konto löschen?
+{: #service-removal}
+{: faq}
+
+Wenn Sie eine Serviceinstanz löschen möchten, können Sie die folgenden Schritte durchführen:
+
+1. Klicken Sie im Dashboard auf **Ressourcen anzeigen** im Ressourcenzusammenfassungswidget. 
+2. Erweitern Sie die Abschnitte, um nach der Serviceinstanz zu suchen, die gelöscht werden soll. 
+3. Wählen Sie das Menü **Aktionen** ![Symbol für Aktionsliste](../icons/action-menu-icon.svg) für die Zeile aus und klicken Sie auf **Löschen**. 
 
 ## Kann ich Informationen zur Nutzung pro Ressourcengruppe anzeigen?
 {: #view-usage}

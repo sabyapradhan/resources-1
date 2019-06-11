@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-21"
+lastupdated: "2019-05-23"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -68,7 +68,17 @@ subcollection: resources
 {: #instances-between-rgs}
 {: faq}
 
-無法在資源群組之間移動服務實例。如果您錯誤地指派服務實例，則必須刪除並重建該實例，才能將它指派給正確的資源群組。  
+無法在資源群組之間移動服務實例。如果您錯誤地指派服務實例，則必須刪除並重建該實例，才能將它指派給另一個資源群組。  
+
+## 如何從我的帳戶中刪除服務？
+{: #service-removal}
+{: faq}
+
+您可以使用下列步驟來刪除服務實例：
+
+1. 從您的儀表板中，按一下「資源」摘要小組件內的**檢視資源**。
+2. 展開區段來尋找您要刪除的服務實例。
+3. 選取該列的**動作** ![「動作清單」圖示](../icons/action-menu-icon.svg) 功能表,，並按一下**刪除**。
 
 ## 我可以檢視每個資源群組的用量嗎？
 {: #view-usage}

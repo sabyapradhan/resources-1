@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-21"
+lastupdated: "2019-05-23"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -68,7 +68,17 @@ No se puede suprimir un grupo de recursos después de haberlo creado.
 {: #instances-between-rgs}
 {: faq}
 
-No puede mover instancias de servicio entre grupos de recursos. Si asigna una instancia de servicio de forma incorrecta, tiene que suprimir y volver a crear la instancia para asignarla al grupo de recursos correcto.  
+No puede mover instancias de servicio entre grupos de recursos. Si asigna una instancia de servicio de forma incorrecta, tiene que suprimir y volver a crear la instancia para asignarla a otro grupo de recursos.  
+
+## ¿Cómo suprimo un servicio de mi cuenta?
+{: #service-removal}
+{: faq}
+
+Para suprimir una instancia de servicio, siga estos pasos:
+
+1. En el panel de control, pulse **Ver recursos** en el widget Resumen de recursos.
+2. Amplíe las secciones para localizar la instancia de servicio que desea suprimir.
+3. Seleccione el menú **Acciones** ![Icono Lista de acciones](../icons/action-menu-icon.svg) de la fila y pulse **Suprimir**.
 
 ## ¿Puedo ver el uso por grupo de recursos?
 {: #view-usage}
