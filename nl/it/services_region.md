@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-29"
+lastupdated: "2019-06-05"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -33,7 +33,6 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Servizio | Dallas | Washington DC | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Ospitato a Dallas | Ospitato a Washington DC | 
-| Programma di traccia dell'attività | Ospitato a Dallas | Non disponibile | 
 | Alert Notification | Ospitato a Dallas | Non disponibile | 
 | Analytics Engine | Ospitato a Dallas | Non disponibile | 
 | Apache Spark | Ospitato a Dallas | Non disponibile | 
@@ -44,6 +43,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Automated Accessibility Tester | Ospitato a Dallas | Non disponibile | 
 | Availability Monitoring | Ospitato a Dallas | Non disponibile | 
 | BigInsights for Apache Hadoop (sottoscrizione) | Ospitato a Dallas | Non disponibile | 
+| Block Storage per VPC | Non disponibile | Non disponibile | 
 | Blockchain | Ospitato a Dallas | Non disponibile | 
 | Blockchain Platform | Ospitato a Dallas | Non disponibile | 
 | Gestore certificato | Ospitato a Dallas | Non disponibile | 
@@ -80,6 +80,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Discovery | Ospitato a Dallas | Ospitato a Washington DC | 
 | Event Management | Ospitato a Dallas | Non disponibile | 
 | Event Streams | Ospitato a Dallas | Ospitato a Washington DC | 
+| IP mobile per VPC | Ospitato a Dallas | Non disponibile | 
 | Functions | Ospitato a Dallas | Ospitato a Washington DC | 
 | Geospatial Analytics | Ospitato a Dallas | Non disponibile | 
 | Globalization Pipeline | Ospitato a Dallas | Non disponibile | 
@@ -99,6 +100,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Knowledge Studio | Ospitato a Dallas | Ospitato a Washington DC | 
 | Language Translator | Ospitato a Dallas | Ospitato a Washington DC | 
 | CLI Lift | Ospitato a Dallas | Non disponibile | 
+| Programma di bilanciamento del carico per VPC| Ospitato a Dallas | Ospitato a Washington DC | 
 | MQ | Ospitato a Dallas | Non disponibile | 
 | Machine Learning | Ospitato a Dallas | Non disponibile | 
 | Managed Financial Data API | Ospitato a Dallas | Ospitato a Washington DC | 
@@ -117,6 +119,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Query SQL | Ospitato a Dallas | Non disponibile | 
 | Secure Gateway | Ospitato a Dallas | Ospitato a Washington DC | 
 | Security Advisor | Ospitato a Dallas | Non disponibile | 
+| Gruppo di sicurezza per VPC | Ospitato a Dallas | Non disponibile | 
 | Simulated Historical Instrument Analytics | Ospitato a Dallas | Non disponibile | 
 | Simulated Instrument Analytics | Ospitato a Dallas | Non disponibile | 
 | Simulated Instruments Analytics API | Ospitato a Dallas | Ospitato a Washington DC | 
@@ -126,6 +129,9 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Tone Analyzer | Ospitato a Dallas | Ospitato a Washington DC | 
 | Toolchain | Ospitato a Dallas | Ospitato a Washington DC | 
 | Soluzioni VMware | Ospitato a livello globale | Ospitato a livello globale | 
+| VPN per VPC| Ospitato a Dallas | Ospitato a Washington DC | 
+| VPC (Virtual private cloud)| Ospitato a Dallas | Non disponibile | 
+| Virtual Server per VPC | Non disponibile | Non disponibile | 
 | Visual Recognition | Ospitato a Dallas | Non disponibile | 
 | Voice Agent with Watson | Ospitato a Dallas | Ospitato a Washington DC | 
 | Watson Assistant | Ospitato a Dallas | Ospitato a Washington DC | 
@@ -143,7 +149,6 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Servizio | Londra | Francoforte | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Ospitato a Londra | Ospitato a Francoforte | 
-| Programma di traccia dell'attività | Ospitato a Londra | Ospitato a Francoforte | 
 | Alert Notification | Ospitato a Londra | Non disponibile | 
 | Analytics Engine | Ospitato a Londra | Ospitato a Francoforte | 
 | Apache Spark | Ospitato a Londra | Non disponibile | 
@@ -154,8 +159,9 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Automated Accessibility Tester | Ospitato a Londra | Non disponibile | 
 | Availability Monitoring | Ospitato a Londra | Non disponibile | 
 | BigInsights for Apache Hadoop (sottoscrizione) | Non disponibile | Non disponibile | 
+| Block Storage per VPC | Non disponibile | Non disponibile | 
 | Blockchain | Diffuso da Dallas | Diffuso da Dallas | 
-| Blockchain Platform | Non disponibile | Non disponibile | 
+| Blockchain Platform | Non disponibile | Ospitato a Francoforte | 
 | Gestore certificato | Ospitato a Londra | Ospitato a Francoforte | 
 | Ambiente Cloud Foundry Enterprise | Non disponibile | Ospitato a Francoforte | 
 | Cloud Object Storage | Ospitato a livello globale | Ospitato a livello globale | 
@@ -190,6 +196,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Discovery | Ospitato a Londra | Ospitato a Francoforte | 
 | Event Management | Ospitato a Londra | Non disponibile | 
 | Event Streams | Ospitato a Londra | Ospitato a Francoforte | 
+| IP mobile per VPC | Ospitato a Londra | Ospitato a Francoforte | 
 | Functions | Ospitato a Londra | Ospitato a Francoforte | 
 | Geospatial Analytics | Ospitato a Londra | Non disponibile | 
 | Globalization Pipeline | Ospitato a Londra | Ospitato a Francoforte | 
@@ -209,6 +216,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Knowledge Studio | Ospitato a Londra | Ospitato a Francoforte | 
 | Language Translator | Ospitato a Londra | Ospitato a Francoforte | 
 | CLI Lift | Non disponibile | Non disponibile | 
+| Programma di bilanciamento del carico per VPC| Ospitato a Londra | Ospitato a Francoforte | 
 | MQ | Ospitato a Londra | Ospitato a Francoforte | 
 | Machine Learning | Ospitato a Londra | Ospitato a Francoforte | 
 | Managed Financial Data API | Non disponibile | Non disponibile | 
@@ -227,6 +235,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Query SQL | Non disponibile | Non disponibile | 
 | Secure Gateway | Ospitato a Londra | Diffuso da Dallas | 
 | Security Advisor | Ospitato a Londra | Non disponibile | 
+| Gruppo di sicurezza per VPC | Ospitato a Londra | Ospitato a Francoforte | 
 | Simulated Historical Instrument Analytics | Non disponibile | Non disponibile | 
 | Simulated Instrument Analytics | Non disponibile | Non disponibile | 
 | Simulated Instruments Analytics API | Non disponibile | Non disponibile | 
@@ -236,6 +245,9 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Tone Analyzer | Ospitato a Londra | Ospitato a Francoforte | 
 | Toolchain | Ospitato a Londra | Ospitato a Francoforte | 
 | Soluzioni VMware | Ospitato a livello globale | Ospitato a livello globale | 
+| VPN per VPC| Ospitato a Londra | Ospitato a Francoforte | 
+| VPC (Virtual private cloud)| Ospitato a Londra | Ospitato a Francoforte | 
+| Virtual Server per VPC | Non disponibile | Non disponibile | 
 | Visual Recognition | Non disponibile | Non disponibile | 
 | Voice Agent with Watson | Non disponibile | Non disponibile | 
 | Watson Assistant | Ospitato a Londra | Ospitato a Francoforte | 
@@ -243,7 +255,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Watson Studio | Ospitato a Londra | Ospitato a Francoforte | 
 | Weather Company Data | Ospitato a Londra | Non disponibile | 
 | WebSphere Application Server | Ospitato a Londra | Ospitato a Francoforte | 
-{: caption="Tabella 2. Disponibilità dei servizi - Europa " caption-side="top"}
+{: caption="Tabella 2. Disponibilità dei servizi - Europa" caption-side="top"}
 {: #paas-table2}
 {: tab-title="Europe"}
 {: tab-group="PaaS"}
@@ -253,7 +265,6 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Servizio | Sydney | Tokyo | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Ospitato a Sydney | Non disponibile | 
-| Programma di traccia dell'attività | Ospitato a Sydney | Non disponibile | 
 | Alert Notification | Ospitato a Sydney | Non disponibile | 
 | Analytics Engine | Non disponibile | Ospitato a Tokyo | 
 | Apache Spark | Non disponibile | Non disponibile | 
@@ -264,8 +275,9 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Automated Accessibility Tester | Diffuso da Londra | Non disponibile | 
 | Availability Monitoring | Ospitato a Sydney | Non disponibile | 
 | BigInsights for Apache Hadoop (sottoscrizione) | Non disponibile | Non disponibile | 
+| Block Storage per VPC | Non disponibile | Non disponibile | 
 | Blockchain | Diffuso da Dallas | Non disponibile | 
-| Blockchain Platform | Non disponibile | Non disponibile | 
+| Blockchain Platform | Non disponibile | Ospitato a Tokyo | 
 | Gestore certificato | Non disponibile | Ospitato a Tokyo | 
 | Ambiente Cloud Foundry Enterprise | Non disponibile | Non disponibile | 
 | Cloud Object Storage | Ospitato a livello globale | Ospitato a livello globale | 
@@ -300,6 +312,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Discovery | Ospitato a Sydney | Ospitato a Tokyo | 
 | Event Management | Ospitato a Sydney | Non disponibile | 
 | Event Streams | Ospitato a Sydney | Ospitato a Tokyo | 
+| IP mobile per VPC | Ospitato a Sydney | Ospitato a Tokyo | 
 | Functions | Non disponibile | Ospitato a Tokyo | 
 | Geospatial Analytics | Diffuso da Londra | Non disponibile | 
 | Globalization Pipeline | Ospitato a Sydney | Non disponibile | 
@@ -319,6 +332,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Knowledge Studio | Ospitato a Sydney | Ospitato a Tokyo | 
 | Language Translator | Ospitato a Sydney | Ospitato a Tokyo | 
 | CLI Lift | Non disponibile | Non disponibile | 
+| Programma di bilanciamento del carico per VPC| Ospitato a Sydney | Ospitato a Tokyo | 
 | MQ | Ospitato a Sydney | Non disponibile | 
 | Machine Learning | Non disponibile | Ospitato a Tokyo | 
 | Managed Financial Data API | Non disponibile | Non disponibile | 
@@ -337,6 +351,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Query SQL | Non disponibile | Non disponibile | 
 | Secure Gateway | Diffuso da Dallas | Non disponibile | 
 | Security Advisor | Non disponibile | Non disponibile | 
+| Gruppo di sicurezza per VPC | Ospitato a Sydney | Ospitato a Tokyo | 
 | Simulated Historical Instrument Analytics | Non disponibile | Non disponibile | 
 | Simulated Instrument Analytics | Non disponibile | Non disponibile | 
 | Simulated Instruments Analytics API | Non disponibile | Non disponibile | 
@@ -346,6 +361,9 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Tone Analyzer | Ospitato a Sydney | Ospitato a Tokyo | 
 | Toolchain | Non disponibile | Ospitato a Tokyo | 
 | Soluzioni VMware | Ospitato a livello globale | Ospitato a livello globale | 
+| VPN per VPC| Ospitato a Sydney | Ospitato a Tokyo | 
+| VPC (Virtual private cloud)| Ospitato a Sydney | Ospitato a Tokyo | 
+| Virtual Server per VPC | Non disponibile | Non disponibile | 
 | Visual Recognition | Non disponibile | Non disponibile | 
 | Voice Agent with Watson | Non disponibile | Non disponibile | 
 | Watson Assistant | Ospitato a Sydney | Ospitato a Tokyo | 

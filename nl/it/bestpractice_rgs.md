@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-05-06"
+lastupdated: "2019-06-03"
 
 keywords: organize resources, set up resource groups, best practice, resource group strategy
 
@@ -73,14 +73,16 @@ Fornisci l'accesso per gli utenti o i gruppi di utenti organizzati in gruppi di 
 
 Controlla la seguente tabella per ulteriori informazioni sui due tipi di accesso e cosa consente di fare a un utente ogni ruolo IAM della piattaforma assegnato:
 
-| Dettagli della politica di accesso  | Azioni per l'accesso ai gruppi di risorse | Azione sulle risorse nei gruppi di risorse |
+|   | Azioni per l'accesso per gestire i gruppi di risorse | Azione sulle risorse nei gruppi di risorse |
 |:-----------------|:--------------|:---------------|
-| Assegna accesso a | Gruppo di risorse selezionato | Servizio selezionato in un gruppo di risorse |
 | Ruolo visualizzatore  | Visualizzare il gruppo e le sue caratteristiche ma non le risorse nel gruppo. | Visualizzare le risorse nel gruppo. |
 | Ruolo operatore | Non applicabile | Non applicabile |
 | Ruolo editor | Visualizzare o modificare il nome o altre caratteristiche del gruppo ma non le risorse nel gruppo. | Creare, eliminare, modificare, sospendere, riprendere, visualizzare, associare e gestire l'accesso alle risorse nel gruppo di risorse. |
 | Ruolo amministratore |  Visualizzare, modificare o gestire l'accesso al gruppo ma non alle risorse nel gruppo | Creare, eliminare, modificare, sospendere, riprendere, visualizzare, associare e gestire l'accesso alle risorse nel gruppo di risorse. |
+{: row-headers}
+{: class="comparison-table"}
 {: caption="Tabella 1. Accesso ai gruppi di risorse" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the selected role of an access policy. The column headers identify the type of policy whether its assigning access to manage a resource group or access to resources within a resource group. The remaining cells tell you the allowable actions based on the type of policy and the specific role that is selected as defined in the header rows."}
 
 Se vuoi che un utente crei una nuova istanza del servizio e la aggiunga a un gruppo di risorse, l'utente deve essere assegnato come Visualizzatore o ruolo superiore sul gruppo di risorse e Editor o ruolo superiore sul servizio.
 {: tip}

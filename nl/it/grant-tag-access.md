@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-06-03"
 
 keywords: tagging, enabling others to tag, tagging permissions
 
@@ -35,6 +35,7 @@ Le tag sono visibili a qualsiasi utente in un account. Dopo essere stata aggiunt
 | Infrastruttura classica*| Autorizzazione di visualizzazione dei dettagli hardware o autorizzazione di visualizzazione dei dettagli del server virtuale |
 | Cloud Object Storage S3 sull'infrastruttura classica | Autorizzazione di gestione dell'archiviazione |
 {: caption="Tabella 1. Ruoli richiesti per l'aggiunta e la rimozione di tag" caption-side="top"}
+{: summary="This is a simple data table. However, the asterisk indicates that you must read the qualifying note after this table."}
 
 *Le risorse su cui è possibile eseguire operazioni di tag nell'infrastruttura classica sono Virtual Guest, Virtual Dedicated Host, Network Application Delivery Controller, Gateway Member, Subnet, VLAN e VLAN Firewall (Dedicated).
 
