@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-06-03"
 
 keywords: tagging, enabling others to tag, tagging permissions
 
@@ -35,6 +35,7 @@ subcollection: resources
 |经典基础架构*|查看硬件详细信息许可权或查看虚拟服务器详细信息许可权|
 |经典基础架构上的 Cloud Object Storage S3|存储管理许可权|
 {: caption="表 1. 添加和除去标记需要的角色" caption-side="top"}
+{: summary="This is a simple data table. However, the asterisk indicates that you must read the qualifying note after this table."}
 
 *经典基础架构中可标记的资源包括虚拟访客、虚拟专用主机、网络应用程序交付控制器、网关成员、子网、VLAN 和 VLAN 防火墙（专用）。
 

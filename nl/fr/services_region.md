@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-29"
+lastupdated: "2019-06-05"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -32,7 +32,6 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Service | Dallas | Washington DC | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hébergé à Dallas | Hébergé à Washington DC | 
-| Activity Tracker | Hébergé à Dallas | Indisponible | 
 | Alert Notification | Hébergé à Dallas | Indisponible | 
 | Analytics Engine | Hébergé à Dallas | Indisponible | 
 | Apache Spark | Hébergé à Dallas | Indisponible | 
@@ -43,6 +42,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Automated Accessibility Tester | Hébergé à Dallas | Indisponible | 
 | Availability Monitoring | Hébergé à Dallas | Indisponible | 
 | BigInsights for Apache Hadoop (Abonnement) | Hébergé à Dallas | Indisponible | 
+| Block Storage for VPC | Indisponible | Indisponible | 
 | Blockchain | Hébergé à Dallas | Indisponible | 
 | Blockchain Platform | Hébergé à Dallas | Indisponible | 
 | Certificate Manager | Hébergé à Dallas | Indisponible | 
@@ -79,6 +79,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Discovery | Hébergé à Dallas | Hébergé à Washington DC | 
 | Event Management | Hébergé à Dallas | Indisponible | 
 | Event Streams | Hébergé à Dallas | Hébergé à Washington DC | 
+| Floating IP for VPC | Hébergé à Dallas | Indisponible | 
 | Fonctions | Hébergé à Dallas | Hébergé à Washington DC | 
 | Geospatial Analytics | Hébergé à Dallas | Indisponible | 
 | Globalization Pipeline | Hébergé à Dallas | Indisponible | 
@@ -98,6 +99,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Knowledge Studio | Hébergé à Dallas | Hébergé à Washington DC | 
 | Language Translator | Hébergé à Dallas | Hébergé à Washington DC | 
 | Lift CLI | Hébergé à Dallas | Indisponible | 
+| Load Balancer for VPC | Hébergé à Dallas | Hébergé à Washington DC | 
 | MQ | Hébergé à Dallas | Indisponible | 
 | Machine Learning | Hébergé à Dallas | Indisponible | 
 | Managed Financial Data API | Hébergé à Dallas | Hébergé à Washington DC | 
@@ -116,6 +118,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | SQL Query | Hébergé à Dallas | Indisponible | 
 | Secure Gateway | Hébergé à Dallas | Hébergé à Washington DC | 
 | Security Advisor | Hébergé à Dallas | Indisponible | 
+| Security Group for VPC | Hébergé à Dallas | Indisponible | 
 | Simulated Historical Instrument Analytics | Hébergé à Dallas | Indisponible | 
 | Simulated Instrument Analytics | Hébergé à Dallas | Indisponible | 
 | Simulated Instruments Analytics API | Hébergé à Dallas | Hébergé à Washington DC | 
@@ -125,6 +128,9 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Tone Analyzer | Hébergé à Dallas | Hébergé à Washington DC | 
 | Toolchain | Hébergé à Dallas | Hébergé à Washington DC | 
 | Solutions VMware | Hébergé dans le monde entier | Hébergé dans le monde entier | 
+| VPN for VPC | Hébergé à Dallas | Hébergé à Washington DC | 
+| Virtual Private Cloud | Hébergé à Dallas | Indisponible | 
+| Virtual Server for VPC | Indisponible | Indisponible | 
 | Visual Recognition | Hébergé à Dallas | Indisponible | 
 | Voice Agent with Watson | Hébergé à Dallas | Hébergé à Washington DC | 
 | Watson Assistant | Hébergé à Dallas | Hébergé à Washington DC | 
@@ -142,7 +148,6 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Service | Londres | Francfort | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hébergé à Londres | Hébergé à Francfort | 
-| Activity Tracker | Hébergé à Londres | Hébergé à Francfort | 
 | Alert Notification | Hébergé à Londres | Indisponible | 
 | Analytics Engine | Hébergé à Londres | Hébergé à Francfort | 
 | Apache Spark | Hébergé à Londres | Indisponible | 
@@ -153,8 +158,9 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Automated Accessibility Tester | Hébergé à Londres | Indisponible | 
 | Availability Monitoring | Hébergé à Londres | Indisponible | 
 | BigInsights for Apache Hadoop (Abonnement) | Indisponible | Indisponible | 
+| Block Storage for VPC | Indisponible | Indisponible | 
 | Blockchain | Syndiqué avec Dallas | Syndiqué avec Dallas | 
-| Blockchain Platform | Indisponible | Indisponible | 
+| Blockchain Platform | Indisponible | Hébergé à Francfort | 
 | Certificate Manager | Hébergé à Londres | Hébergé à Francfort | 
 | Cloud Foundry Enterprise Environment | Indisponible | Hébergé à Francfort | 
 | Cloud Object Storage | Hébergé dans le monde entier | Hébergé dans le monde entier | 
@@ -189,6 +195,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Discovery | Hébergé à Londres | Hébergé à Francfort | 
 | Event Management | Hébergé à Londres | Indisponible | 
 | Event Streams | Hébergé à Londres | Hébergé à Francfort | 
+| Floating IP for VPC | Hébergé à Londres | Hébergé à Francfort | 
 | Fonctions | Hébergé à Londres | Hébergé à Francfort | 
 | Geospatial Analytics | Hébergé à Londres | Indisponible | 
 | Globalization Pipeline | Hébergé à Londres | Hébergé à Francfort | 
@@ -208,6 +215,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Knowledge Studio | Hébergé à Londres | Hébergé à Francfort | 
 | Language Translator | Hébergé à Londres | Hébergé à Francfort | 
 | Lift CLI | Indisponible | Indisponible | 
+| Load Balancer for VPC | Hébergé à Londres | Hébergé à Francfort | 
 | MQ | Hébergé à Londres | Hébergé à Francfort | 
 | Machine Learning | Hébergé à Londres | Hébergé à Francfort | 
 | Managed Financial Data API | Indisponible | Indisponible | 
@@ -226,6 +234,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | SQL Query | Indisponible | Indisponible | 
 | Secure Gateway | Hébergé à Londres | Syndiqué avec Dallas | 
 | Security Advisor | Hébergé à Londres | Indisponible | 
+| Security Group for VPC | Hébergé à Londres | Hébergé à Francfort | 
 | Simulated Historical Instrument Analytics | Indisponible | Indisponible | 
 | Simulated Instrument Analytics | Indisponible | Indisponible | 
 | Simulated Instruments Analytics API | Indisponible | Indisponible | 
@@ -235,6 +244,9 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Tone Analyzer | Hébergé à Londres | Hébergé à Francfort | 
 | Toolchain | Hébergé à Londres | Hébergé à Francfort | 
 | Solutions VMware | Hébergé dans le monde entier | Hébergé dans le monde entier | 
+| VPN for VPC | Hébergé à Londres | Hébergé à Francfort | 
+| Virtual Private Cloud | Hébergé à Londres | Hébergé à Francfort | 
+| Virtual Server for VPC | Indisponible | Indisponible | 
 | Visual Recognition | Indisponible | Indisponible | 
 | Voice Agent with Watson | Indisponible | Indisponible | 
 | Watson Assistant | Hébergé à Londres | Hébergé à Francfort | 
@@ -252,7 +264,6 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Service | Sydney | Tokyo | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hébergé à Sydney | Indisponible | 
-| Activity Tracker | Hébergé à Sydney | Indisponible | 
 | Alert Notification | Hébergé à Sydney | Indisponible | 
 | Analytics Engine | Indisponible | Hébergé à Tokyo | 
 | Apache Spark | Indisponible | Indisponible | 
@@ -263,8 +274,9 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Automated Accessibility Tester | Syndiqué avec Londres | Indisponible | 
 | Availability Monitoring | Hébergé à Sydney | Indisponible | 
 | BigInsights for Apache Hadoop (Abonnement) | Indisponible | Indisponible | 
+| Block Storage for VPC | Indisponible | Indisponible | 
 | Blockchain | Syndiqué avec Dallas | Indisponible | 
-| Blockchain Platform | Indisponible | Indisponible | 
+| Blockchain Platform | Indisponible | Hébergé à Tokyo | 
 | Certificate Manager | Indisponible | Hébergé à Tokyo | 
 | Cloud Foundry Enterprise Environment | Indisponible | Indisponible | 
 | Cloud Object Storage | Hébergé dans le monde entier | Hébergé dans le monde entier | 
@@ -299,6 +311,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Discovery | Hébergé à Sydney | Hébergé à Tokyo | 
 | Event Management | Hébergé à Sydney | Indisponible | 
 | Event Streams | Hébergé à Sydney | Hébergé à Tokyo | 
+| Floating IP for VPC | Hébergé à Sydney | Hébergé à Tokyo | 
 | Fonctions | Indisponible | Hébergé à Tokyo | 
 | Geospatial Analytics | Syndiqué avec Londres | Indisponible | 
 | Globalization Pipeline | Hébergé à Sydney | Indisponible | 
@@ -318,6 +331,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Knowledge Studio | Hébergé à Sydney | Hébergé à Tokyo | 
 | Language Translator | Hébergé à Sydney | Hébergé à Tokyo | 
 | Lift CLI | Indisponible | Indisponible | 
+| Load Balancer for VPC | Hébergé à Sydney | Hébergé à Tokyo | 
 | MQ | Hébergé à Sydney | Indisponible | 
 | Machine Learning | Indisponible | Hébergé à Tokyo | 
 | Managed Financial Data API | Indisponible | Indisponible | 
@@ -336,6 +350,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | SQL Query | Indisponible | Indisponible | 
 | Secure Gateway | Syndiqué avec Dallas | Indisponible | 
 | Security Advisor | Indisponible | Indisponible | 
+| Security Group for VPC | Hébergé à Sydney | Hébergé à Tokyo | 
 | Simulated Historical Instrument Analytics | Indisponible | Indisponible | 
 | Simulated Instrument Analytics | Indisponible | Indisponible | 
 | Simulated Instruments Analytics API | Indisponible | Indisponible | 
@@ -345,6 +360,9 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Tone Analyzer | Hébergé à Sydney | Hébergé à Tokyo | 
 | Toolchain | Indisponible | Hébergé à Tokyo | 
 | Solutions VMware | Hébergé dans le monde entier | Hébergé dans le monde entier | 
+| VPN for VPC | Hébergé à Sydney | Hébergé à Tokyo | 
+| Virtual Private Cloud | Hébergé à Sydney | Hébergé à Tokyo | 
+| Virtual Server for VPC | Indisponible | Indisponible | 
 | Visual Recognition | Indisponible | Indisponible | 
 | Voice Agent with Watson | Indisponible | Indisponible | 
 | Watson Assistant | Hébergé à Sydney | Hébergé à Tokyo | 

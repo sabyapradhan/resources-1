@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-05-06"
+lastupdated: "2019-06-03"
 
 keywords: organize resources, set up resource groups, best practice, resource group strategy
 
@@ -73,14 +73,16 @@ IAM 액세스 제어를 사용하여 사용으로 설정되는 서비스는 Clou
 
 두 가지 유형의 액세스 권한에 대한 자세한 정보 및 지정된 각 플랫폼 IAM 역할이 사용자에게 제공하는 기능에 대해서는 다음 표를 참조하십시오.
 
-|액세스 정책 세부사항  | 리소스 그룹의 액세스에 대한 조치 | 리소스 그룹 내의 리소스에 대한 조치 |
+|   | 리소스 그룹 관리를 위한 액세스 조치 | 리소스 그룹 내의 리소스에 대한 조치 |
 |:-----------------|:--------------|:---------------|
-|액세스 지정 대상 |선택된 리소스 그룹 |리소스 그룹의 선택된 서비스 |
 |뷰어 역할  | 그룹 및 해당 특성을 볼 수 있으나 그룹 내의 리소스는 해당되지 않음 | 그룹 내의 리소스 보기 |
 |운영자 역할 |해당사항 없음 |해당사항 없음 |
 |편집자 역할 | 그룹의 이름 또는 기타 특성을 보거나 편집할 수 있으나 그룹 내의 리소스는 해당되지 않음 | 리소스 그룹 내의 리소스의 액세스 작성, 삭제, 편집, 일시중단, 재개, 보기, 바인드 및 관리 |
 |관리자 역할 | 그룹에 대한 액세스를 보거나 편집하거나 관리할 수 있으나 그룹 내의 리소스는 해당되지 않음 | 리소스 그룹 내의 리소스의 액세스 작성, 삭제, 편집, 일시중단, 재개, 보기, 바인드 및 관리 |
+{: row-headers}
+{: class="comparison-table"}
 {: caption="표 1. 리소스 그룹에 대한 액세스" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the selected role of an access policy. The column headers identify the type of policy whether its assigning access to manage a resource group or access to resources within a resource group. The remaining cells tell you the allowable actions based on the type of policy and the specific role that is selected as defined in the header rows."}
 
 사용자가 새 서비스 인스턴스를 작성하여 이를 리소스 그룹에 추가하도록 하려면 사용자가 리소스 그룹에서 뷰어 이상으로 지정되거나 서비스에서 편집자 이상으로 지정되어야 합니다.
 {: tip}

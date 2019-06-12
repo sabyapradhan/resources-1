@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-06-03"
 
 keywords: tagging, enabling others to tag, tagging permissions
 
@@ -35,6 +35,7 @@ subcollection: resources
 |클래식 인프라*|하드웨어 세부사항 보기 권한 또는 가상 서버 세부사항 보기 권한 |
 |클래식 인프라의 Cloud Object Storage S3 |스토리지 관리 권한 |
 {: caption="표 1. 태그를 추가하고 제거하는 데 필요한 역할" caption-side="top"}
+{: summary="This is a simple data table. However, the asterisk indicates that you must read the qualifying note after this table."}
 
 *클래식 인프라의 태그 지정 가능 리소스는 가상 게스트, 가상 전용 호스트, Network Application Delivery Controller, 게이트웨이 구성원, 서브넷, VLAN 및 VLAN 방화벽(전용)입니다.
 

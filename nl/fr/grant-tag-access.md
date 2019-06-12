@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-06-03"
 
 keywords: tagging, enabling others to tag, tagging permissions
 
@@ -35,6 +35,7 @@ Les étiquettes sont visibles de tout utilisateur d'un compte. Une fois qu'une r
 | Infrastructure classique*| Droits d'affichage des détails de matériel ou droits d'affichage des détails de serveur virtuel |
 | Cloud Object Storage S3 sur l'infrastructure classique | Droits de gestion de stockage |
 {: caption="Tableau 1. Rôles requis pour l'ajout ou le retrait d'étiquettes" caption-side="top"}
+{: summary="This is a simple data table. However, the asterisk indicates that you must read the qualifying note after this table."}
 
 *Les ressources pouvant être étiquetées dans l'infrastructure classique sont les suivantes : Invité virtuel, Hôte virtuel dédié, Contrôleur de livraison d'applications réseau, Membre de passerelle, Sous-réseau et Pare-feu de sous-réseau (dédié).
 

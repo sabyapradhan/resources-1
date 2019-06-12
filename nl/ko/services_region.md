@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-29"
+lastupdated: "2019-06-05"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -32,7 +32,6 @@ subcollection: resources
 |서비스 |댈러스 | 워싱턴 DC | 
 |-----|-----|-----|-----|-----|-----|
 |API Connect | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
-|Activity Tracker | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Alert Notification | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Analytics Engine | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Apache Spark | 댈러스에서 호스팅됨 |사용할 수 없음 | 
@@ -43,6 +42,7 @@ subcollection: resources
 |Automated Accessibility Tester | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Availability Monitoring | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |BigInsights for Apache Hadoop(구독) | 댈러스에서 호스팅됨 |사용할 수 없음 | 
+| Block Storage for VPC |사용할 수 없음 |사용할 수 없음 | 
 |Blockchain | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Blockchain Platform | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Certificate Manager | 댈러스에서 호스팅됨 |사용할 수 없음 | 
@@ -79,6 +79,7 @@ subcollection: resources
 |Discovery | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Event Management | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Event Streams | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
+| Floating IP for VPC | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Functions | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Geospatial Analytics | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Globalization Pipeline | 댈러스에서 호스팅됨 |사용할 수 없음 | 
@@ -98,6 +99,7 @@ subcollection: resources
 |Knowledge Studio | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Language Translator | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Lift CLI | 댈러스에서 호스팅됨 |사용할 수 없음 | 
+| Load Balancer for VPC | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |MQ | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Machine Learning | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Managed Financial Data API | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
@@ -116,6 +118,7 @@ subcollection: resources
 |SQL Query | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Secure Gateway | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Security Advisor | 댈러스에서 호스팅됨 |사용할 수 없음 | 
+| Security Group for VPC | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Simulated Historical Instrument Analytics | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Simulated Instrument Analytics | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Simulated Instruments Analytics API | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
@@ -125,6 +128,9 @@ subcollection: resources
 |Tone Analyzer | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Toolchain | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 | VMware Solutions |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
+| VPN for VPC | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
+| Virtual Private Cloud | 댈러스에서 호스팅됨 |사용할 수 없음 | 
+| Virtual Server for VPC |사용할 수 없음 |사용할 수 없음 | 
 |Visual Recognition | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Voice Agent with Watson | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 | Watson Assistant | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
@@ -142,7 +148,6 @@ subcollection: resources
 |서비스 | 런던 | 프랑크푸르트 | 
 |-----|-----|-----|-----|-----|-----|
 |API Connect | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
-|Activity Tracker | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Alert Notification | 런던에서 호스팅됨 |사용할 수 없음 | 
 |Analytics Engine | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Apache Spark | 런던에서 호스팅됨 |사용할 수 없음 | 
@@ -153,8 +158,9 @@ subcollection: resources
 |Automated Accessibility Tester | 런던에서 호스팅됨 |사용할 수 없음 | 
 |Availability Monitoring | 런던에서 호스팅됨 |사용할 수 없음 | 
 |BigInsights for Apache Hadoop(구독) |사용할 수 없음 |사용할 수 없음 | 
+| Block Storage for VPC |사용할 수 없음 |사용할 수 없음 | 
 |Blockchain | 댈러스에서 신디케이트됨 | 댈러스에서 신디케이트됨 | 
-|Blockchain Platform |사용할 수 없음 |사용할 수 없음 | 
+|Blockchain Platform |사용할 수 없음 | 프랑크푸르트에서 호스팅됨 | 
 |Certificate Manager | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Cloud Foundry Enterprise Environment |사용할 수 없음 | 프랑크푸르트에서 호스팅됨 | 
 |Cloud Object Storage |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
@@ -189,6 +195,7 @@ subcollection: resources
 |Discovery | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Event Management | 런던에서 호스팅됨 |사용할 수 없음 | 
 |Event Streams | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
+| Floating IP for VPC | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Functions | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Geospatial Analytics | 런던에서 호스팅됨 |사용할 수 없음 | 
 |Globalization Pipeline | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
@@ -208,6 +215,7 @@ subcollection: resources
 |Knowledge Studio | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Language Translator | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Lift CLI |사용할 수 없음 |사용할 수 없음 | 
+| Load Balancer for VPC | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |MQ | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Machine Learning | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Managed Financial Data API |사용할 수 없음 |사용할 수 없음 | 
@@ -226,6 +234,7 @@ subcollection: resources
 |SQL Query |사용할 수 없음 |사용할 수 없음 | 
 |Secure Gateway | 런던에서 호스팅됨 | 댈러스에서 신디케이트됨 | 
 |Security Advisor | 런던에서 호스팅됨 |사용할 수 없음 | 
+| Security Group for VPC | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Simulated Historical Instrument Analytics |사용할 수 없음 |사용할 수 없음 | 
 |Simulated Instrument Analytics |사용할 수 없음 |사용할 수 없음 | 
 |Simulated Instruments Analytics API |사용할 수 없음 |사용할 수 없음 | 
@@ -235,6 +244,9 @@ subcollection: resources
 |Tone Analyzer | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Toolchain | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 | VMware Solutions |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
+| VPN for VPC | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
+| Virtual Private Cloud | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
+| Virtual Server for VPC |사용할 수 없음 |사용할 수 없음 | 
 |Visual Recognition |사용할 수 없음 |사용할 수 없음 | 
 |Voice Agent with Watson |사용할 수 없음 |사용할 수 없음 | 
 | Watson Assistant | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
@@ -252,7 +264,6 @@ subcollection: resources
 |서비스 |시드니 | 도쿄 | 
 |-----|-----|-----|-----|-----|-----|
 |API Connect |시드니에서 호스팅됨 |사용할 수 없음 | 
-|Activity Tracker |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Alert Notification |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Analytics Engine |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 |Apache Spark |사용할 수 없음 |사용할 수 없음 | 
@@ -263,8 +274,9 @@ subcollection: resources
 |Automated Accessibility Tester | 런던에서 신디케이트됨 |사용할 수 없음 | 
 |Availability Monitoring |시드니에서 호스팅됨 |사용할 수 없음 | 
 |BigInsights for Apache Hadoop(구독) |사용할 수 없음 |사용할 수 없음 | 
+| Block Storage for VPC |사용할 수 없음 |사용할 수 없음 | 
 |Blockchain | 댈러스에서 신디케이트됨 |사용할 수 없음 | 
-|Blockchain Platform |사용할 수 없음 |사용할 수 없음 | 
+|Blockchain Platform |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 |Certificate Manager |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 |Cloud Foundry Enterprise Environment |사용할 수 없음 |사용할 수 없음 | 
 |Cloud Object Storage |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
@@ -299,6 +311,7 @@ subcollection: resources
 |Discovery |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Event Management |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Event Streams |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
+| Floating IP for VPC |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Functions |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 |Geospatial Analytics | 런던에서 신디케이트됨 |사용할 수 없음 | 
 |Globalization Pipeline |시드니에서 호스팅됨 |사용할 수 없음 | 
@@ -318,6 +331,7 @@ subcollection: resources
 |Knowledge Studio |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Language Translator |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Lift CLI |사용할 수 없음 |사용할 수 없음 | 
+| Load Balancer for VPC |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |MQ |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Machine Learning |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 |Managed Financial Data API |사용할 수 없음 |사용할 수 없음 | 
@@ -336,6 +350,7 @@ subcollection: resources
 |SQL Query |사용할 수 없음 |사용할 수 없음 | 
 |Secure Gateway | 댈러스에서 신디케이트됨 |사용할 수 없음 | 
 |Security Advisor |사용할 수 없음 |사용할 수 없음 | 
+| Security Group for VPC |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Simulated Historical Instrument Analytics |사용할 수 없음 |사용할 수 없음 | 
 |Simulated Instrument Analytics |사용할 수 없음 |사용할 수 없음 | 
 |Simulated Instruments Analytics API |사용할 수 없음 |사용할 수 없음 | 
@@ -345,6 +360,9 @@ subcollection: resources
 |Tone Analyzer |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Toolchain |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 | VMware Solutions |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
+| VPN for VPC |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
+| Virtual Private Cloud |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
+| Virtual Server for VPC |사용할 수 없음 |사용할 수 없음 | 
 |Visual Recognition |사용할 수 없음 |사용할 수 없음 | 
 |Voice Agent with Watson |사용할 수 없음 |사용할 수 없음 | 
 | Watson Assistant |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 

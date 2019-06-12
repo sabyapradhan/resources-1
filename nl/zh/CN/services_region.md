@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-29"
+lastupdated: "2019-06-05"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -32,7 +32,6 @@ subcollection: resources
 |服务|达拉斯|华盛顿特区| 
 |-----|-----|-----|-----|-----|-----|
 |API Connect| 在达拉斯托管 | 在华盛顿特区托管 | 
-|Activity Tracker| 在达拉斯托管 |不可用| 
 |Alert Notification| 在达拉斯托管 |不可用| 
 |Analytics Engine| 在达拉斯托管 |不可用| 
 |Apache Spark| 在达拉斯托管 |不可用| 
@@ -43,6 +42,7 @@ subcollection: resources
 |Automated Accessibility Tester| 在达拉斯托管 |不可用| 
 |Availability Monitoring| 在达拉斯托管 |不可用| 
 |BigInsights for Apache Hadoop（预订）| 在达拉斯托管 |不可用| 
+|Block Storage for VPC|不可用|不可用| 
 |Blockchain| 在达拉斯托管 |不可用| 
 |Blockchain Platform| 在达拉斯托管 |不可用| 
 |Certificate Manager| 在达拉斯托管 |不可用| 
@@ -79,6 +79,7 @@ subcollection: resources
 |Discovery| 在达拉斯托管 | 在华盛顿特区托管 | 
 |Event Management| 在达拉斯托管 |不可用| 
 |Event Streams| 在达拉斯托管 | 在华盛顿特区托管 | 
+|Floating IP for VPC| 在达拉斯托管 |不可用| 
 | Functions | 在达拉斯托管 | 在华盛顿特区托管 | 
 |Geospatial Analytics| 在达拉斯托管 |不可用| 
 |Globalization Pipeline| 在达拉斯托管 |不可用| 
@@ -98,6 +99,7 @@ subcollection: resources
 |Knowledge Studio| 在达拉斯托管 | 在华盛顿特区托管 | 
 |Language Translator| 在达拉斯托管 | 在华盛顿特区托管 | 
 |Lift CLI| 在达拉斯托管 |不可用| 
+|Load Balancer for VPC| 在达拉斯托管 | 在华盛顿特区托管 | 
 |MQ| 在达拉斯托管 |不可用| 
 |Machine Learning| 在达拉斯托管 |不可用| 
 |Managed Financial Data API| 在达拉斯托管 | 在华盛顿特区托管 | 
@@ -116,6 +118,7 @@ subcollection: resources
 |SQL Query| 在达拉斯托管 |不可用| 
 |Secure Gateway| 在达拉斯托管 | 在华盛顿特区托管 | 
 | Security Advisor | 在达拉斯托管 |不可用| 
+|Security Group for VPC| 在达拉斯托管 |不可用| 
 |Simulated Historical Instrument Analytics| 在达拉斯托管 |不可用| 
 |Simulated Instrument Analytics| 在达拉斯托管 |不可用| 
 |Simulated Instruments Analytics API| 在达拉斯托管 | 在华盛顿特区托管 | 
@@ -125,6 +128,9 @@ subcollection: resources
 |Tone Analyzer| 在达拉斯托管 | 在华盛顿特区托管 | 
 |Toolchain| 在达拉斯托管 | 在华盛顿特区托管 | 
 |VMware Solutions|在全球托管|在全球托管| 
+|VPN for VPC| 在达拉斯托管 | 在华盛顿特区托管 | 
+|Virtual Private Cloud| 在达拉斯托管 |不可用| 
+|Virtual Server for VPC|不可用|不可用| 
 |Visual Recognition| 在达拉斯托管 |不可用| 
 |Voice Agent with Watson| 在达拉斯托管 | 在华盛顿特区托管 | 
 | Watson Assistant | 在达拉斯托管 | 在华盛顿特区托管 | 
@@ -142,7 +148,6 @@ subcollection: resources
 |服务|伦敦| 法兰克福| 
 |-----|-----|-----|-----|-----|-----|
 |API Connect| 在伦敦托管 | 在法兰克福托管 | 
-|Activity Tracker| 在伦敦托管 | 在法兰克福托管 | 
 |Alert Notification| 在伦敦托管 |不可用| 
 |Analytics Engine| 在伦敦托管 | 在法兰克福托管 | 
 |Apache Spark| 在伦敦托管 |不可用| 
@@ -153,8 +158,9 @@ subcollection: resources
 |Automated Accessibility Tester| 在伦敦托管 |不可用| 
 |Availability Monitoring| 在伦敦托管 |不可用| 
 |BigInsights for Apache Hadoop（预订）|不可用|不可用| 
+|Block Storage for VPC|不可用|不可用| 
 |Blockchain| 从达拉斯联合 | 从达拉斯联合 | 
-|Blockchain Platform|不可用|不可用| 
+|Blockchain Platform|不可用| 在法兰克福托管 | 
 |Certificate Manager| 在伦敦托管 | 在法兰克福托管 | 
 |Cloud Foundry Enterprise Environment|不可用| 在法兰克福托管 | 
 |Cloud Object Storage|在全球托管|在全球托管| 
@@ -189,6 +195,7 @@ subcollection: resources
 |Discovery| 在伦敦托管 | 在法兰克福托管 | 
 |Event Management| 在伦敦托管 |不可用| 
 |Event Streams| 在伦敦托管 | 在法兰克福托管 | 
+|Floating IP for VPC| 在伦敦托管 | 在法兰克福托管 | 
 | Functions | 在伦敦托管 | 在法兰克福托管 | 
 |Geospatial Analytics| 在伦敦托管 |不可用| 
 |Globalization Pipeline| 在伦敦托管 | 在法兰克福托管 | 
@@ -208,6 +215,7 @@ subcollection: resources
 |Knowledge Studio| 在伦敦托管 | 在法兰克福托管 | 
 |Language Translator| 在伦敦托管 | 在法兰克福托管 | 
 |Lift CLI|不可用|不可用| 
+|Load Balancer for VPC| 在伦敦托管 | 在法兰克福托管 | 
 |MQ| 在伦敦托管 | 在法兰克福托管 | 
 |Machine Learning| 在伦敦托管 | 在法兰克福托管 | 
 |Managed Financial Data API|不可用|不可用| 
@@ -226,6 +234,7 @@ subcollection: resources
 |SQL Query|不可用|不可用| 
 |Secure Gateway| 在伦敦托管 | 从达拉斯联合 | 
 | Security Advisor | 在伦敦托管 |不可用| 
+|Security Group for VPC| 在伦敦托管 | 在法兰克福托管 | 
 |Simulated Historical Instrument Analytics|不可用|不可用| 
 |Simulated Instrument Analytics|不可用|不可用| 
 |Simulated Instruments Analytics API|不可用|不可用| 
@@ -235,6 +244,9 @@ subcollection: resources
 |Tone Analyzer| 在伦敦托管 | 在法兰克福托管 | 
 |Toolchain| 在伦敦托管 | 在法兰克福托管 | 
 |VMware Solutions|在全球托管|在全球托管| 
+|VPN for VPC| 在伦敦托管 | 在法兰克福托管 | 
+|Virtual Private Cloud| 在伦敦托管 | 在法兰克福托管 | 
+|Virtual Server for VPC|不可用|不可用| 
 |Visual Recognition|不可用|不可用| 
 |Voice Agent with Watson|不可用|不可用| 
 | Watson Assistant | 在伦敦托管 | 在法兰克福托管 | 
@@ -252,7 +264,6 @@ subcollection: resources
 |服务|悉尼|东京| 
 |-----|-----|-----|-----|-----|-----|
 |API Connect|在悉尼托管|不可用| 
-|Activity Tracker|在悉尼托管|不可用| 
 |Alert Notification|在悉尼托管|不可用| 
 |Analytics Engine|不可用| 在东京托管 | 
 |Apache Spark|不可用|不可用| 
@@ -263,8 +274,9 @@ subcollection: resources
 |Automated Accessibility Tester| 从伦敦联合 |不可用| 
 |Availability Monitoring|在悉尼托管|不可用| 
 |BigInsights for Apache Hadoop（预订）|不可用|不可用| 
+|Block Storage for VPC|不可用|不可用| 
 |Blockchain| 从达拉斯联合 |不可用| 
-|Blockchain Platform|不可用|不可用| 
+|Blockchain Platform|不可用| 在东京托管 | 
 |Certificate Manager|不可用| 在东京托管 | 
 |Cloud Foundry Enterprise Environment|不可用|不可用| 
 |Cloud Object Storage|在全球托管|在全球托管| 
@@ -299,6 +311,7 @@ subcollection: resources
 |Discovery|在悉尼托管| 在东京托管 | 
 |Event Management|在悉尼托管|不可用| 
 |Event Streams|在悉尼托管| 在东京托管 | 
+|Floating IP for VPC|在悉尼托管| 在东京托管 | 
 | Functions |不可用| 在东京托管 | 
 |Geospatial Analytics| 从伦敦联合 |不可用| 
 |Globalization Pipeline|在悉尼托管|不可用| 
@@ -318,6 +331,7 @@ subcollection: resources
 |Knowledge Studio|在悉尼托管| 在东京托管 | 
 |Language Translator|在悉尼托管| 在东京托管 | 
 |Lift CLI|不可用|不可用| 
+|Load Balancer for VPC|在悉尼托管| 在东京托管 | 
 |MQ|在悉尼托管|不可用| 
 |Machine Learning|不可用| 在东京托管 | 
 |Managed Financial Data API|不可用|不可用| 
@@ -336,6 +350,7 @@ subcollection: resources
 |SQL Query|不可用|不可用| 
 |Secure Gateway| 从达拉斯联合 |不可用| 
 | Security Advisor |不可用|不可用| 
+|Security Group for VPC|在悉尼托管| 在东京托管 | 
 |Simulated Historical Instrument Analytics|不可用|不可用| 
 |Simulated Instrument Analytics|不可用|不可用| 
 |Simulated Instruments Analytics API|不可用|不可用| 
@@ -345,6 +360,9 @@ subcollection: resources
 |Tone Analyzer|在悉尼托管| 在东京托管 | 
 |Toolchain|不可用| 在东京托管 | 
 |VMware Solutions|在全球托管|在全球托管| 
+|VPN for VPC|在悉尼托管| 在东京托管 | 
+|Virtual Private Cloud|在悉尼托管| 在东京托管 | 
+|Virtual Server for VPC|不可用|不可用| 
 |Visual Recognition|不可用|不可用| 
 |Voice Agent with Watson|不可用|不可用| 
 | Watson Assistant |在悉尼托管| 在东京托管 | 

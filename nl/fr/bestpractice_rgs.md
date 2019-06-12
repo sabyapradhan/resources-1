@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-05-06"
+lastupdated: "2019-06-03"
 
 keywords: organize resources, set up resource groups, best practice, resource group strategy
 
@@ -73,14 +73,16 @@ En créant des règles, vous octroyez l'accès aux utilisateurs ou aux groupes d
 
 Consultez le tableau suivant pour plus d'informations sur les deux types d'accès et savoir ce que chaque rôle IAM de plateforme affecté peut permettre à un utilisateur de faire :
 
-| Détails de la règle d'accès  | Actions liées à l'accès dans des groupes de ressources | Action concernant les ressources des groupes de ressources |
+|   | Actions liées à l'accès en gestion à des groupes de ressources | Action concernant les ressources des groupes de ressources |
 |:-----------------|:--------------|:---------------|
-| Affecter l'accès à | Groupe de ressources sélectionné | Service sélectionné dans un groupe de ressources |
 | Rôle Afficheur  | Afficher le groupe et ses caractéristiques mais non les ressources du groupe | Afficher les ressources du groupe |
 | Rôle Opérateur | Non applicable | Non applicable |
 | Rôle Editeur | Afficher ou modifier le nom ou d'autres caractéristiques du groupe, mais non les ressources du groupe | Créer, supprimer, modifier, suspendre, reprendre, afficher, lier et gérer l'accès aux ressources du groupe de ressources |
 | Rôle Administrateur |  Afficher, modifier ou gérer l'accès pour le groupe, mais non pour les ressources du groupe | Créer, supprimer, modifier, suspendre, reprendre, afficher, lier et gérer l'accès aux ressources du groupe de ressources |
+{: row-headers}
+{: class="comparison-table"}
 {: caption="Tableau 1. Accès pour les groupes de ressources" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the selected role of an access policy. The column headers identify the type of policy whether its assigning access to manage a resource group or access to resources within a resource group. The remaining cells tell you the allowable actions based on the type of policy and the specific role that is selected as defined in the header rows."}
 
 Si vous souhaitez qu'un utilisateur puisse créer une instance de service et l'ajouter à un groupe de ressources, l'utilisateur doit avoir au moins le rôle Afficheur pour le groupe de ressources et au moins le rôle Editeur pour le service.
 {: tip}
