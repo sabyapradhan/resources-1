@@ -34,6 +34,19 @@ Working with resources and services
 
     {: .navgroup id="reference"}
     tagging_sample_syntax.md
+
+    {: .topicgroup}
+    Command reference
+        /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_resource
+        /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_services
+        /cli/reference/ibmcloud/cloud-cli-ibmcloud_catalog
+        
+    {: .topicgroup}
+    API reference  
+        [IBM Cloud Resource Manager API](https://{DomainName}/apidocs/resource-manager){: new_window}
+        [IBM Cloud Resource Controller API](https://{DomainName}/apidocs/resource-controller){: new_window}
+        [Global Search and Tagging - Tagging API](https://{DomainName}/apidocs/tagging){: new_window}
+        [Global Search and Tagging - Search API](https://{DomainName}/apidocs/search){: new_window}
     {: .navgroup-end}
 
     {: .navgroup id="help"}
