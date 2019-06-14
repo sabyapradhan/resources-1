@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-06-14"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -116,6 +116,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Push Notifications | Hosted in Dallas | Hosted in Washington DC | 
 | Real-Time Payments | Hosted in Dallas | Not available | 
 | SQL Query | Hosted in Dallas | Not available | 
+| SSH Key for VPC | Hosted in Dallas | Not available | 
 | Secure Gateway | Hosted in Dallas | Hosted in Washington DC | 
 | Security Advisor | Hosted in Dallas | Not available | 
 | Security Group for VPC | Hosted in Dallas | Not available | 
@@ -232,6 +233,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Push Notifications | Hosted in London | Hosted in Frankfurt | 
 | Real-Time Payments | Not available | Not available | 
 | SQL Query | Not available | Not available | 
+| SSH Key for VPC | Hosted in London | Hosted in Frankfurt | 
 | Secure Gateway | Hosted in London | Syndicated from Dallas | 
 | Security Advisor | Hosted in London | Not available | 
 | Security Group for VPC | Hosted in London | Hosted in Frankfurt | 
@@ -348,6 +350,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Push Notifications | Hosted in Sydney | Not available | 
 | Real-Time Payments | Not available | Not available | 
 | SQL Query | Not available | Not available | 
+| SSH Key for VPC | Hosted in Sydney | Hosted in Tokyo | 
 | Secure Gateway | Syndicated from Dallas | Not available | 
 | Security Advisor | Not available | Not available | 
 | Security Group for VPC | Hosted in Sydney | Hosted in Tokyo | 
