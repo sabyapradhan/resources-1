@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-21"
+lastupdated: "2019-06-22"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -87,6 +87,8 @@ Services that are hosted globally create resources that operate across multiple 
 | Historical Instrument Analytics | Hosted in Dallas | Not available | 
 | Hyper Protect Crypto Services | Hosted in Dallas | Not available | 
 | Hyper Protect DBaaS | Not available | Hosted in Washington DC | 
+| Hyper Protect DBaaS for MongoDB | Hosted in Dallas | Not available | 
+| Hyper Protect DBaaS for PostgreSQL | Hosted in Dallas | Not available | 
 | IBM Cognos Dashboard Embedded | Hosted in Dallas | Not available | 
 | Information Server | Hosted in Dallas | Not available | 
 | Informix | Hosted in Dallas | Not available | 
@@ -205,6 +207,8 @@ Services that are hosted globally create resources that operate across multiple 
 | Historical Instrument Analytics | Not available | Not available | 
 | Hyper Protect Crypto Services | Not available | Not available | 
 | Hyper Protect DBaaS | Not available | Not available | 
+| Hyper Protect DBaaS for MongoDB | Not available | Not available | 
+| Hyper Protect DBaaS for PostgreSQL | Not available | Not available | 
 | IBM Cognos Dashboard Embedded | Hosted in London | Not available | 
 | Information Server | Hosted in London | Hosted in Frankfurt | 
 | Informix | Syndicated from Dallas | Not available | 
@@ -323,6 +327,8 @@ Services that are hosted globally create resources that operate across multiple 
 | Historical Instrument Analytics | Not available | Not available | 
 | Hyper Protect Crypto Services | Not available | Not available | 
 | Hyper Protect DBaaS | Not available | Not available | 
+| Hyper Protect DBaaS for MongoDB | Not available | Not available | 
+| Hyper Protect DBaaS for PostgreSQL | Not available | Not available | 
 | IBM Cognos Dashboard Embedded | Not available | Not available | 
 | Information Server | Hosted in Sydney | Not available | 
 | Informix | Syndicated from Dallas | Not available | 
