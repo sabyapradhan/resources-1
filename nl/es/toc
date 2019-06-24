@@ -34,6 +34,19 @@ Cómo trabajar con recursos y servicios
 
     {: .navgroup id="reference"}
     tagging_sample_syntax.md
+
+    {: .topicgroup}
+    Consulta de mandatos
+        /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_resource
+        /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_services
+        /cli/reference/ibmcloud/cloud-cli-ibmcloud_catalog
+        
+    {: .topicgroup}
+    Consulta de API  
+        [API de IBM Cloud Resource Manager](https://{DomainName}/apidocs/resource-manager){: new_window}
+        [API de IBM Cloud Resource Controller](https://{DomainName}/apidocs/resource-controller){: new_window}
+        [API de Búsqueda y etiquetado globales - Etiquetado](https://{DomainName}/apidocs/tagging){: new_window}
+        [API de Búsqueda y etiquetado globales - Búsqueda](https://{DomainName}/apidocs/search){: new_window}
     {: .navgroup-end}
 
     {: .navgroup id="help"}

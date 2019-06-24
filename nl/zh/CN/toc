@@ -34,6 +34,19 @@
 
     {: .navgroup id="reference"}
     tagging_sample_syntax.md
+
+    {: .topicgroup}
+    命令参考
+        /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_resource
+        /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_services
+        /cli/reference/ibmcloud/cloud-cli-ibmcloud_catalog
+        
+    {: .topicgroup}
+    API 参考  
+        [IBM Cloud 资源管理器 API](https://{DomainName}/apidocs/resource-manager){: new_window}
+        [IBM Cloud 资源控制器 API](https://{DomainName}/apidocs/resource-controller){: new_window}
+        [全局搜索和标记 - 标记 API](https://{DomainName}/apidocs/tagging){: new_window}
+        [全局搜索和标记 - 搜索 API](https://{DomainName}/apidocs/search){: new_window}
     {: .navgroup-end}
 
     {: .navgroup id="help"}

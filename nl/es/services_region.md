@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-05-29"
+lastupdated: "2019-06-12"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -32,7 +32,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Servicio | Dallas | Washington DC | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Alojado en Dallas | Alojado en Washington DC | 
-| Activity Tracker | Alojado en Dallas | No disponible | 
 | Alert Notification | Alojado en Dallas | No disponible | 
 | Analytics Engine | Alojado en Dallas | No disponible | 
 | Apache Spark | Alojado en Dallas | No disponible | 
@@ -43,6 +42,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Automated Accessibility Tester | Alojado en Dallas | No disponible | 
 | Availability Monitoring | Alojado en Dallas | No disponible | 
 | BigInsights for Apache Hadoop (Subscription) | Alojado en Dallas | No disponible | 
+| Block Storage for VPC | No disponible | No disponible | 
 | Blockchain | Alojado en Dallas | No disponible | 
 | Blockchain Platform | Alojado en Dallas | No disponible | 
 | Certificate Manager | Alojado en Dallas | No disponible | 
@@ -79,6 +79,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Discovery | Alojado en Dallas | Alojado en Washington DC | 
 | Event Management | Alojado en Dallas | No disponible | 
 | Event Streams | Alojado en Dallas | Alojado en Washington DC | 
+| Floating IP for VPC | Alojado en Dallas | No disponible | 
 | Funciones | Alojado en Dallas | Alojado en Washington DC | 
 | Geospatial Analytics | Alojado en Dallas | No disponible | 
 | Globalization Pipeline | Alojado en Dallas | No disponible | 
@@ -98,6 +99,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Knowledge Studio | Alojado en Dallas | Alojado en Washington DC | 
 | Language Translator | Alojado en Dallas | Alojado en Washington DC | 
 | Lift CLI | Alojado en Dallas | No disponible | 
+| Load Balancer for VPC | Alojado en Dallas | Alojado en Washington DC | 
 | MQ | Alojado en Dallas | No disponible | 
 | Machine Learning | Alojado en Dallas | No disponible | 
 | API Managed Financial Data | Alojado en Dallas | Alojado en Washington DC | 
@@ -116,6 +118,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | SQL Query | Alojado en Dallas | No disponible | 
 | Secure Gateway | Alojado en Dallas | Alojado en Washington DC | 
 | Asesor de seguridad | Alojado en Dallas | No disponible | 
+| Security Group for VPC | Alojado en Dallas | No disponible | 
 | Simulated Historical Instrument Analytics | Alojado en Dallas | No disponible | 
 | Simulated Instrument Analytics | Alojado en Dallas | No disponible | 
 | API Simulated Instruments Analytics | Alojado en Dallas | Alojado en Washington DC | 
@@ -125,6 +128,9 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Tone Analyzer | Alojado en Dallas | Alojado en Washington DC | 
 | Toolchain | Alojado en Dallas | Alojado en Washington DC | 
 | VMware Solutions | Alojado globalmente | Alojado globalmente | 
+| VPN for VPC | Alojado en Dallas | Alojado en Washington DC | 
+| Virtual Private Cloud | Alojado en Dallas | No disponible | 
+| Virtual Server for VPC | No disponible | No disponible | 
 | Visual Recognition | Alojado en Dallas | No disponible | 
 | Voice Agent with Watson | Alojado en Dallas | Alojado en Washington DC | 
 | Watson Assistant | Alojado en Dallas | Alojado en Washington DC | 
@@ -142,7 +148,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Servicio | Londres | Frankfurt | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Alojado en Londres | Alojado en Frankfurt | 
-| Activity Tracker | Alojado en Londres | Alojado en Frankfurt | 
 | Alert Notification | Alojado en Londres | No disponible | 
 | Analytics Engine | Alojado en Londres | Alojado en Frankfurt | 
 | Apache Spark | Alojado en Londres | No disponible | 
@@ -153,8 +158,9 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Automated Accessibility Tester | Alojado en Londres | No disponible | 
 | Availability Monitoring | Alojado en Londres | No disponible | 
 | BigInsights for Apache Hadoop (Subscription) | No disponible | No disponible | 
+| Block Storage for VPC | No disponible | No disponible | 
 | Blockchain | Sindicado desde Dallas | Sindicado desde Dallas | 
-| Blockchain Platform | No disponible | No disponible | 
+| Blockchain Platform | No disponible | Alojado en Frankfurt | 
 | Certificate Manager | Alojado en Londres | Alojado en Frankfurt | 
 | Cloud Foundry Enterprise Environment | No disponible | Alojado en Frankfurt | 
 | Cloud Object Storage | Alojado globalmente | Alojado globalmente | 
@@ -189,6 +195,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Discovery | Alojado en Londres | Alojado en Frankfurt | 
 | Event Management | Alojado en Londres | No disponible | 
 | Event Streams | Alojado en Londres | Alojado en Frankfurt | 
+| Floating IP for VPC | Alojado en Londres | Alojado en Frankfurt | 
 | Funciones | Alojado en Londres | Alojado en Frankfurt | 
 | Geospatial Analytics | Alojado en Londres | No disponible | 
 | Globalization Pipeline | Alojado en Londres | Alojado en Frankfurt | 
@@ -208,6 +215,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Knowledge Studio | Alojado en Londres | Alojado en Frankfurt | 
 | Language Translator | Alojado en Londres | Alojado en Frankfurt | 
 | Lift CLI | No disponible | No disponible | 
+| Load Balancer for VPC | Alojado en Londres | Alojado en Frankfurt | 
 | MQ | Alojado en Londres | Alojado en Frankfurt | 
 | Machine Learning | Alojado en Londres | Alojado en Frankfurt | 
 | API Managed Financial Data | No disponible | No disponible | 
@@ -226,6 +234,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | SQL Query | No disponible | No disponible | 
 | Secure Gateway | Alojado en Londres | Sindicado desde Dallas | 
 | Asesor de seguridad | Alojado en Londres | No disponible | 
+| Security Group for VPC | Alojado en Londres | Alojado en Frankfurt | 
 | Simulated Historical Instrument Analytics | No disponible | No disponible | 
 | Simulated Instrument Analytics | No disponible | No disponible | 
 | API Simulated Instruments Analytics | No disponible | No disponible | 
@@ -235,6 +244,9 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Tone Analyzer | Alojado en Londres | Alojado en Frankfurt | 
 | Toolchain | Alojado en Londres | Alojado en Frankfurt | 
 | VMware Solutions | Alojado globalmente | Alojado globalmente | 
+| VPN for VPC | Alojado en Londres | Alojado en Frankfurt | 
+| Virtual Private Cloud | Alojado en Londres | Alojado en Frankfurt | 
+| Virtual Server for VPC | No disponible | No disponible | 
 | Visual Recognition | No disponible | No disponible | 
 | Voice Agent with Watson | No disponible | No disponible | 
 | Watson Assistant | Alojado en Londres | Alojado en Frankfurt | 
@@ -252,7 +264,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Servicio | Sídney | Tokio | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Alojado en Sídney | No disponible | 
-| Activity Tracker | Alojado en Sídney | No disponible | 
 | Alert Notification | Alojado en Sídney | No disponible | 
 | Analytics Engine | No disponible | Alojado en Tokio | 
 | Apache Spark | No disponible | No disponible | 
@@ -263,8 +274,9 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Automated Accessibility Tester | Sindicado desde Londres | No disponible | 
 | Availability Monitoring | Alojado en Sídney | No disponible | 
 | BigInsights for Apache Hadoop (Subscription) | No disponible | No disponible | 
+| Block Storage for VPC | No disponible | No disponible | 
 | Blockchain | Sindicado desde Dallas | No disponible | 
-| Blockchain Platform | No disponible | No disponible | 
+| Blockchain Platform | No disponible | Alojado en Tokio | 
 | Certificate Manager | No disponible | Alojado en Tokio | 
 | Cloud Foundry Enterprise Environment | No disponible | No disponible | 
 | Cloud Object Storage | Alojado globalmente | Alojado globalmente | 
@@ -299,6 +311,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Discovery | Alojado en Sídney | Alojado en Tokio | 
 | Event Management | Alojado en Sídney | No disponible | 
 | Event Streams | Alojado en Sídney | Alojado en Tokio | 
+| Floating IP for VPC | Alojado en Sídney | Alojado en Tokio | 
 | Funciones | No disponible | Alojado en Tokio | 
 | Geospatial Analytics | Sindicado desde Londres | No disponible | 
 | Globalization Pipeline | Alojado en Sídney | No disponible | 
@@ -318,6 +331,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Knowledge Studio | Alojado en Sídney | Alojado en Tokio | 
 | Language Translator | Alojado en Sídney | Alojado en Tokio | 
 | Lift CLI | No disponible | No disponible | 
+| Load Balancer for VPC | Alojado en Sídney | Alojado en Tokio | 
 | MQ | Alojado en Sídney | No disponible | 
 | Machine Learning | No disponible | Alojado en Tokio | 
 | API Managed Financial Data | No disponible | No disponible | 
@@ -336,6 +350,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | SQL Query | No disponible | No disponible | 
 | Secure Gateway | Sindicado desde Dallas | No disponible | 
 | Asesor de seguridad | No disponible | No disponible | 
+| Security Group for VPC | Alojado en Sídney | Alojado en Tokio | 
 | Simulated Historical Instrument Analytics | No disponible | No disponible | 
 | Simulated Instrument Analytics | No disponible | No disponible | 
 | API Simulated Instruments Analytics | No disponible | No disponible | 
@@ -345,6 +360,9 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Tone Analyzer | Alojado en Sídney | Alojado en Tokio | 
 | Toolchain | No disponible | Alojado en Tokio | 
 | VMware Solutions | Alojado globalmente | Alojado globalmente | 
+| VPN for VPC | Alojado en Sídney | Alojado en Tokio | 
+| Virtual Private Cloud | Alojado en Sídney | Alojado en Tokio | 
+| Virtual Server for VPC | No disponible | No disponible | 
 | Visual Recognition | No disponible | No disponible | 
 | Voice Agent with Watson | No disponible | No disponible | 
 | Watson Assistant | Alojado en Sídney | Alojado en Tokio | 

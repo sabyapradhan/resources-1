@@ -34,6 +34,19 @@
 
     {: .navgroup id="reference"}
     tagging_sample_syntax.md
+
+    {: .topicgroup}
+    コマンド・リファレンス
+        /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_resource
+        /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_services
+        /cli/reference/ibmcloud/cloud-cli-ibmcloud_catalog
+        
+    {: .topicgroup}
+    API リファレンス  
+        [IBM Cloud リソース・マネージャー API](https://{DomainName}/apidocs/resource-manager){: new_window}
+        [IBM Cloud リソース・コントローラー API](https://{DomainName}/apidocs/resource-controller){: new_window}
+        [グローバル検索およびタグ付け - タグ付け API](https://{DomainName}/apidocs/tagging){: new_window}
+        [グローバル検索およびタグ付け - 検索 API](https://{DomainName}/apidocs/search){: new_window}
     {: .navgroup-end}
 
     {: .navgroup id="help"}
