@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-23"
+lastupdated: "2019-06-24"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -238,7 +238,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Predictive Market Scenarios | Not available | Not available | 
 | Push Notifications | Hosted in London | Hosted in Frankfurt | 
 | Real-Time Payments | Not available | Not available | 
-| SQL Query | Not available | Not available | 
+| SQL Query | Not available | Hosted in Frankfurt | 
 | SSH Key for VPC | Hosted in London | Hosted in Frankfurt | 
 | Secure Gateway | Hosted in London | Syndicated from Dallas | 
 | Security Advisor | Hosted in London | Not available | 
