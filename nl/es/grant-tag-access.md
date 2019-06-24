@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-01-28"
+lastupdated: "2019-06-03"
 
 keywords: tagging, enabling others to tag, tagging permissions
 
@@ -35,6 +35,7 @@ Las etiquetas son visibles para todos los usuarios de una cuenta. Una vez se ha 
 | Infraestructura clásica*| Permiso para ver detalles de hardware o permiso para ver detalles del servidor virtual |
 | Cloud Object Storage S3 en la infraestructura clásica | Permiso para gestionar el almacenamiento |
 {: caption="Tabla 1. roles necesarios para añadir y eliminar etiquetas" caption-side="top"}
+{: summary="This is a simple data table. However, the asterisk indicates that you must read the qualifying note after this table."}
 
 *Los recursos que se pueden etiquetar en la infraestructura clásica son Invitado virtual, Host dedicado virtual, Controlador de distribución de aplicación de red, Miembro de pasarela, Subred, VLAN y Cortafuegos de VLAN (dedicado).
 
@@ -69,7 +70,7 @@ Los recursos pertenecientes a una organización y espacio de Cloud se gestionan 
 ## Cómo otorgar acceso para etiquetar recursos de la infraestructura clásica
 {: #classic-infra}
 
-Siga los pasos siguientes para asignar el rol de acceso de servicio de Gestor para que un usuario pueda etiquetar servicios de la infraestructura clásica:
+Siga los pasos siguientes para asignar el rol de acceso al servicio de Gestor para que un usuario pueda etiquetar servicios de la infraestructura clásica:
 
   1. Pulse **Gestionar > Acceso (IAM)** y seleccione **Usuarios**.
   2. Pulse el nombre del usuario al que va a otorgar acceso.

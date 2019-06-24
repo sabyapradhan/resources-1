@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2019
-lastupdated: "2019-05-06"
+lastupdated: "2019-06-03"
 
 keywords: organize resources, set up resource groups, best practice, resource group strategy
 
@@ -73,14 +73,16 @@ Proporcione acceso para usuarios o grupos de usuarios organizados en grupos de a
 
 Revise la tabla siguiente para obtener más información sobre los dos tipos de acceso y qué capacidad de hacer proporciona a un usuario cada rol de IAM de plataforma asignado:
 
-| Detalles de política de acceso  | Acciones para acceder en grupos de recursos | Acción en recursos en grupos de recursos |
+|   | Acciones para acceder a la gestión de grupos de recursos | Acción en recursos en grupos de recursos |
 |:-----------------|:--------------|:---------------|
-| Asignar acceso a | Grupo de recursos seleccionado | Servicio seleccionado en un grupo de recursos |
 | Rol Visor  | Ver el grupo y sus características, pero no los recursos del grupo | Ver recursos en el grupo |
 | Rol Operador | No aplicable | No aplicable |
 | Rol Editor | Ver o editar el nombre u otras características del grupo, pero no los recursos del grupo | Crear, suprimir, editar, suspender, reanudar, ver, enlazar y gestionar el acceso de recursos en el grupo de recursos |
 | Rol Administrador |  Ver, editar o gestionar el acceso para el grupo, pero no los recursos del grupo | Crear, suprimir, editar, suspender, reanudar, ver, enlazar y gestionar el acceso de recursos en el grupo de recursos |
+{: row-headers}
+{: class="comparison-table"}
 {: caption="Tabla 1. Acceso para grupos de recursos" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the selected role of an access policy. The column headers identify the type of policy whether its assigning access to manage a resource group or access to resources within a resource group. The remaining cells tell you the allowable actions based on the type of policy and the specific role that is selected as defined in the header rows."}
 
 Si desea que un usuario pueda crear una nueva instancia de servicio y añadirla a un grupo de recursos, el usuario debe estar asignado como Visor o superior en el grupo de recursos y Editor o superior en el servicio.
 {: tip}
