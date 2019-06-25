@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-05"
+lastupdated: "2019-06-12"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -100,7 +100,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Knowledge Studio | Ospitato a Dallas | Ospitato a Washington DC | 
 | Language Translator | Ospitato a Dallas | Ospitato a Washington DC | 
 | CLI Lift | Ospitato a Dallas | Non disponibile | 
-| Programma di bilanciamento del carico per VPC| Ospitato a Dallas | Ospitato a Washington DC | 
+| Programma di bilanciamento del carico per VPC | Ospitato a Dallas | Ospitato a Washington DC | 
 | MQ | Ospitato a Dallas | Non disponibile | 
 | Machine Learning | Ospitato a Dallas | Non disponibile | 
 | Managed Financial Data API | Ospitato a Dallas | Ospitato a Washington DC | 
@@ -129,8 +129,8 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Tone Analyzer | Ospitato a Dallas | Ospitato a Washington DC | 
 | Toolchain | Ospitato a Dallas | Ospitato a Washington DC | 
 | Soluzioni VMware | Ospitato a livello globale | Ospitato a livello globale | 
-| VPN per VPC| Ospitato a Dallas | Ospitato a Washington DC | 
-| VPC (Virtual private cloud)| Ospitato a Dallas | Non disponibile | 
+| VPN per VPC | Ospitato a Dallas | Ospitato a Washington DC | 
+| VPC (Virtual private cloud) | Ospitato a Dallas | Non disponibile | 
 | Virtual Server per VPC | Non disponibile | Non disponibile | 
 | Visual Recognition | Ospitato a Dallas | Non disponibile | 
 | Voice Agent with Watson | Ospitato a Dallas | Ospitato a Washington DC | 
@@ -216,7 +216,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Knowledge Studio | Ospitato a Londra | Ospitato a Francoforte | 
 | Language Translator | Ospitato a Londra | Ospitato a Francoforte | 
 | CLI Lift | Non disponibile | Non disponibile | 
-| Programma di bilanciamento del carico per VPC| Ospitato a Londra | Ospitato a Francoforte | 
+| Programma di bilanciamento del carico per VPC | Ospitato a Londra | Ospitato a Francoforte | 
 | MQ | Ospitato a Londra | Ospitato a Francoforte | 
 | Machine Learning | Ospitato a Londra | Ospitato a Francoforte | 
 | Managed Financial Data API | Non disponibile | Non disponibile | 
@@ -245,8 +245,8 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Tone Analyzer | Ospitato a Londra | Ospitato a Francoforte | 
 | Toolchain | Ospitato a Londra | Ospitato a Francoforte | 
 | Soluzioni VMware | Ospitato a livello globale | Ospitato a livello globale | 
-| VPN per VPC| Ospitato a Londra | Ospitato a Francoforte | 
-| VPC (Virtual private cloud)| Ospitato a Londra | Ospitato a Francoforte | 
+| VPN per VPC | Ospitato a Londra | Ospitato a Francoforte | 
+| VPC (Virtual private cloud) | Ospitato a Londra | Ospitato a Francoforte | 
 | Virtual Server per VPC | Non disponibile | Non disponibile | 
 | Visual Recognition | Non disponibile | Non disponibile | 
 | Voice Agent with Watson | Non disponibile | Non disponibile | 
@@ -332,7 +332,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Knowledge Studio | Ospitato a Sydney | Ospitato a Tokyo | 
 | Language Translator | Ospitato a Sydney | Ospitato a Tokyo | 
 | CLI Lift | Non disponibile | Non disponibile | 
-| Programma di bilanciamento del carico per VPC| Ospitato a Sydney | Ospitato a Tokyo | 
+| Programma di bilanciamento del carico per VPC | Ospitato a Sydney | Ospitato a Tokyo | 
 | MQ | Ospitato a Sydney | Non disponibile | 
 | Machine Learning | Non disponibile | Ospitato a Tokyo | 
 | Managed Financial Data API | Non disponibile | Non disponibile | 
@@ -361,8 +361,8 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Tone Analyzer | Ospitato a Sydney | Ospitato a Tokyo | 
 | Toolchain | Non disponibile | Ospitato a Tokyo | 
 | Soluzioni VMware | Ospitato a livello globale | Ospitato a livello globale | 
-| VPN per VPC| Ospitato a Sydney | Ospitato a Tokyo | 
-| VPC (Virtual private cloud)| Ospitato a Sydney | Ospitato a Tokyo | 
+| VPN per VPC | Ospitato a Sydney | Ospitato a Tokyo | 
+| VPC (Virtual private cloud) | Ospitato a Sydney | Ospitato a Tokyo | 
 | Virtual Server per VPC | Non disponibile | Non disponibile | 
 | Visual Recognition | Non disponibile | Non disponibile | 
 | Voice Agent with Watson | Non disponibile | Non disponibile | 
