@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-06-23"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -87,6 +87,8 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Historical Instrument Analytics | Hébergé à Dallas | Indisponible | 
 | Hyper Protect Crypto Services | Hébergé à Dallas | Indisponible | 
 | Hyper Protect DBaaS | Indisponible | Hébergé à Washington DC | 
+| Hyper Protect DBaaS for MongoDB | Hébergé à Dallas | Indisponible | 
+| Hyper Protect DBaaS for PostgreSQL | Hébergé à Dallas | Indisponible | 
 | IBM Cognos Dashboard Embedded | Hébergé à Dallas | Indisponible | 
 | Information Server | Hébergé à Dallas | Indisponible | 
 | Informix | Hébergé à Dallas | Indisponible | 
@@ -112,10 +114,12 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Object Storage OpenStack Swift | Hébergé à Dallas | Indisponible | 
 | Personality Insights | Hébergé à Dallas | Hébergé à Washington DC | 
 | Portfolio Optimization | Hébergé à Dallas | Indisponible | 
+| Power Systems Virtual Server | Hébergé à Dallas | Hébergé à Washington DC | 
 | Predictive Market Scenarios | Hébergé à Dallas | Indisponible | 
 | Push Notifications | Hébergé à Dallas | Hébergé à Washington DC | 
 | Real-Time Payments | Hébergé à Dallas | Indisponible | 
 | SQL Query | Hébergé à Dallas | Indisponible | 
+| SSH Key for VPC | Hébergé à Dallas | Indisponible | 
 | Secure Gateway | Hébergé à Dallas | Hébergé à Washington DC | 
 | Security Advisor | Hébergé à Dallas | Indisponible | 
 | Security Group for VPC | Hébergé à Dallas | Indisponible | 
@@ -203,6 +207,8 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Historical Instrument Analytics | Indisponible | Indisponible | 
 | Hyper Protect Crypto Services | Indisponible | Indisponible | 
 | Hyper Protect DBaaS | Indisponible | Indisponible | 
+| Hyper Protect DBaaS for MongoDB | Indisponible | Indisponible | 
+| Hyper Protect DBaaS for PostgreSQL | Indisponible | Indisponible | 
 | IBM Cognos Dashboard Embedded | Hébergé à Londres | Indisponible | 
 | Information Server | Hébergé à Londres | Hébergé à Francfort | 
 | Informix | Syndiqué avec Dallas | Indisponible | 
@@ -228,10 +234,12 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Object Storage OpenStack Swift | Hébergé à Londres | Indisponible | 
 | Personality Insights | Hébergé à Londres | Hébergé à Francfort | 
 | Portfolio Optimization | Indisponible | Indisponible | 
+| Power Systems Virtual Server | Indisponible | Indisponible | 
 | Predictive Market Scenarios | Indisponible | Indisponible | 
 | Push Notifications | Hébergé à Londres | Hébergé à Francfort | 
 | Real-Time Payments | Indisponible | Indisponible | 
 | SQL Query | Indisponible | Indisponible | 
+| SSH Key for VPC | Hébergé à Londres | Hébergé à Francfort | 
 | Secure Gateway | Hébergé à Londres | Syndiqué avec Dallas | 
 | Security Advisor | Hébergé à Londres | Indisponible | 
 | Security Group for VPC | Hébergé à Londres | Hébergé à Francfort | 
@@ -319,6 +327,8 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Historical Instrument Analytics | Indisponible | Indisponible | 
 | Hyper Protect Crypto Services | Indisponible | Indisponible | 
 | Hyper Protect DBaaS | Indisponible | Indisponible | 
+| Hyper Protect DBaaS for MongoDB | Indisponible | Indisponible | 
+| Hyper Protect DBaaS for PostgreSQL | Indisponible | Indisponible | 
 | IBM Cognos Dashboard Embedded | Indisponible | Indisponible | 
 | Information Server | Hébergé à Sydney | Indisponible | 
 | Informix | Syndiqué avec Dallas | Indisponible | 
@@ -344,10 +354,12 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Object Storage OpenStack Swift | Indisponible | Indisponible | 
 | Personality Insights | Hébergé à Sydney | Hébergé à Tokyo | 
 | Portfolio Optimization | Indisponible | Indisponible | 
+| Power Systems Virtual Server | Indisponible | Indisponible | 
 | Predictive Market Scenarios | Indisponible | Indisponible | 
 | Push Notifications | Hébergé à Sydney | Indisponible | 
 | Real-Time Payments | Indisponible | Indisponible | 
 | SQL Query | Indisponible | Indisponible | 
+| SSH Key for VPC | Hébergé à Sydney | Hébergé à Tokyo | 
 | Secure Gateway | Syndiqué avec Dallas | Indisponible | 
 | Security Advisor | Indisponible | Indisponible | 
 | Security Group for VPC | Hébergé à Sydney | Hébergé à Tokyo | 
