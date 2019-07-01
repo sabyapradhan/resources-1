@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-06-23"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -88,6 +88,8 @@ subcollection: resources
 | Historical Instrument Analytics | ダラスでホスト | 使用不可 | 
 | Hyper Protect Crypto Services | ダラスでホスト | 使用不可 | 
 | Hyper Protect DBaaS | 使用不可 | ワシントン DC でホスト | 
+| Hyper Protect DBaaS for MongoDB | ダラスでホスト | 使用不可 | 
+| Hyper Protect DBaaS for PostgreSQL | ダラスでホスト | 使用不可 | 
 | IBM Cognos Dashboard Embedded | ダラスでホスト | 使用不可 | 
 | Information Server | ダラスでホスト | 使用不可 | 
 | Informix | ダラスでホスト | 使用不可 | 
@@ -113,10 +115,12 @@ subcollection: resources
 | Object Storage OpenStack Swift | ダラスでホスト | 使用不可 | 
 | Personality Insights | ダラスでホスト | ワシントン DC でホスト | 
 | Portfolio Optimization | ダラスでホスト | 使用不可 | 
+| Power Systems Virtual Server | ダラスでホスト | ワシントン DC でホスト | 
 | Predictive Market Scenarios | ダラスでホスト | 使用不可 | 
 | Push Notifications | ダラスでホスト | ワシントン DC でホスト | 
 | Real-Time Payments | ダラスでホスト | 使用不可 | 
 | SQL Query | ダラスでホスト | 使用不可 | 
+| SSH Key for VPC | ダラスでホスト | 使用不可 | 
 | Secure Gateway | ダラスでホスト | ワシントン DC でホスト | 
 | セキュリティー・アドバイザー | ダラスでホスト | 使用不可 | 
 | Security Group for VPC | ダラスでホスト | 使用不可 | 
@@ -204,6 +208,8 @@ subcollection: resources
 | Historical Instrument Analytics | 使用不可 | 使用不可 | 
 | Hyper Protect Crypto Services | 使用不可 | 使用不可 | 
 | Hyper Protect DBaaS | 使用不可 | 使用不可 | 
+| Hyper Protect DBaaS for MongoDB | 使用不可 | 使用不可 | 
+| Hyper Protect DBaaS for PostgreSQL | 使用不可 | 使用不可 | 
 | IBM Cognos Dashboard Embedded | ロンドンでホスト | 使用不可 | 
 | Information Server | ロンドンでホスト | フランクフルトでホスト | 
 | Informix | ダラスからシンジケート | 使用不可 | 
@@ -229,10 +235,12 @@ subcollection: resources
 | Object Storage OpenStack Swift | ロンドンでホスト | 使用不可 | 
 | Personality Insights | ロンドンでホスト | フランクフルトでホスト | 
 | Portfolio Optimization | 使用不可 | 使用不可 | 
+| Power Systems Virtual Server | 使用不可 | 使用不可 | 
 | Predictive Market Scenarios | 使用不可 | 使用不可 | 
 | Push Notifications | ロンドンでホスト | フランクフルトでホスト | 
 | Real-Time Payments | 使用不可 | 使用不可 | 
 | SQL Query | 使用不可 | 使用不可 | 
+| SSH Key for VPC | ロンドンでホスト | フランクフルトでホスト | 
 | Secure Gateway | ロンドンでホスト | ダラスからシンジケート | 
 | セキュリティー・アドバイザー | ロンドンでホスト | 使用不可 | 
 | Security Group for VPC | ロンドンでホスト | フランクフルトでホスト | 
@@ -320,6 +328,8 @@ subcollection: resources
 | Historical Instrument Analytics | 使用不可 | 使用不可 | 
 | Hyper Protect Crypto Services | 使用不可 | 使用不可 | 
 | Hyper Protect DBaaS | 使用不可 | 使用不可 | 
+| Hyper Protect DBaaS for MongoDB | 使用不可 | 使用不可 | 
+| Hyper Protect DBaaS for PostgreSQL | 使用不可 | 使用不可 | 
 | IBM Cognos Dashboard Embedded | 使用不可 | 使用不可 | 
 | Information Server | シドニーでホスト | 使用不可 | 
 | Informix | ダラスからシンジケート | 使用不可 | 
@@ -345,10 +355,12 @@ subcollection: resources
 | Object Storage OpenStack Swift | 使用不可 | 使用不可 | 
 | Personality Insights | シドニーでホスト | 東京でホスト | 
 | Portfolio Optimization | 使用不可 | 使用不可 | 
+| Power Systems Virtual Server | 使用不可 | 使用不可 | 
 | Predictive Market Scenarios | 使用不可 | 使用不可 | 
 | Push Notifications | シドニーでホスト | 使用不可 | 
 | Real-Time Payments | 使用不可 | 使用不可 | 
 | SQL Query | 使用不可 | 使用不可 | 
+| SSH Key for VPC | シドニーでホスト | 東京でホスト | 
 | Secure Gateway | ダラスからシンジケート | 使用不可 | 
 | セキュリティー・アドバイザー | 使用不可 | 使用不可 | 
 | Security Group for VPC | シドニーでホスト | 東京でホスト | 

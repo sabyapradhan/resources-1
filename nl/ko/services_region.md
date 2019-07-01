@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-06-23"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -87,6 +87,8 @@ subcollection: resources
 |Historical Instrument Analytics | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Hyper Protect Crypto Services | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Hyper Protect DBaaS |사용할 수 없음 | 워싱턴 DC에서 호스팅됨 | 
+| Hyper Protect DBaaS for MongoDB | 댈러스에서 호스팅됨 |사용할 수 없음 | 
+| Hyper Protect DBaaS for PostgreSQL | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |IBM Cognos Dashboard Embedded | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Information Server | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Informix | 댈러스에서 호스팅됨 |사용할 수 없음 | 
@@ -112,10 +114,12 @@ subcollection: resources
 |Object Storage OpenStack Swift | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Personality Insights | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Portfolio Optimization | 댈러스에서 호스팅됨 |사용할 수 없음 | 
+| Power Systems Virtual Server | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Predictive Market Scenarios | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Push Notifications | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Real-Time Payments | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |SQL Query | 댈러스에서 호스팅됨 |사용할 수 없음 | 
+| SSH Key for VPC | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Secure Gateway | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Security Advisor | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 | Security Group for VPC | 댈러스에서 호스팅됨 |사용할 수 없음 | 
@@ -203,6 +207,8 @@ subcollection: resources
 |Historical Instrument Analytics |사용할 수 없음 |사용할 수 없음 | 
 |Hyper Protect Crypto Services |사용할 수 없음 |사용할 수 없음 | 
 |Hyper Protect DBaaS |사용할 수 없음 |사용할 수 없음 | 
+| Hyper Protect DBaaS for MongoDB |사용할 수 없음 |사용할 수 없음 | 
+| Hyper Protect DBaaS for PostgreSQL |사용할 수 없음 |사용할 수 없음 | 
 |IBM Cognos Dashboard Embedded | 런던에서 호스팅됨 |사용할 수 없음 | 
 |Information Server | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Informix | 댈러스에서 신디케이트됨 |사용할 수 없음 | 
@@ -228,10 +234,12 @@ subcollection: resources
 |Object Storage OpenStack Swift | 런던에서 호스팅됨 |사용할 수 없음 | 
 |Personality Insights | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Portfolio Optimization |사용할 수 없음 |사용할 수 없음 | 
+| Power Systems Virtual Server |사용할 수 없음 |사용할 수 없음 | 
 |Predictive Market Scenarios |사용할 수 없음 |사용할 수 없음 | 
 |Push Notifications | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Real-Time Payments |사용할 수 없음 |사용할 수 없음 | 
 |SQL Query |사용할 수 없음 |사용할 수 없음 | 
+| SSH Key for VPC | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Secure Gateway | 런던에서 호스팅됨 | 댈러스에서 신디케이트됨 | 
 |Security Advisor | 런던에서 호스팅됨 |사용할 수 없음 | 
 | Security Group for VPC | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
@@ -319,6 +327,8 @@ subcollection: resources
 |Historical Instrument Analytics |사용할 수 없음 |사용할 수 없음 | 
 |Hyper Protect Crypto Services |사용할 수 없음 |사용할 수 없음 | 
 |Hyper Protect DBaaS |사용할 수 없음 |사용할 수 없음 | 
+| Hyper Protect DBaaS for MongoDB |사용할 수 없음 |사용할 수 없음 | 
+| Hyper Protect DBaaS for PostgreSQL |사용할 수 없음 |사용할 수 없음 | 
 |IBM Cognos Dashboard Embedded |사용할 수 없음 |사용할 수 없음 | 
 |Information Server |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Informix | 댈러스에서 신디케이트됨 |사용할 수 없음 | 
@@ -344,10 +354,12 @@ subcollection: resources
 |Object Storage OpenStack Swift |사용할 수 없음 |사용할 수 없음 | 
 |Personality Insights |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Portfolio Optimization |사용할 수 없음 |사용할 수 없음 | 
+| Power Systems Virtual Server |사용할 수 없음 |사용할 수 없음 | 
 |Predictive Market Scenarios |사용할 수 없음 |사용할 수 없음 | 
 |Push Notifications |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Real-Time Payments |사용할 수 없음 |사용할 수 없음 | 
 |SQL Query |사용할 수 없음 |사용할 수 없음 | 
+| SSH Key for VPC |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Secure Gateway | 댈러스에서 신디케이트됨 |사용할 수 없음 | 
 |Security Advisor |사용할 수 없음 |사용할 수 없음 | 
 | Security Group for VPC |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 

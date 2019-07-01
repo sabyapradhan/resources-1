@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-06-23"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -91,6 +91,8 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Historical Instrument Analytics | Hospedado em Dallas | Não está disponível | 
 | Hyper Protect Crypto Services | Hospedado em Dallas | Não está disponível | 
 | Hyper Protect DBaaS | Não está disponível | Hospedado em Washington, D.C. | 
+| Hyper Protect DBaaS for MongoDB | Hospedado em Dallas | Não está disponível | 
+| Hyper Protect DBaaS for PostgreSQL | Hospedado em Dallas | Não está disponível | 
 | IBM Cognos Dashboard Embedded | Hospedado em Dallas | Não está disponível | 
 | Information Server | Hospedado em Dallas | Não está disponível | 
 | Informix | Hospedado em Dallas | Não está disponível | 
@@ -116,10 +118,12 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Object Storage OpenStack Swift | Hospedado em Dallas | Não está disponível | 
 | Personality Insights | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Portfolio Optimization | Hospedado em Dallas | Não está disponível | 
+| Power Systems Virtual Server | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Predictive Market Scenarios | Hospedado em Dallas | Não está disponível | 
 | Push Notifications | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Real-Time Payments | Hospedado em Dallas | Não está disponível | 
 | SQL Query | Hospedado em Dallas | Não está disponível | 
+| SSH Key for VPC | Hospedado em Dallas | Não está disponível | 
 | Secure Gateway | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Security Advisor | Hospedado em Dallas | Não está disponível | 
 | Security Group for VPC | Hospedado em Dallas | Não está disponível | 
@@ -207,6 +211,8 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Historical Instrument Analytics | Não está disponível | Não está disponível | 
 | Hyper Protect Crypto Services | Não está disponível | Não está disponível | 
 | Hyper Protect DBaaS | Não está disponível | Não está disponível | 
+| Hyper Protect DBaaS for MongoDB | Não está disponível | Não está disponível | 
+| Hyper Protect DBaaS for PostgreSQL | Não está disponível | Não está disponível | 
 | IBM Cognos Dashboard Embedded | Hospedado em Londres | Não está disponível | 
 | Information Server | Hospedado em Londres | Hospedado em Frankfurt | 
 | Informix | Organizado em Dallas | Não está disponível | 
@@ -232,10 +238,12 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Object Storage OpenStack Swift | Hospedado em Londres | Não está disponível | 
 | Personality Insights | Hospedado em Londres | Hospedado em Frankfurt | 
 | Portfolio Optimization | Não está disponível | Não está disponível | 
+| Power Systems Virtual Server | Não está disponível | Não está disponível | 
 | Predictive Market Scenarios | Não está disponível | Não está disponível | 
 | Push Notifications | Hospedado em Londres | Hospedado em Frankfurt | 
 | Real-Time Payments | Não está disponível | Não está disponível | 
 | SQL Query | Não está disponível | Não está disponível | 
+| SSH Key for VPC | Hospedado em Londres | Hospedado em Frankfurt | 
 | Secure Gateway | Hospedado em Londres | Organizado em Dallas | 
 | Security Advisor | Hospedado em Londres | Não está disponível | 
 | Security Group for VPC | Hospedado em Londres | Hospedado em Frankfurt | 
@@ -323,6 +331,8 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Historical Instrument Analytics | Não está disponível | Não está disponível | 
 | Hyper Protect Crypto Services | Não está disponível | Não está disponível | 
 | Hyper Protect DBaaS | Não está disponível | Não está disponível | 
+| Hyper Protect DBaaS for MongoDB | Não está disponível | Não está disponível | 
+| Hyper Protect DBaaS for PostgreSQL | Não está disponível | Não está disponível | 
 | IBM Cognos Dashboard Embedded | Não está disponível | Não está disponível | 
 | Information Server | Hospedado em Sydney | Não está disponível | 
 | Informix | Organizado em Dallas | Não está disponível | 
@@ -348,10 +358,12 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Object Storage OpenStack Swift | Não está disponível | Não está disponível | 
 | Personality Insights | Hospedado em Sydney | Hospedado em Tóquio | 
 | Portfolio Optimization | Não está disponível | Não está disponível | 
+| Power Systems Virtual Server | Não está disponível | Não está disponível | 
 | Predictive Market Scenarios | Não está disponível | Não está disponível | 
 | Push Notifications | Hospedado em Sydney | Não está disponível | 
 | Real-Time Payments | Não está disponível | Não está disponível | 
 | SQL Query | Não está disponível | Não está disponível | 
+| SSH Key for VPC | Hospedado em Sydney | Hospedado em Tóquio | 
 | Secure Gateway | Organizado em Dallas | Não está disponível | 
 | Security Advisor | Não está disponível | Não está disponível | 
 | Security Group for VPC | Hospedado em Sydney | Hospedado em Tóquio | 

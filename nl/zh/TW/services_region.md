@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-06-23"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -87,6 +87,8 @@ subcollection: resources
 |Historical Instrument Analytics |在達拉斯進行管理|不適用 | 
 |Hyper Protect Crypto Services |在達拉斯進行管理|不適用 | 
 |Hyper Protect DBaaS |不適用 |在華盛頓特區進行管理| 
+| Hyper Protect DBaaS for MongoDB |在達拉斯進行管理|不適用 | 
+| Hyper Protect DBaaS for PostgreSQL |在達拉斯進行管理|不適用 | 
 | IBM Cognos Dashboard Embedded |在達拉斯進行管理|不適用 | 
 |Information Server |在達拉斯進行管理|不適用 | 
 |Informix|在達拉斯進行管理|不適用 | 
@@ -112,10 +114,12 @@ subcollection: resources
 |Object Storage OpenStack Swift |在達拉斯進行管理|不適用 | 
 |Personality Insights|在達拉斯進行管理|在華盛頓特區進行管理| 
 |Portfolio Optimization |在達拉斯進行管理|不適用 | 
+| Power Systems Virtual Server |在達拉斯進行管理|在華盛頓特區進行管理| 
 |Predictive Market Scenarios |在達拉斯進行管理|不適用 | 
 |Push Notifications|在達拉斯進行管理|在華盛頓特區進行管理| 
 |Real-Time Payments |在達拉斯進行管理|不適用 | 
 |SQL Query |在達拉斯進行管理|不適用 | 
+| SSH Key for VPC |在達拉斯進行管理|不適用 | 
 |Secure Gateway|在達拉斯進行管理|在華盛頓特區進行管理| 
 |Security Advisor|在達拉斯進行管理|不適用 | 
 |Security Group for VPC|在達拉斯進行管理|不適用 | 
@@ -203,6 +207,8 @@ subcollection: resources
 |Historical Instrument Analytics |不適用 |不適用 | 
 |Hyper Protect Crypto Services |不適用 |不適用 | 
 |Hyper Protect DBaaS |不適用 |不適用 | 
+| Hyper Protect DBaaS for MongoDB |不適用 |不適用 | 
+| Hyper Protect DBaaS for PostgreSQL |不適用 |不適用 | 
 | IBM Cognos Dashboard Embedded |在倫敦進行管理|不適用 | 
 |Information Server |在倫敦進行管理|在法蘭克福進行管理| 
 |Informix|從達拉斯進行聯合發佈|不適用 | 
@@ -228,10 +234,12 @@ subcollection: resources
 |Object Storage OpenStack Swift |在倫敦進行管理|不適用 | 
 |Personality Insights|在倫敦進行管理|在法蘭克福進行管理| 
 |Portfolio Optimization |不適用 |不適用 | 
+| Power Systems Virtual Server |不適用 |不適用 | 
 |Predictive Market Scenarios |不適用 |不適用 | 
 |Push Notifications|在倫敦進行管理|在法蘭克福進行管理| 
 |Real-Time Payments |不適用 |不適用 | 
 |SQL Query |不適用 |不適用 | 
+| SSH Key for VPC |在倫敦進行管理|在法蘭克福進行管理| 
 |Secure Gateway|在倫敦進行管理|從達拉斯進行聯合發佈| 
 |Security Advisor|在倫敦進行管理|不適用 | 
 |Security Group for VPC|在倫敦進行管理|在法蘭克福進行管理| 
@@ -319,6 +327,8 @@ subcollection: resources
 |Historical Instrument Analytics |不適用 |不適用 | 
 |Hyper Protect Crypto Services |不適用 |不適用 | 
 |Hyper Protect DBaaS |不適用 |不適用 | 
+| Hyper Protect DBaaS for MongoDB |不適用 |不適用 | 
+| Hyper Protect DBaaS for PostgreSQL |不適用 |不適用 | 
 | IBM Cognos Dashboard Embedded |不適用 |不適用 | 
 |Information Server |在雪梨進行管理|不適用 | 
 |Informix|從達拉斯進行聯合發佈|不適用 | 
@@ -344,10 +354,12 @@ subcollection: resources
 |Object Storage OpenStack Swift |不適用 |不適用 | 
 |Personality Insights|在雪梨進行管理|在東京進行管理| 
 |Portfolio Optimization |不適用 |不適用 | 
+| Power Systems Virtual Server |不適用 |不適用 | 
 |Predictive Market Scenarios |不適用 |不適用 | 
 |Push Notifications|在雪梨進行管理|不適用 | 
 |Real-Time Payments |不適用 |不適用 | 
 |SQL Query |不適用 |不適用 | 
+| SSH Key for VPC |在雪梨進行管理|在東京進行管理| 
 |Secure Gateway|從達拉斯進行聯合發佈|不適用 | 
 |Security Advisor|不適用 |不適用 | 
 |Security Group for VPC|在雪梨進行管理|在東京進行管理| 
