@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-06-23"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -87,6 +87,8 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Historical Instrument Analytics | Alojado en Dallas | No disponible | 
 | Hyper Protect Crypto Services | Alojado en Dallas | No disponible | 
 | Hyper Protect DBaaS | No disponible | Alojado en Washington DC | 
+| Hyper Protect DBaaS for MongoDB | Alojado en Dallas | No disponible | 
+| Hyper Protect DBaaS for PostgreSQL | Alojado en Dallas | No disponible | 
 | IBM Cognos Dashboard Embedded | Alojado en Dallas | No disponible | 
 | Information Server | Alojado en Dallas | No disponible | 
 | Informix | Alojado en Dallas | No disponible | 
@@ -112,10 +114,12 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Object Storage OpenStack Swift | Alojado en Dallas | No disponible | 
 | Personality Insights | Alojado en Dallas | Alojado en Washington DC | 
 | Portfolio Optimization | Alojado en Dallas | No disponible | 
+| Servidor virtual de Power Systems | Alojado en Dallas | Alojado en Washington DC | 
 | Predictive Market Scenarios | Alojado en Dallas | No disponible | 
 | Push Notifications | Alojado en Dallas | Alojado en Washington DC | 
 | Real-Time Payments | Alojado en Dallas | No disponible | 
 | SQL Query | Alojado en Dallas | No disponible | 
+| Clave SSH para VPC | Alojado en Dallas | No disponible | 
 | Secure Gateway | Alojado en Dallas | Alojado en Washington DC | 
 | Asesor de seguridad | Alojado en Dallas | No disponible | 
 | Security Group for VPC | Alojado en Dallas | No disponible | 
@@ -203,6 +207,8 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Historical Instrument Analytics | No disponible | No disponible | 
 | Hyper Protect Crypto Services | No disponible | No disponible | 
 | Hyper Protect DBaaS | No disponible | No disponible | 
+| Hyper Protect DBaaS for MongoDB | No disponible | No disponible | 
+| Hyper Protect DBaaS for PostgreSQL | No disponible | No disponible | 
 | IBM Cognos Dashboard Embedded | Alojado en Londres | No disponible | 
 | Information Server | Alojado en Londres | Alojado en Frankfurt | 
 | Informix | Sindicado desde Dallas | No disponible | 
@@ -228,10 +234,12 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Object Storage OpenStack Swift | Alojado en Londres | No disponible | 
 | Personality Insights | Alojado en Londres | Alojado en Frankfurt | 
 | Portfolio Optimization | No disponible | No disponible | 
+| Servidor virtual de Power Systems | No disponible | No disponible | 
 | Predictive Market Scenarios | No disponible | No disponible | 
 | Push Notifications | Alojado en Londres | Alojado en Frankfurt | 
 | Real-Time Payments | No disponible | No disponible | 
 | SQL Query | No disponible | No disponible | 
+| Clave SSH para VPC | Alojado en Londres | Alojado en Frankfurt | 
 | Secure Gateway | Alojado en Londres | Sindicado desde Dallas | 
 | Asesor de seguridad | Alojado en Londres | No disponible | 
 | Security Group for VPC | Alojado en Londres | Alojado en Frankfurt | 
@@ -319,6 +327,8 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Historical Instrument Analytics | No disponible | No disponible | 
 | Hyper Protect Crypto Services | No disponible | No disponible | 
 | Hyper Protect DBaaS | No disponible | No disponible | 
+| Hyper Protect DBaaS for MongoDB | No disponible | No disponible | 
+| Hyper Protect DBaaS for PostgreSQL | No disponible | No disponible | 
 | IBM Cognos Dashboard Embedded | No disponible | No disponible | 
 | Information Server | Alojado en Sídney | No disponible | 
 | Informix | Sindicado desde Dallas | No disponible | 
@@ -344,10 +354,12 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Object Storage OpenStack Swift | No disponible | No disponible | 
 | Personality Insights | Alojado en Sídney | Alojado en Tokio | 
 | Portfolio Optimization | No disponible | No disponible | 
+| Servidor virtual de Power Systems | No disponible | No disponible | 
 | Predictive Market Scenarios | No disponible | No disponible | 
 | Push Notifications | Alojado en Sídney | No disponible | 
 | Real-Time Payments | No disponible | No disponible | 
 | SQL Query | No disponible | No disponible | 
+| Clave SSH para VPC | Alojado en Sídney | Alojado en Tokio | 
 | Secure Gateway | Sindicado desde Dallas | No disponible | 
 | Asesor de seguridad | No disponible | No disponible | 
 | Security Group for VPC | Alojado en Sídney | Alojado en Tokio | 
