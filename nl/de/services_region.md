@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-06-26"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -70,9 +70,9 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Databases for PostgreSQL | Gehostet in Dallas | Gehostet in Washington DC | 
 | Databases for Redis | Gehostet in Dallas | Gehostet in Washington DC | 
 | Databases for etcd | Gehostet in Dallas | Gehostet in Washington DC | 
-| Db2 | Gehostet in Dallas | Nicht verfügbar | 
 | Db2 Hosted | Gehostet in Dallas | Nicht verfügbar | 
 | Db2 Warehouse | Gehostet in Dallas | Nicht verfügbar | 
+| Db2 on Cloud | Gehostet in Dallas | Nicht verfügbar | 
 | Decision Optimization | Gehostet in Dallas | Nicht verfügbar | 
 | DevOps Insights | Gehostet in Dallas | Nicht verfügbar | 
 | Digital Content Checker | Gehostet in Dallas | Nicht verfügbar | 
@@ -86,7 +86,8 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | HPC Cluster | Global gehostet | Global gehostet | 
 | Historical Instrument Analytics | Gehostet in Dallas | Nicht verfügbar | 
 | Hyper Protect Crypto Services | Gehostet in Dallas | Nicht verfügbar | 
-| Hyper Protect DBaaS | Nicht verfügbar | Gehostet in Washington DC | 
+| Hyper Protect DBaaS for MongoDB | Gehostet in Dallas | Nicht verfügbar | 
+| Hyper Protect DBaaS for PostgreSQL | Gehostet in Dallas | Nicht verfügbar | 
 | IBM Cognos Dashboard Embedded | Gehostet in Dallas | Nicht verfügbar | 
 | Information Server | Gehostet in Dallas | Nicht verfügbar | 
 | Informix | Gehostet in Dallas | Nicht verfügbar | 
@@ -112,10 +113,12 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Object Storage OpenStack Swift | Gehostet in Dallas | Nicht verfügbar | 
 | Personality Insights | Gehostet in Dallas | Gehostet in Washington DC | 
 | Portfolio Optimization | Gehostet in Dallas | Nicht verfügbar | 
+| Power Systems Virtual Server | Gehostet in Dallas | Gehostet in Washington DC | 
 | Predictive Market Scenarios | Gehostet in Dallas | Nicht verfügbar | 
 | Push Notifications | Gehostet in Dallas | Gehostet in Washington DC | 
 | Real-Time Payments | Gehostet in Dallas | Nicht verfügbar | 
 | SQL Query | Gehostet in Dallas | Nicht verfügbar | 
+| SSH Key for VPC | Gehostet in Dallas | Nicht verfügbar | 
 | Secure Gateway | Gehostet in Dallas | Gehostet in Washington DC | 
 | Security Advisor | Gehostet in Dallas | Nicht verfügbar | 
 | Security Group for VPC | Gehostet in Dallas | Nicht verfügbar | 
@@ -186,9 +189,9 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Databases for PostgreSQL | Gehostet in London | Gehostet in Frankfurt | 
 | Databases for Redis | Gehostet in London | Gehostet in Frankfurt | 
 | Databases for etcd | Gehostet in London | Gehostet in Frankfurt | 
-| Db2 | Gehostet in London | Gehostet in Frankfurt | 
 | Db2 Hosted | Gehostet in London | Gehostet in Frankfurt | 
 | Db2 Warehouse | Gehostet in London | Gehostet in Frankfurt | 
+| Db2 on Cloud | Gehostet in London | Gehostet in Frankfurt | 
 | Decision Optimization | Gehostet in London | Nicht verfügbar | 
 | DevOps Insights | Gehostet in London | Gehostet in Frankfurt | 
 | Digital Content Checker | Gehostet in London | Nicht verfügbar | 
@@ -202,7 +205,8 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | HPC Cluster | Global gehostet | Global gehostet | 
 | Historical Instrument Analytics | Nicht verfügbar | Nicht verfügbar | 
 | Hyper Protect Crypto Services | Nicht verfügbar | Nicht verfügbar | 
-| Hyper Protect DBaaS | Nicht verfügbar | Nicht verfügbar | 
+| Hyper Protect DBaaS for MongoDB | Nicht verfügbar | Nicht verfügbar | 
+| Hyper Protect DBaaS for PostgreSQL | Nicht verfügbar | Nicht verfügbar | 
 | IBM Cognos Dashboard Embedded | Gehostet in London | Nicht verfügbar | 
 | Information Server | Gehostet in London | Gehostet in Frankfurt | 
 | Informix | Syndiziert aus Dallas | Nicht verfügbar | 
@@ -228,10 +232,12 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Object Storage OpenStack Swift | Gehostet in London | Nicht verfügbar | 
 | Personality Insights | Gehostet in London | Gehostet in Frankfurt | 
 | Portfolio Optimization | Nicht verfügbar | Nicht verfügbar | 
+| Power Systems Virtual Server | Nicht verfügbar | Nicht verfügbar | 
 | Predictive Market Scenarios | Nicht verfügbar | Nicht verfügbar | 
 | Push Notifications | Gehostet in London | Gehostet in Frankfurt | 
 | Real-Time Payments | Nicht verfügbar | Nicht verfügbar | 
-| SQL Query | Nicht verfügbar | Nicht verfügbar | 
+| SQL Query | Nicht verfügbar | Gehostet in Frankfurt | 
+| SSH Key for VPC | Gehostet in London | Gehostet in Frankfurt | 
 | Secure Gateway | Gehostet in London | Syndiziert aus Dallas | 
 | Security Advisor | Gehostet in London | Nicht verfügbar | 
 | Security Group for VPC | Gehostet in London | Gehostet in Frankfurt | 
@@ -302,9 +308,9 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Databases for PostgreSQL | Gehostet in Sydney | Gehostet in Tokio | 
 | Databases for Redis | Gehostet in Sydney | Gehostet in Tokio | 
 | Databases for etcd | Gehostet in Sydney | Gehostet in Tokio | 
-| Db2 | Gehostet in Sydney | Nicht verfügbar | 
 | Db2 Hosted | Gehostet in Sydney | Nicht verfügbar | 
 | Db2 Warehouse | Gehostet in Sydney | Nicht verfügbar | 
+| Db2 on Cloud | Gehostet in Sydney | Nicht verfügbar | 
 | Decision Optimization | Nicht verfügbar | Nicht verfügbar | 
 | DevOps Insights | Nicht verfügbar | Nicht verfügbar | 
 | Digital Content Checker | Syndiziert aus London | Nicht verfügbar | 
@@ -317,8 +323,9 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Globalization Pipeline | Gehostet in Sydney | Nicht verfügbar | 
 | HPC Cluster | Global gehostet | Global gehostet | 
 | Historical Instrument Analytics | Nicht verfügbar | Nicht verfügbar | 
-| Hyper Protect Crypto Services | Nicht verfügbar | Nicht verfügbar | 
-| Hyper Protect DBaaS | Nicht verfügbar | Nicht verfügbar | 
+| Hyper Protect Crypto Services | Gehostet in Sydney | Nicht verfügbar | 
+| Hyper Protect DBaaS for MongoDB | Nicht verfügbar | Nicht verfügbar | 
+| Hyper Protect DBaaS for PostgreSQL | Nicht verfügbar | Nicht verfügbar | 
 | IBM Cognos Dashboard Embedded | Nicht verfügbar | Nicht verfügbar | 
 | Information Server | Gehostet in Sydney | Nicht verfügbar | 
 | Informix | Syndiziert aus Dallas | Nicht verfügbar | 
@@ -344,10 +351,12 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Object Storage OpenStack Swift | Nicht verfügbar | Nicht verfügbar | 
 | Personality Insights | Gehostet in Sydney | Gehostet in Tokio | 
 | Portfolio Optimization | Nicht verfügbar | Nicht verfügbar | 
+| Power Systems Virtual Server | Nicht verfügbar | Nicht verfügbar | 
 | Predictive Market Scenarios | Nicht verfügbar | Nicht verfügbar | 
 | Push Notifications | Gehostet in Sydney | Nicht verfügbar | 
 | Real-Time Payments | Nicht verfügbar | Nicht verfügbar | 
 | SQL Query | Nicht verfügbar | Nicht verfügbar | 
+| SSH Key for VPC | Gehostet in Sydney | Gehostet in Tokio | 
 | Secure Gateway | Syndiziert aus Dallas | Nicht verfügbar | 
 | Security Advisor | Nicht verfügbar | Nicht verfügbar | 
 | Security Group for VPC | Gehostet in Sydney | Gehostet in Tokio | 
