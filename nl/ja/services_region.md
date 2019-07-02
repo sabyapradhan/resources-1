@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-23"
+lastupdated: "2019-06-26"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -71,9 +71,9 @@ subcollection: resources
 | Databases for PostgreSQL | ダラスでホスト | ワシントン DC でホスト | 
 | Databases for Redis | ダラスでホスト | ワシントン DC でホスト | 
 | Databases for etcd | ダラスでホスト | ワシントン DC でホスト | 
-| Db2 | ダラスでホスト | 使用不可 | 
 | Db2 Hosted | ダラスでホスト | 使用不可 | 
 | Db2 Warehouse | ダラスでホスト | 使用不可 | 
+| Db2 on Cloud | ダラスでホスト | 使用不可 | 
 | Decision Optimization | ダラスでホスト | 使用不可 | 
 | DevOps Insights | ダラスでホスト | 使用不可 | 
 | Digital Content Checker | ダラスでホスト | 使用不可 | 
@@ -87,7 +87,6 @@ subcollection: resources
 | HPC Cluster | 　グローバルにホスト | 　グローバルにホスト | 
 | Historical Instrument Analytics | ダラスでホスト | 使用不可 | 
 | Hyper Protect Crypto Services | ダラスでホスト | 使用不可 | 
-| Hyper Protect DBaaS | 使用不可 | ワシントン DC でホスト | 
 | Hyper Protect DBaaS for MongoDB | ダラスでホスト | 使用不可 | 
 | Hyper Protect DBaaS for PostgreSQL | ダラスでホスト | 使用不可 | 
 | IBM Cognos Dashboard Embedded | ダラスでホスト | 使用不可 | 
@@ -191,9 +190,9 @@ subcollection: resources
 | Databases for PostgreSQL | ロンドンでホスト | フランクフルトでホスト | 
 | Databases for Redis | ロンドンでホスト | フランクフルトでホスト | 
 | Databases for etcd | ロンドンでホスト | フランクフルトでホスト | 
-| Db2 | ロンドンでホスト | フランクフルトでホスト | 
 | Db2 Hosted | ロンドンでホスト | フランクフルトでホスト | 
 | Db2 Warehouse | ロンドンでホスト | フランクフルトでホスト | 
+| Db2 on Cloud | ロンドンでホスト | フランクフルトでホスト | 
 | Decision Optimization | ロンドンでホスト | 使用不可 | 
 | DevOps Insights | ロンドンでホスト | フランクフルトでホスト | 
 | Digital Content Checker | ロンドンでホスト | 使用不可 | 
@@ -207,7 +206,6 @@ subcollection: resources
 | HPC Cluster | 　グローバルにホスト | 　グローバルにホスト | 
 | Historical Instrument Analytics | 使用不可 | 使用不可 | 
 | Hyper Protect Crypto Services | 使用不可 | 使用不可 | 
-| Hyper Protect DBaaS | 使用不可 | 使用不可 | 
 | Hyper Protect DBaaS for MongoDB | 使用不可 | 使用不可 | 
 | Hyper Protect DBaaS for PostgreSQL | 使用不可 | 使用不可 | 
 | IBM Cognos Dashboard Embedded | ロンドンでホスト | 使用不可 | 
@@ -239,7 +237,7 @@ subcollection: resources
 | Predictive Market Scenarios | 使用不可 | 使用不可 | 
 | Push Notifications | ロンドンでホスト | フランクフルトでホスト | 
 | Real-Time Payments | 使用不可 | 使用不可 | 
-| SQL Query | 使用不可 | 使用不可 | 
+| SQL Query | 使用不可 | フランクフルトでホスト | 
 | SSH Key for VPC | ロンドンでホスト | フランクフルトでホスト | 
 | Secure Gateway | ロンドンでホスト | ダラスからシンジケート | 
 | セキュリティー・アドバイザー | ロンドンでホスト | 使用不可 | 
@@ -311,9 +309,9 @@ subcollection: resources
 | Databases for PostgreSQL | シドニーでホスト | 東京でホスト | 
 | Databases for Redis | シドニーでホスト | 東京でホスト | 
 | Databases for etcd | シドニーでホスト | 東京でホスト | 
-| Db2 | シドニーでホスト | 使用不可 | 
 | Db2 Hosted | シドニーでホスト | 使用不可 | 
 | Db2 Warehouse | シドニーでホスト | 使用不可 | 
+| Db2 on Cloud | シドニーでホスト | 使用不可 | 
 | Decision Optimization | 使用不可 | 使用不可 | 
 | DevOps Insights | 使用不可 | 使用不可 | 
 | Digital Content Checker | ロンドンからシンジケート | 使用不可 | 
@@ -326,8 +324,7 @@ subcollection: resources
 | Globalization Pipeline | シドニーでホスト | 使用不可 | 
 | HPC Cluster | 　グローバルにホスト | 　グローバルにホスト | 
 | Historical Instrument Analytics | 使用不可 | 使用不可 | 
-| Hyper Protect Crypto Services | 使用不可 | 使用不可 | 
-| Hyper Protect DBaaS | 使用不可 | 使用不可 | 
+| Hyper Protect Crypto Services | シドニーでホスト | 使用不可 | 
 | Hyper Protect DBaaS for MongoDB | 使用不可 | 使用不可 | 
 | Hyper Protect DBaaS for PostgreSQL | 使用不可 | 使用不可 | 
 | IBM Cognos Dashboard Embedded | 使用不可 | 使用不可 | 
