@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-23"
+lastupdated: "2019-06-26"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -70,9 +70,9 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Databases for PostgreSQL | Hébergé à Dallas | Hébergé à Washington DC | 
 | Databases for Redis | Hébergé à Dallas | Hébergé à Washington DC | 
 | Databases for etcd | Hébergé à Dallas | Hébergé à Washington DC | 
-| Db2 | Hébergé à Dallas | Indisponible | 
 | Db2 hébergé | Hébergé à Dallas | Indisponible | 
 | Db2 Warehouse | Hébergé à Dallas | Indisponible | 
+| Db2 on Cloud | Hébergé à Dallas | Indisponible | 
 | Decision Optimization | Hébergé à Dallas | Indisponible | 
 | DevOps Insights | Hébergé à Dallas | Indisponible | 
 | Digital Content Checker | Hébergé à Dallas | Indisponible | 
@@ -86,7 +86,6 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | HPC Cluster | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Historical Instrument Analytics | Hébergé à Dallas | Indisponible | 
 | Hyper Protect Crypto Services | Hébergé à Dallas | Indisponible | 
-| Hyper Protect DBaaS | Indisponible | Hébergé à Washington DC | 
 | Hyper Protect DBaaS for MongoDB | Hébergé à Dallas | Indisponible | 
 | Hyper Protect DBaaS for PostgreSQL | Hébergé à Dallas | Indisponible | 
 | IBM Cognos Dashboard Embedded | Hébergé à Dallas | Indisponible | 
@@ -190,9 +189,9 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Databases for PostgreSQL | Hébergé à Londres | Hébergé à Francfort | 
 | Databases for Redis | Hébergé à Londres | Hébergé à Francfort | 
 | Databases for etcd | Hébergé à Londres | Hébergé à Francfort | 
-| Db2 | Hébergé à Londres | Hébergé à Francfort | 
 | Db2 hébergé | Hébergé à Londres | Hébergé à Francfort | 
 | Db2 Warehouse | Hébergé à Londres | Hébergé à Francfort | 
+| Db2 on Cloud | Hébergé à Londres | Hébergé à Francfort | 
 | Decision Optimization | Hébergé à Londres | Indisponible | 
 | DevOps Insights | Hébergé à Londres | Hébergé à Francfort | 
 | Digital Content Checker | Hébergé à Londres | Indisponible | 
@@ -206,7 +205,6 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | HPC Cluster | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Historical Instrument Analytics | Indisponible | Indisponible | 
 | Hyper Protect Crypto Services | Indisponible | Indisponible | 
-| Hyper Protect DBaaS | Indisponible | Indisponible | 
 | Hyper Protect DBaaS for MongoDB | Indisponible | Indisponible | 
 | Hyper Protect DBaaS for PostgreSQL | Indisponible | Indisponible | 
 | IBM Cognos Dashboard Embedded | Hébergé à Londres | Indisponible | 
@@ -238,7 +236,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Predictive Market Scenarios | Indisponible | Indisponible | 
 | Push Notifications | Hébergé à Londres | Hébergé à Francfort | 
 | Real-Time Payments | Indisponible | Indisponible | 
-| SQL Query | Indisponible | Indisponible | 
+| SQL Query | Indisponible | Hébergé à Francfort | 
 | SSH Key for VPC | Hébergé à Londres | Hébergé à Francfort | 
 | Secure Gateway | Hébergé à Londres | Syndiqué avec Dallas | 
 | Security Advisor | Hébergé à Londres | Indisponible | 
@@ -310,9 +308,9 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Databases for PostgreSQL | Hébergé à Sydney | Hébergé à Tokyo | 
 | Databases for Redis | Hébergé à Sydney | Hébergé à Tokyo | 
 | Databases for etcd | Hébergé à Sydney | Hébergé à Tokyo | 
-| Db2 | Hébergé à Sydney | Indisponible | 
 | Db2 hébergé | Hébergé à Sydney | Indisponible | 
 | Db2 Warehouse | Hébergé à Sydney | Indisponible | 
+| Db2 on Cloud | Hébergé à Sydney | Indisponible | 
 | Decision Optimization | Indisponible | Indisponible | 
 | DevOps Insights | Indisponible | Indisponible | 
 | Digital Content Checker | Syndiqué avec Londres | Indisponible | 
@@ -325,8 +323,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Globalization Pipeline | Hébergé à Sydney | Indisponible | 
 | HPC Cluster | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Historical Instrument Analytics | Indisponible | Indisponible | 
-| Hyper Protect Crypto Services | Indisponible | Indisponible | 
-| Hyper Protect DBaaS | Indisponible | Indisponible | 
+| Hyper Protect Crypto Services | Hébergé à Sydney | Indisponible | 
 | Hyper Protect DBaaS for MongoDB | Indisponible | Indisponible | 
 | Hyper Protect DBaaS for PostgreSQL | Indisponible | Indisponible | 
 | IBM Cognos Dashboard Embedded | Indisponible | Indisponible | 

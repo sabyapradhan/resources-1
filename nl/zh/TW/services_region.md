@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-23"
+lastupdated: "2019-06-26"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -70,9 +70,9 @@ subcollection: resources
 | Databases for PostgreSQL |在達拉斯進行管理|在華盛頓特區進行管理| 
 | Databases for Redis |在達拉斯進行管理|在華盛頓特區進行管理| 
 | Databases for etcd |在達拉斯進行管理|在華盛頓特區進行管理| 
-|Db2 |在達拉斯進行管理|不適用 | 
 |Db2 Hosted |在達拉斯進行管理|不適用 | 
 |Db2 Warehouse |在達拉斯進行管理|不適用 | 
+| Db2 on Cloud |在達拉斯進行管理|不適用 | 
 |Decision Optimization|在達拉斯進行管理|不適用 | 
 |DevOps Insights|在達拉斯進行管理|不適用 | 
 |Digital Content Checker|在達拉斯進行管理|不適用 | 
@@ -86,7 +86,6 @@ subcollection: resources
 | HPC Cluster |在全球管理|在全球管理| 
 |Historical Instrument Analytics |在達拉斯進行管理|不適用 | 
 |Hyper Protect Crypto Services |在達拉斯進行管理|不適用 | 
-|Hyper Protect DBaaS |不適用 |在華盛頓特區進行管理| 
 | Hyper Protect DBaaS for MongoDB |在達拉斯進行管理|不適用 | 
 | Hyper Protect DBaaS for PostgreSQL |在達拉斯進行管理|不適用 | 
 | IBM Cognos Dashboard Embedded |在達拉斯進行管理|不適用 | 
@@ -190,9 +189,9 @@ subcollection: resources
 | Databases for PostgreSQL |在倫敦進行管理|在法蘭克福進行管理| 
 | Databases for Redis |在倫敦進行管理|在法蘭克福進行管理| 
 | Databases for etcd |在倫敦進行管理|在法蘭克福進行管理| 
-|Db2 |在倫敦進行管理|在法蘭克福進行管理| 
 |Db2 Hosted |在倫敦進行管理|在法蘭克福進行管理| 
 |Db2 Warehouse |在倫敦進行管理|在法蘭克福進行管理| 
+| Db2 on Cloud |在倫敦進行管理|在法蘭克福進行管理| 
 |Decision Optimization|在倫敦進行管理|不適用 | 
 |DevOps Insights|在倫敦進行管理|在法蘭克福進行管理| 
 |Digital Content Checker|在倫敦進行管理|不適用 | 
@@ -206,7 +205,6 @@ subcollection: resources
 | HPC Cluster |在全球管理|在全球管理| 
 |Historical Instrument Analytics |不適用 |不適用 | 
 |Hyper Protect Crypto Services |不適用 |不適用 | 
-|Hyper Protect DBaaS |不適用 |不適用 | 
 | Hyper Protect DBaaS for MongoDB |不適用 |不適用 | 
 | Hyper Protect DBaaS for PostgreSQL |不適用 |不適用 | 
 | IBM Cognos Dashboard Embedded |在倫敦進行管理|不適用 | 
@@ -238,7 +236,7 @@ subcollection: resources
 |Predictive Market Scenarios |不適用 |不適用 | 
 |Push Notifications|在倫敦進行管理|在法蘭克福進行管理| 
 |Real-Time Payments |不適用 |不適用 | 
-|SQL Query |不適用 |不適用 | 
+|SQL Query |不適用 |在法蘭克福進行管理| 
 | SSH Key for VPC |在倫敦進行管理|在法蘭克福進行管理| 
 |Secure Gateway|在倫敦進行管理|從達拉斯進行聯合發佈| 
 |Security Advisor|在倫敦進行管理|不適用 | 
@@ -310,9 +308,9 @@ subcollection: resources
 | Databases for PostgreSQL |在雪梨進行管理|在東京進行管理| 
 | Databases for Redis |在雪梨進行管理|在東京進行管理| 
 | Databases for etcd |在雪梨進行管理|在東京進行管理| 
-|Db2 |在雪梨進行管理|不適用 | 
 |Db2 Hosted |在雪梨進行管理|不適用 | 
 |Db2 Warehouse |在雪梨進行管理|不適用 | 
+| Db2 on Cloud |在雪梨進行管理|不適用 | 
 |Decision Optimization|不適用 |不適用 | 
 |DevOps Insights|不適用 |不適用 | 
 |Digital Content Checker|從倫敦進行聯合發佈|不適用 | 
@@ -325,8 +323,7 @@ subcollection: resources
 |Globalization Pipeline|在雪梨進行管理|不適用 | 
 | HPC Cluster |在全球管理|在全球管理| 
 |Historical Instrument Analytics |不適用 |不適用 | 
-|Hyper Protect Crypto Services |不適用 |不適用 | 
-|Hyper Protect DBaaS |不適用 |不適用 | 
+|Hyper Protect Crypto Services |在雪梨進行管理|不適用 | 
 | Hyper Protect DBaaS for MongoDB |不適用 |不適用 | 
 | Hyper Protect DBaaS for PostgreSQL |不適用 |不適用 | 
 | IBM Cognos Dashboard Embedded |不適用 |不適用 | 
