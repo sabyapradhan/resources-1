@@ -46,7 +46,7 @@ Services that support Cloud IAM access control and organization within resource 
 * You can view usage by resource group similar to the way you might view usage by Cloud Foundry orgs.
 * You can connect to apps and services in any Cloud Foundry space, which allows connections for apps and services from different regions. When you migrate, the connection is done automatically when you turn your original Cloud Foundry service instance into an alias and creating a linked instance in a resource group of your choice. The following graphic shows how the connection by using an alias works.
 
-![Binding a service instance to a Cloud Foundry space to create an alias](images/alias.svg "Binding a service instance to a Cloud Foundry space to create an alias")
+![Binding a service instance to a Cloud Foundry space to create an alias](images/alias.svg "Binding a service instance to a Cloud Foundry space to create an alias"){: caption="Figure 1. Binding a service instance to a Cloud Foundry space to create an alias" caption-side="bottom"}
 
 ### {{site.data.keyword.dev_console}} apps
 {: #app_services}
