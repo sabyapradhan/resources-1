@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-14"
+lastupdated: "2019-07-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -62,6 +62,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Compose for ScyllaDB | Hosted in Dallas | Hosted in Washington DC | 
 | Compose for etcd | Hosted in Dallas | Hosted in Washington DC | 
 | Consult with IBM Cloud Garage | Hosted globally | Hosted globally | 
+| Container Registry | Hosted globally | Hosted globally | 
 | Continuous Delivery | Hosted in Dallas | Hosted in Washington DC | 
 | Cost and Asset Management | Hosted in Dallas | Not available | 
 | Data Store for Memcache | Hosted in Dallas | Not available | 
@@ -98,6 +99,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Key Protect | Hosted in Dallas | Hosted in Washington DC | 
 | Knowledge Catalog | Hosted in Dallas | Not available | 
 | Knowledge Studio | Hosted in Dallas | Hosted in Washington DC | 
+| Kubernetes Service | Hosted in Dallas | Hosted in Washington DC | 
 | Language Translator | Hosted in Dallas | Hosted in Washington DC | 
 | Lift CLI | Hosted in Dallas | Not available | 
 | Load Balancer for VPC | Hosted in Dallas | Hosted in Washington DC | 
@@ -181,6 +183,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Compose for ScyllaDB | Hosted in London | Hosted in Frankfurt | 
 | Compose for etcd | Hosted in London | Hosted in Frankfurt | 
 | Consult with IBM Cloud Garage | Hosted globally | Hosted globally | 
+| Container Registry | Hosted globally | Hosted globally | 
 | Continuous Delivery | Hosted in London | Hosted in Frankfurt | 
 | Cost and Asset Management | Not available | Not available | 
 | Data Store for Memcache | Not available | Not available | 
@@ -217,6 +220,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Key Protect | Hosted in London | Hosted in Frankfurt | 
 | Knowledge Catalog | Hosted in London | Hosted in Frankfurt | 
 | Knowledge Studio | Hosted in London | Hosted in Frankfurt | 
+| Kubernetes Service | Hosted in London | Hosted in Frankfurt | 
 | Language Translator | Hosted in London | Hosted in Frankfurt | 
 | Lift CLI | Not available | Not available | 
 | Load Balancer for VPC | Hosted in London | Hosted in Frankfurt | 
@@ -300,6 +304,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Compose for ScyllaDB | Hosted in Sydney | Not available | 
 | Compose for etcd | Hosted in Sydney | Not available | 
 | Consult with IBM Cloud Garage | Hosted globally | Hosted globally | 
+| Container Registry | Hosted globally | Hosted globally | 
 | Continuous Delivery | Not available | Hosted in Tokyo | 
 | Cost and Asset Management | Not available | Not available | 
 | Data Store for Memcache | Not available | Not available | 
@@ -336,6 +341,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Key Protect | Hosted in Sydney | Hosted in Tokyo | 
 | Knowledge Catalog | Not available | Hosted in Tokyo | 
 | Knowledge Studio | Hosted in Sydney | Hosted in Tokyo | 
+| Kubernetes Service | Hosted in Sydney | Hosted in Tokyo | 
 | Language Translator | Hosted in Sydney | Hosted in Tokyo | 
 | Lift CLI | Not available | Not available | 
 | Load Balancer for VPC | Hosted in Sydney | Hosted in Tokyo | 
