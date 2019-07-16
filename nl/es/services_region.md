@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-26"
+lastupdated: "2019-07-10"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -70,9 +70,9 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Databases for PostgreSQL | Alojado en Dallas | Alojado en Washington DC | 
 | Databases for Redis | Alojado en Dallas | Alojado en Washington DC | 
 | Databases for etcd | Alojado en Dallas | Alojado en Washington DC | 
+| Db2 | Alojado en Dallas | No disponible | 
 | Db2 Hosted | Alojado en Dallas | No disponible | 
 | Db2 Warehouse | Alojado en Dallas | No disponible | 
-| Db2 on Cloud | Alojado en Dallas | No disponible | 
 | Decision Optimization | Alojado en Dallas | No disponible | 
 | DevOps Insights | Alojado en Dallas | No disponible | 
 | Comprobador de contenido digital | Alojado en Dallas | No disponible | 
@@ -83,11 +83,11 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Funciones | Alojado en Dallas | Alojado en Washington DC | 
 | Geospatial Analytics | Alojado en Dallas | No disponible | 
 | Globalization Pipeline | Alojado en Dallas | No disponible | 
-| Clúster HPC | Alojado globalmente | Alojado globalmente | 
 | Historical Instrument Analytics | Alojado en Dallas | No disponible | 
 | Hyper Protect Crypto Services | Alojado en Dallas | No disponible | 
 | Hyper Protect DBaaS for MongoDB | Alojado en Dallas | No disponible | 
 | Hyper Protect DBaaS for PostgreSQL | Alojado en Dallas | No disponible | 
+| Servidores virtuales de IBM Cloud Hyper Protect | Alojado globalmente | Alojado globalmente | 
 | IBM Cognos Dashboard Embedded | Alojado en Dallas | No disponible | 
 | Information Server | Alojado en Dallas | No disponible | 
 | Informix | Alojado en Dallas | No disponible | 
@@ -189,9 +189,9 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Databases for PostgreSQL | Alojado en Londres | Alojado en Frankfurt | 
 | Databases for Redis | Alojado en Londres | Alojado en Frankfurt | 
 | Databases for etcd | Alojado en Londres | Alojado en Frankfurt | 
+| Db2 | Alojado en Londres | Alojado en Frankfurt | 
 | Db2 Hosted | Alojado en Londres | Alojado en Frankfurt | 
 | Db2 Warehouse | Alojado en Londres | Alojado en Frankfurt | 
-| Db2 on Cloud | Alojado en Londres | Alojado en Frankfurt | 
 | Decision Optimization | Alojado en Londres | No disponible | 
 | DevOps Insights | Alojado en Londres | Alojado en Frankfurt | 
 | Comprobador de contenido digital | Alojado en Londres | No disponible | 
@@ -202,11 +202,11 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Funciones | Alojado en Londres | Alojado en Frankfurt | 
 | Geospatial Analytics | Alojado en Londres | No disponible | 
 | Globalization Pipeline | Alojado en Londres | Alojado en Frankfurt | 
-| Clúster HPC | Alojado globalmente | Alojado globalmente | 
 | Historical Instrument Analytics | No disponible | No disponible | 
 | Hyper Protect Crypto Services | No disponible | No disponible | 
 | Hyper Protect DBaaS for MongoDB | No disponible | No disponible | 
 | Hyper Protect DBaaS for PostgreSQL | No disponible | No disponible | 
+| Servidores virtuales de IBM Cloud Hyper Protect | Alojado globalmente | Alojado globalmente | 
 | IBM Cognos Dashboard Embedded | Alojado en Londres | No disponible | 
 | Information Server | Alojado en Londres | Alojado en Frankfurt | 
 | Informix | Sindicado desde Dallas | No disponible | 
@@ -308,9 +308,9 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Databases for PostgreSQL | Alojado en Sídney | Alojado en Tokio | 
 | Databases for Redis | Alojado en Sídney | Alojado en Tokio | 
 | Databases for etcd | Alojado en Sídney | Alojado en Tokio | 
+| Db2 | Alojado en Sídney | No disponible | 
 | Db2 Hosted | Alojado en Sídney | No disponible | 
 | Db2 Warehouse | Alojado en Sídney | No disponible | 
-| Db2 on Cloud | Alojado en Sídney | No disponible | 
 | Decision Optimization | No disponible | No disponible | 
 | DevOps Insights | No disponible | No disponible | 
 | Comprobador de contenido digital | Sindicado desde Londres | No disponible | 
@@ -321,11 +321,11 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Funciones | No disponible | Alojado en Tokio | 
 | Geospatial Analytics | Sindicado desde Londres | No disponible | 
 | Globalization Pipeline | Alojado en Sídney | No disponible | 
-| Clúster HPC | Alojado globalmente | Alojado globalmente | 
 | Historical Instrument Analytics | No disponible | No disponible | 
 | Hyper Protect Crypto Services | Alojado en Sídney | No disponible | 
 | Hyper Protect DBaaS for MongoDB | No disponible | No disponible | 
 | Hyper Protect DBaaS for PostgreSQL | No disponible | No disponible | 
+| Servidores virtuales de IBM Cloud Hyper Protect | Alojado globalmente | Alojado globalmente | 
 | IBM Cognos Dashboard Embedded | No disponible | No disponible | 
 | Information Server | Alojado en Sídney | No disponible | 
 | Informix | Sindicado desde Dallas | No disponible | 
