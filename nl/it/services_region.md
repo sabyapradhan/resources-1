@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-26"
+lastupdated: "2019-07-10"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -71,9 +71,9 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Databases for PostgreSQL | Ospitato a Dallas | Ospitato a Washington DC | 
 | Databases for Redis | Ospitato a Dallas | Ospitato a Washington DC | 
 | Databases for etcd | Ospitato a Dallas | Ospitato a Washington DC | 
+| Db2 | Ospitato a Dallas | Non disponibile | 
 | Db2 Hosted | Ospitato a Dallas | Non disponibile | 
 | Warehouse Db2 | Ospitato a Dallas | Non disponibile | 
-| Db2 on Cloud | Ospitato a Dallas | Non disponibile | 
 | Decision Optimization | Ospitato a Dallas | Non disponibile | 
 | DevOps Insights | Ospitato a Dallas | Non disponibile | 
 | Digital Content Checker | Ospitato a Dallas | Non disponibile | 
@@ -84,11 +84,11 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Functions | Ospitato a Dallas | Ospitato a Washington DC | 
 | Geospatial Analytics | Ospitato a Dallas | Non disponibile | 
 | Globalization Pipeline | Ospitato a Dallas | Non disponibile | 
-| HPC Cluster | Ospitato a livello globale | Ospitato a livello globale | 
 | Historical Instrument Analytics | Ospitato a Dallas | Non disponibile | 
 | Hyper Protect Crypto Services | Ospitato a Dallas | Non disponibile | 
 | Hyper Protect DBaaS per MongoDB | Ospitato a Dallas | Non disponibile | 
 | Hyper Protect DBaaS per PostgreSQL | Ospitato a Dallas | Non disponibile | 
+| IBM Cloud Hyper Protect Virtual Servers | Ospitato a livello globale | Ospitato a livello globale | 
 | IBM Cognos Dashboard Embedded | Ospitato a Dallas | Non disponibile | 
 | Information Server | Ospitato a Dallas | Non disponibile | 
 | Informix | Ospitato a Dallas | Non disponibile | 
@@ -190,9 +190,9 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Databases for PostgreSQL | Ospitato a Londra | Ospitato a Francoforte | 
 | Databases for Redis | Ospitato a Londra | Ospitato a Francoforte | 
 | Databases for etcd | Ospitato a Londra | Ospitato a Francoforte | 
+| Db2 | Ospitato a Londra | Ospitato a Francoforte | 
 | Db2 Hosted | Ospitato a Londra | Ospitato a Francoforte | 
 | Warehouse Db2 | Ospitato a Londra | Ospitato a Francoforte | 
-| Db2 on Cloud | Ospitato a Londra | Ospitato a Francoforte | 
 | Decision Optimization | Ospitato a Londra | Non disponibile | 
 | DevOps Insights | Ospitato a Londra | Ospitato a Francoforte | 
 | Digital Content Checker | Ospitato a Londra | Non disponibile | 
@@ -203,11 +203,11 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Functions | Ospitato a Londra | Ospitato a Francoforte | 
 | Geospatial Analytics | Ospitato a Londra | Non disponibile | 
 | Globalization Pipeline | Ospitato a Londra | Ospitato a Francoforte | 
-| HPC Cluster | Ospitato a livello globale | Ospitato a livello globale | 
 | Historical Instrument Analytics | Non disponibile | Non disponibile | 
 | Hyper Protect Crypto Services | Non disponibile | Non disponibile | 
 | Hyper Protect DBaaS per MongoDB | Non disponibile | Non disponibile | 
 | Hyper Protect DBaaS per PostgreSQL | Non disponibile | Non disponibile | 
+| IBM Cloud Hyper Protect Virtual Servers | Ospitato a livello globale | Ospitato a livello globale | 
 | IBM Cognos Dashboard Embedded | Ospitato a Londra | Non disponibile | 
 | Information Server | Ospitato a Londra | Ospitato a Francoforte | 
 | Informix | Diffuso da Dallas | Non disponibile | 
@@ -309,9 +309,9 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Databases for PostgreSQL | Ospitato a Sydney | Ospitato a Tokyo | 
 | Databases for Redis | Ospitato a Sydney | Ospitato a Tokyo | 
 | Databases for etcd | Ospitato a Sydney | Ospitato a Tokyo | 
+| Db2 | Ospitato a Sydney | Non disponibile | 
 | Db2 Hosted | Ospitato a Sydney | Non disponibile | 
 | Warehouse Db2 | Ospitato a Sydney | Non disponibile | 
-| Db2 on Cloud | Ospitato a Sydney | Non disponibile | 
 | Decision Optimization | Non disponibile | Non disponibile | 
 | DevOps Insights | Non disponibile | Non disponibile | 
 | Digital Content Checker | Diffuso da Londra | Non disponibile | 
@@ -322,11 +322,11 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Functions | Non disponibile | Ospitato a Tokyo | 
 | Geospatial Analytics | Diffuso da Londra | Non disponibile | 
 | Globalization Pipeline | Ospitato a Sydney | Non disponibile | 
-| HPC Cluster | Ospitato a livello globale | Ospitato a livello globale | 
 | Historical Instrument Analytics | Non disponibile | Non disponibile | 
 | Hyper Protect Crypto Services | Ospitato a Sydney | Non disponibile | 
 | Hyper Protect DBaaS per MongoDB | Non disponibile | Non disponibile | 
 | Hyper Protect DBaaS per PostgreSQL | Non disponibile | Non disponibile | 
+| IBM Cloud Hyper Protect Virtual Servers | Ospitato a livello globale | Ospitato a livello globale | 
 | IBM Cognos Dashboard Embedded | Non disponibile | Non disponibile | 
 | Information Server | Ospitato a Sydney | Non disponibile | 
 | Informix | Diffuso da Dallas | Non disponibile | 

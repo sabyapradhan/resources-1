@@ -30,7 +30,13 @@ Recursos e serviços Trabalhando com
         service_in_other_regions.md
         s2s.md
         using-services.md
-    {: .navgroup-end}
+
+    {: .topicgroup}
+    Conectando-se a serviços por meio de uma rede privada
+        /direct-link/direct-link-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud
+        service-endpoints.md
+        private-network-endpoints.md
+    {: .navgroup-end}  
 
     {: .navgroup id="reference"}
     tagging_sample_syntax.md
@@ -40,13 +46,13 @@ Recursos e serviços Trabalhando com
         /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_resource
         /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_services
         /cli/reference/ibmcloud/cloud-cli-ibmcloud_catalog
-        
+
     {: .topicgroup}
-    Referência de API  
+    Referência de API
         [API do IBM Cloud Resource Manager](https://{DomainName}/apidocs/resource-manager){: new_window}
         [API do IBM Cloud Resource Controller](https://{DomainName}/apidocs/resource-controller){: new_window}
-        [Procura global e identificação - API de identificação](https://{DomainName}/apidocs/tagging){: new_window}
-        [Procura global e identificação - API de procura](https://{DomainName}/apidocs/search){: new_window}
+        [Procura e identificação globais - API de identificação](https://{DomainName}/apidocs/tagging){: new_window}
+        [Procura e identificação globais - API de procura](https://{DomainName}/apidocs/search){: new_window}
     {: .navgroup-end}
 
     {: .navgroup id="help"}

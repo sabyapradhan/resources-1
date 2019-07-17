@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-26"
+lastupdated: "2019-07-10"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -21,11 +21,7 @@ O {{site.data.keyword.Bluemix}} facilita a implementação, a hospedagem e os se
 
 Nem todos os serviços estão disponíveis para compra em todas as localizações do {{site.data.keyword.Bluemix_notm}}. E, mesmo se o serviço estiver disponível para compra nessa localização, ele poderá estar hospedado em uma localização diferente. A tabela a seguir mostra os serviços que são fornecidos pela IBM. Para obter a lista completa de recursos que estão disponíveis, consulte o [catálogo](https://cloud.ibm.com/catalog){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo") no console do {{site.data.keyword.Bluemix_notm}}.
 
-Os serviços hospedados globalmente criam os recursos que operam em múltiplas localizações. Por exemplo,
-com o {{site.data.keyword.cos_full_notm}}, é possível optar por dispersar os dados em um único
-[data center](/docs/overview?topic=overview-zero-downtime#data_center) ou mesmo em uma combinação de localizações
-[selecionando
-o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability) no qual o aplicativo envia as solicitações de API de REST.
+Os serviços hospedados globalmente criam os recursos que operam em múltiplas localizações. Por exemplo, com o {{site.data.keyword.cos_full_notm}}, é possível optar por dispersar os dados em um único [data center](/docs/overview?topic=overview-zero-downtime#data_center) ou mesmo em uma combinação de localizações [selecionando o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-service-availability#service-availability) no qual o aplicativo envia as solicitações de API de REST.
 
 <!-- Do not manually change the table or add content after the table. -->
 <!-- The tables and everything after are deleted and refreshed daily. -->
@@ -74,9 +70,9 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Databases for PostgreSQL | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Databases for Redis | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Databases for etcd | Hospedado em Dallas | Hospedado em Washington, D.C. | 
+| DB2 | Hospedado em Dallas | Não está disponível | 
 | Db2 Hosted | Hospedado em Dallas | Não está disponível | 
 | DB2 Warehouse | Hospedado em Dallas | Não está disponível | 
-| Db2 on Cloud | Hospedado em Dallas | Não está disponível | 
 | Decision Optimization | Hospedado em Dallas | Não está disponível | 
 | DevOps Insights | Hospedado em Dallas | Não está disponível | 
 | Digital Content Checker | Hospedado em Dallas | Não está disponível | 
@@ -87,11 +83,11 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Functions | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Geospatial Analytics | Hospedado em Dallas | Não está disponível | 
 | Globalization Pipeline | Hospedado em Dallas | Não está disponível | 
-| HPC Cluster | Hospedado globalmente | Hospedado globalmente | 
 | Historical Instrument Analytics | Hospedado em Dallas | Não está disponível | 
 | Hyper Protect Crypto Services | Hospedado em Dallas | Não está disponível | 
 | Hyper Protect DBaaS for MongoDB | Hospedado em Dallas | Não está disponível | 
 | Hyper Protect DBaaS for PostgreSQL | Hospedado em Dallas | Não está disponível | 
+| IBM Cloud Hyper Protect Virtual Servers | Hospedado globalmente | Hospedado globalmente | 
 | IBM Cognos Dashboard Embedded | Hospedado em Dallas | Não está disponível | 
 | Information Server | Hospedado em Dallas | Não está disponível | 
 | Informix | Hospedado em Dallas | Não está disponível | 
@@ -193,9 +189,9 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Databases for PostgreSQL | Hospedado em Londres | Hospedado em Frankfurt | 
 | Databases for Redis | Hospedado em Londres | Hospedado em Frankfurt | 
 | Databases for etcd | Hospedado em Londres | Hospedado em Frankfurt | 
+| DB2 | Hospedado em Londres | Hospedado em Frankfurt | 
 | Db2 Hosted | Hospedado em Londres | Hospedado em Frankfurt | 
 | DB2 Warehouse | Hospedado em Londres | Hospedado em Frankfurt | 
-| Db2 on Cloud | Hospedado em Londres | Hospedado em Frankfurt | 
 | Decision Optimization | Hospedado em Londres | Não está disponível | 
 | DevOps Insights | Hospedado em Londres | Hospedado em Frankfurt | 
 | Digital Content Checker | Hospedado em Londres | Não está disponível | 
@@ -206,11 +202,11 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Functions | Hospedado em Londres | Hospedado em Frankfurt | 
 | Geospatial Analytics | Hospedado em Londres | Não está disponível | 
 | Globalization Pipeline | Hospedado em Londres | Hospedado em Frankfurt | 
-| HPC Cluster | Hospedado globalmente | Hospedado globalmente | 
 | Historical Instrument Analytics | Não está disponível | Não está disponível | 
 | Hyper Protect Crypto Services | Não está disponível | Não está disponível | 
 | Hyper Protect DBaaS for MongoDB | Não está disponível | Não está disponível | 
 | Hyper Protect DBaaS for PostgreSQL | Não está disponível | Não está disponível | 
+| IBM Cloud Hyper Protect Virtual Servers | Hospedado globalmente | Hospedado globalmente | 
 | IBM Cognos Dashboard Embedded | Hospedado em Londres | Não está disponível | 
 | Information Server | Hospedado em Londres | Hospedado em Frankfurt | 
 | Informix | Organizado em Dallas | Não está disponível | 
@@ -312,9 +308,9 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Databases for PostgreSQL | Hospedado em Sydney | Hospedado em Tóquio | 
 | Databases for Redis | Hospedado em Sydney | Hospedado em Tóquio | 
 | Databases for etcd | Hospedado em Sydney | Hospedado em Tóquio | 
+| DB2 | Hospedado em Sydney | Não está disponível | 
 | Db2 Hosted | Hospedado em Sydney | Não está disponível | 
 | DB2 Warehouse | Hospedado em Sydney | Não está disponível | 
-| Db2 on Cloud | Hospedado em Sydney | Não está disponível | 
 | Decision Optimization | Não está disponível | Não está disponível | 
 | DevOps Insights | Não está disponível | Não está disponível | 
 | Digital Content Checker | Organizado em Londres | Não está disponível | 
@@ -325,11 +321,11 @@ o terminal](/docs/services/cloud-object-storage/basics?topic=cloud-object-storag
 | Functions | Não está disponível | Hospedado em Tóquio | 
 | Geospatial Analytics | Organizado em Londres | Não está disponível | 
 | Globalization Pipeline | Hospedado em Sydney | Não está disponível | 
-| HPC Cluster | Hospedado globalmente | Hospedado globalmente | 
 | Historical Instrument Analytics | Não está disponível | Não está disponível | 
 | Hyper Protect Crypto Services | Hospedado em Sydney | Não está disponível | 
 | Hyper Protect DBaaS for MongoDB | Não está disponível | Não está disponível | 
 | Hyper Protect DBaaS for PostgreSQL | Não está disponível | Não está disponível | 
+| IBM Cloud Hyper Protect Virtual Servers | Hospedado globalmente | Hospedado globalmente | 
 | IBM Cognos Dashboard Embedded | Não está disponível | Não está disponível | 
 | Information Server | Hospedado em Sydney | Não está disponível | 
 | Informix | Organizado em Dallas | Não está disponível | 
