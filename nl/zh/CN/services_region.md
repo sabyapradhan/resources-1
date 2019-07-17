@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-26"
+lastupdated: "2019-07-10"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -70,9 +70,9 @@ subcollection: resources
 |Databases for PostgreSQL| 在达拉斯托管 | 在华盛顿特区托管 | 
 |Databases for Redis| 在达拉斯托管 | 在华盛顿特区托管 | 
 |Databases for etcd| 在达拉斯托管 | 在华盛顿特区托管 | 
+|Db2| 在达拉斯托管 |不可用| 
 |Db2 Hosted| 在达拉斯托管 |不可用| 
 |Db2 Warehouse| 在达拉斯托管 |不可用| 
-|Db2 on Cloud| 在达拉斯托管 |不可用| 
 |Decision Optimization| 在达拉斯托管 |不可用| 
 |DevOps Insights| 在达拉斯托管 |不可用| 
 |Digital Content Checker| 在达拉斯托管 |不可用| 
@@ -83,11 +83,11 @@ subcollection: resources
 | Functions | 在达拉斯托管 | 在华盛顿特区托管 | 
 |Geospatial Analytics| 在达拉斯托管 |不可用| 
 |Globalization Pipeline| 在达拉斯托管 |不可用| 
-| HPC Cluster |在全球托管|在全球托管| 
 |Historical Instrument Analytics| 在达拉斯托管 |不可用| 
 |Hyper Protect Crypto Services| 在达拉斯托管 |不可用| 
 | Hyper Protect DBaaS for MongoDB | 在达拉斯托管 |不可用| 
 | Hyper Protect DBaaS for PostgreSQL | 在达拉斯托管 |不可用| 
+| IBM Cloud Hyper Protect Virtual Servers |在全球托管|在全球托管| 
 |IBM Cognos Dashboard Embedded| 在达拉斯托管 |不可用| 
 |Information Server| 在达拉斯托管 |不可用| 
 |Informix| 在达拉斯托管 |不可用| 
@@ -189,9 +189,9 @@ subcollection: resources
 |Databases for PostgreSQL| 在伦敦托管 | 在法兰克福托管 | 
 |Databases for Redis| 在伦敦托管 | 在法兰克福托管 | 
 |Databases for etcd| 在伦敦托管 | 在法兰克福托管 | 
+|Db2| 在伦敦托管 | 在法兰克福托管 | 
 |Db2 Hosted| 在伦敦托管 | 在法兰克福托管 | 
 |Db2 Warehouse| 在伦敦托管 | 在法兰克福托管 | 
-|Db2 on Cloud| 在伦敦托管 | 在法兰克福托管 | 
 |Decision Optimization| 在伦敦托管 |不可用| 
 |DevOps Insights| 在伦敦托管 | 在法兰克福托管 | 
 |Digital Content Checker| 在伦敦托管 |不可用| 
@@ -202,11 +202,11 @@ subcollection: resources
 | Functions | 在伦敦托管 | 在法兰克福托管 | 
 |Geospatial Analytics| 在伦敦托管 |不可用| 
 |Globalization Pipeline| 在伦敦托管 | 在法兰克福托管 | 
-| HPC Cluster |在全球托管|在全球托管| 
 |Historical Instrument Analytics|不可用|不可用| 
 |Hyper Protect Crypto Services|不可用|不可用| 
 | Hyper Protect DBaaS for MongoDB |不可用|不可用| 
 | Hyper Protect DBaaS for PostgreSQL |不可用|不可用| 
+| IBM Cloud Hyper Protect Virtual Servers |在全球托管|在全球托管| 
 |IBM Cognos Dashboard Embedded| 在伦敦托管 |不可用| 
 |Information Server| 在伦敦托管 | 在法兰克福托管 | 
 |Informix| 从达拉斯联合 |不可用| 
@@ -308,9 +308,9 @@ subcollection: resources
 |Databases for PostgreSQL|在悉尼托管| 在东京托管 | 
 |Databases for Redis|在悉尼托管| 在东京托管 | 
 |Databases for etcd|在悉尼托管| 在东京托管 | 
+|Db2|在悉尼托管|不可用| 
 |Db2 Hosted|在悉尼托管|不可用| 
 |Db2 Warehouse|在悉尼托管|不可用| 
-|Db2 on Cloud|在悉尼托管|不可用| 
 |Decision Optimization|不可用|不可用| 
 |DevOps Insights|不可用|不可用| 
 |Digital Content Checker| 从伦敦联合 |不可用| 
@@ -321,11 +321,11 @@ subcollection: resources
 | Functions |不可用| 在东京托管 | 
 |Geospatial Analytics| 从伦敦联合 |不可用| 
 |Globalization Pipeline|在悉尼托管|不可用| 
-| HPC Cluster |在全球托管|在全球托管| 
 |Historical Instrument Analytics|不可用|不可用| 
 |Hyper Protect Crypto Services|在悉尼托管|不可用| 
 | Hyper Protect DBaaS for MongoDB |不可用|不可用| 
 | Hyper Protect DBaaS for PostgreSQL |不可用|不可用| 
+| IBM Cloud Hyper Protect Virtual Servers |在全球托管|在全球托管| 
 |IBM Cognos Dashboard Embedded|不可用|不可用| 
 |Information Server|在悉尼托管|不可用| 
 |Informix| 从达拉斯联合 |不可用| 

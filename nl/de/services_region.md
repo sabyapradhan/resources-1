@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-26"
+lastupdated: "2019-07-10"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -70,9 +70,9 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Databases for PostgreSQL | Gehostet in Dallas | Gehostet in Washington DC | 
 | Databases for Redis | Gehostet in Dallas | Gehostet in Washington DC | 
 | Databases for etcd | Gehostet in Dallas | Gehostet in Washington DC | 
+| Db2 | Gehostet in Dallas | Nicht verfügbar | 
 | Db2 Hosted | Gehostet in Dallas | Nicht verfügbar | 
 | Db2 Warehouse | Gehostet in Dallas | Nicht verfügbar | 
-| Db2 on Cloud | Gehostet in Dallas | Nicht verfügbar | 
 | Decision Optimization | Gehostet in Dallas | Nicht verfügbar | 
 | DevOps Insights | Gehostet in Dallas | Nicht verfügbar | 
 | Digital Content Checker | Gehostet in Dallas | Nicht verfügbar | 
@@ -83,11 +83,11 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Functions | Gehostet in Dallas | Gehostet in Washington DC | 
 | Geospatial Analytics | Gehostet in Dallas | Nicht verfügbar | 
 | Globalization Pipeline | Gehostet in Dallas | Nicht verfügbar | 
-| HPC Cluster | Global gehostet | Global gehostet | 
 | Historical Instrument Analytics | Gehostet in Dallas | Nicht verfügbar | 
 | Hyper Protect Crypto Services | Gehostet in Dallas | Nicht verfügbar | 
 | Hyper Protect DBaaS for MongoDB | Gehostet in Dallas | Nicht verfügbar | 
 | Hyper Protect DBaaS for PostgreSQL | Gehostet in Dallas | Nicht verfügbar | 
+| IBM Cloud Hyper Protect Virtual Servers | Global gehostet | Global gehostet | 
 | IBM Cognos Dashboard Embedded | Gehostet in Dallas | Nicht verfügbar | 
 | Information Server | Gehostet in Dallas | Nicht verfügbar | 
 | Informix | Gehostet in Dallas | Nicht verfügbar | 
@@ -189,9 +189,9 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Databases for PostgreSQL | Gehostet in London | Gehostet in Frankfurt | 
 | Databases for Redis | Gehostet in London | Gehostet in Frankfurt | 
 | Databases for etcd | Gehostet in London | Gehostet in Frankfurt | 
+| Db2 | Gehostet in London | Gehostet in Frankfurt | 
 | Db2 Hosted | Gehostet in London | Gehostet in Frankfurt | 
 | Db2 Warehouse | Gehostet in London | Gehostet in Frankfurt | 
-| Db2 on Cloud | Gehostet in London | Gehostet in Frankfurt | 
 | Decision Optimization | Gehostet in London | Nicht verfügbar | 
 | DevOps Insights | Gehostet in London | Gehostet in Frankfurt | 
 | Digital Content Checker | Gehostet in London | Nicht verfügbar | 
@@ -202,11 +202,11 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Functions | Gehostet in London | Gehostet in Frankfurt | 
 | Geospatial Analytics | Gehostet in London | Nicht verfügbar | 
 | Globalization Pipeline | Gehostet in London | Gehostet in Frankfurt | 
-| HPC Cluster | Global gehostet | Global gehostet | 
 | Historical Instrument Analytics | Nicht verfügbar | Nicht verfügbar | 
 | Hyper Protect Crypto Services | Nicht verfügbar | Nicht verfügbar | 
 | Hyper Protect DBaaS for MongoDB | Nicht verfügbar | Nicht verfügbar | 
 | Hyper Protect DBaaS for PostgreSQL | Nicht verfügbar | Nicht verfügbar | 
+| IBM Cloud Hyper Protect Virtual Servers | Global gehostet | Global gehostet | 
 | IBM Cognos Dashboard Embedded | Gehostet in London | Nicht verfügbar | 
 | Information Server | Gehostet in London | Gehostet in Frankfurt | 
 | Informix | Syndiziert aus Dallas | Nicht verfügbar | 
@@ -308,9 +308,9 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Databases for PostgreSQL | Gehostet in Sydney | Gehostet in Tokio | 
 | Databases for Redis | Gehostet in Sydney | Gehostet in Tokio | 
 | Databases for etcd | Gehostet in Sydney | Gehostet in Tokio | 
+| Db2 | Gehostet in Sydney | Nicht verfügbar | 
 | Db2 Hosted | Gehostet in Sydney | Nicht verfügbar | 
 | Db2 Warehouse | Gehostet in Sydney | Nicht verfügbar | 
-| Db2 on Cloud | Gehostet in Sydney | Nicht verfügbar | 
 | Decision Optimization | Nicht verfügbar | Nicht verfügbar | 
 | DevOps Insights | Nicht verfügbar | Nicht verfügbar | 
 | Digital Content Checker | Syndiziert aus London | Nicht verfügbar | 
@@ -321,11 +321,11 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Functions | Nicht verfügbar | Gehostet in Tokio | 
 | Geospatial Analytics | Syndiziert aus London | Nicht verfügbar | 
 | Globalization Pipeline | Gehostet in Sydney | Nicht verfügbar | 
-| HPC Cluster | Global gehostet | Global gehostet | 
 | Historical Instrument Analytics | Nicht verfügbar | Nicht verfügbar | 
 | Hyper Protect Crypto Services | Gehostet in Sydney | Nicht verfügbar | 
 | Hyper Protect DBaaS for MongoDB | Nicht verfügbar | Nicht verfügbar | 
 | Hyper Protect DBaaS for PostgreSQL | Nicht verfügbar | Nicht verfügbar | 
+| IBM Cloud Hyper Protect Virtual Servers | Global gehostet | Global gehostet | 
 | IBM Cognos Dashboard Embedded | Nicht verfügbar | Nicht verfügbar | 
 | Information Server | Gehostet in Sydney | Nicht verfügbar | 
 | Informix | Syndiziert aus Dallas | Nicht verfügbar | 

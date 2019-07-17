@@ -30,7 +30,13 @@
         service_in_other_regions.md
         s2s.md
         using-services.md
-    {: .navgroup-end}
+
+    {: .topicgroup}
+    通过专用网络连接到服务
+        /direct-link/direct-link-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud
+        service-endpoints.md
+        private-network-endpoints.md
+    {: .navgroup-end}  
 
     {: .navgroup id="reference"}
     tagging_sample_syntax.md
@@ -40,9 +46,9 @@
         /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_resource
         /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_services
         /cli/reference/ibmcloud/cloud-cli-ibmcloud_catalog
-        
+
     {: .topicgroup}
-    API 参考  
+    API 参考
         [IBM Cloud 资源管理器 API](https://{DomainName}/apidocs/resource-manager){: new_window}
         [IBM Cloud 资源控制器 API](https://{DomainName}/apidocs/resource-controller){: new_window}
         [全局搜索和标记 - 标记 API](https://{DomainName}/apidocs/tagging){: new_window}

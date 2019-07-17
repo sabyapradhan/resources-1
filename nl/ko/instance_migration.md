@@ -46,7 +46,7 @@ Cloud Foundry 영역에서 리소스를 구성한 방법과 동일한 방법으�
 * Cloud Foundry 조직별로 사용량을 보는 방법과 유사하게 리소스 그룹별로 사용량을 볼 수 있습니다.
 * 모든 Cloud Foundry 영역의 앱과 서비스에 연결할 수 있으며 이를 통해 서로 다른 지역의 앱과 서비스를 연결할 수 있습니다. 마이그레이션하는 경우 원래 Cloud Foundry 서비스 인스턴스를 별명으로 변경하고 연결된 인스턴스를 선택한 리소스 그룹에 작성하면 연결이 자동으로 설정됩니다. 다음은 별명을 사용하여 연결하는 방법을 보여주는 그래픽입니다.
 
-![별명을 작성하기 위해 서비스 인스턴스를 Cloud Foundry 영역에 바인딩](images/alias.svg "별명을 작성하기 위해 서비스 인스턴스를 Cloud Foundry 영역에 바인딩")
+![별명을 작성하기 위해 서비스 인스턴스를 Cloud Foundry 영역에 바인딩](images/alias.svg "별명을 작성하기 위해 서비스 인스턴스를 Cloud Foundry 영역에 바인딩"){: caption="Figure 1. Binding a service instance to a Cloud Foundry space to create an alias" caption-side="bottom"}
 
 ### {{site.data.keyword.dev_console}}apps
 

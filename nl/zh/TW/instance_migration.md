@@ -46,7 +46,7 @@ subcollection: resources
 * 您可以依資源群組來檢視用量，方法類似於依 Cloud Foundry 組織來檢視用量。
 * 您可以連接至任何 Cloud Foundry 空間中的應用程式和服務，這樣可容許從不同地區連接應用程式和服務。當您移轉時，會在您將原始 Cloud Foundry 服務實例轉換為別名，並在您選擇的資源群組中建立鏈結實例時，自動建立連線。下圖顯示使用別名的連線如何運作。
 
-![將服務實例連結至 Cloud Foundry 空間以建立別名](images/alias.svg "將服務實例連結至 Cloud Foundry 空間以建立別名")
+![將服務實例連結至 Cloud Foundry 空間以建立別名](images/alias.svg "將服務實例連結至 Cloud Foundry 空間以建立別名"){: caption="圖 1. 將服務實例連結至 Cloud Foundry 空間以建立別名" caption-side="bottom"}
 
 ### {{site.data.keyword.dev_console}} 應用程式 
 {: #app_services}

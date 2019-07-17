@@ -30,7 +30,13 @@
         service_in_other_regions.md
         s2s.md
         using-services.md
-    {: .navgroup-end}
+
+    {: .topicgroup}
+    サービスへのプライベート・ネットワークを介した接続
+        /direct-link/direct-link-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud
+        service-endpoints.md
+        private-network-endpoints.md
+    {: .navgroup-end}  
 
     {: .navgroup id="reference"}
     tagging_sample_syntax.md
@@ -40,13 +46,13 @@
         /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_resource
         /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_services
         /cli/reference/ibmcloud/cloud-cli-ibmcloud_catalog
-        
+
     {: .topicgroup}
-    API リファレンス  
-        [IBM Cloud リソース・マネージャー API](https://{DomainName}/apidocs/resource-manager){: new_window}
-        [IBM Cloud リソース・コントローラー API](https://{DomainName}/apidocs/resource-controller){: new_window}
-        [グローバル検索およびタグ付け - タグ付け API](https://{DomainName}/apidocs/tagging){: new_window}
-        [グローバル検索およびタグ付け - 検索 API](https://{DomainName}/apidocs/search){: new_window}
+    API リファレンス
+        [IBM Cloud Resource Manager API](https://{DomainName}/apidocs/resource-manager){: new_window}
+        [IBM Cloud Resource Controller API](https://{DomainName}/apidocs/resource-controller){: new_window}
+        [Global Search and Tagging - Tagging API](https://{DomainName}/apidocs/tagging){: new_window}
+        [Global Search and Tagging - Search API](https://{DomainName}/apidocs/search){: new_window}
     {: .navgroup-end}
 
     {: .navgroup id="help"}

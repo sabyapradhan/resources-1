@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-06-26"
+lastupdated: "2019-07-10"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -70,9 +70,9 @@ subcollection: resources
 |Databases for PostgreSQL | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Databases for Redis | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 | Databases for etcd | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
+|Db2 | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Db2 Hosted | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Db2 Warehouse | 댈러스에서 호스팅됨 |사용할 수 없음 | 
-| Db2 on Cloud | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Decision Optimization | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |DevOps Insights | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Digital Content Checker | 댈러스에서 호스팅됨 |사용할 수 없음 | 
@@ -83,11 +83,11 @@ subcollection: resources
 |Functions | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Geospatial Analytics | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Globalization Pipeline | 댈러스에서 호스팅됨 |사용할 수 없음 | 
-| HPC Cluster |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |Historical Instrument Analytics | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Hyper Protect Crypto Services | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 | Hyper Protect DBaaS for MongoDB | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 | Hyper Protect DBaaS for PostgreSQL | 댈러스에서 호스팅됨 |사용할 수 없음 | 
+| IBM Cloud Hyper Protect Virtual Servers |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |IBM Cognos Dashboard Embedded | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Information Server | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Informix | 댈러스에서 호스팅됨 |사용할 수 없음 | 
@@ -189,9 +189,9 @@ subcollection: resources
 |Databases for PostgreSQL | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Databases for Redis | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 | Databases for etcd | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
+|Db2 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Db2 Hosted | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Db2 Warehouse | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
-| Db2 on Cloud | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Decision Optimization | 런던에서 호스팅됨 |사용할 수 없음 | 
 |DevOps Insights | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Digital Content Checker | 런던에서 호스팅됨 |사용할 수 없음 | 
@@ -202,11 +202,11 @@ subcollection: resources
 |Functions | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Geospatial Analytics | 런던에서 호스팅됨 |사용할 수 없음 | 
 |Globalization Pipeline | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
-| HPC Cluster |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |Historical Instrument Analytics |사용할 수 없음 |사용할 수 없음 | 
 |Hyper Protect Crypto Services |사용할 수 없음 |사용할 수 없음 | 
 | Hyper Protect DBaaS for MongoDB |사용할 수 없음 |사용할 수 없음 | 
 | Hyper Protect DBaaS for PostgreSQL |사용할 수 없음 |사용할 수 없음 | 
+| IBM Cloud Hyper Protect Virtual Servers |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |IBM Cognos Dashboard Embedded | 런던에서 호스팅됨 |사용할 수 없음 | 
 |Information Server | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Informix | 댈러스에서 신디케이트됨 |사용할 수 없음 | 
@@ -308,9 +308,9 @@ subcollection: resources
 |Databases for PostgreSQL |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Databases for Redis |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 | Databases for etcd |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
+|Db2 |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Db2 Hosted |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Db2 Warehouse |시드니에서 호스팅됨 |사용할 수 없음 | 
-| Db2 on Cloud |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Decision Optimization |사용할 수 없음 |사용할 수 없음 | 
 |DevOps Insights |사용할 수 없음 |사용할 수 없음 | 
 |Digital Content Checker | 런던에서 신디케이트됨 |사용할 수 없음 | 
@@ -321,11 +321,11 @@ subcollection: resources
 |Functions |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 |Geospatial Analytics | 런던에서 신디케이트됨 |사용할 수 없음 | 
 |Globalization Pipeline |시드니에서 호스팅됨 |사용할 수 없음 | 
-| HPC Cluster |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |Historical Instrument Analytics |사용할 수 없음 |사용할 수 없음 | 
 |Hyper Protect Crypto Services |시드니에서 호스팅됨 |사용할 수 없음 | 
 | Hyper Protect DBaaS for MongoDB |사용할 수 없음 |사용할 수 없음 | 
 | Hyper Protect DBaaS for PostgreSQL |사용할 수 없음 |사용할 수 없음 | 
+| IBM Cloud Hyper Protect Virtual Servers |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |IBM Cognos Dashboard Embedded |사용할 수 없음 |사용할 수 없음 | 
 |Information Server |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Informix | 댈러스에서 신디케이트됨 |사용할 수 없음 | 
