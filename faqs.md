@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-05-23"
+lastupdated: "2019-07-17"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -91,3 +91,9 @@ Yes, you can. To open the Usage Dashboard page, click **Manage** &gt; **Billing 
 {: faq}
 
 Any user assigned the correct access for the specific type of resource can add tags. When a resource is tagged, it is visible to all users who have read access to the resource. However, to add or remove a tag from a resource, certain access roles or permissions are required depending on the resource type. For example, for any resources that are managed by using IAM, you must be assigned the Editor or Administrator role on the resource. For more information about the required access for other resources types, see [Tagging permissions](/docs/resources?topic=resources-access#tagging-permissions).
+
+## Where can I find my SoftLayer resources in the {{site.data.keyword.Bluemix_notm}} console?
+{: #slitems}
+{: faq}
+
+The formerly named SoftLayer is now called {{site.data.keyword.Bluemix_notm}} classic infrastructure. To view your devices, storage, network, security, and services, click the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) > **Classic Infrastructure**. For more information, see [Transitioning to the {{site.data.keyword.Bluemix_notm}} experience](/docs/overview?topic=overview-ui#redirect-cloud).
