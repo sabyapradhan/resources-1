@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-17"
+lastupdated: "2019-07-18"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -99,7 +99,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Key Protect | Hosted in Dallas | Hosted in Washington DC | 
 | Knowledge Catalog | Hosted in Dallas | Not available | 
 | Knowledge Studio | Hosted in Dallas | Hosted in Washington DC | 
-| Kubernetes Service | Hosted in Dallas | Hosted in Washington DC | 
+| Kubernetes cluster | Hosted in Dallas | Hosted in Washington DC | 
 | Language Translator | Hosted in Dallas | Hosted in Washington DC | 
 | Lift CLI | Hosted in Dallas | Not available | 
 | Load Balancer for VPC | Hosted in Dallas | Hosted in Washington DC | 
@@ -220,7 +220,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Key Protect | Hosted in London | Hosted in Frankfurt | 
 | Knowledge Catalog | Hosted in London | Hosted in Frankfurt | 
 | Knowledge Studio | Hosted in London | Hosted in Frankfurt | 
-| Kubernetes Service | Hosted in London | Hosted in Frankfurt | 
+| Kubernetes cluster | Hosted in London | Hosted in Frankfurt | 
 | Language Translator | Hosted in London | Hosted in Frankfurt | 
 | Lift CLI | Not available | Not available | 
 | Load Balancer for VPC | Hosted in London | Hosted in Frankfurt | 
@@ -341,7 +341,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Key Protect | Hosted in Sydney | Hosted in Tokyo | 
 | Knowledge Catalog | Not available | Hosted in Tokyo | 
 | Knowledge Studio | Hosted in Sydney | Hosted in Tokyo | 
-| Kubernetes Service | Hosted in Sydney | Hosted in Tokyo | 
+| Kubernetes cluster | Hosted in Sydney | Hosted in Tokyo | 
 | Language Translator | Hosted in Sydney | Hosted in Tokyo | 
 | Lift CLI | Not available | Not available | 
 | Load Balancer for VPC | Hosted in Sydney | Hosted in Tokyo | 
