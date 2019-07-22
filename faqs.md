@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2019
 
-lastupdated: "2019-07-17"
+lastupdated: "2019-07-22"
 
 keywords: resource FAQs, resource frequently asked questions
 
@@ -87,7 +87,7 @@ You can delete a service instance by using the following steps:
 Yes, you can. To open the Usage Dashboard page, click **Manage** &gt; **Billing and usage**. Select **Usage** to view a summary of the usage by resource group for the account. 
 
 ## Who can add tags to a resource?
-{: #tag-fag}
+{: #tag-faq}
 {: faq}
 
 Any user assigned the correct access for the specific type of resource can add tags. When a resource is tagged, it is visible to all users who have read access to the resource. However, to add or remove a tag from a resource, certain access roles or permissions are required depending on the resource type. For example, for any resources that are managed by using IAM, you must be assigned the Editor or Administrator role on the resource. For more information about the required access for other resources types, see [Tagging permissions](/docs/resources?topic=resources-access#tagging-permissions).
@@ -96,4 +96,10 @@ Any user assigned the correct access for the specific type of resource can add t
 {: #slitems}
 {: faq}
 
-The formerly named SoftLayer is now called {{site.data.keyword.Bluemix_notm}} classic infrastructure. To view your devices, storage, network, security, and services, click the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) > **Classic Infrastructure**. For more information, see [Transitioning to the {{site.data.keyword.Bluemix_notm}} experience](/docs/overview?topic=overview-ui#redirect-cloud).
+The formerly named SoftLayer is now called {{site.data.keyword.Bluemix_notm}} classic infrastructure. To view your devices, storage, network, security, and services, you can use any of the following options:
+
+* Click the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) > **Classic Infrastructure**.
+* Click the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) > **Resource List**. 
+* Click any of the links that are listed in the Classic infrastructure widget on your dashboard. Go to **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) > **Dashboard**.
+
+For more information, see [Transitioning to the {{site.data.keyword.Bluemix_notm}} experience](/docs/overview?topic=overview-ui#redirect-cloud).
