@@ -47,12 +47,12 @@ The following services provide service keys for you to use externally:
 * {{site.data.keyword.alertnotificationshort}} <!--Alert Notification-->
 * {{site.data.keyword.sparks}} <!--Analytics for Apache Spark-->
 * {{site.data.keyword.blockchain}} <!--Blockchain-->
-* {{site.data.keyword.cloudant}} <!--Cloudant&reg; NoSQL DB-->
 * {{site.data.keyword.discoveryshort}} <!--Discovery-->
 * {{site.data.keyword.messagehub}} <!--Event Streams-->
 * {{site.data.keyword.geospatialshort_Geospatial}} <!--Geospatial Analytics-->
 * {{site.data.keyword.GlobalizationPipeline_short}} <!--Globalization Pipeline-->
 * {{site.data.keyword.appconserviceshort}} <!--IBM&reg; App Connect-->
+* {{site.data.keyword.cloudant}} <!--Cloudant&reg; NoSQL DB-->
 * {{site.data.keyword.languagetranslatorshort}} <!--Language Translator-->
 * {{site.data.keyword.dwl_short}} <!--Lift-->
 * {{site.data.keyword.nlclassifiershort}} <!--Natural Language Classifier-->
