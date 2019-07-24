@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-23"
+lastupdated: "2019-07-24"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -90,6 +90,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect DBaaS for PostgreSQL | Hosted in Dallas | Not available | 
 | IBM Cloud Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
 | IBM Cognos Dashboard Embedded | Hosted in Dallas | Not available | 
+| Image Service for VPC | Not available | Not available | 
 | Information Server | Hosted in Dallas | Not available | 
 | Informix | Hosted in Dallas | Not available | 
 | Instrument Analytics | Hosted in Dallas | Not available | 
@@ -211,6 +212,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect DBaaS for PostgreSQL | Not available | Not available | 
 | IBM Cloud Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
 | IBM Cognos Dashboard Embedded | Hosted in London | Not available | 
+| Image Service for VPC | Hosted in London | Not available | 
 | Information Server | Hosted in London | Hosted in Frankfurt | 
 | Informix | Syndicated from Dallas | Not available | 
 | Instrument Analytics | Not available | Not available | 
@@ -332,6 +334,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect DBaaS for PostgreSQL | Not available | Not available | 
 | IBM Cloud Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
 | IBM Cognos Dashboard Embedded | Not available | Not available | 
+| Image Service for VPC | Not available | Not available | 
 | Information Server | Hosted in Sydney | Not available | 
 | Informix | Syndicated from Dallas | Not available | 
 | Instrument Analytics | Not available | Not available | 
