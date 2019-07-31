@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-30"
+lastupdated: "2019-07-31"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -66,11 +66,11 @@ Services that are hosted globally create resources that operate across multiple 
 | Continuous Delivery | Hosted in Dallas | Hosted in Washington DC | 
 | Cost and Asset Management | Hosted in Dallas | Not available | 
 | Data Store for Memcache | Hosted in Dallas | Not available | 
-| Databases for Elasticsearch | Hosted in Dallas | Hosted in Washington DC | 
-| Databases for MongoDB | Hosted in Dallas | Hosted in Washington DC | 
-| Databases for PostgreSQL | Hosted in Dallas | Hosted in Washington DC | 
-| Databases for Redis | Hosted in Dallas | Hosted in Washington DC | 
-| Databases for etcd | Hosted in Dallas | Hosted in Washington DC | 
+| Databases for Elasticsearch | Not available | Not available | 
+| Databases for MongoDB | Not available | Not available | 
+| Databases for PostgreSQL | Not available | Not available | 
+| Databases for Redis | Not available | Not available | 
+| Databases for etcd | Not available | Not available | 
 | Db2 | Hosted in Dallas | Not available | 
 | Db2 Hosted | Hosted in Dallas | Not available | 
 | Db2 Warehouse | Hosted in Dallas | Not available | 
@@ -108,7 +108,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Machine Learning | Hosted in Dallas | Not available | 
 | Managed Financial Data API | Hosted in Dallas | Hosted in Washington DC | 
 | Master Data Management | Hosted in Dallas | Not available | 
-| Messages for RabbitMQ | Hosted in Dallas | Hosted in Washington DC | 
+| Messages for RabbitMQ | Not available | Not available | 
 | Mobile Foundation | Hosted in Dallas | Hosted in Washington DC | 
 | Monitoring | Hosted in Dallas | Not available | 
 | Natural Language Classifier | Hosted in Dallas | Hosted in Washington DC | 
@@ -188,11 +188,11 @@ Services that are hosted globally create resources that operate across multiple 
 | Continuous Delivery | Hosted in London | Hosted in Frankfurt | 
 | Cost and Asset Management | Not available | Not available | 
 | Data Store for Memcache | Not available | Not available | 
-| Databases for Elasticsearch | Hosted in London | Hosted in Frankfurt | 
-| Databases for MongoDB | Hosted in London | Hosted in Frankfurt | 
-| Databases for PostgreSQL | Hosted in London | Hosted in Frankfurt | 
-| Databases for Redis | Hosted in London | Hosted in Frankfurt | 
-| Databases for etcd | Hosted in London | Hosted in Frankfurt | 
+| Databases for Elasticsearch | Not available | Not available | 
+| Databases for MongoDB | Not available | Not available | 
+| Databases for PostgreSQL | Not available | Not available | 
+| Databases for Redis | Not available | Not available | 
+| Databases for etcd | Not available | Not available | 
 | Db2 | Hosted in London | Hosted in Frankfurt | 
 | Db2 Hosted | Hosted in London | Hosted in Frankfurt | 
 | Db2 Warehouse | Hosted in London | Hosted in Frankfurt | 
@@ -230,7 +230,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Machine Learning | Hosted in London | Hosted in Frankfurt | 
 | Managed Financial Data API | Not available | Not available | 
 | Master Data Management | Hosted in London | Hosted in Frankfurt | 
-| Messages for RabbitMQ | Hosted in London | Hosted in Frankfurt | 
+| Messages for RabbitMQ | Not available | Not available | 
 | Mobile Foundation | Hosted in London | Hosted in Frankfurt | 
 | Monitoring | Hosted in London | Syndicated from Dallas | 
 | Natural Language Classifier | Not available | Hosted in Frankfurt | 
@@ -310,11 +310,11 @@ Services that are hosted globally create resources that operate across multiple 
 | Continuous Delivery | Not available | Hosted in Tokyo | 
 | Cost and Asset Management | Not available | Not available | 
 | Data Store for Memcache | Not available | Not available | 
-| Databases for Elasticsearch | Hosted in Sydney | Hosted in Tokyo | 
-| Databases for MongoDB | Hosted in Sydney | Hosted in Tokyo | 
-| Databases for PostgreSQL | Hosted in Sydney | Hosted in Tokyo | 
-| Databases for Redis | Hosted in Sydney | Hosted in Tokyo | 
-| Databases for etcd | Hosted in Sydney | Hosted in Tokyo | 
+| Databases for Elasticsearch | Hosted in Sydney | Not available | 
+| Databases for MongoDB | Hosted in Sydney | Not available | 
+| Databases for PostgreSQL | Hosted in Sydney | Not available | 
+| Databases for Redis | Hosted in Sydney | Not available | 
+| Databases for etcd | Hosted in Sydney | Not available | 
 | Db2 | Hosted in Sydney | Not available | 
 | Db2 Hosted | Hosted in Sydney | Not available | 
 | Db2 Warehouse | Hosted in Sydney | Not available | 
@@ -352,7 +352,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Machine Learning | Not available | Hosted in Tokyo | 
 | Managed Financial Data API | Not available | Not available | 
 | Master Data Management | Hosted in Sydney | Not available | 
-| Messages for RabbitMQ | Hosted in Sydney | Hosted in Tokyo | 
+| Messages for RabbitMQ | Hosted in Sydney | Not available | 
 | Mobile Foundation | Hosted in Sydney | Not available | 
 | Monitoring | Hosted in Sydney | Not available | 
 | Natural Language Classifier | Not available | Hosted in Tokyo | 
