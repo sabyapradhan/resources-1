@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-07-08"
 
 keywords: service endpoint, private network endpoint, connect service to private network
 
@@ -18,7 +18,7 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# Service endpoints for private network connections
+# Securing access to services using service endpoints
 {: #service-endpoints}
 
 An increased focus on security is required by customers that use cloud-based services for production workloads. For many customers, accessing services in a secure manner is not only a sensible corporate policy, but in some cases required by compliance regulations. {{site.data.keyword.IBM_notm}} has enhanced the connectivity options for customers who require isolated connectivity options for their workloads. 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-05"
 
 keywords: set up private endpoints, private endpoint, connect service over private network, 
 
@@ -18,7 +18,7 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# Setting up private network endpoints
+# Setting up service endpoints
 {: #private-network-endpoints}
 
 To connect to {{site.data.keyword.cloud}} services over a private network, you must have access to classic infrastructure and enable virtual routing and forwarding (VRF) and connectivity to service endpoints for your account. Then, you can start creating services that support service endpoints for a private network connection.
@@ -28,14 +28,14 @@ Complete the following steps to ensure that your account is set up to create and
 
 1. Check that you have access to {{site.data.keyword.cloud_notm}} infrastructure in your account. Go to the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Classic Infrastructure** to verify that you have access.
 2. Enable your account for VRF. For more information, see [Enabling virtual routing and forwarding](/docs/account?topic=account-vrf-service-endpoint#vrf).
-3. Enable your account for connectivity to service endpoints. For more information, see [Enabling service endpoints](/docs/account?topic=account-vrf-service-endpoint#vrf).
+3. Enable your account for connectivity to service endpoints. For more information, see [Enabling service endpoints](/docs/account?topic=account-vrf-service-endpoint#service-endpoint).
 
-After you enable the VRF and service endpoint account settings, you can create resources from the catalog that support private network endpoints. The following table lists the services that support using private network endpoints. 
+After you enable the VRF and service endpoint account settings, you can create resources from the catalog that support service endpoints. The following table lists the services that support using service endpoints. 
 
 Refer to the documentation for the specific service for more information about using service endpoints.
 {: tip}
 
-## Services that support private network endpoints
+## Services that support service endpoints
 {: #services-support-service-endpoints}
 
 | Service | Documentation |
