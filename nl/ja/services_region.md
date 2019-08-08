@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-07-30"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -63,6 +63,7 @@ subcollection: resources
 | Compose for ScyllaDB | ダラスでホスト | ワシントン DC でホスト | 
 | Compose for etcd | ダラスでホスト | ワシントン DC でホスト | 
 | Consult with IBM Cloud Garage | 　グローバルにホスト | 　グローバルにホスト | 
+| Container Registry | 　グローバルにホスト | 　グローバルにホスト | 
 | Continuous Delivery | ダラスでホスト | ワシントン DC でホスト | 
 | Cost and Asset Management | ダラスでホスト | 使用不可 | 
 | Data Store for Memcache | ダラスでホスト | 使用不可 | 
@@ -90,6 +91,7 @@ subcollection: resources
 | Hyper Protect DBaaS for PostgreSQL | ダラスでホスト | 使用不可 | 
 | IBM Cloud Hyper Protect Virtual Servers | 　グローバルにホスト | 　グローバルにホスト | 
 | IBM Cognos Dashboard Embedded | ダラスでホスト | 使用不可 | 
+| Image Service for VPC | ダラスでホスト | 使用不可 | 
 | Information Server | ダラスでホスト | 使用不可 | 
 | Informix | ダラスでホスト | 使用不可 | 
 | Instrument Analytics | ダラスでホスト | 使用不可 | 
@@ -99,6 +101,7 @@ subcollection: resources
 | Key Protect | ダラスでホスト | ワシントン DC でホスト | 
 | Knowledge Catalog | ダラスでホスト | 使用不可 | 
 | Knowledge Studio | ダラスでホスト | ワシントン DC でホスト | 
+| Kubernetes クラスター | ダラスでホスト | ワシントン DC でホスト | 
 | Language Translator | ダラスでホスト | ワシントン DC でホスト | 
 | Lift CLI | ダラスでホスト | 使用不可 | 
 | Load Balancer for VPC | ダラスでホスト | ワシントン DC でホスト | 
@@ -182,6 +185,7 @@ subcollection: resources
 | Compose for ScyllaDB | ロンドンでホスト | フランクフルトでホスト | 
 | Compose for etcd | ロンドンでホスト | フランクフルトでホスト | 
 | Consult with IBM Cloud Garage | 　グローバルにホスト | 　グローバルにホスト | 
+| Container Registry | 　グローバルにホスト | 　グローバルにホスト | 
 | Continuous Delivery | ロンドンでホスト | フランクフルトでホスト | 
 | Cost and Asset Management | 使用不可 | 使用不可 | 
 | Data Store for Memcache | 使用不可 | 使用不可 | 
@@ -209,6 +213,7 @@ subcollection: resources
 | Hyper Protect DBaaS for PostgreSQL | 使用不可 | 使用不可 | 
 | IBM Cloud Hyper Protect Virtual Servers | 　グローバルにホスト | 　グローバルにホスト | 
 | IBM Cognos Dashboard Embedded | ロンドンでホスト | 使用不可 | 
+| Image Service for VPC | ロンドンでホスト | フランクフルトでホスト | 
 | Information Server | ロンドンでホスト | フランクフルトでホスト | 
 | Informix | ダラスからシンジケート | 使用不可 | 
 | Instrument Analytics | 使用不可 | 使用不可 | 
@@ -218,6 +223,7 @@ subcollection: resources
 | Key Protect | ロンドンでホスト | フランクフルトでホスト | 
 | Knowledge Catalog | ロンドンでホスト | フランクフルトでホスト | 
 | Knowledge Studio | ロンドンでホスト | フランクフルトでホスト | 
+| Kubernetes クラスター | ロンドンでホスト | フランクフルトでホスト | 
 | Language Translator | ロンドンでホスト | フランクフルトでホスト | 
 | Lift CLI | 使用不可 | 使用不可 | 
 | Load Balancer for VPC | ロンドンでホスト | フランクフルトでホスト | 
@@ -301,6 +307,7 @@ subcollection: resources
 | Compose for ScyllaDB | シドニーでホスト | 使用不可 | 
 | Compose for etcd | シドニーでホスト | 使用不可 | 
 | Consult with IBM Cloud Garage | 　グローバルにホスト | 　グローバルにホスト | 
+| Container Registry | 　グローバルにホスト | 　グローバルにホスト | 
 | Continuous Delivery | 使用不可 | 東京でホスト | 
 | Cost and Asset Management | 使用不可 | 使用不可 | 
 | Data Store for Memcache | 使用不可 | 使用不可 | 
@@ -328,6 +335,7 @@ subcollection: resources
 | Hyper Protect DBaaS for PostgreSQL | 使用不可 | 使用不可 | 
 | IBM Cloud Hyper Protect Virtual Servers | 　グローバルにホスト | 　グローバルにホスト | 
 | IBM Cognos Dashboard Embedded | 使用不可 | 使用不可 | 
+| Image Service for VPC | シドニーでホスト | 東京でホスト | 
 | Information Server | シドニーでホスト | 使用不可 | 
 | Informix | ダラスからシンジケート | 使用不可 | 
 | Instrument Analytics | 使用不可 | 使用不可 | 
@@ -337,6 +345,7 @@ subcollection: resources
 | Key Protect | シドニーでホスト | 東京でホスト | 
 | Knowledge Catalog | 使用不可 | 東京でホスト | 
 | Knowledge Studio | シドニーでホスト | 東京でホスト | 
+| Kubernetes クラスター | シドニーでホスト | 東京でホスト | 
 | Language Translator | シドニーでホスト | 東京でホスト | 
 | Lift CLI | 使用不可 | 使用不可 | 
 | Load Balancer for VPC | シドニーでホスト | 東京でホスト | 

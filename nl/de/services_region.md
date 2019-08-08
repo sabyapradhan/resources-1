@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-07-30"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -62,6 +62,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Compose for ScyllaDB | Gehostet in Dallas | Gehostet in Washington DC | 
 | Compose for etcd | Gehostet in Dallas | Gehostet in Washington DC | 
 | Beratung durch IBM Cloud Garage | Global gehostet | Global gehostet | 
+| Container Registry | Global gehostet | Global gehostet | 
 | Continuous Delivery | Gehostet in Dallas | Gehostet in Washington DC | 
 | Cost and Asset Management | Gehostet in Dallas | Nicht verfügbar | 
 | Data Store for Memcache | Gehostet in Dallas | Nicht verfügbar | 
@@ -89,6 +90,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Hyper Protect DBaaS for PostgreSQL | Gehostet in Dallas | Nicht verfügbar | 
 | IBM Cloud Hyper Protect Virtual Servers | Global gehostet | Global gehostet | 
 | IBM Cognos Dashboard Embedded | Gehostet in Dallas | Nicht verfügbar | 
+| Image Service for VPC | Gehostet in Dallas | Nicht verfügbar | 
 | Information Server | Gehostet in Dallas | Nicht verfügbar | 
 | Informix | Gehostet in Dallas | Nicht verfügbar | 
 | Instrument Analytics | Gehostet in Dallas | Nicht verfügbar | 
@@ -98,6 +100,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Key Protect | Gehostet in Dallas | Gehostet in Washington DC | 
 | Knowledge Catalog | Gehostet in Dallas | Nicht verfügbar | 
 | Knowledge Studio | Gehostet in Dallas | Gehostet in Washington DC | 
+| Kubernetes Cluster | Gehostet in Dallas | Gehostet in Washington DC | 
 | Language Translator | Gehostet in Dallas | Gehostet in Washington DC | 
 | Lift CLI | Gehostet in Dallas | Nicht verfügbar | 
 | Load Balancer for VPC | Gehostet in Dallas | Gehostet in Washington DC | 
@@ -181,6 +184,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Compose for ScyllaDB | Gehostet in London | Gehostet in Frankfurt | 
 | Compose for etcd | Gehostet in London | Gehostet in Frankfurt | 
 | Beratung durch IBM Cloud Garage | Global gehostet | Global gehostet | 
+| Container Registry | Global gehostet | Global gehostet | 
 | Continuous Delivery | Gehostet in London | Gehostet in Frankfurt | 
 | Cost and Asset Management | Nicht verfügbar | Nicht verfügbar | 
 | Data Store for Memcache | Nicht verfügbar | Nicht verfügbar | 
@@ -208,6 +212,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Hyper Protect DBaaS for PostgreSQL | Nicht verfügbar | Nicht verfügbar | 
 | IBM Cloud Hyper Protect Virtual Servers | Global gehostet | Global gehostet | 
 | IBM Cognos Dashboard Embedded | Gehostet in London | Nicht verfügbar | 
+| Image Service for VPC | Gehostet in London | Gehostet in Frankfurt | 
 | Information Server | Gehostet in London | Gehostet in Frankfurt | 
 | Informix | Syndiziert aus Dallas | Nicht verfügbar | 
 | Instrument Analytics | Nicht verfügbar | Nicht verfügbar | 
@@ -217,6 +222,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Key Protect | Gehostet in London | Gehostet in Frankfurt | 
 | Knowledge Catalog | Gehostet in London | Gehostet in Frankfurt | 
 | Knowledge Studio | Gehostet in London | Gehostet in Frankfurt | 
+| Kubernetes Cluster | Gehostet in London | Gehostet in Frankfurt | 
 | Language Translator | Gehostet in London | Gehostet in Frankfurt | 
 | Lift CLI | Nicht verfügbar | Nicht verfügbar | 
 | Load Balancer for VPC | Gehostet in London | Gehostet in Frankfurt | 
@@ -300,6 +306,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Compose for ScyllaDB | Gehostet in Sydney | Nicht verfügbar | 
 | Compose for etcd | Gehostet in Sydney | Nicht verfügbar | 
 | Beratung durch IBM Cloud Garage | Global gehostet | Global gehostet | 
+| Container Registry | Global gehostet | Global gehostet | 
 | Continuous Delivery | Nicht verfügbar | Gehostet in Tokio | 
 | Cost and Asset Management | Nicht verfügbar | Nicht verfügbar | 
 | Data Store for Memcache | Nicht verfügbar | Nicht verfügbar | 
@@ -327,6 +334,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Hyper Protect DBaaS for PostgreSQL | Nicht verfügbar | Nicht verfügbar | 
 | IBM Cloud Hyper Protect Virtual Servers | Global gehostet | Global gehostet | 
 | IBM Cognos Dashboard Embedded | Nicht verfügbar | Nicht verfügbar | 
+| Image Service for VPC | Gehostet in Sydney | Gehostet in Tokio | 
 | Information Server | Gehostet in Sydney | Nicht verfügbar | 
 | Informix | Syndiziert aus Dallas | Nicht verfügbar | 
 | Instrument Analytics | Nicht verfügbar | Nicht verfügbar | 
@@ -336,6 +344,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Key Protect | Gehostet in Sydney | Gehostet in Tokio | 
 | Knowledge Catalog | Nicht verfügbar | Gehostet in Tokio | 
 | Knowledge Studio | Gehostet in Sydney | Gehostet in Tokio | 
+| Kubernetes Cluster | Gehostet in Sydney | Gehostet in Tokio | 
 | Language Translator | Gehostet in Sydney | Gehostet in Tokio | 
 | Lift CLI | Nicht verfügbar | Nicht verfügbar | 
 | Load Balancer for VPC | Gehostet in Sydney | Gehostet in Tokio | 

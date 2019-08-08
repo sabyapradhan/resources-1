@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-07-30"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -62,6 +62,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Compose for ScyllaDB | Alojado en Dallas | Alojado en Washington DC | 
 | Compose for etcd | Alojado en Dallas | Alojado en Washington DC | 
 | Consult with IBM Cloud Garage | Alojado globalmente | Alojado globalmente | 
+| Container Registry | Alojado globalmente | Alojado globalmente | 
 | Continuous Delivery | Alojado en Dallas | Alojado en Washington DC | 
 | Cost and Asset Management | Alojado en Dallas | No disponible | 
 | Data Store for Memcache | Alojado en Dallas | No disponible | 
@@ -89,6 +90,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Hyper Protect DBaaS for PostgreSQL | Alojado en Dallas | No disponible | 
 | Servidores virtuales de IBM Cloud Hyper Protect | Alojado globalmente | Alojado globalmente | 
 | IBM Cognos Dashboard Embedded | Alojado en Dallas | No disponible | 
+| Image Service for VPC | Alojado en Dallas | No disponible | 
 | Information Server | Alojado en Dallas | No disponible | 
 | Informix | Alojado en Dallas | No disponible | 
 | Instrument Analytics | Alojado en Dallas | No disponible | 
@@ -98,6 +100,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Key Protect | Alojado en Dallas | Alojado en Washington DC | 
 | Knowledge Catalog | Alojado en Dallas | No disponible | 
 | Knowledge Studio | Alojado en Dallas | Alojado en Washington DC | 
+| Clúster de Kubernetes | Alojado en Dallas | Alojado en Washington DC | 
 | Language Translator | Alojado en Dallas | Alojado en Washington DC | 
 | Lift CLI | Alojado en Dallas | No disponible | 
 | Load Balancer for VPC | Alojado en Dallas | Alojado en Washington DC | 
@@ -181,6 +184,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Compose for ScyllaDB | Alojado en Londres | Alojado en Frankfurt | 
 | Compose for etcd | Alojado en Londres | Alojado en Frankfurt | 
 | Consult with IBM Cloud Garage | Alojado globalmente | Alojado globalmente | 
+| Container Registry | Alojado globalmente | Alojado globalmente | 
 | Continuous Delivery | Alojado en Londres | Alojado en Frankfurt | 
 | Cost and Asset Management | No disponible | No disponible | 
 | Data Store for Memcache | No disponible | No disponible | 
@@ -208,6 +212,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Hyper Protect DBaaS for PostgreSQL | No disponible | No disponible | 
 | Servidores virtuales de IBM Cloud Hyper Protect | Alojado globalmente | Alojado globalmente | 
 | IBM Cognos Dashboard Embedded | Alojado en Londres | No disponible | 
+| Image Service for VPC | Alojado en Londres | Alojado en Frankfurt | 
 | Information Server | Alojado en Londres | Alojado en Frankfurt | 
 | Informix | Sindicado desde Dallas | No disponible | 
 | Instrument Analytics | No disponible | No disponible | 
@@ -217,6 +222,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Key Protect | Alojado en Londres | Alojado en Frankfurt | 
 | Knowledge Catalog | Alojado en Londres | Alojado en Frankfurt | 
 | Knowledge Studio | Alojado en Londres | Alojado en Frankfurt | 
+| Clúster de Kubernetes | Alojado en Londres | Alojado en Frankfurt | 
 | Language Translator | Alojado en Londres | Alojado en Frankfurt | 
 | Lift CLI | No disponible | No disponible | 
 | Load Balancer for VPC | Alojado en Londres | Alojado en Frankfurt | 
@@ -300,6 +306,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Compose for ScyllaDB | Alojado en Sídney | No disponible | 
 | Compose for etcd | Alojado en Sídney | No disponible | 
 | Consult with IBM Cloud Garage | Alojado globalmente | Alojado globalmente | 
+| Container Registry | Alojado globalmente | Alojado globalmente | 
 | Continuous Delivery | No disponible | Alojado en Tokio | 
 | Cost and Asset Management | No disponible | No disponible | 
 | Data Store for Memcache | No disponible | No disponible | 
@@ -327,6 +334,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Hyper Protect DBaaS for PostgreSQL | No disponible | No disponible | 
 | Servidores virtuales de IBM Cloud Hyper Protect | Alojado globalmente | Alojado globalmente | 
 | IBM Cognos Dashboard Embedded | No disponible | No disponible | 
+| Image Service for VPC | Alojado en Sídney | Alojado en Tokio | 
 | Information Server | Alojado en Sídney | No disponible | 
 | Informix | Sindicado desde Dallas | No disponible | 
 | Instrument Analytics | No disponible | No disponible | 
@@ -336,6 +344,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Key Protect | Alojado en Sídney | Alojado en Tokio | 
 | Knowledge Catalog | No disponible | Alojado en Tokio | 
 | Knowledge Studio | Alojado en Sídney | Alojado en Tokio | 
+| Clúster de Kubernetes | Alojado en Sídney | Alojado en Tokio | 
 | Language Translator | Alojado en Sídney | Alojado en Tokio | 
 | Lift CLI | No disponible | No disponible | 
 | Load Balancer for VPC | Alojado en Sídney | Alojado en Tokio | 
