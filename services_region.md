@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-07"
+lastupdated: "2019-08-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -136,6 +136,7 @@ Services that are hosted globally create resources that operate across multiple 
 | VMware Solutions | Hosted globally | Hosted globally | 
 | VPN for VPC | Hosted in Dallas | Hosted in Washington DC | 
 | Virtual Private Cloud | Hosted in Dallas | Not available | 
+| Virtual Server for VPC | Not available | Not available | 
 | Visual Recognition | Hosted in Dallas | Not available | 
 | Voice Agent with Watson | Hosted in Dallas | Hosted in Washington DC | 
 | Watson Assistant | Hosted in Dallas | Hosted in Washington DC | 
@@ -257,6 +258,7 @@ Services that are hosted globally create resources that operate across multiple 
 | VMware Solutions | Hosted globally | Hosted globally | 
 | VPN for VPC | Hosted in London | Hosted in Frankfurt | 
 | Virtual Private Cloud | Hosted in London | Hosted in Frankfurt | 
+| Virtual Server for VPC | Not available | Not available | 
 | Visual Recognition | Not available | Not available | 
 | Voice Agent with Watson | Not available | Not available | 
 | Watson Assistant | Hosted in London | Hosted in Frankfurt | 
@@ -378,6 +380,7 @@ Services that are hosted globally create resources that operate across multiple 
 | VMware Solutions | Hosted globally | Hosted globally | 
 | VPN for VPC | Hosted in Sydney | Hosted in Tokyo | 
 | Virtual Private Cloud | Hosted in Sydney | Hosted in Tokyo | 
+| Virtual Server for VPC | Not available | Not available | 
 | Visual Recognition | Not available | Not available | 
 | Voice Agent with Watson | Not available | Not available | 
 | Watson Assistant | Hosted in Sydney | Hosted in Tokyo | 
