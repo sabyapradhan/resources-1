@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-07-30"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -62,6 +62,7 @@ subcollection: resources
 |Compose for ScyllaDB | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Compose for etcd | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 | Consult with IBM Cloud Garage |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
+| Container Registry |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |Continuous Delivery | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Cost and Asset Management | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Data Store for Memcache | 댈러스에서 호스팅됨 |사용할 수 없음 | 
@@ -89,6 +90,7 @@ subcollection: resources
 | Hyper Protect DBaaS for PostgreSQL | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 | IBM Cloud Hyper Protect Virtual Servers |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |IBM Cognos Dashboard Embedded | 댈러스에서 호스팅됨 |사용할 수 없음 | 
+| Image Service for VPC | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Information Server | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Informix | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Instrument Analytics | 댈러스에서 호스팅됨 |사용할 수 없음 | 
@@ -98,6 +100,7 @@ subcollection: resources
 |Key Protect | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Knowledge Catalog | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Knowledge Studio | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
+| Kubernetes Cluster | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Language Translator | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Lift CLI | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 | Load Balancer for VPC | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
@@ -181,6 +184,7 @@ subcollection: resources
 |Compose for ScyllaDB | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Compose for etcd | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 | Consult with IBM Cloud Garage |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
+| Container Registry |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |Continuous Delivery | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Cost and Asset Management |사용할 수 없음 |사용할 수 없음 | 
 |Data Store for Memcache |사용할 수 없음 |사용할 수 없음 | 
@@ -208,6 +212,7 @@ subcollection: resources
 | Hyper Protect DBaaS for PostgreSQL |사용할 수 없음 |사용할 수 없음 | 
 | IBM Cloud Hyper Protect Virtual Servers |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |IBM Cognos Dashboard Embedded | 런던에서 호스팅됨 |사용할 수 없음 | 
+| Image Service for VPC | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Information Server | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Informix | 댈러스에서 신디케이트됨 |사용할 수 없음 | 
 |Instrument Analytics |사용할 수 없음 |사용할 수 없음 | 
@@ -217,6 +222,7 @@ subcollection: resources
 |Key Protect | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Knowledge Catalog | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Knowledge Studio | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
+| Kubernetes Cluster | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Language Translator | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Lift CLI |사용할 수 없음 |사용할 수 없음 | 
 | Load Balancer for VPC | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
@@ -300,6 +306,7 @@ subcollection: resources
 |Compose for ScyllaDB |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Compose for etcd |시드니에서 호스팅됨 |사용할 수 없음 | 
 | Consult with IBM Cloud Garage |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
+| Container Registry |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |Continuous Delivery |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 |Cost and Asset Management |사용할 수 없음 |사용할 수 없음 | 
 |Data Store for Memcache |사용할 수 없음 |사용할 수 없음 | 
@@ -327,6 +334,7 @@ subcollection: resources
 | Hyper Protect DBaaS for PostgreSQL |사용할 수 없음 |사용할 수 없음 | 
 | IBM Cloud Hyper Protect Virtual Servers |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |IBM Cognos Dashboard Embedded |사용할 수 없음 |사용할 수 없음 | 
+| Image Service for VPC |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Information Server |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Informix | 댈러스에서 신디케이트됨 |사용할 수 없음 | 
 |Instrument Analytics |사용할 수 없음 |사용할 수 없음 | 
@@ -336,6 +344,7 @@ subcollection: resources
 |Key Protect |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Knowledge Catalog |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 |Knowledge Studio |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
+| Kubernetes Cluster |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Language Translator |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
 |Lift CLI |사용할 수 없음 |사용할 수 없음 | 
 | Load Balancer for VPC |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 

@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-07-30"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -62,6 +62,7 @@ subcollection: resources
 |Compose for ScyllaDB| 在达拉斯托管 | 在华盛顿特区托管 | 
 |Compose for etcd| 在达拉斯托管 | 在华盛顿特区托管 | 
 | Consult with IBM Cloud Garage |在全球托管|在全球托管| 
+|Container Registry|在全球托管|在全球托管| 
 |Continuous Delivery| 在达拉斯托管 | 在华盛顿特区托管 | 
 |Cost and Asset Management| 在达拉斯托管 |不可用| 
 |Data Store for Memcache| 在达拉斯托管 |不可用| 
@@ -89,6 +90,7 @@ subcollection: resources
 | Hyper Protect DBaaS for PostgreSQL | 在达拉斯托管 |不可用| 
 | IBM Cloud Hyper Protect Virtual Servers |在全球托管|在全球托管| 
 |IBM Cognos Dashboard Embedded| 在达拉斯托管 |不可用| 
+|Image Service for VPC| 在达拉斯托管 |不可用| 
 |Information Server| 在达拉斯托管 |不可用| 
 |Informix| 在达拉斯托管 |不可用| 
 |Instrument Analytics| 在达拉斯托管 |不可用| 
@@ -98,6 +100,7 @@ subcollection: resources
 |Key Protect| 在达拉斯托管 | 在华盛顿特区托管 | 
 |Knowledge Catalog| 在达拉斯托管 |不可用| 
 |Knowledge Studio| 在达拉斯托管 | 在华盛顿特区托管 | 
+|Kubernetes 集群| 在达拉斯托管 | 在华盛顿特区托管 | 
 |Language Translator| 在达拉斯托管 | 在华盛顿特区托管 | 
 |Lift CLI| 在达拉斯托管 |不可用| 
 |Load Balancer for VPC| 在达拉斯托管 | 在华盛顿特区托管 | 
@@ -181,6 +184,7 @@ subcollection: resources
 |Compose for ScyllaDB| 在伦敦托管 | 在法兰克福托管 | 
 |Compose for etcd| 在伦敦托管 | 在法兰克福托管 | 
 | Consult with IBM Cloud Garage |在全球托管|在全球托管| 
+|Container Registry|在全球托管|在全球托管| 
 |Continuous Delivery| 在伦敦托管 | 在法兰克福托管 | 
 |Cost and Asset Management|不可用|不可用| 
 |Data Store for Memcache|不可用|不可用| 
@@ -208,6 +212,7 @@ subcollection: resources
 | Hyper Protect DBaaS for PostgreSQL |不可用|不可用| 
 | IBM Cloud Hyper Protect Virtual Servers |在全球托管|在全球托管| 
 |IBM Cognos Dashboard Embedded| 在伦敦托管 |不可用| 
+|Image Service for VPC| 在伦敦托管 | 在法兰克福托管 | 
 |Information Server| 在伦敦托管 | 在法兰克福托管 | 
 |Informix| 从达拉斯联合 |不可用| 
 |Instrument Analytics|不可用|不可用| 
@@ -217,6 +222,7 @@ subcollection: resources
 |Key Protect| 在伦敦托管 | 在法兰克福托管 | 
 |Knowledge Catalog| 在伦敦托管 | 在法兰克福托管 | 
 |Knowledge Studio| 在伦敦托管 | 在法兰克福托管 | 
+|Kubernetes 集群| 在伦敦托管 | 在法兰克福托管 | 
 |Language Translator| 在伦敦托管 | 在法兰克福托管 | 
 |Lift CLI|不可用|不可用| 
 |Load Balancer for VPC| 在伦敦托管 | 在法兰克福托管 | 
@@ -300,6 +306,7 @@ subcollection: resources
 |Compose for ScyllaDB|在悉尼托管|不可用| 
 |Compose for etcd|在悉尼托管|不可用| 
 | Consult with IBM Cloud Garage |在全球托管|在全球托管| 
+|Container Registry|在全球托管|在全球托管| 
 |Continuous Delivery|不可用| 在东京托管 | 
 |Cost and Asset Management|不可用|不可用| 
 |Data Store for Memcache|不可用|不可用| 
@@ -327,6 +334,7 @@ subcollection: resources
 | Hyper Protect DBaaS for PostgreSQL |不可用|不可用| 
 | IBM Cloud Hyper Protect Virtual Servers |在全球托管|在全球托管| 
 |IBM Cognos Dashboard Embedded|不可用|不可用| 
+|Image Service for VPC|在悉尼托管| 在东京托管 | 
 |Information Server|在悉尼托管|不可用| 
 |Informix| 从达拉斯联合 |不可用| 
 |Instrument Analytics|不可用|不可用| 
@@ -336,6 +344,7 @@ subcollection: resources
 |Key Protect|在悉尼托管| 在东京托管 | 
 |Knowledge Catalog|不可用| 在东京托管 | 
 |Knowledge Studio|在悉尼托管| 在东京托管 | 
+|Kubernetes 集群|在悉尼托管| 在东京托管 | 
 |Language Translator|在悉尼托管| 在东京托管 | 
 |Lift CLI|不可用|不可用| 
 |Load Balancer for VPC|在悉尼托管| 在东京托管 | 

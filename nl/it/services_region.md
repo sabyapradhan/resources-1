@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-07-30"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -63,6 +63,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Compose for ScyllaDB | Ospitato a Dallas | Ospitato a Washington DC | 
 | Compose for etcd | Ospitato a Dallas | Ospitato a Washington DC | 
 | Consult with IBM Cloud Garage | Ospitato a livello globale | Ospitato a livello globale | 
+| Registro contenitore | Ospitato a livello globale | Ospitato a livello globale | 
 | Fornitura continua | Ospitato a Dallas | Ospitato a Washington DC | 
 | Cost and Asset Management | Ospitato a Dallas | Non disponibile | 
 | Data Store for Memcache | Ospitato a Dallas | Non disponibile | 
@@ -90,6 +91,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Hyper Protect DBaaS per PostgreSQL | Ospitato a Dallas | Non disponibile | 
 | IBM Cloud Hyper Protect Virtual Servers | Ospitato a livello globale | Ospitato a livello globale | 
 | IBM Cognos Dashboard Embedded | Ospitato a Dallas | Non disponibile | 
+| Servizio immagini per VPC | Ospitato a Dallas | Non disponibile | 
 | Information Server | Ospitato a Dallas | Non disponibile | 
 | Informix | Ospitato a Dallas | Non disponibile | 
 | Instrument Analytics | Ospitato a Dallas | Non disponibile | 
@@ -99,6 +101,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Key Protect | Ospitato a Dallas | Ospitato a Washington DC | 
 | Knowledge Catalog | Ospitato a Dallas | Non disponibile | 
 | Knowledge Studio | Ospitato a Dallas | Ospitato a Washington DC | 
+| Cluster Kubernetes | Ospitato a Dallas | Ospitato a Washington DC | 
 | Language Translator | Ospitato a Dallas | Ospitato a Washington DC | 
 | CLI Lift | Ospitato a Dallas | Non disponibile | 
 | Programma di bilanciamento del carico per VPC | Ospitato a Dallas | Ospitato a Washington DC | 
@@ -182,6 +185,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Compose for ScyllaDB | Ospitato a Londra | Ospitato a Francoforte | 
 | Compose for etcd | Ospitato a Londra | Ospitato a Francoforte | 
 | Consult with IBM Cloud Garage | Ospitato a livello globale | Ospitato a livello globale | 
+| Registro contenitore | Ospitato a livello globale | Ospitato a livello globale | 
 | Fornitura continua | Ospitato a Londra | Ospitato a Francoforte | 
 | Cost and Asset Management | Non disponibile | Non disponibile | 
 | Data Store for Memcache | Non disponibile | Non disponibile | 
@@ -209,6 +213,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Hyper Protect DBaaS per PostgreSQL | Non disponibile | Non disponibile | 
 | IBM Cloud Hyper Protect Virtual Servers | Ospitato a livello globale | Ospitato a livello globale | 
 | IBM Cognos Dashboard Embedded | Ospitato a Londra | Non disponibile | 
+| Servizio immagini per VPC | Ospitato a Londra | Ospitato a Francoforte | 
 | Information Server | Ospitato a Londra | Ospitato a Francoforte | 
 | Informix | Diffuso da Dallas | Non disponibile | 
 | Instrument Analytics | Non disponibile | Non disponibile | 
@@ -218,6 +223,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Key Protect | Ospitato a Londra | Ospitato a Francoforte | 
 | Knowledge Catalog | Ospitato a Londra | Ospitato a Francoforte | 
 | Knowledge Studio | Ospitato a Londra | Ospitato a Francoforte | 
+| Cluster Kubernetes | Ospitato a Londra | Ospitato a Francoforte | 
 | Language Translator | Ospitato a Londra | Ospitato a Francoforte | 
 | CLI Lift | Non disponibile | Non disponibile | 
 | Programma di bilanciamento del carico per VPC | Ospitato a Londra | Ospitato a Francoforte | 
@@ -301,6 +307,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Compose for ScyllaDB | Ospitato a Sydney | Non disponibile | 
 | Compose for etcd | Ospitato a Sydney | Non disponibile | 
 | Consult with IBM Cloud Garage | Ospitato a livello globale | Ospitato a livello globale | 
+| Registro contenitore | Ospitato a livello globale | Ospitato a livello globale | 
 | Fornitura continua | Non disponibile | Ospitato a Tokyo | 
 | Cost and Asset Management | Non disponibile | Non disponibile | 
 | Data Store for Memcache | Non disponibile | Non disponibile | 
@@ -328,6 +335,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Hyper Protect DBaaS per PostgreSQL | Non disponibile | Non disponibile | 
 | IBM Cloud Hyper Protect Virtual Servers | Ospitato a livello globale | Ospitato a livello globale | 
 | IBM Cognos Dashboard Embedded | Non disponibile | Non disponibile | 
+| Servizio immagini per VPC | Ospitato a Sydney | Ospitato a Tokyo | 
 | Information Server | Ospitato a Sydney | Non disponibile | 
 | Informix | Diffuso da Dallas | Non disponibile | 
 | Instrument Analytics | Non disponibile | Non disponibile | 
@@ -337,6 +345,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Key Protect | Ospitato a Sydney | Ospitato a Tokyo | 
 | Knowledge Catalog | Non disponibile | Ospitato a Tokyo | 
 | Knowledge Studio | Ospitato a Sydney | Ospitato a Tokyo | 
+| Cluster Kubernetes | Ospitato a Sydney | Ospitato a Tokyo | 
 | Language Translator | Ospitato a Sydney | Ospitato a Tokyo | 
 | CLI Lift | Non disponibile | Non disponibile | 
 | Programma di bilanciamento del carico per VPC | Ospitato a Sydney | Ospitato a Tokyo | 

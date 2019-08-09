@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-07-30"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -62,6 +62,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Compose for ScyllaDB | Hébergé à Dallas | Hébergé à Washington DC | 
 | Compose for etcd | Hébergé à Dallas | Hébergé à Washington DC | 
 | Consult with IBM Cloud Garage | Hébergé dans le monde entier | Hébergé dans le monde entier | 
+| Container Registry | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Continuous Delivery | Hébergé à Dallas | Hébergé à Washington DC | 
 | Cost and Asset Management | Hébergé à Dallas | Indisponible | 
 | Data Store for Memcache | Hébergé à Dallas | Indisponible | 
@@ -89,6 +90,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Hyper Protect DBaaS for PostgreSQL | Hébergé à Dallas | Indisponible | 
 | IBM Cloud Hyper Protect Virtual Servers | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | IBM Cognos Dashboard Embedded | Hébergé à Dallas | Indisponible | 
+| Image Service for VPC | Hébergé à Dallas | Indisponible | 
 | Information Server | Hébergé à Dallas | Indisponible | 
 | Informix | Hébergé à Dallas | Indisponible | 
 | Instrument Analytics | Hébergé à Dallas | Indisponible | 
@@ -98,6 +100,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Key Protect | Hébergé à Dallas | Hébergé à Washington DC | 
 | Knowledge Catalog | Hébergé à Dallas | Indisponible | 
 | Knowledge Studio | Hébergé à Dallas | Hébergé à Washington DC | 
+| Kubernetes Cluster | Hébergé à Dallas | Hébergé à Washington DC | 
 | Language Translator | Hébergé à Dallas | Hébergé à Washington DC | 
 | Lift CLI | Hébergé à Dallas | Indisponible | 
 | Load Balancer for VPC | Hébergé à Dallas | Hébergé à Washington DC | 
@@ -181,6 +184,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Compose for ScyllaDB | Hébergé à Londres | Hébergé à Francfort | 
 | Compose for etcd | Hébergé à Londres | Hébergé à Francfort | 
 | Consult with IBM Cloud Garage | Hébergé dans le monde entier | Hébergé dans le monde entier | 
+| Container Registry | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Continuous Delivery | Hébergé à Londres | Hébergé à Francfort | 
 | Cost and Asset Management | Indisponible | Indisponible | 
 | Data Store for Memcache | Indisponible | Indisponible | 
@@ -208,6 +212,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Hyper Protect DBaaS for PostgreSQL | Indisponible | Indisponible | 
 | IBM Cloud Hyper Protect Virtual Servers | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | IBM Cognos Dashboard Embedded | Hébergé à Londres | Indisponible | 
+| Image Service for VPC | Hébergé à Londres | Hébergé à Francfort | 
 | Information Server | Hébergé à Londres | Hébergé à Francfort | 
 | Informix | Syndiqué avec Dallas | Indisponible | 
 | Instrument Analytics | Indisponible | Indisponible | 
@@ -217,6 +222,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Key Protect | Hébergé à Londres | Hébergé à Francfort | 
 | Knowledge Catalog | Hébergé à Londres | Hébergé à Francfort | 
 | Knowledge Studio | Hébergé à Londres | Hébergé à Francfort | 
+| Kubernetes Cluster | Hébergé à Londres | Hébergé à Francfort | 
 | Language Translator | Hébergé à Londres | Hébergé à Francfort | 
 | Lift CLI | Indisponible | Indisponible | 
 | Load Balancer for VPC | Hébergé à Londres | Hébergé à Francfort | 
@@ -300,6 +306,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Compose for ScyllaDB | Hébergé à Sydney | Indisponible | 
 | Compose for etcd | Hébergé à Sydney | Indisponible | 
 | Consult with IBM Cloud Garage | Hébergé dans le monde entier | Hébergé dans le monde entier | 
+| Container Registry | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Continuous Delivery | Indisponible | Hébergé à Tokyo | 
 | Cost and Asset Management | Indisponible | Indisponible | 
 | Data Store for Memcache | Indisponible | Indisponible | 
@@ -327,6 +334,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Hyper Protect DBaaS for PostgreSQL | Indisponible | Indisponible | 
 | IBM Cloud Hyper Protect Virtual Servers | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | IBM Cognos Dashboard Embedded | Indisponible | Indisponible | 
+| Image Service for VPC | Hébergé à Sydney | Hébergé à Tokyo | 
 | Information Server | Hébergé à Sydney | Indisponible | 
 | Informix | Syndiqué avec Dallas | Indisponible | 
 | Instrument Analytics | Indisponible | Indisponible | 
@@ -336,6 +344,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Key Protect | Hébergé à Sydney | Hébergé à Tokyo | 
 | Knowledge Catalog | Indisponible | Hébergé à Tokyo | 
 | Knowledge Studio | Hébergé à Sydney | Hébergé à Tokyo | 
+| Kubernetes Cluster | Hébergé à Sydney | Hébergé à Tokyo | 
 | Language Translator | Hébergé à Sydney | Hébergé à Tokyo | 
 | Lift CLI | Indisponible | Indisponible | 
 | Load Balancer for VPC | Hébergé à Sydney | Hébergé à Tokyo | 

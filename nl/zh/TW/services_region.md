@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-07-30"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -62,6 +62,7 @@ subcollection: resources
 |Compose for ScyllaDB|在達拉斯進行管理|在華盛頓特區進行管理| 
 |Compose for etcd|在達拉斯進行管理|在華盛頓特區進行管理| 
 | Consult with IBM Cloud Garage |在全球管理|在全球管理| 
+| Container Registry |在全球管理|在全球管理| 
 |Continuous Delivery|在達拉斯進行管理|在華盛頓特區進行管理| 
 |Cost and Asset Management |在達拉斯進行管理|不適用 | 
 | Data Store for Memcache |在達拉斯進行管理|不適用 | 
@@ -89,6 +90,7 @@ subcollection: resources
 | Hyper Protect DBaaS for PostgreSQL |在達拉斯進行管理|不適用 | 
 | IBM Cloud Hyper Protect Virtual Servers |在全球管理|在全球管理| 
 | IBM Cognos Dashboard Embedded |在達拉斯進行管理|不適用 | 
+| Image Service for VPC |在達拉斯進行管理|不適用 | 
 |Information Server |在達拉斯進行管理|不適用 | 
 |Informix|在達拉斯進行管理|不適用 | 
 |Instrument Analytics |在達拉斯進行管理|不適用 | 
@@ -98,6 +100,7 @@ subcollection: resources
 |Key Protect |在達拉斯進行管理|在華盛頓特區進行管理| 
 |Knowledge Catalog |在達拉斯進行管理|不適用 | 
 |Knowledge Studio |在達拉斯進行管理|在華盛頓特區進行管理| 
+| Kubernetes Cluster |在達拉斯進行管理|在華盛頓特區進行管理| 
 |Language Translator|在達拉斯進行管理|在華盛頓特區進行管理| 
 |Lift CLI |在達拉斯進行管理|不適用 | 
 |Load Balancer for VPC|在達拉斯進行管理|在華盛頓特區進行管理| 
@@ -181,6 +184,7 @@ subcollection: resources
 |Compose for ScyllaDB|在倫敦進行管理|在法蘭克福進行管理| 
 |Compose for etcd|在倫敦進行管理|在法蘭克福進行管理| 
 | Consult with IBM Cloud Garage |在全球管理|在全球管理| 
+| Container Registry |在全球管理|在全球管理| 
 |Continuous Delivery|在倫敦進行管理|在法蘭克福進行管理| 
 |Cost and Asset Management |不適用 |不適用 | 
 | Data Store for Memcache |不適用 |不適用 | 
@@ -208,6 +212,7 @@ subcollection: resources
 | Hyper Protect DBaaS for PostgreSQL |不適用 |不適用 | 
 | IBM Cloud Hyper Protect Virtual Servers |在全球管理|在全球管理| 
 | IBM Cognos Dashboard Embedded |在倫敦進行管理|不適用 | 
+| Image Service for VPC |在倫敦進行管理|在法蘭克福進行管理| 
 |Information Server |在倫敦進行管理|在法蘭克福進行管理| 
 |Informix|從達拉斯進行聯合發佈|不適用 | 
 |Instrument Analytics |不適用 |不適用 | 
@@ -217,6 +222,7 @@ subcollection: resources
 |Key Protect |在倫敦進行管理|在法蘭克福進行管理| 
 |Knowledge Catalog |在倫敦進行管理|在法蘭克福進行管理| 
 |Knowledge Studio |在倫敦進行管理|在法蘭克福進行管理| 
+| Kubernetes Cluster |在倫敦進行管理|在法蘭克福進行管理| 
 |Language Translator|在倫敦進行管理|在法蘭克福進行管理| 
 |Lift CLI |不適用 |不適用 | 
 |Load Balancer for VPC|在倫敦進行管理|在法蘭克福進行管理| 
@@ -300,6 +306,7 @@ subcollection: resources
 |Compose for ScyllaDB|在雪梨進行管理|不適用 | 
 |Compose for etcd|在雪梨進行管理|不適用 | 
 | Consult with IBM Cloud Garage |在全球管理|在全球管理| 
+| Container Registry |在全球管理|在全球管理| 
 |Continuous Delivery|不適用 |在東京進行管理| 
 |Cost and Asset Management |不適用 |不適用 | 
 | Data Store for Memcache |不適用 |不適用 | 
@@ -327,6 +334,7 @@ subcollection: resources
 | Hyper Protect DBaaS for PostgreSQL |不適用 |不適用 | 
 | IBM Cloud Hyper Protect Virtual Servers |在全球管理|在全球管理| 
 | IBM Cognos Dashboard Embedded |不適用 |不適用 | 
+| Image Service for VPC |在雪梨進行管理|在東京進行管理| 
 |Information Server |在雪梨進行管理|不適用 | 
 |Informix|從達拉斯進行聯合發佈|不適用 | 
 |Instrument Analytics |不適用 |不適用 | 
@@ -336,6 +344,7 @@ subcollection: resources
 |Key Protect |在雪梨進行管理|在東京進行管理| 
 |Knowledge Catalog |不適用 |在東京進行管理| 
 |Knowledge Studio |在雪梨進行管理|在東京進行管理| 
+| Kubernetes Cluster |在雪梨進行管理|在東京進行管理| 
 |Language Translator|在雪梨進行管理|在東京進行管理| 
 |Lift CLI |不適用 |不適用 | 
 |Load Balancer for VPC|在雪梨進行管理|在東京進行管理| 

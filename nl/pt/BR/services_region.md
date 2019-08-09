@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-07-30"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -62,6 +62,7 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Compose for ScyllaDB | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Compose for etcd | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Consultar com o IBM Cloud Garage | Hospedado globalmente | Hospedado globalmente | 
+| Container Registry | Hospedado globalmente | Hospedado globalmente | 
 | Continuous Delivery | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Cost and Asset Management | Hospedado em Dallas | Não está disponível | 
 | Data Store for Memcache | Hospedado em Dallas | Não está disponível | 
@@ -89,6 +90,7 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Hyper Protect DBaaS for PostgreSQL | Hospedado em Dallas | Não está disponível | 
 | IBM Cloud Hyper Protect Virtual Servers | Hospedado globalmente | Hospedado globalmente | 
 | IBM Cognos Dashboard Embedded | Hospedado em Dallas | Não está disponível | 
+| Image Service for VPC | Hospedado em Dallas | Não está disponível | 
 | Information Server | Hospedado em Dallas | Não está disponível | 
 | Informix | Hospedado em Dallas | Não está disponível | 
 | Instrument Analytics | Hospedado em Dallas | Não está disponível | 
@@ -98,6 +100,7 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Key Protect | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Knowledge Catalog | Hospedado em Dallas | Não está disponível | 
 | Knowledge Studio | Hospedado em Dallas | Hospedado em Washington, D.C. | 
+| Cluster Kubernetes | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Language Translator | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Lift CLI | Hospedado em Dallas | Não está disponível | 
 | Load Balancer for VPC | Hospedado em Dallas | Hospedado em Washington, D.C. | 
@@ -181,6 +184,7 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Compose for ScyllaDB | Hospedado em Londres | Hospedado em Frankfurt | 
 | Compose for etcd | Hospedado em Londres | Hospedado em Frankfurt | 
 | Consultar com o IBM Cloud Garage | Hospedado globalmente | Hospedado globalmente | 
+| Container Registry | Hospedado globalmente | Hospedado globalmente | 
 | Continuous Delivery | Hospedado em Londres | Hospedado em Frankfurt | 
 | Cost and Asset Management | Não está disponível | Não está disponível | 
 | Data Store for Memcache | Não está disponível | Não está disponível | 
@@ -208,6 +212,7 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Hyper Protect DBaaS for PostgreSQL | Não está disponível | Não está disponível | 
 | IBM Cloud Hyper Protect Virtual Servers | Hospedado globalmente | Hospedado globalmente | 
 | IBM Cognos Dashboard Embedded | Hospedado em Londres | Não está disponível | 
+| Image Service for VPC | Hospedado em Londres | Hospedado em Frankfurt | 
 | Information Server | Hospedado em Londres | Hospedado em Frankfurt | 
 | Informix | Organizado em Dallas | Não está disponível | 
 | Instrument Analytics | Não está disponível | Não está disponível | 
@@ -217,6 +222,7 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Key Protect | Hospedado em Londres | Hospedado em Frankfurt | 
 | Knowledge Catalog | Hospedado em Londres | Hospedado em Frankfurt | 
 | Knowledge Studio | Hospedado em Londres | Hospedado em Frankfurt | 
+| Cluster Kubernetes | Hospedado em Londres | Hospedado em Frankfurt | 
 | Language Translator | Hospedado em Londres | Hospedado em Frankfurt | 
 | Lift CLI | Não está disponível | Não está disponível | 
 | Load Balancer for VPC | Hospedado em Londres | Hospedado em Frankfurt | 
@@ -300,6 +306,7 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Compose for ScyllaDB | Hospedado em Sydney | Não está disponível | 
 | Compose for etcd | Hospedado em Sydney | Não está disponível | 
 | Consultar com o IBM Cloud Garage | Hospedado globalmente | Hospedado globalmente | 
+| Container Registry | Hospedado globalmente | Hospedado globalmente | 
 | Continuous Delivery | Não está disponível | Hospedado em Tóquio | 
 | Cost and Asset Management | Não está disponível | Não está disponível | 
 | Data Store for Memcache | Não está disponível | Não está disponível | 
@@ -327,6 +334,7 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Hyper Protect DBaaS for PostgreSQL | Não está disponível | Não está disponível | 
 | IBM Cloud Hyper Protect Virtual Servers | Hospedado globalmente | Hospedado globalmente | 
 | IBM Cognos Dashboard Embedded | Não está disponível | Não está disponível | 
+| Image Service for VPC | Hospedado em Sydney | Hospedado em Tóquio | 
 | Information Server | Hospedado em Sydney | Não está disponível | 
 | Informix | Organizado em Dallas | Não está disponível | 
 | Instrument Analytics | Não está disponível | Não está disponível | 
@@ -336,6 +344,7 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Key Protect | Hospedado em Sydney | Hospedado em Tóquio | 
 | Knowledge Catalog | Não está disponível | Hospedado em Tóquio | 
 | Knowledge Studio | Hospedado em Sydney | Hospedado em Tóquio | 
+| Cluster Kubernetes | Hospedado em Sydney | Hospedado em Tóquio | 
 | Language Translator | Hospedado em Sydney | Hospedado em Tóquio | 
 | Lift CLI | Não está disponível | Não está disponível | 
 | Load Balancer for VPC | Hospedado em Sydney | Hospedado em Tóquio | 
