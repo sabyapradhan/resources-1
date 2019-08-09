@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-08"
+lastupdated: "2019-08-09"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -32,7 +32,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Service | Dallas | Washington DC | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hosted in Dallas | Hosted in Washington DC | 
-| Alert Notification | Hosted in Dallas | Not available | 
 | Analytics Engine | Hosted in Dallas | Not available | 
 | Apache Spark | Hosted in Dallas | Not available | 
 | App Connect | Hosted in Dallas | Not available | 
@@ -61,7 +60,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Compose for RethinkDB | Hosted in Dallas | Hosted in Washington DC | 
 | Compose for ScyllaDB | Hosted in Dallas | Hosted in Washington DC | 
 | Compose for etcd | Hosted in Dallas | Hosted in Washington DC | 
-| Consult with IBM Cloud Garage | Hosted globally | Hosted globally | 
+| Consult with IBM Garage | Hosted globally | Hosted globally | 
 | Container Registry | Hosted globally | Hosted globally | 
 | Continuous Delivery | Hosted in Dallas | Hosted in Washington DC | 
 | Cost and Asset Management | Hosted in Dallas | Not available | 
@@ -154,7 +153,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Service | London | Frankfurt | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hosted in London | Hosted in Frankfurt | 
-| Alert Notification | Hosted in London | Not available | 
 | Analytics Engine | Hosted in London | Hosted in Frankfurt | 
 | Apache Spark | Hosted in London | Not available | 
 | App Connect | Hosted in London | Not available | 
@@ -183,7 +181,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Compose for RethinkDB | Hosted in London | Hosted in Frankfurt | 
 | Compose for ScyllaDB | Hosted in London | Hosted in Frankfurt | 
 | Compose for etcd | Hosted in London | Hosted in Frankfurt | 
-| Consult with IBM Cloud Garage | Hosted globally | Hosted globally | 
+| Consult with IBM Garage | Hosted globally | Hosted globally | 
 | Container Registry | Hosted globally | Hosted globally | 
 | Continuous Delivery | Hosted in London | Hosted in Frankfurt | 
 | Cost and Asset Management | Not available | Not available | 
@@ -276,7 +274,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Service | Sydney | Tokyo | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hosted in Sydney | Not available | 
-| Alert Notification | Hosted in Sydney | Not available | 
 | Analytics Engine | Not available | Hosted in Tokyo | 
 | Apache Spark | Not available | Not available | 
 | App Connect | Syndicated from Dallas | Not available | 
@@ -305,7 +302,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Compose for RethinkDB | Hosted in Sydney | Not available | 
 | Compose for ScyllaDB | Hosted in Sydney | Not available | 
 | Compose for etcd | Hosted in Sydney | Not available | 
-| Consult with IBM Cloud Garage | Hosted globally | Hosted globally | 
+| Consult with IBM Garage | Hosted globally | Hosted globally | 
 | Container Registry | Hosted globally | Hosted globally | 
 | Continuous Delivery | Not available | Hosted in Tokyo | 
 | Cost and Asset Management | Not available | Not available | 
