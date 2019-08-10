@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-09"
+lastupdated: "2019-08-10"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -83,6 +83,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Functions | Hosted in Dallas | Hosted in Washington DC | 
 | Geospatial Analytics | Hosted in Dallas | Not available | 
 | Globalization Pipeline | Hosted in Dallas | Not available | 
+| HPCaaS from Rescale | Hosted in Dallas | Not available | 
 | Historical Instrument Analytics | Hosted in Dallas | Not available | 
 | Hyper Protect Crypto Services | Hosted in Dallas | Not available | 
 | Hyper Protect DBaaS for MongoDB | Hosted in Dallas | Not available | 
@@ -204,6 +205,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Functions | Hosted in London | Hosted in Frankfurt | 
 | Geospatial Analytics | Hosted in London | Not available | 
 | Globalization Pipeline | Hosted in London | Hosted in Frankfurt | 
+| HPCaaS from Rescale | Not available | Not available | 
 | Historical Instrument Analytics | Not available | Not available | 
 | Hyper Protect Crypto Services | Not available | Not available | 
 | Hyper Protect DBaaS for MongoDB | Not available | Not available | 
@@ -325,6 +327,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Functions | Not available | Hosted in Tokyo | 
 | Geospatial Analytics | Syndicated from London | Not available | 
 | Globalization Pipeline | Hosted in Sydney | Not available | 
+| HPCaaS from Rescale | Not available | Not available | 
 | Historical Instrument Analytics | Not available | Not available | 
 | Hyper Protect Crypto Services | Hosted in Sydney | Not available | 
 | Hyper Protect DBaaS for MongoDB | Not available | Not available | 
