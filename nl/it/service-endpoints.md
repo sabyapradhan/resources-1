@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-05"
 
 keywords: service endpoint, private network endpoint, connect service to private network
 
@@ -18,7 +18,7 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# Endpoint del servizio per le connessioni di rete privata
+# Accesso sicuro ai servizi utilizzando gli endpoint del servizio
 {: #service-endpoints}
 
 Ai clienti che utilizzano i servizi basati sul cloud per i carichi di lavoro di produzione viene richiesta una maggiore attenzione alla sicurezza. Per molti clienti, l'accesso ai servizi in modo sicuro non è solo una politica aziendale sensata ma, in alcuni casi, è richiesto dai regolamenti di conformità, {{site.data.keyword.IBM_notm}} ha migliorato le opzioni di connettività per i clienti che richiedono delle opzioni di connettività isolata per i loro carichi di lavoro. 
@@ -32,4 +32,4 @@ La seguente figura mostra come viene instradato il traffico tramite la rete priv
 
 ![Endpoint del servizio IBM Cloud](images/CSE.png "Traffico instradato tramite un endpoint del servizio")
 
-Per utilizzare gli endpoint del servizio {{site.data.keyword.cloud_notm}}, devi abilitare VRF (virtual routing and forwarding) nel tuo account. Puoi quindi abilitare l'uso degli endpoint del servizio. Dopo che sono state abilitate entrambe le opzioni, puoi iniziare a creare dei servizi che supportano l'uso di VRF e degli endpoint del servizio dal catalogo. Per ulteriori informazioni, vedi [Abilitazione di VRF e degli endpoint del servizio](/docs/account?topic=account-vrf-service-endpoint).
+Per utilizzare gli endpoint del servizio {{site.data.keyword.cloud_notm}}, devi abilitare VRF (virtual routing and forwarding) nel tuo account.  Puoi quindi abilitare l'uso degli endpoint del servizio. Dopo che sono state abilitate entrambe le opzioni, puoi iniziare a creare dei servizi che supportano l'uso di VRF e degli endpoint del servizio dal catalogo. Per ulteriori informazioni, vedi [Abilitazione di VRF e degli endpoint del servizio](/docs/account?topic=account-vrf-service-endpoint).

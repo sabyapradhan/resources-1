@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-05"
 
 keywords: set up private endpoints, private endpoint, connect service over private network, 
 
@@ -18,7 +18,7 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# Impostazione degli endpoint di rete privata
+# Configurazione degli endpoint del servizio
 {: #private-network-endpoints}
 
 Per stabilire una connessione ai servizi {{site.data.keyword.cloud}} su una rete privata, devi avere accesso all'infrastruttura classica e abilitare VRF (virtual routing and forwarding) e la connettività agli endpoint del servizio per il tuo account. Puoi quindi iniziare a creare servizi che supportano gli endpoint del servizio per una connessione di rete privata.
@@ -28,14 +28,14 @@ Completa la seguente procedura per assicurarti che il tuo account sia impostato 
 
 1. Controlla di avere accesso all'infrastruttura {{site.data.keyword.cloud_notm}} nel tuo account. Vai all'icona **Menu** ![Icona Menu](../icons/icon_hamburger.svg) > **Infrastruttura classica** per verificare che disponi dell'accesso.
 2. Abilita il tuo account per VRF. Per ulteriori informazioni, vedi [Abilitazione di VRF (virtual routing and forwarding)](/docs/account?topic=account-vrf-service-endpoint#vrf).
-3. Abilita il tuo account per la connettività agli endpoint del servizio. Per ulteriori informazioni, vedi [Abilitazione degli endpoint del servizio](/docs/account?topic=account-vrf-service-endpoint#vrf).
+3. Abilita il tuo account per la connettività agli endpoint del servizio. Per ulteriori informazioni, vedi [Abilitazione degli endpoint del servizio](/docs/account?topic=account-vrf-service-endpoint#service-endpoint).
 
-Dopo che hai abilitato le impostazioni dell'account di VRF ed endpoint del servizio, puoi creare risorse dal catalogo che supportano gli endpoint di rete privata. La seguente tabella elenca i servizi che supportano l'utilizzo di endpoint di rete privata. 
+Dopo che hai abilitato le impostazioni dell'account di VRF ed endpoint del servizio, puoi creare risorse dal catalogo che supportano gli endpoint del servizio. La seguente tabella elenca i servizi che supportano l'utilizzo di endpoint del servizio. 
 
 Fai riferimento alla documentazione per lo specifico servizio per ulteriori informazioni sull'utilizzo degli endpoint del servizio.
 {: tip}
 
-## Servizi che supportano endpoint di rete privata
+## Servizi che supportano endpoint del servizio
 {: #services-support-service-endpoints}
 
 | Servizio | Documentazione |

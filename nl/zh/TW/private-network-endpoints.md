@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-05"
 
 keywords: set up private endpoints, private endpoint, connect service over private network, 
 
@@ -18,7 +18,7 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# 設定專用網路端點
+# 設定服務端點
 {: #private-network-endpoints}
 
 若要透過專用網路連接至 {{site.data.keyword.cloud}} 服務，您必須能夠存取標準基礎架構，並為您的帳戶啟用虛擬遞送及轉遞 (VRF) 和服務端點的連線功能。然後，您可以開始建立服務，以支援專用網路連線的服務端點。
@@ -28,14 +28,14 @@ subcollection: resources
 
 1. 確認您是否有權存取帳戶中的 {{site.data.keyword.cloud_notm}} 基礎架構。請移至**功能表**圖示 ![功能表圖示](../icons/icon_hamburger.svg) > **標準基礎架構**，以確認您有存取權。
 2. 啟用帳戶的 VRF。如需相關資訊，請參閱[啟用虛擬遞送及轉遞](/docs/account?topic=account-vrf-service-endpoint#vrf)。
-3. 啟用帳戶的服務端點連線功能。如需相關資訊，請參閱[啟用服務端點](/docs/account?topic=account-vrf-service-endpoint#vrf)。
+3. 啟用帳戶的服務端點連線功能。如需相關資訊，請參閱[啟用服務端點](/docs/account?topic=account-vrf-service-endpoint#service-endpoint)。
 
-啟用 VRF 及服務端點帳戶設定之後，您可以從支援專用網路端點的型錄建立資源。下表列出支援使用專用網路端點的服務。 
+啟用 VRF 及服務端點帳戶設定之後，您可以從支援服務端點的型錄建立資源。下表列出支援使用服務端點的服務。 
 
 如需使用服務端點的相關資訊，請參閱特定服務的文件。
 {: tip}
 
-## 支援專用網路端點的服務
+## 支援服務端點的服務
 {: #services-support-service-endpoints}
 
 |服務| 文件 |

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-05"
 
 keywords: set up private endpoints, private endpoint, connect service over private network, 
 
@@ -18,24 +18,24 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# Endpunkte für private Netze einrichten
+# Serviceendpunkte einrichten
 {: #private-network-endpoints}
 
 Wenn Sie eine Verbindung zu {{site.data.keyword.cloud}}-Services über ein privates Netz herstellen möchten, benötigen Sie Zugriff auf die klassische Infrastruktur und müssen VRF sowie die Konnektivität zu Serviceendpunkten für Ihr Konto aktivieren. Dann können Sie mit der Erstellung von Services beginnen, die Serviceendpunkte für eine private Netzverbindung unterstützen.
 {: shortdesc}
 
-Führen Sie die folgenden Schritte aus, um sicherzustellen, dass Ihr Konto für die Erstellung und Verwendung von Services, die Serviceendpunkte unterstützen, eingerichtet ist. 
+Führen Sie die folgenden Schritte aus, um sicherzustellen, dass Ihr Konto für die Erstellung und Verwendung von Services, die Serviceendpunkte unterstützen, eingerichtet ist.
 
-1. Stellen Sie sicher, dass Sie über Zugriff auf die {{site.data.keyword.cloud_notm}}-Infrastruktur in Ihrem Konto verfügen. Rufen Sie das **Menüsymbol** ![Menüsymbol](../icons/icon_hamburger.svg) > **Klassische Infrastruktur** auf, um den Zugriff zu verifizieren. 
+1. Stellen Sie sicher, dass Sie über Zugriff auf die {{site.data.keyword.cloud_notm}}-Infrastruktur in Ihrem Konto verfügen. Rufen Sie das **Menüsymbol** ![Menüsymbol](../icons/icon_hamburger.svg) > **Klassische Infrastruktur** auf, um den Zugriff zu verifizieren.
 2. Aktivieren Sie das Konto für VRF. Weitere Informationen finden Sie in [VRF aktivieren](/docs/account?topic=account-vrf-service-endpoint#vrf).
-3. Aktivieren Sie das Konto für die Konnektivität zu Serviceendpunkten. Weitere Informationen finden Sie in [Serviceendpunkte aktivieren](/docs/account?topic=account-vrf-service-endpoint#vrf). 
+3. Aktivieren Sie das Konto für die Konnektivität zu Serviceendpunkten. Weitere Informationen finden Sie in [Serviceendpunkte aktivieren](/docs/account?topic=account-vrf-service-endpoint#service-endpoint).
 
-Nach dem Aktivieren der Kontoeinstellungen für VRF und Serviceendpunkte können Sie über den Katalog Ressourcen erstellen, die Endpunkte für private Netze unterstützen. In der folgenden Tabelle sind die Services aufgeführt, die die Verwendung von Endpunkten für private Netze unterstützen.   
+Nach dem Aktivieren der Kontoeinstellungen für VRF und Serviceendpunkte können Sie über den Katalog Ressourcen erstellen, die Serviceendpunkte unterstützen. In der folgenden Tabelle sind die Services aufgeführt, die die Verwendung von Serviceendpunkten unterstützen.   
 
 Die Dokumentation zum jeweiligen Service enthält weitere Informationen zur Verwendung von Serviceendpunkten.
 {: tip}
 
-## Services, die Endpunkte für private Netze unterstützen
+## Services, die Serviceendpunkte unterstützen
 {: #services-support-service-endpoints}
 
 | Service | Dokumentation |

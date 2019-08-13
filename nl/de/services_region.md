@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-30"
+lastupdated: "2019-08-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -66,11 +66,11 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Continuous Delivery | Gehostet in Dallas | Gehostet in Washington DC | 
 | Cost and Asset Management | Gehostet in Dallas | Nicht verfügbar | 
 | Data Store for Memcache | Gehostet in Dallas | Nicht verfügbar | 
-| Databases for Elasticsearch | Gehostet in Dallas | Gehostet in Washington DC | 
-| Databases for MongoDB | Gehostet in Dallas | Gehostet in Washington DC | 
-| Databases for PostgreSQL | Gehostet in Dallas | Gehostet in Washington DC | 
-| Databases for Redis | Gehostet in Dallas | Gehostet in Washington DC | 
-| Databases for etcd | Gehostet in Dallas | Gehostet in Washington DC | 
+| Databases for Elasticsearch | Nicht verfügbar | Nicht verfügbar | 
+| Databases for MongoDB | Nicht verfügbar | Nicht verfügbar | 
+| Databases for PostgreSQL | Nicht verfügbar | Nicht verfügbar | 
+| Databases for Redis | Nicht verfügbar | Nicht verfügbar | 
+| Databases for etcd | Nicht verfügbar | Nicht verfügbar | 
 | Db2 | Gehostet in Dallas | Nicht verfügbar | 
 | Db2 Hosted | Gehostet in Dallas | Nicht verfügbar | 
 | Db2 Warehouse | Gehostet in Dallas | Nicht verfügbar | 
@@ -108,7 +108,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Machine Learning | Gehostet in Dallas | Nicht verfügbar | 
 | Managed Financial Data API | Gehostet in Dallas | Gehostet in Washington DC | 
 | Master Data Management | Gehostet in Dallas | Nicht verfügbar | 
-| Messages for RabbitMQ | Gehostet in Dallas | Gehostet in Washington DC | 
+| Messages for RabbitMQ | Nicht verfügbar | Nicht verfügbar | 
 | Mobile Foundation | Gehostet in Dallas | Gehostet in Washington DC | 
 | Monitoring | Gehostet in Dallas | Nicht verfügbar | 
 | Natural Language Classifier | Gehostet in Dallas | Gehostet in Washington DC | 
@@ -188,11 +188,11 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Continuous Delivery | Gehostet in London | Gehostet in Frankfurt | 
 | Cost and Asset Management | Nicht verfügbar | Nicht verfügbar | 
 | Data Store for Memcache | Nicht verfügbar | Nicht verfügbar | 
-| Databases for Elasticsearch | Gehostet in London | Gehostet in Frankfurt | 
-| Databases for MongoDB | Gehostet in London | Gehostet in Frankfurt | 
-| Databases for PostgreSQL | Gehostet in London | Gehostet in Frankfurt | 
-| Databases for Redis | Gehostet in London | Gehostet in Frankfurt | 
-| Databases for etcd | Gehostet in London | Gehostet in Frankfurt | 
+| Databases for Elasticsearch | Nicht verfügbar | Nicht verfügbar | 
+| Databases for MongoDB | Nicht verfügbar | Nicht verfügbar | 
+| Databases for PostgreSQL | Nicht verfügbar | Nicht verfügbar | 
+| Databases for Redis | Nicht verfügbar | Nicht verfügbar | 
+| Databases for etcd | Nicht verfügbar | Nicht verfügbar | 
 | Db2 | Gehostet in London | Gehostet in Frankfurt | 
 | Db2 Hosted | Gehostet in London | Gehostet in Frankfurt | 
 | Db2 Warehouse | Gehostet in London | Gehostet in Frankfurt | 
@@ -230,7 +230,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Machine Learning | Gehostet in London | Gehostet in Frankfurt | 
 | Managed Financial Data API | Nicht verfügbar | Nicht verfügbar | 
 | Master Data Management | Gehostet in London | Gehostet in Frankfurt | 
-| Messages for RabbitMQ | Gehostet in London | Gehostet in Frankfurt | 
+| Messages for RabbitMQ | Nicht verfügbar | Nicht verfügbar | 
 | Mobile Foundation | Gehostet in London | Gehostet in Frankfurt | 
 | Monitoring | Gehostet in London | Syndiziert aus Dallas | 
 | Natural Language Classifier | Nicht verfügbar | Gehostet in Frankfurt | 
@@ -310,11 +310,11 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Continuous Delivery | Nicht verfügbar | Gehostet in Tokio | 
 | Cost and Asset Management | Nicht verfügbar | Nicht verfügbar | 
 | Data Store for Memcache | Nicht verfügbar | Nicht verfügbar | 
-| Databases for Elasticsearch | Gehostet in Sydney | Gehostet in Tokio | 
-| Databases for MongoDB | Gehostet in Sydney | Gehostet in Tokio | 
-| Databases for PostgreSQL | Gehostet in Sydney | Gehostet in Tokio | 
-| Databases for Redis | Gehostet in Sydney | Gehostet in Tokio | 
-| Databases for etcd | Gehostet in Sydney | Gehostet in Tokio | 
+| Databases for Elasticsearch | Gehostet in Sydney | Nicht verfügbar | 
+| Databases for MongoDB | Gehostet in Sydney | Nicht verfügbar | 
+| Databases for PostgreSQL | Gehostet in Sydney | Nicht verfügbar | 
+| Databases for Redis | Gehostet in Sydney | Nicht verfügbar | 
+| Databases for etcd | Gehostet in Sydney | Nicht verfügbar | 
 | Db2 | Gehostet in Sydney | Nicht verfügbar | 
 | Db2 Hosted | Gehostet in Sydney | Nicht verfügbar | 
 | Db2 Warehouse | Gehostet in Sydney | Nicht verfügbar | 
@@ -352,7 +352,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Machine Learning | Nicht verfügbar | Gehostet in Tokio | 
 | Managed Financial Data API | Nicht verfügbar | Nicht verfügbar | 
 | Master Data Management | Gehostet in Sydney | Nicht verfügbar | 
-| Messages for RabbitMQ | Gehostet in Sydney | Gehostet in Tokio | 
+| Messages for RabbitMQ | Gehostet in Sydney | Nicht verfügbar | 
 | Mobile Foundation | Gehostet in Sydney | Nicht verfügbar | 
 | Monitoring | Gehostet in Sydney | Nicht verfügbar | 
 | Natural Language Classifier | Nicht verfügbar | Gehostet in Tokio | 

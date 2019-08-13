@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-30"
+lastupdated: "2019-08-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -67,11 +67,11 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Fornitura continua | Ospitato a Dallas | Ospitato a Washington DC | 
 | Cost and Asset Management | Ospitato a Dallas | Non disponibile | 
 | Data Store for Memcache | Ospitato a Dallas | Non disponibile | 
-| Databases for Elasticsearch | Ospitato a Dallas | Ospitato a Washington DC | 
-| Databases for MongoDB | Ospitato a Dallas | Ospitato a Washington DC | 
-| Databases for PostgreSQL | Ospitato a Dallas | Ospitato a Washington DC | 
-| Databases for Redis | Ospitato a Dallas | Ospitato a Washington DC | 
-| Databases for etcd | Ospitato a Dallas | Ospitato a Washington DC | 
+| Databases for Elasticsearch | Non disponibile | Non disponibile | 
+| Databases for MongoDB | Non disponibile | Non disponibile | 
+| Databases for PostgreSQL | Non disponibile | Non disponibile | 
+| Databases for Redis | Non disponibile | Non disponibile | 
+| Databases for etcd | Non disponibile | Non disponibile | 
 | Db2 | Ospitato a Dallas | Non disponibile | 
 | Db2 Hosted | Ospitato a Dallas | Non disponibile | 
 | Warehouse Db2 | Ospitato a Dallas | Non disponibile | 
@@ -109,7 +109,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Machine Learning | Ospitato a Dallas | Non disponibile | 
 | Managed Financial Data API | Ospitato a Dallas | Ospitato a Washington DC | 
 | Master Data Management | Ospitato a Dallas | Non disponibile | 
-| Messages for RabbitMQ | Ospitato a Dallas | Ospitato a Washington DC | 
+| Messages for RabbitMQ | Non disponibile | Non disponibile | 
 | Mobile Foundation | Ospitato a Dallas | Ospitato a Washington DC | 
 | Monitoraggio | Ospitato a Dallas | Non disponibile | 
 | Natural Language Classifier | Ospitato a Dallas | Ospitato a Washington DC | 
@@ -189,11 +189,11 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Fornitura continua | Ospitato a Londra | Ospitato a Francoforte | 
 | Cost and Asset Management | Non disponibile | Non disponibile | 
 | Data Store for Memcache | Non disponibile | Non disponibile | 
-| Databases for Elasticsearch | Ospitato a Londra | Ospitato a Francoforte | 
-| Databases for MongoDB | Ospitato a Londra | Ospitato a Francoforte | 
-| Databases for PostgreSQL | Ospitato a Londra | Ospitato a Francoforte | 
-| Databases for Redis | Ospitato a Londra | Ospitato a Francoforte | 
-| Databases for etcd | Ospitato a Londra | Ospitato a Francoforte | 
+| Databases for Elasticsearch | Non disponibile | Non disponibile | 
+| Databases for MongoDB | Non disponibile | Non disponibile | 
+| Databases for PostgreSQL | Non disponibile | Non disponibile | 
+| Databases for Redis | Non disponibile | Non disponibile | 
+| Databases for etcd | Non disponibile | Non disponibile | 
 | Db2 | Ospitato a Londra | Ospitato a Francoforte | 
 | Db2 Hosted | Ospitato a Londra | Ospitato a Francoforte | 
 | Warehouse Db2 | Ospitato a Londra | Ospitato a Francoforte | 
@@ -231,7 +231,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Machine Learning | Ospitato a Londra | Ospitato a Francoforte | 
 | Managed Financial Data API | Non disponibile | Non disponibile | 
 | Master Data Management | Ospitato a Londra | Ospitato a Francoforte | 
-| Messages for RabbitMQ | Ospitato a Londra | Ospitato a Francoforte | 
+| Messages for RabbitMQ | Non disponibile | Non disponibile | 
 | Mobile Foundation | Ospitato a Londra | Ospitato a Francoforte | 
 | Monitoraggio | Ospitato a Londra | Diffuso da Dallas | 
 | Natural Language Classifier | Non disponibile | Ospitato a Francoforte | 
@@ -311,11 +311,11 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Fornitura continua | Non disponibile | Ospitato a Tokyo | 
 | Cost and Asset Management | Non disponibile | Non disponibile | 
 | Data Store for Memcache | Non disponibile | Non disponibile | 
-| Databases for Elasticsearch | Ospitato a Sydney | Ospitato a Tokyo | 
-| Databases for MongoDB | Ospitato a Sydney | Ospitato a Tokyo | 
-| Databases for PostgreSQL | Ospitato a Sydney | Ospitato a Tokyo | 
-| Databases for Redis | Ospitato a Sydney | Ospitato a Tokyo | 
-| Databases for etcd | Ospitato a Sydney | Ospitato a Tokyo | 
+| Databases for Elasticsearch | Ospitato a Sydney | Non disponibile | 
+| Databases for MongoDB | Ospitato a Sydney | Non disponibile | 
+| Databases for PostgreSQL | Ospitato a Sydney | Non disponibile | 
+| Databases for Redis | Ospitato a Sydney | Non disponibile | 
+| Databases for etcd | Ospitato a Sydney | Non disponibile | 
 | Db2 | Ospitato a Sydney | Non disponibile | 
 | Db2 Hosted | Ospitato a Sydney | Non disponibile | 
 | Warehouse Db2 | Ospitato a Sydney | Non disponibile | 
@@ -353,7 +353,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Machine Learning | Non disponibile | Ospitato a Tokyo | 
 | Managed Financial Data API | Non disponibile | Non disponibile | 
 | Master Data Management | Ospitato a Sydney | Non disponibile | 
-| Messages for RabbitMQ | Ospitato a Sydney | Ospitato a Tokyo | 
+| Messages for RabbitMQ | Ospitato a Sydney | Non disponibile | 
 | Mobile Foundation | Ospitato a Sydney | Non disponibile | 
 | Monitoraggio | Ospitato a Sydney | Non disponibile | 
 | Natural Language Classifier | Non disponibile | Ospitato a Tokyo | 

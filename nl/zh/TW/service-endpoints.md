@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-05"
 
 keywords: service endpoint, private network endpoint, connect service to private network
 
@@ -18,7 +18,7 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# 專用網路連線的服務端點
+# 使用服務端點的安全存取服務
 {: #service-endpoints}
 
 使用雲端服務來處理正式作業工作負載的客戶需要提高對安全的專注。對許多客戶來說，以安全方式存取服務，並不只是明智的公司原則，在有些情況下也是法規規定所需。對於需要隔離連線功能選項來處理工作負載的客戶，{{site.data.keyword.IBM_notm}} 已加強連線功能選項。 

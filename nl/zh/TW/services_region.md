@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-30"
+lastupdated: "2019-08-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -66,11 +66,11 @@ subcollection: resources
 |Continuous Delivery|在達拉斯進行管理|在華盛頓特區進行管理| 
 |Cost and Asset Management |在達拉斯進行管理|不適用 | 
 | Data Store for Memcache |在達拉斯進行管理|不適用 | 
-| Databases for Elasticsearch |在達拉斯進行管理|在華盛頓特區進行管理| 
-| Databases for MongoDB |在達拉斯進行管理|在華盛頓特區進行管理| 
-| Databases for PostgreSQL |在達拉斯進行管理|在華盛頓特區進行管理| 
-| Databases for Redis |在達拉斯進行管理|在華盛頓特區進行管理| 
-| Databases for etcd |在達拉斯進行管理|在華盛頓特區進行管理| 
+| Databases for Elasticsearch |不適用 |不適用 | 
+| Databases for MongoDB |不適用 |不適用 | 
+| Databases for PostgreSQL |不適用 |不適用 | 
+| Databases for Redis |不適用 |不適用 | 
+| Databases for etcd |不適用 |不適用 | 
 |Db2 |在達拉斯進行管理|不適用 | 
 |Db2 Hosted |在達拉斯進行管理|不適用 | 
 |Db2 Warehouse |在達拉斯進行管理|不適用 | 
@@ -108,7 +108,7 @@ subcollection: resources
 |Machine Learning |在達拉斯進行管理|不適用 | 
 |Managed Financial Data API |在達拉斯進行管理|在華盛頓特區進行管理| 
 |Master Data Management |在達拉斯進行管理|不適用 | 
-| Messages for RabbitMQ |在達拉斯進行管理|在華盛頓特區進行管理| 
+| Messages for RabbitMQ |不適用 |不適用 | 
 |Mobile Foundation|在達拉斯進行管理|在華盛頓特區進行管理| 
 |Monitoring |在達拉斯進行管理|不適用 | 
 |Natural Language Classifier|在達拉斯進行管理|在華盛頓特區進行管理| 
@@ -188,11 +188,11 @@ subcollection: resources
 |Continuous Delivery|在倫敦進行管理|在法蘭克福進行管理| 
 |Cost and Asset Management |不適用 |不適用 | 
 | Data Store for Memcache |不適用 |不適用 | 
-| Databases for Elasticsearch |在倫敦進行管理|在法蘭克福進行管理| 
-| Databases for MongoDB |在倫敦進行管理|在法蘭克福進行管理| 
-| Databases for PostgreSQL |在倫敦進行管理|在法蘭克福進行管理| 
-| Databases for Redis |在倫敦進行管理|在法蘭克福進行管理| 
-| Databases for etcd |在倫敦進行管理|在法蘭克福進行管理| 
+| Databases for Elasticsearch |不適用 |不適用 | 
+| Databases for MongoDB |不適用 |不適用 | 
+| Databases for PostgreSQL |不適用 |不適用 | 
+| Databases for Redis |不適用 |不適用 | 
+| Databases for etcd |不適用 |不適用 | 
 |Db2 |在倫敦進行管理|在法蘭克福進行管理| 
 |Db2 Hosted |在倫敦進行管理|在法蘭克福進行管理| 
 |Db2 Warehouse |在倫敦進行管理|在法蘭克福進行管理| 
@@ -230,7 +230,7 @@ subcollection: resources
 |Machine Learning |在倫敦進行管理|在法蘭克福進行管理| 
 |Managed Financial Data API |不適用 |不適用 | 
 |Master Data Management |在倫敦進行管理|在法蘭克福進行管理| 
-| Messages for RabbitMQ |在倫敦進行管理|在法蘭克福進行管理| 
+| Messages for RabbitMQ |不適用 |不適用 | 
 |Mobile Foundation|在倫敦進行管理|在法蘭克福進行管理| 
 |Monitoring |在倫敦進行管理|從達拉斯進行聯合發佈| 
 |Natural Language Classifier|不適用 |在法蘭克福進行管理| 
@@ -310,11 +310,11 @@ subcollection: resources
 |Continuous Delivery|不適用 |在東京進行管理| 
 |Cost and Asset Management |不適用 |不適用 | 
 | Data Store for Memcache |不適用 |不適用 | 
-| Databases for Elasticsearch |在雪梨進行管理|在東京進行管理| 
-| Databases for MongoDB |在雪梨進行管理|在東京進行管理| 
-| Databases for PostgreSQL |在雪梨進行管理|在東京進行管理| 
-| Databases for Redis |在雪梨進行管理|在東京進行管理| 
-| Databases for etcd |在雪梨進行管理|在東京進行管理| 
+| Databases for Elasticsearch |在雪梨進行管理|不適用 | 
+| Databases for MongoDB |在雪梨進行管理|不適用 | 
+| Databases for PostgreSQL |在雪梨進行管理|不適用 | 
+| Databases for Redis |在雪梨進行管理|不適用 | 
+| Databases for etcd |在雪梨進行管理|不適用 | 
 |Db2 |在雪梨進行管理|不適用 | 
 |Db2 Hosted |在雪梨進行管理|不適用 | 
 |Db2 Warehouse |在雪梨進行管理|不適用 | 
@@ -352,7 +352,7 @@ subcollection: resources
 |Machine Learning |不適用 |在東京進行管理| 
 |Managed Financial Data API |不適用 |不適用 | 
 |Master Data Management |在雪梨進行管理|不適用 | 
-| Messages for RabbitMQ |在雪梨進行管理|在東京進行管理| 
+| Messages for RabbitMQ |在雪梨進行管理|不適用 | 
 |Mobile Foundation|在雪梨進行管理|不適用 | 
 |Monitoring |在雪梨進行管理|不適用 | 
 |Natural Language Classifier|不適用 |在東京進行管理| 

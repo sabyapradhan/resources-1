@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="resources" audience="platform" arm="3816100" href="/docs/resources?topic=resources-resource#resource" path="resources"}
+{: .toc subcollection="resources" category="platform_services" audience="platform" arm="3816100" href="/docs/resources?topic=resources-resource#resource" path="resources"}
 使用資源和服務
 
     {: .navgroup id="learn"}
@@ -27,28 +27,28 @@
         connecting_apps.md
         service_credentials.md
         connect_external_app.md
-        service_in_other_regions.md
         s2s.md
+        service_in_other_regions.md
         using-services.md
-
+        
     {: .topicgroup}
     透過專用網路連接服務
-        /direct-link/direct-link-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud
         service-endpoints.md
         private-network-endpoints.md
-    {: .navgroup-end}  
+        /direct-link/direct-link-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud
+    {: .navgroup-end}    
 
     {: .navgroup id="reference"}
     tagging_sample_syntax.md
-
+    
     {: .topicgroup}
     指令參考資料
         /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_resource
         /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_services
         /cli/reference/ibmcloud/cloud-cli-ibmcloud_catalog
-
+        
     {: .topicgroup}
-    API 參考資料
+    API 參考資料  
         [IBM Cloud Resource Manager API](https://{DomainName}/apidocs/resource-manager){: new_window}
         [IBM Cloud Resource Controller API](https://{DomainName}/apidocs/resource-controller){: new_window}
         [廣域搜尋及標記 - 標記 API](https://{DomainName}/apidocs/tagging){: new_window}
