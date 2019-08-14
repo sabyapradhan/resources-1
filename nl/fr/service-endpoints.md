@@ -1,8 +1,8 @@
----
+﻿---
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-05"
 
 keywords: service endpoint, private network endpoint, connect service to private network
 
@@ -18,7 +18,7 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# Noeuds finaux de service pour connexions de réseau privé
+# Accès sécurisé aux services à l'aide des noeuds finaux de service
 {: #service-endpoints}
 
 Une attention accrue en matière de sécurité est requise de la part des clients utilisant des services cloud pour les charges de travail de production. Pour de nombreux clients, l'accès aux services de manière sécurisée n'est pas seulement une politique d'entreprise judicieuse mais il s'agit aussi, dans certains cas, d'une obligation de conformité à des réglementations en vigueur. {{site.data.keyword.IBM_notm}} a amélioré les options de connectivité pour les clients qui nécessitent des options de connectivité isolées pour leurs charges de travail. 
@@ -30,6 +30,6 @@ Avec les noeuds finaux de service {{site.data.keyword.cloud}}, vous pouvez vous 
 
 La figure suivante montre comment le trafic est acheminé via le réseau privé d'{{site.data.keyword.cloud_notm}} lors de l'accès aux services cloud via les noeuds finaux de service :
 
-![Noeud final de service IBM Cloud](images/CSE.png "Trafic acheminé via un noeud final de service")
+![Noeud final de service IBM Cloud](images/CSE.png "Trafic acheminé via un noeud final de service"){: caption="Figure 1. Trafic acheminé via un noeud final de service" caption-side="bottom"}
 
-Pour utiliser des noeuds finaux de service {{site.data.keyword.cloud_notm}}, vous devez activer la fonction de routage et transfert virtuel (VRF) dans votre compte. Vous pouvez ensuite activer l'utilisation des noeuds finaux de service. Une fois que les deux options sont activées, vous pouvez commencer à créer des services qui prennent en charge l'utilisation de la fonction VRF et des noeuds finaux de service du catalogue. Pour plus d'informations, voir [Activation de VRF et des noeuds finaux de service](/docs/account?topic=account-vrf-service-endpoint).
+Pour utiliser des noeuds finaux de service {{site.data.keyword.cloud_notm}}, vous devez activer la fonction de routage et transfert virtuel (VRF) dans votre compte.  Vous pouvez ensuite activer l'utilisation des noeuds finaux de service. Une fois que les deux options sont activées, vous pouvez commencer à créer des services qui prennent en charge l'utilisation de la fonction VRF et des noeuds finaux de service du catalogue. Pour plus d'informations, voir [Activation de VRF et des noeuds finaux de service](/docs/account?topic=account-vrf-service-endpoint).

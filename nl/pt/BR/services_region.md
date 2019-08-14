@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-30"
+lastupdated: "2019-08-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -66,11 +66,11 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Continuous Delivery | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Cost and Asset Management | Hospedado em Dallas | Não está disponível | 
 | Data Store for Memcache | Hospedado em Dallas | Não está disponível | 
-| Databases for Elasticsearch | Hospedado em Dallas | Hospedado em Washington, D.C. | 
-| Databases for MongoDB | Hospedado em Dallas | Hospedado em Washington, D.C. | 
-| Databases for PostgreSQL | Hospedado em Dallas | Hospedado em Washington, D.C. | 
-| Databases for Redis | Hospedado em Dallas | Hospedado em Washington, D.C. | 
-| Databases for etcd | Hospedado em Dallas | Hospedado em Washington, D.C. | 
+| Databases for Elasticsearch | Não está disponível | Não está disponível | 
+| Databases for MongoDB | Não está disponível | Não está disponível | 
+| Databases for PostgreSQL | Não está disponível | Não está disponível | 
+| Databases for Redis | Não está disponível | Não está disponível | 
+| Databases for etcd | Não está disponível | Não está disponível | 
 | DB2 | Hospedado em Dallas | Não está disponível | 
 | Db2 Hosted | Hospedado em Dallas | Não está disponível | 
 | DB2 Warehouse | Hospedado em Dallas | Não está disponível | 
@@ -108,7 +108,7 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Machine Learning | Hospedado em Dallas | Não está disponível | 
 | Managed Financial Data API | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Master Data Management | Hospedado em Dallas | Não está disponível | 
-| Messages for RabbitMQ | Hospedado em Dallas | Hospedado em Washington, D.C. | 
+| Messages for RabbitMQ | Não está disponível | Não está disponível | 
 | Mobile Foundation | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Monitoring | Hospedado em Dallas | Não está disponível | 
 | Natural Language Classifier | Hospedado em Dallas | Hospedado em Washington, D.C. | 
@@ -188,11 +188,11 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Continuous Delivery | Hospedado em Londres | Hospedado em Frankfurt | 
 | Cost and Asset Management | Não está disponível | Não está disponível | 
 | Data Store for Memcache | Não está disponível | Não está disponível | 
-| Databases for Elasticsearch | Hospedado em Londres | Hospedado em Frankfurt | 
-| Databases for MongoDB | Hospedado em Londres | Hospedado em Frankfurt | 
-| Databases for PostgreSQL | Hospedado em Londres | Hospedado em Frankfurt | 
-| Databases for Redis | Hospedado em Londres | Hospedado em Frankfurt | 
-| Databases for etcd | Hospedado em Londres | Hospedado em Frankfurt | 
+| Databases for Elasticsearch | Não está disponível | Não está disponível | 
+| Databases for MongoDB | Não está disponível | Não está disponível | 
+| Databases for PostgreSQL | Não está disponível | Não está disponível | 
+| Databases for Redis | Não está disponível | Não está disponível | 
+| Databases for etcd | Não está disponível | Não está disponível | 
 | DB2 | Hospedado em Londres | Hospedado em Frankfurt | 
 | Db2 Hosted | Hospedado em Londres | Hospedado em Frankfurt | 
 | DB2 Warehouse | Hospedado em Londres | Hospedado em Frankfurt | 
@@ -230,7 +230,7 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Machine Learning | Hospedado em Londres | Hospedado em Frankfurt | 
 | Managed Financial Data API | Não está disponível | Não está disponível | 
 | Master Data Management | Hospedado em Londres | Hospedado em Frankfurt | 
-| Messages for RabbitMQ | Hospedado em Londres | Hospedado em Frankfurt | 
+| Messages for RabbitMQ | Não está disponível | Não está disponível | 
 | Mobile Foundation | Hospedado em Londres | Hospedado em Frankfurt | 
 | Monitoring | Hospedado em Londres | Organizado em Dallas | 
 | Natural Language Classifier | Não está disponível | Hospedado em Frankfurt | 
@@ -310,11 +310,11 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Continuous Delivery | Não está disponível | Hospedado em Tóquio | 
 | Cost and Asset Management | Não está disponível | Não está disponível | 
 | Data Store for Memcache | Não está disponível | Não está disponível | 
-| Databases for Elasticsearch | Hospedado em Sydney | Hospedado em Tóquio | 
-| Databases for MongoDB | Hospedado em Sydney | Hospedado em Tóquio | 
-| Databases for PostgreSQL | Hospedado em Sydney | Hospedado em Tóquio | 
-| Databases for Redis | Hospedado em Sydney | Hospedado em Tóquio | 
-| Databases for etcd | Hospedado em Sydney | Hospedado em Tóquio | 
+| Databases for Elasticsearch | Hospedado em Sydney | Não está disponível | 
+| Databases for MongoDB | Hospedado em Sydney | Não está disponível | 
+| Databases for PostgreSQL | Hospedado em Sydney | Não está disponível | 
+| Databases for Redis | Hospedado em Sydney | Não está disponível | 
+| Databases for etcd | Hospedado em Sydney | Não está disponível | 
 | DB2 | Hospedado em Sydney | Não está disponível | 
 | Db2 Hosted | Hospedado em Sydney | Não está disponível | 
 | DB2 Warehouse | Hospedado em Sydney | Não está disponível | 
@@ -352,7 +352,7 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Machine Learning | Não está disponível | Hospedado em Tóquio | 
 | Managed Financial Data API | Não está disponível | Não está disponível | 
 | Master Data Management | Hospedado em Sydney | Não está disponível | 
-| Messages for RabbitMQ | Hospedado em Sydney | Hospedado em Tóquio | 
+| Messages for RabbitMQ | Hospedado em Sydney | Não está disponível | 
 | Mobile Foundation | Hospedado em Sydney | Não está disponível | 
 | Monitoring | Hospedado em Sydney | Não está disponível | 
 | Natural Language Classifier | Não está disponível | Hospedado em Tóquio | 

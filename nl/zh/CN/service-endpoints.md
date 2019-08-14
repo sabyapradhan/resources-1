@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-05"
 
 keywords: service endpoint, private network endpoint, connect service to private network
 
@@ -18,7 +18,7 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# 专用网络连接的服务端点
+# 使用服务端点安全访问服务
 {: #service-endpoints}
 
 针对生产工作负载使用基于云的服务的客户需要更多关注安全性。对于许多客户而言，以安全方式访问服务不仅是明智的公司政策，而且在某些情况下，也是遵守法规的要求。{{site.data.keyword.IBM_notm}} 为需要将隔离连接选项用于其工作负载的客户增强了连接选项。 

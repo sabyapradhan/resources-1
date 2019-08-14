@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-30"
+lastupdated: "2019-08-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -66,11 +66,11 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Continuous Delivery | Hébergé à Dallas | Hébergé à Washington DC | 
 | Cost and Asset Management | Hébergé à Dallas | Indisponible | 
 | Data Store for Memcache | Hébergé à Dallas | Indisponible | 
-| Databases for Elasticsearch | Hébergé à Dallas | Hébergé à Washington DC | 
-| Databases for MongoDB | Hébergé à Dallas | Hébergé à Washington DC | 
-| Databases for PostgreSQL | Hébergé à Dallas | Hébergé à Washington DC | 
-| Databases for Redis | Hébergé à Dallas | Hébergé à Washington DC | 
-| Databases for etcd | Hébergé à Dallas | Hébergé à Washington DC | 
+| Databases for Elasticsearch | Indisponible | Indisponible | 
+| Databases for MongoDB | Indisponible | Indisponible | 
+| Databases for PostgreSQL | Indisponible | Indisponible | 
+| Databases for Redis | Indisponible | Indisponible | 
+| Databases for etcd | Indisponible | Indisponible | 
 | Db2 | Hébergé à Dallas | Indisponible | 
 | Db2 hébergé | Hébergé à Dallas | Indisponible | 
 | Db2 Warehouse | Hébergé à Dallas | Indisponible | 
@@ -108,7 +108,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Machine Learning | Hébergé à Dallas | Indisponible | 
 | Managed Financial Data API | Hébergé à Dallas | Hébergé à Washington DC | 
 | Master Data Management | Hébergé à Dallas | Indisponible | 
-| Messages for RabbitMQ | Hébergé à Dallas | Hébergé à Washington DC | 
+| Messages for RabbitMQ | Indisponible | Indisponible | 
 | Mobile Foundation | Hébergé à Dallas | Hébergé à Washington DC | 
 | Surveillance | Hébergé à Dallas | Indisponible | 
 | Natural Language Classifier | Hébergé à Dallas | Hébergé à Washington DC | 
@@ -188,11 +188,11 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Continuous Delivery | Hébergé à Londres | Hébergé à Francfort | 
 | Cost and Asset Management | Indisponible | Indisponible | 
 | Data Store for Memcache | Indisponible | Indisponible | 
-| Databases for Elasticsearch | Hébergé à Londres | Hébergé à Francfort | 
-| Databases for MongoDB | Hébergé à Londres | Hébergé à Francfort | 
-| Databases for PostgreSQL | Hébergé à Londres | Hébergé à Francfort | 
-| Databases for Redis | Hébergé à Londres | Hébergé à Francfort | 
-| Databases for etcd | Hébergé à Londres | Hébergé à Francfort | 
+| Databases for Elasticsearch | Indisponible | Indisponible | 
+| Databases for MongoDB | Indisponible | Indisponible | 
+| Databases for PostgreSQL | Indisponible | Indisponible | 
+| Databases for Redis | Indisponible | Indisponible | 
+| Databases for etcd | Indisponible | Indisponible | 
 | Db2 | Hébergé à Londres | Hébergé à Francfort | 
 | Db2 hébergé | Hébergé à Londres | Hébergé à Francfort | 
 | Db2 Warehouse | Hébergé à Londres | Hébergé à Francfort | 
@@ -230,7 +230,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Machine Learning | Hébergé à Londres | Hébergé à Francfort | 
 | Managed Financial Data API | Indisponible | Indisponible | 
 | Master Data Management | Hébergé à Londres | Hébergé à Francfort | 
-| Messages for RabbitMQ | Hébergé à Londres | Hébergé à Francfort | 
+| Messages for RabbitMQ | Indisponible | Indisponible | 
 | Mobile Foundation | Hébergé à Londres | Hébergé à Francfort | 
 | Surveillance | Hébergé à Londres | Syndiqué avec Dallas | 
 | Natural Language Classifier | Indisponible | Hébergé à Francfort | 
@@ -310,11 +310,11 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Continuous Delivery | Indisponible | Hébergé à Tokyo | 
 | Cost and Asset Management | Indisponible | Indisponible | 
 | Data Store for Memcache | Indisponible | Indisponible | 
-| Databases for Elasticsearch | Hébergé à Sydney | Hébergé à Tokyo | 
-| Databases for MongoDB | Hébergé à Sydney | Hébergé à Tokyo | 
-| Databases for PostgreSQL | Hébergé à Sydney | Hébergé à Tokyo | 
-| Databases for Redis | Hébergé à Sydney | Hébergé à Tokyo | 
-| Databases for etcd | Hébergé à Sydney | Hébergé à Tokyo | 
+| Databases for Elasticsearch | Hébergé à Sydney | Indisponible | 
+| Databases for MongoDB | Hébergé à Sydney | Indisponible | 
+| Databases for PostgreSQL | Hébergé à Sydney | Indisponible | 
+| Databases for Redis | Hébergé à Sydney | Indisponible | 
+| Databases for etcd | Hébergé à Sydney | Indisponible | 
 | Db2 | Hébergé à Sydney | Indisponible | 
 | Db2 hébergé | Hébergé à Sydney | Indisponible | 
 | Db2 Warehouse | Hébergé à Sydney | Indisponible | 
@@ -352,7 +352,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Machine Learning | Indisponible | Hébergé à Tokyo | 
 | Managed Financial Data API | Indisponible | Indisponible | 
 | Master Data Management | Hébergé à Sydney | Indisponible | 
-| Messages for RabbitMQ | Hébergé à Sydney | Hébergé à Tokyo | 
+| Messages for RabbitMQ | Hébergé à Sydney | Indisponible | 
 | Mobile Foundation | Hébergé à Sydney | Indisponible | 
 | Surveillance | Hébergé à Sydney | Indisponible | 
 | Natural Language Classifier | Indisponible | Hébergé à Tokyo | 

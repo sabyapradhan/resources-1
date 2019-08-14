@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-30"
+lastupdated: "2019-08-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -66,11 +66,11 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Continuous Delivery | Alojado en Dallas | Alojado en Washington DC | 
 | Cost and Asset Management | Alojado en Dallas | No disponible | 
 | Data Store for Memcache | Alojado en Dallas | No disponible | 
-| Databases for Elasticsearch | Alojado en Dallas | Alojado en Washington DC | 
-| Databases for MongoDB | Alojado en Dallas | Alojado en Washington DC | 
-| Databases for PostgreSQL | Alojado en Dallas | Alojado en Washington DC | 
-| Databases for Redis | Alojado en Dallas | Alojado en Washington DC | 
-| Databases for etcd | Alojado en Dallas | Alojado en Washington DC | 
+| Databases for Elasticsearch | No disponible | No disponible | 
+| Databases for MongoDB | No disponible | No disponible | 
+| Databases for PostgreSQL | No disponible | No disponible | 
+| Databases for Redis | No disponible | No disponible | 
+| Databases for etcd | No disponible | No disponible | 
 | Db2 | Alojado en Dallas | No disponible | 
 | Db2 Hosted | Alojado en Dallas | No disponible | 
 | Db2 Warehouse | Alojado en Dallas | No disponible | 
@@ -108,7 +108,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Machine Learning | Alojado en Dallas | No disponible | 
 | API Managed Financial Data | Alojado en Dallas | Alojado en Washington DC | 
 | Master Data Management | Alojado en Dallas | No disponible | 
-| Messages for RabbitMQ | Alojado en Dallas | Alojado en Washington DC | 
+| Messages for RabbitMQ | No disponible | No disponible | 
 | Mobile Foundation | Alojado en Dallas | Alojado en Washington DC | 
 | Supervisión | Alojado en Dallas | No disponible | 
 | Natural Language Classifier | Alojado en Dallas | Alojado en Washington DC | 
@@ -188,11 +188,11 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Continuous Delivery | Alojado en Londres | Alojado en Frankfurt | 
 | Cost and Asset Management | No disponible | No disponible | 
 | Data Store for Memcache | No disponible | No disponible | 
-| Databases for Elasticsearch | Alojado en Londres | Alojado en Frankfurt | 
-| Databases for MongoDB | Alojado en Londres | Alojado en Frankfurt | 
-| Databases for PostgreSQL | Alojado en Londres | Alojado en Frankfurt | 
-| Databases for Redis | Alojado en Londres | Alojado en Frankfurt | 
-| Databases for etcd | Alojado en Londres | Alojado en Frankfurt | 
+| Databases for Elasticsearch | No disponible | No disponible | 
+| Databases for MongoDB | No disponible | No disponible | 
+| Databases for PostgreSQL | No disponible | No disponible | 
+| Databases for Redis | No disponible | No disponible | 
+| Databases for etcd | No disponible | No disponible | 
 | Db2 | Alojado en Londres | Alojado en Frankfurt | 
 | Db2 Hosted | Alojado en Londres | Alojado en Frankfurt | 
 | Db2 Warehouse | Alojado en Londres | Alojado en Frankfurt | 
@@ -230,7 +230,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Machine Learning | Alojado en Londres | Alojado en Frankfurt | 
 | API Managed Financial Data | No disponible | No disponible | 
 | Master Data Management | Alojado en Londres | Alojado en Frankfurt | 
-| Messages for RabbitMQ | Alojado en Londres | Alojado en Frankfurt | 
+| Messages for RabbitMQ | No disponible | No disponible | 
 | Mobile Foundation | Alojado en Londres | Alojado en Frankfurt | 
 | Supervisión | Alojado en Londres | Sindicado desde Dallas | 
 | Natural Language Classifier | No disponible | Alojado en Frankfurt | 
@@ -310,11 +310,11 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Continuous Delivery | No disponible | Alojado en Tokio | 
 | Cost and Asset Management | No disponible | No disponible | 
 | Data Store for Memcache | No disponible | No disponible | 
-| Databases for Elasticsearch | Alojado en Sídney | Alojado en Tokio | 
-| Databases for MongoDB | Alojado en Sídney | Alojado en Tokio | 
-| Databases for PostgreSQL | Alojado en Sídney | Alojado en Tokio | 
-| Databases for Redis | Alojado en Sídney | Alojado en Tokio | 
-| Databases for etcd | Alojado en Sídney | Alojado en Tokio | 
+| Databases for Elasticsearch | Alojado en Sídney | No disponible | 
+| Databases for MongoDB | Alojado en Sídney | No disponible | 
+| Databases for PostgreSQL | Alojado en Sídney | No disponible | 
+| Databases for Redis | Alojado en Sídney | No disponible | 
+| Databases for etcd | Alojado en Sídney | No disponible | 
 | Db2 | Alojado en Sídney | No disponible | 
 | Db2 Hosted | Alojado en Sídney | No disponible | 
 | Db2 Warehouse | Alojado en Sídney | No disponible | 
@@ -352,7 +352,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Machine Learning | No disponible | Alojado en Tokio | 
 | API Managed Financial Data | No disponible | No disponible | 
 | Master Data Management | Alojado en Sídney | No disponible | 
-| Messages for RabbitMQ | Alojado en Sídney | Alojado en Tokio | 
+| Messages for RabbitMQ | Alojado en Sídney | No disponible | 
 | Mobile Foundation | Alojado en Sídney | No disponible | 
 | Supervisión | Alojado en Sídney | No disponible | 
 | Natural Language Classifier | No disponible | Alojado en Tokio | 

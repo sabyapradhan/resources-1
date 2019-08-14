@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-30"
+lastupdated: "2019-08-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -66,11 +66,11 @@ subcollection: resources
 |Continuous Delivery | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Cost and Asset Management | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Data Store for Memcache | 댈러스에서 호스팅됨 |사용할 수 없음 | 
-| Databases for Elasticsearch | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
-| Databases for MongoDB | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
-|Databases for PostgreSQL | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
-|Databases for Redis | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
-| Databases for etcd | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
+| Databases for Elasticsearch |사용할 수 없음 |사용할 수 없음 | 
+| Databases for MongoDB |사용할 수 없음 |사용할 수 없음 | 
+|Databases for PostgreSQL |사용할 수 없음 |사용할 수 없음 | 
+|Databases for Redis |사용할 수 없음 |사용할 수 없음 | 
+| Databases for etcd |사용할 수 없음 |사용할 수 없음 | 
 |Db2 | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Db2 Hosted | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Db2 Warehouse | 댈러스에서 호스팅됨 |사용할 수 없음 | 
@@ -108,7 +108,7 @@ subcollection: resources
 |Machine Learning | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Managed Financial Data API | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Master Data Management | 댈러스에서 호스팅됨 |사용할 수 없음 | 
-| Messages for RabbitMQ | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
+| Messages for RabbitMQ |사용할 수 없음 |사용할 수 없음 | 
 |Mobile Foundation | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Monitoring | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Natural Language Classifier | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
@@ -188,11 +188,11 @@ subcollection: resources
 |Continuous Delivery | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Cost and Asset Management |사용할 수 없음 |사용할 수 없음 | 
 |Data Store for Memcache |사용할 수 없음 |사용할 수 없음 | 
-| Databases for Elasticsearch | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
-| Databases for MongoDB | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
-|Databases for PostgreSQL | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
-|Databases for Redis | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
-| Databases for etcd | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
+| Databases for Elasticsearch |사용할 수 없음 |사용할 수 없음 | 
+| Databases for MongoDB |사용할 수 없음 |사용할 수 없음 | 
+|Databases for PostgreSQL |사용할 수 없음 |사용할 수 없음 | 
+|Databases for Redis |사용할 수 없음 |사용할 수 없음 | 
+| Databases for etcd |사용할 수 없음 |사용할 수 없음 | 
 |Db2 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Db2 Hosted | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Db2 Warehouse | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
@@ -230,7 +230,7 @@ subcollection: resources
 |Machine Learning | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Managed Financial Data API |사용할 수 없음 |사용할 수 없음 | 
 |Master Data Management | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
-| Messages for RabbitMQ | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
+| Messages for RabbitMQ |사용할 수 없음 |사용할 수 없음 | 
 |Mobile Foundation | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Monitoring | 런던에서 호스팅됨 | 댈러스에서 신디케이트됨 | 
 |Natural Language Classifier |사용할 수 없음 | 프랑크푸르트에서 호스팅됨 | 
@@ -310,11 +310,11 @@ subcollection: resources
 |Continuous Delivery |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 |Cost and Asset Management |사용할 수 없음 |사용할 수 없음 | 
 |Data Store for Memcache |사용할 수 없음 |사용할 수 없음 | 
-| Databases for Elasticsearch |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
-| Databases for MongoDB |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
-|Databases for PostgreSQL |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
-|Databases for Redis |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
-| Databases for etcd |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
+| Databases for Elasticsearch |시드니에서 호스팅됨 |사용할 수 없음 | 
+| Databases for MongoDB |시드니에서 호스팅됨 |사용할 수 없음 | 
+|Databases for PostgreSQL |시드니에서 호스팅됨 |사용할 수 없음 | 
+|Databases for Redis |시드니에서 호스팅됨 |사용할 수 없음 | 
+| Databases for etcd |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Db2 |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Db2 Hosted |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Db2 Warehouse |시드니에서 호스팅됨 |사용할 수 없음 | 
@@ -352,7 +352,7 @@ subcollection: resources
 |Machine Learning |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 |Managed Financial Data API |사용할 수 없음 |사용할 수 없음 | 
 |Master Data Management |시드니에서 호스팅됨 |사용할 수 없음 | 
-| Messages for RabbitMQ |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
+| Messages for RabbitMQ |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Mobile Foundation |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Monitoring |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Natural Language Classifier |사용할 수 없음 | 도쿄에서 호스팅됨 | 

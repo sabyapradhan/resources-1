@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-05"
 
 keywords: set up private endpoints, private endpoint, connect service over private network, 
 
@@ -18,7 +18,7 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# 사설 네트워크 엔드포인트 설정
+# 서비스 엔드포인트 설정
 {: #private-network-endpoints}
 
 사설 네트워크를 통해 {{site.data.keyword.cloud}} 서비스에 연결하려면 클래식 인프라에 대한 액세스 권한을 가져야 하며 VRF(Virtual Routing and Forwarding) 및 계정의 서비스 엔드포인트에 대한 연결을 사용으로 설정해야 합니다. 그런 다음 사설 네트워크 연결을 위한 서비스 엔드포인트를 지원하는 서비스 작성을 시작할 수 있습니다.
@@ -28,14 +28,14 @@ subcollection: resources
 
 1. 계정에 {{site.data.keyword.cloud_notm}} 인프라에 대한 액세스 권한이 있는지 확인하십시오. **메뉴** 아이콘 ![메뉴 아이콘](../icons/icon_hamburger.svg) > **클래식 인프라**로 이동하여 액세스 권한이 있는지 확인하십시오.
 2. VRF에 대한 계정을 사용으로 설정하십시오. 자세한 정보는 [VRF(Virtual Routing and Forwarding) 사용](/docs/account?topic=account-vrf-service-endpoint#vrf)을 참조하십시오.
-3. 서비스 엔드포인트에 연결하기 위해 계정을 사용으로 설정하십시오. 자세한 정보는 [서비스 엔드포인트 사용](/docs/account?topic=account-vrf-service-endpoint#vrf)을 참조하십시오.
+3. 서비스 엔드포인트에 연결하기 위해 계정을 사용으로 설정하십시오. 자세한 정보는 [서비스 엔드포인트 사용](/docs/account?topic=account-vrf-service-endpoint#service-endpoint)을 참조하십시오.
 
-VRF와 서비스 엔드포인트 계정 설정을 사용으로 설정한 후 사설 네트워크 엔드포인트를 지원하는 카탈로그에서 리소스를 작성할 수 있습니다. 다음 표에는 사설 네트워크 엔드포인트 사용을 지원하는 서비스가 나열됩니다. 
+VRF와 서비스 엔드포인트 계정 설정을 사용으로 설정한 후 서비스 엔드포인트를 지원하는 카탈로그에서 리소스를 작성할 수 있습니다. 다음 표에는 서비스 엔드포인트 사용을 지원하는 서비스가 나열됩니다. 
 
 서비스 엔드포인트 사용에 대한 자세한 정보는 특정 서비스에 대한 문서를 참조하십시오.
 {: tip}
 
-## 사설 네트워크 엔드포인트를 지원하는 서비스
+## 서비스 엔드포인트를 지원하는 서비스
 {: #services-support-service-endpoints}
 
 |서비스 |문서 |

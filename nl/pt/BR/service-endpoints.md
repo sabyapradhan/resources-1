@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-05"
 
 keywords: service endpoint, private network endpoint, connect service to private network
 
@@ -18,7 +18,7 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# Terminais em serviço para conexões de rede privada
+# Acesso seguro a serviços usando terminais em serviço
 {: #service-endpoints}
 
 Um foco maior na segurança é necessário para clientes que usam serviços baseados em
@@ -52,7 +52,7 @@ terminais em serviço:
 
 
 Para usar os terminais em serviço do {{site.data.keyword.cloud_notm}},
-deve-se ativar o roteamento virtual e o encaminhamento (VRF) em sua conta. Em seguida, é
+deve-se ativar o roteamento virtual e o encaminhamento (VRF) em sua conta.  Em seguida, é
 possível ativar o uso de terminais em serviço. Após ambas as opções serem ativadas, é
 possível iniciar a criação de serviços que suportam o uso de VRF e de terminais em
 serviço a partir do catálogo. Para obter mais informações, consulte

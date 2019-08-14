@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-05"
 
 keywords: set up private endpoints, private endpoint, connect service over private network, 
 
@@ -18,7 +18,7 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# 设置专用网络端点
+# 设置服务端点
 {: #private-network-endpoints}
 
 要通过专用网络连接到 {{site.data.keyword.cloud}} 服务，您必须有权访问经典基础架构，并启用虚拟路由和转发 (VRF) 以及与帐户的服务端点的连接。然后，可以开始创建用于支持专用网络连接的服务端点的服务。
@@ -28,14 +28,14 @@ subcollection: resources
 
 1. 检查您是否有权在您的帐户中访问 {{site.data.keyword.cloud_notm}} 基础架构。转至**菜单**图标 ![“菜单”图标](../icons/icon_hamburger.svg) > **经典基础架构**以验证您是否具有访问权。
 2. 针对 VRF 启用帐户。有关更多信息，请参阅[启用虚拟路由和转发](/docs/account?topic=account-vrf-service-endpoint#vrf)。
-3. 针对与服务端点的连接启用帐户。有关更多信息，请参阅[启用服务端点](/docs/account?topic=account-vrf-service-endpoint#vrf)。
+3. 针对与服务端点的连接启用帐户。有关更多信息，请参阅[启用服务端点](/docs/account?topic=account-vrf-service-endpoint#service-endpoint)。
 
-启用 VRF 和服务端点帐户设置后，可以从目录创建支持专用网络端点的资源。下表列出了支持使用专用网络端点的服务。 
+启用 VRF 和服务端点帐户设置后，可以从目录创建支持服务端点的资源。下表列出了支持使用服务端点的服务。 
 
 请参阅特定服务的文档以获取有关使用服务端点的更多信息。
 {: tip}
 
-## 支持专用网络端点的服务
+## 支持服务端点的服务
 {: #services-support-service-endpoints}
 
 |服务|文档|

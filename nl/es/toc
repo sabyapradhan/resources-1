@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="resources" audience="platform" arm="3816100" href="/docs/resources?topic=resources-resource#resource" path="resources"}
+{: .toc subcollection="resources" category="platform_services" audience="platform" arm="3816100" href="/docs/resources?topic=resources-resource#resource" path="resources"}
 Cómo trabajar con recursos y servicios
 
     {: .navgroup id="learn"}
@@ -27,28 +27,29 @@ Cómo trabajar con recursos y servicios
         connecting_apps.md
         service_credentials.md
         connect_external_app.md
-        service_in_other_regions.md
         s2s.md
+        service_in_other_regions.md
         using-services.md
-
+        
     {: .topicgroup}
-    Conexión con servicios a través de una red privada
-        /direct-link/direct-link-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud
+    Conexión con servicios en una red privada
         service-endpoints.md
         private-network-endpoints.md
-    {: .navgroup-end}  
+        /direct-link/direct-link-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud
+    {: .navgroup-end}    
 
     {: .navgroup id="reference"}
     tagging_sample_syntax.md
-
+    
     {: .topicgroup}
     Consulta de mandatos
         /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_resource
         /cli/reference/ibmcloud/cloud-cli-ibmcloud_commands_services
         /cli/reference/ibmcloud/cloud-cli-ibmcloud_catalog
-
+        
     {: .topicgroup}
     Consulta de API
+          
         [API de gestor de recursos de IBM Cloud](https://{DomainName}/apidocs/resource-manager){: new_window}
         [API de controlador de recursos de IBM Cloud](https://{DomainName}/apidocs/resource-controller){: new_window}
         [Búsqueda global y etiquetado: API de etiquetado](https://{DomainName}/apidocs/tagging){: new_window}

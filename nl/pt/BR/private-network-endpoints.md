@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-05"
 
 keywords: set up private endpoints, private endpoint, connect service over private network, 
 
@@ -18,7 +18,7 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# Configurando terminais de rede privada
+# Configurando terminais em serviço
 {: #private-network-endpoints}
 
 Para se conectar aos serviços {{site.data.keyword.cloud}} por meio de uma rede privada, deve-se ter acesso à infraestrutura clássica e ativar roteamento virtual e encaminhamento (VRF) e conectividade com terminais em serviço para sua conta. Em seguida, é possível iniciar a criação de serviços que suportam terminais em serviço para uma conexão de rede privada.
@@ -28,14 +28,14 @@ Conclua as etapas a seguir para assegurar-se de que sua conta esteja configurada
 
 1. Verifique se você tem acesso à infraestrutura do {{site.data.keyword.cloud_notm}} em sua conta. Acesse o ícone **Menu** ![ícone Menu](../icons/icon_hamburger.svg) > **Infraestrutura Clássica** para verificar se você tem acesso.
 2. Ative sua conta para VRF. Para obter mais informações, consulte [Ativando o roteamento virtual e o encaminhamento](/docs/account?topic=account-vrf-service-endpoint#vrf).
-3. Ative sua conta para conectividade com terminais em serviço. Para obter mais informações, consulte [Ativando terminais em serviço](/docs/account?topic=account-vrf-service-endpoint#vrf).
+3. Ative sua conta para conectividade com terminais em serviço. Para obter mais informações, consulte [Ativando terminais em serviço](/docs/account?topic=account-vrf-service-endpoint#service-endpoint).
 
-Depois de ativar as configurações da conta do VRF e do terminal em serviço, é possível criar recursos a partir do catálogo que suportam terminais de rede privada. A tabela a seguir lista os serviços que suportam o uso de terminais de rede privada. 
+Depois de ativar as configurações de conta VRF e de terminal em serviço, será possível criar recursos por meio do catálogo que suportam terminais em serviço. A tabela a seguir lista os serviços que suportam o uso de terminais em serviço. 
 
 Consulte a documentação para o serviço específico para obter mais informações sobre o uso de terminais em serviço.
 {: tip}
 
-## Serviços que suportam terminais de rede privada
+## Serviços que suportam terminais em serviço
 {: #services-support-service-endpoints}
 
 | Serviço | Documentação |

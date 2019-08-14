@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-05"
 
 keywords: service endpoint, private network endpoint, connect service to private network
 
@@ -18,7 +18,7 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# Puntos finales de servicio para conexiones de red privada
+# Acceso seguro a servicios utilizando puntos finales de servicio
 {: #service-endpoints}
 
 Los clientes que utilizan servicios basados en la nube para cargas de trabajo de producción ponen cada vez más énfasis en la seguridad. Para muchos clientes, el acceso a los servicios de forma segura no es solo una política corporativa razonable, sino que en algunos casos es una exigencia legal de obligado cumplimiento. {{site.data.keyword.IBM_notm}} ha mejorado las opciones de conectividad para los clientes que necesitan opciones de conectividad aislada para sus cargas de trabajo. 

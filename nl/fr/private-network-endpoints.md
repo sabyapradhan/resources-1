@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-05"
 
 keywords: set up private endpoints, private endpoint, connect service over private network, 
 
@@ -18,7 +18,7 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# Configuration des noeuds finaux de réseau privé
+# Configuration de noeuds finaux de service
 {: #private-network-endpoints}
 
 Pour vous connecter aux services {{site.data.keyword.cloud}} sur un réseau privé, vous devez avoir accès à l'infrastructure classique et activer la fonction de routage et transfert virtuel (VRF), ainsi que la connectivité aux noeuds finaux de service pour votre compte. Vous pouvez ensuite commencer à créer des services qui prennent en charge les noeuds finaux de service pour une connexion de réseau privé.
@@ -28,14 +28,15 @@ Pour s'assurer que votre compte est configuré pour créer et utiliser des servi
 
 1. Vérifiez que vous avez accès à l'infrastructure {{site.data.keyword.cloud_notm}} dans votre compte. Accédez à l'icône **Menu** ![Icône Menu](../icons/icon_hamburger.svg) > **Infrastructure classique** pour vérifier que vous disposez de l'accès.
 2. Activez votre compte pour le routage et le transfert virtuel (VRF). Pour plus d'informations, voir [Activation de VRF](/docs/account?topic=account-vrf-service-endpoint#vrf).
-3. Activez votre compte pour la connectivité avec les noeuds finaux de service. Pour plus d'informations, voir [Activation des noeuds finaux de service](/docs/account?topic=account-vrf-service-endpoint#vrf).
+3. Activez votre compte pour la connectivité avec les noeuds finaux de service. Pour plus d'informations, voir [Activation des noeuds finaux de service](/docs/account?topic=account-vrf-service-endpoint#service-endpoint).
 
-Après avoir activé les paramètres du compte pour VRF et les noeuds finaux de service, vous pouvez créer des ressources compatibles avec les noeuds finaux du réseau privé à partir du catalogue. Le tableau suivant présente les services compatibles avec les noeuds finaux de réseau privé. 
+Après avoir activé les paramètres du compte pour VRF et les noeuds finaux de service, vous pouvez créer des ressources compatibles avec les noeuds finaux de service à partir du catalogue. 
+Le tableau suivant répertorie les services qui prennent en charge l'utilisation des noeuds finaux de service. 
 
 Consultez la documentation spécifique au service pour obtenir plus d'informations sur l'utilisation des noeuds finaux de service.
 {: tip}
 
-## Services compatibles avec les noeuds finaux de réseau privé
+## Services qui prennent en charge les noeuds finaux de service
 {: #services-support-service-endpoints}
 
 | Service | Documentation |

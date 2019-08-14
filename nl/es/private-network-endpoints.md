@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-05"
 
 keywords: set up private endpoints, private endpoint, connect service over private network, 
 
@@ -18,7 +18,7 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# Configuración de puntos finales de red privada
+# Configuración de puntos finales de servicio
 {: #private-network-endpoints}
 
 Para conectarse a los servicios de {{site.data.keyword.cloud}} a través de una red privada, debe tener acceso a la infraestructura clásica y habilitar el direccionamiento y el reenvío virtuales (VRF) y la conectividad a puntos finales de servicio para su cuenta. A continuación, puede empezar a crear servicios que den soporte a puntos finales de servicio para una conexión de red privada.
@@ -28,14 +28,14 @@ Siga los pasos siguientes para asegurarse de que su cuenta está configurada par
 
 1. Compruebe que tiene acceso a la infraestructura de {{site.data.keyword.cloud_notm}} en su cuenta. Vaya al icono de **Menú** ![icono de Menú](../icons/icon_hamburger.svg) > **Infraestructura clásica** para verificar que tiene acceso.
 2. Habilite la cuenta para VRF. Para obtener más información, consulte [Habilitación del direccionamiento y el reenvío virtuales](/docs/account?topic=account-vrf-service-endpoint#vrf).
-3. Habilite la cuenta para que se conecte a los puntos finales de servicio. Para obtener más información, consulte [Habilitación de puntos finales de servicio](/docs/account?topic=account-vrf-service-endpoint#vrf).
+3. Habilite la cuenta para que se conecte a los puntos finales de servicio. Para obtener más información, consulte [Habilitación de puntos finales de servicio](/docs/account?topic=account-vrf-service-endpoint#service-endpoint).
 
-Después de habilitar los valores de VRF y de la cuenta de punto final de servicio, puede crear recursos desde el catálogo que den soporte a puntos finales de red privada. En la tabla siguiente se muestran los servicios que dan soporte al uso de puntos finales de red privada. 
+Después de habilitar los valores de VRF y de la cuenta de punto final de servicio, puede crear recursos desde el catálogo que den soporte a puntos finales de servicio. En la tabla siguiente se muestran los servicios que dan soporte al uso de puntos finales de servicio. 
 
 Consulte la documentación del servicio específico para obtener más información sobre el uso de puntos finales de servicio.
 {: tip}
 
-## Servicios que dan soporte a puntos finales de red privada
+## Servicios que dan soporte a puntos finales de servicio
 {: #services-support-service-endpoints}
 
 | Servicio | Documentación |

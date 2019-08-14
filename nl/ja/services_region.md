@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-30"
+lastupdated: "2019-08-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -67,11 +67,11 @@ subcollection: resources
 | Continuous Delivery | ダラスでホスト | ワシントン DC でホスト | 
 | Cost and Asset Management | ダラスでホスト | 使用不可 | 
 | Data Store for Memcache | ダラスでホスト | 使用不可 | 
-| Databases for Elasticsearch | ダラスでホスト | ワシントン DC でホスト | 
-| Databases for MongoDB | ダラスでホスト | ワシントン DC でホスト | 
-| Databases for PostgreSQL | ダラスでホスト | ワシントン DC でホスト | 
-| Databases for Redis | ダラスでホスト | ワシントン DC でホスト | 
-| Databases for etcd | ダラスでホスト | ワシントン DC でホスト | 
+| Databases for Elasticsearch | 使用不可 | 使用不可 | 
+| Databases for MongoDB | 使用不可 | 使用不可 | 
+| Databases for PostgreSQL | 使用不可 | 使用不可 | 
+| Databases for Redis | 使用不可 | 使用不可 | 
+| Databases for etcd | 使用不可 | 使用不可 | 
 | Db2 | ダラスでホスト | 使用不可 | 
 | Db2 Hosted | ダラスでホスト | 使用不可 | 
 | Db2 Warehouse | ダラスでホスト | 使用不可 | 
@@ -109,7 +109,7 @@ subcollection: resources
 | Machine Learning | ダラスでホスト | 使用不可 | 
 | Managed Financial Data API | ダラスでホスト | ワシントン DC でホスト | 
 | Master Data Management | ダラスでホスト | 使用不可 | 
-| Messages for RabbitMQ | ダラスでホスト | ワシントン DC でホスト | 
+| Messages for RabbitMQ | 使用不可 | 使用不可 | 
 | Mobile Foundation | ダラスでホスト | ワシントン DC でホスト | 
 | Monitoring | ダラスでホスト | 使用不可 | 
 | Natural Language Classifier | ダラスでホスト | ワシントン DC でホスト | 
@@ -189,11 +189,11 @@ subcollection: resources
 | Continuous Delivery | ロンドンでホスト | フランクフルトでホスト | 
 | Cost and Asset Management | 使用不可 | 使用不可 | 
 | Data Store for Memcache | 使用不可 | 使用不可 | 
-| Databases for Elasticsearch | ロンドンでホスト | フランクフルトでホスト | 
-| Databases for MongoDB | ロンドンでホスト | フランクフルトでホスト | 
-| Databases for PostgreSQL | ロンドンでホスト | フランクフルトでホスト | 
-| Databases for Redis | ロンドンでホスト | フランクフルトでホスト | 
-| Databases for etcd | ロンドンでホスト | フランクフルトでホスト | 
+| Databases for Elasticsearch | 使用不可 | 使用不可 | 
+| Databases for MongoDB | 使用不可 | 使用不可 | 
+| Databases for PostgreSQL | 使用不可 | 使用不可 | 
+| Databases for Redis | 使用不可 | 使用不可 | 
+| Databases for etcd | 使用不可 | 使用不可 | 
 | Db2 | ロンドンでホスト | フランクフルトでホスト | 
 | Db2 Hosted | ロンドンでホスト | フランクフルトでホスト | 
 | Db2 Warehouse | ロンドンでホスト | フランクフルトでホスト | 
@@ -231,7 +231,7 @@ subcollection: resources
 | Machine Learning | ロンドンでホスト | フランクフルトでホスト | 
 | Managed Financial Data API | 使用不可 | 使用不可 | 
 | Master Data Management | ロンドンでホスト | フランクフルトでホスト | 
-| Messages for RabbitMQ | ロンドンでホスト | フランクフルトでホスト | 
+| Messages for RabbitMQ | 使用不可 | 使用不可 | 
 | Mobile Foundation | ロンドンでホスト | フランクフルトでホスト | 
 | Monitoring | ロンドンでホスト | ダラスからシンジケート | 
 | Natural Language Classifier | 使用不可 | フランクフルトでホスト | 
@@ -311,11 +311,11 @@ subcollection: resources
 | Continuous Delivery | 使用不可 | 東京でホスト | 
 | Cost and Asset Management | 使用不可 | 使用不可 | 
 | Data Store for Memcache | 使用不可 | 使用不可 | 
-| Databases for Elasticsearch | シドニーでホスト | 東京でホスト | 
-| Databases for MongoDB | シドニーでホスト | 東京でホスト | 
-| Databases for PostgreSQL | シドニーでホスト | 東京でホスト | 
-| Databases for Redis | シドニーでホスト | 東京でホスト | 
-| Databases for etcd | シドニーでホスト | 東京でホスト | 
+| Databases for Elasticsearch | シドニーでホスト | 使用不可 | 
+| Databases for MongoDB | シドニーでホスト | 使用不可 | 
+| Databases for PostgreSQL | シドニーでホスト | 使用不可 | 
+| Databases for Redis | シドニーでホスト | 使用不可 | 
+| Databases for etcd | シドニーでホスト | 使用不可 | 
 | Db2 | シドニーでホスト | 使用不可 | 
 | Db2 Hosted | シドニーでホスト | 使用不可 | 
 | Db2 Warehouse | シドニーでホスト | 使用不可 | 
@@ -353,7 +353,7 @@ subcollection: resources
 | Machine Learning | 使用不可 | 東京でホスト | 
 | Managed Financial Data API | 使用不可 | 使用不可 | 
 | Master Data Management | シドニーでホスト | 使用不可 | 
-| Messages for RabbitMQ | シドニーでホスト | 東京でホスト | 
+| Messages for RabbitMQ | シドニーでホスト | 使用不可 | 
 | Mobile Foundation | シドニーでホスト | 使用不可 | 
 | Monitoring | シドニーでホスト | 使用不可 | 
 | Natural Language Classifier | 使用不可 | 東京でホスト | 

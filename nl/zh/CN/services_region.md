@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-07-30"
+lastupdated: "2019-08-08"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -66,11 +66,11 @@ subcollection: resources
 |Continuous Delivery| 在达拉斯托管 | 在华盛顿特区托管 | 
 |Cost and Asset Management| 在达拉斯托管 |不可用| 
 |Data Store for Memcache| 在达拉斯托管 |不可用| 
-| Databases for Elasticsearch | 在达拉斯托管 | 在华盛顿特区托管 | 
-| Databases for MongoDB | 在达拉斯托管 | 在华盛顿特区托管 | 
-|Databases for PostgreSQL| 在达拉斯托管 | 在华盛顿特区托管 | 
-|Databases for Redis| 在达拉斯托管 | 在华盛顿特区托管 | 
-|Databases for etcd| 在达拉斯托管 | 在华盛顿特区托管 | 
+| Databases for Elasticsearch |不可用|不可用| 
+| Databases for MongoDB |不可用|不可用| 
+|Databases for PostgreSQL|不可用|不可用| 
+|Databases for Redis|不可用|不可用| 
+|Databases for etcd|不可用|不可用| 
 |Db2| 在达拉斯托管 |不可用| 
 |Db2 Hosted| 在达拉斯托管 |不可用| 
 |Db2 Warehouse| 在达拉斯托管 |不可用| 
@@ -108,7 +108,7 @@ subcollection: resources
 |Machine Learning| 在达拉斯托管 |不可用| 
 |Managed Financial Data API| 在达拉斯托管 | 在华盛顿特区托管 | 
 |Master Data Management| 在达拉斯托管 |不可用| 
-| Messages for RabbitMQ | 在达拉斯托管 | 在华盛顿特区托管 | 
+| Messages for RabbitMQ |不可用|不可用| 
 |Mobile Foundation| 在达拉斯托管 | 在华盛顿特区托管 | 
 | Monitoring | 在达拉斯托管 |不可用| 
 |Natural Language Classifier| 在达拉斯托管 | 在华盛顿特区托管 | 
@@ -188,11 +188,11 @@ subcollection: resources
 |Continuous Delivery| 在伦敦托管 | 在法兰克福托管 | 
 |Cost and Asset Management|不可用|不可用| 
 |Data Store for Memcache|不可用|不可用| 
-| Databases for Elasticsearch | 在伦敦托管 | 在法兰克福托管 | 
-| Databases for MongoDB | 在伦敦托管 | 在法兰克福托管 | 
-|Databases for PostgreSQL| 在伦敦托管 | 在法兰克福托管 | 
-|Databases for Redis| 在伦敦托管 | 在法兰克福托管 | 
-|Databases for etcd| 在伦敦托管 | 在法兰克福托管 | 
+| Databases for Elasticsearch |不可用|不可用| 
+| Databases for MongoDB |不可用|不可用| 
+|Databases for PostgreSQL|不可用|不可用| 
+|Databases for Redis|不可用|不可用| 
+|Databases for etcd|不可用|不可用| 
 |Db2| 在伦敦托管 | 在法兰克福托管 | 
 |Db2 Hosted| 在伦敦托管 | 在法兰克福托管 | 
 |Db2 Warehouse| 在伦敦托管 | 在法兰克福托管 | 
@@ -230,7 +230,7 @@ subcollection: resources
 |Machine Learning| 在伦敦托管 | 在法兰克福托管 | 
 |Managed Financial Data API|不可用|不可用| 
 |Master Data Management| 在伦敦托管 | 在法兰克福托管 | 
-| Messages for RabbitMQ | 在伦敦托管 | 在法兰克福托管 | 
+| Messages for RabbitMQ |不可用|不可用| 
 |Mobile Foundation| 在伦敦托管 | 在法兰克福托管 | 
 | Monitoring | 在伦敦托管 | 从达拉斯联合 | 
 |Natural Language Classifier|不可用| 在法兰克福托管 | 
@@ -310,11 +310,11 @@ subcollection: resources
 |Continuous Delivery|不可用| 在东京托管 | 
 |Cost and Asset Management|不可用|不可用| 
 |Data Store for Memcache|不可用|不可用| 
-| Databases for Elasticsearch |在悉尼托管| 在东京托管 | 
-| Databases for MongoDB |在悉尼托管| 在东京托管 | 
-|Databases for PostgreSQL|在悉尼托管| 在东京托管 | 
-|Databases for Redis|在悉尼托管| 在东京托管 | 
-|Databases for etcd|在悉尼托管| 在东京托管 | 
+| Databases for Elasticsearch |在悉尼托管|不可用| 
+| Databases for MongoDB |在悉尼托管|不可用| 
+|Databases for PostgreSQL|在悉尼托管|不可用| 
+|Databases for Redis|在悉尼托管|不可用| 
+|Databases for etcd|在悉尼托管|不可用| 
 |Db2|在悉尼托管|不可用| 
 |Db2 Hosted|在悉尼托管|不可用| 
 |Db2 Warehouse|在悉尼托管|不可用| 
@@ -352,7 +352,7 @@ subcollection: resources
 |Machine Learning|不可用| 在东京托管 | 
 |Managed Financial Data API|不可用|不可用| 
 |Master Data Management|在悉尼托管|不可用| 
-| Messages for RabbitMQ |在悉尼托管| 在东京托管 | 
+| Messages for RabbitMQ |在悉尼托管|不可用| 
 |Mobile Foundation|在悉尼托管|不可用| 
 | Monitoring |在悉尼托管|不可用| 
 |Natural Language Classifier|不可用| 在东京托管 | 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-28"
+lastupdated: "2019-08-05"
 
 keywords: set up private endpoints, private endpoint, connect service over private network, 
 
@@ -18,24 +18,24 @@ subcollection: resources
 {:tip: .tip}
 {:download: .download}
 
-# プライベート・ネットワーク・エンドポイントのセットアップ
+# サービス・エンドポイントのセットアップ
 {: #private-network-endpoints}
 
-プライベート・ネットワークを介して {{site.data.keyword.cloud}} サービスに接続するには、クラシック・インフラストラクチャーへのアクセス権限を持っている必要があり、ご使用のアカウントで VRF (Virtual Routing and Forwarding) と、サービス・エンドポイントへの接続を有効にする必要があります。その後、プライベート・ネットワーク接続用のサービス・エンドポイントをサポートするサービスの作成を開始できます。
+プライベート・ネットワークを介して {{site.data.keyword.cloud}} サービスに接続するには、クラシック・インフラストラクチャーへのアクセス権限を持っている必要があり、ご使用のアカウントで VRF (Virtual Routing and Forwarding) と、サービス・エンドポイントへの接続を有効にする必要があります。 その後、プライベート・ネットワーク接続用のサービス・エンドポイントをサポートするサービスの作成を開始できます。
 {: shortdesc}
 
 以下のステップを実行して、サービス・エンドポイントをサポートするサービスを作成および使用するようにアカウントがセットアップされていることを確認します。
 
-1. アカウント内の {{site.data.keyword.cloud_notm}} インフラストラクチャーへのアクセス権限があることを確認します。**メニュー**のアイコン ![メニュー・アイコン](../icons/icon_hamburger.svg) > **「クラシック・インフラストラクチャー」**と進んで、アクセス権限があることを検証します。
-2. アカウントで VRF を有効にします。詳しくは、『[Virtual Routing and Forwarding の有効化](/docs/account?topic=account-vrf-service-endpoint#vrf)』を参照してください。
-3. アカウントでサービス・エンドポイントへの接続を有効にします。詳しくは、『[サービス・エンドポイントの有効化](/docs/account?topic=account-vrf-service-endpoint#vrf)』を参照してください。
+1. アカウント内の {{site.data.keyword.cloud_notm}} インフラストラクチャーへのアクセス権限があることを確認します。 **メニュー**のアイコン ![メニュー・アイコン](../icons/icon_hamburger.svg) > **「クラシック・インフラストラクチャー」**と進んで、アクセス権限があることを検証します。
+2. アカウントで VRF を有効にします。 詳しくは、『[Virtual Routing and Forwarding の有効化](/docs/account?topic=account-vrf-service-endpoint#vrf)』を参照してください。
+3. アカウントでサービス・エンドポイントへの接続を有効にします。 詳しくは、『[サービス・エンドポイントの有効化](/docs/account?topic=account-vrf-service-endpoint#service-endpoint)』を参照してください。
 
-VRF およびサービス・エンドポイントのアカウント設定を有効にした後、プライベート・ネットワーク・エンドポイントをサポートするリソースをカタログから作成できます。プライベート・ネットワーク・エンドポイントの使用をサポートするサービスを次の表に示します。 
+VRF およびサービス・エンドポイントのアカウント設定を有効にした後、サービス・エンドポイントをサポートするリソースをカタログから作成できます。サービス・エンドポイントの使用をサポートするサービスを次の表に示します。 
 
 サービス・エンドポイントの使用について詳しくは、特定のサービスの資料を参照してください。
 {: tip}
 
-## プライベート・ネットワーク・エンドポイントをサポートするサービス
+## サービス・エンドポイントをサポートするサービス
 {: #services-support-service-endpoints}
 
 | サービス | 資料 |
