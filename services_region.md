@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-13"
+lastupdated: "2019-08-14"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -73,7 +73,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Db2 | Hosted in Dallas | Not available | 
 | Db2 Hosted | Hosted in Dallas | Not available | 
 | Db2 Warehouse | Hosted in Dallas | Not available | 
-| Decision Optimization | Hosted in Dallas | Not available | 
 | DevOps Insights | Hosted in Dallas | Not available | 
 | Digital Content Checker | Hosted in Dallas | Not available | 
 | Discovery | Hosted in Dallas | Hosted in Washington DC | 
@@ -194,7 +193,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Db2 | Hosted in London | Hosted in Frankfurt | 
 | Db2 Hosted | Hosted in London | Hosted in Frankfurt | 
 | Db2 Warehouse | Hosted in London | Hosted in Frankfurt | 
-| Decision Optimization | Hosted in London | Not available | 
 | DevOps Insights | Hosted in London | Hosted in Frankfurt | 
 | Digital Content Checker | Hosted in London | Not available | 
 | Discovery | Hosted in London | Hosted in Frankfurt | 
@@ -315,7 +313,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Db2 | Hosted in Sydney | Not available | 
 | Db2 Hosted | Hosted in Sydney | Not available | 
 | Db2 Warehouse | Hosted in Sydney | Not available | 
-| Decision Optimization | Not available | Not available | 
 | DevOps Insights | Not available | Not available | 
 | Digital Content Checker | Syndicated from London | Not available | 
 | Discovery | Hosted in Sydney | Hosted in Tokyo | 
