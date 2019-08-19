@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-08"
+lastupdated: "2019-08-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -32,7 +32,6 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Serviço | Dallas | Washington DC | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hospedado em Dallas | Hospedado em Washington, D.C. | 
-| Alert Notification | Hospedado em Dallas | Não está disponível | 
 | Analytics Engine | Hospedado em Dallas | Não está disponível | 
 | Apache Spark | Hospedado em Dallas | Não está disponível | 
 | App Connect | Hospedado em Dallas | Não está disponível | 
@@ -61,7 +60,7 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Compose for RethinkDB | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Compose for ScyllaDB | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Compose for etcd | Hospedado em Dallas | Hospedado em Washington, D.C. | 
-| Consultar com o IBM Cloud Garage | Hospedado globalmente | Hospedado globalmente | 
+| Consultar com o IBM Garage | Hospedado globalmente | Hospedado globalmente | 
 | Container Registry | Hospedado globalmente | Hospedado globalmente | 
 | Continuous Delivery | Hospedado em Dallas | Hospedado em Washington, D.C. | 
 | Cost and Asset Management | Hospedado em Dallas | Não está disponível | 
@@ -74,7 +73,6 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | DB2 | Hospedado em Dallas | Não está disponível | 
 | Db2 Hosted | Hospedado em Dallas | Não está disponível | 
 | DB2 Warehouse | Hospedado em Dallas | Não está disponível | 
-| Decision Optimization | Hospedado em Dallas | Não está disponível | 
 | DevOps Insights | Hospedado em Dallas | Não está disponível | 
 | Digital Content Checker | Hospedado em Dallas | Não está disponível | 
 | Discovery | Hospedado em Dallas | Hospedado em Washington, D.C. | 
@@ -154,7 +152,6 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Serviço | Londres | Frankfurt | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hospedado em Londres | Hospedado em Frankfurt | 
-| Alert Notification | Hospedado em Londres | Não está disponível | 
 | Analytics Engine | Hospedado em Londres | Hospedado em Frankfurt | 
 | Apache Spark | Hospedado em Londres | Não está disponível | 
 | App Connect | Hospedado em Londres | Não está disponível | 
@@ -183,7 +180,7 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Compose for RethinkDB | Hospedado em Londres | Hospedado em Frankfurt | 
 | Compose for ScyllaDB | Hospedado em Londres | Hospedado em Frankfurt | 
 | Compose for etcd | Hospedado em Londres | Hospedado em Frankfurt | 
-| Consultar com o IBM Cloud Garage | Hospedado globalmente | Hospedado globalmente | 
+| Consultar com o IBM Garage | Hospedado globalmente | Hospedado globalmente | 
 | Container Registry | Hospedado globalmente | Hospedado globalmente | 
 | Continuous Delivery | Hospedado em Londres | Hospedado em Frankfurt | 
 | Cost and Asset Management | Não está disponível | Não está disponível | 
@@ -196,7 +193,6 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | DB2 | Hospedado em Londres | Hospedado em Frankfurt | 
 | Db2 Hosted | Hospedado em Londres | Hospedado em Frankfurt | 
 | DB2 Warehouse | Hospedado em Londres | Hospedado em Frankfurt | 
-| Decision Optimization | Hospedado em Londres | Não está disponível | 
 | DevOps Insights | Hospedado em Londres | Hospedado em Frankfurt | 
 | Digital Content Checker | Hospedado em Londres | Não está disponível | 
 | Discovery | Hospedado em Londres | Hospedado em Frankfurt | 
@@ -276,7 +272,6 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Serviço | Sydney | Tóquio | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hospedado em Sydney | Não está disponível | 
-| Alert Notification | Hospedado em Sydney | Não está disponível | 
 | Analytics Engine | Não está disponível | Hospedado em Tóquio | 
 | Apache Spark | Não está disponível | Não está disponível | 
 | App Connect | Organizado em Dallas | Não está disponível | 
@@ -305,7 +300,7 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | Compose for RethinkDB | Hospedado em Sydney | Não está disponível | 
 | Compose for ScyllaDB | Hospedado em Sydney | Não está disponível | 
 | Compose for etcd | Hospedado em Sydney | Não está disponível | 
-| Consultar com o IBM Cloud Garage | Hospedado globalmente | Hospedado globalmente | 
+| Consultar com o IBM Garage | Hospedado globalmente | Hospedado globalmente | 
 | Container Registry | Hospedado globalmente | Hospedado globalmente | 
 | Continuous Delivery | Não está disponível | Hospedado em Tóquio | 
 | Cost and Asset Management | Não está disponível | Não está disponível | 
@@ -318,7 +313,6 @@ Os serviços hospedados globalmente criam os recursos que operam em múltiplas l
 | DB2 | Hospedado em Sydney | Não está disponível | 
 | Db2 Hosted | Hospedado em Sydney | Não está disponível | 
 | DB2 Warehouse | Hospedado em Sydney | Não está disponível | 
-| Decision Optimization | Não está disponível | Não está disponível | 
 | DevOps Insights | Não está disponível | Não está disponível | 
 | Digital Content Checker | Organizado em Londres | Não está disponível | 
 | Discovery | Hospedado em Sydney | Hospedado em Tóquio | 

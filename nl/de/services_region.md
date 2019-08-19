@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-08"
+lastupdated: "2019-08-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -32,7 +32,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Service | Dallas | Washington DC | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Gehostet in Dallas | Gehostet in Washington DC | 
-| Alert Notification | Gehostet in Dallas | Nicht verfügbar | 
 | Analytics Engine | Gehostet in Dallas | Nicht verfügbar | 
 | Apache Spark | Gehostet in Dallas | Nicht verfügbar | 
 | App Connect | Gehostet in Dallas | Nicht verfügbar | 
@@ -61,7 +60,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Compose for RethinkDB | Gehostet in Dallas | Gehostet in Washington DC | 
 | Compose for ScyllaDB | Gehostet in Dallas | Gehostet in Washington DC | 
 | Compose for etcd | Gehostet in Dallas | Gehostet in Washington DC | 
-| Beratung durch IBM Cloud Garage | Global gehostet | Global gehostet | 
+| Consult with IBM Garage | Global gehostet | Global gehostet | 
 | Container Registry | Global gehostet | Global gehostet | 
 | Continuous Delivery | Gehostet in Dallas | Gehostet in Washington DC | 
 | Cost and Asset Management | Gehostet in Dallas | Nicht verfügbar | 
@@ -74,7 +73,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Db2 | Gehostet in Dallas | Nicht verfügbar | 
 | Db2 Hosted | Gehostet in Dallas | Nicht verfügbar | 
 | Db2 Warehouse | Gehostet in Dallas | Nicht verfügbar | 
-| Decision Optimization | Gehostet in Dallas | Nicht verfügbar | 
 | DevOps Insights | Gehostet in Dallas | Nicht verfügbar | 
 | Digital Content Checker | Gehostet in Dallas | Nicht verfügbar | 
 | Discovery | Gehostet in Dallas | Gehostet in Washington DC | 
@@ -154,7 +152,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Service | London | Frankfurt | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Gehostet in London | Gehostet in Frankfurt | 
-| Alert Notification | Gehostet in London | Nicht verfügbar | 
 | Analytics Engine | Gehostet in London | Gehostet in Frankfurt | 
 | Apache Spark | Gehostet in London | Nicht verfügbar | 
 | App Connect | Gehostet in London | Nicht verfügbar | 
@@ -183,7 +180,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Compose for RethinkDB | Gehostet in London | Gehostet in Frankfurt | 
 | Compose for ScyllaDB | Gehostet in London | Gehostet in Frankfurt | 
 | Compose for etcd | Gehostet in London | Gehostet in Frankfurt | 
-| Beratung durch IBM Cloud Garage | Global gehostet | Global gehostet | 
+| Consult with IBM Garage | Global gehostet | Global gehostet | 
 | Container Registry | Global gehostet | Global gehostet | 
 | Continuous Delivery | Gehostet in London | Gehostet in Frankfurt | 
 | Cost and Asset Management | Nicht verfügbar | Nicht verfügbar | 
@@ -196,7 +193,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Db2 | Gehostet in London | Gehostet in Frankfurt | 
 | Db2 Hosted | Gehostet in London | Gehostet in Frankfurt | 
 | Db2 Warehouse | Gehostet in London | Gehostet in Frankfurt | 
-| Decision Optimization | Gehostet in London | Nicht verfügbar | 
 | DevOps Insights | Gehostet in London | Gehostet in Frankfurt | 
 | Digital Content Checker | Gehostet in London | Nicht verfügbar | 
 | Discovery | Gehostet in London | Gehostet in Frankfurt | 
@@ -276,7 +272,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Service | Sydney | Tokio | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Gehostet in Sydney | Nicht verfügbar | 
-| Alert Notification | Gehostet in Sydney | Nicht verfügbar | 
 | Analytics Engine | Nicht verfügbar | Gehostet in Tokio | 
 | Apache Spark | Nicht verfügbar | Nicht verfügbar | 
 | App Connect | Syndiziert aus Dallas | Nicht verfügbar | 
@@ -305,7 +300,7 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Compose for RethinkDB | Gehostet in Sydney | Nicht verfügbar | 
 | Compose for ScyllaDB | Gehostet in Sydney | Nicht verfügbar | 
 | Compose for etcd | Gehostet in Sydney | Nicht verfügbar | 
-| Beratung durch IBM Cloud Garage | Global gehostet | Global gehostet | 
+| Consult with IBM Garage | Global gehostet | Global gehostet | 
 | Container Registry | Global gehostet | Global gehostet | 
 | Continuous Delivery | Nicht verfügbar | Gehostet in Tokio | 
 | Cost and Asset Management | Nicht verfügbar | Nicht verfügbar | 
@@ -318,7 +313,6 @@ Services, die global gehostet werden, erstellen Ressourcen, die über mehrere St
 | Db2 | Gehostet in Sydney | Nicht verfügbar | 
 | Db2 Hosted | Gehostet in Sydney | Nicht verfügbar | 
 | Db2 Warehouse | Gehostet in Sydney | Nicht verfügbar | 
-| Decision Optimization | Nicht verfügbar | Nicht verfügbar | 
 | DevOps Insights | Nicht verfügbar | Nicht verfügbar | 
 | Digital Content Checker | Syndiziert aus London | Nicht verfügbar | 
 | Discovery | Gehostet in Sydney | Gehostet in Tokio | 

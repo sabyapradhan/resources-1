@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-08"
+lastupdated: "2019-08-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -33,7 +33,6 @@ subcollection: resources
 | サービス | ダラス | ワシントン DC | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | ダラスでホスト | ワシントン DC でホスト | 
-| Alert Notification | ダラスでホスト | 使用不可 | 
 | Analytics Engine | ダラスでホスト | 使用不可 | 
 | Apache Spark | ダラスでホスト | 使用不可 | 
 | App Connect | ダラスでホスト | 使用不可 | 
@@ -62,7 +61,7 @@ subcollection: resources
 | Compose for RethinkDB | ダラスでホスト | ワシントン DC でホスト | 
 | Compose for ScyllaDB | ダラスでホスト | ワシントン DC でホスト | 
 | Compose for etcd | ダラスでホスト | ワシントン DC でホスト | 
-| Consult with IBM Cloud Garage | 　グローバルにホスト | 　グローバルにホスト | 
+| Consult with IBM Garage | 　グローバルにホスト | 　グローバルにホスト | 
 | Container Registry | 　グローバルにホスト | 　グローバルにホスト | 
 | Continuous Delivery | ダラスでホスト | ワシントン DC でホスト | 
 | Cost and Asset Management | ダラスでホスト | 使用不可 | 
@@ -75,7 +74,6 @@ subcollection: resources
 | Db2 | ダラスでホスト | 使用不可 | 
 | Db2 Hosted | ダラスでホスト | 使用不可 | 
 | Db2 Warehouse | ダラスでホスト | 使用不可 | 
-| Decision Optimization | ダラスでホスト | 使用不可 | 
 | DevOps Insights | ダラスでホスト | 使用不可 | 
 | Digital Content Checker | ダラスでホスト | 使用不可 | 
 | Discovery | ダラスでホスト | ワシントン DC でホスト | 
@@ -155,7 +153,6 @@ subcollection: resources
 | サービス | ロンドン | フランクフルト | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | ロンドンでホスト | フランクフルトでホスト | 
-| Alert Notification | ロンドンでホスト | 使用不可 | 
 | Analytics Engine | ロンドンでホスト | フランクフルトでホスト | 
 | Apache Spark | ロンドンでホスト | 使用不可 | 
 | App Connect | ロンドンでホスト | 使用不可 | 
@@ -184,7 +181,7 @@ subcollection: resources
 | Compose for RethinkDB | ロンドンでホスト | フランクフルトでホスト | 
 | Compose for ScyllaDB | ロンドンでホスト | フランクフルトでホスト | 
 | Compose for etcd | ロンドンでホスト | フランクフルトでホスト | 
-| Consult with IBM Cloud Garage | 　グローバルにホスト | 　グローバルにホスト | 
+| Consult with IBM Garage | 　グローバルにホスト | 　グローバルにホスト | 
 | Container Registry | 　グローバルにホスト | 　グローバルにホスト | 
 | Continuous Delivery | ロンドンでホスト | フランクフルトでホスト | 
 | Cost and Asset Management | 使用不可 | 使用不可 | 
@@ -197,7 +194,6 @@ subcollection: resources
 | Db2 | ロンドンでホスト | フランクフルトでホスト | 
 | Db2 Hosted | ロンドンでホスト | フランクフルトでホスト | 
 | Db2 Warehouse | ロンドンでホスト | フランクフルトでホスト | 
-| Decision Optimization | ロンドンでホスト | 使用不可 | 
 | DevOps Insights | ロンドンでホスト | フランクフルトでホスト | 
 | Digital Content Checker | ロンドンでホスト | 使用不可 | 
 | Discovery | ロンドンでホスト | フランクフルトでホスト | 
@@ -277,7 +273,6 @@ subcollection: resources
 | サービス | シドニー | 東京 | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | シドニーでホスト | 使用不可 | 
-| Alert Notification | シドニーでホスト | 使用不可 | 
 | Analytics Engine | 使用不可 | 東京でホスト | 
 | Apache Spark | 使用不可 | 使用不可 | 
 | App Connect | ダラスからシンジケート | 使用不可 | 
@@ -306,7 +301,7 @@ subcollection: resources
 | Compose for RethinkDB | シドニーでホスト | 使用不可 | 
 | Compose for ScyllaDB | シドニーでホスト | 使用不可 | 
 | Compose for etcd | シドニーでホスト | 使用不可 | 
-| Consult with IBM Cloud Garage | 　グローバルにホスト | 　グローバルにホスト | 
+| Consult with IBM Garage | 　グローバルにホスト | 　グローバルにホスト | 
 | Container Registry | 　グローバルにホスト | 　グローバルにホスト | 
 | Continuous Delivery | 使用不可 | 東京でホスト | 
 | Cost and Asset Management | 使用不可 | 使用不可 | 
@@ -319,7 +314,6 @@ subcollection: resources
 | Db2 | シドニーでホスト | 使用不可 | 
 | Db2 Hosted | シドニーでホスト | 使用不可 | 
 | Db2 Warehouse | シドニーでホスト | 使用不可 | 
-| Decision Optimization | 使用不可 | 使用不可 | 
 | DevOps Insights | 使用不可 | 使用不可 | 
 | Digital Content Checker | ロンドンからシンジケート | 使用不可 | 
 | Discovery | シドニーでホスト | 東京でホスト | 

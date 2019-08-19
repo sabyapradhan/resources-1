@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-08"
+lastupdated: "2019-08-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -32,7 +32,6 @@ subcollection: resources
 |服務| 達拉斯 | 華盛頓特區 | 
 |-----|-----|-----|-----|-----|-----|
 |API Connect|在達拉斯進行管理|在華盛頓特區進行管理| 
-|Alert Notification|在達拉斯進行管理|不適用 | 
 |Analytics Engine |在達拉斯進行管理|不適用 | 
 |Apache Spark|在達拉斯進行管理|不適用 | 
 |App Connect|在達拉斯進行管理|不適用 | 
@@ -61,7 +60,7 @@ subcollection: resources
 |Compose for RethinkDB|在達拉斯進行管理|在華盛頓特區進行管理| 
 |Compose for ScyllaDB|在達拉斯進行管理|在華盛頓特區進行管理| 
 |Compose for etcd|在達拉斯進行管理|在華盛頓特區進行管理| 
-| Consult with IBM Cloud Garage |在全球管理|在全球管理| 
+| Consult with IBM Garage |在全球管理|在全球管理| 
 | Container Registry |在全球管理|在全球管理| 
 |Continuous Delivery|在達拉斯進行管理|在華盛頓特區進行管理| 
 |Cost and Asset Management |在達拉斯進行管理|不適用 | 
@@ -74,7 +73,6 @@ subcollection: resources
 |Db2 |在達拉斯進行管理|不適用 | 
 |Db2 Hosted |在達拉斯進行管理|不適用 | 
 |Db2 Warehouse |在達拉斯進行管理|不適用 | 
-|Decision Optimization|在達拉斯進行管理|不適用 | 
 |DevOps Insights|在達拉斯進行管理|不適用 | 
 |Digital Content Checker|在達拉斯進行管理|不適用 | 
 |Discovery|在達拉斯進行管理|在華盛頓特區進行管理| 
@@ -154,7 +152,6 @@ subcollection: resources
 |服務| 倫敦 | 法蘭克福 | 
 |-----|-----|-----|-----|-----|-----|
 |API Connect|在倫敦進行管理|在法蘭克福進行管理| 
-|Alert Notification|在倫敦進行管理|不適用 | 
 |Analytics Engine |在倫敦進行管理|在法蘭克福進行管理| 
 |Apache Spark|在倫敦進行管理|不適用 | 
 |App Connect|在倫敦進行管理|不適用 | 
@@ -183,7 +180,7 @@ subcollection: resources
 |Compose for RethinkDB|在倫敦進行管理|在法蘭克福進行管理| 
 |Compose for ScyllaDB|在倫敦進行管理|在法蘭克福進行管理| 
 |Compose for etcd|在倫敦進行管理|在法蘭克福進行管理| 
-| Consult with IBM Cloud Garage |在全球管理|在全球管理| 
+| Consult with IBM Garage |在全球管理|在全球管理| 
 | Container Registry |在全球管理|在全球管理| 
 |Continuous Delivery|在倫敦進行管理|在法蘭克福進行管理| 
 |Cost and Asset Management |不適用 |不適用 | 
@@ -196,7 +193,6 @@ subcollection: resources
 |Db2 |在倫敦進行管理|在法蘭克福進行管理| 
 |Db2 Hosted |在倫敦進行管理|在法蘭克福進行管理| 
 |Db2 Warehouse |在倫敦進行管理|在法蘭克福進行管理| 
-|Decision Optimization|在倫敦進行管理|不適用 | 
 |DevOps Insights|在倫敦進行管理|在法蘭克福進行管理| 
 |Digital Content Checker|在倫敦進行管理|不適用 | 
 |Discovery|在倫敦進行管理|在法蘭克福進行管理| 
@@ -276,7 +272,6 @@ subcollection: resources
 |服務|雪梨| 東京 | 
 |-----|-----|-----|-----|-----|-----|
 |API Connect|在雪梨進行管理|不適用 | 
-|Alert Notification|在雪梨進行管理|不適用 | 
 |Analytics Engine |不適用 |在東京進行管理| 
 |Apache Spark|不適用 |不適用 | 
 |App Connect|從達拉斯進行聯合發佈|不適用 | 
@@ -305,7 +300,7 @@ subcollection: resources
 |Compose for RethinkDB|在雪梨進行管理|不適用 | 
 |Compose for ScyllaDB|在雪梨進行管理|不適用 | 
 |Compose for etcd|在雪梨進行管理|不適用 | 
-| Consult with IBM Cloud Garage |在全球管理|在全球管理| 
+| Consult with IBM Garage |在全球管理|在全球管理| 
 | Container Registry |在全球管理|在全球管理| 
 |Continuous Delivery|不適用 |在東京進行管理| 
 |Cost and Asset Management |不適用 |不適用 | 
@@ -318,7 +313,6 @@ subcollection: resources
 |Db2 |在雪梨進行管理|不適用 | 
 |Db2 Hosted |在雪梨進行管理|不適用 | 
 |Db2 Warehouse |在雪梨進行管理|不適用 | 
-|Decision Optimization|不適用 |不適用 | 
 |DevOps Insights|不適用 |不適用 | 
 |Digital Content Checker|從倫敦進行聯合發佈|不適用 | 
 |Discovery|在雪梨進行管理|在東京進行管理| 

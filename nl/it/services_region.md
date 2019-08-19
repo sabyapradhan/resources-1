@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-08"
+lastupdated: "2019-08-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -33,7 +33,6 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Servizio | Dallas | Washington DC | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Ospitato a Dallas | Ospitato a Washington DC | 
-| Alert Notification | Ospitato a Dallas | Non disponibile | 
 | Analytics Engine | Ospitato a Dallas | Non disponibile | 
 | Apache Spark | Ospitato a Dallas | Non disponibile | 
 | App Connect | Ospitato a Dallas | Non disponibile | 
@@ -62,7 +61,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Compose for RethinkDB | Ospitato a Dallas | Ospitato a Washington DC | 
 | Compose for ScyllaDB | Ospitato a Dallas | Ospitato a Washington DC | 
 | Compose for etcd | Ospitato a Dallas | Ospitato a Washington DC | 
-| Consult with IBM Cloud Garage | Ospitato a livello globale | Ospitato a livello globale | 
+| Consult with IBM Garage | Ospitato a livello globale | Ospitato a livello globale | 
 | Registro contenitore | Ospitato a livello globale | Ospitato a livello globale | 
 | Fornitura continua | Ospitato a Dallas | Ospitato a Washington DC | 
 | Cost and Asset Management | Ospitato a Dallas | Non disponibile | 
@@ -75,7 +74,6 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Db2 | Ospitato a Dallas | Non disponibile | 
 | Db2 Hosted | Ospitato a Dallas | Non disponibile | 
 | Warehouse Db2 | Ospitato a Dallas | Non disponibile | 
-| Decision Optimization | Ospitato a Dallas | Non disponibile | 
 | DevOps Insights | Ospitato a Dallas | Non disponibile | 
 | Digital Content Checker | Ospitato a Dallas | Non disponibile | 
 | Discovery | Ospitato a Dallas | Ospitato a Washington DC | 
@@ -155,7 +153,6 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Servizio | Londra | Francoforte | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Ospitato a Londra | Ospitato a Francoforte | 
-| Alert Notification | Ospitato a Londra | Non disponibile | 
 | Analytics Engine | Ospitato a Londra | Ospitato a Francoforte | 
 | Apache Spark | Ospitato a Londra | Non disponibile | 
 | App Connect | Ospitato a Londra | Non disponibile | 
@@ -184,7 +181,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Compose for RethinkDB | Ospitato a Londra | Ospitato a Francoforte | 
 | Compose for ScyllaDB | Ospitato a Londra | Ospitato a Francoforte | 
 | Compose for etcd | Ospitato a Londra | Ospitato a Francoforte | 
-| Consult with IBM Cloud Garage | Ospitato a livello globale | Ospitato a livello globale | 
+| Consult with IBM Garage | Ospitato a livello globale | Ospitato a livello globale | 
 | Registro contenitore | Ospitato a livello globale | Ospitato a livello globale | 
 | Fornitura continua | Ospitato a Londra | Ospitato a Francoforte | 
 | Cost and Asset Management | Non disponibile | Non disponibile | 
@@ -197,7 +194,6 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Db2 | Ospitato a Londra | Ospitato a Francoforte | 
 | Db2 Hosted | Ospitato a Londra | Ospitato a Francoforte | 
 | Warehouse Db2 | Ospitato a Londra | Ospitato a Francoforte | 
-| Decision Optimization | Ospitato a Londra | Non disponibile | 
 | DevOps Insights | Ospitato a Londra | Ospitato a Francoforte | 
 | Digital Content Checker | Ospitato a Londra | Non disponibile | 
 | Discovery | Ospitato a Londra | Ospitato a Francoforte | 
@@ -277,7 +273,6 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Servizio | Sydney | Tokyo | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Ospitato a Sydney | Non disponibile | 
-| Alert Notification | Ospitato a Sydney | Non disponibile | 
 | Analytics Engine | Non disponibile | Ospitato a Tokyo | 
 | Apache Spark | Non disponibile | Non disponibile | 
 | App Connect | Diffuso da Dallas | Non disponibile | 
@@ -306,7 +301,7 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Compose for RethinkDB | Ospitato a Sydney | Non disponibile | 
 | Compose for ScyllaDB | Ospitato a Sydney | Non disponibile | 
 | Compose for etcd | Ospitato a Sydney | Non disponibile | 
-| Consult with IBM Cloud Garage | Ospitato a livello globale | Ospitato a livello globale | 
+| Consult with IBM Garage | Ospitato a livello globale | Ospitato a livello globale | 
 | Registro contenitore | Ospitato a livello globale | Ospitato a livello globale | 
 | Fornitura continua | Non disponibile | Ospitato a Tokyo | 
 | Cost and Asset Management | Non disponibile | Non disponibile | 
@@ -319,7 +314,6 @@ I servizi ospitati a livello globale creano risorse che operano su più ubicazio
 | Db2 | Ospitato a Sydney | Non disponibile | 
 | Db2 Hosted | Ospitato a Sydney | Non disponibile | 
 | Warehouse Db2 | Ospitato a Sydney | Non disponibile | 
-| Decision Optimization | Non disponibile | Non disponibile | 
 | DevOps Insights | Non disponibile | Non disponibile | 
 | Digital Content Checker | Diffuso da Londra | Non disponibile | 
 | Discovery | Ospitato a Sydney | Ospitato a Tokyo | 

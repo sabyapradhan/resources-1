@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-08"
+lastupdated: "2019-08-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -32,7 +32,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Servicio | Dallas | Washington DC | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Alojado en Dallas | Alojado en Washington DC | 
-| Alert Notification | Alojado en Dallas | No disponible | 
 | Analytics Engine | Alojado en Dallas | No disponible | 
 | Apache Spark | Alojado en Dallas | No disponible | 
 | App Connect | Alojado en Dallas | No disponible | 
@@ -61,7 +60,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Compose for RethinkDB | Alojado en Dallas | Alojado en Washington DC | 
 | Compose for ScyllaDB | Alojado en Dallas | Alojado en Washington DC | 
 | Compose for etcd | Alojado en Dallas | Alojado en Washington DC | 
-| Consult with IBM Cloud Garage | Alojado globalmente | Alojado globalmente | 
+| Consult with IBM Garage | Alojado globalmente | Alojado globalmente | 
 | Container Registry | Alojado globalmente | Alojado globalmente | 
 | Continuous Delivery | Alojado en Dallas | Alojado en Washington DC | 
 | Cost and Asset Management | Alojado en Dallas | No disponible | 
@@ -74,7 +73,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Db2 | Alojado en Dallas | No disponible | 
 | Db2 Hosted | Alojado en Dallas | No disponible | 
 | Db2 Warehouse | Alojado en Dallas | No disponible | 
-| Decision Optimization | Alojado en Dallas | No disponible | 
 | DevOps Insights | Alojado en Dallas | No disponible | 
 | Comprobador de contenido digital | Alojado en Dallas | No disponible | 
 | Discovery | Alojado en Dallas | Alojado en Washington DC | 
@@ -154,7 +152,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Servicio | Londres | Frankfurt | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Alojado en Londres | Alojado en Frankfurt | 
-| Alert Notification | Alojado en Londres | No disponible | 
 | Analytics Engine | Alojado en Londres | Alojado en Frankfurt | 
 | Apache Spark | Alojado en Londres | No disponible | 
 | App Connect | Alojado en Londres | No disponible | 
@@ -183,7 +180,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Compose for RethinkDB | Alojado en Londres | Alojado en Frankfurt | 
 | Compose for ScyllaDB | Alojado en Londres | Alojado en Frankfurt | 
 | Compose for etcd | Alojado en Londres | Alojado en Frankfurt | 
-| Consult with IBM Cloud Garage | Alojado globalmente | Alojado globalmente | 
+| Consult with IBM Garage | Alojado globalmente | Alojado globalmente | 
 | Container Registry | Alojado globalmente | Alojado globalmente | 
 | Continuous Delivery | Alojado en Londres | Alojado en Frankfurt | 
 | Cost and Asset Management | No disponible | No disponible | 
@@ -196,7 +193,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Db2 | Alojado en Londres | Alojado en Frankfurt | 
 | Db2 Hosted | Alojado en Londres | Alojado en Frankfurt | 
 | Db2 Warehouse | Alojado en Londres | Alojado en Frankfurt | 
-| Decision Optimization | Alojado en Londres | No disponible | 
 | DevOps Insights | Alojado en Londres | Alojado en Frankfurt | 
 | Comprobador de contenido digital | Alojado en Londres | No disponible | 
 | Discovery | Alojado en Londres | Alojado en Frankfurt | 
@@ -276,7 +272,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Servicio | Sídney | Tokio | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Alojado en Sídney | No disponible | 
-| Alert Notification | Alojado en Sídney | No disponible | 
 | Analytics Engine | No disponible | Alojado en Tokio | 
 | Apache Spark | No disponible | No disponible | 
 | App Connect | Sindicado desde Dallas | No disponible | 
@@ -305,7 +300,7 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Compose for RethinkDB | Alojado en Sídney | No disponible | 
 | Compose for ScyllaDB | Alojado en Sídney | No disponible | 
 | Compose for etcd | Alojado en Sídney | No disponible | 
-| Consult with IBM Cloud Garage | Alojado globalmente | Alojado globalmente | 
+| Consult with IBM Garage | Alojado globalmente | Alojado globalmente | 
 | Container Registry | Alojado globalmente | Alojado globalmente | 
 | Continuous Delivery | No disponible | Alojado en Tokio | 
 | Cost and Asset Management | No disponible | No disponible | 
@@ -318,7 +313,6 @@ Los servicios alojados globalmente crean recursos que funcionan en varias ubicac
 | Db2 | Alojado en Sídney | No disponible | 
 | Db2 Hosted | Alojado en Sídney | No disponible | 
 | Db2 Warehouse | Alojado en Sídney | No disponible | 
-| Decision Optimization | No disponible | No disponible | 
 | DevOps Insights | No disponible | No disponible | 
 | Comprobador de contenido digital | Sindicado desde Londres | No disponible | 
 | Discovery | Alojado en Sídney | Alojado en Tokio | 

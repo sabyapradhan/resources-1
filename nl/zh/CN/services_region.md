@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-08"
+lastupdated: "2019-08-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -32,7 +32,6 @@ subcollection: resources
 |服务|达拉斯|华盛顿特区| 
 |-----|-----|-----|-----|-----|-----|
 |API Connect| 在达拉斯托管 | 在华盛顿特区托管 | 
-|Alert Notification| 在达拉斯托管 |不可用| 
 |Analytics Engine| 在达拉斯托管 |不可用| 
 |Apache Spark| 在达拉斯托管 |不可用| 
 |App Connect| 在达拉斯托管 |不可用| 
@@ -61,7 +60,7 @@ subcollection: resources
 |Compose for RethinkDB| 在达拉斯托管 | 在华盛顿特区托管 | 
 |Compose for ScyllaDB| 在达拉斯托管 | 在华盛顿特区托管 | 
 |Compose for etcd| 在达拉斯托管 | 在华盛顿特区托管 | 
-| Consult with IBM Cloud Garage |在全球托管|在全球托管| 
+| Consult with IBM Garage |在全球托管|在全球托管| 
 |Container Registry|在全球托管|在全球托管| 
 |Continuous Delivery| 在达拉斯托管 | 在华盛顿特区托管 | 
 |Cost and Asset Management| 在达拉斯托管 |不可用| 
@@ -74,7 +73,6 @@ subcollection: resources
 |Db2| 在达拉斯托管 |不可用| 
 |Db2 Hosted| 在达拉斯托管 |不可用| 
 |Db2 Warehouse| 在达拉斯托管 |不可用| 
-|Decision Optimization| 在达拉斯托管 |不可用| 
 |DevOps Insights| 在达拉斯托管 |不可用| 
 |Digital Content Checker| 在达拉斯托管 |不可用| 
 |Discovery| 在达拉斯托管 | 在华盛顿特区托管 | 
@@ -154,7 +152,6 @@ subcollection: resources
 |服务|伦敦| 法兰克福| 
 |-----|-----|-----|-----|-----|-----|
 |API Connect| 在伦敦托管 | 在法兰克福托管 | 
-|Alert Notification| 在伦敦托管 |不可用| 
 |Analytics Engine| 在伦敦托管 | 在法兰克福托管 | 
 |Apache Spark| 在伦敦托管 |不可用| 
 |App Connect| 在伦敦托管 |不可用| 
@@ -183,7 +180,7 @@ subcollection: resources
 |Compose for RethinkDB| 在伦敦托管 | 在法兰克福托管 | 
 |Compose for ScyllaDB| 在伦敦托管 | 在法兰克福托管 | 
 |Compose for etcd| 在伦敦托管 | 在法兰克福托管 | 
-| Consult with IBM Cloud Garage |在全球托管|在全球托管| 
+| Consult with IBM Garage |在全球托管|在全球托管| 
 |Container Registry|在全球托管|在全球托管| 
 |Continuous Delivery| 在伦敦托管 | 在法兰克福托管 | 
 |Cost and Asset Management|不可用|不可用| 
@@ -196,7 +193,6 @@ subcollection: resources
 |Db2| 在伦敦托管 | 在法兰克福托管 | 
 |Db2 Hosted| 在伦敦托管 | 在法兰克福托管 | 
 |Db2 Warehouse| 在伦敦托管 | 在法兰克福托管 | 
-|Decision Optimization| 在伦敦托管 |不可用| 
 |DevOps Insights| 在伦敦托管 | 在法兰克福托管 | 
 |Digital Content Checker| 在伦敦托管 |不可用| 
 |Discovery| 在伦敦托管 | 在法兰克福托管 | 
@@ -276,7 +272,6 @@ subcollection: resources
 |服务|悉尼|东京| 
 |-----|-----|-----|-----|-----|-----|
 |API Connect|在悉尼托管|不可用| 
-|Alert Notification|在悉尼托管|不可用| 
 |Analytics Engine|不可用| 在东京托管 | 
 |Apache Spark|不可用|不可用| 
 |App Connect| 从达拉斯联合 |不可用| 
@@ -305,7 +300,7 @@ subcollection: resources
 |Compose for RethinkDB|在悉尼托管|不可用| 
 |Compose for ScyllaDB|在悉尼托管|不可用| 
 |Compose for etcd|在悉尼托管|不可用| 
-| Consult with IBM Cloud Garage |在全球托管|在全球托管| 
+| Consult with IBM Garage |在全球托管|在全球托管| 
 |Container Registry|在全球托管|在全球托管| 
 |Continuous Delivery|不可用| 在东京托管 | 
 |Cost and Asset Management|不可用|不可用| 
@@ -318,7 +313,6 @@ subcollection: resources
 |Db2|在悉尼托管|不可用| 
 |Db2 Hosted|在悉尼托管|不可用| 
 |Db2 Warehouse|在悉尼托管|不可用| 
-|Decision Optimization|不可用|不可用| 
 |DevOps Insights|不可用|不可用| 
 |Digital Content Checker| 从伦敦联合 |不可用| 
 |Discovery|在悉尼托管| 在东京托管 | 

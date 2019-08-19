@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-08"
+lastupdated: "2019-08-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -32,7 +32,6 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Service | Dallas | Washington DC | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hébergé à Dallas | Hébergé à Washington DC | 
-| Alert Notification | Hébergé à Dallas | Indisponible | 
 | Analytics Engine | Hébergé à Dallas | Indisponible | 
 | Apache Spark | Hébergé à Dallas | Indisponible | 
 | App Connect | Hébergé à Dallas | Indisponible | 
@@ -61,7 +60,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Compose for RethinkDB | Hébergé à Dallas | Hébergé à Washington DC | 
 | Compose for ScyllaDB | Hébergé à Dallas | Hébergé à Washington DC | 
 | Compose for etcd | Hébergé à Dallas | Hébergé à Washington DC | 
-| Consult with IBM Cloud Garage | Hébergé dans le monde entier | Hébergé dans le monde entier | 
+| Consult with IBM Garage | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Container Registry | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Continuous Delivery | Hébergé à Dallas | Hébergé à Washington DC | 
 | Cost and Asset Management | Hébergé à Dallas | Indisponible | 
@@ -74,7 +73,6 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Db2 | Hébergé à Dallas | Indisponible | 
 | Db2 hébergé | Hébergé à Dallas | Indisponible | 
 | Db2 Warehouse | Hébergé à Dallas | Indisponible | 
-| Decision Optimization | Hébergé à Dallas | Indisponible | 
 | DevOps Insights | Hébergé à Dallas | Indisponible | 
 | Digital Content Checker | Hébergé à Dallas | Indisponible | 
 | Discovery | Hébergé à Dallas | Hébergé à Washington DC | 
@@ -154,7 +152,6 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Service | Londres | Francfort | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hébergé à Londres | Hébergé à Francfort | 
-| Alert Notification | Hébergé à Londres | Indisponible | 
 | Analytics Engine | Hébergé à Londres | Hébergé à Francfort | 
 | Apache Spark | Hébergé à Londres | Indisponible | 
 | App Connect | Hébergé à Londres | Indisponible | 
@@ -183,7 +180,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Compose for RethinkDB | Hébergé à Londres | Hébergé à Francfort | 
 | Compose for ScyllaDB | Hébergé à Londres | Hébergé à Francfort | 
 | Compose for etcd | Hébergé à Londres | Hébergé à Francfort | 
-| Consult with IBM Cloud Garage | Hébergé dans le monde entier | Hébergé dans le monde entier | 
+| Consult with IBM Garage | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Container Registry | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Continuous Delivery | Hébergé à Londres | Hébergé à Francfort | 
 | Cost and Asset Management | Indisponible | Indisponible | 
@@ -196,7 +193,6 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Db2 | Hébergé à Londres | Hébergé à Francfort | 
 | Db2 hébergé | Hébergé à Londres | Hébergé à Francfort | 
 | Db2 Warehouse | Hébergé à Londres | Hébergé à Francfort | 
-| Decision Optimization | Hébergé à Londres | Indisponible | 
 | DevOps Insights | Hébergé à Londres | Hébergé à Francfort | 
 | Digital Content Checker | Hébergé à Londres | Indisponible | 
 | Discovery | Hébergé à Londres | Hébergé à Francfort | 
@@ -276,7 +272,6 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Service | Sydney | Tokyo | 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | Hébergé à Sydney | Indisponible | 
-| Alert Notification | Hébergé à Sydney | Indisponible | 
 | Analytics Engine | Indisponible | Hébergé à Tokyo | 
 | Apache Spark | Indisponible | Indisponible | 
 | App Connect | Syndiqué avec Dallas | Indisponible | 
@@ -305,7 +300,7 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Compose for RethinkDB | Hébergé à Sydney | Indisponible | 
 | Compose for ScyllaDB | Hébergé à Sydney | Indisponible | 
 | Compose for etcd | Hébergé à Sydney | Indisponible | 
-| Consult with IBM Cloud Garage | Hébergé dans le monde entier | Hébergé dans le monde entier | 
+| Consult with IBM Garage | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Container Registry | Hébergé dans le monde entier | Hébergé dans le monde entier | 
 | Continuous Delivery | Indisponible | Hébergé à Tokyo | 
 | Cost and Asset Management | Indisponible | Indisponible | 
@@ -318,7 +313,6 @@ Les services avec hébergement global créent des ressources qui opèrent à tra
 | Db2 | Hébergé à Sydney | Indisponible | 
 | Db2 hébergé | Hébergé à Sydney | Indisponible | 
 | Db2 Warehouse | Hébergé à Sydney | Indisponible | 
-| Decision Optimization | Indisponible | Indisponible | 
 | DevOps Insights | Indisponible | Indisponible | 
 | Digital Content Checker | Syndiqué avec Londres | Indisponible | 
 | Discovery | Hébergé à Sydney | Hébergé à Tokyo | 

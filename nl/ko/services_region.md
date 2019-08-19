@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-08"
+lastupdated: "2019-08-15"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -32,7 +32,6 @@ subcollection: resources
 |서비스 |댈러스 | 워싱턴 DC | 
 |-----|-----|-----|-----|-----|-----|
 |API Connect | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
-|Alert Notification | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Analytics Engine | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Apache Spark | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |App Connect | 댈러스에서 호스팅됨 |사용할 수 없음 | 
@@ -61,7 +60,7 @@ subcollection: resources
 |Compose for RethinkDB | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Compose for ScyllaDB | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Compose for etcd | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
-| Consult with IBM Cloud Garage |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
+|Consult with IBM Garage |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 | Container Registry |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |Continuous Delivery | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
 |Cost and Asset Management | 댈러스에서 호스팅됨 |사용할 수 없음 | 
@@ -74,7 +73,6 @@ subcollection: resources
 |Db2 | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Db2 Hosted | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Db2 Warehouse | 댈러스에서 호스팅됨 |사용할 수 없음 | 
-|Decision Optimization | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |DevOps Insights | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Digital Content Checker | 댈러스에서 호스팅됨 |사용할 수 없음 | 
 |Discovery | 댈러스에서 호스팅됨 | 워싱턴 DC에서 호스팅됨 | 
@@ -154,7 +152,6 @@ subcollection: resources
 |서비스 | 런던 | 프랑크푸르트 | 
 |-----|-----|-----|-----|-----|-----|
 |API Connect | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
-|Alert Notification | 런던에서 호스팅됨 |사용할 수 없음 | 
 |Analytics Engine | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Apache Spark | 런던에서 호스팅됨 |사용할 수 없음 | 
 |App Connect | 런던에서 호스팅됨 |사용할 수 없음 | 
@@ -183,7 +180,7 @@ subcollection: resources
 |Compose for RethinkDB | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Compose for ScyllaDB | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Compose for etcd | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
-| Consult with IBM Cloud Garage |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
+|Consult with IBM Garage |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 | Container Registry |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |Continuous Delivery | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Cost and Asset Management |사용할 수 없음 |사용할 수 없음 | 
@@ -196,7 +193,6 @@ subcollection: resources
 |Db2 | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Db2 Hosted | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Db2 Warehouse | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
-|Decision Optimization | 런던에서 호스팅됨 |사용할 수 없음 | 
 |DevOps Insights | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
 |Digital Content Checker | 런던에서 호스팅됨 |사용할 수 없음 | 
 |Discovery | 런던에서 호스팅됨 | 프랑크푸르트에서 호스팅됨 | 
@@ -276,7 +272,6 @@ subcollection: resources
 |서비스 |시드니 | 도쿄 | 
 |-----|-----|-----|-----|-----|-----|
 |API Connect |시드니에서 호스팅됨 |사용할 수 없음 | 
-|Alert Notification |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Analytics Engine |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 |Apache Spark |사용할 수 없음 |사용할 수 없음 | 
 |App Connect | 댈러스에서 신디케이트됨 |사용할 수 없음 | 
@@ -305,7 +300,7 @@ subcollection: resources
 |Compose for RethinkDB |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Compose for ScyllaDB |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Compose for etcd |시드니에서 호스팅됨 |사용할 수 없음 | 
-| Consult with IBM Cloud Garage |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
+|Consult with IBM Garage |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 | Container Registry |글로벌로 호스팅됨 |글로벌로 호스팅됨 | 
 |Continuous Delivery |사용할 수 없음 | 도쿄에서 호스팅됨 | 
 |Cost and Asset Management |사용할 수 없음 |사용할 수 없음 | 
@@ -318,7 +313,6 @@ subcollection: resources
 |Db2 |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Db2 Hosted |시드니에서 호스팅됨 |사용할 수 없음 | 
 |Db2 Warehouse |시드니에서 호스팅됨 |사용할 수 없음 | 
-|Decision Optimization |사용할 수 없음 |사용할 수 없음 | 
 |DevOps Insights |사용할 수 없음 |사용할 수 없음 | 
 |Digital Content Checker | 런던에서 신디케이트됨 |사용할 수 없음 | 
 |Discovery |시드니에서 호스팅됨 | 도쿄에서 호스팅됨 | 
