@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-19"
+lastupdated: "2019-08-20"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -36,7 +36,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Apache Spark | Hosted in Dallas | Not available | 
 | App Connect | Hosted in Dallas | Not available | 
 | App ID | Hosted in Dallas | Not available | 
-| App Launch | Hosted in Dallas | Not available | 
 | Auto-Scaling | Hosted in Dallas | Hosted in Washington DC | 
 | Automated Accessibility Tester | Hosted in Dallas | Not available | 
 | Availability Monitoring | Hosted in Dallas | Not available | 
@@ -86,7 +85,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect Crypto Services | Hosted in Dallas | Not available | 
 | Hyper Protect DBaaS for MongoDB | Hosted in Dallas | Not available | 
 | Hyper Protect DBaaS for PostgreSQL | Hosted in Dallas | Not available | 
-| IBM Cloud Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
+| Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
 | IBM Cognos Dashboard Embedded | Hosted in Dallas | Not available | 
 | Image Service for VPC | Hosted in Dallas | Not available | 
 | Information Server | Hosted in Dallas | Not available | 
@@ -156,7 +155,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Apache Spark | Hosted in London | Not available | 
 | App Connect | Hosted in London | Not available | 
 | App ID | Hosted in London | Hosted in Frankfurt | 
-| App Launch | Not available | Not available | 
 | Auto-Scaling | Hosted in London | Hosted in Frankfurt | 
 | Automated Accessibility Tester | Hosted in London | Not available | 
 | Availability Monitoring | Hosted in London | Not available | 
@@ -206,7 +204,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect Crypto Services | Not available | Hosted in Frankfurt | 
 | Hyper Protect DBaaS for MongoDB | Not available | Not available | 
 | Hyper Protect DBaaS for PostgreSQL | Not available | Not available | 
-| IBM Cloud Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
+| Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
 | IBM Cognos Dashboard Embedded | Hosted in London | Not available | 
 | Image Service for VPC | Hosted in London | Hosted in Frankfurt | 
 | Information Server | Hosted in London | Hosted in Frankfurt | 
@@ -276,7 +274,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Apache Spark | Not available | Not available | 
 | App Connect | Syndicated from Dallas | Not available | 
 | App ID | Hosted in Sydney | Hosted in Tokyo | 
-| App Launch | Not available | Not available | 
 | Auto-Scaling | Hosted in Sydney | Not available | 
 | Automated Accessibility Tester | Syndicated from London | Not available | 
 | Availability Monitoring | Hosted in Sydney | Not available | 
@@ -326,7 +323,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect Crypto Services | Hosted in Sydney | Not available | 
 | Hyper Protect DBaaS for MongoDB | Not available | Not available | 
 | Hyper Protect DBaaS for PostgreSQL | Not available | Not available | 
-| IBM Cloud Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
+| Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
 | IBM Cognos Dashboard Embedded | Not available | Not available | 
 | Image Service for VPC | Hosted in Sydney | Hosted in Tokyo | 
 | Information Server | Hosted in Sydney | Not available | 
