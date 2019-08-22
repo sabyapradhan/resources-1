@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-21"
+lastupdated: "2019-08-22"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -211,7 +211,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Informix | Syndicated from Dallas | Not available | 
 | Instrument Analytics | Not available | Not available | 
 | Internet Services | Hosted globally | Hosted globally | 
-| Internet of Things Platform | Hosted in London | Hosted in Frankfurt | 
+| Internet of Things Platform | Hosted in London | Not available | 
 | Investment Portfolio | Not available | Not available | 
 | Key Protect | Hosted in London | Hosted in Frankfurt | 
 | Knowledge Catalog | Hosted in London | Hosted in Frankfurt | 
