@@ -141,6 +141,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Watson Studio | Hosted in Dallas | Not available | 
 | Weather Company Data | Hosted in Dallas | Not available | 
 | WebSphere Application Server | Hosted in Dallas | Not available | 
+{: row-headers}
 {: caption="Table 1. Service availability - Americas" caption-side="top"}
 {: #paas-table1}
 {: tab-title="Americas"}
@@ -260,6 +261,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Watson Studio | Hosted in London | Hosted in Frankfurt | 
 | Weather Company Data | Hosted in London | Not available | 
 | WebSphere Application Server | Hosted in London | Hosted in Frankfurt | 
+{: row-headers}
 {: caption="Table 2. Service availability - Europe" caption-side="top"}
 {: #paas-table2}
 {: tab-title="Europe"}
@@ -379,6 +381,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Watson Studio | Not available | Hosted in Tokyo | 
 | Weather Company Data | Hosted in Sydney | Not available | 
 | WebSphere Application Server | Hosted in Sydney | Not available | 
+{: row-headers}
 {: caption="Table 3. Service availability - Asia Pacific" caption-side="top"}
 {: #paas-table3}
 {: tab-title="Asia Pacific"}
