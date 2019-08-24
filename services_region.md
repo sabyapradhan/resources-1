@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-23"
+lastupdated: "2019-08-24"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -110,7 +110,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Monitoring | Hosted in Dallas | Not available | 
 | Natural Language Classifier | Hosted in Dallas | Hosted in Washington DC | 
 | Natural Language Understanding | Hosted in Dallas | Hosted in Washington DC | 
-| Object Storage OpenStack Swift | Hosted in Dallas | Not available | 
 | Personality Insights | Hosted in Dallas | Hosted in Washington DC | 
 | Portfolio Optimization | Hosted in Dallas | Not available | 
 | Power Systems Virtual Server | Hosted in Dallas | Hosted in Washington DC | 
@@ -230,7 +229,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Monitoring | Hosted in London | Syndicated from Dallas | 
 | Natural Language Classifier | Not available | Hosted in Frankfurt | 
 | Natural Language Understanding | Hosted in London | Hosted in Frankfurt | 
-| Object Storage OpenStack Swift | Hosted in London | Not available | 
 | Personality Insights | Hosted in London | Hosted in Frankfurt | 
 | Portfolio Optimization | Not available | Not available | 
 | Power Systems Virtual Server | Not available | Not available | 
@@ -350,7 +348,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Monitoring | Hosted in Sydney | Not available | 
 | Natural Language Classifier | Not available | Hosted in Tokyo | 
 | Natural Language Understanding | Hosted in Sydney | Hosted in Tokyo | 
-| Object Storage OpenStack Swift | Not available | Not available | 
 | Personality Insights | Hosted in Sydney | Hosted in Tokyo | 
 | Portfolio Optimization | Not available | Not available | 
 | Power Systems Virtual Server | Not available | Not available | 
