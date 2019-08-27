@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-26"
+lastupdated: "2019-08-27"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -118,6 +118,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Real-Time Payments | Hosted in Dallas | Not available | 
 | SQL Query | Hosted in Dallas | Not available | 
 | SSH Key for VPC | Hosted in Dallas | Not available | 
+| Schematics | Hosted in Dallas | Hosted in Washington DC | 
 | Secure Gateway | Hosted in Dallas | Hosted in Washington DC | 
 | Security Advisor | Hosted in Dallas | Not available | 
 | Security Group for VPC | Hosted in Dallas | Not available | 
@@ -211,7 +212,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Informix | Syndicated from Dallas | Not available | 
 | Instrument Analytics | Not available | Not available | 
 | Internet Services | Hosted globally | Hosted globally | 
-| Internet of Things Platform | Hosted in London | Not available | 
+| Internet of Things Platform | Hosted in London | Hosted in Frankfurt | 
 | Investment Portfolio | Not available | Not available | 
 | Key Protect | Hosted in London | Hosted in Frankfurt | 
 | Knowledge Catalog | Hosted in London | Hosted in Frankfurt | 
@@ -237,6 +238,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Real-Time Payments | Not available | Not available | 
 | SQL Query | Not available | Hosted in Frankfurt | 
 | SSH Key for VPC | Hosted in London | Hosted in Frankfurt | 
+| Schematics | Not available | Not available | 
 | Secure Gateway | Hosted in London | Syndicated from Dallas | 
 | Security Advisor | Hosted in London | Not available | 
 | Security Group for VPC | Hosted in London | Hosted in Frankfurt | 
@@ -356,6 +358,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Real-Time Payments | Not available | Not available | 
 | SQL Query | Not available | Not available | 
 | SSH Key for VPC | Hosted in Sydney | Hosted in Tokyo | 
+| Schematics | Not available | Not available | 
 | Secure Gateway | Syndicated from Dallas | Not available | 
 | Security Advisor | Not available | Not available | 
 | Security Group for VPC | Hosted in Sydney | Hosted in Tokyo | 
