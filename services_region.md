@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-08-27"
+lastupdated: "2019-08-28"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -203,8 +203,8 @@ Services that are hosted globally create resources that operate across multiple 
 | Globalization Pipeline | Hosted in London | Hosted in Frankfurt | 
 | Historical Instrument Analytics | Not available | Not available | 
 | Hyper Protect Crypto Services | Not available | Hosted in Frankfurt | 
-| Hyper Protect DBaaS for MongoDB | Not available | Not available | 
-| Hyper Protect DBaaS for PostgreSQL | Not available | Not available | 
+| Hyper Protect DBaaS for MongoDB | Not available | Hosted in Frankfurt | 
+| Hyper Protect DBaaS for PostgreSQL | Not available | Hosted in Frankfurt | 
 | Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
 | IBM Cognos Dashboard Embedded | Hosted in London | Not available | 
 | Image Service for VPC | Hosted in London | Hosted in Frankfurt | 
