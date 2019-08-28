@@ -197,7 +197,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Discovery | Hosted in London | Hosted in Frankfurt | 
 | Event Management | Hosted in London | Not available | 
 | Event Streams | Hosted in London | Hosted in Frankfurt | 
-| Floating IP for VPC | Hosted in London | Hosted in Frankfurt | 
+| Floating IP for VPC | Not available | Not available | 
 | Functions | Hosted in London | Hosted in Frankfurt | 
 | Geospatial Analytics | Hosted in London | Not available | 
 | Globalization Pipeline | Hosted in London | Hosted in Frankfurt | 
@@ -317,7 +317,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Discovery | Hosted in Sydney | Hosted in Tokyo | 
 | Event Management | Hosted in Sydney | Not available | 
 | Event Streams | Hosted in Sydney | Hosted in Tokyo | 
-| Floating IP for VPC | Hosted in Sydney | Hosted in Tokyo | 
+| Floating IP for VPC | Hosted in Sydney | Not available | 
 | Functions | Not available | Hosted in Tokyo | 
 | Geospatial Analytics | Syndicated from London | Not available | 
 | Globalization Pipeline | Hosted in Sydney | Not available | 
