@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-09-02"
+lastupdated: "2019-09-03"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -283,7 +283,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Block Storage for VPC | Not available | Not available | 
 | Blockchain | Syndicated from Dallas | Not available | 
 | Blockchain Platform | Not available | Hosted in Tokyo | 
-| Certificate Manager | Not available | Hosted in Tokyo | 
+| Certificate Manager | Hosted in Sydney | Hosted in Tokyo | 
 | Cloud Foundry Enterprise Environment | Hosted in Sydney | Hosted in Tokyo | 
 | Cloud Object Storage | Hosted globally | Hosted globally | 
 | Cloudant | Hosted in Sydney | Hosted in Tokyo | 
