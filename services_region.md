@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-09-16"
+lastupdated: "2019-09-17"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -85,7 +85,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect Crypto Services | Hosted in Dallas | Not available | 
 | Hyper Protect DBaaS for MongoDB | Hosted in Dallas | Not available | 
 | Hyper Protect DBaaS for PostgreSQL | Hosted in Dallas | Not available | 
-| Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
 | IBM Cognos Dashboard Embedded | Hosted in Dallas | Not available | 
 | Image Service for VPC | Hosted in Dallas | Not available | 
 | Information Server | Hosted in Dallas | Not available | 
@@ -205,7 +204,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect Crypto Services | Not available | Hosted in Frankfurt | 
 | Hyper Protect DBaaS for MongoDB | Not available | Hosted in Frankfurt | 
 | Hyper Protect DBaaS for PostgreSQL | Not available | Hosted in Frankfurt | 
-| Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
 | IBM Cognos Dashboard Embedded | Hosted in London | Not available | 
 | Image Service for VPC | Hosted in London | Hosted in Frankfurt | 
 | Information Server | Hosted in London | Hosted in Frankfurt | 
@@ -325,7 +323,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect Crypto Services | Hosted in Sydney | Not available | 
 | Hyper Protect DBaaS for MongoDB | Not available | Not available | 
 | Hyper Protect DBaaS for PostgreSQL | Not available | Not available | 
-| Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
 | IBM Cognos Dashboard Embedded | Not available | Not available | 
 | Image Service for VPC | Hosted in Sydney | Hosted in Tokyo | 
 | Information Server | Hosted in Sydney | Not available | 
