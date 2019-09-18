@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-09-17"
+lastupdated: "2019-09-18"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -36,7 +36,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Apache Spark | Hosted in Dallas | Not available | 
 | App Connect | Hosted in Dallas | Not available | 
 | App ID | Hosted in Dallas | Not available | 
-| Auto-Scaling | Hosted in Dallas | Hosted in Washington DC | 
 | Automated Accessibility Tester | Hosted in Dallas | Not available | 
 | Availability Monitoring | Hosted in Dallas | Not available | 
 | BigInsights for Apache Hadoop (Subscription) | Hosted in Dallas | Not available | 
@@ -85,6 +84,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect Crypto Services | Hosted in Dallas | Not available | 
 | Hyper Protect DBaaS for MongoDB | Hosted in Dallas | Not available | 
 | Hyper Protect DBaaS for PostgreSQL | Hosted in Dallas | Not available | 
+| Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
 | IBM Cognos Dashboard Embedded | Hosted in Dallas | Not available | 
 | Image Service for VPC | Hosted in Dallas | Not available | 
 | Information Server | Hosted in Dallas | Not available | 
@@ -155,7 +155,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Apache Spark | Hosted in London | Not available | 
 | App Connect | Hosted in London | Not available | 
 | App ID | Hosted in London | Hosted in Frankfurt | 
-| Auto-Scaling | Hosted in London | Hosted in Frankfurt | 
 | Automated Accessibility Tester | Hosted in London | Not available | 
 | Availability Monitoring | Hosted in London | Not available | 
 | BigInsights for Apache Hadoop (Subscription) | Not available | Not available | 
@@ -204,6 +203,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect Crypto Services | Not available | Hosted in Frankfurt | 
 | Hyper Protect DBaaS for MongoDB | Not available | Hosted in Frankfurt | 
 | Hyper Protect DBaaS for PostgreSQL | Not available | Hosted in Frankfurt | 
+| Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
 | IBM Cognos Dashboard Embedded | Hosted in London | Not available | 
 | Image Service for VPC | Hosted in London | Hosted in Frankfurt | 
 | Information Server | Hosted in London | Hosted in Frankfurt | 
@@ -274,7 +274,6 @@ Services that are hosted globally create resources that operate across multiple 
 | Apache Spark | Not available | Not available | 
 | App Connect | Syndicated from Dallas | Not available | 
 | App ID | Hosted in Sydney | Hosted in Tokyo | 
-| Auto-Scaling | Hosted in Sydney | Not available | 
 | Automated Accessibility Tester | Syndicated from London | Not available | 
 | Availability Monitoring | Hosted in Sydney | Not available | 
 | BigInsights for Apache Hadoop (Subscription) | Not available | Not available | 
@@ -323,6 +322,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect Crypto Services | Hosted in Sydney | Not available | 
 | Hyper Protect DBaaS for MongoDB | Not available | Not available | 
 | Hyper Protect DBaaS for PostgreSQL | Not available | Not available | 
+| Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
 | IBM Cognos Dashboard Embedded | Not available | Not available | 
 | Image Service for VPC | Hosted in Sydney | Hosted in Tokyo | 
 | Information Server | Hosted in Sydney | Not available | 
