@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-09-19"
+lastupdated: "2019-09-20"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -115,7 +115,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Push Notifications | Hosted in Dallas | Hosted in Washington DC | 
 | Real-Time Payments | Hosted in Dallas | Not available | 
 | SQL Query | Hosted in Dallas | Not available | 
-| SSH Key for VPC | Hosted in Dallas | Not available | 
+| SSH Key for VPC | Hosted in Dallas | Hosted in Washington DC | 
 | Schematics | Hosted in Dallas | Hosted in Washington DC | 
 | Secure Gateway | Hosted in Dallas | Hosted in Washington DC | 
 | Security Advisor | Hosted in Dallas | Not available | 
@@ -125,12 +125,13 @@ Services that are hosted globally create resources that operate across multiple 
 | Simulated Instruments Analytics API | Hosted in Dallas | Hosted in Washington DC | 
 | Speech to Text | Hosted in Dallas | Hosted in Washington DC | 
 | Streaming Analytics | Hosted in Dallas | Hosted in Washington DC | 
+| Subnet for VPC | Not available | Not available | 
 | Text to Speech | Hosted in Dallas | Hosted in Washington DC | 
 | Tone Analyzer | Hosted in Dallas | Hosted in Washington DC | 
 | Toolchain | Hosted in Dallas | Hosted in Washington DC | 
 | VMware Solutions | Hosted globally | Hosted globally | 
 | VPN for VPC | Hosted in Dallas | Hosted in Washington DC | 
-| Virtual Private Cloud | Hosted in Dallas | Not available | 
+| Virtual Private Cloud | Hosted in Dallas | Hosted in Washington DC | 
 | Virtual Server for VPC | Not available | Not available | 
 | Visual Recognition | Hosted in Dallas | Not available | 
 | Voice Agent with Watson | Hosted in Dallas | Hosted in Washington DC | 
@@ -243,6 +244,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Simulated Instruments Analytics API | Not available | Not available | 
 | Speech to Text | Hosted in London | Hosted in Frankfurt | 
 | Streaming Analytics | Hosted in London | Hosted in Frankfurt | 
+| Subnet for VPC | Not available | Not available | 
 | Text to Speech | Hosted in London | Hosted in Frankfurt | 
 | Tone Analyzer | Hosted in London | Hosted in Frankfurt | 
 | Toolchain | Hosted in London | Hosted in Frankfurt | 
@@ -361,6 +363,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Simulated Instruments Analytics API | Not available | Not available | 
 | Speech to Text | Hosted in Sydney | Hosted in Tokyo | 
 | Streaming Analytics | Not available | Not available | 
+| Subnet for VPC | Not available | Not available | 
 | Text to Speech | Hosted in Sydney | Hosted in Tokyo | 
 | Tone Analyzer | Hosted in Sydney | Hosted in Tokyo | 
 | Toolchain | Not available | Hosted in Tokyo | 
