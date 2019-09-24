@@ -3,7 +3,7 @@
 copyright:
 
   years: 2015, 2019
-lastupdated: "2019-09-23"
+lastupdated: "2019-09-24"
 
 keywords: location, regions, data centers, service location, service availability
 
@@ -319,8 +319,8 @@ Services that are hosted globally create resources that operate across multiple 
 | Globalization Pipeline | Hosted in Sydney | Not available | 
 | Historical Instrument Analytics | Not available | Not available | 
 | Hyper Protect Crypto Services | Hosted in Sydney | Not available | 
-| Hyper Protect DBaaS for MongoDB | Not available | Not available | 
-| Hyper Protect DBaaS for PostgreSQL | Not available | Not available | 
+| Hyper Protect DBaaS for MongoDB | Hosted in Sydney | Not available | 
+| Hyper Protect DBaaS for PostgreSQL | Hosted in Sydney | Not available | 
 | Hyper Protect Virtual Servers | Hosted globally | Hosted globally | 
 | IBM Cognos Dashboard Embedded | Not available | Not available | 
 | Image Service for VPC | Hosted in Sydney | Hosted in Tokyo | 
