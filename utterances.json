@@ -68,6 +68,16 @@
       "removal of resource group tags",
       "adding a tag for a resource group"
     ],
+    "slitems": [
+      "find my SoftLayer resources",
+      "finding SoftLayer devices",
+      "find the classic infrastructure resources",
+      "view my SoftLayer resources",
+      "view SoftLayer storage",
+      "view SoftLayer network",
+      "control.softlayer.com to retire",
+      "new experience at cloud.ibm.com"
+    ], 
      "ts_service_broker": [     
       "error trying to delete a service",
       "trying to remove a service and get an error",
