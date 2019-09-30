@@ -47,7 +47,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Blockchain Platform | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Certificate Manager | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Cloud Foundry Enterprise Environment | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| Cloud Object Storage | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
+| Cloud Object Storage | Hosted Globally | Hosted Globally | 
 | Cloudant | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Compare and Comply | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Compose Enterprise | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
@@ -61,8 +61,8 @@ Services that are hosted globally create resources that operate across multiple 
 | Compose for RethinkDB | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Compose for ScyllaDB | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Compose for etcd | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| Consult with IBM Garage | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| Container Registry | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
+| Consult with IBM Garage | Hosted Globally | Hosted Globally | 
+| Container Registry | Hosted Globally | Hosted Globally | 
 | Continuous Delivery | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Cost and Asset Management | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Data Store for Memcache | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
@@ -87,13 +87,13 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect Crypto Services | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Hyper Protect DBaaS for MongoDB | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Hyper Protect DBaaS for PostgreSQL | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
-| Hyper Protect Virtual Servers | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
+| Hyper Protect Virtual Servers | Hosted Globally | Hosted Globally | 
 | IBM Cognos Dashboard Embedded | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Image Service for VPC | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Information Server | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Informix | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Instrument Analytics | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
-| Internet Services | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
+| Internet Services | Hosted Globally | Hosted Globally | 
 | Internet of Things Platform | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Investment Portfolio | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Key Protect | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
@@ -134,7 +134,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Text to Speech | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Tone Analyzer | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Toolchain | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| VMware Solutions | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
+| VMware Solutions | Hosted Globally | Hosted Globally | 
 | VPN for VPC | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Virtual Private Cloud | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Virtual Server for VPC |  |  | 
@@ -163,11 +163,11 @@ Services that are hosted globally create resources that operate across multiple 
 | Availability Monitoring | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | BigInsights for Apache Hadoop (Subscription) |  |  | 
 | Block Storage for VPC |  |  | 
-| Blockchain | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted from London* | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted from Frankfurt* | 
+| Blockchain | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted in London* | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted in Frankfurt* | 
 | Blockchain Platform |  | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Certificate Manager | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Cloud Foundry Enterprise Environment | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| Cloud Object Storage | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
+| Cloud Object Storage | Hosted Globally | Hosted Globally | 
 | Cloudant | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Compare and Comply |  | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Compose Enterprise | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
@@ -181,8 +181,8 @@ Services that are hosted globally create resources that operate across multiple 
 | Compose for RethinkDB | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Compose for ScyllaDB | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Compose for etcd | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| Consult with IBM Garage | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| Container Registry | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
+| Consult with IBM Garage | Hosted Globally | Hosted Globally | 
+| Container Registry | Hosted Globally | Hosted Globally | 
 | Continuous Delivery | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Cost and Asset Management |  |  | 
 | Data Store for Memcache |  |  | 
@@ -207,13 +207,13 @@ Services that are hosted globally create resources that operate across multiple 
 | Hyper Protect Crypto Services |  | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Hyper Protect DBaaS for MongoDB |  | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Hyper Protect DBaaS for PostgreSQL |  | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| Hyper Protect Virtual Servers | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
+| Hyper Protect Virtual Servers | Hosted Globally | Hosted Globally | 
 | IBM Cognos Dashboard Embedded | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Image Service for VPC | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Information Server | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| Informix | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted from London* |  | 
+| Informix | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted in London* |  | 
 | Instrument Analytics |  |  | 
-| Internet Services | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
+| Internet Services | Hosted Globally | Hosted Globally | 
 | Internet of Things Platform | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Investment Portfolio |  |  | 
 | Key Protect | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
@@ -229,7 +229,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Master Data Management | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Messages for RabbitMQ | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Mobile Foundation | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| Monitoring | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted from Frankfurt* | 
+| Monitoring | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted in Frankfurt* | 
 | Natural Language Classifier |  | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Natural Language Understanding | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Personality Insights | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
@@ -242,7 +242,7 @@ Services that are hosted globally create resources that operate across multiple 
 | SQL Query |  | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | SSH Key for VPC | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Schematics |  |  | 
-| Secure Gateway | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted from Frankfurt* | 
+| Secure Gateway | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted in Frankfurt* | 
 | Security Advisor | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Security Group for VPC | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Simulated Historical Instrument Analytics |  |  | 
@@ -254,7 +254,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Text to Speech | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Tone Analyzer | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Toolchain | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| VMware Solutions | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
+| VMware Solutions | Hosted Globally | Hosted Globally | 
 | VPN for VPC | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Virtual Private Cloud | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Virtual Server for VPC |  |  | 
@@ -277,17 +277,17 @@ Services that are hosted globally create resources that operate across multiple 
 |-----|-----|-----|-----|-----|-----|
 | API Connect | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Analytics Engine |  | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| App Connect | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted from Sydney* |  | 
+| App Connect | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted in Sydney* |  | 
 | App ID | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| Automated Accessibility Tester | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted from Sydney* |  | 
+| Automated Accessibility Tester | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted in Sydney* |  | 
 | Availability Monitoring | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | BigInsights for Apache Hadoop (Subscription) |  |  | 
 | Block Storage for VPC |  |  | 
-| Blockchain | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted from Sydney* |  | 
+| Blockchain | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted in Sydney* |  | 
 | Blockchain Platform |  | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Certificate Manager | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Cloud Foundry Enterprise Environment | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| Cloud Object Storage | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
+| Cloud Object Storage | Hosted Globally | Hosted Globally | 
 | Cloudant | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Compare and Comply |  |  | 
 | Compose Enterprise | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
@@ -301,8 +301,8 @@ Services that are hosted globally create resources that operate across multiple 
 | Compose for RethinkDB | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Compose for ScyllaDB | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Compose for etcd | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
-| Consult with IBM Garage | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| Container Registry | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
+| Consult with IBM Garage | Hosted Globally | Hosted Globally | 
+| Container Registry | Hosted Globally | Hosted Globally | 
 | Continuous Delivery |  | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Cost and Asset Management |  |  | 
 | Data Store for Memcache |  |  | 
@@ -315,25 +315,25 @@ Services that are hosted globally create resources that operate across multiple 
 | Db2 Hosted | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Db2 Warehouse | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | DevOps Insights |  |  | 
-| Digital Content Checker | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted from Sydney* |  | 
+| Digital Content Checker | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted in Sydney* |  | 
 | Discovery | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Event Management | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Event Streams | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Floating IP for VPC | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Functions |  | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| Geospatial Analytics | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted from Sydney* |  | 
+| Geospatial Analytics | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted in Sydney* |  | 
 | Globalization Pipeline | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Historical Instrument Analytics |  |  | 
 | Hyper Protect Crypto Services | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Hyper Protect DBaaS for MongoDB | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
 | Hyper Protect DBaaS for PostgreSQL | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
-| Hyper Protect Virtual Servers | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
+| Hyper Protect Virtual Servers | Hosted Globally | Hosted Globally | 
 | IBM Cognos Dashboard Embedded |  |  | 
 | Image Service for VPC | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Information Server | ![Checkmark icon](../../icons/checkmark-icon.svg) |  | 
-| Informix | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted from Sydney* |  | 
+| Informix | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted in Sydney* |  | 
 | Instrument Analytics |  |  | 
-| Internet Services | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
+| Internet Services | Hosted Globally | Hosted Globally | 
 | Internet of Things Platform |  |  | 
 | Investment Portfolio |  |  | 
 | Key Protect | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
@@ -362,7 +362,7 @@ Services that are hosted globally create resources that operate across multiple 
 | SQL Query |  |  | 
 | SSH Key for VPC | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Schematics |  |  | 
-| Secure Gateway | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted from Sydney* |  | 
+| Secure Gateway | ![Checkmark icon](../../icons/checkmark-icon.svg)<br>*Data hosted in Sydney* |  | 
 | Security Advisor |  |  | 
 | Security Group for VPC | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Simulated Historical Instrument Analytics |  |  | 
@@ -374,7 +374,7 @@ Services that are hosted globally create resources that operate across multiple 
 | Text to Speech | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Tone Analyzer | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Toolchain |  | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| VMware Solutions | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
+| VMware Solutions | Hosted Globally | Hosted Globally | 
 | VPN for VPC | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Virtual Private Cloud | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | 
 | Virtual Server for VPC |  |  | 
